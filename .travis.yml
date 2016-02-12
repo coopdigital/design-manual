@@ -2,7 +2,11 @@ language: ruby
 cache: bundler
 rvm:
 - 2.2.3
-script: cd styleguide && bundle install && bundle exec jekyll build
+
+script:
+- cd styleguide
+- bundle exec jekyll build
+
 deploy:
   provider: heroku
   api_key:
