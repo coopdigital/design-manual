@@ -1,0 +1,99 @@
+/*------------------------------------*\
+   $Tabs
+\*------------------------------------*/
+
+/**
+ *
+ * We are just extending the Foundation tabs
+ *
+ *
+ */
+
+.tabs {
+  position: relative;
+  top: 1px;
+  padding: 0;
+  
+  .tab-title {
+    position: relative;
+    margin-right: $quarter-spacing-unit / 2;
+    z-index: 99;
+
+    &.active {
+      z-index: 101;
+      background: $white;
+    }
+
+    .tab-title--link {
+      border-top: 1px solid $coop-grey;
+      border-right: 1px solid $coop-grey;
+      border-bottom: 0;
+      border-left: 1px solid $coop-grey;
+      -webkit-border-top-left-radius: $border-radius;
+      -webkit-border-top-right-radius:  $border-radius;
+      -moz-border-radius-topleft:  $border-radius;
+      -moz-border-radius-topright:  $border-radius;
+      border-top-left-radius:  $border-radius;
+      border-top-right-radius:  $border-radius;
+
+      &:focus {
+        background: $offwhite;
+      }
+
+    }
+
+  }
+
+}
+
+.tabs-content {
+  border: 1px solid $coop-grey;
+}
+
+.tabs-content {
+  position: relative;
+  z-index: 100;
+  padding: $quarter-spacing-unit;
+}
+
+.tabs-content-vertical {
+  position: relative;
+  z-index: 100;
+  top: 1px;
+  left: -1px;
+  width: 80%;
+  min-height: 275px;
+  float: right;
+  padding: $quarter-spacing-unit / 2 $quarter-spacing-unit;
+}
+
+.tabs.vertical {
+
+  .tab-title {
+    position: relative;
+    z-index: 99;
+    margin-right: 0;
+    // Damn you Foundation
+    margin-bottom: $quarter-spacing-unit / 2  !important;
+
+    &.active {
+      z-index: 101;
+      background: $white;
+    }
+
+  }
+
+  .tabs-title--link {
+    border-top: 1px solid $coop-grey;
+    border-right: 0;
+    border-bottom: 1px solid $coop-grey;
+    border-left: 1px solid $coop-grey;
+    -webkit-border-top-left-radius: $border-radius;
+    -webkit-border-bottom-left-radius:  $border-radius;
+    -moz-border-radius-topleft:  $border-radius;
+    -moz-border-radius-bottomleft:  $border-radius;
+    border-top-left-radius:  $border-radius;
+    border-bottom-left-radius:  $border-radius;
+  }
+
+}

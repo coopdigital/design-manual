@@ -1,0 +1,20 @@
+// Normalize
+@import 'scss/normalize';
+
+// Coop Pattern Lab variables
+@import 'scss/patterns/variables';
+
+// Foundation 5 Co-op customisations
+@import 'scss/foundation-custom/settings';
+
+// Foundation 5
+@import 'scss/foundation';
+
+// Foundation 5 Co-op customisations
+@import 'scss/foundation-custom/grid';
+
+// Coop Patterns
+@import 'scss/patterns';
+
+// Coop Styleguide
+@import 'scss/kitchen-sink/kitchen-sink';

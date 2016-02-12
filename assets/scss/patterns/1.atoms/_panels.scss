@@ -1,0 +1,59 @@
+/*------------------------------------*\
+   $Panels
+\*------------------------------------*/
+/**
+ *
+ * Panels are used for full page width blocks either 
+ * inside or outside of the grid
+ *
+ * 1. Basic padding / clearfix
+ *
+ * 2. Grey theme
+ *
+ */
+
+/* [1] */
+.panel {
+  @include clearfix;
+}
+
+.panel-xs {
+  padding: $quarter-spacing-unit / 2;
+
+  @media #{$medium} {
+    padding: $quarter-spacing-unit / 2;
+  }
+
+}
+
+.panel-s {
+  padding: $quarter-spacing-unit;
+
+  @media #{$medium} {
+    padding: $quarter-spacing-unit;
+  }
+
+}
+
+.panel-m {
+  padding: $quarter-spacing-unit;
+
+  @media #{$medium} {
+    padding: $half-spacing-unit;
+  }
+
+}
+
+.panel-l {
+  padding: $half-spacing-unit;
+
+  @media #{$medium} {
+    padding: $base-spacing-unit;
+  }
+
+}
+
+/* [2] */
+.panel--grey {
+  background: $offwhite;
+}

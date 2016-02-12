@@ -1,0 +1,167 @@
+/*------------------------------------*\
+   $Basic current brand header
+\*------------------------------------*/
+
+.coop-header-wrap {
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  background: $white;
+  border-bottom: 1px solid $coop-border-grey;
+
+  @media #{$large} {   
+    border-bottom: 0;
+  }
+
+}
+
+.coop-header-wrap_fixed--medium {
+  position: fixed;
+  @media #{$large} { 
+    position: static; 
+  }
+}
+
+.coop-header-simple {
+  border-bottom: 0;
+
+  @media #{$large} {   
+    border-bottom: 1px solid $coop-border-grey;
+  }
+
+}
+
+.coop-header {
+  @include clearfix;
+  position: relative;
+  padding: $quarter-spacing-unit / 2 0;
+  text-align: center;
+
+  @media #{$large} {   
+    position: relative;
+    background-color: $white;
+    padding: 0;
+  }
+
+  .coop--header_logo {
+    float: none;
+    margin: 0 auto;
+
+    @media #{$large} {
+      padding: $quarter-spacing-unit * 1.4 $quarter-spacing-unit $quarter-spacing-unit;
+    }
+    
+
+    a {
+
+      border: 0;
+
+      &:focus {
+        color: $white;
+        outline: 1px dotted $white;
+      }
+
+      a:visited {
+        color: $white;
+      }
+
+      @media #{$large} {
+
+        &:focus {
+          color: $coop-link-blue;
+          outline: 1px dotted $coop-blue;
+        }
+
+        a:visited {
+          color: $coop-link-blue;
+        }
+        
+      }
+
+    }
+    
+    svg {
+      margin-top: 4px;
+      height: 45px;
+      width: 47px;
+      fill: $coop-blue;
+
+      @media #{$large} {
+        height: 76px;
+        width: 79px;
+      }
+
+    }
+    
+    // Fallback image
+    // A sprite would be nice but as this is the rare case of IE8 this will do.
+    .fallback-image {
+      margin: 4px auto 0;
+      height: 45px;
+      width: 47px;
+      background: no-repeat url('../assets/images/logos/coop.png'); 
+
+      @media #{$large} {
+        width: 76px;
+        height: 79px;
+      }
+
+    }
+
+  }
+
+  .coop--header_logo--mobile-identifier {
+    float: left;
+    margin: 0 auto;
+
+    @media #{$large} {
+      float: none;
+      padding: $quarter-spacing-unit * 1.4 $quarter-spacing-unit $quarter-spacing-unit;
+    }
+
+  }
+
+  .coop-header_identifier {
+    position: absolute;
+    bottom: 6px; 
+    left: 0;
+    display: block;
+    float: left;
+    padding: $quarter-spacing-unit $quarter-spacing-unit $quarter-spacing-unit 0;
+    border-bottom: 0; 
+    color: $coop-grey; 
+    font-size: emCalc(21px);
+
+    &:hover,
+    &:active {
+      color: $coop-grey; 
+      border-bottom: 0;
+    }
+
+    &:focus {
+      color: $coop-grey;
+      outline: 1px dotted $coop-blue;
+    }
+
+    @media #{$large} {
+      top: 54px;
+      left: 0;
+      padding: $quarter-spacing-unit $quarter-spacing-unit $quarter-spacing-unit $quarter-spacing-unit / 1.25;
+      color: $coop-grey;
+      font-size: emCalc(28px);
+      
+      &:hover,
+      &:active,
+      &:focus {
+        color: $coop-grey;
+        border-bottom: 0;
+      }
+
+    }
+  }
+
+}
+
+
+
+

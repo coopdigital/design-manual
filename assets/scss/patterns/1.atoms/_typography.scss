@@ -1,0 +1,186 @@
+/*------------------------------------------------*\
+    $Typography
+\*------------------------------------------------*/
+
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta,
+h5, .epsilon,
+h6, .zeta,
+ul,
+ol,
+p {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+
+// Larger than a h1?
+.giga {
+
+}
+
+.mega { 
+
+}
+
+.kilo { 
+
+}
+
+h1, .alpha {
+  font-size: emCalc(30px);
+  line-height: 1.2em;
+}
+
+@media #{$medium} {
+  h1, .alpha {
+    font-size: emCalc(36px);
+    line-height: 1.2em;
+  }
+}
+
+h2, .beta {
+  font-size: emCalc(24px);
+  line-height: 1.2em;
+}
+
+h3, .gamma {
+  font-size: 1.17em;
+}
+
+h4, .delta {
+  font-family: $bold;
+  font-size: 1em;
+}
+
+h5, .epsilon {
+  font-family: $bold;
+  font-size: 0.83em;
+}
+
+h6, .zeta {
+  font-size: 0.67em;
+  font-family: $bold;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: $half-spacing-unit;
+}
+
+.smallprint {
+  font-size: emCalc(11px);
+
+  @media #{$large} {
+    font-size: emCalc(13px);
+  }
+
+}
+
+em {
+  font-family: $regular-italic;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  color: $coop-border-grey;
+  background-color: $coop-border-grey;
+  margin-bottom: $half-spacing-unit;
+}
+
+.regular {
+  font-family: $regular;
+}
+
+.regular-italic {
+  font-family: $regular-italic;
+}
+
+.bold {
+  font-family: $bold;
+}
+
+.bold-italic {
+  font-family: $bold-italic;
+}
+
+strong {
+  font-family: $bold;
+}
+
+blockquote {
+  margin: 0 0 $half-spacing-unit;
+  padding: $quarter-spacing-unit;
+  font-size: emCalc(18px);
+  background-color: $offwhite;
+
+  cite {
+    display: block;
+    margin-top: $quarter-spacing-unit;
+  }
+}
+
+small {
+  font-size: 0.667em;
+  line-height: 1.250em;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+cite {
+  font-style: normal;
+
+  &:before {
+    content: '--';
+  }
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.byline {
+  color: $coop-grey;
+}
+
+address {
+  color: $coop-grey;
+  font-style: normal;
+}
+
+.intro-text {
+  font-size: emCalc(24px);
+  color: $coop-grey;
+  line-height: 1.2em;
+}
+
+// Unordered list 
+
+ul, ol {
+  margin-bottom: $half-spacing-unit;
+}
+
+.undecorated-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+// Definition List
+
+dl {
+
+}
+
+dt {
+  margin-bottom: $quarter-spacing-unit;
+  color: $coop-blue;
+}
+
+dd {
+  margin: 0 0 $half-spacing-unit;
+}

@@ -1,0 +1,112 @@
+/*------------------------------------*\
+   $Basic current brand header
+\*------------------------------------*/
+
+.coop-header-wrap {
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  background-color: $coop-blue;
+  @media #{$large} { 
+    background-color: $white;
+  }
+}
+
+.coop-header-wrap_fixed--medium {
+  position: fixed;
+  @media #{$large} { 
+    position: static; 
+  }
+}
+
+.coop-header-simple {
+  border-bottom: 0;
+
+  @media #{$large} {   
+    border-bottom: 1px solid $coop-border-grey;
+  }
+
+}
+
+.coop-current-header {
+  @include clearfix;
+  position: relative;
+  border: 0;
+  padding: $quarter-spacing-unit / 2 0;
+  margin-bottom: 0;
+  text-align: center;
+
+  @media #{$large} {   
+    position: relative;
+    background-color: $white;
+    margin-bottom: $half-spacing-unit;
+    padding: 0;
+  }
+
+  .coop-current--header_logo {
+    float: none;
+    margin: 0 auto;
+
+    @media #{$large} {
+      padding: $quarter-spacing-unit*1.4 $quarter-spacing-unit $quarter-spacing-unit;
+    }
+    
+
+    a {
+
+      border: 0;
+
+      &:focus {
+        color: $white;
+        outline: 1px dotted $white;
+      }
+
+    }
+
+    svg {
+      position: relative;
+      top: 3px;
+      width: 210px;
+      height: 30px;
+      fill: $white;
+
+      @media #{$large} {
+        top: 0;
+        fill: $coop-blue;
+      }
+
+    }
+  }
+
+}
+
+.community-management-header {
+  text-align: center;
+  color: $coop-blue;
+}
+
+.coop-current-blue {
+  color: $coop-blue;
+}
+
+.login-form {
+ 
+  input {
+
+    &:hover,
+    &:focus {
+      border-color: $coop-blue;
+    }
+
+  }
+
+}
+
+.coop-btn-login {
+  width: 100%;
+
+  @media #{$large} {
+    width: auto;
+  }
+
+}

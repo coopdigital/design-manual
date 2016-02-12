@@ -1,0 +1,38 @@
+/*------------------------------------*\
+   $Search
+\*------------------------------------*/
+
+.search-form {
+  position: relative;
+  padding: 0;
+
+  input {
+    margin-bottom: 0;
+  }
+
+  button {
+    position: absolute;
+    bottom: 0;
+    right: -1px;
+    height: 100%;
+    padding: 10px 15px;
+    margin-bottom: 0;
+    background: $coop-blue;
+    border: 0;
+    border-radius: 0 $border-radius $border-radius 0;
+    box-shadow: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background: $coop-blue-highlighted;
+    } 
+
+    .icon {
+      position: relative;
+      top: -3px;
+      color: $white;
+    }
+
+  }
+}

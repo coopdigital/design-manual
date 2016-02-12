@@ -1,0 +1,247 @@
+/*------------------------------------*\
+   $Navigation Basic
+\*------------------------------------*/
+
+/**
+ *
+ *
+ * 1. Basic navigation pattern centered then off left on mobile
+ *
+ * 2. Menu toggle, displays on mobile and toggles between hamburger and cross icons
+ *
+ * 3. Position menu to the right (not recommended)
+ *
+ * 4. Tramlines wrap around main navigation
+ *
+ * 5. Basic navigation pattern, centred horizontal on desktop, off left and stacked on mobile
+ * 5a. Extends the basic navigation to create large centred links on mobile (only recommended in single level navigation)
+ * 5b. Comming soon - Robin's hybrid multilevel nav extend classes
+ *
+ */
+
+/* [1] */
+.nav-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  z-index: 210;
+  height: 100%;
+  height: 100vh;
+  margin-left: 100%;
+  margin-top: 102px; 
+  background: $white;
+  text-align: left;
+  @include transition(all, 0.25s, cubic-bezier(0.7, 0, 0.3, 1));
+  visibility: hidden;
+  opacity: 0;
+
+  &.is--open {
+    margin-left: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @media #{$large} {
+    position: static;
+    height: 60px;
+    margin-left: 0;
+    margin-top: 0;
+    background: $white;
+    visibility: visible;
+    opacity: 1;
+    text-align: center;
+  }
+
+}
+
+/* [2] */
+.mobile-menu-toggle {
+  position: absolute;
+  top: 0;
+  display: block;
+  float: left;
+  padding: $quarter-spacing-unit*1.05 0 $quarter-spacing-unit $quarter-spacing-unit;
+  border-bottom: 0; 
+  color: $coop-blue;
+
+  &:hover,
+  &:active {
+    color: $coop-blue;
+    border-bottom: 0;
+  }
+
+  &:focus {
+    color: $coop-blue;
+    outline: 1px dotted $coop-blue;
+  }
+
+  &:visited {
+    color: $coop-blue;
+  }
+
+  @media #{$large} {
+    display: none;
+  }
+
+  .icon-menu {
+    &:before {
+      content: '\e61a';
+    }
+  }
+
+  &.is--active {
+    .icon-menu {
+      &:before {
+        content: '\e61b';
+      }
+    }
+  }
+
+  .mobile-menu-text {
+    display: block;
+    font-family: $bold;
+    font-size: emCalc(10px);
+  }
+  
+}
+
+/* [3] */
+.mobile-menu-toggle--right {
+  right: 0;
+}
+
+/* [4] */
+.primary-wrap {
+  @include clearfix;
+  border-top: 0;
+  border-bottom: 0;
+  text-align: center;
+  @media #{$large} {
+    border-top: 1px solid $coop-border-grey;
+    border-bottom: 1px solid $coop-border-grey;
+  }
+}
+
+.nav--primary_left {
+  float: left;
+}
+
+.nav--primary_right {
+  display: none;
+
+  @media #{$large} {
+    float: right;
+    display: block;
+  }
+
+}
+
+/* [5] */
+.nav--primary {
+
+  margin-bottom: 0;
+  padding-left: 0;
+  
+  li {
+    display: block;
+    float: none;
+    text-align: left;
+
+    @media #{$large} {
+      display: inline-block;
+      text-align: center;
+    }
+
+  }
+
+  .nav--primary_link {
+    display: block;
+    padding: $quarter-spacing-unit;
+    border-bottom: 0;
+    color: $coop-blue;
+
+    &:hover {
+      background: none;
+    }
+
+    &:focus {
+      color: $white;
+      background: none;
+      outline: 1px dotted $white;
+    }
+
+    @media #{$large} {
+      color: $coop-link-blue;
+
+      &:hover {
+        background: $offwhite;
+      }
+
+      &:focus {
+        color: $coop-link-blue;
+        background: $offwhite;
+        outline: 1px dotted $coop-blue;
+      }
+
+    }
+
+  }
+
+
+  .nav--primary_link-current {
+
+    background: $offwhite;
+
+    @media #{$large} {
+      background: $offwhite;
+    }
+
+  }
+
+
+  .nav--primary_link-active {
+    border-bottom: 3px solid $coop-blue;
+    color: $coop-blue;
+
+    span:before {
+      color: $coop-blue;
+    }
+
+  }
+  
+  /* [5a] */
+  .nav--primary_link-standout {
+    text-align: center;
+    font-size: emCalc(38px);
+
+    @media #{$large} {
+      text-align: center;
+      font-size: emCalc(16px);
+    }
+
+  }
+
+  
+}
+
+.mobile-menu_tools {
+  list-style: none;
+  float: right;
+  margin: 0;
+
+  .mobile-menu_tools-link  {
+    padding: $quarter-spacing-unit $quarter-spacing-unit / 2;
+    border-bottom: 0;
+  }
+
+  .mobile-menu_tools-link.nav--primary_link-active {
+    color: $white;
+    background: $coop-blue;
+  }
+
+}
+
+
+

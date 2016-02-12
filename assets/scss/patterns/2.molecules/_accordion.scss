@@ -1,0 +1,147 @@
+/*------------------------------------*\
+   $Accordion
+\*------------------------------------*/
+
+
+.accordion {
+  overflow: hidden;
+  border-radius: 3px;
+  background: transparent;
+  border-top: 2px dotted $coop-grey;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  .accordion-section {
+
+    .accordion-section-title { 
+      width: 100%;
+      padding: 15px;
+      display: inline-block;
+      border-bottom: 2px dotted $coop-grey;
+      background: transparent;
+      font-size: 1em;
+      color: $coop-grey;
+
+      &:active, 
+      &:hover {
+        background: $offwhite;
+        text-decoration: none;
+        border-bottom: 2px dotted $coop-grey;
+        color: $coop-blue;
+      }
+
+      &:focus {
+        color: $coop-blue;
+        background: $offwhite;
+      
+        span {
+
+          @include single-transition(all);
+      
+          &:before {
+            color: $coop-blue;
+          }
+
+        }
+
+      }
+
+      .accordion--trigger_icon {
+        @extend %icon;  
+        float: right;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        @include single-transition(all);
+
+        &:hover {
+          color: $coop-blue;
+        }
+
+        &:before {
+          @extend %icon-up-arrow-button;   
+          font-size: emCalc(16px);
+          color: $coop-grey;
+        }
+
+      }
+
+      &:hover {
+        color: $coop-blue;
+
+        .accordion--trigger_icon:before {
+          color: $coop-blue;
+        }
+      
+      }
+
+    }
+
+    .is--active {
+      color: $coop-blue;
+
+      .accordion--trigger_icon:before {
+        color: $coop-blue;
+      }
+
+    }
+    .accordion-section-content {
+      display: none;
+
+      &:focus {
+
+      }
+
+      p {
+        margin-bottom: 0;
+        padding: 15px 0;
+       }
+    }
+
+  }
+
+}
+
+.toggle--trigger.is--active {
+
+  color: $coop-blue;
+
+  span {
+
+    &:before {
+      color: $coop-blue;
+    }
+
+  }
+
+}
+
+
+.accordion-section-content {
+  overflow: hidden;
+  display: block !important;
+  padding: 0 $half-spacing-unit / 2;
+  margin-bottom: 0;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.accordion-section-content.open {
+  // As this is added via Jquery CSS I need to overide the inline CSS with !important and know that
+  // the jquery fallback won't be affected by max-height or opacity in the external CSS.
+  max-height: 999px !important;
+  opacity: 1 !important;
+}
+
+.no-js .accordion--trigger_icon {
+  display: none;
+}
+

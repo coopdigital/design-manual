@@ -1,0 +1,95 @@
+/*------------------------------------------------*\
+    $Global Pattern Variables/Foundation Overrides
+\*------------------------------------------------*/
+
+/*------------------------------------*\
+     $Colour Variables
+\*------------------------------------*/
+
+/**
+ *
+ * Co-op primary colour variables are still in testing
+ *
+ * 1. Co-op brand blue
+ *
+ * 2. Grey used for body text and headings
+ *
+ * 3. Off white used for background grey and other box decorational styles
+ *
+ * 4. Standout UI colours for errors, dialogues etc
+ *
+ * 5. Colour states - used for interaction. Hovers etc.
+ *
+ */
+
+/* [1]
+ * If you want to explicitly set the theme either 'current' or 'new' brand
+ * then define $brand: 'coop' or 'coop-current' in your project @import manifest
+ */
+
+$brand: false !default;
+
+@if $brand == 'coop' {
+  // New blue
+  $coop-blue:               #00a1cc;
+} @if $brand == 'coop-current' {
+  // Current blue
+  $coop-blue:               #002465;
+} @else {
+  $coop-blue:               #00a1cc;
+}
+
+/* [2] */
+$coop-grey:                 #6e6e6e;
+$coop-border-grey:          #dddddd;
+
+/* [3] */
+$offwhite:                  #f3f3f3;
+$offwhite-highlighted-bg:		#e6e6e6;
+
+/* [4] */
+$button-green:              #00a318;
+$info-orange:               #dc7d00;
+$saleerror-red:             #d0091c;
+
+/* [5] */
+$coop-link-blue:            #00729a;
+$coop-blue-highlighted:     #00bbe3;
+$coop-link-visited:					#551a8b;
+$coop-grey-unselected:      #949494;
+$button-green-highlighted:  #00c81a;
+$added-to-page:             #fff6bf;
+
+$white:                     #ffffff;
+$black:                     #000000;
+$light-grey:                #dddddd;
+$dark-grey:                 #cccccc;
+$darker-grey:               #333333;
+
+
+/*------------------------------------*\
+    $Font Face
+\*------------------------------------*/
+
+$regular:                   'AvenirNextLTW01-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$regular-italic:            'AvenirNextLTW01-Italic', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$bold:                      'AvenirNextLTW01-Demi', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$bold-italic:               'AvenirNextLTW01-DemiIta', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+/*------------------------------------*\
+    $Basic vertical rhythm
+\*------------------------------------*/
+
+$base-spacing-unit: 60px;
+$three-quarter-spacing-unit: $base-spacing-unit / 4 * 3; // 45px
+$half-spacing-unit: $base-spacing-unit / 2; // 30px
+$quarter-spacing-unit: $half-spacing-unit / 2; // 15px
+$sixth-spacing-unit: $base-spacing-unit / 6; // 10px
+
+
+/*------------------------------------*\
+    $Basic Radius
+\*------------------------------------*/
+
+$border-radius: 5px;

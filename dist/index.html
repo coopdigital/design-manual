@@ -1,0 +1,2565 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Single Site Style guide</title>
+  <meta name="description" content="Single-site Style guide">
+
+  <link rel="stylesheet" href="/css/kitchen-sink.css">
+  <link rel="canonical" href="http://single-site-styleguide.heroku.com/">
+</head>
+
+
+  <body>
+
+    <!-- Skip nav -->
+<div class="skip-nav">
+  <ul>
+    <li><a accesskey="c" href="#main" title="Skip to main content">Skip to content</a></li>
+    <li><a accesskey="n" href="#navigation" title="Skip to primary navigation">Skip to navigation</a></li>
+  </ul>
+</div>
+<!-- /Skip nav -->
+
+<!-- Membership Header -->
+<div class="coop-membership-header">
+  <div class="row">
+    <div class="small-12  columns">
+      <div class="coop-membership-header--inner">
+        <a href="#" class="coop-membership-header--link">Become a Member</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /Membership Header -->
+
+<!-- Header -->
+<div class="coop-header-wrap">
+
+  <div class="row">
+
+    <div class="small-12  columns">
+
+      <header role="banner" class="coop-header">
+
+        <div class="coop--header_logo">
+
+          <a aria-label="Homepage" href="/">
+
+            Co-op
+
+
+
+<!-- FALL BACK LOGO!!! -->
+
+
+            <!--<![endif]-->
+
+            <!-- The fallback PNG for browsers that do not support SVG -->
+            <!--[if lte IE 8]>
+              <div class="fallback-image"><span class="show-for-sr">The Co-op - Home</span></div>
+            <![endif]-->
+
+          </a>
+
+        </div>
+
+        <a href="/" tabindex="-1" class="coop-header_identifier">Style Guide</a>
+
+        <a href="#" role="button" aria-label="Open Main Menu" aria-haspopup="true" aria-owns="nav--primary"  id="primary-trigger" class="mobile-menu-toggle  mobile-menu-toggle--right"><span class="icon  icon-menu" aria-hidden="true"></span> <span class="mobile-menu-text">Menu</span></a></a>
+
+        <!-- <a href="#" role="button" aria-label="Find a store" aria-haspopup="true" aria-owns="store-finder" id="storefinder-toggle" class="storefinder-toggle  storefinder-toggle--identifier"><span class="icon  icon-location-alt" aria-hidden="true"></span> Find <span class="hide">a store</span></a> -->
+
+
+        <!-- <div id="store-finder" class="store-finder">
+
+          <form class="store-finder_form" action="" role="search">
+
+              <label class="store-finder_form--label" for="findastore">Find a store</label>
+
+              <input id="findastore" class="input  input--large  store-finder_form--input" type="search" placeholder="Enter your postcode..." autocomplete="off">
+
+              <a href="#clear" aria-label="Clear Search Input" class="clear-input">Clear</a>
+              <button aria-label="Go Search" class="coop-btn">Find</button>
+              <a href="" class="location"> Use my location</a>
+
+          </form>
+
+        </div> -->
+
+      </header>
+
+    </div>
+
+  </div>
+
+</div>
+<!-- /Header -->
+
+<!-- Primary Navigation -->
+
+<div id="nav-wrap" class="nav-wrap">
+
+  <div class="row">
+
+    <div class="small-12 columns">
+
+      <nav id="navigation">
+
+          <div class="primary-wrap">
+
+            <ul id="nav--primary" class="nav  nav--primary">
+              <li><a href="index.html" class="nav--primary_link  nav--primary_link-standout nav--primary_link-current">Design elements</a></li><li>
+              <a href="standards.html" class="nav--primary_link  nav--primary_link-standout">Code standards</a></li><li><a href="about.html" class="nav--primary_link  nav--primary_link-standout">About</a></li>
+            </ul>
+
+          </div>
+
+      </nav>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- /Primary Navigation -->
+
+
+    <main id="main" class="main">
+
+          <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <h1>Design elements</h1>
+
+            <p>Sections that are <span class="line-through">struck through</span> are not yet complete.</p>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-4  large-4  medium-4  small-12  columns">
+
+            <h2>1. Branding</h2>
+            <ul>
+                <li><a href="#logo">Logo</a></li>
+                <li><a href="#tone-of-voice"><span class="line-through">Tone of voice</span></a></li>
+                <li><a href="#iconography">Iconography</a></li>
+                <li><a href="#animation"><span class="line-through">Animation</span></a></li>
+            </ul>
+
+        </div>
+
+        <div class="xlarge-4  large-4  medium-4  small-12  columns">
+
+            <h2>2. Colour</h2>
+            <ul>
+                <li><a href="#text-colours">Text</a></li>
+                <li><a href="#link-colours">Links</a></li>
+                <li><a href="#page-colours">Page colours</a></li>
+        <li><a href="#button-colours">Buttons</a></li>
+                <li><a href="#status-colours">Status colours</a></li>
+            </ul>
+
+        </div>
+
+        <div class="xlarge-4  large-4  medium-4  small-12  columns">
+
+            <h2>3. Typography</h2>
+            <ul>
+                <li><a href="#typographic-scale">Typographic scale</a></li>
+                <li><a href="#typographic-rules">Accessibility rules</a></li>
+                <li><a href="#typographic-states">Typographic states</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-4  large-4  medium-4  small-12  columns">
+
+            <h2>4. Forms</h2>
+            <ul>
+                <li><a href="#inputs">Inputs</a></li>
+                <li><a href="#tap-tiles">Tap tiles</a></li>
+                <li><a href="#radio-and-checkboxes">Checkboxes and radio buttons</a></li>
+            </ul>
+
+        </div>
+
+        <div class="xlarge-4  large-4  medium-4  small-12  columns">
+
+            <h2>5. Page elements</h2>
+            <ul>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#dialogue-boxes">Dialogue boxes</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#tabs">Tabs</a></li>
+                <li><a href="#toggle-content">Toggle content</a></li>
+                <li><a href="#accordion">Accordion</a></li>
+                <li><a href="#breadcrumbs">Breadcrumbs</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#pagination">Pagination</a></li>
+            </ul>
+
+        </div>
+
+        <div class="xlarge-4  large-4  medium-4  small-12  columns">
+
+            <h2>6. Examples</h2>
+            <ul>
+                <li><a href="#login-form">Login form example</a></li>
+                <li><a href="#long-form">Long form example</a></li>
+                <li><a href="#header">Header example</a></li>
+                <li><a href="#footer"><span class="line-through">Footer example</span></a></li>
+                <li><a href="#page-template"><span class="line-through">Page template</span></a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h3 id="branding" class="beta">1. Branding</h3>
+
+            <h4 id="logo" class="gamma">Logo  <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <div class="row">
+
+                <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+                    <div class="sg-logo  sg-logo--desktop">
+
+                        <a aria-label="Homepage" href="/">
+
+
+
+                        </a>
+
+                        <span class="smallprint">Desktop &ndash; 75px</span>
+
+                    </div>
+
+                </div>
+
+                <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+                    <div class="sg-logo  sg-logo--mobile">
+
+                        <a aria-label="Homepage" href="/">
+
+                            Co-op
+
+
+
+<!-- FALL BACK LOGO!!! -->
+
+
+                        </a>
+
+                        <span class="smallprint">Mobile &ndash; 45px</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>The main logo should be used at a width of 45px on mobile, 75px on desktop. The exclusion zone around the logo is 25% of its width.</p>
+
+                    <p>The logo sits in the center of the header on desktop and centred on mobile.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 id="tone-of-voice" class="gamma">Tone of voice  <a href="#top" class="top-link">Back to top</a></h4>
+
+            <p>Coming soon&hellip;</p>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns icon-wrap">
+
+            <h4 id="iconography" class="gamma">Iconography  <a href="#top" class="top-link">Back to top</a></h4>
+
+            <div class="divider  margin-bh">
+            <p>Interactive - Icons that initiate a UI feature/functionality when users interact in<br/>a touch/click manner.</p>
+                <span class="icon  icon-cross-alt"></span>
+                <span class="icon  icon-tick-alt"></span>
+                <span class="icon  icon-help"></span>
+                <span class="icon  icon-cross"></span>
+                <span class="icon  icon-tick"></span>
+                <span class="icon  icon-event"></span>
+                <span class="icon  icon-normal-basket"></span>
+            </div>
+            <div class="divider  margin-bh">
+                <span class="icon  icon-up-arrow-button"></span>
+                <span class="icon  icon-down-arrow-button"></span>
+                <span class="icon  icon-back-arrow-button"></span>
+                <span class="icon  icon-forward-arrow-button"></span>
+                <span class="icon  icon-up-arrow"></span>
+                <span class="icon  icon-down-arrow"></span>
+                <span class="icon  icon-back-arrow"></span>
+                <span class="icon  icon-forward-arrow"></span>
+                <span class="icon  icon-menu"></span>
+                <span class="icon  icon-close"></span>
+            </div>
+            <div class="divider  margin-bh">
+                <span class="icon  icon-location"></span>
+                <span class="icon  icon-location-alt"></span>
+                <span class="icon  icon-home"></span>
+                <span class="icon  icon-view"></span>
+                <span class="icon  icon-search"></span>
+                <span class="icon  icon-avatar-alt"></span>
+                <span class="icon  icon-avatar"></span>
+                <span class="icon  icon-filter"></span>
+                <span class="icon  icon-normal-basket"></span>
+                <span class="icon  icon-share"></span>
+            </div>
+            <div class="divider  margin-bh">
+                <span class="icon  icon-phone"></span>
+                <span class="icon  icon-email"></span>
+                <span class="icon  icon-write-to-us"></span>
+                <span class="icon  icon-print"></span>
+                <span class="icon  icon-video"></span>
+              <span class="icon  icon-download"></span>
+                <span class="icon  icon-open-new-tab"></span>
+              <span class="icon  icon-edit"></span>
+                <span class="icon  icon-logout"></span>
+                <span class="icon  icon-grid"></span>
+            </div>
+
+            <div class="divider  margin-bh">
+            <p>Informative - Icons to prompt and/or display informative text to users.</p>
+                <span class="icon  icon-alert"></span>
+                <span class="icon  icon-information"></span>
+                <span class="icon  icon-news"></span>
+                <span class="icon  icon-award"></span>
+                <span class="icon  icon-award-fill"></span>
+                <span class="icon  icon-award-alt"></span>
+                <span class="icon  icon-article"></span>
+                <span class="icon  icon-bespoke"></span>
+                <span class="icon  icon-padlock"></span>
+                <span class="icon  icon-time"></span>
+              </div>
+
+              <div class="divider  margin-bh">
+                <span class="icon  icon-folder"></span>
+                <span class="icon  icon-membership-card"></span>
+                <span class="icon  icon-comment"></span>
+                <span class="icon  icon-comment-small"></span>
+                <span class="icon  icon-delivery"></span>
+                <span class="icon  icon-internet"></span>
+                <span class="icon  icon-error"></span>
+                <span class="icon  icon-list"></span>
+                <span class="icon  icon-empty-squircle"></span>
+                <span class="icon  icon-squircle-active"></span>
+              </div>
+
+            <div class="divider  margin-bh">
+            <p>Social - Social platforms available to users.</p>
+                <span class="icon  icon-facebook"></span>
+                <span class="icon  icon-twitter"></span>
+                <span class="icon  icon-instagram"></span>
+                <span class="icon  icon-pinterest"></span>
+                <span class="icon  icon-linkedin"></span>
+                <span class="icon  icon-youtube"></span>
+            </div>
+          </div>
+
+
+
+        <div class="xlarge-6  large-6  medium-6  small-12 columns icon-wrap">
+
+            <h4 id="iconography" class="gamma">Icon Size <a href="#top" class="top-link">Back to top</a></h4>
+
+            <div class="row">
+
+                <div class="xlarge-3  large-3  medium-3  small-6  columns">
+
+                    <div class="divider  margin-bh">
+                      <p>64px</p>
+                      <span class="icon  icon-write-to-us  icon-size-64"></span>
+                    </div>
+
+                </div>
+
+                <div class="xlarge-3  large-6  medium-3  small-6  columns">
+
+                    <div class="divider  margin-bh">
+                      <p>32px</p>
+                      <span class="icon  icon-write-to-us  icon-size-32"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="xlarge-3  large-6  medium-3  small-6  columns">
+
+                    <div class="divider  margin-bh">
+                      <p>Natural - 24px</p>
+                      <span class="icon  icon-write-to-us  icon-size-24"></span>
+                    </div>
+
+                </div>
+
+                <div class="xlarge-3  large-6  medium-3  small-6  columns">
+
+                    <div class="divider  margin-bh">
+                      <p>Minimum - 16px</p>
+                      <span class="icon  icon-write-to-us  icon-size-16"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="xlarge-12  large-12  medium-12  small-16  columns icon-wrap">
+
+            <div class="divider  margin-bh">
+              <a href="#" class="link-icon-left"><span class="icon  icon-download  icon-text-right" aria-hidden="true"></span> Download PDF (5mb)</a>
+            </div>
+
+            <div class="divider  margin-bh">
+              <a href="#" class="link-icon-left"><span class="icon  icon-twitter  icon-text-right" aria-hidden="true"></span> Tweet about this awesome style guide</a>
+            </div>
+
+            <div class="divider  margin-bh">
+              <a href="#" class="link-icon-right  link-icon-arrow">Go to this page</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 id="animation" class="gamma">Animation  <a href="#top" class="top-link">Back to top</a></h4>
+
+            <p>Coming soon&hellip;</p>
+
+        </div>
+
+    </div>
+
+    <!-- <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+          <div class="tag-cloud">
+            <span class="intro-text">Open</span>
+            <span class="intro-text">Honest</span>
+            <span class="intro-text">Clear</span>
+            <span class="intro-text">For all</span>
+          </div>
+
+          <div class="demo-animate animate-fade-nice">
+            <strong>Fade:</strong> Duration: 0.3s Easing: ease-out (Hover to see effect)
+          </div>
+
+          <div class="demo-animate animate-move-nice">
+            <div class="demo-shape-1"></div>
+            <strong>Movement:</strong> Duration: 0.8s  Easing: ease-in-out; (Hover to see effect)
+          </div>
+
+        </div>
+
+    </div> -->
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h3 class="beta">2. Colour</h3>
+
+                 </div>
+         <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+
+            <h4 id="text-colours" class="gamma">Text  <a href="#top" class="top-link">Back to top</a></h4>
+
+      </div>
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+
+            <h4 id="link-colours" class="gamma">Links <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <div class="row  sg-list">
+
+                <div class="xlarge-4  large-4  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  coop-grey-bg"></span>
+                        <span class="sg-colour-label">$coop-grey</span>
+                        <span class="sg-colour-label">#6e6e6e</span>
+                        <span class="sg-colour-label">To be used for body copy, headers where necessary, and small print </span>
+
+                    </div>
+                </div>
+
+                <div class="xlarge-4 xlarge-pull-4 large-4 large-pull-4 medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  coop-blue-bg"></span>
+                        <span class="sg-colour-label">$coop-blue</span>
+                        <span class="sg-colour-label">#00a1cc</span>
+                        <span class="sg-colour-label">For stand-out text and headings, only to be used above 18px</span>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+          <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <div class="row  sg-list">
+
+                <div class="xlarge-4  large-4  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  coop-link-blue-bg"></span>
+                        <span class="sg-colour-label">$coop-link-blue</span>
+                        <span class="sg-colour-label">#00729a</span>
+                        <span class="sg-colour-label">To be used for all text links</span>
+
+                    </div>
+                </div>
+
+                <div class="xlarge-4  large-4  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  coop-link-blue-hover-bg"></span>
+                        <span class="sg-colour-label">$coop-blue-highlighted</span>
+                        <span class="sg-colour-label">#00bbe3</span>
+                        <span class="sg-colour-label">Hover colour for text links</span>
+
+                    </div>
+                </div>
+
+                <div class="xlarge-4 large-4  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  coop-link-visited-bg"></span>
+                        <span class="sg-colour-label">$coop-link-visited</span>
+                        <span class="sg-colour-label">#551A8B</span>
+                        <span class="sg-colour-label">Colour for visited links</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 id="page-colours" class="gamma">Page colours <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <div class="row  sg-list">
+
+                <div class="xlarge-2  large-2  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  white-bg"></span>
+                        <span class="sg-colour-label">$white</span>
+                        <span class="sg-colour-label">#fff</span>
+                        <span class="sg-colour-label">Main background colour for pages</span>
+
+                    </div>
+                </div>
+
+                <div class="xlarge-2  large-2  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  offwhite-bg"></span>
+                        <span class="sg-colour-label">$offwhite</span>
+                        <span class="sg-colour-label">#f3f3f3</span>
+                        <span class="sg-colour-label">Alternative colour for sections within pages</span>
+                    </div>
+                </div>
+
+                <div class="xlarge-2 large-2 medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  coop-grey-bg"></span>
+                        <span class="sg-colour-label">$coop-grey</span>
+                        <span class="sg-colour-label">#6e6e6e</span>
+                        <span class="sg-colour-label">Used for borders, horizontal rules, etc.</span>
+                    </div>
+                </div>
+
+                <div class="xlarge-2 xlarge-pull-4 large-2 large-pull-4 medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  added-to-page-bg"></span>
+                        <span class="sg-colour-label">$added-to-page</span>
+                        <span class="sg-colour-label">#fff7bf</span>
+                        <span class="sg-colour-label">Used when an item is added to a page; e.g. within forms</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 id="button-colours" class="gamma">Buttons <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <div class="row  sg-list">
+
+                <div class="xlarge-2  large-2  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  button-green-bg"></span>
+                        <span class="sg-colour-label">$button-green</span>
+                        <span class="sg-colour-label">#00a318</span>
+                        <span class="sg-colour-label">Primary button colour</span>
+
+                    </div>
+                </div>
+
+                <div class="xlarge-2  large-2  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  button-green-highlighted-bg"></span>
+                        <span class="sg-colour-label">$button-green-highlighted</span>
+                        <span class="sg-colour-label">#00c81a</span>
+                        <span class="sg-colour-label">Primary button hover</span>
+                    </div>
+                </div>
+
+                <div class="xlarge-2 large-2 medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  coop-blue-bg"></span>
+                        <span class="sg-colour-label">$coop-blue</span>
+                        <span class="sg-colour-label">#00a1cc</span>
+                        <span class="sg-colour-label">Secondary button colour</span>
+                    </div>
+                </div>
+
+                <div class="xlarge-2 large-2 medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  coop-blue-highlighted-bg"></span>
+                        <span class="sg-colour-label">$coop-blue-highlighted</span>
+                        <span class="sg-colour-label">#00bbe3</span>
+                        <span class="sg-colour-label">Secondary button hover</span>
+                    </div>
+                </div>
+
+                <div class="xlarge-2 large-2 medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  offwhite-bg"></span>
+                        <span class="sg-colour-label">$offwhite</span>
+                        <span class="sg-colour-label">#f3f3f3</span>
+                        <span class="sg-colour-label">Alternative secondary button colour</span>
+                    </div>
+                </div>
+
+                <div class="xlarge-2 large-3 medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  offwhite-highlighted-bg"></span>
+                        <span class="sg-colour-label">$offwhite-highlighted</span>
+                        <span class="sg-colour-label">#e6e6e6</span>
+                        <span class="sg-colour-label">Alternative secondary button hover</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+      <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 id="status-colours" class="gamma">Status <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <div class="row  sg-list">
+
+                <div class="xlarge-2  large-2  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  button-green-bg"></span>
+                        <span class="sg-colour-label">$button-green</span>
+                        <span class="sg-colour-label">#00a318</span>
+                        <span class="sg-colour-label">To be used for positive messages such as success, at 18px+</span>
+
+                    </div>
+                </div>
+
+                <div class="xlarge-2  large-2  medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  info-orange-bg"></span>
+                        <span class="sg-colour-label">$info-orange</span>
+                        <span class="sg-colour-label">#dc7d00</span>
+                        <span class="sg-colour-label">Used for stand-out messages at 18px+</span>
+                    </div>
+                </div>
+
+                <div class="xlarge-2 xlarge-pull-6 large-2 large-pull-6 medium-6  small-12  columns">
+                    <div class="block  margin-bh">
+                        <span class="sg-colour-swatch  saleerror-red-bg"></span>
+                        <span class="sg-colour-label">$saleerror-red</span>
+                        <span class="sg-colour-label">#d0091c</span>
+            <span class="sg-colour-label">For warning, error or sale messages only</span>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h3 class="beta">3. Typography</h3>
+
+            <h4 id="typographic-scale" class="gamma">Typographic scale <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <h1>H1 &ndash; 36px heading (30px mobile)</h1>
+            <h2>H2 &ndash; 21px heading</h2>
+            <h3>H3 &ndash; 19px heading</h3>
+            <h4>H4 &ndash; 16px heading</h4>
+            <h5>H5 &ndash; 13px heading</h5>
+            <h6>H6 &ndash; 11px heading</h6>
+
+            <h1 class="coop-blue">H1 &ndash; 36px heading (30px mobile)</h1>
+            <h2 class="coop-blue">H2 &ndash; 21px heading</h2>
+            <h3 class="coop-blue">H3 &ndash; 19px heading</h3>
+            <h4>H4 &ndash; 16px heading</h4>
+            <h5>H5 &ndash; 13px heading</h5>
+            <h6>H6 &ndash; 11px heading</h6>
+
+            <p>16px should be used for body text. All copy below 18px must be in dark grey (#6e6e6e) for accessibility purposes</p>
+            <p><a href="#">Link text</a> must always be in accessible blue (#00729a) and underlined. Hover should be <span style="color: #00a1cc">#00a1cc</span></p>
+            <p class="bold">Demi-bold can be used for sub-headings and stand-out text</p>
+            <p class="smallprint">Small print should be 13px desktop, 11px mobile</p>
+            <p class="saleerror-red">Red #d2000f can be used at any size, but should be reserved for error text or sales messaging</p>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <li class="tab-title"><a href="#panel2" class="tab-title--link">Usage</a></li>
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>This is the basic typographic scale for use across desktop and mobile sizes. In this basic scale only the H1 is affected by the device size and drops to be more appropriate on a small device.</p>
+                    <p>It may be appropriate to use smaller sizes at mobile to allow for more content to be on screen. This is fine, and at the designers discretion. All we ask is that colour contrast ratios and all other appropriate accessibility critera from our <a href="https://s3-eu-west-1.amazonaws.com/prototype.coop/development/code-standards.html">digital guidelines</a> are met.</p>
+                </div>
+                <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>CSS classes are provided so that should a developer need to create a certain visual hierarchy, they can, without breaking the semantics of the page. This is known as a <a href="http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/">Double strand heading hierarchy</a>.</p>
+                </div>
+                <div role="tabpanel" aria-hidden="true" class="content" id="panel3">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="accessibility-rules">Accessibility rules <a href="#top" class="top-link">Back to top</a></h4>
+
+            <p>Coming soon&hellip;</p>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="typographic-states">Typographic states <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <p><a href="#">This is a text link</a></p>
+
+            <p><strong>Strong is used to indicate strong importance</strong></p>
+
+            <p><em>This text has added emphasis</em></p>
+
+            <p>The <b>b element</b> is stylistically different text from normal text, without any special importance</p>
+
+            <p>The <i>i element</i> is text that is set off from the normal text</p>
+
+            <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation</p>
+
+            <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+            <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation</q></p>
+
+            <blockquote>This is a block quotation.</blockquote>
+
+            <p><cite> This is a citation</cite></p>
+
+            <p>The <mark>mark element</mark> indicates a highlight</p>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Semantics is very important as it helps us to create the most accessibile experience for our customers possible. These are some basic typographic tags that we recommned using if appropriate to your content. More information on Semantics can be found in our <a href="https://s3-eu-west-1.amazonaws.com/prototype.coop/development/code-standards.html">digital guidelines</a> or on <a href="http://html5doctor.com/lets-talk-about-semantics/">HTML 5 Doctor</a>.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h3 class="beta">4. Forms</h3>
+
+            <h4 id="inputs" class="gamma">Inputs <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <h5>input--medium  input--width_small / medium / large / fill</h5>
+
+            <div class="form-row">
+                <input class="input  input--medium  input--width_small" id="text" type="text">
+            </div>
+
+            <div class="form-row">
+                <input class="input  input--medium  input--width_medium" id="text" type="text">
+            </div>
+
+            <div class="form-row">
+                <input class="input  input--medium   input--width_large" id="text" type="text">
+            </div>
+
+            <div class="form-row">
+                <input class="input  input--medium   input--width_fill" id="text" type="text">
+            </div>
+
+            <h5>input--medium  input--small / medium / large</h5>
+
+            <div class="form-row">
+                <input class="input  input--small  input--width_fill" id="text" type="text">
+            </div>
+
+            <div class="form-row">
+                <input class="input  input--medium  input--width_fill" id="text" type="text">
+            </div>
+
+            <div class="form-row">
+                <input class="input  input--large   input--width_fill" id="text" type="text">
+            </div>
+
+            <h5>select--small / select--medium / select--large</h5>
+
+            <div class="form-row">
+                <select class="select--small">
+                    <option>Option One</option>
+                    <option>Option Two</option>
+                    <option>Option Three</option>
+                    <option>Option Four</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <select class="select--medium">
+                    <option>Option One</option>
+                    <option>Option Two</option>
+                    <option>Option Three</option>
+                    <option>Option Four</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <select class="select--large">
+                    <option>Option One</option>
+                    <option>Option Two</option>
+                    <option>Option Three</option>
+                    <option>Option Four</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Always use HTML 5 input types. If browser support is an issue an appropriate polyfill will be required. We have provided various classes to allow inputs to be small, medium and large in padding as well as length.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 id="tap-tiles" class="gamma">Tap tiles <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <div class="margin-bh">
+
+                <p class="label  label--block">Answer the question. Yes or No.</p>
+
+                <input type="radio" id="radio-one" name="radio-group-1" class="tap-input" />
+                <label for="radio-one" class="tap-tile"><span>Yes</span></label>
+
+                <input type="radio" id="radio-two" name="radio-group-1" class="tap-input" />
+                <label for="radio-two" class="tap-tile"><span>No</span></label>
+
+            </div>
+
+            <div class="margin-bh">
+
+                <p class="label  label--block">Title</p>
+
+                <input type="radio" id="radio-three" name="radio-group-2" class="tap-input" />
+                <label for="radio-three" class="tap-tile"><span>Mr</span></label>
+
+                <input type="radio" id="radio-four" name="radio-group-2" class="tap-input" />
+                <label for="radio-four" class="tap-tile"><span>Mrs</span></label>
+
+                <input type="radio" id="radio-five" name="radio-group-2" class="tap-input" />
+                <label for="radio-five" class="tap-tile"><span>Miss</span></label>
+
+                <input type="radio" id="radio-six" name="radio-group-2" class="tap-input" />
+                <label for="radio-six" class="tap-tile"><span>Dr</span></label>
+
+                <input type="radio" id="radio-seven" name="radio-group-2" class="tap-input" />
+                <label for="radio-seven" class="tap-tile"><span>Reverend</span></label>
+
+            </div>
+
+            <div class="margin-bh">
+
+                <input type="radio" id="radio-one-b" name="radio-group-3" class="tap-input small" />
+                <label for="radio-one-b" class="tap-tile small"><span>Small</span></label>
+
+                <input type="radio" id="radio-two-b" name="radio-group-3" class="tap-input medium" />
+                <label for="radio-two-b" class="tap-tile medium"><span>Medium</span></label>
+
+                <input type="radio" id="radio-three-b" name="radio-group-3" class="tap-input large" />
+                <label for="radio-three-b" class="tap-tile large"><span>Large</span></label>
+
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Tap tiles are essentially radio buttons styled to be much easier to use on mobile or 'touch' devices.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 id="radio-and-checkboxes" class="gamma">Radio buttons &amp; checkboxes <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <div class="margin-bh">
+
+                <div class="margin-bq">
+                    <input id="box1" type="checkbox">
+                    <label for="box1">Checkbox 1</label>
+                </div>
+                <div class="margin-bq">
+                    <input id="box2" type="checkbox">
+                    <label for="box2">Checkbox 2</label>
+                </div>
+                <div class="margin-bq">
+                    <input id="box3" type="checkbox">
+                    <label for="box3">Checkbox 3</label>
+                </div>
+
+            </div>
+
+
+            <div class="margin-bh">
+
+                <div class="form-control">
+                    <fieldset class="radio-group">
+                        <div class="margin-bq">
+                            <input type="radio" id="gender_male" value="m" name="gender">
+                            <label for="gender_male" class="radio-label">Male</label>
+                        </div>
+                        <div class="margin-bq">
+                            <input type="radio" id="gender_female" value="f" name="gender">
+                            <label for="gender_female" class="radio-label">Female</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Our radio buttons and checkboxes are styled to be in keeping with the rest of the form elements.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h3 class="beta">5. Page elements</h3>
+
+            <h4 id="buttons" class="gamma">Buttons <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-3  large-3  medium-3  small-12  columns">
+
+            <div class="margin-bq">
+              <!--
+              We need to do this: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_button_role
+              When we get to the JS stuff
+              -->
+                <button class="coop-btn coop-btn-primary">Primary</button>
+            </div>
+            <div class="margin-bq">
+                <button class="coop-btn coop-btn-primary coop-btn-proceed">Primary proceed</button>
+            </div>
+            <div class="margin-bq">
+                <button class="coop-btn coop-btn-primary loading">loading... </button>
+            </div>
+            <div class="margin-bq">
+                <button class="coop-btn coop-btn-secondary">Secondary</button>
+            </div>
+            <div class="margin-bq">
+                <!-- Need opacity and icon hover animation removed on hover -->
+                <button class="coop-btn">Alt secondary</button>
+            </div>
+
+        </div>
+
+        <div class="xlarge-3  large-3  medium-3  small-12  columns">
+
+            <div class="margin-bq">
+                <button class="coop-btn coop-btn-primary" disabled>Disabled primary</button>
+            </div>
+            <div class="margin-bq">
+                <button class="coop-btn coop-btn-secondary" disabled>Disabled secondary</button>
+            </div>
+            <div class="margin-bq">
+                <button class="coop-btn" disabled>Disabled Alt secondary</button>
+            </div>
+
+            <div class="margin-bq">
+                <button class="coop-btn  coop-btn-small">Small</button>
+            </div>
+
+            <div class="margin-bq">
+                <button class="coop-btn  coop-btn-medium">Medium</button>
+            </div>
+
+            <div class="margin-bq">
+                <button class="coop-btn  coop-btn-large">Large</button>
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>We provide a basic button set extendable using classes by size, icon, disabled or loading.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="dialogue-boxes">Dialogue boxes <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <div class="message  message--default">
+                <p>A default information message.</p>
+            </div>
+
+            <div class="message  message--default  message--default_prompt">
+                <p>This is used as a prompt.</p>
+            </div>
+
+            <div class="message  message--info">
+                <p>Short line of very important stand out information.</p>
+            </div>
+
+            <div class="message  message--info">
+                <p>For longer pieces of stand out information, where the copy spreads over two or more lines. Hopefully the style of this information message means you have seen it and are reading it right now.</p>
+            </div>
+
+            <div class="message  message--error">
+                <p>This is an error</p>
+            </div>
+
+            <div class="message  message--error">
+                <p>This is an error with some bullets so a user can correct the fields.</p>
+                <ul>
+                    <li>Enter your <a href="#">email address</a></li>
+                    <li>Enter a <a href="#">password</a></li>
+                </ul>
+            </div>
+
+            <div class="message  message--success">
+                <p>This is a success message</p>
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Use the error and success message states sparingly. When you need to draw a user's attention to important information.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="tables">Tables <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <table summary="An example of how to mark up a table in HTML">
+
+                <thead>
+                    <tr>
+                        <th scope="col">Col heading</th>
+                        <th scope="col">Col heading</th>
+                        <th scope="col">Col heading</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Row heading</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Row heading</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Row heading</th>
+                        <td>Cell</td>
+                        <td>Cell</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>Col footer value</td>
+                        <td>Col footer value</td>
+                        <td>Col footer value</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Tables should only be used for conveying tabular data, not presentational (layout) use.
+                        Tables must be used for tabular data. Tabular data is data that has relationships in two or more dimensions. If you are displaying tabular data you must use a summary="" attribute to describe the editorial intent of the data. In a data table you must make use of &lt;thead&gt; and &lt;tbody&gt; If you have table headings you must use &lt;th&gt; tags with scope attributes.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="tabs">Tabs <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Tab 1</a></li>
+                <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li>
+                <li class="tab-title"><a href="#panel3" class="tab-title--link">Tab 3</a></li>
+                <li class="tab-title"><a href="#panel4" class="tab-title--link">Tab 4</a></li>
+            </ul>
+            <div class="tabs-content  tabs-content-horizontal">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>This is the first panel of the basic tab example. This is the first panel of the basic tab example.</p>
+                </div>
+                <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div>
+                <div role="tabpanel" aria-hidden="true" class="content" id="panel3">
+                    <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+                </div>
+                <div role="tabpanel" aria-hidden="true" class="content" id="panel4">
+                    <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Our current tabs are a styled version of the <a href="http://foundation.zurb.com/sites/docs/v/5.5.3/components/tabs.html">Foundation 5 tabs</a>.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="vertical-tabs">Vertical Tabs <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <div>
+                <ul class="tabs vertical" data-tab="">
+                  <li class="tab-title active"><a href="#panela1" aria-selected="true" class="tabs-title--link"  tabindex="0">Tab 1</a></li>
+                  <li class="tab-title"><a href="#panelb1" aria-selected="false" class="tabs-title--link" tabindex="0">Tab 2</a></li>
+                  <li class="tab-title"><a href="#panelc1" aria-selected="false" class="tabs-title--link"  tabindex="0">Tab 3</a></li>
+                  <li class="tab-title"><a href="#paneld1" aria-selected="false" class="tabs-title--link"  tabindex="0">Tab 4</a></li>
+                </ul>
+                <div class="tabs-content  tabs-content-vertical">
+                  <div class="content active" id="panela1" aria-hidden="false">
+                    <p>This is the first panel of the basic tab example. This is the first panel of the basic tab example.</p>
+                  </div>
+                  <div class="content" id="panelb1" aria-hidden="true">
+                    <p>This is the second panel of the basic tab example. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nesciunt. Aperiam sed expedita quo. Ipsam iusto sapiente animi? Voluptatem ut facilis maxime minima. Aperiam, at non sequi molestias tempora. Enim.</p>
+                  </div>
+                  <div class="content" id="panelc1" aria-hidden="true">
+                    <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+                  </div>
+                  <div class="content" id="paneld1" aria-hidden="true">
+                    <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+                  </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Coming soon&hellip;</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="toggle-content">Toggle content <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <div class="toggle--header">
+
+                <a href="#toggle-1" class="toggle--trigger" >Toggle 1  <span class="toggle--trigger_icon"></span></a>
+
+            </div>
+
+            <div class="toggle--content">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec facilisis nunc. Donec lacus mi, tincidunt et tempus at, dignissim eget ex. Sed viverra, ex id posuere vulputate, erat neque porttitor orci, eu dapibus dolor nisi blandit libero. Nunc at lorem at diam bibendum ultrices eget sit amet nibh.</p>
+
+            </div>
+
+            <div class="toggle--header">
+
+                <a href="#toggle-2" class="toggle--trigger" >Toggle 2  <span class="toggle--trigger_icon"></span></a>
+
+            </div>
+
+            <div class="toggle--content">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec facilisis nunc. Donec lacus mi, tincidunt et tempus at, dignissim eget ex. Sed viverra, ex id posuere vulputate, erat neque porttitor orci, eu dapibus dolor nisi blandit libero. Nunc at lorem at diam bibendum ultrices eget sit amet nibh.</p>
+
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Coming soon&hellip;</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="accordion">Accordion <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <div class="divider  margin-bh">
+
+                <div class="accordion">
+                    <div class="accordion-section">
+                        <a class="accordion-section-title" href="#accordion-1">Accordion Section #1<span class="accordion--trigger_icon"></span></a>
+
+                        <div id="accordion-1" class="accordion-section-content">
+                            <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+                        </div><!--end .accordion-section-content-->
+                    </div><!--end .accordion-section-->
+
+                    <div class="accordion-section">
+                        <a class="accordion-section-title" href="#accordion-2">Accordion Section #2<span class="accordion--trigger_icon"></span></a>
+
+                        <div id="accordion-2" class="accordion-section-content">
+                            <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis part77urient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+                        </div><!--end .accordion-section-content-->
+                    </div><!--end .accordion-section-->
+
+                    <div class="accordion-section">
+                        <a class="accordion-section-title" href="#accordion-3">Accordion Section #3<span class="accordion--trigger_icon"></span></a>
+
+                        <div id="accordion-3" class="accordion-section-content">
+                            <p>Mauris interdum fringilla augue vitae tincidunt. Curabitur vitae tortor id eros euismod ultrices. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent nulla mi, rutrum ut feugiat at, vestibulum ut neque? Cras tincidunt enim vel aliquet facilisis. Duis congue ullamcorper vehicula. Proin nunc lacus, semper sit amet elit sit amet, aliquet pulvinar erat. Nunc pretium quis sapien eu rhoncus. Suspendisse ornare gravida mi, et placerat tellus tempor vitae.</p>
+                        </div><!--end .accordion-section-content-->
+                    </div><!--end .accordion-section-->
+                </div><!--end .accordion-->
+
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Coming soon&hellip;</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="breadcrumbs">Breadcrumbs <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <div class="divider  margin-bh">
+
+                <ul class="breadcrumbs">
+                    <li><a href="#">Grandparent</a></li>
+                    <li><a href="#">Parent</a></li>
+                    <li><a href="#">Child</a></li>
+                    <li><a href="#">Grandchild</a></li>
+                    <li class="active"><a href="#">Great-Grandchild</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>Breadcrumbs should be no smaller than 14px.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="search">Search <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <div class="divider  margin-bh">
+
+                <form class="search-form">
+                    <input class="search" id="search" type="search" placeholder="Search">
+                    <button class="coop-btn"><span  class="icon  icon-search"></span> <span class="show-for-sr">Search</span></button>
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>If using an icon on a button like this remember to hide the text label accessibly using CSS.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="pagination">Pagination <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ol class="pagination" role="widget" aria-label="Pagination">
+                <li class="pagination-item  first"><a href="page-1.html" aria-label="First page">First</a></li>
+                <li class="pagination-item"><a href="page-2.html" aria-label="Page 2">2</a></li>
+                <li class="pagination-item"><a href="page-3.html" aria-label="Page 3">3</a></li>
+                <li class="pagination-item"><a href="page-4.html" aria-label="Page 4">4</a></li>
+                <li class="pagination-item"><a href="page-5.html" aria-label="Page 4">5</a></li>
+                <li class="pagination-item  last"><a href="page-x.html" aria-label="Last page">Last</a></li>
+            </ol>
+
+            <ol class="pagination" role="widget" aria-label="Pagination">
+                <li class="pagination-item  first"><a href="page-1.html" aria-label="First page"><span class="icon  icon-back-arrow"></span> <span class="show-for-sr">First</span></a></li>
+                <li class="pagination-item"><a href="page-2.html" aria-label="Page 2">2</a></li>
+                <li class="pagination-item"><a href="page-3.html" aria-label="Page 3">3</a></li>
+                <li class="pagination-item"><a href="page-4.html" aria-label="Page 4">4</a></li>
+                <li class="pagination-item"><a href="page-5.html" aria-label="Page 4">5</a></li>
+                <li class="pagination-item  last"><a href="page-x.html" aria-label="Last page"><span class="icon  icon-forward-arrow"></span> <span class="show-for-sr">Last</span></a></li>
+            </ol>
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+                <!-- <li class="tab-title"><a href="#panel2" class="tab-title--link">Tab 2</a></li> -->
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>If using an icon on a button like this remember to hide the text label accessibly using CSS.</p>
+                </div>
+                <!-- <div role="tabpanel" aria-hidden="true" class="content" id="panel2">
+                    <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                </div> -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h3 class="beta">6. Examples</h3>
+
+            <h4 class="gamma" id="login-form">Login form <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-12  small-12  columns">
+
+            <form action="" role="form" id="login-form">
+
+                <fieldset class="fieldset">
+
+                    <legend class="legend">Log in</legend>
+
+                    <div class="form-row">
+                        <label class="label  label--block" for="email">Email</label>
+                        <input class="input  input--large  input--width_fill" id="text" type="email" data-parsley-trigger="focusin focusout" data-parsley-required-message="Please enter a valid email address" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="label  label--block" for="password">Password</label>
+                        <input class="input  input--large  input--width_fill" id="text" type="password" data-parsley-trigger="focusin focusout"
+                    data-parsley-required-message="Please enter a valid password" required>
+                    </div>
+
+                    <button aria-label="Go Submit" type="submit" name="submit" class="coop-btn  coop-btn-primary  coop-btn-proceed">Log in</button>
+
+                </fieldset>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="long-form">Long form <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-12  medium-12  small-12  columns">
+
+            <!-- form-wrap -->
+            <div class="form-full">
+
+                <div class="form-full--header">
+
+                    <h1 class="form-full--header_title">Register charity</h1>
+
+                </div>
+
+                <!-- form-full--fields -->
+                <div class="form-full--fields">
+
+                <form method="post" class="form-multi-step  registration-form" role="form" action="/submit" data-parsley-validate>
+
+
+                    <div class="form-section">
+
+                        <span>Step 1 of 2</span>
+
+                        <fieldset class="fieldset">
+
+                            <legend class="legend">About your charity</legend>
+
+                            <div class="form-row">
+                                <label for="charity-name" class="label label--block">Charity name:</label>
+                                <input type="text" id="charity-name" name="charity-name" class="input  input--medium  input--width_fill"
+                                       placeholder="Start typing the name of the charity..."  data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a charity name"
+                                       required>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="charity-number" class="label label--block">Charity number:</label>
+                                <input type="text" id="charity-number" name="charity-number" class="input  input--medium  input--width_medium"
+                                       data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter your charity number"
+                                       required>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="charity-about" class="label label--block">About your charity:</label>
+                                <textarea id="charity-about" name="charity-about" class="input  input--medium  input--width_fill"
+                                          data-parsley-trigger="focusout"
+                                          data-parsley-required-message="Please enter some details about your charity"
+                                          required></textarea>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="charity-website-social" class="label label--block">Website / Social URL (Optional):</label>
+                                <input type="url" id="charity-website-social" name="charity-website-social"
+                                       class="input  input--medium  input--width_fill">
+                            </div>
+
+                            <div class="form-row">
+                                <label for="charity-address-1" class="label label--block">Address line 1:</label>
+                                <input type="text" id="charity-address-1" name="charity-address-1" class="input  input--medium  input--width_fill"
+                                       data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid address"
+                                       required>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="charity-address-2" class="label label--block">Address line 2 (Optional):</label>
+                                <input type="text" id="charity-address-2" name="charity-address-2" class="input  input--medium  input--width_fill">
+                            </div>
+
+                            <div class="form-row">
+                                <label for="charity-address-city" class="label label--block">City / Town:</label>
+                                <input type="text" id="charity-address-city" name="charity-address-city"
+                                       class="input  input--medium  input--width_fill"  data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid city/town"
+                                       required>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="charity-address-county" class="label label--block">County:</label>
+                                <input type="text" id="charity-address-county" name="charity-address-county"
+                                       class="input  input--medium  input--width_fill" data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid county"
+                                       required>
+                            </div>
+
+                            <div class="form-row">
+                                <label for="charity-address-postcode" class="label label--block">Postcode:</label>
+                                <input type="text" id="charity-address-postcode" name="charity-address-postcode"
+                                       class="input  input--medium  input--width_small" data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid postcode (E.g. M16 1FC)"
+                                       required>
+                            </div>
+
+                        </fieldset>
+
+                    </div>
+
+                    <div class="form-section">
+
+                        <span>Step 2 of 2</span>
+
+                        <fieldset class="fieldset">
+
+                            <legend class="legend">About the project</legend>
+
+                            <div class="form-row">
+                                <div class="message  message--default  message--default_prompt">
+                                    <label for="project-about">We'd like to know things like:</label>
+                                    <ul>
+                                        <li>What would you do with this funding?</li>
+                                        <li>How would it benefit the community?</li>
+                                    </ul>
+                                </div>
+                                <textarea id="project-about" name="project-about" class="input  input--medium  input--width_fill"
+                                        placeholder="Tell us about the project you're raising funds for..." data-parsley-trigger="focusout"
+                                        data-parsley-required-message="Please enter some details about this project"
+                                        required></textarea>
+                            </div>
+                            <div class="form-row">
+                                <label for="project-beneficiaries" class="label label--block">How many beneficiaries do you
+                                    expect there to be from this
+                                    project?</label>
+                                <input type="number" id="project-beneficiaries" name="project-beneficiaries"
+                                       class="input  input--medium  input--width_small" data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid number of beneficiaries"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="project-benefits" class="label label--block">How will they benefit?</label>
+                                <input type="text" id="project-benefits" name="project-benefits" class="input  input--medium  input--width_fill"
+                                       data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please state the benefits of this project"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="project-fundraising-target" class="label label--block">What is your fundraising
+                                    target for this project?
+                                    (Optional)</label>
+                                <div class="row  collapse">
+                                    <div class="small-1  columns">
+                                        <span class="prefix  prefix--medium">&pound;</span>
+                                    </div>
+                                    <div class="small-11  columns">
+                                        <input type="number" id="project-fundraising-target" name="project-fundraising-target"
+                                       class="input  input--medium  input--width_small  input--prefix" min="0"
+                                       step="0.01">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <label for="project-postcode" class="label label--block">Enter the postcode for where this
+                                    project is taking place:</label>
+                                <input type="text" id="project-postcode" name="project-postcode" class="input  input--medium  input--width_small"
+                                       placeholder="E.g. M16 1FC"
+                                       data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid postcode (E.g. M16 1FC)"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="project-expected-completion" class="label label--block">When is this project
+                                    expected to be completed?</label>
+                                <input type="date" id="project-expected-completion" name="project-expected-completion"
+                                       class="input  input--medium  input--width_medium" data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a completion date"
+                                       required>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset class="fieldset">
+
+                            <legend class="legend">Contact details</legend>
+
+                            <div class="form-row">
+                                <label for="contact-name" class="label label--block">Contact name:</label>
+                                <input type="text" id="contact-name" name="contact-name" class="input  input--medium  input--width_fill" data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid contact name"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="contact-email" class="label label--block">Contact email:</label>
+                                <input type="email" id="contact-email" name="contact-email"
+                                       class="input  input--medium  input--width_fill" data-parsley-trigger="focusin focusout"
+                                       data-parsley-required-message="Please enter a valid email address"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="contact-confirm-email" class="label label--block">Confirm email:</label>
+                                <input type="email" id="contact-confirm-email" name="contact-confirm-email"
+                                       class="input  input--medium  input--width_fill" data-parsley-trigger="focusin focusout"
+                                       data-parsley-required-message="Please enter a valid email address"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="contact-number" class="label label--block">Contact number:</label>
+                                <input type="number" id="contact-number" name="contact-number" class="input  input--medium  input--width_fill"
+                                       data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid phone number"
+                                       required>
+                            </div>
+
+                        </fieldset>
+
+                        <fieldset class="fieldset">
+
+                            <legend class="legend">Alternate contact details</legend>
+
+                            <div class="form-row">
+                                <label for="alternate-contact-name" class="label label--block">Alternate contact name:</label>
+                                <input type="text" id="alternate-contact-name" name="alternate-contact-name"
+                                       class="input  input--medium  input--width_fill" data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid name"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="alternate-contact-email" class="label label--block">Alternate contact
+                                    email:</label>
+                                <input type="email" id="alternate-contact-email" name="alternate-contact-email"
+                                       class="input  input--medium  input--width_fill" data-parsley-trigger="focusin focusout"
+                                       data-parsley-required-message="Please enter a valid email address"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="alternate-contact-confirm-email" class="label label--block">Confirm alternate
+                                    email:</label>
+                                <input type="email" id="alternate-contact-confirm-email" name="alternate-contact-confirm-email"
+                                       class="input  input--medium  input--width_fill" data-parsley-trigger="focusin focusout"
+                                       data-parsley-required-message="Please enter a valid email address"
+                                       required>
+                            </div>
+                            <div class="form-row">
+                                <label for="alternate-contact-number" class="label label--block">Alternate contact
+                                    number:</label>
+                                <input type="number" id="alternate-contact-number" name="alternate-contact-number"
+                                       class="input  input--medium  input--width_fill" data-parsley-trigger="focusout"
+                                       data-parsley-required-message="Please enter a valid phone number"
+                                       required>
+                            </div>
+
+                        </fieldset>
+
+                        <input type="submit" name="submit" value="Submit application"
+                                       class="coop-btn  coop-btn-primary">
+
+                    </div>
+
+                    <div class="form-navigation">
+                      <div class="coop-btns">
+                        <button type="button" class="next  coop-btn  coop-btn-primary  coop-btn-proceed">Next step</button>
+                        <button type="button" class="previous  coop-btn  coop-btn-back">Previous step</button>
+                      </div>
+                    </div>
+
+                </form>
+
+                </div>
+                <!-- /form-full--fields -->
+
+            </div>
+            <!-- /form-wrap -->
+
+        </div>
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>We are currently using <a href="http://parsleyjs.org/">parsleyjs</a> for our front end validation. Invalidate the fields in the example to see the error styling.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns">
+
+            <h4 class="gamma" id="header">Header <a href="#top" class="top-link">Back to top</a></h4>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-12  large-12  medium-12  small-12  columns  margin-bh">
+
+            <!-- Header -->
+            <div class="coop-header-wrap">
+
+                <div class="row">
+
+                    <div class="small-12  columns">
+
+                        <header role="banner" class="coop-header">
+
+                            <div class="coop--header_logo">
+
+                            <a aria-label="Homepage" href="/">
+
+                            Co-op
+
+
+
+<!-- FALL BACK LOGO!!! -->
+
+
+                        </a>
+
+                    </div>
+
+                    <a href="#" role="button" aria-label="Open Main Menu" aria-haspopup="true" aria-owns="nav--primary"  id="primary-trigger" class="mobile-menu-toggle  mobile-menu-toggle--right"><span class="icon  icon-menu" aria-hidden="true"></span> <span class="show-for-sr">Open Main Menu</span></a></a>
+
+                    <!-- <a href="#" role="button" aria-label="Find a store" aria-haspopup="true" aria-owns="store-finder" id="storefinder-toggle" class="storefinder-toggle  storefinder-toggle--identifier"><span class="icon  icon-location-alt" aria-hidden="true"></span> Find <span class="hide">a store</span></a>  -->
+
+
+                    <!-- <div id="store-finder" class="store-finder">
+
+                        <form class="store-finder_form" action="" role="search">
+
+                            <label class="store-finder_form--label" for="findastore">Find a store</label>
+
+                            <input id="findastore" class="input  input--large  store-finder_form--input" type="search" placeholder="Enter your postcode..." autocomplete="off">
+
+                            <a href="#clear" aria-label="Clear Search Input" class="clear-input">Clear</a>
+                            <button aria-label="Go Search" class="coop-btn">Find</button>
+                            <a href="" class="location"> Use my location</a>
+
+                        </form>
+
+                    </div> -->
+
+                    <a href="/" tabindex="-1" class="coop-header_identifier">Identifier</a>
+
+                </header>
+
+              </div>
+
+            </div>
+
+          </div>
+          <!-- /Header -->
+
+          <!-- Primary Navigation -->
+
+            <div id="nav-wrap" class="nav-wrap">
+
+              <div class="row">
+
+                <div class="small-12 columns">
+
+                  <nav role="navigation">
+
+                      <div class="primary-wrap">
+
+                        <ul id="nav--primary" class="nav  nav--primary">
+                          <li><a href="#" class="nav--primary_link">Join us</a></li>
+                          <li><a href="#" class="nav--primary_link">What is the Co-operative</a></li>
+                          <li><a href="#" id="bu-toggle" class="nav--primary_link">Our Businesses</a></li>
+                          <li><a href="#" class="nav--primary_link">Talk to us</a></li>
+                        </ul>
+
+                      </div>
+
+                  </nav>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- /Primary Navigation -->
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="xlarge-6  large-6  medium-6  small-12  columns">
+
+            <ul class="tabs" data-tab role="tablist">
+                <li class="tab-title active"><a href="#panel1" class="tab-title--link">Guidelines</a></li>
+            </ul>
+            <div class="tabs-content">
+                <div role="tabpanel" aria-hidden="false" class="content active" id="panel1" >
+                    <p>The basic Co-op header has a centrally aligned logo (adhereing to the <a href="#logo">logo guidelines above</a>. The identifier sites to the left at 28px desktop and 21px mobile (although this can be 18px if more space is required).</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="small-12  columns">
+
+            <hr>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+    </main>
+
+    <footer>
+
+    <div class="panel--grey">
+        <!-- footer utility navigation -->
+        <nav class="row  nav-footer">
+            <div class="xlarge-6  large-6  medium-12  small-12  columns">
+                <ul class="nav  nav-footer-utility">
+                    <li><a class="nav-footer_link" href="http://www.co-operative.coop/terms/privacy-policy/" title="Read our privacy policy" rel="nofollow">Privacy policy &amp; Cookies</a></li>
+                    <li><a class="nav-footer_link" href="http://www.co-operative.coop/terms/" title="Read our terms and conditions" rel="nofollow">Terms &amp; conditions</a></li>
+                    <li><a class="nav-footer_link" href="http://www.co-operative.coop/accessibility/" title="Making our websites for everyone" rel="nofollow">Accessibility</a></li>
+                    <!-- <li><a href="#" title="">Site map</a></li> -->
+
+                </ul>
+            </div>
+            <div class="xlarge-6  large-6  medium-12  small-12  columns">
+                <span class="nav-footer-colophon">
+                    Copyright &copy; Co-operative Group Limited. All rights reserved.
+                <span>
+            </div>
+        </nav>
+        <!-- /footer utility navigation -->
+    </div>
+
+</footer>
+
+
+    <!-- Need a gulp task for concat etc really -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/parsleyjs/dist/parsley.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/parsley-init.js"></script>
+
+  </body>
+
+</html>

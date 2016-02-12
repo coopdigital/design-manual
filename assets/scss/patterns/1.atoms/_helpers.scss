@@ -1,0 +1,259 @@
+/*------------------------------------------------*\
+    $Helpers
+\*------------------------------------------------*/
+
+/**
+ *
+ * A selction of helper classes to get you where you
+ * need to be
+ *
+ */
+
+// Colour helpers
+
+.coop-blue {
+  color: $coop-blue;
+}
+
+.coop-blue-bg {
+  background: $coop-blue;
+}
+
+.coop-blue-highlighted-bg {
+  background: $coop-blue-highlighted;
+}
+
+.button-green {
+  color: $button-green;
+}
+
+.button-green-bg {
+  background: $button-green;
+}
+
+.button-green-highlighted-bg {
+  background: $button-green-highlighted;
+}
+
+.info-orange {
+  color: $info-orange;
+}
+
+.info-orange-bg {
+  background: $info-orange;
+}
+
+.saleerror-red {
+  color: $saleerror-red;
+}
+
+.saleerror-red-bg {
+  background: $saleerror-red;
+}
+
+.coop-link-blue {
+  color: $coop-link-blue;
+}
+
+.coop-link-blue-bg {
+  background: $coop-link-blue;
+}
+
+.coop-link-blue-hover {
+  color: $coop-blue-highlighted;
+}
+
+.coop-link-blue-hover-bg {
+  background: $coop-blue-highlighted;
+}
+
+.coop-link-visited {
+  color: $coop-link-visited;
+}
+
+.coop-link-visited-bg {
+  background: $coop-link-visited;
+}
+
+.added-to-page-bg {
+  background: $added-to-page;
+}
+
+.white {
+  color: $white;
+}
+
+.white-bg {
+  background: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.black-bg {
+  background: $black;
+}
+
+.coop-grey {
+  color: $coop-grey;
+}
+
+.coop-grey-bg {
+  background: $coop-grey;
+}
+
+.coop-border-grey {
+  border: 1px solid $coop-border-grey;
+}
+
+.offwhite {
+  color: $offwhite;
+}
+
+.offwhite-bg {
+  background: $offwhite;
+}
+
+.offwhite-highlighted-bg {
+  background: $offwhite-highlighted-bg;
+}
+
+.light-grey {
+  color: $light-grey;
+}
+
+.light-grey-bg {
+  background: $light-grey;
+}
+
+.dark-grey {
+  color: $dark-grey;
+}
+
+.dark-grey-bg {
+  background: $dark-grey;
+}
+
+// padding / margin
+
+.padding-e {
+  padding: $quarter-spacing-unit / 2;
+}
+
+.padding-q {
+  padding: $quarter-spacing-unit;
+}
+
+.padding-h {
+  padding: $half-spacing-unit;
+}
+
+.padding-b {
+  padding: $base-spacing-unit;
+}
+
+.margin-e {
+  margin: $quarter-spacing-unit / 2;
+}
+
+.margin-q {
+  margin: $quarter-spacing-unit;
+}
+
+.margin-h {
+  margin: $half-spacing-unit;
+}
+
+.margin-b {
+  margin: $base-spacing-unit;
+}
+
+// margin-bottom
+
+.margin-be {
+  margin-bottom: $quarter-spacing-unit / 2;
+}
+
+.margin-bq {
+  margin-bottom: $quarter-spacing-unit;
+}
+
+.margin-bh {
+  margin-bottom: $half-spacing-unit;
+}
+
+.margin-bb {
+  margin-bottom: $base-spacing-unit;
+}
+
+// borders
+
+.border {
+  border: 1px solid $coop-border-grey;
+}
+
+.border-t {
+  border-top: 1px solid $coop-border-grey;
+}
+
+.border-r {
+  border-right: 1px solid $coop-border-grey;
+}
+
+.border-b {
+  border-bottom: 1px solid $coop-border-grey;
+}
+
+.border-l {
+  border-left: 1px solid $coop-border-grey;
+}
+  
+.link-icon-right {
+  position: relative;
+  margin-right: 30px;
+
+  &:after {
+    position: absolute; 
+    top: 4px;
+    padding-left: 4px; 
+  }
+
+  .icon-text-left {
+    margin-right: -20px;
+    font-size: emCalc(16px); 
+  }
+
+}
+
+.link-icon-left {
+  position: relative;
+  margin-left: 20px;
+
+  &:after {
+    position: absolute; 
+    top: 4px;
+    padding-left: 4px; 
+  }
+
+  .icon-text-right {
+    margin-left: -20px;
+    font-size: emCalc(16px);
+  }
+
+}
+
+.link-icon-arrow {
+
+  &:after {
+    @extend %icon;
+    content: '\e608';
+    position: absolute; 
+    top: 4px;
+    padding-left: 4px;
+    font-size: emCalc(14px);
+  }
+
+}
+
+

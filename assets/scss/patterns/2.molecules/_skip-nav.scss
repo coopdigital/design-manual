@@ -1,0 +1,47 @@
+/*------------------------------------*\
+   $Skip Navigation
+\*------------------------------------*/
+
+.skip-nav {
+  position: absolute;
+  top: -9999px;
+  left: 0;
+  z-index: 999;
+
+  li {
+    width: 300px;
+
+    a {
+      position: absolute;
+      top: 0;
+      font-size: emCalc(18px);
+      padding: $quarter-spacing-unit / 2 $quarter-spacing-unit;
+      color: $white;
+      background: $coop-blue;
+
+      &:focus {
+        outline: none;
+        text-decoration: underline;
+      }
+
+    }
+
+  }
+}
+
+.skip-nav a:active, 
+.skip-nav a:focus {
+  top: 9999px;
+  color: $white;
+}
+
+.skip-nav li a:hover:after, 
+.skip-nav li a:focus:after {
+  content: ' [' attr(accesskey) '] '; 
+}
+
+.main:focus, 
+.nav--primary:focus, 
+.nav--secondary:focus {
+  outline: none;
+}

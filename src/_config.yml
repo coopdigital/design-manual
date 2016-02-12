@@ -1,0 +1,13 @@
+# Jekyll config
+
+# Site settings
+title: Single Site Style guide
+description: Single-site Style guide
+baseurl: ""
+url: "http://single-site-styleguide.heroku.com"
+
+# Build settings
+source: ./
+destination: ../dist/
+markdown: kramdown
+exclude: ['config.ru', 'Procfile']
