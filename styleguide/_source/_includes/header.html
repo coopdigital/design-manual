@@ -90,8 +90,8 @@
           <div class="primary-wrap">
 
             <ul id="nav--primary" class="nav  nav--primary">
-              <li><a href="index.html" class="nav--primary_link  nav--primary_link-standout">Design elements</a></li><li>
-              <a href="standards.html" class="nav--primary_link  nav--primary_link-standout">Code standards</a></li><li><a href="about.html" class="nav--primary_link  nav--primary_link-standout  nav--primary_link-current">About</a></li><li>
+              <li><a href="index.html" class="nav--primary_link  nav--primary_link-standout{% if page.id == 'index' %} nav--primary_link-current{% endif %}">Design elements</a></li><li>
+              <a href="standards.html" class="nav--primary_link  nav--primary_link-standout{% if page.id == 'standards' %} nav--primary_link-current{% endif %}">Code standards</a></li><li><a href="about.html" class="nav--primary_link  nav--primary_link-standout{% if page.id == 'about' %} nav--primary_link-current{% endif %}">About</a></li>
             </ul>
 
           </div>

@@ -8,5 +8,6 @@ baseurl: ""
 url: "http://heroku.com"
 
 # Build settings
+source: _source
 markdown: kramdown
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
