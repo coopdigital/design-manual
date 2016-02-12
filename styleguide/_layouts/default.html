@@ -7,13 +7,21 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <main id="main" class="main">
+
+      {{ content }}
+
+    </main>
 
     {% include footer.html %}
+
+    <!-- Need a gulp task for concat etc really -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/parsleyjs/dist/parsley.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/parsley-init.js"></script>
 
   </body>
 

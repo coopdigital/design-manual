@@ -1,27 +1,107 @@
-<header class="site-header">
+<!-- Skip nav -->
+<div class="skip-nav">
+  <ul>
+    <li><a accesskey="c" href="#main" title="Skip to main content">Skip to content</a></li>
+    <li><a accesskey="n" href="#navigation" title="Skip to primary navigation">Skip to navigation</a></li>
+  </ul>
+</div>
+<!-- /Skip nav -->
 
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+<!-- Membership Header -->
+<div class="coop-membership-header">
+  <div class="row">
+    <div class="small-12  columns">
+      <div class="coop-membership-header--inner">
+        <a href="#" class="coop-membership-header--link">Become a Member</a>
       </div>
-    </nav>
+    </div>
+  </div>
+</div>
+<!-- /Membership Header -->
+
+<!-- Header -->
+<div class="coop-header-wrap">
+
+  <div class="row">
+
+    <div class="small-12  columns">
+
+      <header role="banner" class="coop-header">
+
+        <div class="coop--header_logo">
+
+          <a aria-label="Homepage" href="/">
+
+            {% include logo.html %}
+
+            <!--<![endif]-->
+
+            <!-- The fallback PNG for browsers that do not support SVG -->
+            <!--[if lte IE 8]>
+              <div class="fallback-image"><span class="show-for-sr">The Co-op - Home</span></div>
+            <![endif]-->
+
+          </a>
+
+        </div>
+
+        <a href="/" tabindex="-1" class="coop-header_identifier">Style Guide</a>
+
+        <a href="#" role="button" aria-label="Open Main Menu" aria-haspopup="true" aria-owns="nav--primary"  id="primary-trigger" class="mobile-menu-toggle  mobile-menu-toggle--right"><span class="icon  icon-menu" aria-hidden="true"></span> <span class="mobile-menu-text">Menu</span></a></a>
+
+        <!-- <a href="#" role="button" aria-label="Find a store" aria-haspopup="true" aria-owns="store-finder" id="storefinder-toggle" class="storefinder-toggle  storefinder-toggle--identifier"><span class="icon  icon-location-alt" aria-hidden="true"></span> Find <span class="hide">a store</span></a> -->
+
+
+        <!-- <div id="store-finder" class="store-finder">
+
+          <form class="store-finder_form" action="" role="search">
+
+              <label class="store-finder_form--label" for="findastore">Find a store</label>
+
+              <input id="findastore" class="input  input--large  store-finder_form--input" type="search" placeholder="Enter your postcode..." autocomplete="off">
+
+              <a href="#clear" aria-label="Clear Search Input" class="clear-input">Clear</a>
+              <button aria-label="Go Search" class="coop-btn">Find</button>
+              <a href="" class="location"> Use my location</a>
+
+          </form>
+
+        </div> -->
+
+      </header>
+
+    </div>
 
   </div>
 
-</header>
+</div>
+<!-- /Header -->
+
+<!-- Primary Navigation -->
+
+<div id="nav-wrap" class="nav-wrap">
+
+  <div class="row">
+
+    <div class="small-12 columns">
+
+      <nav id="navigation">
+
+          <div class="primary-wrap">
+
+            <ul id="nav--primary" class="nav  nav--primary">
+              <li><a href="index.html" class="nav--primary_link  nav--primary_link-standout">Design elements</a></li><li>
+              <a href="standards.html" class="nav--primary_link  nav--primary_link-standout">Code standards</a></li><li><a href="about.html" class="nav--primary_link  nav--primary_link-standout  nav--primary_link-current">About</a></li><li>
+            </ul>
+
+          </div>
+
+      </nav>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- /Primary Navigation -->

@@ -1,15 +1,21 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="row">
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+  <div class="xlarge-6  large-6  medium-12  small-12  columns">
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+    <h1>About</h1>
+
+    <p>The Co-op Style Guide forms the basis of the visual &amp; code style for digital projects. It is a work in progress and is based on the principals of <a href="http://bradfrost.com/blog/post/atomic-web-design/" class="link-icon-right">Atomic Design.</a></p>
+
+    <p>The Style Guide referrences all our common patterns so far. We have started out small, with what we know now.  We will be adding to the guide all the time as we design, build and test new elements. It will constantly change and involve based on real user behaviour.</p>
+
+    <p>The source files sit in one centrally located <a href="https://github.com/thewheatsheaf/co-op-styleguide">github repository</a> and are intended to serve all digital projects. If you for your developers require access to the repo for use in your project please contact <a href="mailto:matt.tyas@co-operative.coop">Matt Tyas</a>. More technical information about the system is located in the repository's README.md.</p>
+
+  </div>
+
+</div>
