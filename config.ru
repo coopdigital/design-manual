@@ -1,10 +1,8 @@
-puts "Username:", ENV['USERNAME']
-
-# if ENV['USERNAME'] && ENV['PASSWORD']
-use Rack::Auth::Basic, "Restricted Area" do |username, password|
-  [username, password] == [ENV['USERNAME'], ENV['PASSWORD']]
+if ENV['USERNAME'] && ENV['PASSWORD']
+  use Rack::Auth::Basic, "Restricted Area" do |username, password|
+    [username, password] == [ENV['USERNAME'], ENV['PASSWORD']]
+  end
 end
-# end
 
 require 'rack/jekyll'
 require 'yaml'
