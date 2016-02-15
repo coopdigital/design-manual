@@ -8,7 +8,6 @@ url: "http://single-site-styleguide.heroku.com"
 
 # Build settings
 source: ./styleguide
-destination: ./build
 markdown: kramdown
 sass:
   load_paths:
