@@ -10,13 +10,15 @@
   },
   "ignore": [
     "bower_components",
-    "dist",
     "node_modules",
-    "src",
+    "styleguide",
+    "_site",
     ".gitignore",
     ".travis.yml",
+    "_config.yml",
     "Gemfile",
     "Gemfile.lock",
+    "Procfile",
     "gulpfile.js",
     "package.json",
     "README.md"

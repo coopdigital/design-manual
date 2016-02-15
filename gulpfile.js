@@ -6,12 +6,9 @@ var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var connect = require('gulp-connect');
 
-var src = 'src/';
-var dist = 'dist/';
-
 gulp.task('jekyll', function (gulpCallBack){
   var spawn = require('child_process').spawn;
-  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'src'});
+  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
 
   jekyll.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
@@ -20,38 +17,34 @@ gulp.task('jekyll', function (gulpCallBack){
 
 gulp.task('lintcss', function() {
   return gulp.src([
-      'assets/_co-op-styleguide.scss',
-      'assets/scss/patterns/**/*.scss',
-      '!assets/scss/foundation-custom/**/*.scss',
-      '!assets/scss/patterns/_ie.scss'])
+      'styles/_co-op-styleguide.scss',
+      'styles/scss/patterns/**/*.scss',
+      '!styles/scss/foundation-custom/**/*.scss',
+      '!styles/scss/patterns/_ie.scss'])
     .pipe(sassLint())
     .pipe(sassLint.format())
     .pipe(sassLint.failOnError())
 });
 
 gulp.task('buildcss', function() {
-  return gulp.src('assets/kitchen-sink.scss')
+  return gulp.src('styles/kitchen-sink.scss')
     .pipe(scss({
         outputStyle: 'compressed',
-        sourcemap: true,
         includePaths: ['bower_components', 'bower_components/foundation/scss/']
       }))
       .pipe(scss.sync().on('error', scss.logError))
       .pipe(autoprefixer({browsers: ['> 5%', 'last 2 versions']}))
-      .pipe(sourcemaps.write())
-      .pipe(gulp.dest(dist + 'css/'));
+      .pipe(gulp.dest('build/css/'));
 });
 
 gulp.task('autoprefix', function () {
-  return gulp.src(dist + 'css/kitchen-sink.css')
+  return gulp.src('build/css/kitchen-sink.css')
     .pipe(autoprefixer({
       browsers: ['last 2 versions'],
       cascade: false
     }))
-    .pipe(gulp.dest(dist + 'css/'));
+    .pipe(gulp.dest('build/css/'));
 });
-
-// app.use(wwwhisper(false));
 
 gulp.task('html', function () {
   gulp.src('./*.html')
@@ -83,8 +76,8 @@ gulp.task('build', [
 
 gulp.task('watch', ['default'], function() {
   gulp.watch([
-    'assets/kitchen-sink.scss',
-    'assets/_co-op-styleguide.scss',
-    'assets/scss/**/*.scss'
+    'styles/kitchen-sink.scss',
+    'styles/_co-op-styleguide.scss',
+    'styles/scss/**/*.scss'
   ], ['build']);
 });
