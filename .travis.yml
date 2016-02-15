@@ -3,9 +3,7 @@ cache: bundler
 rvm:
 - 2.2.3
 
-script:
-- cd dist
-- bundle exec jekyll build
+script: bundle exec jekyll build
 
 deploy:
   provider: heroku

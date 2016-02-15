@@ -7,7 +7,8 @@ baseurl: ""
 url: "http://single-site-styleguide.heroku.com"
 
 # Build settings
-source: ./
-destination: ../dist/
+source: ./styleguide
 markdown: kramdown
-exclude: ['config.ru', 'Procfile']
+sass:
+  load_paths:
+    - ./styles
