@@ -1,10 +1,11 @@
 var gulp = require('gulp');
-var bower = require('gulp-bower');
 var sassLint = require('gulp-sass-lint');
 var scss = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var connect = require('gulp-connect');
+var concat = require('gulp-concat');
+var include = require('gulp-include');
 
 gulp.task('jekyll', function (gulpCallBack){
   var spawn = require('child_process').spawn;
@@ -27,23 +28,36 @@ gulp.task('lintcss', function() {
 });
 
 gulp.task('buildcss', function() {
-  return gulp.src('styles/kitchen-sink.scss')
+  return gulp.src('styleguide/_assets/css/main.scss')
     .pipe(scss({
         outputStyle: 'compressed',
-        includePaths: ['bower_components', 'bower_components/foundation/scss/']
+        includePaths: ['styles', 'bower_components', 'bower_components/foundation/scss/']
       }))
       .pipe(scss.sync().on('error', scss.logError))
       .pipe(autoprefixer({browsers: ['> 5%', 'last 2 versions']}))
-      .pipe(gulp.dest('build/css/'));
+      .pipe(gulp.dest('styleguide/css/'));
 });
 
-gulp.task('autoprefix', function () {
-  return gulp.src('build/css/kitchen-sink.css')
-    .pipe(autoprefixer({
-      browsers: ['last 2 versions'],
-      cascade: false
-    }))
-    .pipe(gulp.dest('build/css/'));
+// gulp.task('autoprefix', function () {
+//   return gulp.src('styleguide/css/main.css')
+//     .pipe(autoprefixer({
+//       browsers: ['> 5%', 'last 2 versions'],
+//       cascade: false
+//     }))
+//     .pipe(gulp.dest('build/css/'));
+// });
+
+gulp.task('buildjs', function() {
+  return gulp.src('styleguide/_assets/js/main.js')
+    .pipe(include())
+      .on('error', console.log)
+    .pipe(concat('main.js'))
+    .pipe(gulp.dest('styleguide/js/'));
+});
+
+gulp.task('copyassets', function() {
+  return gulp.src('assets/**/*')
+    .pipe(gulp.dest('styleguide/assets/'));
 });
 
 gulp.task('html', function () {
@@ -55,11 +69,9 @@ gulp.task('connect', function() {
   connect.server({
     port: 8888,
     livereload: true,
-    root: 'dist/'
+    root: 'build/'
   });
 });
-
-gulp.task('bower', bower);
 
 gulp.task('default', [
   'build',
@@ -67,17 +79,16 @@ gulp.task('default', [
 ]);
 
 gulp.task('build', [
-  'jekyll',
-  'lintcss',
+  // 'lintcss',
+  'copyassets',
   'buildcss',
-  'autoprefix',
-  'bower'
+  'buildjs',
+  'jekyll'
 ]);
 
 gulp.task('watch', ['default'], function() {
   gulp.watch([
-    'styles/kitchen-sink.scss',
-    'styles/_co-op-styleguide.scss',
-    'styles/scss/**/*.scss'
+    'styles/**/*.scss',
+    'scripts/**/*.js'
   ], ['build']);
 });
