@@ -8,6 +8,7 @@ var concat = require('gulp-concat');
 var include = require('gulp-include');
 
 gulp.task('jekyll', function (gulpCallBack){
+  // Build Style Guide pages and compile style guide assets
   var spawn = require('child_process').spawn;
   var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
 
@@ -17,6 +18,7 @@ gulp.task('jekyll', function (gulpCallBack){
 });
 
 gulp.task('lintcss', function() {
+  // Lint core toolkit CSS
   return gulp.src([
       'styles/_co-op-styleguide.scss',
       'styles/scss/patterns/**/*.scss',
@@ -28,6 +30,7 @@ gulp.task('lintcss', function() {
 });
 
 gulp.task('buildcss', function() {
+  // Compile the Style Guide CSS into the Style Guide Jekyll source
   return gulp.src('styleguide/_assets/css/main.scss')
     .pipe(scss({
         outputStyle: 'compressed',
@@ -38,16 +41,8 @@ gulp.task('buildcss', function() {
       .pipe(gulp.dest('styleguide/css/'));
 });
 
-// gulp.task('autoprefix', function () {
-//   return gulp.src('styleguide/css/main.css')
-//     .pipe(autoprefixer({
-//       browsers: ['> 5%', 'last 2 versions'],
-//       cascade: false
-//     }))
-//     .pipe(gulp.dest('build/css/'));
-// });
-
 gulp.task('buildjs', function() {
+  // Compile the Style Guide scripts into the Style Guide Jekyll source
   return gulp.src('styleguide/_assets/js/main.js')
     .pipe(include())
       .on('error', console.log)
@@ -55,13 +50,14 @@ gulp.task('buildjs', function() {
     .pipe(gulp.dest('styleguide/js/'));
 });
 
-gulp.task('copyassets', function() {
+gulp.task('assets', function() {
+  // Copy assets directory into the Style Guide Jekyll source
   return gulp.src('assets/**/*')
     .pipe(gulp.dest('styleguide/assets/'));
 });
 
-gulp.task('html', function () {
-  gulp.src('./*.html')
+gulp.task('reload', ['build'], function () {
+  gulp.src('_site/**/*')
     .pipe(connect.reload());
 });
 
@@ -69,26 +65,30 @@ gulp.task('connect', function() {
   connect.server({
     port: 8888,
     livereload: true,
-    root: 'build/'
+    root: '_site/'
   });
 });
 
-gulp.task('default', [
-  'build',
-  'connect'
-]);
-
 gulp.task('build', [
   // 'lintcss',
-  'copyassets',
+  'assets',
   'buildcss',
   'buildjs',
   'jekyll'
 ]);
 
-gulp.task('watch', ['default'], function() {
+gulp.task('watch', function() {
   gulp.watch([
-    'styles/**/*.scss',
-    'scripts/**/*.js'
-  ], ['build']);
+    'assets/**/*',
+    'styles/**/*',
+    'scripts/**/*',
+    'styleguide/**/*.html',
+    'styleguide/_assets/**/*'
+  ], ['reload']);
 });
+
+gulp.task('default', [
+  'build',
+  'connect',
+  'watch'
+]);

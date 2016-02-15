@@ -1,3 +1,7 @@
+/**
+ * For the Style Guide, import everything
+ */
+
 /*!
  * Modernizr v2.8.3
  * www.modernizr.com
