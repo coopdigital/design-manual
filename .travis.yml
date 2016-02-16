@@ -5,6 +5,8 @@ rvm:
 
 script: cd styleguide && bundle exec jekyll build
 
+before_deploy: cd ..
+
 deploy:
   provider: heroku
   api_key:
