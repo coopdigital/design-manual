@@ -4,7 +4,7 @@ This repository contains the core front-end assets for the new Co-op branding. T
 
 ## Dependencies
 
-This project uses [Jekyll](http://jekyllrb.com/) to build the Style Guide pages, and [Gulp](http://gulpjs.com/) to compile the assets into the Style Guide directory, so they can be served locally.
+This project uses [Jekyll](http://jekyllrb.com/) to build the Style Guide pages, and [Gulp](http://gulpjs.com/) to compile the assets into the Style Guide directory, so they can be served locally. The Style Guide SASS components also depend on various other libraries, installed using [Bower](http://bower.io/).
 
 You need to install Ruby, Node and Bower dependencies:
 
@@ -14,9 +14,9 @@ npm install
 bower install
 ```
 
-## Building the Style Guide
+## Local development
 
-Once dependencies have been installed, you can build the actual style guide. Gulp commands are already set up to do this.
+Once dependencies have been installed, you can build the actual Style Guide locally. Gulp commands are already set up to do this.
 
 The default gulp task is configured to build and compile all the Style Guide assets, run the local server, then watch for changes automatically, simply by running the default task:
 
@@ -38,7 +38,7 @@ This will run a number of Gulp tasks: processing the Sass, compiling the scripts
 gulp connect
 ```
 
-This will run a local server, accessible at [localhost:8888](http://localhost:8888)
+This will run a local server, accessible at <http://localhost:8888>
 
 ### Start a watch task
 ```
@@ -48,3 +48,10 @@ gulp watch
 This will watch any files in the `assets/`, `styles/`, `scripts/` directories, as well as any `.html` file in the `styleguide/` directory or any file in the `styleguide/_assets` directory. If any of these files changes, the `build` task will be called and all assets and pages will be recompiled.
 
 If you have the LiveReload extension enabled in your browser and the local server running, the page will reload automatically once the build is complete.
+
+
+## Heroku deployment
+
+The Style Guide is automatically deployed to Heroku (<https://single-site-styleguide.herokuapp.com>) when changes are pushed to or merged into the master branch.
+
+
