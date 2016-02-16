@@ -18,9 +18,13 @@ bower install
 
 Once dependencies have been installed, you can build the actual style guide. Gulp commands are already set up to do this.
 
-The default gulp task is configured to build and compile all the Style Guide assets, run the local server, then watch for changes automatically, simply by running `gulp`.
+The default gulp task is configured to build and compile all the Style Guide assets, run the local server, then watch for changes automatically, simply by running the default task:
 
-You can also run each of the tasks individually.
+```
+gulp
+```
+
+You can also run each of the tasks individually:
 
 ### Build and compile all the assets
 ```

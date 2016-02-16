@@ -29,7 +29,7 @@
 
 $brand: false !default;
 
-$coop-blue: #00a1cc !default;
+$coop-blue: red !default;
 
 @if $brand == 'coop' {
   // New blue
