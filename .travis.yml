@@ -3,7 +3,7 @@ cache: bundler
 rvm:
 - 2.2.3
 
-script: bundle exec jekyll build
+script: cd styleguide && bundle exec jekyll build
 
 deploy:
   provider: heroku

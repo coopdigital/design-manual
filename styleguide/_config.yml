@@ -7,11 +7,7 @@ baseurl: ""
 url: "http://single-site-styleguide.heroku.com"
 
 # Build settings
-source: ./styleguide
+source: ./
+destination: ../build
+keep_files: ['css', 'js', 'assets']
 markdown: kramdown
-sass:
-  load_paths:
-    - ./
-    - ./styles
-    - ./bower_components
-    - ./bower_components/foundation/scss/

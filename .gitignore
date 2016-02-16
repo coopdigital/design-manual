@@ -7,7 +7,6 @@ bower_components/
 vendor/
 
 # Jekyll/styleguide builds
-_site/
 .env
 .sass-cache
 .jekyll-metadata

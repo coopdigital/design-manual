@@ -29,14 +29,14 @@
 
 $brand: false !default;
 
-$coop-blue: red !default;
-
 @if $brand == 'coop' {
   // New blue
   $coop-blue:               #00a1cc;
 } @if $brand == 'coop-current' {
   // Current blue
   $coop-blue:               #002465;
+} @else {
+  $coop-blue:               #00a1cc;
 }
 
 /* [2] */

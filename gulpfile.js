@@ -10,7 +10,7 @@ var include = require('gulp-include');
 gulp.task('jekyll', function (gulpCallBack){
   // Build Style Guide pages and compile style guide assets
   var spawn = require('child_process').spawn;
-  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit'});
+  var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'styleguide'});
 
   jekyll.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
@@ -31,33 +31,33 @@ gulp.task('lintcss', function() {
 
 gulp.task('buildcss', function() {
   // Compile the Style Guide CSS into the Style Guide Jekyll source
-  return gulp.src('styleguide/_assets/css/main.scss')
+  return gulp.src('styleguide/_css/main.scss')
     .pipe(scss({
         outputStyle: 'compressed',
         includePaths: ['styles', 'bower_components', 'bower_components/foundation/scss/']
       }))
       .pipe(scss.sync().on('error', scss.logError))
       .pipe(autoprefixer({browsers: ['> 5%', 'last 2 versions']}))
-      .pipe(gulp.dest('styleguide/css/'));
+      .pipe(gulp.dest('build/css/'));
 });
 
 gulp.task('buildjs', function() {
   // Compile the Style Guide scripts into the Style Guide Jekyll source
-  return gulp.src('styleguide/_assets/js/main.js')
+  return gulp.src('styleguide/_js/main.js')
     .pipe(include())
       .on('error', console.log)
     .pipe(concat('main.js'))
-    .pipe(gulp.dest('styleguide/js/'));
+    .pipe(gulp.dest('build/js/'));
 });
 
 gulp.task('assets', function() {
   // Copy assets directory into the Style Guide Jekyll source
   return gulp.src('assets/**/*')
-    .pipe(gulp.dest('styleguide/assets/'));
+    .pipe(gulp.dest('build/assets/'));
 });
 
 gulp.task('reload', ['build'], function () {
-  gulp.src('_site/**/*')
+  gulp.src('build/**/*')
     .pipe(connect.reload());
 });
 
@@ -65,16 +65,16 @@ gulp.task('connect', function() {
   connect.server({
     port: 8888,
     livereload: true,
-    root: '_site/'
+    root: 'build/'
   });
 });
 
 gulp.task('build', [
   // 'lintcss',
+  'jekyll',
   'assets',
   'buildcss',
-  'buildjs',
-  'jekyll'
+  'buildjs'
 ]);
 
 gulp.task('watch', function() {
@@ -82,8 +82,7 @@ gulp.task('watch', function() {
     'assets/**/*',
     'styles/**/*',
     'scripts/**/*',
-    'styleguide/**/*.html',
-    'styleguide/_assets/**/*'
+    'styleguide/**/*'
   ], ['reload']);
 });
 
