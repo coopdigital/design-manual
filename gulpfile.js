@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var sassLint = require('gulp-sass-lint');
-var scss = require('gulp-sass');
+var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var connect = require('gulp-connect');
@@ -32,13 +32,15 @@ gulp.task('lintcss', function() {
 gulp.task('buildcss', function() {
   // Compile the Style Guide CSS into the Style Guide Jekyll source
   return gulp.src('styleguide/_css/main.scss')
-    .pipe(scss({
-        outputStyle: 'compressed',
-        includePaths: ['styles', 'bower_components', 'bower_components/foundation/scss/']
-      }))
-      .pipe(scss.sync().on('error', scss.logError))
-      .pipe(autoprefixer({browsers: ['> 5%', 'last 2 versions']}))
-      .pipe(gulp.dest('build/css/'));
+    .pipe(sourcemaps.init())
+    .pipe(sass({
+      outputStyle: 'compressed',
+      includePaths: ['styles', 'bower_components', 'bower_components/foundation/scss/']
+    }))
+    .on('error', sass.logError)
+    .pipe(autoprefixer({browsers: ['> 5%', 'last 2 versions']}))
+    .pipe(sourcemaps.write('maps/'))
+    .pipe(gulp.dest('build/css/'));
 });
 
 gulp.task('buildjs', function() {
