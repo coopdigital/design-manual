@@ -79,8 +79,10 @@ gulp.task('watch', function() {
   ], ['reload']);
 });
 
-gulp.task('default', [
+gulp.task('server', [
   'build',
   'connect',
   'watch'
 ]);
+
+gulp.task('default', ['build']);
