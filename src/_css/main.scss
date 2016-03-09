@@ -1,7 +1,5 @@
-/**
- * For the Style Guide, import everything
- */
+$base-asset-url: '/assets/';
 
-// $brand: 'coop-current';
+@import 'coop-toolkit';
 
-@import "kitchen-sink";
+@import 'styleguide';

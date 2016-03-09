@@ -1,0 +1,33 @@
+.back-to-top {
+  font-size: .625em;
+}
+
+.logo {
+  margin: 0 0 $quarter-spacing-unit;
+}
+
+.icons-list {
+  margin-bottom: 10px;
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    color: $coop-blue;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+  }
+}
+
+.icon-sizes {
+  .icon {
+    color: $coop-blue;
+  }
+}
+
+.colour-swatch {
+  @include boxed;
+  border-bottom: 0;
+  height: 3em;
+}
