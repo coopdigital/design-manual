@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var sassLint = require('gulp-sass-lint');
+var scsslint = require('gulp-scss-lint');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
@@ -17,21 +17,15 @@ gulp.task('jekyll', function (gulpCallBack){
   });
 });
 
-// gulp.task('lintcss', function() {
-//   // Lint core toolkit CSS
-//   return gulp.src([
-//       'styles/_co-op-styleguide.scss',
-//       'styles/scss/patterns/**/*.scss',
-//       '!styles/scss/foundation-custom/**/*.scss',
-//       '!styles/scss/patterns/_ie.scss'])
-//     .pipe(sassLint())
-//     .pipe(sassLint.format())
-//     .pipe(sassLint.failOnError())
-// });
+gulp.task('lintscss', function() {
+  // Lint site Sass
+  gulp.src('src/_css/**/*.scss')
+    .pipe(scsslint());
+});
 
 gulp.task('buildcss', function() {
   // Compile the Style Guide CSS into the Style Guide Jekyll source
-  return gulp.src('src/_css/main.scss')
+  gulp.src('src/_css/main.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({
       outputStyle: 'compressed',
@@ -45,7 +39,7 @@ gulp.task('buildcss', function() {
 
 gulp.task('buildjs', function() {
   // Compile the Style Guide scripts into the Style Guide Jekyll source
-  return gulp.src('src/_js/main.js')
+  gulp.src('src/_js/main.js')
     .pipe(include())
       .on('error', console.log)
     .pipe(concat('main.js'))
@@ -54,7 +48,7 @@ gulp.task('buildjs', function() {
 
 gulp.task('assets', function() {
   // Copy assets directory into the Style Guide Jekyll source
-  return gulp.src('bower_components/coop-frontend-toolkit/static/**/*')
+  gulp.src('bower_components/coop-frontend-toolkit/static/**/*')
     .pipe(gulp.dest('build/assets/'));
 });
 
@@ -72,7 +66,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('build', [
-  // 'lintcss',
+  'lintscss',
   'jekyll',
   'assets',
   'buildcss',
