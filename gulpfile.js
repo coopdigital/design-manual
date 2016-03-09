@@ -25,7 +25,7 @@ gulp.task('lintscss', function() {
 
 gulp.task('buildcss', function() {
   // Compile the Style Guide CSS into the Style Guide Jekyll source
-  gulp.src('src/_css/main.scss')
+  gulp.src('src/_css/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({
       outputStyle: 'compressed',
