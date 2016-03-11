@@ -27,7 +27,8 @@
 }
 
 .colour-swatch {
-  @include boxed;
+  @extend %boxed;
+
   border-bottom: 0;
   height: 3em;
 }
