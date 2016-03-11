@@ -68,6 +68,10 @@ gulp.task('lintscss', function() {
  */
 
 // Jekyll
+gulp.task('html', ['jekyll'], function() {
+  gulp.src(dest + '**/*.html')
+    .pipe(connect.reload());
+});
 gulp.task('jekyll', function (gulpCallBack){
   var spawn = require('child_process').spawn;
   var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'src'});
@@ -121,7 +125,7 @@ gulp.task('watch', function() {
   gulp.watch(src_paths.styles, ['lintscss', 'css']);
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
   gulp.watch(src_paths.assets, ['assets']);
-  gulp.watch(src_paths.html, ['jekyll']);
+  gulp.watch(src_paths.html, ['html']);
 });
 
 
@@ -140,7 +144,7 @@ gulp.task('connect', function() {
  * Run tasks
  */
 
-gulp.task('build', ['jekyll', 'lintscss', 'css', 'lintjs', 'js', 'assets']);
+gulp.task('build', ['html', 'lintscss', 'css', 'lintjs', 'js', 'assets']);
 gulp.task('server', ['build', 'watch', 'connect']);
 
 gulp.task('default', ['build']);
