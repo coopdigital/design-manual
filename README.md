@@ -1,10 +1,10 @@
 # Single Site Style Guide
 
-This repository contains the core front-end assets for the new Co-op branding. The styles can be previewed on the included Style Guide.
+The Single Site Style Guide showcases the core styles and components available from the [Co-op Front-end Toolkit](https://github.com/coopdigital/coop-frontend-toolkit).
 
 ## Dependencies
 
-This project uses [Jekyll](http://jekyllrb.com/) to build the Style Guide pages, and [Gulp](http://gulpjs.com/) to compile the assets into the Style Guide directory, so they can be served locally. The Style Guide SASS components also depend on various other libraries, installed using [Bower](http://bower.io/).
+This project uses [Jekyll](http://jekyllrb.com/) to build the Style Guide pages, [Bower](http://bower.io) to include the Front-end Toolkit dependency and [Gulp](http://gulpjs.com/) to compile the assets into the Style Guide directory.
 
 You need to install Ruby, Node and Bower dependencies:
 
@@ -16,42 +16,59 @@ bower install
 
 ## Local development
 
-Once dependencies have been installed, you can build the actual Style Guide locally. Gulp commands are already set up to do this.
+Once dependencies have been installed, you can build and serve the Style Guide locally. Gulp commands are already set up to generate the Jekyll build, lint and compile the SASS and JavaScript, to copy over necessary assets from the Toolkit, and to run a local server for development.
 
-The default gulp task is configured to build and compile all the Style Guide assets, run the local server, then watch for changes automatically, simply by running the default task:
+The default gulp task is configured to build and compile all the Style Guide assets:
 
 ```
 gulp
 ```
 
-You can also run each of the tasks individually:
+To compile all the assets as well as starting the local server and the watch tasks, run:
 
-### Build and compile all the assets
 ```
-gulp build
+gulp server
 ```
-This will run a number of Gulp tasks: processing the Sass, compiling the scripts, and copying over any assets required, then building the Jekyll Style Guide.
-
 
 ### Run a local server
 ```
 gulp connect
 ```
 
-This will run a local server, accessible at <http://localhost:8888>
+This will run a local server, accessible at <http://localhost:9000>
 
 ### Start a watch task
 ```
 gulp watch
 ```
 
-This will watch any files in the `assets/`, `styles/`, `scripts/` directories, as well as any `.html` file in the `styleguide/` directory or any file in the `styleguide/_assets` directory. If any of these files changes, the `build` task will be called and all assets and pages will be recompiled.
+This will watch any files in the `src/` directory, and run the relevant task to compile them if any file change is detected. The Toolkit dependency directory (`bower_components/coop-frontend-toolkit`) is also watched to make local development work on the Toolkit easier.
 
 If you have the LiveReload extension enabled in your browser and the local server running, the page will reload automatically once the build is complete.
-
 
 ## Heroku deployment
 
 The Style Guide is automatically deployed to Heroku (<https://single-site-styleguide.herokuapp.com>) when changes are pushed to or merged into the master branch.
 
+## Working on the [Co-op Front-end Toolkit](https://github.com/coopdigital/coop-frontend-toolkit)
 
+The Single Site Style Guide is set up to allow easy development work on the Toolkit. In order to reflect changes made to your local version of the Toolkit directly in your local version of the Style Guide, you must first link the bower dependency to your local version of the Toolkit.
+
+If you haven't done so, first clone the Toolkit repository:
+```
+git clone git@github.com:coopdigital/coop-frontend-toolkit.git
+```
+
+Create a reference to the local Bower package from the Toolkit directory:
+```
+cd coop-frontend-toolkit
+bower link
+```
+
+From the Style Guide directory, link the bower package to the local version:
+```
+cd ../single-site-styleguide
+bower link coop-frontend-toolkit
+```
+
+Any changes made to the local version of the Toolkit will now automatically be reflected in the local version of the Style Guide. The Gulp watch tasks are set up to pick up changes made to the Toolkit files automatically, so any change will trigger a recompiling of the assets and reload the browser if you have the server running.
