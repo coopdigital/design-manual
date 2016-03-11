@@ -6,9 +6,69 @@ var sourcemaps = require('gulp-sourcemaps');
 var connect = require('gulp-connect');
 var concat = require('gulp-concat');
 var include = require('gulp-include');
+var jshint = require('gulp-jshint');
+var stylish = require('jshint-stylish');
+var uglify = require('gulp-uglify');
 
+
+/**
+ * Settings
+ */
+var src = 'src/';
+var dest = 'build/';
+
+var src_paths = {
+  styles: src + '_css/**/*.scss',
+  scripts: src + '_js/**/*.js',
+  assets: [
+    src + '_assets/**/*',
+    'bower_components/coop-frontend-toolkit/static/**/*'
+  ],
+  html: src + '**/*.html'
+};
+
+var dest_paths = {
+  styles: dest + 'assets/css',
+  scripts: dest + 'assets/js',
+  assets: dest + 'assets'
+};
+
+var settings = {
+  sass: {
+    outputStyle: 'compressed',
+    includePaths: [
+      'bower_components/coop-frontend-toolkit/styles/',
+      src + 'src/css'
+    ]
+  },
+  autoprefixer: {
+    browsers: ['> 5%', 'last 2 versions']
+  }
+};
+
+
+
+/**
+ * Lint tasks
+ */
+gulp.task('lintjs', function() {
+  gulp.src(src_paths.scripts)
+    .pipe(jshint())
+    .pipe(jshint.reporter(stylish));
+});
+
+gulp.task('lintscss', function() {
+  gulp.src(src_paths.styles)
+    .pipe(scsslint());
+});
+
+
+/**
+ * Build tasks
+ */
+
+// Jekyll
 gulp.task('jekyll', function (gulpCallBack){
-  // Build Style Guide pages and compile style guide assets
   var spawn = require('child_process').spawn;
   var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'src'});
 
@@ -17,72 +77,70 @@ gulp.task('jekyll', function (gulpCallBack){
   });
 });
 
-gulp.task('lintscss', function() {
-  // Lint site Sass
-  gulp.src('src/_css/**/*.scss')
-    .pipe(scsslint());
-});
-
-gulp.task('buildcss', function() {
-  // Compile the Style Guide CSS into the Style Guide Jekyll source
-  gulp.src('src/_css/**/*.scss')
+// Styles
+gulp.task('css', function() {
+  gulp.src(src_paths.styles)
     .pipe(sourcemaps.init())
-    .pipe(sass({
-      outputStyle: 'compressed',
-      includePaths: ['bower_components/coop-frontend-toolkit/styles']
-    }))
-    .on('error', sass.logError)
-    .pipe(autoprefixer({browsers: ['> 5%', 'last 2 versions']}))
+      .pipe(sass(settings.sass))
+      .on('error', sass.logError)
+      .pipe(autoprefixer(settings.autoprefixer))
     .pipe(sourcemaps.write('maps/'))
-    .pipe(gulp.dest('build/css/'));
-});
-
-gulp.task('buildjs', function() {
-  // Compile the Style Guide scripts into the Style Guide Jekyll source
-  gulp.src('src/_js/main.js')
-    .pipe(include())
-      .on('error', console.log)
-    .pipe(concat('main.js'))
-    .pipe(gulp.dest('build/js/'));
-});
-
-gulp.task('assets', function() {
-  // Copy assets directory into the Style Guide Jekyll source
-  gulp.src('bower_components/coop-frontend-toolkit/static/**/*')
-    .pipe(gulp.dest('build/assets/'));
-});
-
-gulp.task('reload', ['build'], function () {
-  gulp.src('build/**/*')
+    .pipe(gulp.dest(dest_paths.styles))
     .pipe(connect.reload());
 });
 
+// Scripts
+gulp.task('js', function() {
+  gulp.src(src_paths.scripts)
+    .pipe(sourcemaps.init())
+      .pipe(include())
+      .pipe(concat('main.js'))
+      .pipe(uglify())
+    .pipe(sourcemaps.write('maps/'))
+    .pipe(gulp.dest(dest_paths.scripts))
+    .pipe(connect.reload());
+});
+
+// Static assets
+gulp.task('assets', function() {
+  gulp.src(src_paths.assets)
+    .pipe(gulp.dest(dest_paths.assets))
+    .pipe(connect.reload());
+});
+
+
+/**
+ * Watch tasks
+ */
+gulp.task('watch', function() {
+  // Toolkit watching for local development
+  gulp.watch('bower_components/coop-frontend-toolkit/styles/**/*.scss', ['css']);
+  gulp.watch('bower_components/coop-frontend-toolkit/scripts/**/*.js', ['js']);
+
+  // Source
+  gulp.watch(src_paths.styles, ['lintscss', 'css']);
+  gulp.watch(src_paths.scripts, ['lintjs', 'js']);
+  gulp.watch(src_paths.assets, ['assets']);
+  gulp.watch(src_paths.html, ['jekyll']);
+});
+
+
+/**
+ * Local server
+ */
 gulp.task('connect', function() {
   connect.server({
-    port: 8888,
-    livereload: true,
-    root: 'build/'
+    port: 9000,
+    root: 'build',
+    livereload: true
   });
 });
 
-gulp.task('build', [
-  'lintscss',
-  'jekyll',
-  'assets',
-  'buildcss',
-  'buildjs'
-]);
+/**
+ * Run tasks
+ */
 
-gulp.task('watch', function() {
-  gulp.watch([
-    'src/**/*'
-  ], ['reload']);
-});
-
-gulp.task('server', [
-  'build',
-  'connect',
-  'watch'
-]);
+gulp.task('build', ['jekyll', 'lintscss', 'css', 'lintjs', 'js', 'assets']);
+gulp.task('server', ['build', 'watch', 'connect']);
 
 gulp.task('default', ['build']);
