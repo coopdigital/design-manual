@@ -9,6 +9,7 @@ var include = require('gulp-include');
 var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
 var uglify = require('gulp-uglify');
+var mocha = require('gulp-mocha');
 
 
 /**
@@ -82,7 +83,7 @@ gulp.task('jekyll', function (gulpCallBack){
 });
 
 // Styles
-gulp.task('css', function() {
+gulp.task('css', ['lintscss'], function() {
   gulp.src(src_paths.styles)
     .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
@@ -94,7 +95,7 @@ gulp.task('css', function() {
 });
 
 // Scripts
-gulp.task('js', function() {
+gulp.task('js', ['lintjs'], function() {
   gulp.src(src_paths.scripts)
     .pipe(sourcemaps.init())
       .pipe(include())
@@ -111,6 +112,16 @@ gulp.task('assets', function() {
     .pipe(gulp.dest(dest_paths.assets))
     .pipe(connect.reload());
 });
+
+
+/**
+ * Tests
+ */
+gulp.task('testjs', function() {
+  gulp.src('test.js')
+    .pipe(mocha());
+});
+
 
 
 /**
@@ -143,8 +154,8 @@ gulp.task('connect', function() {
 /**
  * Run tasks
  */
-
-gulp.task('build', ['html', 'lintscss', 'css', 'lintjs', 'js', 'assets']);
+gulp.task('test', ['testjs']);
+gulp.task('build', ['html', 'css', 'js', 'assets']);
 gulp.task('server', ['build', 'watch', 'connect']);
 
 gulp.task('default', ['build']);
