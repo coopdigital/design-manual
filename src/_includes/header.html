@@ -36,12 +36,12 @@
 <!-- /Header -->
 
 <!-- Primary Navigation -->
-<nav id="navigation" class="nav-primary nav-standout">
+<nav id="navigation" class="nav-primary">
     <div class="wrap">
 
         <ul>
-            <li><a{% if page.id == 'index' %} class="active"{% endif %} href="/">Design elements</a></li><!--
-            --><li><a{% if page.id == 'standards' %} class="active"{% endif %} href="/standards.html">Code standards</a></li>
+            <li{% if page.id == 'index' %} class="active"{% endif %}><a href="/">Design elements</a></li><!--
+            --><li{% if page.id == 'standards' %} class="active"{% endif %}><a href="/standards.html">Code standards</a></li>
         </ul>
 
     </div>
