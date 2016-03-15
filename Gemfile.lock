@@ -24,12 +24,16 @@ GEM
     mercenary (0.3.5)
     puma (3.1.0)
     rack (1.6.4)
+    rake (10.5.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.21)
+    scss_lint (0.47.1)
+      rake (>= 0.9, < 11)
+      sass (~> 3.4.15)
 
 PLATFORMS
   ruby
@@ -39,6 +43,7 @@ DEPENDENCIES
   kramdown
   puma
   rack
+  scss_lint
 
 BUNDLED WITH
    1.11.2

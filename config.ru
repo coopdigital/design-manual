@@ -4,7 +4,10 @@ if ENV['USERNAME'] && ENV['PASSWORD']
   end
 end
 
-use Rack::Static, :urls => [""], :root => '.', :index => 'index.html'
+use Rack::Static,
+  :urls => [""],
+  :root => 'build',
+  :index => 'index.html'
 
 run lambda { |env|
   [
@@ -13,6 +16,6 @@ run lambda { |env|
       'Content-Type'  => 'text/html',
       'Cache-Control' => 'public, max-age=0'
     },
-    File.open('index.html', File::RDONLY)
+    File.open('build/index.html', File::RDONLY)
   ]
 }
