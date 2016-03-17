@@ -105,6 +105,10 @@ gulp.task('js', ['lintjs'], function() {
     .pipe(gulp.dest(dest_paths.scripts))
     .pipe(connect.reload());
 });
+gulp.task('vendorjs', function() {
+  gulp.src('bower_components/coop-frontend-toolkit/scripts/vendor/**/*')
+    .pipe(gulp.dest(dest_paths.scripts + '/vendor'));
+});
 
 // Static assets
 gulp.task('assets', function() {
@@ -155,7 +159,7 @@ gulp.task('connect', function() {
  * Run tasks
  */
 gulp.task('test', ['testjs']);
-gulp.task('build', ['html', 'css', 'js', 'assets']);
+gulp.task('build', ['html', 'css', 'vendorjs', 'js', 'assets']);
 gulp.task('server', ['build', 'watch', 'connect']);
 
 gulp.task('default', ['build']);
