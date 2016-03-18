@@ -23,7 +23,7 @@ var src_paths = {
   scripts: src + '_js/**/*.js',
   assets: [
     src + '_assets/**/*',
-    'bower_components/coop-frontend-toolkit/static/**/*'
+    'node_modules/coop-frontend-toolkit/static/**/*'
   ],
   html: src + '**/*.html'
 };
@@ -38,7 +38,7 @@ var settings = {
   sass: {
     outputStyle: 'compressed',
     includePaths: [
-      'bower_components/coop-frontend-toolkit/styles/',
+      'node_modules/coop-frontend-toolkit/styles/',
       src + 'src/css'
     ]
   },
@@ -106,7 +106,7 @@ gulp.task('js', ['lintjs'], function() {
     .pipe(connect.reload());
 });
 gulp.task('vendorjs', function() {
-  gulp.src('bower_components/coop-frontend-toolkit/scripts/vendor/**/*')
+  gulp.src('node_modules/coop-frontend-toolkit/scripts/vendor/**/*')
     .pipe(gulp.dest(dest_paths.scripts + '/vendor'));
 });
 
@@ -133,8 +133,8 @@ gulp.task('testjs', function() {
  */
 gulp.task('watch', function() {
   // Toolkit watching for local development
-  gulp.watch('bower_components/coop-frontend-toolkit/styles/**/*.scss', ['css']);
-  gulp.watch('bower_components/coop-frontend-toolkit/scripts/**/*.js', ['js']);
+  gulp.watch('node_modules/coop-frontend-toolkit/styles/**/*.scss', ['css']);
+  gulp.watch('node_modules/coop-frontend-toolkit/scripts/**/*.js', ['js']);
 
   // Source
   gulp.watch(src_paths.styles, ['lintscss', 'css']);

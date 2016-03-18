@@ -1,6 +1,0 @@
-{
-  "name": "single-site-styleguide",
-  "dependencies": {
-    "coop-frontend-toolkit": "git@github.com:coopdigital/coop-frontend-toolkit.git#0.1.4"
-  }
-}
