@@ -32,3 +32,20 @@
   border-bottom: 0;
   height: 3em;
 }
+
+.example {
+  @extend %boxed;
+
+  position: relative;
+  padding-top: 2.5em;
+  margin-bottom: 2em;
+
+  &:before {
+    content: "Example";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $offwhite;
+    padding: .25em;
+  }
+}

@@ -19,8 +19,8 @@ var src = 'src/';
 var dest = 'build/';
 
 var src_paths = {
-  styles: src + '_css/**/*.scss',
-  scripts: src + '_js/**/*.js',
+  styles: src + '_css/*.scss',
+  scripts: src + '_js/*.js',
   assets: [
     src + '_assets/**/*',
     'node_modules/coop-frontend-toolkit/static/**/*'
@@ -53,13 +53,19 @@ var settings = {
  * Lint tasks
  */
 gulp.task('lintjs', function() {
-  gulp.src(src_paths.scripts)
+  gulp.src([
+    src_paths.scripts,
+    '!' + src + '_js/vendor'
+  ])
     .pipe(jshint())
     .pipe(jshint.reporter(stylish));
 });
 
 gulp.task('lintscss', function() {
-  gulp.src(src_paths.styles)
+  gulp.src([
+    src_paths.styles,
+    '!src/_css/_prism.scss'
+  ])
     .pipe(scsslint());
 });
 
@@ -106,7 +112,7 @@ gulp.task('js', ['lintjs'], function() {
     .pipe(connect.reload());
 });
 gulp.task('vendorjs', function() {
-  gulp.src('node_modules/coop-frontend-toolkit/scripts/vendor/**/*')
+  gulp.src(['node_modules/coop-frontend-toolkit/scripts/vendor/**/*', src + '_js/vendor/**/*'])
     .pipe(gulp.dest(dest_paths.scripts + '/vendor'));
 });
 
