@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Single Site Style guide</title>
+
+    <meta name="description" content="Single-site Style guide">
+
+    <!--[if lte IE 8]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ie-lte8.css" />
+    <![endif]-->
+    <!--[if IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie-9.css"><![endif]-->
+    <!--[if gt IE 9]><!--><link rel="stylesheet" type="text/css" href="/assets/css/main.css"><!--<![endif]-->
+
+    <link rel="canonical" href="http://single-site-styleguide.heroku.com/typography.html">
+</head>
+<body>
+
+    <!-- Skip nav -->
+<nav class="skip-nav">
+    <ul>
+        <li><a accesskey="c" href="#main" title="Skip to main content">Skip to content</a></li>
+        <li><a accesskey="n" href="#navigation" title="Skip to primary navigation">Skip to navigation</a></li>
+    </ul>
+</nav>
+<!-- /Skip nav -->
+
+<!-- Top bar -->
+<div class="top-bar">
+    <div class="wrap">
+        <a href="#">Become a Member</a>
+    </div>
+</div>
+<!-- /Top bar -->
+
+<header class="wrap header-main">
+
+    <a class="coop-logo" aria-label="Homepage" href="/">
+        <img src="/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/assets/images/logos/coopX2.png'">
+    </a>
+
+    <a href="/" class="identifier">Style Guide</a>
+
+    <a href="#" class="mobile-menu-toggle">
+        <span class="icon icon-menu"></span><span class="mobile-menu-text">Menu</span>
+    </a>
+</header>
+
+<!-- Primary Navigation -->
+<nav id="navigation" class="nav-primary">
+    <div class="wrap">
+
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/branding.html">Branding</a></li>
+            <li class="active"><a href="/typography.html">Typography</a></li>
+            <li><a href="/colours.html">Colours</a></li>
+            <li><a href="/forms.html">Forms</a></li>
+            <li><a href="/elements.html">Elements</a></li>
+            <li><a href="/standards.html">Code standards</a></li>
+        </ul>
+
+    </div>
+</nav>
+<!-- /Primary Navigation -->
+
+
+    <main id="main" class="main">
+
+      <div class="wrap">
+
+    <h1>Typography</h1>
+
+    <h2 id="webfont">Avenir webfonts</h2>
+
+    <p>TBC</p>
+
+    <h2 id="typographic-scale">Typographic scale <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <p>This is the basic typographic scale for use across desktop and mobile sizes. In this basic scale only the H1 is affected by the device size and drops to be more appropriate on a small device.</p>
+
+    <p>It may be appropriate to use smaller sizes at mobile to allow for more content to be on screen. This is fine, and at the designers discretion. All we ask is that colour contrast ratios and all other appropriate accessibility critera from our digital guidelines are met.</p>
+
+    <p>CSS classes are provided so that should a developer need to create a certain visual hierarchy, they can, without breaking the semantics of the page. This is known as a <a href="http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/">Double strand heading hierarchy.</a></p>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <h1>H1 &ndash; 36px heading (30px mobile)</h1>
+                <h2>H2 &ndash; 21px heading</h2>
+                <h3>H3 &ndash; 19px heading</h3>
+                <h4>H4 &ndash; 16px heading</h4>
+                <h5>H5 &ndash; 13px heading</h5>
+                <h6>H6 &ndash; 11px heading</h6>
+
+                <p>16px should be used for body text. All copy below 18px must be in dark grey (#6e6e6e) for accessibility purposes</p>
+                <p class="smallprint">Small print should be 13px desktop, 11px mobile</p>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;h1&gt;H1 &amp;ndash; 36px heading (30px mobile)&lt;/h1&gt;
+&lt;h2&gt;H2 &amp;ndash; 21px heading&lt;/h2&gt;
+&lt;h3&gt;H3 &amp;ndash; 19px heading&lt;/h3&gt;
+&lt;h4&gt;H4 &amp;ndash; 16px heading&lt;/h4&gt;
+&lt;h5&gt;H5 &amp;ndash; 13px heading&lt;/h5&gt;
+&lt;h6&gt;H6 &amp;ndash; 11px heading&lt;/h6&gt;
+&lt;p&gt;16px should be used for body text. All copy below 18px must be in dark grey (#6e6e6e) for accessibility purposes&lt;/p&gt;
+&lt;p class=&quot;smallprint&quot;&gt;Small print should be 13px desktop, 11px mobile&lt;/p&gt;</code></pre>
+        </div>
+    </div>
+
+    <h3 id="typographic-styles">Typographic styles <a href="#top" class="back-to-top">Back to top</a></h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <p><a href="#">This is a text link</a></p>
+
+                <p><strong>Strong is used to indicate strong importance</strong></p>
+
+                <p><em>This text has added emphasis</em></p>
+
+                <p>The <b>b element</b> is stylistically different text from normal text, without any special importance</p>
+
+                <p>The <i>i element</i> is text that is set off from the normal text</p>
+
+                <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation</p>
+
+                <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+                <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation</q></p>
+
+                <blockquote>
+                    <p>This is a block quotation.</p>
+                    <cite>This is a citation</cite>
+                </blockquote>
+
+                <p>The <mark>mark element</mark> indicates a highlight.</p>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;p&gt;&lt;a href=&quot;#&quot;&gt;This is a text link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Strong is used to indicate strong importance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This text has added emphasis&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;b&gt;b element&lt;/b&gt; is stylistically different text from normal text, without any special importance&lt;/p&gt;
+
+&lt;p&gt;The &lt;i&gt;i element&lt;/i&gt; is text that is set off from the normal text&lt;/p&gt;
+
+&lt;p&gt;The &lt;u&gt;u element&lt;/u&gt; is text with an unarticulated, though explicitly rendered, non-textual annotation&lt;/p&gt;
+
+&lt;p&gt;Abbreviation: &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;q cite=&quot;https://developer.mozilla.org/en-US/docs/HTML/Element/q&quot;&gt;This text is a short inline quotation&lt;/q&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;This is a block quotation.&lt;/p&gt;
+    &lt;cite&gt;This is a citation&lt;/cite&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;mark&gt;mark element&lt;/mark&gt; indicates a highlight&lt;/p&gt;</code></pre>
+        </div>
+    </div>
+
+</div>
+
+
+    </main>
+
+    <!-- Main footer -->
+<footer class="footer-main">
+    <div class="wrap footer-main-top">
+
+       <!-- Logo -->
+       <a class="coop-logo" aria-label="Homepage" href="/">
+           <img src="/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/assets/images/logos/coopX2.png'">
+       </a>
+       <!-- /Logo -->
+
+    </div>
+
+    <nav class="bottom-links">
+        <ul class="wrap">
+            <li><a href="#">Privacy & cookies</a></li>
+            <li><a href="#">Accessibility</a></li>
+            <li><a href="#">Terms & conditions</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrap legalese">
+        <p>Copyright &copy; Co-operative Group Limited. All rights reserved.</p>
+    </div>
+
+</footer>
+<!-- /Main footer -->
+
+
+    <!-- Need a gulp task for concat etc really -->
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js" integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.12.1.min.js"><\/script>')</script>
+
+    <script src="/assets/js/main.js"></script>
+
+    <script src="/assets/js/vendor/prism.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+---
+layout: default
+id: branding
+---
+
+<div class="wrap">
+
+    <h1>Branding</h1>
+
+    <h2 id="logo-usage">Logo usage <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <p>The main logo should be used at a width of 36px on mobile, 72px on desktop. The logo should be served as a SVG image (<a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/static/images/logos/coop-logo.svg">from the Co-op Front-end Toolkit</a>) with a PNG image fallback for browsers that do not support PNG.</p>
+
+    <div class="row">
+        <div class="column medium-6">
+
+            <h4>Mobile size - 36px</h4>
+
+            <div class="margin-bh">
+                <span class="coop-logo">
+                    <img src="/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/assets/images/logos/coopX2.png'">
+                </span>
+            </div>
+
+            <pre><code class="language-html">&lt;span class=&quot;coop-logo&quot;&gt;
+    &lt;img src=&quot;/assets/images/logos/coop-logo.svg&quot; alt=&quot;Co-op&quot; onerror=&quot;this.onerror=null; this.src=&apos;/assets/images/logos/coopX2.png&apos;&quot;&gt;
+&lt;/span&gt;</code></pre>
+        </div>
+
+        <div class="column medium-6">
+
+            <h4>Desktop size - 72px</h4>
+
+            <div class="margin-bh">
+                <span class="coop-logo-large">
+                    <img src="/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/assets/images/logos/coopX2.png'">
+                </span>
+            </div>
+
+            <pre><code class="language-html">&lt;span class=&quot;coop-logo-large&quot;&gt;
+    &lt;img src=&quot;/assets/images/logos/coop-logo.svg&quot; alt=&quot;Co-op&quot; onerror=&quot;this.onerror=null; this.src=&apos;/assets/images/logos/coopX2.png&apos;&quot;&gt;
+&lt;/span&gt;</code></pre>
+        </div>
+    </div>
+
+</div>
