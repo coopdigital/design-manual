@@ -1,0 +1,270 @@
+---
+layout: default
+id: components
+---
+
+<div class="wrap">
+
+    <h1>Components</h1>
+
+    <nav>
+        <ul class="list-inline">
+            <li><a href="#logo" class="btn btn-small btn-pill">Logo</a></li>
+            <li><a href="#breadcrumbs" class="btn btn-small btn-pill">Breadcrumbs</a></li>
+            <li><a href="#pagination" class="btn btn-small btn-pill">Pagination</a></li>
+            <li><a href="#panels" class="btn btn-small btn-pill">Panels</a></li>
+            <li><a href="#tabs" class="btn btn-small btn-pill">Tabs</a></li>
+            <li><a href="#toggles" class="btn btn-small btn-pill">Toggles</a></li>
+            <li><a href="#accordion" class="btn btn-small btn-pill">Accordion</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2 id="logo">Logo <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="row">
+                    <div class="column all-6">
+                        <h4>Large &mdash; 72px</h4>
+
+                        <span class="coop-logo-large">
+                            <img src="/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/assets/images/logos/coopX2.png'">
+                        </span>
+                    </div>
+
+                    <div class="column all-6">
+                        <h4>Small &mdash; 36px</h4>
+                        <span class="coop-logo">
+                            <img src="/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/assets/images/logos/coopX2.png'">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;column all-6&quot;&gt;
+        &lt;h4&gt;Large &amp;mdash; 72px&lt;/h4&gt;
+        &lt;span class=&quot;coop-logo-large&quot;&gt;
+            &lt;img src=&quot;/assets/images/logos/coop-logo.svg&quot; alt=&quot;Co-op&quot; onerror=&quot;this.onerror=null; this.src=&apos;/assets/images/logos/coopX2.png&apos;&quot;&gt;
+        &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column all-6&quot;&gt;
+        &lt;h4&gt;Small &amp;mdash; 36px&lt;/h4&gt;
+        &lt;span class=&quot;coop-logo&quot;&gt;
+            &lt;img src=&quot;/assets/images/logos/coop-logo.svg&quot; alt=&quot;Co-op&quot; onerror=&quot;this.onerror=null; this.src=&apos;/assets/images/logos/coopX2.png&apos;&quot;&gt;
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+
+
+    <hr>
+
+    <h2 id="breadcrumbs">Breadcrumbs <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <ul class="breadcrumbs">
+                    <li><a href="#">Grandparent</a></li>
+                    <li><a href="#">Parent</a></li>
+                    <li><a href="#">Child</a></li>
+                    <li><a href="#">Grandchild</a></li>
+                    <li>Current page</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;ul class=&quot;breadcrumbs&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Grandparent&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Parent&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Child&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Grandchild&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Current page&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="pagintaion">Pagination <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <ol class="pagination">
+                    <li><a href="#">First <span class="visuallyhidden">page</span></a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">Last <span class="visuallyhidden">page</span></a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;ol class=&quot;pagination&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;First &lt;span class=&quot;visuallyhidden&quot;&gt;page&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Last &lt;span class=&quot;visuallyhidden&quot;&gt;page&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="panels">Panels <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="boxed">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem!</p>
+                </div>
+                <div class="panel-grey">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam?</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;boxed&quot;&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;panel-grey&quot;&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam?&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="tabs">Tabs <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <p><strong>Note:</strong> the Tabs component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Tabs.js">Tabs JS module</a> from the Toolkit.</p>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="tabs">
+                    <ul class="tabs-nav" role="tablist">
+                        <li><a href="#panel1">Tab 1</a></li>
+                        <li><a href="#panel2">Tab 2</a></li>
+                        <li><a href="#panel3">Tab 3</a></li>
+                    </ul>
+                    <div class="tabs-content">
+                        <div class="tab-panel" id="panel1" role="tabpanel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat odio ullam similique, cumque reprehenderit illum consectetur officiis deserunt est natus.</p>
+                        </div>
+                        <div class="tab-panel" id="panel2" role="tabpanel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam id totam voluptas excepturi nam libero pariatur dolorem est.</p>
+                        </div>
+                        <div class="tab-panel" id="panel3" role="tabpanel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad facere assumenda expedita illum quod provident, saepe perspiciatis libero eos, quibusdam ipsum id accusantium.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;tabs&quot;&gt;
+    &lt;ul class=&quot;tabs-nav&quot; role=&quot;tablist&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;#panel1&quot;&gt;Tab 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#panel2&quot;&gt;Tab 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#panel3&quot;&gt;Tab 3&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class=&quot;tabs-content&quot;&gt;
+        &lt;div class=&quot;tab-panel&quot; id=&quot;panel1&quot; role=&quot;tabpanel&quot;&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat odio ullam similique, cumque reprehenderit illum consectetur officiis deserunt est natus.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;tab-panel&quot; id=&quot;panel2&quot; role=&quot;tabpanel&quot;&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam id totam voluptas excepturi nam libero pariatur dolorem est.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;tab-panel&quot; id=&quot;panel3&quot; role=&quot;tabpanel&quot;&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad facere assumenda expedita illum quod provident, saepe perspiciatis libero eos, quibusdam ipsum id accusantium.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="toggles">Toggles <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <p><strong>Note:</strong> the Toggles component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Toggles.js">Toggles JS module</a> from the Toolkit.</p>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <a href="#toggle-1" class="toggle-trigger" role="button" >Toggle title</a>
+                <div id="toggle-1" class="toggle-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec facilisis nunc. Donec lacus mi, tincidunt et tempus at, dignissim eget ex. Sed viverra, ex id posuere vulputate, erat neque porttitor orci, eu dapibus dolor nisi blandit libero. Nunc at lorem at diam bibendum ultrices eget sit amet nibh.</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;a href=&quot;#toggle-1&quot; class=&quot;toggle-trigger&quot; role=&quot;button&quot; &gt;Toggle title&lt;/a&gt;
+&lt;div id=&quot;toggle-1&quot; class=&quot;toggle-content&quot;&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec facilisis nunc. Donec lacus mi, tincidunt et tempus at, dignissim eget ex. Sed viverra, ex id posuere vulputate, erat neque porttitor orci, eu dapibus dolor nisi blandit libero. Nunc at lorem at diam bibendum ultrices eget sit amet nibh.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="accordion">Accordion <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <p><strong>Note:</strong> the Accordion component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Toggles.js">Toggles JS module</a> from the Toolkit.</p>
+    <p>An Accordion component is effectively a set of Toggles wrapped in a <code>div.accordion</code> container.</p>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="accordion">
+                    <a class="toggle-trigger" role="button" href="#accordion-1">Accordion Section #1</a>
+                    <div id="accordion-1" class="toggle-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, provident! Magnam, repudiandae! Fugit.</p>
+                    </div>
+
+                    <a class="toggle-trigger" role="button" href="#accordion-2">Accordion Section #2</a>
+                    <div id="accordion-2" class="toggle-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus esse incidunt asperiores quae aliquam magnam cum dolore totam sit neque numquam, culpa, quos reiciendis doloremque distinctio voluptatum architecto temporibus atque expedita! Magni.</p>
+                    </div>
+
+                    <a class="toggle-trigger" role="button" href="#accordion-3">Accordion Section #3</a>
+                    <div id="accordion-3" class="toggle-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, inventore. Beatae atque veritatis est aliquam, aut quam, deleniti temporibus voluptatum quibusdam eveniet distinctio, perferendis quae enim laborum quis hic. Nisi recusandae at hic magnam ullam, rerum eius unde eveniet iste natus? Ullam et, veniam sint.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;accordion&quot;&gt;
+    &lt;a class=&quot;toggle-trigger&quot; role=&quot;button&quot; href=&quot;#accordion-1&quot;&gt;Accordion Section #1&lt;/a&gt;
+    &lt;div id=&quot;accordion-1&quot; class=&quot;toggle-content&quot;&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, provident! Magnam, repudiandae! Fugit.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;a class=&quot;toggle-trigger&quot; role=&quot;button&quot; href=&quot;#accordion-2&quot;&gt;Accordion Section #2&lt;/a&gt;
+    &lt;div id=&quot;accordion-2&quot; class=&quot;toggle-content&quot;&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus esse incidunt asperiores quae aliquam magnam cum dolore totam sit neque numquam, culpa, quos reiciendis doloremque distinctio voluptatum architecto temporibus atque expedita! Magni.&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;a class=&quot;toggle-trigger&quot; role=&quot;button&quot; href=&quot;#accordion-3&quot;&gt;Accordion Section #3&lt;/a&gt;
+    &lt;div id=&quot;accordion-3&quot; class=&quot;toggle-content&quot;&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, inventore. Beatae atque veritatis est aliquam, aut quam, deleniti temporibus voluptatum quibusdam eveniet distinctio, perferendis quae enim laborum quis hic. Nisi recusandae at hic magnam ullam, rerum eius unde eveniet iste natus? Ullam et, veniam sint.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+</div>
