@@ -29,6 +29,7 @@
 .colour-swatch {
   @extend %boxed;
 
+  margin-bottom: 0;
   border-bottom: 0;
   height: 3em;
 }
@@ -37,7 +38,7 @@
   @extend %boxed;
 
   position: relative;
-  padding-top: 2.5em;
+  padding-top: 3em;
   margin-bottom: 2em;
 
   &:before {
@@ -48,4 +49,11 @@
     background: $offwhite;
     padding: .25em;
   }
+}
+
+.grid-example .column > code {
+  display: block;
+  min-height: 6em;
+  margin-bottom: 1em;
+  background: $added-to-page;
 }
