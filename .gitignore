@@ -10,3 +10,6 @@ bower_components/
 .env
 .sass-cache
 .jekyll-metadata
+
+# nmp linux stuff
+npm-debug.log
