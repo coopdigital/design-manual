@@ -98,6 +98,8 @@
     <pre><code class="language-scss">$grid-screen-sizes: ("medium");
 $grid-total-columns: 4;</code></pre>
 
+    <p><strong>Note:</strong> the <code>.all-*</code> classes are always available, even if the <code>$grid-screen-sizes</code> list is empty.</p>
+
     <hr>
 
     <h2 id="example">Example <a href="#top" class="back-to-top">Back to top</a></h2>
@@ -213,8 +215,8 @@ $grid-include-offset-classes: false;</code></pre>
             <div class="column small-4 small-offset-1 large-6 large-offset-0">
                 <code>.small-4 .small-offset-1 .large-6 .large-offset-0</code>
             </div>
-            <div class="column small-4 small-offset-1 large-5 large-offset-1">
-                <code>.small-4 .small-offset-1 .large-5 .large-offset-1</code>
+            <div class="column small-4 small-offset-2 large-offset-1">
+                <code>.small-4 .small-offset-2 .large-offset-1</code>
             </div>
         </div>
     </div>
@@ -241,6 +243,29 @@ $grid-include-offset-classes: false;</code></pre>
             </div>
             <div class="column small-4 small-pull-8">
                 <code>.small-4 .small-pull-8 (last in markup)</code>
+            </div>
+        </div>
+    </div>
+
+    <h3>Collapse columns</h3>
+
+    <p>Collapsed columns have their padding removed. Columns can be collapsed individually, or whole rows can be collapsed at once by adding the class <code>.collapse</code> to the relevant column or row element.</p>
+
+    <div class="example grid-example">
+        <div class="row">
+            <div class="column all-6 collapse">
+                <code>.all-6 .collapse</code>
+            </div>
+            <div class="column all-6">
+                <code>.all-6</code>
+            </div>
+        </div>
+        <div class="row collapse">
+            <div class="column all-6">
+                <code>.row.collapse > .all-6 </code>
+            </div>
+            <div class="column all-6">
+                <code>.row.collapse > .all-6 </code>
             </div>
         </div>
     </div>

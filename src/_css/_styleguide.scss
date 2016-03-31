@@ -19,11 +19,21 @@
   }
 }
 
-.grid-example .column > code {
-  display: block;
-  min-height: 6em;
-  margin-bottom: 1em;
-  background: $added-to-page;
+.grid-example {
+  .row {
+
+    .column {
+      background: $offwhite;
+
+      > code {
+        display: block;
+        padding: $quarter-spacing-unit / 2;
+        min-height: 6em;
+        background: $added-to-page;
+        border: 2px solid darken($added-to-page, 25%);
+      }
+    }
+  }
 }
 
 .full-width-example {
