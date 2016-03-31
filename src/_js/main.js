@@ -5,4 +5,17 @@
 
 $(function() {
   Coop.init();
+
+  // Mock mobile menu functionality for the header example
+  $('.example .mobile-menu-toggle')
+    .off('click.MenuToggle')
+    .on('click', function(e) {
+      e.preventDefault();
+      if($(this).hasClass('open')) {
+        $(this).add('#navigation-example').removeClass('open').find('.mobile-menu-text').text('Menu');
+      }
+      else {
+        $(this).add('#navigation-example').addClass('open').find('.mobile-menu-text').text('Close');
+      }
+    });
 });
