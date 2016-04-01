@@ -2,33 +2,100 @@
   font-size: .625em;
 }
 
-.logo {
-  margin: 0 0 $quarter-spacing-unit;
+.example {
+  @extend %boxed;
+
+  position: relative;
+  padding-top: 3em;
+  margin-bottom: 2em;
+
+  &:before {
+    content: "Example";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $offwhite;
+    padding: .25em;
+  }
 }
 
-.icons-list {
-  margin-bottom: 10px;
+.grid-example {
+  .row {
 
-  p {
-    margin-bottom: 10px;
-  }
+    .column {
+      background: $offwhite;
 
-  .icon {
-    color: $coop-blue;
-    display: inline-block;
-    margin: 0 10px 10px 0;
+      > code {
+        display: block;
+        padding: $quarter-spacing-unit / 2;
+        min-height: 6em;
+        background: $added-to-page;
+        border: 2px solid darken($added-to-page, 25%);
+      }
+    }
   }
 }
 
-.icon-sizes {
-  .icon {
-    color: $coop-blue;
-  }
+.full-width-example {
+  padding-left: 0;
+  padding-right: 0;
+  border-width: 1px 0;
+  box-shadow: 0 0 2px rgba(0,0,0,.25);
 }
 
 .colour-swatch {
   @extend %boxed;
 
+  margin-bottom: 0;
   border-bottom: 0;
   height: 3em;
+}
+
+.icons-list {
+  @include clearfix;
+  @include list-bare;
+
+  @include media(small) {
+    li {
+      float: left;
+      width: 50%;
+      padding-right: 10px;
+
+      &:nth-child(2n+1) {
+        clear: left;
+      }
+    }
+  }
+
+  @include media(medium) {
+    li {
+      width: 33%;
+
+      &:nth-child(2n+1) {
+        clear: none;
+      }
+
+      &:nth-child(3n+1) {
+        clear: left;
+      }
+    }
+  }
+
+  @include media(xlarge) {
+    li {
+      width: 25%;
+
+      &:nth-child(3n+1) {
+        clear: none;
+      }
+
+      &:nth-child(4n+1) {
+        clear: left;
+      }
+    }
+  }
+
+  .icon {
+    color: $coop-blue;
+  }
 }
