@@ -93,25 +93,28 @@
 
     <hr>
 
-    <h2 id="grid">Grid <a href="#top" class="back-to-top">Back to top</a></h2>
+    <div class="text">
+        <h2 id="grid">Grid <a href="#top" class="back-to-top">Back to top</a></h2>
 
-    <p>The default Grid provides classes spanning 12 columns, and provides breakpoints at the following screen sizes:</p>
+        <p>The default Grid provides classes spanning 12 columns, and provides breakpoints at the following screen sizes:</p>
 
-    <ul>
-        <li><strong>All</strong> (<code>.all-{column-span}</code>) - 0px and up</li>
-        <li><strong>Extra small</strong> (<code>.xsmall-{column-span}</code>) - 320px and up</li>
-        <li><strong>Small</strong> (<code>.small-{column-span}</code>) - 480px and up</li>
-        <li><strong>Medium</strong> (<code>.medium-{column-span}</code>) - 750px and up</li>
-        <li><strong>Large</strong> (<code>.large-{column-span}</code>) - 960px and up</li>
-        <li><strong>Extra large</strong> (<code>.xlarge-{column-span}</code>) - 1300px and up</li>
-    </ul>
+        <ul>
+            <li><strong>All</strong> (<code>.all-{column-span}</code>) - 0px and up</li>
+            <li><strong>Extra small</strong> (<code>.xsmall-{column-span}</code>) - 320px and up</li>
+            <li><strong>Small</strong> (<code>.small-{column-span}</code>) - 480px and up</li>
+            <li><strong>Medium</strong> (<code>.medium-{column-span}</code>) - 750px and up</li>
+            <li><strong>Large</strong> (<code>.large-{column-span}</code>) - 960px and up</li>
+            <li><strong>Extra large</strong> (<code>.xlarge-{column-span}</code>) - 1300px and up</li>
+        </ul>
 
-    <p>These settings can be overriden by specifying your own list of screen sizes you want columns available for. To keep the size of the resulting production stylesheet down, it is recommended to taylor the settings to your requirements, to make sure only the necessary classes are generated. For instance, if your service uses a 4 column grid, and only requires breakpoints at the medium screen size, you should alter the settings like so:</p>
+        <p>These settings can be overriden by specifying your own list of screen sizes you want columns available for. To keep the size of the resulting production stylesheet down, it is recommended to taylor the settings to your requirements, to make sure only the necessary classes are generated. For instance, if your service uses a 4 column grid, and only requires breakpoints at the medium screen size, you should alter the settings like so:</p>
 
-    <pre><code class="language-scss">$grid-screen-sizes: ("medium");
-$grid-total-columns: 4;</code></pre>
+        <pre><code class="language-scss">$grid-screen-sizes: ("medium");
+    $grid-total-columns: 4;</code></pre>
 
-    <p><strong>Note:</strong> the <code>.all-*</code> classes are always available, even if the <code>$grid-screen-sizes</code> list is empty.</p>
+        <p><strong>Note:</strong> the <code>.all-*</code> classes are always available, even if the <code>$grid-screen-sizes</code> list is empty.</p>
+
+    </div>
 
     <hr>
 
@@ -183,20 +186,23 @@ $grid-total-columns: 4;</code></pre>
 
     <hr>
 
-    <h2 id="grid-helpers">Grid helpers <a href="#top" class="back-to-top">Back to top</a></h2>
+    <div class="text">
+        <h2 id="grid-helpers">Grid helpers <a href="#top" class="back-to-top">Back to top</a></h2>
 
-    <p>The following helpers are included by default in the resulting CSS. If you do not make use of them, it is recommended to exclude them by setting them to false:</p>
+        <p>The following helpers are included by default in the resulting CSS. If you do not make use of them, it is recommended to exclude them by setting them to false:</p>
 
-    <pre><code class="language-scss">$grid-include-center-classes: false;
-$grid-include-pull-classes: false;
-$grid-include-push-classes: false;
-$grid-include-offset-classes: false;</code></pre>
+        <pre><code class="language-scss">$grid-include-center-classes: false;
+    $grid-include-pull-classes: false;
+    $grid-include-push-classes: false;
+    $grid-include-offset-classes: false;</code></pre>
 
-    <p>These helpers can be applied to specific breakpoints only.</p>
+        <p>These helpers can be applied to specific breakpoints only.</p>
+
+    </div>
 
     <h3>Centering classes</h3>
 
-    <p>These allow centering of columns which do not fill the whole width of the viewport.</p>
+    <p class="text">These allow centering of columns which do not fill the whole width of the viewport.</p>
 
     <div class="example grid-example">
         <div class="row">
@@ -206,7 +212,7 @@ $grid-include-offset-classes: false;</code></pre>
         </div>
     </div>
 
-    <p>The centering can be undone for subsequent breakpoints:</p>
+    <p class="text">The centering can be undone for subsequent breakpoints:</p>
 
     <div class="example grid-example">
         <div class="row">
@@ -221,7 +227,7 @@ $grid-include-offset-classes: false;</code></pre>
 
     <h3>Offsetting classes</h3>
 
-    <p>These classes allow adding an offset to the left of any column. They can be applied to specific breakpoints only.</p>
+    <p class="text">These classes allow adding an offset to the left of any column. They can be applied to specific breakpoints only.</p>
 
     <div class="example grid-example">
         <div class="row">
@@ -236,7 +242,7 @@ $grid-include-offset-classes: false;</code></pre>
 
     <h3>Push/pull classes</h3>
 
-    <p>These classes allow re-ordering of the columns by pushing and pulling them relative to their base position.</p>
+    <p class="text">These classes allow re-ordering of the columns by pushing and pulling them relative to their base position.</p>
 
     <div class="example grid-example">
         <div class="row">
@@ -262,7 +268,7 @@ $grid-include-offset-classes: false;</code></pre>
 
     <h3>Collapse columns</h3>
 
-    <p>Collapsed columns have their padding removed. Columns can be collapsed individually, or whole rows can be collapsed at once by adding the class <code>.collapse</code> to the relevant column or row element.</p>
+    <p class="text">Collapsed columns have their padding removed. Columns can be collapsed individually, or whole rows can be collapsed at once by adding the class <code>.collapse</code> to the relevant column or row element.</p>
 
     <div class="example grid-example">
         <div class="row">
