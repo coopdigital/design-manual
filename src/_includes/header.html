@@ -28,14 +28,21 @@
     <div class="wrap">
 
         <ul>
-            <li{% if page.id == 'colours' %} class="active"{% endif %}><a href="/colours.html">Colours</a></li>
-            <li{% if page.id == 'typography' %} class="active"{% endif %}><a href="/typography.html">Typography</a></li>
-            <li{% if page.id == 'icons' %} class="active"{% endif %}><a href="/icons.html">Icons</a></li>
-            <li{% if page.id == 'common-elements' %} class="active"{% endif %}><a href="/common-elements.html">Common elements</a></li>
-            <li{% if page.id == 'layout' %} class="active"{% endif %}><a href="/layout.html">Layout</a></li>
-            <li{% if page.id == 'forms' %} class="active"{% endif %}><a href="/forms.html">Forms</a></li>
-            <li{% if page.id == 'components' %} class="active"{% endif %}><a href="/components.html">Components</a></li>
-            <li{% if page.id == 'templates' %} class="active"{% endif %}><a href="/templates.html">Templates</a></li>
+            <li{% if page.id == 'front-end-elements' %} class="active"{% endif %}><a href="/front-end-elements/">Front-end elements <span class="icon icon-down-arrow-button"></span></a>
+                <ul>
+                    <li{% if page.id == 'colours' %} class="active"{% endif %}><a href="/front-end-elements/colours.html">Colours</a></li>
+                    <li{% if page.id == 'typography' %} class="active"{% endif %}><a href="/front-end-elements/typography.html">Typography</a></li>
+                    <li{% if page.id == 'icons' %} class="active"{% endif %}><a href="/front-end-elements/icons.html">Icons</a></li>
+                    <li{% if page.id == 'common-elements' %} class="active"{% endif %}><a href="/front-end-elements/common-elements.html">Common elements</a></li>
+                    <li{% if page.id == 'layout' %} class="active"{% endif %}><a href="/front-end-elements/layout.html">Layout</a></li>
+                    <li{% if page.id == 'forms' %} class="active"{% endif %}><a href="/front-end-elements/forms.html">Forms</a></li>
+                    <li{% if page.id == 'components' %} class="active"{% endif %}><a href="/front-end-elements/components.html">Components</a></li>
+                    <li{% if page.id == 'templates' %} class="active"{% endif %}><a href="/front-end-elements/templates.html">Templates</a></li>
+                </ul>
+            </li>
+            <li{% if page.id == 'accessibility' %} class="active"{% endif %}><a href="/accessibility.html">Accessibility</a></li>
+            <li{% if page.id == 'supported-devices' %} class="active"{% endif %}><a href="/supported-devices.html">Supported devices</a></li>
+            <!-- <li{% if page.id == 'code-standards' %} class="active"{% endif %}><a href="/code-standards.html">Code standards</a></li> -->
         </ul>
 
     </div>
