@@ -20,6 +20,7 @@ id: forms
             <li><a href="#dropdowns" class="btn btn-small btn-pill">Dropdowns</a></li>
             <li><a href="#checkboxes-and-radios" class="btn btn-small btn-pill">Checkboxes and radios</a></li>
             <li><a href="#tap-tiles" class="btn btn-small btn-pill">Tap tiles</a></li>
+            <li><a href="#large-inputs" class="btn btn-small btn-pill">large inputs</a></li>
             <li><a href="#validation" class="btn btn-small btn-pill">Validation</a></li>
         </ul>
     </nav>
@@ -154,6 +155,11 @@ id: forms
                 </div>
 
                 <div class="form-row">
+                    <label for="input">Inline text input</label>
+                    <input class="input-inline" id="input" type="text" size="10">
+                </div>
+
+                <div class="form-row">
                     <label for="textarea">Textarea</label>
                     <textarea id="textarea" cols="30" rows="4"></textarea>
                 </div>
@@ -164,82 +170,15 @@ id: forms
     &lt;label for=&quot;input-1&quot;&gt;Text input&lt;/label&gt;
     &lt;input id=&quot;input-1&quot; type=&quot;text&quot;&gt;
 &lt;/div&gt;
+
+&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;input&quot;&gt;Inline text input&lt;/label&gt;
+    &lt;input class=&quot;input-inline&quot; id=&quot;input&quot; type=&quot;text&quot; size=&quot;10&quot;&gt;
+&lt;/div&gt;
+
 &lt;div class=&quot;form-row&quot;&gt;
     &lt;label for=&quot;textarea-1&quot;&gt;Textarea&lt;/label&gt;
     &lt;textarea id=&quot;textarea-1&quot; cols=&quot;30&quot; rows=&quot;4&quot;&gt;&lt;/textarea&gt;
-&lt;/div&gt;</code></pre>
-        </div>
-    </div>
-
-    <h3>Text fields modifiers</h3>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <div class="form-row">
-                    <label for="input-width_small">input.input-width_small</label>
-                    <input id="input-width_small" class="input-width_small" type="text">
-                </div>
-
-                <div class="form-row">
-                    <label for="input-width_medium">input.input-width_medium</label>
-                    <input id="input-width_medium" class="input-width_medium" type="text">
-                </div>
-
-                <div class="form-row">
-                    <label for="input-width_large">input.input-width_large</label>
-                    <input id="input-width_large" class="input-width_large" type="text">
-                </div>
-
-                <div class="form-row">
-                    <label for="input-small">input.input-small</label>
-                    <input id="input-small" class="input-small" type="text">
-                </div>
-
-                <div class="form-row">
-                    <label for="input-medium">input.input-medium</label>
-                    <input id="input-medium" class="input-medium" type="text">
-                </div>
-
-                <div class="form-row">
-                    <label for="input-large">input.input-large</label>
-                    <input id="input-large" class="input-large" type="text">
-                </div>
-
-                <div class="form-row">
-                    <label for="input-inline">input.input-inline</label>
-                    <input id="input-inline" class="input-inline" type="text" size="10">
-                </div>
-            </div>
-        </div>
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;input-width_small&quot;&gt;input.input-width_small&lt;/label&gt;
-    &lt;input id=&quot;input-width_small&quot; class=&quot;input-width_small&quot; type=&quot;text&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;input-width_medium&quot;&gt;input.input-width_medium&lt;/label&gt;
-    &lt;input id=&quot;input-width_medium&quot; class=&quot;input-width_medium&quot; type=&quot;text&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;input-width_large&quot;&gt;input.input-width_large&lt;/label&gt;
-    &lt;input id=&quot;input-width_large&quot; class=&quot;input-width_large&quot; type=&quot;text&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;input-small&quot;&gt;input.input-small&lt;/label&gt;
-    &lt;input id=&quot;input-small&quot; class=&quot;input-small&quot; type=&quot;text&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;input-medium&quot;&gt;input.input-medium&lt;/label&gt;
-    &lt;input id=&quot;input-medium&quot; class=&quot;input-medium&quot; type=&quot;text&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;input-large&quot;&gt;input.input-large&lt;/label&gt;
-    &lt;input id=&quot;input-large&quot; class=&quot;input-large&quot; type=&quot;text&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;input-inline&quot;&gt;input.input-inline&lt;/label&gt;
-    &lt;input id=&quot;input-inline&quot; class=&quot;input-inline&quot; type=&quot;text&quot; size=&quot;10&quot;&gt;
 &lt;/div&gt;</code></pre>
         </div>
     </div>
@@ -304,6 +243,15 @@ id: forms
                         <option>Option Three</option>
                     </select>
                 </div>
+
+                <div class="form-row">
+                    <label for="select">Inline select dropdown</label>
+                    <select class="input-inline" id="select">
+                        <option>Option One</option>
+                        <option>Option Two</option>
+                        <option>Option Three</option>
+                    </select>
+                </div>
             </div>
         </div>
         <div class="column medium-6">
@@ -314,77 +262,11 @@ id: forms
     &lt;option&gt;Option Two&lt;/option&gt;
     &lt;option&gt;Option Three&lt;/option&gt;
 &lt;/select&gt;
-&lt;/div&gt;</code></pre>
-        </div>
-    </div>
+&lt;/div&gt;
 
-    <h3>Dropdown modifiers</h3>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <div class="form-row">
-                    <label for="select-small">select.select-small</label>
-                    <select id="select-small" class="input-small">
-                        <option>Option One</option>
-                        <option>Option Two</option>
-                        <option>Option Three</option>
-                    </select>
-                </div>
-                <div class="form-row">
-                    <label for="select-medium">select.select-medium</label>
-                    <select id="select-medium" class="input-medium">
-                        <option>Option One</option>
-                        <option>Option Two</option>
-                        <option>Option Three</option>
-                    </select>
-                </div>
-                <div class="form-row">
-                    <label for="select-large">select.select-large</label>
-                    <select id="select-large" class="input-large">
-                        <option>Option One</option>
-                        <option>Option Two</option>
-                        <option>Option Three</option>
-                    </select>
-                </div>
-                <div class="form-row">
-                    <label for="select-inline">select.select-inline</label>
-                    <select id="select-inline" class="select-inline">
-                        <option>Option One</option>
-                        <option>Option Two</option>
-                        <option>Option Three</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;select-small&quot;&gt;select.select-small&lt;/label&gt;
-    &lt;select id=&quot;select-small&quot; class=&quot;input-small&quot;&gt;
-        &lt;option&gt;Option One&lt;/option&gt;
-        &lt;option&gt;Option Two&lt;/option&gt;
-        &lt;option&gt;Option Three&lt;/option&gt;
-    &lt;/select&gt;
-&lt;/div&gt;
 &lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;select-medium&quot;&gt;select.select-medium&lt;/label&gt;
-    &lt;select id=&quot;select-medium&quot; class=&quot;input-medium&quot;&gt;
-        &lt;option&gt;Option One&lt;/option&gt;
-        &lt;option&gt;Option Two&lt;/option&gt;
-        &lt;option&gt;Option Three&lt;/option&gt;
-    &lt;/select&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;select-large&quot;&gt;select.select-large&lt;/label&gt;
-    &lt;select id=&quot;select-large&quot; class=&quot;input-large&quot;&gt;
-        &lt;option&gt;Option One&lt;/option&gt;
-        &lt;option&gt;Option Two&lt;/option&gt;
-        &lt;option&gt;Option Three&lt;/option&gt;
-    &lt;/select&gt;
-&lt;/div&gt;
-&lt;div class=&quot;form-row&quot;&gt;
-    &lt;label for=&quot;select-inline&quot;&gt;select.select-inline&lt;/label&gt;
-    &lt;select id=&quot;select-inline&quot; class=&quot;select-inline&quot;&gt;
+    &lt;label for=&quot;select&quot;&gt;Inline select dropdown&lt;/label&gt;
+    &lt;select class=&quot;input-inline&quot; id=&quot;select&quot;&gt;
         &lt;option&gt;Option One&lt;/option&gt;
         &lt;option&gt;Option Two&lt;/option&gt;
         &lt;option&gt;Option Three&lt;/option&gt;
@@ -512,39 +394,46 @@ id: forms
         </div>
     </div>
 
-    <h3>Tap tiles modifiers</h3>
+    <hr>
+
+    <h2 id="large-inputs">Large inputs <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="text">
+        <p>Large inputs can be created by simply increasing the font-size on the container element.</p>
+    </div>
 
     <div class="row">
         <div class="column medium-6">
             <div class="example">
-                <fieldset class="form-row">
-                    <legend>Tap tile sizes</legend>
-
-                    <input type="radio" id="radio-one-b" name="radio-group-3" class="tap-input">
-                    <label for="radio-one-b" class="tap-tile-small"><span>Small</span></label>
-
-                    <input type="radio" id="radio-two-b" name="radio-group-3" class="tap-input">
-                    <label for="radio-two-b" class="tap-tile-medium"><span>Medium</span></label>
-
-                    <input type="radio" id="radio-three-b" name="radio-group-3" class="tap-input">
-                    <label for="radio-three-b" class="tap-tile-large"><span>Large</span></label>
-                </fieldset>
+                <div style="font-size: 1.5em;">
+                    <div class="form-row">
+                        <label for="large-1">Input</label>
+                        <input id="large-1" type="text">
+                    </div>
+                    <div class="form-row">
+                        <label for="large-2">Select</label>
+                        <select id="large-2">
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="column medium-6">
-            <pre><code class="language-html">&lt;fieldset class=&quot;form-row&quot;&gt;
-    &lt;legend&gt;Tap tile sizes&lt;/legend&gt;
-
-    &lt;input type=&quot;radio&quot; id=&quot;radio-one-b&quot; name=&quot;radio-group-3&quot; class=&quot;tap-input&quot;&gt;
-    &lt;label for=&quot;radio-one-b&quot; class=&quot;tap-tile-small&quot;&gt;&lt;span&gt;Small&lt;/span&gt;&lt;/label&gt;
-
-    &lt;input type=&quot;radio&quot; id=&quot;radio-two-b&quot; name=&quot;radio-group-3&quot; class=&quot;tap-input&quot;&gt;
-    &lt;label for=&quot;radio-two-b&quot; class=&quot;tap-tile-medium&quot;&gt;&lt;span&gt;Medium&lt;/span&gt;&lt;/label&gt;
-
-    &lt;input type=&quot;radio&quot; id=&quot;radio-three-b&quot; name=&quot;radio-group-3&quot; class=&quot;tap-input&quot;&gt;
-    &lt;label for=&quot;radio-three-b&quot; class=&quot;tap-tile-large&quot;&gt;&lt;span&gt;Large&lt;/span&gt;&lt;/label&gt;
-&lt;/fieldset&gt;
-            </code></pre>
+            <pre><code class="language-html">&lt;div style=&quot;font-size: 1.5em;&quot;&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;label for=&quot;large-1&quot;&gt;Input&lt;/label&gt;
+        &lt;input id=&quot;large-1&quot; type=&quot;text&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;label for=&quot;large-2&quot;&gt;Select&lt;/label&gt;
+        &lt;select id=&quot;large-2&quot;&gt;
+            &lt;option value=&quot;&quot;&gt;Option 1&lt;/option&gt;
+            &lt;option value=&quot;&quot;&gt;Option 2&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
         </div>
     </div>
 
