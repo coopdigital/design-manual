@@ -1,10 +1,10 @@
-# Single Site Style Guide
+# Co-op Style Guide
 
-The Single Site Style Guide showcases the core styles and components available from the [Co-op Front-end Toolkit](https://github.com/coopdigital/coop-frontend-toolkit).
+The Co-op Style Guide provides guidance on creating digital content for the Co-op. It also showcases the core styles and components available from the [Co-op Front-end Toolkit](https://github.com/coopdigital/coop-frontend-toolkit).
 
 ## Dependencies
 
-This project uses [Jekyll](http://jekyllrb.com/) to build the Style Guide pages, and various NPM modules to include the Co-op Front-end TOolkit dependency and  compile the assets. To install all required dependencies, run:
+This project uses [Jekyll](http://jekyllrb.com/) to compile the pages, and various NPM modules to include the Co-op Front-end Toolkit dependency and  compile the assets. To install all required dependencies, run:
 
 ```
 bundle install
@@ -23,11 +23,11 @@ gulp server
 
 ## Heroku deployment
 
-The Style Guide is automatically deployed to Heroku (<https://single-site-styleguide.herokuapp.com>) when changes are pushed to or merged into the master branch.
+The Co-op Style Guide is automatically deployed to Heroku (<https://single-site-styleguide.herokuapp.com>) when changes are pushed to or merged into the master branch.
 
-## Working on the [Co-op Front-end Toolkit](https://github.com/coopdigital/coop-frontend-toolkit)
+## Working on the [Co-op Front-end Toolkit](https://github.com/coopdigital/coop-frontend-toolkit) locally
 
-The Single Site Style Guide is set up to allow easy development work on the Toolkit. In order to reflect changes made to your local version of the Toolkit directly in your local version of the Style Guide, you must first link the bower dependency to your local version of the Toolkit.
+The Co-op Style Guide is set up to allow easy development work on the Toolkit. In order to reflect changes made to your local version of the Toolkit directly in your local version of the Style Guide, you must first link the NPM dependency to your local version of the Toolkit.
 
 If you haven't done so, first clone the Toolkit repository:
 ```
