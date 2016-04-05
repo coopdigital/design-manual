@@ -10,7 +10,7 @@ var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
 var uglify = require('gulp-uglify');
 var mocha = require('gulp-mocha');
-
+var imagemin = require('gulp-imagemin');
 
 /**
  * Settings
@@ -122,6 +122,11 @@ gulp.task('assets', function() {
     .pipe(gulp.dest(dest_paths.assets))
     .pipe(connect.reload());
 });
+gulp.task('imagemin', ['assets'], function() {
+  gulp.src(dest_paths.assets + '/images/**/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest(dest_paths.assets + '/images'));
+});
 
 
 /**
@@ -145,7 +150,7 @@ gulp.task('watch', function() {
   // Source
   gulp.watch(src_paths.styles, ['lintscss', 'css']);
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
-  gulp.watch(src_paths.assets, ['assets']);
+  gulp.watch(src_paths.assets, ['imagemin']);
   gulp.watch(src_paths.html, ['html']);
 });
 
@@ -165,7 +170,7 @@ gulp.task('connect', function() {
  * Run tasks
  */
 gulp.task('test', ['testjs']);
-gulp.task('build', ['html', 'css', 'vendorjs', 'js', 'assets']);
+gulp.task('build', ['html', 'css', 'vendorjs', 'js', 'imagemin']);
 gulp.task('server', ['build', 'watch', 'connect']);
 
 gulp.task('default', ['build']);
