@@ -89,7 +89,7 @@ gulp.task('jekyll', function (gulpCallBack){
 });
 
 // Styles
-gulp.task('css', ['lintscss'], function() {
+gulp.task('css', function() {
   gulp.src(src_paths.styles)
     .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
