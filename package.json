@@ -2,7 +2,7 @@
   "name": "single-site-styleguide",
   "private": true,
   "dependencies": {
-    "coop-frontend-toolkit": "git+https://e4ea0c32861170556ed729829de21a693bce09bc:x-oauth-basic@github.com/coopdigital/coop-frontend-toolkit",
+    "coop-frontend-toolkit": "git+https://a1043e2f1ac120290127d8734aa35df344fe3f6a:x-oauth-basic@github.com/coopdigital/coop-frontend-toolkit",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
