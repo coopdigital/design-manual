@@ -53,7 +53,7 @@ var settings = {
  * Lint tasks
  */
 gulp.task('lintjs', function() {
-  gulp.src([
+  return gulp.src([
     src_paths.scripts,
     '!' + src + '_js/vendor'
   ])
@@ -62,7 +62,7 @@ gulp.task('lintjs', function() {
 });
 
 gulp.task('lintscss', function() {
-  gulp.src([
+  return gulp.src([
     src_paths.styles,
     '!src/_css/_prism.scss'
   ])
@@ -76,7 +76,7 @@ gulp.task('lintscss', function() {
 
 // Jekyll
 gulp.task('html', ['jekyll'], function() {
-  gulp.src(dest + '**/*.html')
+  return gulp.src(dest + '**/*.html')
     .pipe(connect.reload());
 });
 gulp.task('jekyll', function (gulpCallBack){
@@ -90,7 +90,7 @@ gulp.task('jekyll', function (gulpCallBack){
 
 // Styles
 gulp.task('css', function() {
-  gulp.src(src_paths.styles)
+  return gulp.src(src_paths.styles)
     .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
       .on('error', sass.logError)
@@ -102,7 +102,7 @@ gulp.task('css', function() {
 
 // Scripts
 gulp.task('js', ['lintjs'], function() {
-  gulp.src(src_paths.scripts)
+  return gulp.src(src_paths.scripts)
     .pipe(sourcemaps.init())
       .pipe(include())
       .pipe(concat('main.js'))
@@ -112,18 +112,18 @@ gulp.task('js', ['lintjs'], function() {
     .pipe(connect.reload());
 });
 gulp.task('vendorjs', function() {
-  gulp.src(['node_modules/coop-frontend-toolkit/scripts/vendor/**/*', src + '_js/vendor/**/*'])
+  return gulp.src(['node_modules/coop-frontend-toolkit/scripts/vendor/**/*', src + '_js/vendor/**/*'])
     .pipe(gulp.dest(dest_paths.scripts + '/vendor'));
 });
 
 // Static assets
 gulp.task('assets', function() {
-  gulp.src(src_paths.assets)
+  return gulp.src(src_paths.assets)
     .pipe(gulp.dest(dest_paths.assets))
     .pipe(connect.reload());
 });
 gulp.task('imagemin', ['assets'], function() {
-  gulp.src(dest_paths.assets + '/images/**/*')
+  return gulp.src(dest_paths.assets + '/images/**/*')
     .pipe(imagemin())
     .pipe(gulp.dest(dest_paths.assets + '/images'));
 });
@@ -133,7 +133,7 @@ gulp.task('imagemin', ['assets'], function() {
  * Tests
  */
 gulp.task('testjs', function() {
-  gulp.src('test.js')
+  return gulp.src('test.js')
     .pipe(mocha());
 });
 
