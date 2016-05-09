@@ -1,5 +1,23 @@
 $base-asset-url: '/assets/';
 
+$typographic-scale: (
+  base: (
+    body: 16px,
+    h1: 30px,
+    h2: 24px,
+    h3: 19px,
+    h4: 16px,
+    h5: 13px,
+    h6: 11px,
+    blockquote: 18px,
+    small: 11px
+  ),
+  medium: (
+    h1: 36px,
+    small: 13px
+  )
+);
+
 @import 'coop-toolkit';
 
 @import 'styleguide';
