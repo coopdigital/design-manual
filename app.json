@@ -1,0 +1,36 @@
+{
+  "name": "single-site-styleguide",
+  "description": "",
+  "scripts": {},
+  "env": {
+    "LANG": {
+      "required": true
+    },
+    "NODE_MODULES_CACHE": {
+      "required": true
+    },
+    "PASSWORD": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    },
+    "USERNAME": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
