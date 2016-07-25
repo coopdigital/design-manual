@@ -116,6 +116,87 @@ id: common-elements
     <div class="text">
         <p>Tables should only be used for tabular data, and contain a <code>&lt;caption&gt;</code> element with a description of the table contents for assistive technologies. The <code>&lt;table&gt;</code> element should be wrapped in a <code>&lt;div&gt;</code> element with the class <code>table-overflow-x</code> to allow scrolling on smaller devices which may not be able to fit the table within the width of the viewport.</p>
     </div>
+    <div class="row">
+        <div class="column medium-6 small-12">
+            <div class="example">
+                <div class="table-overflow-x">
+                    <table>
+                        <caption><span class="visuallyhidden">An example of how to mark up a table in HTML</span></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Col heading</th>
+                                <th scope="col">Col heading</th>
+                                <th scope="col">Col heading</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                            </tr>
+                            <tr>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                            </tr>
+                            <tr>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Col footer value</td>
+                                <td>Col footer value</td>
+                                <td>Col footer value</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;table-overflow-x&quot;&gt;
+    &lt;table&gt;
+        &lt;caption&gt;&lt;span class=&quot;visuallyhidden&quot;&gt;An example of how to mark up a table in HTML&lt;/span&gt;&lt;/caption&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th scope=&quot;col&quot;&gt;Col heading&lt;/th&gt;
+                &lt;th scope=&quot;col&quot;&gt;Col heading&lt;/th&gt;
+                &lt;th scope=&quot;col&quot;&gt;Col heading&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Cell&lt;/th&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Cell&lt;/td&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+        &lt;tfoot&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Col footer value&lt;/td&gt;
+                &lt;td&gt;Col footer value&lt;/td&gt;
+                &lt;td&gt;Col footer value&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tfoot&gt;
+    &lt;/table&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
 
     <div class="row">
         <div class="column medium-6">
