@@ -45,10 +45,10 @@
 
 .colour-swatch {
   @extend %boxed;
-
+  
   margin-bottom: 0;
   border-bottom: 0;
-  height: 3em;
+  height: 5em;
 }
 
 .icons-list {
@@ -107,4 +107,8 @@
 
 .body-copy {
   background-color: $body-copy;
+}
+
+.boxed--even {
+  min-height: 230px;
 }

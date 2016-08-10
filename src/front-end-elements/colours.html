@@ -15,6 +15,7 @@ id: colours
 
     <nav>
         <ul class="list-inline">
+            <li><a href="#brand-colour" class="btn btn-small btn-pill">Brand colour</a></li>
             <li><a href="#text-colours" class="btn btn-small btn-pill">Text</a></li>
             <li><a href="#link-colours" class="btn btn-small btn-pill">Links</a></li>
             <li><a href="#page-colours" class="btn btn-small btn-pill">Page</a></li>
@@ -26,30 +27,55 @@ id: colours
     <hr>
 
     <div class="row">
-
-        <div class="medium-6 column">
-            <h2 id="text-colours">Text colours <a href="#top" class="back-to-top">Back to top</a></h2>
-
+        <div class="medium-12 column">
+            <h2 id="brand-colour">Brand colour <a href="#top" class="back-to-top">Back to top</a></h2>
             <div class="row">
-                <div class="small-6 large-4 column">
+                <div class="small-12 large-7 xlarge-7 column">
+                    <p>Our brand blue should only be used for the logo. It should never be used as text or as a background colour. This is becuase it has poor contrast and may be difficult for those with low vision to read on screen.</p>
+                </div>
+            </div>
+        </div>
+        <div class="small-3 large-2 column">
+            <div class="colour-swatch coop-brand-blue-bg"></div>
+            <div class="boxed boxed--even margin-bh">
+                <h3>$coop-brand-blue</h3>
+                <h4>#00B1E7</h4>
+                <p>Used only for the Co-op logo.</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+
+        <div class="medium-12 column">
+            
+            <h2 id="text-colours">Text colours <a href="#top" class="back-to-top">Back to top</a></h2>
+            <div class="row">
+                <div class="small-12 large-7 xlarge-7 column">
+                    <p>Text colours meet web accessibility standards that the WCAG 2.0 specify for text and background color combinations. We chose the <span class="bold">$coop-blue</span> as a <span class="bold">safer alternative</span> to <span class="bold">$coop-brand-blue</span>. It must be used sparingly and only for text (not background colour) above 18px to achieve a 3.1 contrast ratio. <strong>The colour contrast we look for on body text is 4.5:1 and3.1 on large text (above 18px or 14px bold)</strong>.</p>
+                    <p class="bold">If you are unsure about any of the colours you are using below are some tools that can help you to check and test them.</p>
+                    <ul>
+                        <li><a href="http://webaim.org/resources/contrastchecker/">Web Aim's Color Contrast Checker</a>
+                        <li><a href="http://leaverou.github.io/contrast-ratio/#%23fff-on-%23282828">La Verou's Colour Contrast Analyser</a></li>
+                        <li><a href="http://colororacle.org/">Color Oracle (free color blindness simulator)</a></li>
+                    </ul>
+                    <p>Ultimately, there is no subsitiute for testing with real people of all abilities to see if your users can interact with your service.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-6 large-2 column">
                     <div class="colour-swatch body-copy"></div>
-                    <div class="boxed margin-bh">
+                    <div class="boxed boxed--even margin-bh">
                         <h3>$body-copy</h3>
                         <h4>#282828</h4>
                         <p>Used for all main content copy.</p>
                     </div>
                 </div>
-                <div class="small-6 large-4 column">
-                    <div class="colour-swatch coop-grey-bg"></div>
-                    <div class="boxed margin-bh">
-                        <h3>$coop-grey</h3>
-                        <h4>#6e6e6e</h4>
-                        <p>Used for various elements: buttons, rules, borders.</p>
-                    </div>
-                </div>
-                <div class="small-6 large-4 column">
+                <div class="small-6 large-2 column">
                     <div class="colour-swatch coop-blue-bg"></div>
-                    <div class="boxed margin-bh">
+                    <div class="boxed boxed--even margin-bh">
                         <h3>$coop-blue</h3>
                         <h4>#00a1cc</h4>
                         <p>For stand-out text and headings, only to be used above 18px</p>
@@ -57,8 +83,13 @@ id: colours
                 </div>
             </div>
 
-            <hr class="medium-hidden">
         </div>
+
+    </div>
+
+    <hr>
+
+    <div class="row">
 
         <div class="medium-6 column">
             <h2 id="link-colours">Links colours <a href="#top" class="back-to-top">Back to top</a></h2>
@@ -66,7 +97,7 @@ id: colours
             <div class="row">
                 <div class="small-6 large-4 column">
                     <div class="colour-swatch coop-link-blue-bg"></div>
-                    <div class="boxed margin-bh">
+                    <div class="boxed boxed--even margin-bh">
                         <h3>$coop-link-blue</h3>
                         <h4>#00729a</h4>
                         <p>To be used for all text links</p>
@@ -75,7 +106,7 @@ id: colours
 
                 <div class="small-6 large-4 column">
                     <div class="colour-swatch coop-link-blue-hover-bg"></div>
-                    <div class="boxed margin-bh">
+                    <div class="boxed boxed--even margin-bh">
                         <h3>$coop-blue-highlighted</h3>
                         <h4>#00bbe3</h4>
                         <p>Hover colour for text links</p>
@@ -84,7 +115,7 @@ id: colours
 
                 <div class="small-6 large-4 column">
                     <div class="colour-swatch coop-link-visited-bg"></div>
-                    <div class="boxed margin-bh">
+                    <div class="boxed boxed--even margin-bh">
                         <h3>$coop-link-visited</h3>
                         <h4>#551A8B</h4>
                         <p>Colour for visited links</p>
@@ -103,7 +134,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch white-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$white</h3>
                 <h4>#fff</h4>
                 <p>Main background colour for pages</p>
@@ -112,7 +143,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch offwhite-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$offwhite</h3>
                 <h4>#f3f3f3</h4>
                 <p>Alternative colour for sections within pages</p>
@@ -120,8 +151,17 @@ id: colours
         </div>
 
         <div class="small-6 large-2 column">
+            <div class="colour-swatch coop-border-grey-bg"></div>
+            <div class="boxed boxed--even margin-bh">
+                <h3>$coop-border-grey</h3>
+                <h4>#dddddd</h4>
+                <p>Used for borders, horizontal rules, etc.</p>
+            </div>
+        </div>
+
+        <div class="small-6 large-2 column">
             <div class="colour-swatch coop-grey-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$coop-grey</h3>
                 <h4>#6e6e6e</h4>
                 <p>Used for borders, horizontal rules, etc.</p>
@@ -130,7 +170,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch added-to-page-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$added-to-page</h3>
                 <h4>#fff7bf</h4>
                 <p>Used when an item is added to a page; e.g. within forms</p>
@@ -147,7 +187,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch offwhite-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$offwhite</h3>
                 <h4>#f3f3f3</h4>
                 <p>Default button colour</p>
@@ -156,7 +196,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch offwhite-highlighted-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$offwhite-highlighted</h3>
                 <h4>#e6e6e6</h4>
                 <p>Default button hover</p>
@@ -165,7 +205,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch button-green-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$button-green</h3>
                 <h4>#00a318</h4>
                 <p>Primary button colour</p>
@@ -174,7 +214,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch button-green-highlighted-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$button-green-highlighted</h3>
                 <h4>#00c81a</h4>
                 <p>Primary button hover</p>
@@ -183,7 +223,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch coop-blue-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$coop-blue</h3>
                 <h4>#00a1cc</h4>
                 <p>Secondary button colour</p>
@@ -192,7 +232,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch coop-blue-highlighted-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$coop-blue-highlighted</h3>
                 <h4>#00bbe3</h4>
                 <p>Secondary button hover</p>
@@ -209,7 +249,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch button-green-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$button-green</h3>
                 <h4>#00a318</h4>
                 <p>To be used for positive messages such as success, at 18px+</p>
@@ -218,7 +258,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch info-orange-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$info-orange</h3>
                 <h4>#dc7d00</h4>
                 <p>Used for stand-out messages at 18px+</p>
@@ -227,7 +267,7 @@ id: colours
 
         <div class="small-6 large-2 column">
             <div class="colour-swatch saleerror-red-bg"></div>
-            <div class="boxed margin-bh">
+            <div class="boxed boxed--even margin-bh">
                 <h3>$saleerror-red</h3>
                 <h4>#d0091c</h4>
                 <p>For warning, error or sale messages only</p>
