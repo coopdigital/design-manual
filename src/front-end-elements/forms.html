@@ -15,7 +15,6 @@ id: forms
 
     <nav>
         <ul class="list-inline">
-            <li><a href="#buttons" class="btn btn-small btn-pill">Buttons</a></li>
             <li><a href="#text-fields" class="btn btn-small btn-pill">Text fields</a></li>
             <li><a href="#dropdowns" class="btn btn-small btn-pill">Dropdowns</a></li>
             <li><a href="#checkboxes-and-radios" class="btn btn-small btn-pill">Checkboxes and radios</a></li>
@@ -27,125 +26,10 @@ id: forms
 
     <hr>
 
-    <h2 id="buttons">Buttons <a href="#top" class="back-to-top">Back to top</a></h2>
-
-    <h3>Standard buttons</h3>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <div class="margin-bq">
-                    <button>Standard</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-primary">Primary</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-secondary">Secondary</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-tertiary-positive">Tertiary Positive</button>
-                </div>
-                <div class="margin-bq  padding-h  coop-blue-bg">
-                    <button class="btn-tertiary-negative">Tertiary Negative</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-primary btn-loading">Loading</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-primary btn-proceed">Proceed</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-primary btn-back">Back</button>
-                </div>
-            </div>
-        </div>
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;button&gt;Standard&lt;/button&gt;
-&lt;button class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;
-&lt;button class=&quot;btn-secondary&quot;&gt;Secondary&lt;/button&gt;
-&lt;button class=&quot;btn-tertiary&quot;&gt;Tertiary&lt;/button&gt;
-&lt;button class=&quot;btn-primary btn-loading&quot;&gt;Loading&lt;/button&gt;
-&lt;button class=&quot;btn-primary btn-proceed&quot;&gt;Proceed&lt;/button&gt;
-&lt;button class=&quot;btn-primary btn-back&quot;&gt;Back&lt;/button&gt;</code></pre>
-            <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
-        </div>
-    </div>
-
-    <h3>Disabled buttons</h3>
-
-    <div class="text">
-        <p>Buttons can be marked as disabled using the <code>disabled</code> attribute (recommended) or by adding a class of <code>disabled</code> to the <code>button</code> element.</p>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <div class="margin-bq">
-                    <button disabled>Disabled standard</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-primary" disabled>Disabled primary</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-secondary" disabled>Disabled secondary</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn-tertiary" disabled>Disabled tertiary</button>
-                </div>
-            </div>
-        </div>
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;button disabled&gt;Disabled standard&lt;/button&gt;
-&lt;button class=&quot;btn-primary&quot; disabled&gt;Disabled primary&lt;/button&gt;
-&lt;button class=&quot;btn-secondary&quot; disabled&gt;Disabled secondary&lt;/button&gt;
-&lt;button class=&quot;btn-tertiary&quot; disabled&gt;Disabled tertiary&lt;/button&gt;</code></pre>
-            <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
-        </div>
-    </div>
-
-    <h3>Buttons modifiers</h3>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <button class="btn-small">Small</button>
-                <button class="btn-medium">Medium</button>
-                <button class="btn-large">Large</button>
-
-                <hr>
-
-                <button class="btn-small btn-pill">Pill button</button>
-                <button class="btn-primary btn-small btn-pill">Pill button primary</button>
-                <button class="btn-secondary btn-small btn-pill">Pill button secondary</button>
-
-                <hr>
-
-                <button class="btn-primary btn-full">Block button</button>
-            </div>
-        </div>
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;button class=&quot;btn-small&quot;&gt;Small&lt;/button&gt;
-&lt;button class=&quot;btn-medium&quot;&gt;Medium&lt;/button&gt;
-&lt;button class=&quot;btn-large&quot;&gt;Large&lt;/button&gt;
-
-&lt;hr&gt;
-
-&lt;button class=&quot;btn-small btn-pill&quot;&gt;Pill button&lt;/button&gt;
-&lt;button class=&quot;btn-primary btn-small btn-pill&quot;&gt;Pill button primary&lt;/button&gt;
-&lt;button class=&quot;btn-secondary btn-small btn-pill&quot;&gt;Pill button secondary&lt;/button&gt;
-
-&lt;hr&gt;
-
-&lt;button class=&quot;btn-primary btn-full&quot;&gt;Block button&lt;/button&gt;</code></pre>
-        </div>
-    </div>
-
     <h2 id="text-fields">Text fields <a href="#top" class="back-to-top">Back to top</a></h2>
 
     <div class="text">
         <p>All form controls should be accompanied with a <code>label</code> element associated to the field using the <code>for</code> attribute. Each form row should also be wrapped in a <code>div.form-row</code> container, as per the examples below.</p>
-
         <p><code>textarea</code> elements should have their <code>rows</code> attribute set to the desired height.</p>
     </div>
 
@@ -282,6 +166,52 @@ id: forms
 
     <h2 id="checkboxes-and-radios">Checkboxes and radio buttons <a href="#top" class="back-to-top">Back to top</a></h2>
 
+    <h3>Radio buttons</h3>
+
+    <div class="text">
+        <p>Sets of radio buttons must be wrapped in a fieldset for accessibility purposes. The <code>legend</code> element must carry the label for the set of buttons.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <form>
+                    <fieldset>
+                        <legend>What kind of will would you like?</legend>
+                        <label class="block-label" for="mirror-wills">
+                            <input data-show data-target="#mirror-will-details" type="radio" value="mirror" name="will-types" id="mirror-wills">Mirror wills
+                        </label>
+                        <div id="mirror-will-details" class="indented" aria-hidden="true" hidden="hidden">
+                          <p>Fill in this form based on decisions you and the other person have agreed.</p>
+                          <p>If you’re not sure, or need to speak to them first, leave the questions
+                          blank and we’ll go through them when we call.</p>
+                        </div>
+                        <label  class="block-label" for="single-will">
+                            <input data-show type="radio" value="single" name="will-types" id="single-will">Single will
+                        </label>
+                        <label class="block-label" for="not-sure">
+                            <input data-show type="radio" value="not sure" name="will-types" id="not-sure">You're not sure
+                        </label>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&#x3C;fieldset&#x3E;
+    &#x3C;legend&#x3E;What kind of will would you like?&#x3C;/legend&#x3E;
+    &#x3C;label class=&#x22;tap-check&#x22; for=&#x22;mirror-wills&#x22;&#x3E;
+        &#x3C;input type=&#x22;radio&#x22; value=&#x22;mirror&#x22; name=&#x22;will-types&#x22; id=&#x22;mirror-wills&#x22;&#x3E;Mirror wills
+    &#x3C;/label&#x3E;
+    &#x3C;label class=&#x22;tap-check&#x22; for=&#x22;single-will&#x22;&#x3E;
+        &#x3C;input type=&#x22;radio&#x22; value=&#x22;single&#x22; name=&#x22;will-types&#x22; id=&#x22;single-will&#x22;&#x3E;Single will
+    &#x3C;/label&#x3E;
+    &#x3C;label class=&#x22;tap-check&#x22; for=&#x22;not-sure&#x22;&#x3E;
+        &#x3C;input type=&#x22;radio&#x22; value=&#x22;not sure&#x22; name=&#x22;will-types&#x22; id=&#x22;not-sure&#x22;&#x3E;You&#x27;re not sure
+    &#x3C;/label&#x3E;
+&#x3C;/fieldset&#x3E;</code></pre>
+        </div>
+    </div>
+
     <h3>Checkboxes</h3>
 
     <div class="text">
@@ -292,89 +222,60 @@ id: forms
         <div class="column medium-6">
             <div class="example">
                 <fieldset>
-                    <legend>Select all that apply</legend>
-                    <div class="form-row">
-                        <input id="box1" type="checkbox">
-                        <label for="box1">Checkbox 1</label>
-                    </div>
-                    <div class="form-row">
-                        <input id="box2" type="checkbox">
-                        <label for="box2">Checkbox 2</label>
-                    </div>
-                    <div class="form-row">
-                        <input id="box3" type="checkbox">
-                        <label for="box3">Checkbox 3</label>
-                    </div>
+                    <legend>Do you own:</legend>
+                    <label class="block-label" for="client_owns_a_business">
+                        <input type="checkbox" value="1" name="client[owns_a_business]" id="client_owns_a_business">a business
+                    </label>
+                    <label class="block-label" for="client_owns_agricultural_property">
+                        <input type="checkbox" value="1" name="client[owns_agricultural_property]" id="client_owns_agricultural_property">agricultural property
+                    </label>
+                    <label class="block-label" for="client_owns_foreign_property">
+                        <input type="checkbox" value="1" name="client[owns_foreign_property]" id="client_owns_foreign_property">foreign property
+                    </label>
+                    <label class="block-label" for="client_owns_trademarks_or_patents">
+                        <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]" id="client_owns_trademarks_or_patents">trademarks or patents
+                    </label>
+                    <p class="or">or</p>
+                    <label class="block-label" for="client_owns_none_of_the_above">
+                        <input type="checkbox" name="client_owns_none_of_the_above" id="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
+                    </label>  
                 </fieldset>
             </div>
         </div>
         <div class="column medium-6">
-            <pre><code class="language-html">&lt;fieldset&gt;
-    &lt;legend&gt;Select all that apply&lt;/legend&gt;
-    &lt;div class=&quot;form-row&quot;&gt;
-        &lt;input id=&quot;box1&quot; type=&quot;checkbox&quot;&gt;
-        &lt;label for=&quot;box1&quot;&gt;Checkbox 1&lt;/label&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;form-row&quot;&gt;
-        &lt;input id=&quot;box2&quot; type=&quot;checkbox&quot;&gt;
-        &lt;label for=&quot;box2&quot;&gt;Checkbox 2&lt;/label&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;form-row&quot;&gt;
-        &lt;input id=&quot;box3&quot; type=&quot;checkbox&quot;&gt;
-        &lt;label for=&quot;box3&quot;&gt;Checkbox 3&lt;/label&gt;
-    &lt;/div&gt;
-&lt;/fieldset&gt;</code></pre>
-        </div>
-    </div>
-
-    <h3>Radio buttons</h3>
-
-    <div class="text">
-        <p>Sets of radio buttons must be wrapped in a fieldset for accessibility purposes. The <code>legend</code> element must carry the label for the set of buttons.</p>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <fieldset>
-                    <legend>Gender</legend>
-                    <div class="form-row">
-                        <input type="radio" id="gender_male" value="m" name="gender">
-                        <label for="gender_male" class="radio-label">Male</label>
-                    </div>
-                    <div class="form-row">
-                        <input type="radio" id="gender_female" value="f" name="gender">
-                        <label for="gender_female" class="radio-label">Female</label>
-                    </div>
-                </fieldset>
-            </div>
-        </div>
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;fieldset&gt;
-    &lt;legend&gt;Gender&lt;/legend&gt;
-    &lt;div class=&quot;form-row&quot;&gt;
-        &lt;input type=&quot;radio&quot; id=&quot;gender_male&quot; value=&quot;m&quot; name=&quot;gender&quot;&gt;
-        &lt;label for=&quot;gender_male&quot; class=&quot;radio-label&quot;&gt;Male&lt;/label&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;form-row&quot;&gt;
-        &lt;input type=&quot;radio&quot; id=&quot;gender_female&quot; value=&quot;f&quot; name=&quot;gender&quot;&gt;
-        &lt;label for=&quot;gender_female&quot; class=&quot;radio-label&quot;&gt;Female&lt;/label&gt;
-    &lt;/div&gt;
-&lt;/fieldset&gt;</code></pre>
+            <pre><code class="language-html">&#x3C;fieldset&#x3E;
+    &#x3C;legend&#x3E;Do you own:&#x3C;/legend&#x3E;
+    &#x3C;label class=&#x22;block-label&#x22; for=&#x22;client_owns_a_business&#x22;&#x3E;
+        &#x3C;input type=&#x22;checkbox&#x22; value=&#x22;1&#x22; name=&#x22;client[owns_a_business]&#x22; id=&#x22;client_owns_a_business&#x22;&#x3E;a business
+    &#x3C;/label&#x3E;
+    &#x3C;label class=&#x22;block-label&#x22; for=&#x22;client_owns_agricultural_property&#x22;&#x3E;
+        &#x3C;input type=&#x22;checkbox&#x22; value=&#x22;1&#x22; name=&#x22;client[owns_agricultural_property]&#x22; id=&#x22;client_owns_agricultural_property&#x22;&#x3E;agricultural property
+    &#x3C;/label&#x3E;
+    &#x3C;label class=&#x22;block-label&#x22; for=&#x22;client_owns_foreign_property&#x22;&#x3E;
+        &#x3C;input type=&#x22;checkbox&#x22; value=&#x22;1&#x22; name=&#x22;client[owns_foreign_property]&#x22; id=&#x22;client_owns_foreign_property&#x22;&#x3E;foreign property
+    &#x3C;/label&#x3E;
+    &#x3C;label class=&#x22;block-label&#x22; for=&#x22;client_owns_trademarks_or_patents&#x22;&#x3E;
+        &#x3C;input type=&#x22;checkbox&#x22; value=&#x22;1&#x22; name=&#x22;client[owns_trademarks_or_patents]&#x22; id=&#x22;client_owns_trademarks_or_patents&#x22;&#x3E;trademarks or patents
+    &#x3C;/label&#x3E;
+    &#x3C;p class=&#x22;or&#x22;&#x3E;or&#x3C;/p&#x3E;
+    &#x3C;label class=&#x22;block-label&#x22; for=&#x22;client_owns_none_of_the_above&#x22;&#x3E;
+        &#x3C;input type=&#x22;checkbox&#x22; name=&#x22;client_owns_none_of_the_above&#x22; id=&#x22;client_owns_none_of_the_above&#x22; data-none-of-the-above=&#x22;&#x22;&#x3E;You do not own any of these
+    &#x3C;/label&#x3E;  
+&#x3C;/fieldset&#x3E;</code></pre>
         </div>
     </div>
 
     <h2 id="tap-tiles">Tap tiles <a href="#top" class="back-to-top">Back to top</a></h2>
 
     <div class="text">
-        <p>Tap tiles are essentially radio buttons styled to be much easier to use on mobile and touch devices.</p>
+        <p>We no longer recommend the use of tap tiles but if your project uses them, don't worry. Consider upgrading to use the examples above for radio buttons and checkboxes. Rather than hide the browser default radio and checkboxes our new pattern enahances them to make the more usable.</p>
     </div>
 
     <div class="row">
         <div class="column medium-6">
             <div class="example">
                 <fieldset class="form-row">
-                    <legend>Answer the question. Yes or No.</legend>
+                    <legend>Answer the question. Yes or No?</legend>
 
                     <input type="radio" id="radio-one" name="radio-group-1" class="tap-input">
                     <label for="radio-one">Yes</label>

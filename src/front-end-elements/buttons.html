@@ -1,0 +1,129 @@
+---
+layout: default
+id: buttons
+---
+
+<div class="wrap">
+
+    <ul class="breadcrumbs">
+        <li><a href="/">Home</a></li>
+        <li><a href="/front-end-elements/">Front-end elements</a></li>
+        <li>Buttons</li>
+    </ul>
+
+    <h1>Buttons</h1>
+
+     <nav>
+        <ul class="list-inline">
+            <li><a href="#standard-buttons" class="btn btn-small btn-pill">Standard buttons</a></li>
+            <li><a href="#disabled-buttons" class="btn btn-small btn-pill">Disabled buttons</a></li>
+            <li><a href="#modified-buttons" class="btn btn-small btn-pill">Buttons modifiers</a></li>
+            <li><a href="#example-buttons" class="btn btn-small btn-pill">Examples</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2 id="standard-buttons">Standard buttons <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                   
+                <div class="margin-bq">
+                    <button class="btn-primary">Primary</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-secondary">Secondary</button>
+                </div>
+                <div class="margin-bq  padding-h  button-secondary-grey-bg">
+                    <button class="btn-secondary-negative">Secondary Negative</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-primary btn-loading">Loading</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-secondary btn-proceed">Proceed</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-secondary btn-back">Back</button>
+                </div> 
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;button&gt;Standard&lt;/button&gt;
+&lt;button class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button class=&quot;btn-tertiary&quot;&gt;Tertiary&lt;/button&gt;
+&lt;button class=&quot;btn-primary btn-loading&quot;&gt;Loading&lt;/button&gt;
+&lt;button class=&quot;btn-primary btn-proceed&quot;&gt;Proceed&lt;/button&gt;
+&lt;button class=&quot;btn-primary btn-back&quot;&gt;Back&lt;/button&gt;</code></pre>
+            <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
+        </div>
+    </div>
+
+    <h3 id="disabled-buttons">Disabled buttons <a href="#top" class="back-to-top">Back to top</a></h3>
+
+    <div class="text">
+        <p>Buttons can be marked as disabled using the <code>disabled</code> attribute (recommended) or by adding a class of <code>disabled</code> to the <code>button</code> element.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="margin-bq">
+                    <button disabled>Disabled standard</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-primary" disabled>Disabled primary</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-secondary" disabled>Disabled secondary</button>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;button disabled&gt;Disabled standard&lt;/button&gt;
+&lt;button class=&quot;btn-primary&quot; disabled&gt;Disabled primary&lt;/button&gt;
+&lt;button class=&quot;btn-secondary&quot; disabled&gt;Disabled secondary&lt;/button&gt;
+&lt;button class=&quot;btn-tertiary&quot; disabled&gt;Disabled tertiary&lt;/button&gt;</code></pre>
+            <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
+        </div>
+    </div>
+
+    <h3 id="modified-buttons">Buttons modifiers <a href="#top" class="back-to-top">Back to top</a></h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <button class="btn-primary btn-small">Small</button>
+                <button class="btn-primary btn-medium">Medium</button>
+                <button class="btn-primary btn-large">Large</button>
+
+                <hr>
+
+                <button class="btn-small btn-pill">Pill button</button>
+                <button class="btn-primary btn-small btn-pill">Pill button primary</button>
+                <button class="btn-secondary btn-small btn-pill">Pill button secondary</button>
+
+                <hr>
+
+                <button class="btn-primary btn-full">Block button</button>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;button class=&quot;btn-small&quot;&gt;Small&lt;/button&gt;
+&lt;button class=&quot;btn-medium&quot;&gt;Medium&lt;/button&gt;
+&lt;button class=&quot;btn-large&quot;&gt;Large&lt;/button&gt;
+
+&lt;hr&gt;
+
+&lt;button class=&quot;btn-small btn-pill&quot;&gt;Pill button&lt;/button&gt;
+&lt;button class=&quot;btn-primary btn-small btn-pill&quot;&gt;Pill button primary&lt;/button&gt;
+&lt;button class=&quot;btn-secondary btn-small btn-pill&quot;&gt;Pill button secondary&lt;/button&gt;
+
+&lt;hr&gt;
+
+&lt;button class=&quot;btn-primary btn-full&quot;&gt;Block button&lt;/button&gt;</code></pre>
+        </div>
+    </div>
