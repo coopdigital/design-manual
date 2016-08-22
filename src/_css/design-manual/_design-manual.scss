@@ -3,8 +3,15 @@
   font-size: .625em;
 }
 
+.header-design-manual {
+  margin-top: $half-spacing-unit;
+}
+
+.info-banner p {
+  margin-left: .25em;
+}
+
 .example {
-  @extend %boxed;
 
   position: relative;
   padding-top: 3em;
@@ -34,6 +41,7 @@
         border: 2px solid darken($added-to-page, 25%);
       }
     }
+
   }
 }
 

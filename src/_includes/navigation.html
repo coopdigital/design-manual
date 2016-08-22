@@ -1,0 +1,44 @@
+<div class="side-nav">
+
+    <button class="btn btn-small btn-tertiary-negative nav-trigger"><span aria-hidden="true" class="icon icon-menu"></span><span class="visuallyhidden">Close</span></button>
+
+    <nav id="side-navigation">
+      <ul class="side-nav-list"> 
+        <li><a href="/index.html" class="side-nav-list-link {% if page.id == 'index' %} side-nav-list-link--active {% endif %}">Home</a></li> 
+        <li>
+          <span class="side-nav-list__parent">
+            <a href="/front-end-elements/index.html" class="side-nav-list-link side-nav-list-link-left {% if page.id == 'front-end-elements' %} side-nav-list-link--active {% endif %}">Design patterns</a> 
+            <span class="side-nav-list__has-children">
+              <a href="#toggle-1" class="btn btn-small btn-tertiary-negative side-nav-list-link-toggle toggle-trigger" role="button" data-toggle>
+                <span class="visuallyhidden">Toggle menu</span>
+              </a>
+            </span>
+          </span>
+          <ul id="toggle-1" class="side-nav-list-sub toggle-content">
+            <li><a href="/front-end-elements/colours.html" class="side-nav-list-sub-link {% if page.id == 'colours' %} side-nav-list-link--active {% endif %}">Colours</a></li>
+            <li><a href="/front-end-elements/typography.html" class="side-nav-list-sub-link {% if page.id == 'typography' %} side-nav-list-link--active {% endif %}">Typography</a></li>
+            <li><a href="/front-end-elements/icons.html" class="side-nav-list-sub-link {% if page.id == 'icons' %} side-nav-list-link--active {% endif %}">Icons</a></li>
+            <li><a href="/front-end-elements/forms.html" class="side-nav-list-sub-link {% if page.id == 'forms' %} side-nav-list-link--active {% endif %}">Forms</a></li>
+            <li><a href="/front-end-elements/buttons.html" class="side-nav-list-sub-link {% if page.id == 'buttons' %} side-nav-list-link--active {% endif %}">Links and buttons</a></li>
+            <li><a href="/front-end-elements/common-elements.html" class="side-nav-list-sub-link {% if page.id == 'common-elements' %} side-nav-list-link--active {% endif %}">Common elements</a></li>
+            <li><a href="/front-end-elements/layout.html" class="side-nav-list-sub-link {% if page.id == 'layout' %} side-nav-list-link--active {% endif %}">Layout</a></li>
+            <li><a href="/front-end-elements/components.html" class="side-nav-list-sub-link {% if page.id == 'components' %} side-nav-list-link--active {% endif %}">Components</a></li>
+            <li><a href="/front-end-elements/templates.html" class="side-nav-list-sub-link {% if page.id == 'templates' %} side-nav-list-link--active {% endif %}">Templates</a></li>  
+          </ul>
+        </li>
+        <li>
+          <a href="/accessibility.html" class="side-nav-list-link {% if page.id == 'accessibility' %} side-nav-list-link--active {% endif %} ">Accessibility</a>
+        </li>
+        <li>
+          <a href="/supported-devices.html" class="side-nav-list-link {% if page.id == 'supported-devices' %} side-nav-list-link--active {% endif %} ">Supported Devices</a>
+        </li>
+      </ul>
+      <!-- <h4 class="side-nav-list--section">Stats</h4>
+      <ul class="side-nav-list">
+        <li>
+          <a href="#" class="side-nav-list-link">First call stats</a>
+          <a href="#" class="side-nav-list-link">Funeral arrangement stats</a>
+        </li>
+      </ul> -->
+    </nav>
+  </div>
