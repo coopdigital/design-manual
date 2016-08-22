@@ -8,28 +8,98 @@ id: buttons
     <ul class="breadcrumbs">
         <li><a href="/">Home</a></li>
         <li><a href="/front-end-elements/">Front-end elements</a></li>
-        <li>Buttons</li>
+        <li>Links and buttons</li>
     </ul>
 
-    <h1>Buttons</h1>
+    <h1>Links and buttons</h1>
 
      <nav>
         <ul class="list-inline">
+            <li><a href="#links" class="btn btn-small btn-pill">Links</a></li>
             <li><a href="#standard-buttons" class="btn btn-small btn-pill">Standard buttons</a></li>
             <li><a href="#disabled-buttons" class="btn btn-small btn-pill">Disabled buttons</a></li>
             <li><a href="#modified-buttons" class="btn btn-small btn-pill">Buttons modifiers</a></li>
-            <li><a href="#example-buttons" class="btn btn-small btn-pill">Examples</a></li>
+            <li><a href="#example-buttons" class="btn btn-small btn-pill">Button Examples</a></li>
         </ul>
     </nav>
 
     <hr>
 
-    <h2 id="standard-buttons">Standard buttons <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="standard-buttons">Links <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="small-12 large-7 column">
+            <p>A link should be descriptive of the place it's taking the user. It should also reflect the title (if possible) of the destination page, so the user knows they've arrived at the right place. <strong>Avoid using text such as, 'click here', or anything that does not make sense when read out of context</strong>. Screen readers for instance, can read link text in isolation without the surrounding content.</p>
+        </div>
+    </div>
 
     <div class="row">
         <div class="column medium-6">
             <div class="example">
-                   
+                <div class="margin-bq">
+                    <a href="https://www.co-oplegalservices.co.uk/making-a-will/">More information about Wills</a>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">
+&#x3C;a href=&#x22;https://www.co-oplegalservices.co.uk/making-a-will/&#x22;&#x3E;More information about Wills&#x3C;/a&#x3E;
+            </code></pre>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 large-7 column">
+            <p>You can hide further descriptive text in a way that can be found by screen readers using a class of <code>.visuallyhidden</code>. The link should however remain descriptive of the place it's taking the user.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="margin-bq">
+                    <a href="https://www.co-oplegalservices.co.uk/making-a-will/">More information about Wills<span class="visuallyhidden"> on the Co-op Legal website</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">
+&#x3C;a href=&#x22;https://www.co-oplegalservices.co.uk/making-a-will/&#x22;&#x3E;
+    More information about Wills&#x3C;span class=&#x22;visuallyhidden&#x22;&#x3E; on the Co-op Legal website&#x3C;/span&#x3E;
+&#x3C;/a&#x3E;
+            </code></pre>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 large-7 column">
+            <p>Links to download documents must indicate the type of file and size.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="margin-bq">
+                    <p><a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-download"></span> Download your Will PDF (5mb)</a></p>
+                    <p><a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-twitter"></span> Tweet about this awesome Design Manual</a></p>
+                    <p><a href="#" class="link-icon-right">More information about Wills <span aria-hidden="true" class="icon icon-forward-arrow"></span></a></p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">
+&#x3C;a href=&#x22;#&#x22; class=&#x22;link-icon-left&#x22;&#x3E;&#x3C;span aria-hidden=&#x22;true&#x22; class=&#x22;icon icon-download&#x22;&#x3E;&#x3C;/span&#x3E; Download your Will PDF (5mb)&#x3C;/a&#x3E;
+&#x3C;a href=&#x22;#&#x22; class=&#x22;link-icon-left&#x22;&#x3E;&#x3C;span aria-hidden=&#x22;true&#x22; class=&#x22;icon icon-twitter&#x22;&#x3E;&#x3C;/span&#x3E; Tweet about this awesome Design Manual&#x3C;/a&#x3E;
+&#x3C;a href=&#x22;#&#x22; class=&#x22;link-icon-right&#x22;&#x3E;More information about Wills &#x3C;span aria-hidden=&#x22;true&#x22; class=&#x22;icon icon-forward-arrow&#x22;&#x3E;&#x3C;/span&#x3E;&#x3C;/a&#x3E;
+            </code></pre>
+        </div>
+    </div>
+
+    <h2 id="standard-buttons">Buttons <a href="#top" class="back-to-top">Back to top</a></h2>
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
                 <div class="margin-bq">
                     <button class="btn-primary">Primary</button>
                 </div>
@@ -54,10 +124,34 @@ id: buttons
             <pre><code class="language-html">&lt;button&gt;Standard&lt;/button&gt;
 &lt;button class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;
 &lt;button class=&quot;btn-secondary&quot;&gt;Secondary&lt;/button&gt;
-&lt;button class=&quot;btn-tertiary&quot;&gt;Tertiary&lt;/button&gt;
 &lt;button class=&quot;btn-primary btn-loading&quot;&gt;Loading&lt;/button&gt;
 &lt;button class=&quot;btn-primary btn-proceed&quot;&gt;Proceed&lt;/button&gt;
 &lt;button class=&quot;btn-primary btn-back&quot;&gt;Back&lt;/button&gt;</code></pre>
+            <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 large-7 column">
+            <p>Links that are styled as buttons should ideally be an action eg 'Continue', 'Book' or 'Confirm'.</p>
+            <p>Use the <code>&#x3C;button&#x3E;</code> element within a form or for clickable elements that do not have a meaningful <code>href</code> eg when you want to trigger something with Javascript</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="margin-bq">
+                    <a href="/booking-form" class="btn btn-primary">Continue to booking</a>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn btn-primary">Send your message</button>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&#x3C;a href=&#x22;/booking-form&#x22; class=&#x22;btn-primary&#x22;&#x3E;Continue to booking&#x3C;/a&#x3E;
+    &#x3C;button class=&#x22;btn-primary&#x22;&#x3E;Send your message&#x3C;/button&#x3E;</code></pre>
             <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
         </div>
     </div>
@@ -126,4 +220,5 @@ id: buttons
 
 &lt;button class=&quot;btn-primary btn-full&quot;&gt;Block button&lt;/button&gt;</code></pre>
         </div>
+
     </div>
