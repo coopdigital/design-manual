@@ -28,11 +28,13 @@ id: forms
 
     <h2 id="text-fields">Text fields <a href="#top" class="back-to-top">Back to top</a></h2>
 
-    <div class="text">
-        <p>All form controls should be accompanied with a <code>label</code> element associated to the field using the <code>for</code> attribute. Each form row should also be wrapped in a <code>div.form-row</code> container, as per the examples below.</p>
-        <p><code>textarea</code> elements should have their <code>rows</code> attribute set to the desired height.</p>
+    <div class="row">
+        <div class="column small-12 large-7">
+            <p>All form controls should be accompanied with a <code>label</code> element associated to the field using the <code>for</code> attribute.</p>
+            <p><code>textarea</code> elements should have their <code>rows</code> attribute set to the desired height.</p>
+        </div>
     </div>
-
+ 
     <div class="row">
         <div class="column medium-6">
             <div class="example">
@@ -44,6 +46,11 @@ id: forms
                 <div class="form-row">
                     <label for="input">Inline text input</label>
                     <input class="input-inline" id="input" type="text" size="10">
+                </div>
+
+                <div class="form-row">
+                    <label for="input">Strong text input</label>
+                    <input class="input-strong" id="input" type="text" size="10">
                 </div>
 
                 <div class="form-row">
@@ -93,6 +100,13 @@ id: forms
                     <input id="input-prefix-suffix" class="input-prefix input-suffix" type="text">
                     <span class="suffix">.00</span>
                 </div>
+
+                <div class="form-row">
+                    <label for="input-prefix-suffix">Strong input with both prefix and suffix</label>
+                    <span class="prefix input-strong">£</span>
+                    <input id="input-prefix-suffix" class="input-prefix input-suffix input-strong" type="text">
+                    <span class="suffix input-strong">.00</span>
+                </div>
             </div>
         </div>
         <div class="column medium-6">
@@ -134,6 +148,15 @@ id: forms
                 <div class="form-row">
                     <label for="select">Inline select dropdown</label>
                     <select class="input-inline" id="select">
+                        <option>Option One</option>
+                        <option>Option Two</option>
+                        <option>Option Three</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="select">Strong select dropdown</label>
+                    <select id="select" class="input-strong">
                         <option>Option One</option>
                         <option>Option Two</option>
                         <option>Option Three</option>
