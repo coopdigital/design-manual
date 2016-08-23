@@ -97,15 +97,19 @@
 
 .nav-trigger {
   position: fixed;
-  right: -60px;
+  right: -50px;
   top: 0px;
-  padding: 20px;
+  padding: $quarter-spacing-unit;
   line-height: .8;
   border: 0;
   border-radius: 0;
   background: #2C3136;
   font-size: em-calc(16px);
   color: $white;
+  @include media(medium) {
+    right: -60px;
+    padding: 20px;
+  }
   .icon {
     position: relative;
     top: -2px;
@@ -120,16 +124,21 @@
     color: $white;
     outline: 4px solid #00bbe3;
   }
+
 }
 
 .content-wrapper {
-  padding-left: $half-spacing-unit;
+  padding-left: 0;
+  @include media(medium) {
+    padding-left: $half-spacing-unit;
+  }
 }
 
 // Sidebar
 
 .side-nav {
   position: absolute;
+  top: 0;
   height: 100vh;
   height: 100%;
   z-index: 101;

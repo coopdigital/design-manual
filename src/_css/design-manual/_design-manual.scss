@@ -5,11 +5,37 @@
 
 .header-design-manual {
   margin-top: $half-spacing-unit;
+  border-bottom: 0;
+}
+
+.header-main .coop-logo, 
+.header-main .coop-logo-large {
+  width: 45px;
+  height: 46px;
+  @include media(medium) {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+.info-banner {
+  padding: 8px 8px 8px 42px;
+  @include media(medium) {
+    padding: $quarter-spacing-unit;
+  }
 }
 
 .info-banner p {
   margin-left: .25em;
+  font-size: em-calc(14);
+  @include media(large) {
+    font-size: em-calc(16);
+  }
+  @include media(large) {
+    font-size: em-calc(20);
+  }
 }
+
 
 .example {
 
@@ -22,7 +48,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: $offwhite;
+    background: #2C3136;
+    color: $white;
     padding: .25em;
   }
 }
