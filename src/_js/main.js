@@ -18,8 +18,8 @@ var sidebar = $('.side-nav'),
 function openNavigation(){
 
   sidebarTrigger.on('click', function(event){
-    // $(sidebar).toggleClass('nav-is--open');
     $(appWrap).toggleClass('nav-is--open');
+    $(this).toggleClass('trigger-is--on');
     event.preventDefault();
   }); 
 
@@ -29,9 +29,9 @@ function openNavigation(){
 function tabIndexing(){
 
   if ( $('html').attr('class') == 'nav-is--closed' ) {
-    $(sidebar).prop('tabIndex', 0);
-  } else {
     $(sidebar).prop('tabIndex', -1);
+  } else {
+    $(sidebar).prop('tabIndex', 0);
   }
 
 }
