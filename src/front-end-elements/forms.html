@@ -64,6 +64,11 @@ id: forms
     &lt;input class=&quot;input-inline&quot; id=&quot;input&quot; type=&quot;text&quot; size=&quot;10&quot;&gt;
 &lt;/div&gt;
 
+&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+    &#x3C;label for=&#x22;input&#x22;&#x3E;Strong text input&#x3C;/label&#x3E;
+    &#x3C;input class=&#x22;input-strong&#x22; id=&#x22;input&#x22; type=&#x22;text&#x22; size=&#x22;10&#x22;&#x3E;
+&#x3C;/div&#x3E;
+
 &lt;div class=&quot;form-row&quot;&gt;
     &lt;label for=&quot;textarea-1&quot;&gt;Textarea&lt;/label&gt;
     &lt;textarea id=&quot;textarea-1&quot; cols=&quot;30&quot; rows=&quot;4&quot;&gt;&lt;/textarea&gt;
@@ -205,7 +210,13 @@ id: forms
     &lt;span class=&quot;prefix&quot;&gt;&pound;&lt;/span&gt;
     &lt;input id=&quot;input-prefix-suffix&quot; class=&quot;input-prefix input-suffix&quot; type=&quot;text&quot;&gt;
     &lt;span class=&quot;suffix&quot;&gt;.00&lt;/span&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+    &#x3C;label for=&#x22;input-prefix-suffix&#x22;&#x3E;Strong input with both prefix and suffix&#x3C;/label&#x3E;
+    &#x3C;span class=&#x22;prefix input-strong&#x22;&#x3E;&#xA3;&#x3C;/span&#x3E;
+    &#x3C;input id=&#x22;input-prefix-suffix&#x22; class=&#x22;input-prefix input-suffix input-strong&#x22; type=&#x22;text&#x22;&#x3E;
+    &#x3C;span class=&#x22;suffix input-strong&#x22;&#x3E;.00&#x3C;/span&#x3E;
+&#x3C;/div&#x3E;</code></pre>
         </div>
     </div>
 
@@ -261,7 +272,15 @@ id: forms
         &lt;option&gt;Option Two&lt;/option&gt;
         &lt;option&gt;Option Three&lt;/option&gt;
     &lt;/select&gt;
-&lt;/div&gt;</code></pre>
+&lt;/div&gt;
+&#x3C;div class=&#x22;form-row&#x22;&#x3E;
+    &#x3C;label for=&#x22;select&#x22;&#x3E;Strong select dropdown&#x3C;/label&#x3E;
+    &#x3C;select id=&#x22;select&#x22; class=&#x22;input-strong&#x22;&#x3E;
+        &#x3C;option&#x3E;Option One&#x3C;/option&#x3E;
+        &#x3C;option&#x3E;Option Two&#x3C;/option&#x3E;
+        &#x3C;option&#x3E;Option Three&#x3C;/option&#x3E;
+    &#x3C;/select&#x3E;
+&#x3C;/div&#x3E;</code></pre>
         </div>
     </div>
 
