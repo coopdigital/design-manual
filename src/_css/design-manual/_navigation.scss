@@ -120,10 +120,12 @@
     font-size: em-calc(25px);
   }
   &:hover {
+    border: 0;
     background: #2C3136;
     color: $white;
   }
   &:focus {
+    border: 0;
     background: #2C3136;
     color: $white;
     outline: 4px solid #00bbe3;
