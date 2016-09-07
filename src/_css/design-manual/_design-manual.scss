@@ -104,7 +104,7 @@
 
   @include media(medium) {
     li {
-      width: 33%;
+      width: 33%; 
 
       &:nth-child(2n+1) {
         clear: none;
