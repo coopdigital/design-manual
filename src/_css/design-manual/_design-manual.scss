@@ -38,13 +38,15 @@
 
 .example-grid-wrap {
   position: relative;
+  .medium-4 {
+    width: 32.3333%;  
+  }
 }
 
 .example-grid {
   width: 100%;
   position: absolute;
   .column {
-
     .column-highlight {
       height: 850px;
       background: rgba(255,0,0,0.2);
