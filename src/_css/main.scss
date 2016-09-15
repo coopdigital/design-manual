@@ -1,25 +1,5 @@
 $base-asset-url: '/assets/';
 
-$typographic-scale: (
-  base: (
-    body: 20px, // This is the default size for the main content
-    h1: 34px,
-    h2: 25px,
-    h3: 21px,
-    h4: 19px,
-    h5: 19px,
-    h6: 16px,
-    blockquote: 28px,
-    small: 16px
-  ),
-  medium: (
-    h1: 50px // h1 will be 50px from medium breakpoint and above
-  ),
-  large: (
-    h2: 40px // h2 will be 40px from large breakpoint and above
-  )
-);
-
 @import 'coop-toolkit';
 
 @import 'design-manual/design-manual';

@@ -36,6 +36,23 @@
   }
 }
 
+.example-grid-wrap {
+  position: relative;
+}
+
+.example-grid {
+  width: 100%;
+  position: absolute;
+  .column {
+
+    .column-highlight {
+      height: 850px;
+      background: rgba(255,0,0,0.2);
+    }
+
+  }
+}
+
 .candidate {
   position: relative;
   padding: 3em 1em 1em 1em;
