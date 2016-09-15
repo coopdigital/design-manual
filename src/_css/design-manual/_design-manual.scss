@@ -21,7 +21,7 @@
 .info-banner {
   padding: 8px 8px 8px 42px;
   @include media(medium) {
-    padding: $quarter-spacing-unit;
+    padding: 13px;
   }
 }
 
@@ -39,7 +39,7 @@
 .example-grid-wrap {
   position: relative;
   .medium-4 {
-    width: 32.3333%;  
+    width: 32.3333%;
   }
 }
 
@@ -48,10 +48,9 @@
   position: absolute;
   .column {
     .column-highlight {
-      height: 850px;
+      height: 770px;
       background: rgba(255,0,0,0.2);
     }
-
   }
 }
 
@@ -179,7 +178,7 @@
       }
 
       &:nth-child(3n+1) {
-        clear: left;
+        clear: left;  
       }
     }
   }
@@ -201,11 +200,6 @@
   .icon {
     color: $coop-blue;
   }
-}
-
-.text,
-.intro-text {
-  max-width: 38em;
 }
 
 .body-copy {
