@@ -35,7 +35,7 @@
     font-size: em-calc(20);
   }
 }
-  
+
 .example-grid-wrap {
   position: relative;
   .medium-4 {
@@ -140,8 +140,8 @@
         display: block;
         padding: $quarter-spacing-unit / 2;
         min-height: 6em;
-        background: $added-to-page;
-        border: 2px solid darken($added-to-page, 25%);
+        background: rgba(255,0,0,0.2);
+        border: 2px solid rgba(255,0,0,0.6);;
       }
     }
 
@@ -222,4 +222,30 @@
 
 .margin-rq {
   margin-right: $quarter-spacing-unit;
+}
+
+.logo-padding {
+  width: 122px;
+  padding: 30px 20px 30px 30px;
+  background: rgba(255,0,0,0.2);
+}
+
+.identifier {
+  background: $white;
+}
+
+.identifier-padding {
+  position: relative;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -18px;
+    width: 155px;
+    height: 68px;
+    padding: 30px 20px 30px 30px;
+    background: rgba(255,0,0,0.2);
+  }
+
 }
