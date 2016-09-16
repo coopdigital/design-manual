@@ -27,6 +27,8 @@ pre[class*="language-"] {
 	-moz-hyphens: none;
 	-ms-hyphens: none;
 	hyphens: none;
+
+
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
@@ -51,8 +53,9 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 /* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
-	margin: 0 0 2em;
 	overflow: auto;
+	margin-top: $half-spacing-unit;
+	margin-bottom: $base-spacing-unit;
 }
 
 :not(pre) > code[class*="language-"],

@@ -39,7 +39,7 @@
 .example-grid-wrap {
   position: relative;
   .medium-4 {
-    width: 32.3333%;
+    width: 32.2222%;
   }
 }
 
@@ -55,7 +55,7 @@
   background-size: 100% .85em;
   .column {
     .column-highlight {
-      min-height: 700px;
+      min-height: 698px;
       background: rgba(255,0,0,0.2);
     }
   }
@@ -64,7 +64,8 @@
 .candidate {
   position: relative;
   padding: 3em 1em 1em 1em;
-  margin-bottom: 2em;
+  margin-top: $half-spacing-unit;
+  margin-bottom: $base-spacing-unit;
 
 
   &:before {
@@ -82,7 +83,8 @@
 .published {
   position: relative;
   padding: 3em 1em 1em 1em;
-  margin-bottom: 2em;
+  margin-top: $half-spacing-unit;
+  margin-bottom: $base-spacing-unit;
 
 
   &:before {
@@ -100,8 +102,8 @@
 .example {
   position: relative;
   padding: 3em 1em 1em 1em;
-  margin-bottom: 2em;
-
+  margin-top: $half-spacing-unit;
+  margin-bottom: $base-spacing-unit;
 
   &:before {
     content: "Example";
@@ -126,6 +128,7 @@
     padding: .25em;
   }
 }
+
 
 .grid-example {
   .row {
