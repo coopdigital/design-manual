@@ -45,17 +45,16 @@
 
 .example-grid {
   width: 100%;
-  //margin-top: -.7em;
   position: absolute;
   background-image: -webkit-linear-gradient(top,#0ff 0,rgba(255,255,255,0)1px);
   background-image: -moz-linear-gradient(top,#0ff 0,rgba(255,255,255,0)1px);
   background-image: -o-linear-gradient(top,#0ff 0,rgba(255,255,255,0)1px);
   background-image: linear-gradient(to bottom,#0ff 0,rgba(255,255,255,0)1px);
   background-repeat: repeat-y;
-  background-size: 100% .85em;
+  background-size: 100% 8px;
   .column {
     .column-highlight {
-      min-height: 698px;
+      min-height: 700px;
       background: rgba(255,0,0,0.2);
     }
   }
