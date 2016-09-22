@@ -54,7 +54,7 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 pre[class*="language-"] {
 	padding: 1em;
 	overflow: auto;
-	margin-top: $half-spacing-unit;
+	margin-top: 0;
 	margin-bottom: $base-spacing-unit;
 }
 

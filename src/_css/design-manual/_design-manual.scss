@@ -19,9 +19,12 @@
 }
 
 .info-banner {
-  padding: 8px 8px 8px 42px;
+  padding: 12px 20px 12px 42px;
+  @include media(small) {
+    padding: 20px 20px 20px 42px;
+  }
   @include media(medium) {
-    padding: 13px;
+    padding: 20px 20px 20px 20px;
   }
 }
 
@@ -46,18 +49,32 @@
 .example-grid {
   width: 100%;
   position: absolute;
+}
+
+.example-baseline {
   background-image: -webkit-linear-gradient(top,#0ff 0,rgba(255,255,255,0)1px);
   background-image: -moz-linear-gradient(top,#0ff 0,rgba(255,255,255,0)1px);
   background-image: -o-linear-gradient(top,#0ff 0,rgba(255,255,255,0)1px);
   background-image: linear-gradient(to bottom,#0ff 0,rgba(255,255,255,0)1px);
   background-repeat: repeat-y;
   background-size: 100% 8px;
-  .column {
-    .column-highlight {
-      min-height: 2100px;
-      background: rgba(255,0,0,0.2);
-    }
+}
+
+.column {
+  .column-highlight {
+    min-height: 325px;
+    background: rgba(255,0,0,0.2);
   }
+}
+
+.baseline {
+  position: relative;
+  top: 1px;
+
+    .medium-8 {
+      width: 65%;
+    }
+
 }
 
 .candidate {
