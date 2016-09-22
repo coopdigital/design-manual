@@ -38,7 +38,11 @@
   padding: .75em 7.5%;
   color: $white;
   border-bottom: 1px solid #2C3136;
-  font-size: 20px;
+  font-size: 1em;
+  @include media(medium) {
+    font-size: .8em;
+  }
+
   &:hover {
     color: $white;
     background: lighten(#2C3136, 5%);
@@ -71,9 +75,13 @@
 }
 
 .side-nav-list-link-toggle.toggle-trigger {
+  font-size: 1.3em;
   color: $white;
   background: #2C3136;
   border: 1px solid $white;
+  @include media(medium) {
+    font-size: 1.05em;
+  }
   &:hover {
     color: $coop-grey;
     background: $white;
@@ -81,9 +89,6 @@
   &:active {
     color: $white;
     background: #2C3136;
-  }
-  &:after {
-    font-size: 1.2em;
   }
 }
 
@@ -107,7 +112,6 @@
   border: 0;
   border-radius: 0;
   background: #2C3136;
-  font-size: em-calc(16px);
   color: $white;
   -webkit-transition: none;
           transition: none;
