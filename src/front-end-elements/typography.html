@@ -33,6 +33,7 @@ id: typography
 
     <div class="row">
         <div class="column small-12">
+            <div class="test"></div>
             <div class="candidate">
                 <div class="row">
                     <div class="column medium-4 small-12">
@@ -238,7 +239,7 @@ id: typography
             </div>
         </div>
 
-        <h3 id="range-and-measure">Vertical rhythm <a href="#vertical-rhythm" class="back-to-top">Back to top</a></h3>
+        <h3 id="vertical-rhythm">Vertical rhythm <a href="#" class="back-to-top">Back to top</a></h3>
         <div class="row">
             <div class="column medium-7 small-12">
                 <blockquote>
@@ -322,7 +323,9 @@ id: typography
     h6: 13px,
     blockquote: 18px,
     lead: 20px,
-    small: 13px
+    small: 13px,
+    base-line-height: 1.7,
+    base-spacing-unit: 32px,
   ),
   medium: (
     body: 20px,
@@ -335,18 +338,11 @@ id: typography
     h6: 16px,
     blockquote: 22px,
     lead: 26px,
-    small: 13px
+    small: 13px,
+    base-line-height: 1.6,
+    base-spacing-unit: 64px,
   )
 ) !default;
-
-// Vertical rhythm
-$base-line-height: 1.6 !default; // 32px
-$base-spacing-unit: 64px !default;
-$three-quarter-spacing-unit: $base-spacing-unit / 4 * 3 !default; // 45px
-$half-spacing-unit: $base-spacing-unit / 2 !default; // 32px
-$quarter-spacing-unit: $half-spacing-unit / 2 !default; // 16px
-$sixth-spacing-unit: $base-spacing-unit / 6 !default; // 10.66666667px (legacy)
-$eighth-spacing-unit: $base-spacing-unit / 8 !default; // 8px
 
 </code></pre>
         </div>

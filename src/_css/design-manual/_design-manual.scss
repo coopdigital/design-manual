@@ -74,13 +74,14 @@
 }
 
 .candidate {
-  @include font-size('body');
+
   position: relative;
   padding: 3em 1em 1em 1em;
   margin-bottom: $base-spacing-unit;
 
 
   &:before {
+    @include font-size('body');
     content: "Candidate";
     font-family: $medium;
     position: absolute;
@@ -93,13 +94,14 @@
 }
 
 .published {
-  @include font-size('body');
+
   position: relative;
   padding: 3em 1em 1em 1em;
   margin-bottom: $base-spacing-unit;
 
 
   &:before {
+    @include font-size('body');
     content: "Published";
     font-family: $medium;
     position: absolute;
@@ -115,8 +117,9 @@
   position: relative;
   padding: 3em 1em 1em 1em;
   margin-bottom: $base-spacing-unit;
-  @include font-size('body');
+
   &:before {
+    @include font-size('body');
     content: "Example";
     font-family: $medium;
     position: absolute;
@@ -129,8 +132,9 @@
 }
 
 .example__bad {
-  @include font-size('body');
+
   &:before {
+    @include font-size('body');
     content: "Example";
     position: absolute;
     top: 0;
