@@ -8,6 +8,7 @@
 }
 
 .side-nav-list-link {
+  font-size: 1em;
   position: relative;
   display: block;
   padding: .75em 5%;
@@ -34,6 +35,7 @@
 }
 
 .side-nav-list-sub-link {
+  font-size: .8em;
   display: block;
   padding: .75em 7.5%;
   color: $white;
@@ -113,7 +115,7 @@
   -webkit-transition: none;
           transition: none;
   @include media(medium) {
-    right: -65px;
+    right: -60px;
     padding: 20px;
   }
   &:before {
