@@ -309,6 +309,9 @@ id: typography
     <div class="row">
         <div class="column medium-6">
             <p>The typographic scale can be customised by overriding the default variable. To do so, set a new <code>$typographic-scale</code> variable with at least a <code>base</code> property containing all the default sizes. You can also pass optional extra breakpoints containing the sizes you want to modify as the screens get bigger.</p>
+            <p>The typographic scale and vertical rhythm of all elements across all devices can be controlled using this variable. This means that by setting a scale and <code>$base-soace-unit</code> you can maintain vertical rhythm by using our helper mixin. For instance by using
+            <code>@include spacing('margin', 'bottom', 'base')</code> will set a <code>margin-bottom</code> to the element. 'Base', refers to the <code>$base-soace-unit</code> set in the scale variable. At each break point the <code>margin-bottom</code> will be changed to reflect the value set. In this case the base (mobile) margin bottom will be <code>32px</code> and above the <code>Medium</code> break point will be <code>64px</code>.</p>
+            <p>The mixin also allows you to pass other values that also fit to the scale (as they are derived by dividing the <code>$base-spacing-unit</code> by half each time). Therefore <code>@include spacing('margin', 'bottom', 'quarter')</code> would produce a <code>margin-bottom: 16px</code> above the medium breakpoint (in this example) and <code>margin-bottom: 8px</code> on mobile (or base break point).</p>
         </div>
         <div class="column medium-6">
     <pre><code class="language-scss">$typographic-scale: (
