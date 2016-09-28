@@ -81,7 +81,6 @@
 
 
   &:before {
-    @include font-size('body');
     content: "Candidate";
     font-family: $medium;
     position: absolute;
@@ -101,7 +100,6 @@
 
 
   &:before {
-    @include font-size('body');
     content: "Published";
     font-family: $medium;
     position: absolute;
@@ -119,7 +117,6 @@
   margin-bottom: $base-spacing-unit;
 
   &:before {
-    @include font-size('body');
     content: "Example";
     font-family: $medium;
     position: absolute;
@@ -134,7 +131,6 @@
 .example__bad {
 
   &:before {
-    @include font-size('body');
     content: "Example";
     position: absolute;
     top: 0;

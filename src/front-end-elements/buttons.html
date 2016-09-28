@@ -9,14 +9,12 @@ id: buttons
 
      <nav>
         <ul class="list-inline">
-            <li><a href="#links" class="btn btn-small btn-pill">Links</a></li>
-            <li><a href="#standard-buttons" class="btn btn-small btn-pill">Buttons</a></li>
-            <li><a href="#disabled-buttons" class="btn btn-small btn-pill">Disabled buttons</a></li>
-            <li><a href="#modified-buttons" class="btn btn-small btn-pill">Buttons modifiers</a></li>
+            <li><a href="#links" class="btn btn-secondary btn-small btn-pill">Links</a></li>
+            <li><a href="#standard-buttons" class="btn btn-secondary btn-small btn-pill">Buttons</a></li>
+            <li><a href="#disabled-buttons" class="btn btn-secondary btn-small btn-pill">Disabled buttons</a></li>
+            <li><a href="#modified-buttons" class="btn btn-secondary btn-small btn-pill">Buttons modifiers</a></li>
         </ul>
     </nav>
-
-    <hr>
 
     <h2 id="links">Links <a href="#top" class="back-to-top">Back to top</a></h2>
 
@@ -123,10 +121,10 @@ id: buttons
         <div class="column medium-6">
             <div class="candidate">
                 <div class="margin-bq">
-                    <button class="btn test-button">Primary</button> <a href="http://leaverou.github.io/contrast-ratio/#white-on-%23098570">Contrast ratio 4.6 (AA - AAA over 18px)</a>
+                    <button class="btn btn-primary">Primary</button> <a href="http://leaverou.github.io/contrast-ratio/#white-on-%23098570">Contrast ratio 4.6 (AA - AAA over 18px)</a>
                 </div>
                 <div class="margin-bq">
-                    <button class="btn test-secondary-button-dark">Primary</button> <a href="http://leaverou.github.io/contrast-ratio/#white-on-%23374c63">Contrast ratio 8.8 (AAA)</a>
+                    <button class="btn btn-primary-dark">Primary</button> <a href="http://leaverou.github.io/contrast-ratio/#white-on-%23374c63">Contrast ratio 8.8 (AAA)</a>
                 </div>
             </div>
         </div>
@@ -147,7 +145,7 @@ id: buttons
         <div class="column medium-6">
             <div class="candidate">
                 <div class="margin-bh">
-                    <button class="btn test-secondary-button">Secondary</button> <a href="http://leaverou.github.io/contrast-ratio/#%2300729a-on-white">Contrast ratio 5.4 (AA - AAA over 18px)</a>
+                    <button class="btn btn-secondary">Secondary</button> <a href="http://leaverou.github.io/contrast-ratio/#%2300729a-on-white">Contrast ratio 5.4 (AA - AAA over 18px)</a>
                 </div>
             </div>
         </div>
@@ -170,12 +168,12 @@ id: buttons
     <div class="row">
         <div class="column medium-6">
             <div class="example">
-                <h2>Send a message</h2>
+                <h2>Send a message</h2>  
                 <form>
                     <label for="message">Your message</label>
                     <textarea id="message" cols="30" rows="4" class="margin-bh"></textarea>
                     <div class="margin-bq">
-                    <button class="btn test-button margin-rq">Send your message</button> <button class="btn test-secondary-button">Save draft</button>
+                    <button class="btn btn-primary margin-rq">Send your message</button> <button class="btn btn-secondary">Save draft</button>
                     </div>
                     <div class="margin-bh">
                         <a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-back-arrow"></span> Back</a>
@@ -194,7 +192,7 @@ id: buttons
         <div class="column medium-6 margin-bh">
             <div class="example offwhite-bg">
                 <div>
-                    <button class="btn test-secondary-button-dark">Sign up</button> or <button class="btn test-secondary-button">Find out more</button>
+                    <button class="btn btn-primary-dark">Sign up</button> or <button class="btn btn-secondary">Find out more</button>
                 </div>
             </div>
         </div>
@@ -209,7 +207,7 @@ id: buttons
         <div class="column small-12 medium-6">
             <div class="example example__bad">
                 <div class="margin-bh">
-                    <button class="btn test-button">Sign up</button> or <button class="btn test-secondary-button-dark">Find out more</button>
+                    <button class="btn btn-primary">Sign up</button> or <button class="btn btn-primary-dark">Find out more</button>
                 </div>
             </div>
         </div>
@@ -224,10 +222,10 @@ id: buttons
         <div class="column medium-6">
             <div class="example">
                 <div class="margin-bq">
-                    <a href="/booking-form" class="btn test-button">Continue to booking</a>
+                    <a href="/booking-form" class="btn btn-primary">Continue to booking</a>
                 </div>
                 <div class="margin-bq">
-                    <button class="btn test-button">Send your message</button>
+                    <button class="btn btn-primary">Send your message</button>
                 </div>
             </div>
         </div>
@@ -246,17 +244,17 @@ id: buttons
         <div class="column medium-6">
             <div class="example">
                 <div class="margin-bq">
-                    <button class="test-button" disabled>Disabled primary</button>
+                    <button class="btn btn-primary" disabled>Disabled primary</button>
                 </div>
                 <div class="margin-bq">
-                    <button class="test-secondary-button-dark" disabled>Disabled primary</button>
+                    <button class="btn btn-primary-dark" disabled>Disabled primary</button>
                 </div>
                 <div class="margin-bq">
-                    <button class="btn test-secondary-button" disabled>Disabled secondary</button>
+                    <button class="btn btn-secondary" disabled>Disabled secondary</button>
                 </div>
                 <hr>
                 <div class="margin-bb">
-                    <button class="test-button btn-loading" disabled>Saving</button>
+                    <button class="btn btn-primary btn-loading" disabled>Saving</button>
                 </div>
             </div>
         </div>
@@ -274,19 +272,19 @@ id: buttons
     <div class="row">
         <div class="column medium-6">
             <div class="example">
-                <button class="test-button btn-small">Small</button>
-                <button class="test-button btn-medium">Medium</button>
-                <button class="test-button btn-large">Large</button>
+                <button class="btn btn-primary btn-small">Small</button>
+                <button class="btn btn-primary btn-medium">Medium</button>
+                <button class="btn btn-primary btn-large">Large</button>
 
                 <hr>
 
-                <button class="test-button btn-small btn-pill">Pill button</button>
-                <button class="test-secondary-button-dark btn-small btn-pill">Pill button primary</button>
-                <button class="test-secondary-button btn-small btn-pill">Pill button secondary</button>
+                <button class="btn btn-secondary btn-small btn-pill">Pill button</button>
+                <button class="btn btn-primary btn-small btn-pill">Pill button primary</button>
+                <button class="btn btn-primary-dark btn-small btn-pill">Pill button secondary</button>
 
                 <hr>
 
-                <button class="test-button btn-full">Block button</button>
+                <button class="btn btn-primary btn-full">Block button</button>
             </div>
         </div>
         <div class="column medium-6">
