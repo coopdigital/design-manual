@@ -10,15 +10,13 @@
 
 .header-main .coop-logo,
 .header-main .coop-logo-large {
-  width: 45px;
-  height: 46px;
+  width: 36px;
   @include media(medium) {
-    width: 72px;
-    height: 72px;
+    width: 68px;
   }
 }
 
-.info-banner {
+.info-banner--indent {
   padding: 7px 7px 7px 42px;
   @include media(small) {
     padding: 7px 7px 7px 42px;
@@ -28,7 +26,7 @@
   }
 }
 
-.info-banner p {
+.info-banner--indent p {
   margin-left: .25em;
 }
 

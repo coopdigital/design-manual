@@ -19,7 +19,7 @@ var src = 'src/';
 var dest = 'build/';
 
 var src_paths = {
-  styles: src + '_css/*.scss',
+  styles: src + '_css/**/*.scss',
   scripts: src + '_js/*.js',
   assets: [
     src + '_assets/**/*',
@@ -136,7 +136,6 @@ gulp.task('testjs', function() {
   return gulp.src('test.js')
     .pipe(mocha());
 });
-
 
 
 /**

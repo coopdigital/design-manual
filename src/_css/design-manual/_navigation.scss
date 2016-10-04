@@ -35,7 +35,7 @@
 }
 
 .side-nav-list-sub-link {
-  font-size: .8em;
+  font-size: .75em;
   display: block;
   padding: .75em 7.5%;
   color: $white;
@@ -87,6 +87,9 @@
   &:active {
     color: $white;
     background: #2C3136;
+  }
+  &:after {
+    font-size: 21px;
   }
 }
 
