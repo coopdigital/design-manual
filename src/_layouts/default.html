@@ -48,6 +48,9 @@
 
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/vendor/prism.js"></script>
+    {% if jekyll.environment == "development" %}
+    <script src="/assets/js/vendor/tota11y.min.js"></script>
+    {% endif %}
 
 </body>
 

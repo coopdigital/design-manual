@@ -11,7 +11,7 @@ id: typography
         <ul class="list-inline">
             <li><a href="#typographic-scale" class="btn btn-secondary btn-small btn-pill">Typographic scale</a></li>
             <li><a href="#range-and-measure" class="btn btn-secondary btn-small btn-pill">Range and measure</a></li>
-            <li><a href="#vertical-rhythm" class="btn btn-secondary btn-small btn-pill">Vertical rhythm</a></li>
+            <li><a href="#vertical-spacing" class="btn btn-secondary btn-small btn-pill">Vertical spacing</a></li>
             <li><a href="#custom-scale" class="btn btn-secondary btn-small btn-pill">Custom scale</a></li>
             <li><a href="#titles" class="btn btn-secondary btn-small btn-pill">Titles</a></li>
             <li><a href="#orphans" class="btn btn-secondary btn-small btn-pill">Orphans</a></li>
@@ -33,7 +33,6 @@ id: typography
 
     <div class="row">
         <div class="column small-12">
-            <div class="test"></div>
             <div class="candidate">
                 <div class="row">
                     <div class="column medium-4 small-12">
@@ -145,17 +144,6 @@ id: typography
                           <p class="smallprint">Avenir Next Regular</p>
                     </div>
                 </div>
-                <div class="row margin-bh">
-                    <div class="column medium-4 small-12">
-                          <button class="btn test-button">Button</button></p>
-                    </div>
-                    <div class="column medium-2 small-12">
-                          <p class="medium">20px</p>
-                    </div>
-                    <div class="column medium-6 small-12">
-                          <p class="medium">Avenir Next Medium</p>
-                    </div>
-                </div>
 
             </div>
 
@@ -176,7 +164,7 @@ id: typography
     <h3 id="range-and-measure">Range and measure <a href="#top" class="back-to-top">Back to top</a></h3>
     <div class="row">
         <div class="column medium-7 small-12">
-            <p>We always range our text to the left (ragged right) in #282828 (<code>$body-copy</code>). Text, including headings and titles, should be sentence case.</p>
+            <p>We always range our text to the left (ragged right) in dark grey (#282828). Text, including headings and titles, should be sentence case.</p>
             <p><strong>The measure is the number of characters in a single line of a column of text.</strong></p>
             <blockquote>
                 &ldquo;Anything from 45 to 75 characters is widely regarded as a satisfactory length of line for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters&rdquo;.
@@ -253,8 +241,7 @@ id: typography
                     <cite>Robert Bringhurst</cite>
                 </blockquote>
                 <p>Our base font size <code>20px</code> is set on a <code>32px</code> 'leading' (the height of the line that the text sits on) - <code>8x4 = 32</code>.</p>
-                <p>We also provide a set of variables (<code>$base-spacing-unit 64px</code> to <code>$eighth-spacing-unit 8px</code>) that allow you to space any of your page elements using this scale.</p>
-                <p>By using this system designers and developers get this for free. By overriding the values (in the code block below) in your custom stylesheet you can create your own scale. However, you must <strong>have a good reason to do this</strong> and compose to your own well thought out scale.</p>
+                <p>By using this system designers and developers get this for free. By overriding the values <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/styles/mixins/_typography.scss">in our scale varibles in the Toolkit</a> in your custom stylesheet you can create your own scale. However, you must <strong>have a good reason to do this</strong> and compose to your own well thought out scale.</p>
             </div>
         </div>
 
@@ -306,7 +293,7 @@ id: typography
                 </div>
             </div>
 
-    <h3 id="custom-scale">Scale variables <a href="#top" class="back-to-top">Back to top</a></h3>
+    <!-- <h3 id="custom-scale">Scale variables <a href="#top" class="back-to-top">Back to top</a></h3>
 
     <div class="row">
         <div class="column medium-6">
@@ -351,7 +338,7 @@ id: typography
 
 </code></pre>
         </div>
-    </div>
+    </div> -->
 
     <h3 id="titles">Using titles <a href="#top" class="back-to-top">Back to top</a></h3>
     <div class="row">
@@ -373,7 +360,7 @@ id: typography
     <h3 id="orphans">Orphans <a href="#top" class="back-to-top">Back to top</a></h3>
 
     <div class="row">
-        <div class="column medium-6">
+        <div class="column medium-7">
             <p>One word, if left on the last line of a title or paragraph, is known as an 'orphan'. We recommend not having orphaned words in your service. It can be fixed by adding a non-breaking space (<code>&#x26;nbsp;</code>) between the final 2 words. </p>
         </div>
     </div>
