@@ -17,7 +17,7 @@ id: grid
     <hr>
 
     <div class="row">
-        <div class="column small-12 medium-7">
+        <div class="column medium-7">
             <h2 id="grid">Sizes <a href="#top" class="back-to-top">Back to top</a></h2>
 
             <p>The default Grid provides classes spanning 12 columns, and provides breakpoints at the following screen sizes:</p>
@@ -35,9 +35,10 @@ id: grid
 
             <p><strong>Note:</strong> the <code>.all-*</code> classes are always available, even if the <code>$grid-screen-sizes</code> list is empty.</p>
         </div>
-        <div class="column small-12 medium-5">
-        <pre><code class="language-scss">$grid-screen-sizes: ("medium");
-grid-total-columns: 4;</code></pre>
+
+        <div class="column medium-5">
+            <pre><code class="language-scss">$grid-screen-sizes: ("medium");
+    grid-total-columns: 4;</code></pre>
         </div>
     </div>
 
@@ -60,6 +61,7 @@ grid-total-columns: 4;</code></pre>
                 <code>.small-6 .medium-3</code>
             </div>
         </div>
+
         <div class="row">
             <div class="column small-4">
                 <code>.small-4</code>
@@ -71,6 +73,7 @@ grid-total-columns: 4;</code></pre>
                 <code>.small-4</code>
             </div>
         </div>
+
         <div class="row">
             <div class="column medium-6">
                 <code>.medium-6</code>
@@ -79,6 +82,7 @@ grid-total-columns: 4;</code></pre>
                 <code>.medium-6</code>
             </div>
         </div>
+
         <div class="row">
             <div class="column medium-4 large-2">
                 <code>.medium-4 .large-2</code>
@@ -99,6 +103,7 @@ grid-total-columns: 4;</code></pre>
                 <code>.medium-4 .large-2</code>
             </div>
         </div>
+
         <div class="row">
             <div class="column small-4">
                 <code>.small-4</code>
@@ -112,27 +117,29 @@ grid-total-columns: 4;</code></pre>
     <hr>
 
     <div class="row">
-        <div class="column small-12 medium-7">
-        <h2 id="grid-helpers">Grid helpers <a href="#top" class="back-to-top">Back to top</a></h2>
+        <div class="column medium-7">
+            <h2 id="grid-helpers">Grid helpers <a href="#top" class="back-to-top">Back to top</a></h2>
 
-        <p>The following helpers are included by default in the resulting CSS. If you do not make use of them, it is recommended to exclude them by setting them to false:</p>
-        <p>These helpers can be applied to specific breakpoints only.</p>
-
+            <p>The following helpers are included by default in the resulting CSS. If you do not make use of them, it is recommended to exclude them by setting them to false:</p>
+            <p>These helpers can be applied to specific breakpoints only.</p>
         </div>
-        <div class="column small-12 medium-5">
-        <pre><code class="language-scss">$grid-include-center-classes: false;
-$grid-include-pull-classes: false;
-$grid-include-push-classes: false;
-$grid-include-offset-classes: false;</code></pre>
+
+        <div class="column medium-5">
+            <pre><code class="language-scss">$grid-include-center-classes: false;
+    $grid-include-pull-classes: false;
+    $grid-include-push-classes: false;
+    $grid-include-offset-classes: false;</code></pre>
         </div>
     </div>
 
     <div class="row">
-        <div class="column small-12 medium-7">
+        <div class="column medium-7">
             <h3>Centering classes</h3>
+
             <p>These allow centering of columns which do not fill the whole width of the viewport.</p>
         </div>
     </div>
+
     <div class="example grid-example">
         <div class="row">
             <div class="column all-6 all-centered">
@@ -142,7 +149,7 @@ $grid-include-offset-classes: false;</code></pre>
     </div>
 
     <div class="row">
-        <div class="column small-12 medium-7">
+        <div class="column medium-7">
             <p>The centering can be undone for subsequent breakpoints:</p>
         </div>
     </div>
@@ -159,8 +166,9 @@ $grid-include-offset-classes: false;</code></pre>
     </div>
 
     <div class="row">
-        <div class="column small-12 medium-7">
+        <div class="column medium-7">
             <h3>Offsetting classes</h3>
+
             <p class="text">These classes allow adding an offset to the left of any column. They can be applied to specific breakpoints only.</p>
         </div>
     </div>
@@ -177,8 +185,9 @@ $grid-include-offset-classes: false;</code></pre>
     </div>
 
     <div class="row">
-        <div class="column small-12 medium-7">
+        <div class="column medium-7">
             <h3>Push/pull classes</h3>
+
             <p>These classes allow re-ordering of the columns by pushing and pulling them relative to their base position.</p>
         </div>
     </div>
@@ -192,6 +201,7 @@ $grid-include-offset-classes: false;</code></pre>
                 <code>.small-6 .small-pull-6 (last in markup)</code>
             </div>
         </div>
+
         <div class="row">
             <div class="column small-4 small-push-4">
                 <code>.small-4 .small-push-4 (first in markup)</code>
@@ -206,11 +216,13 @@ $grid-include-offset-classes: false;</code></pre>
     </div>
 
     <div class="row">
-        <div class="column small-12 medium-7">
+        <div class="column medium-7">
             <h3>Collapse columns</h3>
+
             <p>Collapsed columns have their padding removed. Columns can be collapsed individually, or whole rows can be collapsed at once by adding the class <code>.collapse</code> to the relevant column or row element.</p>
         </div>
     </div>
+
     <div class="example grid-example">
         <div class="row">
             <div class="column all-6 collapse">
