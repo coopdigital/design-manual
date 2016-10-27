@@ -38,12 +38,17 @@ var settings = {
   sass: {
     outputStyle: 'compressed',
     includePaths: [
-      'node_modules/coop-frontend-toolkit/styles/',
+      'node_modules',
       src + 'src/css'
     ]
   },
   autoprefixer: {
     browsers: ['> 5%', 'last 2 versions']
+  },
+  include: {
+    includePaths: [
+      __dirname + '/node_modules'
+    ]
   }
 };
 
@@ -104,7 +109,7 @@ gulp.task('css', function() {
 gulp.task('js', ['lintjs'], function() {
   return gulp.src(src_paths.scripts)
     .pipe(sourcemaps.init())
-      .pipe(include())
+      .pipe(include(settings.include))
       .pipe(concat('main.js'))
       .pipe(uglify())
     .pipe(sourcemaps.write('maps/'))
