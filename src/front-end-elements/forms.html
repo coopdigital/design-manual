@@ -23,7 +23,7 @@ id: forms
     <h2 id="text-fields">Text fields <a href="#top" class="back-to-top">Back to top</a></h2>
 
     <div class="row">
-        <div class="column small-12 large-7">
+        <div class="column large-7">
             <p>All form controls should be accompanied with a <code>label</code> element associated to the field using the <code>for</code> attribute.</p>
             <p><code>textarea</code> elements should have their <code>rows</code> attribute set to the desired height.</p>
         </div>
@@ -38,13 +38,13 @@ id: forms
                 </div>
 
                 <div class="form-row">
-                    <label for="input">Inline text input</label>
-                    <input class="input-inline" id="input" type="text" size="10">
+                    <label for="input-inline">Inline text input</label>
+                    <input class="input-inline" id="input-inline" type="text" size="10">
                 </div>
 
                 <div class="form-row">
-                    <label for="input">Strong text input</label>
-                    <input class="input-strong" id="input" type="text" size="10">
+                    <label for="input-strong">Strong text input</label>
+                    <input class="input-strong" id="input-strong" type="text">
                 </div>
 
                 <div class="form-row">
@@ -53,6 +53,7 @@ id: forms
                 </div>
             </div>
         </div>
+
         <div class="column medium-6">
             <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
     &lt;label for=&quot;input-1&quot;&gt;Text input&lt;/label&gt;
@@ -79,9 +80,9 @@ id: forms
     <h3>Asking for names</h3>
 
     <div class="row">
-        <div class="column small-12 large-6">
-
+        <div class="column large-6">
             <h4>When capturing names:</h4>
+
             <ul>
                 <li>ask for a ‘Full name’ in one field</li>
                 <li>make no assumptions about how the user wants to be addressed - ask them</li>
@@ -89,10 +90,9 @@ id: forms
                 <li>use ‘Full legal name’ if you need to capture a name for legal reasons</li>
                 <li>give an accurate instruction if the name needs to be written as it appears on another document, for example, ‘Copy the name from your passport’</li>
             </ul>
-
         </div>
-        <div class="column small-12 large-6">
 
+        <div class="column large-6">
             <div class="example">
                 <div class="form-row">
                     <label for="full-name">Full name</label>
@@ -110,24 +110,22 @@ id: forms
     </div>
 
     <div class="row">
-        <div class="column small-12 large-6">
-
+        <div class="column large-6">
             <h4>If you you have to capture name in separate fields, perhaps because of a legacy system, use:</h4>
+
             <ul>
                 <li>‘First name or names’, ‘Middle name’ (if necessary) and ‘Last name’</li>
                 <li>a free text box if you have to ask for title</li>
             </ul>
-
         </div>
     </div>
-    <div class="row">
-        <div class="column small-12 large-8">
 
+    <div class="row">
+        <div class="column large-8">
             <div class="example">
 
                 <div class="row">
-
-                    <div class="column small-12 large-2">
+                    <div class="column large-2">
 
                         <div class="form-row">
                             <label for="title">Title</label>
@@ -136,30 +134,26 @@ id: forms
 
                     </div>
 
-                    <div class="column small-12 large-5">
+                    <div class="column large-5">
 
                         <div class="form-row">
                             <label for="first-name">First name or names</label>
-                            <input id="first-namee" type="text">
+                            <input id="first-name" type="text">
                         </div>
 
                     </div>
 
-                    <div class="column small-12 large-5">
+                    <div class="column large-5">
 
                         <div class="form-row">
-                            <label for="first-name">Last name</label>
-                            <input id="first-namee" type="text">
+                            <label for="last-name">Last name</label>
+                            <input id="last-name" type="text">
                         </div>
 
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
 
     <hr>
@@ -176,7 +170,7 @@ id: forms
                 </div>
 
                 <div class="form-row">
-                    <label for="input-prefix">Input suffix</label>
+                    <label for="input-suffix">Input suffix</label>
                     <input id="input-suffix" class="input-suffix" type="text">
                     <span class="suffix">km</span>
                 </div>
@@ -189,13 +183,14 @@ id: forms
                 </div>
 
                 <div class="form-row">
-                    <label for="input-prefix-suffix">Strong input with both prefix and suffix</label>
+                    <label for="input-prefix-suffix-strong">Strong input with both prefix and suffix</label>
                     <span class="prefix input-strong">£</span>
-                    <input id="input-prefix-suffix" class="input-prefix input-suffix input-strong" type="text">
+                    <input id="input-prefix-suffix-strong" class="input-prefix input-suffix input-strong" type="text">
                     <span class="suffix input-strong">.00</span>
                 </div>
             </div>
         </div>
+
         <div class="column medium-6">
             <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
     &lt;label for=&quot;input-prefix&quot;&gt;Input prefix&lt;/label&gt;
@@ -239,8 +234,8 @@ id: forms
                 </div>
 
                 <div class="form-row">
-                    <label for="select">Inline select dropdown</label>
-                    <select class="input-inline" id="select">
+                    <label for="select-inline">Inline select dropdown</label>
+                    <select class="input-inline" id="select-inline">
                         <option>Option One</option>
                         <option>Option Two</option>
                         <option>Option Three</option>
@@ -248,8 +243,8 @@ id: forms
                 </div>
 
                 <div class="form-row">
-                    <label for="select">Strong select dropdown</label>
-                    <select id="select" class="input-strong">
+                    <label for="select-strong">Strong select dropdown</label>
+                    <select id="select-strong" class="input-strong">
                         <option>Option One</option>
                         <option>Option Two</option>
                         <option>Option Three</option>
@@ -257,6 +252,7 @@ id: forms
                 </div>
             </div>
         </div>
+
         <div class="column medium-6">
             <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
 &lt;label for=&quot;select&quot;&gt;Select dropdown&lt;/label&gt;
@@ -292,8 +288,10 @@ id: forms
 
     <h3>Radio buttons</h3>
 
-    <div class="text">
-        <p>Sets of radio buttons must be wrapped in a fieldset for accessibility purposes. The <code>legend</code> element must carry the label for the set of buttons.</p>
+    <div class="row">
+        <div class="column large-7">
+            <p>Sets of radio buttons must be wrapped in a fieldset for accessibility purposes. The <code>legend</code> element must carry the label for the set of buttons.</p>
+        </div>
     </div>
 
     <div class="row">
@@ -302,24 +300,29 @@ id: forms
                 <form>
                     <fieldset>
                         <legend>What kind of will would you like?</legend>
-                        <label class="block-label" for="mirror-wills">
-                            <input data-show data-target="#mirror-will-details" type="radio" value="mirror" name="will-types" id="mirror-wills">Mirror wills
+
+                        <label class="block-label">
+                            <input data-show data-target="#mirror-will-details" type="radio" value="mirror" name="will-types">Mirror wills
                         </label>
+
                         <div id="mirror-will-details" class="indented" aria-hidden="true" hidden="hidden">
                           <p>Fill in this form based on decisions you and the other person have agreed.</p>
                           <p>If you’re not sure, or need to speak to them first, leave the questions
                           blank and we’ll go through them when we call.</p>
                         </div>
-                        <label  class="block-label" for="single-will">
-                            <input data-show type="radio" value="single" name="will-types" id="single-will">Single will
+
+                        <label class="block-label">
+                            <input data-show type="radio" value="single" name="will-types">Single will
                         </label>
-                        <label class="block-label" for="not-sure">
-                            <input data-show type="radio" value="not sure" name="will-types" id="not-sure">You're not sure
+
+                        <label class="block-label">
+                            <input data-show type="radio" value="not sure" name="will-types">You're not sure
                         </label>
                     </fieldset>
                 </form>
             </div>
         </div>
+
         <div class="column medium-6">
             <pre><code class="language-html">&#x3C;fieldset&#x3E;
     &#x3C;legend&#x3E;What kind of will would you like?&#x3C;/legend&#x3E;
@@ -338,8 +341,10 @@ id: forms
 
     <h3>Checkboxes</h3>
 
-    <div class="text">
-        <p>If checkboxes are grouped, the set must be wrapped in a <code>fieldset</code> element. The <code>legend</code> element then carries the title for the grouped checkboxes.</p>
+    <div class="row">
+        <div class="column large-7">
+            <p>If checkboxes are grouped, the set must be wrapped in a <code>fieldset</code> element. The <code>legend</code> element then carries the title for the grouped checkboxes.</p>
+        </div>
     </div>
 
     <div class="row">
@@ -347,25 +352,26 @@ id: forms
             <div class="example">
                 <fieldset>
                     <legend>Do you own:</legend>
-                    <label class="block-label" for="client_owns_a_business">
-                        <input type="checkbox" value="1" name="client[owns_a_business]" id="client_owns_a_business">a business
+                    <label class="block-label">
+                        <input type="checkbox" value="1" name="client[owns_a_business]">a business
                     </label>
-                    <label class="block-label" for="client_owns_agricultural_property">
-                        <input type="checkbox" value="1" name="client[owns_agricultural_property]" id="client_owns_agricultural_property">agricultural property
+                    <label class="block-label">
+                        <input type="checkbox" value="1" name="client[owns_agricultural_property]">agricultural property
                     </label>
-                    <label class="block-label" for="client_owns_foreign_property">
-                        <input type="checkbox" value="1" name="client[owns_foreign_property]" id="client_owns_foreign_property">foreign property
+                    <label class="block-label">
+                        <input type="checkbox" value="1" name="client[owns_foreign_property]">foreign property
                     </label>
-                    <label class="block-label" for="client_owns_trademarks_or_patents">
-                        <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]" id="client_owns_trademarks_or_patents">trademarks or patents
+                    <label class="block-label">
+                        <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]">trademarks or patents
                     </label>
                     <p class="or">or</p>
-                    <label class="block-label" for="client_owns_none_of_the_above">
-                        <input type="checkbox" name="client_owns_none_of_the_above" id="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
+                    <label class="block-label">
+                        <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
                     </label>
                 </fieldset>
             </div>
         </div>
+
         <div class="column medium-6">
             <pre><code class="language-html">&#x3C;fieldset&#x3E;
     &#x3C;legend&#x3E;Do you own:&#x3C;/legend&#x3E;
@@ -391,8 +397,10 @@ id: forms
 
     <h2 id="tap-tiles">Tap tiles <a href="#top" class="back-to-top">Back to top</a></h2>
 
-    <div class="text">
-        <p>We no longer recommend the use of tap tiles but if your project uses them, don't worry. Consider upgrading to use the examples above for radio buttons and checkboxes. Rather than hide the browser default radio and checkboxes our new pattern enahances them to make the more usable.</p>
+    <div class="row">
+        <div class="column large-7">
+            <p>We no longer recommend the use of tap tiles but if your project uses them, don't worry. Consider upgrading to use the examples above for radio buttons and checkboxes. Rather than hide the browser default radio and checkboxes our new pattern enahances them to make the more usable.</p>
+        </div>
     </div>
 
     <div class="row">
@@ -418,6 +426,7 @@ id: forms
                 </fieldset>
             </div>
         </div>
+
         <div class="column medium-6">
             <pre><code class="language-html">&lt;fieldset class=&quot;form-row&quot;&gt;
     &lt;legend&gt;Answer the question. Yes or No.&lt;/legend&gt;
@@ -435,8 +444,10 @@ id: forms
 
     <h2 id="large-inputs">Large inputs <a href="#top" class="back-to-top">Back to top</a></h2>
 
-    <div class="text">
-        <p>Large inputs can be created by simply increasing the font-size on the container element.</p>
+    <div class="row">
+        <div class="column large-7">
+            <p>Large inputs can be created by simply increasing the font-size on the container element.</p>
+        </div>
     </div>
 
     <div class="row">
@@ -457,6 +468,7 @@ id: forms
                 </div>
             </div>
         </div>
+
         <div class="column medium-6">
             <pre><code class="language-html">&lt;div style=&quot;font-size: 1.5em;&quot;&gt;
     &lt;div class=&quot;form-row&quot;&gt;
@@ -482,12 +494,13 @@ id: forms
         <div class="column medium-6">
             <div class="example">
                 <div class="form-row">
-                    <label for="input_error">Enter something</label>
-                    <input type="text" id="input_error" class="invalid">
+                    <label for="input-error">Enter something</label>
+                    <input type="text" id="input-error" class="invalid">
                     <p class="form-error">Please enter something</p>
                 </div>
             </div>
         </div>
+
         <div class="column medium-6">
             <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
     &lt;label for=&quot;input_error&quot;&gt;Enter something&lt;/label&gt;
