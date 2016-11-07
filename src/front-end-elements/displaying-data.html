@@ -1,149 +1,19 @@
 ---
 layout: default
-id: common-elements
+id: displaying-data
 ---
 
 <div class="wrap">
 
-    <h1>Common HTML elements</h1>
+    <h1>Displaying data</h1>
 
     <nav>
         <ul class="list-inline">
-            <li><a href="#lists" class="btn btn-small btn-pill">Lists</a></li>
             <li><a href="#tables" class="btn btn-small btn-pill">Tables</a></li>
-            <li><a href="#hr" class="btn btn-small btn-pill">Horizontal rules</a></li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2 id="lists">Lists <a href="#top" class="back-to-top">Back to top</a></h2>
-
-    <h3>Unordered list</h3>
-
-    <div class="row">
-        <div class="column large-7">
-            <h4>Bullets should always:</h4>
-
-            <ul>
-                <li>use a lead-in line</li>
-                <li>make sense running on from the lead-in line</li>
-                <li>use lower case at the start of the bullet</li>
-                <li>have only one sentence per bullet point - use commas, dashes or semicolons to expand on an item</li>
-                <li>have more than 2 items</li>
-                <li>appear within the text and not as the whole bullet</li>
-            </ul>
-
-            <h4>Bullets should not:</h4>
-
-            <ul>
-                <li>be paragraphs masquerading as a list for a visual effect</li>
-                <li>take a full stop after the last bullet point</li>
-                <li>include ‘or’, ‘and’ after the bullets</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <h4>The meeting agenda will be:</h4>
-
-                <ul>
-                    <li>an overview of the last month</li>
-                    <li>a presentation</li>
-                    <li>a special announcement</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&#x3C;h4&#x3E;The meeting agenda will be:&#x3C;/h4&#x3E;
-&#x3C;ul&#x3E;
-    &#x3C;li&#x3E;an overview of the last month&#x3C;/li&#x3E;
-    &#x3C;li&#x3E;a presentation&#x3C;/li&#x3E;
-    &#x3C;li&#x3E;a special announcement&#x3C;/li&#x3E;
-&#x3C;/ul&#x3E;</code></pre>
-        </div>
-    </div>
-
-    <h3>Ordered list</h3>
-
-    <div class="row">
-        <div class="column large-7">
-            <p>Numbers should only for a logical sequence of things, like a series of tasks that must be done in a certain order. Apart from this, same rules for bullet lists apply. For example:</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <h4>How to put your shoes on:</h4>
-                <ol>
-                    <li>put on socks</li>
-                    <li>put on shoes</li>
-                    <li>tie laces</li>
-                </ol>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&#x3C;h4&#x3E;How to put your shoes on:&#x3C;/h4&#x3E;
-&#x3C;ol&#x3E;
-    &#x3C;li&#x3E;put on socks&#x3C;/li&#x3E;
-    &#x3C;li&#x3E;put on shoes&#x3C;/li&#x3E;
-    &#x3C;li&#x3E;tie laces&#x3C;/li&#x3E;
-&#x3C;/ol&#x3E;</code></pre>
-        </div>
-    </div>
-
-    <h3>Undecorated list</h3>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <ul class="list-bare">
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;ul class="list-bare"&gt;
-    &lt;li&gt;List item&lt;/li&gt;
-    &lt;li&gt;List item&lt;/li&gt;
-    &lt;li&gt;List item&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
-        </div>
-    </div>
-
-    <h3>Inline list</h3>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <ul class="list-inline">
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;ul class="list-inline"&gt;
-    &lt;li&gt;List item&lt;/li&gt;
-    &lt;li&gt;List item&lt;/li&gt;
-    &lt;li&gt;List item&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
-        </div>
-    </div>
-
-    <hr>
-
-    <h2 id="tables">Tables <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="tables">Tables</h2>
 
     <div class="row">
         <div class="column large-7">
@@ -215,7 +85,6 @@ id: common-elements
 &#x3C;/div&#x3E;</code></pre>
         </div>
     </div>
-
 
     <div class="row">
         <div class="column medium-6">
@@ -290,23 +159,9 @@ id: common-elements
         </div>
     </div>
 
-    <hr>
-
-    <h2 id="hr">Horizontal rules <a href="#top" class="back-to-top">Back to top</a></h2>
-
     <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <p>Some content.</p>
-                <hr>
-                <p>Content after rule.</p>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;p&gt;Some content.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Content after rule.&lt;/p&gt;</code></pre>
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
         </div>
     </div>
 

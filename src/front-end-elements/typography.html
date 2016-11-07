@@ -9,183 +9,309 @@ id: typography
 
     <nav>
         <ul class="list-inline">
-            <li><a href="#typographic-scale" class="btn btn-secondary btn-small btn-pill">Typographic scale</a></li>
-            <li><a href="#range-and-measure" class="btn btn-secondary btn-small btn-pill">Range and measure</a></li>
-            <li><a href="#vertical-spacing" class="btn btn-secondary btn-small btn-pill">Vertical spacing</a></li>
-            <li><a href="#custom-scale" class="btn btn-secondary btn-small btn-pill">Custom scale</a></li>
+            <li><a href="#overview" class="btn btn-secondary btn-small btn-pill">Overview</a></li>
             <li><a href="#titles" class="btn btn-secondary btn-small btn-pill">Titles</a></li>
             <li><a href="#orphans" class="btn btn-secondary btn-small btn-pill">Orphans</a></li>
-            <li><a href="#typographic-styles" class="btn btn-secondary btn-small btn-pill">Typographic elements</a></li>
-            <li><a href="#typographic-entities" class="btn btn-secondary btn-small btn-pill">Typographic entities</a></li>
+            <li><a href="#typographic-scale" class="btn btn-secondary btn-small btn-pill">Scale of sizes</a></li>
+            <li><a href="#horizontal-space" class="btn btn-secondary btn-small btn-pill">Horizontal space</a></li>
+            <li><a href="#vertical-space" class="btn btn-secondary btn-small btn-pill">Vertical space</a></li>
+            <li><a href="#type-and-colour" class="btn btn-secondary btn-small btn-pill">Type and colour</a></li>
+            <li><a href="#typographic-elements" class="btn btn-secondary btn-small btn-pill">Typographic elements</a></li>
+            <li><a href="#hr" class="btn btn-secondary btn-small btn-pill">Horizontal rules</a></li>
+            <li><a href="#typographic-entities" class="btn btn-secondary btn-small btn-pill">Typographic HTML entities</a></li>
+            <li><a href="#toolkit-usage" class="btn btn-secondary btn-small btn-pill">Front-end code</a></li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2 id="typographic-scale">Typographic scale <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="overview">Overview</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <p>The default scale we recommend is optimised for reading on screen. The custom scale section outlines how this scale can be optimised for the needs of your users or device specfic considerations.</p>
-            <p>CSS classes are also provided so that should you need to create a certain visual hierarchy, you can, without breaking the semantics of the page. This is known as a <a href="http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/">Double strand hierarchy.</a></p>
-        </div>
-    </div>
 
-    <div class="candidate">
-        <div class="row">
-            <div class="column medium-4">
-                <h1 class="h-mega">Mega</h1>
-            </div>
-            <div class="column medium-2">
-                <p class="h-mega">60px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="h-mega">Avenir Next Demi</p>
-            </div>
-        </div>
+            <p>Our typograpahy is designed to allow us to communicate effectively with everyone. By being delibarate and clear in our messages we help people to achieve their goals more easily.</p>
 
-        <div class="row">
-            <div class="column medium-4">
-                <h1>Heading 1</h1>
-            </div>
-            <div class="column medium-2">
-                <p class="alpha">46px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="alpha">Avenir Next Demi</p>
-            </div>
-        </div>
+            <h3>When using typography remember:</h3>
 
-        <div class="row">
-            <div class="column medium-4">
-                <h2>Heading 2</h2>
-            </div>
-            <div class="column medium-2">
-                <p class="beta">26px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="beta">Avenir Next Demi</p>
-            </div>
-        </div>
+            <ul>
+                <li>Create white space where you can</li>
+                <li>Think about what you can take out, rather than what you can add</li>
+                <li>Reduce visual clutter wherever possible</li>
+            </ul>
 
-        <div class="row">
-            <div class="column medium-4">
-                <h3>Heading 3</h3>
-            </div>
-            <div class="column medium-2">
-                <p class="gamma">22px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="gamma">Avenir Next Demi</p>
-            </div>
-        </div>
+            <h3>Always:</h3>
 
-        <div class="row">
-            <div class="column medium-4">
-                <h4 class="delta">Heading 4</h4>
-            </div>
-            <div class="column medium-2">
-                <p class="delta">22px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="delta">Avenir Next Demi</p>
-            </div>
-        </div>
+            <ul>
+                <li>Use sentence case</li>
+                <li>Range things left</li>
+                <li>Range text ragged right (not justified)</li>
+            </ul>
 
-        <div class="row">
-            <div class="column medium-4">
-                <h5 class="epsilon">Heading 5</h5>
-            </div>
-            <div class="column medium-2">
-                <p class="epsilon">22px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="epsilon">Avenir Next Demi</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column medium-4">
-                <h6 class="zeta">Heading 6</h6>
-            </div>
-            <div class="column medium-2">
-                <p class="zeta">16px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="zeta">Avenir Next Demi</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column medium-4">
-                <p class="intro-text">Intro paragraph</p>
-            </div>
-            <div class="column medium-2">
-                <p class="intro-text">26px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="intro-text">Avenir Next Regular</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column medium-4">
-                <p>Default paragraph</p>
-            </div>
-            <div class="column medium-2">
-                <p>20px</p>
-            </div>
-            <div class="column medium-6">
-                <p>Avenir Next Regular</p>
-            </div>
-        </div>
-
-        <div class="row margin-bh">
-            <div class="column medium-4">
-                <p class="smallprint">Small</p>
-            </div>
-            <div class="column medium-2">
-                <p class="smallprint">13px</p>
-            </div>
-            <div class="column medium-6">
-                <p class="smallprint">Avenir Next Regular</p>
-            </div>
         </div>
     </div>
 
     <div class="row">
-        <div class="column medium-8">
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <h2 id="titles">Titles</h2>
+
+    <div class="row">
+        <div class="column medium-7">
+            <h4>Titles should:</h4>
+            <ul>
+                <li>be sentence case</li>
+                <li>be less than 65 characters - Google cuts them off after this</li>
+                <li>be unique, clear and descriptive, no puns or single topic words</li>
+                <li>be front-loaded with key words if possible - people tend to scan the first couple of words only</li>
+                <li>use words you know your users actually search for</li>
+                <li>be active where possible, ‘Apply for&hellip;’, ‘Report&hellip;’, ‘Find&hellip;’</li>
+                <li>not have a full stop at the end</li>
+                <li>not use acronyms unless they are well-known, like EU, BBC</li>
+            </ul>
+
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <h2 id="orphans">Orphaned words</h2>
+
+    <div class="row">
+        <div class="column medium-7">
+            <p>One word, if left on the last line of a title or paragraph, is known as an 'orphan'. We recommend not having orphaned words in your service. It can be fixed by adding a non-breaking space (<code>&#x26;nbsp;</code>) between the final 2&nbsp;words. </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-2">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <div class="example">
-                <h1>What is a Co-operative?</h1>
-
-                <p class="intro-text">Owned by its members, working for the common good.</p>
-                <p>A co-operative (co-op) is a different kind of business. Its owners – members – have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is 'one member, one vote’.</p>
+                <h3>What is a Design Manual?</h3>
+                <h3>What is a Design&nbsp;Manual?</h3>
             </div>
+        </div>
+
+        <div class="column medium-offset-4 medium-6">
+            <pre><code class="language-html">&#x3C;h3&#x3E;What is a Design Manual?&#x3C;/h3&#x3E;
+&#x3C;h3&#x3E;What is a Design&#x26;nbsp;Manual?&#x3C;/h3&#x3E;</code></pre>
         </div>
     </div>
 
-    <h2 id="range-and-measure">Range and measure <a href="#top" class="back-to-top">Back to top</a></h2>
+    <div class="row">
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <h2 id="typographic-scale">Scale of sizes</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <p>We always range our text to the left (ragged right) in dark grey (#282828). Text, including headings and titles, should be sentence case.</p>
+            <p>It is important to have a typographic scale to create clear hierarchy and coherence for readers. By default we have a scale for larger and smaller devices. It is simple to add more breakpoints and sizes in the code to suit your user needs.</p>
+            <blockquote>
+                &ldquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and&nbsp;lost&rdquo;.
+                <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
+            </blockquote>
+            <p>The font we use is Avenir Next in <span class="bold">demi bold</span>, <span class="regular">regular</span> and <span class="medium">medium</span>. All of our spacing between lines, paragraphs and headings is derived from multiples of 8px. That is known as the <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements using regular values.</p>
+        </div>
+    </div>
 
-            <p><strong>The measure is the number of characters in a single line of a column of text.</strong></p>
+    <h3 class="example-heading"><span class="example_label">Example</span> Default typographic scale</h3>
 
+    <div class="row header-row">
+        <div class="small-12 medium-3 column">
+            <p class="bold">Heading</p>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p class="bold">Above 769px</p></td>
+                        <td><p class="bold">Below 768px</p></td>
+                        <td><p class="bold">Typeface</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <h1 class="h-mega">Mega</h1>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="h-mega">52px</p>
+                        </td>
+                        <td><p class="h-mega">46px</p></td>
+                        <td><p class="h-mega">Demi Bold</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <h1>Heading 1</h1>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p class="alpha">46px</p></td>
+                        <td><p class="alpha">30px</p></td>
+                        <td><p class="alpha">Demi Bold</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <h2>Heading 2</h2>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p class="beta">26px</p></td>
+                        <td><p class="beta">20px</p></td>
+                        <td><p class="beta">Demi Bold</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <h3>Heading 3</h3>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p class="gamma">22px</p></td>
+                        <td><p class="gamma">20px</p></td>
+                        <td><p class="gamma">Demi Bold</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <h4>Heading 4</h4>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p class="delta">22px</p></td>
+                        <td><p class="delta">20px</p></td>
+                        <td><p class="delta">Demi Bold</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <h5>Heading 5</h5>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p class="epsilon">22px</p></td>
+                        <td><p class="epsilon">20px</p></td>
+                        <td><p class="epsilon">Demi Bold</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <h6>Heading 6</h6>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p class="zeta">16px</p></td>
+                        <td><p class="zeta">13px</p></td>
+                        <td><p class="zeta">Demi Bold</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <p class="intro-text">Intro paragraph</p>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p class="intro-text">26px</p></td>
+                        <td><p class="intro-text">22px</p></td>
+                        <td><p class="intro-text">Regular</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-3 column">
+            <p>Default paragraph</p>
+        </div>
+        <div class="small-12 medium-9 column">
+            <table class="unstyled-table">
+                <tbody>
+                    <tr>
+                        <td><p>20px</p></td>
+                        <td><p>16px</p></td>
+                        <td><p>Regular</p></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <h2 id="horizontal-space">Horizontal space</h2>
+
+    <div class="row">
+        <div class="column medium-7">
+            <p>The measure is the number of characters in a single line of a column of text.</p>
             <blockquote>
                 &ldquo;Anything from 45 to 75 characters is widely regarded as a satisfactory length of line for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters&rdquo;.
                 <cite>The Elements of Typographic Style Applied to the Web - <a href="http://webtypography.net/2.1.2">2.1.2 Choose a comfortable&nbsp;measure</a></cite>
             </blockquote>
-
-            <p>To accommodate these guidelines we recommend that text in the recommended scale run over no more than 8 columns (on desktop). When working with columns run over no more than 4/5.</p>
-
-            <p>In this guide we have generally used 7 columns as it is more comfortable for reading on screen as eye movement is kept to a minimum. A good tool to help you test your measure is the <a href="https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd">Google Chrome extension 45 to 75</a>.</p>
+            <p>Text in the recommended scale run over no more than 7 columns of <a href="/front-end-elements/grid.html">our grid</a> (on desktop). When working with columns run over no more than 4/5. It is more comfortable for people reading on screen as eye movement is kept to a minimum. A good tool to help you test your measure is the <a href="https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd">Google Chrome extension 45 to 75</a>.</p>
         </div>
     </div>
 
-    <p class="smallprint">An example of content spanning the full width for smaller devices, but keeping to a maximum of 8 columns of our grid for larger devices. More <a href="/front-end-elements/grid.html">information on our grid can be found here</a>.</p>
+    <h3 class="example-heading"><span class="example_label">Example</span> 45 to 75 characters over 7 grid columns</h3>
 
     <div class="example-grid-wrap">
+
         <div class="row example-grid">
             <div class="column all-1"><span></span></div>
             <div class="column all-1"><span></span></div>
@@ -202,37 +328,37 @@ id: typography
         </div>
 
         <div class="row baseline margin-bb">
-            <div class="column medium-8">
+            <div class="column medium-7">
                 <h1>What is a Co-operative?</h1>
                 <p>A co-operative (co-op) is a different kind of business. Its owners, members – have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is 'one member, one vote’.</p>
                 <p>Profits mean members receive money, rewards and offers and a co-op can support its local&nbsp;community.</p>
             </div>
         </div>
-    </div>
 
-    <h2 id="vertical-rhythm">Vertical rhythm <a href="#" class="back-to-top">Back to top</a></h2>
+    </div>
 
     <div class="row">
         <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <h2 id="vertical-space">Vertical space</h2>
+
+    <div class="row">
+        <div class="column medium-7">
+            <p>All of our spacing is derived from multiples of 8px. That is known as our <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements using these values.</p>
             <blockquote>
                 &ldquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost&rdquo;.
                 <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
             </blockquote>
-
-            <p>Our base typographic scale works in the same way. All of our spacing is derived from multiples of <code>8px</code>. That is known as our <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements using these values.</p>
-
-            <blockquote>
-                &ldquo;Space in typography is like time in music. It is infinitely divisible, but a few proportional intervals can be much more useful than a limitless choice of arbitrary quantities&rdquo;.
-                <cite>Robert Bringhurst</cite>
-            </blockquote>
-
-            <p>Our base font size <code>20px</code> is set on a <code>32px</code> 'leading' (the height of the line that the text sits on) - <code>8x4 = 32</code>.</p>
-
-            <p>By using this system designers and developers get this for free. By overriding the values <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/styles/mixins/_typography.scss">in our scale varibles in the Toolkit</a> in your custom stylesheet you can create your own scale. However, you must <strong>have a good reason to do this</strong> and compose to your own well thought out scale.</p>
+            <p>Our base font size 20px is set on a 32px 'leading' (the height of the line that the text sits on) - 8x4 = 32.</p>
+            <p>By using this system designers and developers get this for free. By overriding the values <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/styles/mixins/_typography.scss">in our scale varibles in the Toolkit</a> in your custom stylesheet you can create your own scale. However, you must have a good reason to do this and compose to your own well thought out scale.</p>
         </div>
     </div>
 
-    <p class="smallprint">An example of content sat on our baseline grid.</p>
+    <h3 class="example-heading"><span class="example_label">Example</span> Text set on the baseline grid</h3>
+
     <div class="example-grid-wrap">
         <div class="example-baseline"></div>
         <div class="row margin-bb">
@@ -244,70 +370,144 @@ id: typography
         </div>
     </div>
 
-    <h2 id="titles">Using titles <a href="#top" class="back-to-top">Back to top</a></h2>
+    <div class="row">
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <h2 id="type-and-colour">Type and colour</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <h4>Titles should:</h4>
+            <p>Use dark grey for text (#282828). Use other colours for text sparingly and always check colours have a high enough contrast.</p>
+        </div>
+    </div>
+
+    <h2 id="typographic-elements">Typographic elements</h2>
+
+    <h3>Unordered list</h3>
+
+    <div class="row">
+        <div class="column large-7">
+            <h4>Bullets should always:</h4>
             <ul>
-                <li>be sentence case</li>
-                <li>be less than 65 characters - Google cuts them off after this</li>
-                <li>be unique, clear and descriptive, no puns or single topic words</li>
-                <li>be front-loaded with key words if possible - people tend to scan the first couple of words only</li>
-                <li>use words you know your users actually search for</li>
-                <li>be active where possible, ‘Apply for&hellip;’, ‘Report&hellip;’, ‘Find&hellip;’</li>
-                <li>not have a full stop at the end</li>
-                <li>not use acronyms unless they are well-known, like EU, BBC</li>
+                <li>use a lead-in line</li>
+                <li>make sense running on from the lead-in line</li>
+                <li>use lower case at the start of the bullet</li>
+                <li>have only one sentence per bullet point - use commas, dashes or semicolons to expand on an item</li>
+                <li>have more than 2 items</li>
+                <li>appear within the text and not as the whole bullet</li>
             </ul>
-        </div>
-    </div>
-
-    <h2 id="orphans">Orphans <a href="#top" class="back-to-top">Back to top</a></h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>One word, if left on the last line of a title or paragraph, is known as an 'orphan'. We recommend not having orphaned words in your service. It can be fixed by adding a non-breaking space (<code>&#x26;nbsp;</code>) between the final 2 words. </p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-3">
-            <div class="example">
-                <h3>What is a Design Manual?</h3>
-                <h3>What is a Design&nbsp;Manual?</h3>
-            </div>
-        </div>
-
-        <div class="column medium-offset-3 medium-6">
-            <pre><code class="language-html">&#x3C;h3&#x3E;What is a Design Manual?&#x3C;/h3&#x3E;
-&#x3C;h3&#x3E;What is a Design&#x26;nbsp;Manual?&#x3C;/h3&#x3E;</code></pre>
-        </div>
-    </div>
-
-    <h2 id="typographic-styles">Typographic elements <a href="#top" class="back-to-top">Back to top</a></h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>HTML entities are small sequences of characters that reference a charcter in the Universal character set/unicode your web page uses. These entities can assist us in using typography correctly.</p>
-            <p>It is important to use the correct element to convey meaning both in your typography and your HTML. For example using <code>&#x3C;strong&#x3E;</code> is semantic &mdash; it describes the text it surrounds <strong>(eg. this text should be stronger than the rest of the text you've displayed)</strong> as opposed to describing how the text it surrounds should be displayed <span class="bold">(this text should be visually bold)</span>.</p>
-            <p>In this case <code>&#x3C;strong&#x3E;</code> indicates how something should be understood and it will be read differently by assitive technologies such as screen readers.</p>
+            <h4>Bullets should not:</h4>
+            <ul>
+                <li>be paragraphs masquerading as a list for a visual effect</li>
+                <li>take a full stop after the last bullet point</li>
+                <li>include ‘or’, ‘and’ after the bullets</li>
+            </ul>
         </div>
     </div>
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> unordered list</h3>
+            <div class="example">
+                <h4>The meeting agenda will be:</h4>
+                <ul>
+                    <li>an overview of the last month</li>
+                    <li>a presentation</li>
+                    <li>a special announcement</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&#x3C;h4&#x3E;The meeting agenda will be:&#x3C;/h4&#x3E;
+    &#x3C;ul&#x3E;
+    &#x3C;li&#x3E;an overview of the last month&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;a presentation&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;a special announcement&#x3C;/li&#x3E;
+    &#x3C;/ul&#x3E;</code></pre>
+        </div>
+    </div>
+
+    <h3>Ordered list</h3>
+
+    <div class="row">
+        <div class="column large-7">
+            <p>Numbers should only for a logical sequence of things, like a series of tasks that must be done in a certain order. Apart from this, same rules for bullet lists apply. For example:</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> ordered list</h3>
+            <div class="example">
+                <h4>How to put your shoes on:</h4>
+                <ol>
+                    <li>put on socks</li>
+                    <li>put on shoes</li>
+                    <li>tie laces</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="column medium-6">
+            <pre><code class="language-html">&#x3C;h4&#x3E;How to put your shoes on:&#x3C;/h4&#x3E;
+&#x3C;ol&#x3E;
+    &#x3C;li&#x3E;put on socks&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;put on shoes&#x3C;/li&#x3E;
+    &#x3C;li&#x3E;tie laces&#x3C;/li&#x3E;
+&#x3C;/ol&#x3E;</code></pre>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-7">
+            <h3>Always:</h3>
+            <ul>
+                <li>Use bold sparing</li>
+                <li>Avoid using italics (problematic for people with dyslexia)</li>
+            </ul>
+            <p>It is important to use the correct element to convey meaning both in your typography and your HTML. For example using <code>&#x3C;strong&#x3E;</code> is semantic &mdash; it describes the text it surrounds <strong>(eg. this text should be stronger than the rest of the text you've displayed)</strong> as opposed to describing how the text it surrounds should be displayed <span class="bold">(this text should be visually bold)</span>. In this case <code>&#x3C;strong&#x3E;</code> indicates how something should be understood and it will be read differently by assitive technologies such as screen readers.</p>
+        </div>
+    </div>
+
+    <h2 id="hr">Horizontal rules</h2>
+
+    <div class="row">
+        <div class="column medium-7">
+            <p>Rules can be used to break up content. Most of the time good use of white space will mean these do not need to be used often.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> Horizontal rules</h3>
+            <div class="example">
+                <p>Some content.</p>
+                <hr>
+                <p>Content after rule.</p>
+            </div>
+        </div>
+
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;p&gt;Some content.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Content after rule.&lt;/p&gt;</code></pre>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> Other typographic elements</h3>
             <div class="example">
                 <p>Font style can be <span class="regular">regular</span>, <span class="bold">bold</span> or in some cases <span class="medium">Medium</span>.</p>
-
                 <p>Using standard HTML elements: <strong>strong</strong>, <b>bold</b>, <del>deleted</del>.</p>
-
                 <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>. Text links: <a href="#">link</a>.</p>
-
                 <blockquote>
-                    <p>This is a block quotation.</p>
+                    <p>This is a quotation.</p>
                     <cite>This is a citation</cite>
                 </blockquote>
-
             </div>
         </div>
 
@@ -322,11 +522,17 @@ id: typography
         </div>
     </div>
 
-    <h2 id="typographic-entities">Typographic entities <a href="#top" class="back-to-top">Back to top</a></h2>
+    <div class="row">
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <h2 id="typographic-entities">Typographic HTML entities</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <p>There are certain entities that are useful to <strong>ensure that your web type is displayed correctly</strong>.</p>
+            <p>HTML entities are small sequences of characters that reference a charcter in the Universal character set/unicode your web page uses. These entities can assist us in using typography correctly. There are certain entities that are useful to <strong>ensure that your web type is displayed correctly</strong>.</p>
         </div>
     </div>
 
@@ -348,7 +554,13 @@ id: typography
         </div>
     </div>
 
-    <h2 id="custom-scale">Scale variables <a href="#top" class="back-to-top">Back to top</a></h2>
+    <div class="row">
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        </div>
+    </div>
+
+    <h2 id="toolkit-usage">Front-end code</h2>
 
     <div class="row">
         <div class="column medium-6">
@@ -356,6 +568,7 @@ id: typography
             <p>The typographic scale and vertical rhythm of all elements across all devices can be controlled using this variable. This means that by setting a scale and <code>$base-spacing-unit</code> you can maintain vertical rhythm by using our helper mixin. For instance by using
             <code>@include spacing('margin', 'bottom', 'base')</code> will set a <code>margin-bottom</code> to the element. 'Base', refers to the <code>$base-spacing-unit</code> set in the scale variable. At each break point the <code>margin-bottom</code> will be changed to reflect the value set. In this case the base (mobile) margin bottom will be <code>32px</code> and above the <code>Medium</code> break point will be <code>64px</code>.</p>
             <p>The mixin also allows you to pass other values that also fit to the scale (as they are derived by dividing the <code>$base-spacing-unit</code> by half each time). Therefore <code>@include spacing('margin', 'bottom', 'quarter')</code> would produce a <code>margin-bottom: 16px</code> above the medium breakpoint (in this example) and <code>margin-bottom: 8px</code> on mobile (or base break point).</p>
+            <p>More information can be found by <a href="https://github.com/coopdigital/coop-frontend-toolkit">looking at the toolkit code</a>.</p>
         </div>
         <div class="column medium-6">
             <pre><code class="language-scss">$typographic-scale: (
@@ -390,6 +603,12 @@ id: typography
     base-spacing-unit: 64px,
   )
 ) !default;</code></pre>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-7">
+            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
         </div>
     </div>
 
