@@ -1,14 +1,5 @@
 // Guilty messy file
 
-.type-meta {
-  display: block;
-  position: absolute;
-  bottom: 0px;
-}
-
-.type-meta--margin {
-  bottom: 16px;
-}
 
 .header-design-manual {
   margin-top: $half-spacing-unit;
@@ -284,7 +275,7 @@
   }
 
   tbody th,
-  tbody td{
+  tbody td {
     background: $white;
     border-bottom: 0;
     font-family: $regular;
@@ -320,6 +311,22 @@
   // }
 
 }
+
+// .type-meta {
+//   display: block;
+//   position: absolute;
+//   bottom: 0px;
+// }
+//
+// .type-meta--margin {
+//   bottom: 16px;
+// }
+
+.back-to-top {
+  display: inline-block;
+  @include spacing('margin', 'bottom', 'half');
+}
+
 
 .block {
   display: block;
