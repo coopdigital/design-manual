@@ -4,17 +4,421 @@ id: accessibility
 ---
 
 <div class="wrap">
+    <article id="statement">
+      <h1>Accessibility</h1>
 
-    <h1>Accessibility</h1>
+      <p><em>Some sort of a statement here. Maybe from Mike, maybe rewrite the old one. Some good points from Matt T/the design principles:</em></p>
 
-    <div class="row">
-        <div class="column medium-8">
-            <p class="intro-text">The Co-op is committed to be an inclusive organisation, and as a result we should always aim to provide fully accessible&nbsp;services.</p>
-        </div>
-        <div class="column medium-7">
-            <p>When designing and building a service for Co-op make sure to test with users of all levels of ability. There are many automated testing tools you can use to check accessibility but these should never be seen as an alternative to testing with real people. We do provide some guidance on accessibility within the design patterns (for instance our <a href="http://localhost:9000/front-end-elements/colours.html#text-colours">colour contrast ratio guidelines</a>) and will in the future expand our guidelines in this area.</p>
-            <p>We always try to make everything we design and build accessible. <strong>If you are aware of any ways that we could improve please <a href="/feedback.html">let us know</a></strong>. We are always grateful for your feedback.</p>
-        </div>
-    </div>
+      <p>Don’t design for difference, design so that no one feels different.</p>
 
+      <p>Write in a consistently clear, simple way; this is how we open up our services to everyone.</p>
+    </article>
+
+
+    <article id="guidelines" class="row">
+
+      <header id="contents" class="contents">
+        <ol>
+          <li><a href="#intro">Introduction</li>
+          <li><a href="#designing-for-people-with-disabilites">Designing for people with disabilities</a></li>
+          <li><a href="#language-sensitivity">Language sensitivity</a></li>
+          <li><a href="#about-different-access-needs">About different access needs</a></li>
+          <li><a href="#wai-aria">WAI-ARIA</a></li>
+          <li><a href="#key-common-issues">Key common issues</a></li>
+          <li><a href="#how-to-learn">How to learn</a></li>
+        </ol>
+      </header>
+
+    	<section id="intro" class="column medium-7">
+    		<h1>This is for everyone</h1>
+    		<p>We build our digital services for all our users. Everybody needs to use our services regardless of whether they have a disability or use an assistive technology.</p>
+
+
+    		<h2>Accessibility = no barriers</h2>
+    		<p>We adhere to the inclusive practice of removing barriers that prevent interaction with, or access to websites and services, by people with disabilities.</p>
+
+
+    		<h2>Accessibility = empowerment</h2>
+    		<p>We empower. Accessibility means that people with disabilities can use things independently</p>
+
+
+    		<h2>The Equality Act 2010</h2>
+    		<p>We must ensure all of our information is accessible to people regardless of disability; anticipate the needs of disabled users (rather than react to them) and constantly monitor and iterate on accessibility.</p>
+
+        <p><a href="#contents">Back to top</a></p>
+    	</section>
+
+    	<section id="designing-for-people-with-disabilites" class="column medium-7">
+    		<h1>Designing for people with disabilities</h1>
+
+    		<p>It’s important to consider that every user is different. Every user is an individual: what may solve the issue for one person with low vision may not solve it for another.</p>
+
+
+    		<p>We are not just building websites, we are designing services. This means we must consider all touch points of the service. So, it’s no use just making the website accessible for a deaf user if the service has elements that are only accessible by phone. Or if you require a user who is blind to read a letter.</p>
+
+    		<p>You are empowered to push back if a service doesn’t work for someone with an access need. Sometimes, the business will need to change to be truly accessible.</p>
+
+
+    		<p>You <strong>must</strong> regularly carry out user research with people of various disabilities.</p>
+
+        <p><a href="#contents">Back to top</a></p>
+    	</section>
+
+    	<section id="language-sensitivity" class="column medium-7">
+    		<h1>Language sensitivity</h1>
+    		<p>Be aware that some people can be sensitive to the language used and what may be right for some people may not be right for others. There are no hard and fast rules as such so you may wish to consider.</p>
+
+        <h2>Avoid medical terms for people</h2>
+        <p>You're not a doctor; don't use a doctors terms.</p>
+
+        <h2>How to refer to Deaf &amp; hard of hearing people</h2>
+        <p>Many deaf people who use British Sign Language as their first language refer to themselves as “Deaf”, with a capital D. They consider themselves part of the Deaf community and this reinforces their identity. Deaf people who consider themselves to be a linguistic minority won’t necessarily consider themselves as ‘disabled’.</p>
+
+        <h2>Positive language</h2>
+        <p>Be wary how you you refer to people. ‘Partially sighted’ is preferred over ‘visually impaired’. Lots of disabled people and partially sighted people don’t feel like their condition holds them back and don't consider themselves to have an impairment.</p>
+
+        <p>Think of mobility aids as just that, rather than someone being “confined to a wheelchair”.</p>
+
+        <p>Avoid phrases such as “suffers from”. These have negative connotations, such as the person being in constant pain when in reality, this could be far from the truth.</p>
+
+    	  <h2>Don't pussy foot around language</h2>
+    		<p>Many disabled people use phrases such as “going for a walk” to describe daily life, you should too.</p>
+
+    		<p>If you’re unsure of what terms to use when conversing with a disabled person, it’s much better to ask them rather than fluster over finding the correct term.</p>
+
+    		<p>Don’t feel like you can’t use language such as ‘see you later’ with someone who is blind or partially sighted, they won’t be offended.</p>
+
+    		<p>Use common sense and use what you think is appropriate.</p>
+
+        <p><a href="#contents">Back to top</a></p>
+    	</section>
+
+    	<section id="about-different-access-needs" class="column medium-7">
+    		<h1>About different access needs</h1>
+
+    		<p>There are too many specific access needs to list and you must remember the concept of "disabilites that fight". You may assume a partially sighted user would want to view your products and services in high contrast when actually they could prefer to use a pastel colour scheme to allow them to read easier due to dyslexia. [shite, rewrite]</p>
+
+    		<h2>Eye conditions</h2>
+
+    		<p>There is a wide spectrum of eye conditions, these include colour blindness to ‘low-vision’ or ‘partial sightedness’ through to 'total blindness'.</p>
+
+    		<h2>Colourblindness</h2>
+
+    		<p>There are many types of colourblindness with varying degrees of impact on people’s perception of colour.</p>
+
+
+    		<p>For the most part, users with colour blindness won’t need to use any special software though insufficient colour contrast between text and background and use of colours alone to denote status or meaning will make browsing unnecessarily tricky. You could also include an alternate colour scheme for colourblind people though they will likely use their own browser extension such as <a href="https://chrome.google.com/webstore/detail/color-enhancer/ipkjmjaledkapilfdigkgfmpekpfnkih">Color Enhancer</a>.</p>
+
+
+    		<p>You must never show the difference in state with colour alone. You can test colours using the <a href="http://colorlab.wickline.org/colorblind/colorlab/">Color Laboratory app</a>.</p>
+
+    		<h2>Partially sighted</h2>
+
+    		<p>Partially sighted users will have extreme forms of short or long-sightedness; a small field of vision or their vision may be unclear in other ways.</p>
+
+    		<p>Partially sighted people may:</p>
+
+    		<ul>
+    			<li>Use high contrast colour schemes when browsing</li>
+    			<li>Adjust the size of text</li>
+    			<li>Magnify the page using assistive technology, such as a screen magnifier or even a handheld magnifier</li>
+    			<li>Use a screen reader or a braille display</li>
+    			<li>They may also use a combination of these</li>
+    		</ul>
+
+    		<h2>Blindness</h2>
+
+    		<p>Blindness has varying degrees and will have different legal measures in different countries.</p>
+
+
+    		<p>People who are “legally blind” may still have the ability to tell light from dark or have residual vision. Blind people are very likely to use either a screen reader or a Braille display.</p>
+
+
+    		<p>It’s imperative your HTML is semantic and validates and your services work with JS/CSS turned off for screen readers to be used with them.</p>
+
+    		<h2>Hard of hearing and Deaf</h2>
+
+    		<p>People who are hard of hearing or deaf too belong to a large spectrum. It’s a common misconception that the hard of hearing or deaf don’t require much if any ‘help’ to access the internet; you are wrong to assume this. People who have been profoundly deaf since birth or early age may use British Sign Language (BSL) as their first or preferred language. Generally, they will have English as a second language.  And as a result of this, some content and concepts may be difficult to understand.</p>
+
+
+    		<p>It’s important to have captioning included, use BSL interpreted video and keep copy easily digestible.</p>
+
+    		<h2>Cognitive impairments</h2>
+
+    		<p>Someone considered to have a cognitive impairment may have trouble with one or two types of cognitive processing rask but be fine in other areas.</p>
+
+        <p>There are a huge range of cognitive and learning disabilities with differing needs but, there are some crossovers:</p>
+
+    		<ul>
+    			<li>Use plain English and avoid large blocks of text</li>
+    			<li>Use mixed case text and avoid complex fonts and italics</li>
+    			<li>Have a good structure boken up with headings so people can scan information</li>
+    			<li>Use larger text (minimum 16pt) - this benefits everyone</li>
+    			<li>Break up text with images (in a consisent manner), this makes pages more interesting and works well if people have a reading disability</li>
+    			<li>Look at building in options for customisation (i.e text colour) or alternative outpout such as <a href="https://www.texthelp.com/en-gb/products/browsealoud">Browsealoud</a></li>
+    			<li>Enable people to communicate with your organisation using their prefreed tool</li>
+    			<li>The human mind has a certain amount of processing power; just like a computer</li>
+    		</ul>
+
+    		<p>People with dyslexia or complex cognitive impairments or learning disabilities may also use screen readers.</p>
+
+    		<p>Other considerations include:</p>
+
+    		<ul>
+    			<li>Avoid using long lines of characters (stick to 60, a maximum of 90)</li>
+    			<li>Avoid using #fff (pure white) page backgrounds</li>
+    			<li>Avoid fonts that use serifs</li>
+    			<li>Avoid anything moving or flickering on the page. If this must be done, allow an easy mechanism to stop it</li>
+    		</ul>
+
+    		<h2>Epilepsy</h2>
+
+    		<p>There should be no reason to have flashing or strobe effects on your pages. This can quite easily cause a seizure.</p>
+
+        <p><a href="#contents">Back to top</a></p>
+    	</section>
+
+      <section id="content" class="column medium-7">
+        <h1>Content</h1>
+
+        <p>Write in a consistently clear, simple way; this is how we open up our services to everyone.</p>
+      </section>
+
+    	<section id="wai-aria" class="column medium-7">
+    		<h1>WAI-ARIA</h1>
+
+    		<p>Websites are getting increasingly complex and are inaccessible when assistive technologies can’t determine the semantics behind the code therefore making it hard, or impossible for the user to navigate properly with a screenreader.</p>
+
+    		<p>WAI-ARIA (or ARIA, for short) allows you to associate elements with an ARIA role and allows you to attach states and properties to support these roles.</p>
+
+    		<p>It's important to remember that HTML5 elements already contain ARIA behavior, for example <code class="language-html">nav</code> doesn't need aria-role=’navigation’ unless supporting an older browser. Remember to ensure you don’t conflict with the native semantics of the element you’re applying the role to.</p>
+
+
+    		<p>Below is a list of common patterns Co-op Digital are using, there is also a <a href="https://www.w3.org/WAI/intro/aria">full list of ARIA roles available from W3</a>.</p>
+
+
+    		<p>Below are some of the most common roles prevalent in Co-op projects at the moment:</p>
+
+        <h2>Content-info</h2>
+
+        <p>This is used to to declare a region of the page that contains information about the parent document. For example, privacy policy links and term &amp; conditions. This role is usually placed on the footer element.</p>
+
+        <pre>
+      		<code class="language-html">
+            &lt;footer role="contentinfo"&gt;
+              &lt;ul&gt;
+              	  &lt;li&gt;&lt;a href=”#”&gt;Privacy Policy&lt;/a&gt;&lt;/li&gt;
+               	  &lt;li&gt;&lt;a href=”#”&gt;Terms &amp; Conditions&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/footer&gt;
+          </code>
+        </pre>
+
+        <h2>Alerts</h2>
+
+        <p>This role is used to convey an important message to the user. A alert event will be sent to various assistive technology products to allow them to alert the user ASAP.</p>
+
+        <pre>
+          <code class="language-html">
+            &lt;div role="alert"&gt;You need to perform an action to fix something&lt;/div&gt;
+          </code>
+        </pre>
+
+        <h2>Presentation/no context</h2>
+
+        <p>This role is used when there is no context to an element and the screen reader (or other assistive technology) doesn't need to ‘talk’ about it. A good example of this is a decorative image.</p>
+
+        <pre>
+          <code class="language-html">
+            &lt;img src="decorative-image" alt="" aria-role="presentation"/&gt;
+          </code>
+        </pre>
+
+        <h2>Visibility</h2>
+
+        <p>aria-hidden is used to hide content from screen readers. Most screen readers will ignore <code class="language-css">display:none</code> so it's important to utilise this too, especially when hiding subfields until a user action. If you didn't utilise this, some screenreaders may still read out these hidden fields which will be very confusing to the user.</p>
+
+        <pre>
+          <code class="language-html">
+            &lt;p aria-hidden="true"&gt;This content is hidden.&lt;/p&gt;
+
+            &lt;p aria-hidden="false"&gt;This content is not hidden.&lt;/p&gt;
+
+            &lt;p&gt;This content is also not hidden.&lt;/p&gt;
+          </code>
+        </pre>
+
+        <h2>Importance of new content</h2>
+
+        <p>An ARIA live region is a way of notifying screen readers when content is updated on the page. Screenreader support tends to be inconsisent but it will get better. It does work on VoiceOver on macOS and iOS.</p>
+
+        <p>A screen reader can only focus on one part of the page at a time. If a new bit of content is updated, such as a validation error outside of the current zone the screenreader is in, the user might miss this update.</p>
+
+        <p>ARIA live regions tackle this by utilising three states, these are: <code class="language-html
+          ">off</code>, <code class="language-html
+            ">polite</code> and <code class="language-html
+              ">assertive</code>.</p>
+
+        <pre>
+          <code class="language-html">
+            &lt;p aria-live="off"&gt;aria-live is off, there will be no notification&lt;/p&gt;
+            &lt;p aria-live="polite"&gt;The screen reader will notify the user of a change when the current task is complete&lt;/p&gt;
+            &lt;p aria-live="assertive"&gt;The screen reader will interupt the current task to notifiy the user of a change&lt;/p&gt;
+          </code>
+        </pre>
+
+        <p>Only use <code class="language-html
+          ">assertive</code> when absolutely nessesary (for example: a form validation inwhich the user can't progress without an action) as this can be very disruptive.</p>
+
+        <p><a href="#contents">Back to top</a></p>
+    	</section>
+
+    	<section id="key-common-issues" class="column medium-7">
+    		<h1>Key common issues</h1>
+
+    		<p>Some common issues &amp; mistakes across the web. These are common, yet easily fixed issue that crop up across the web. Nail the basics. [rewrite this]</p>
+
+    		<h2>Semantic code</h2>
+
+    		<p>Text must have a minimum contrast ratio of 1:4.3 at 24px bold and 19px regular. You can test this using <a href=" http://webaim.org/resources/contrastchecker/">WebAims Contrast Checker tool.</a></p>
+
+    		<p>You could also use a 'dropper' style tool like <a href="https://www.paciellogroup.com/resources/contrastanalyser/">this one from the Paciello Group</a> this will allow you to click on the screen to select a colour.</p>
+
+    		<p>For some users low contrast is preferable for example for some people with Dyslexia.  To accommodate the disabilities that fight high contrast as opposed to low contrast consider the following:</p>
+
+    		<ul>
+    			<li>Enable users to add there own style sheets</li>
+    			<li>Enable users to customise the web page using in page controls</li>
+    			<li>Make other aspects of the page more dyslexia friendly - i.e. larger font and non-white background - this can mitigate some of the damage from high contrast text</li>
+    		</ul>
+
+    		<h2>Links</h2>
+
+    		<p>There is no need to provide description alt/title text on links. Simply create descriptive link text instead. If the link is to a file, include what format the file is in, for example: Annual Report [PDF].</p>
+
+
+    		<p>Never use the text "click here". Not only is this link text badly descriptive about the context of the destination, it implies the user needs to click rather than use their keyboard.</p>
+
+
+    		<p>Try to ensure every link starts with a clear indication of what it does. Screenreader users or magnification users will find it easier to navigate. Take the following examples:</p>
+
+    		<ul>
+    			<li>Change your address</li>
+    			<li>Change your name</li>
+    			<li>Change your answers for question 1</li>
+    			<li>Change your answer for question 2</li>
+    		</ul>
+
+
+    		<p>The above will be problematic as when a user uses their screen readers functionality to list the links on a page, they would just hear ‘change, change, change’. This is distracting, and generally annoying.</p>
+
+
+    		<p>Try and frontload links so the important information is at the beginning of the link, this way screen reader users can audio skim (just listen to the start of the link).</p>
+
+    		<h2>Images</h2>
+
+    		<p>If an image has no context (therefore doesn’t need to be seen by a screen reader) you can set an empty alt attribute and set the role attribute to 'presentation'.</p>
+
+
+    		<p>The empty alt attribute seems weird, but it is perfectly semantic and the role attribute will ensure the screen reader doesn’t read out the filename of the image instead.</p>
+
+
+    		<p>What is and isn’t useful in alt text is up for debate.  Some screen reader users may like more detail and some less. <a href="http://webaim.org/techniques/alttext/">This webaim article explains</a> which images should have alt text and which should not.</p>
+
+    		<h2>Tab index</h2>
+
+    		<p>There’s no need to use this, if your code is semantic it will tab just fine.</p>
+
+
+    		<p>If you need to focus programmatically - for example to display a summary of errors - use negative integers as your value.</p>
+
+    		<h2>Heading &amp; Title order</h2>
+
+    		<p>User appropriate heading levels. It's a common misconception from the XHTML/HTML4 days that you can only have one H1 per page. When writing HTML5 you can have more than one H1 as long as they belong inside a article or section. Of course if writing XHTML/HTML4, be sure to follow the correct semantics. You can <a href="https://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824">read more about headings in HTML5 here</a>.</p>
+
+    		<h2>Labels</h2>
+
+    		<p>Even if a visual label isn’t required, such as on a date of birth field, where the required format is obvious, it can still be useful to provide a hidden label for a screenreader user.</p>
+
+    		<h2>Form elements</h2>
+
+    		<p>The (appropriate) form control must have matching <code class="language-html">for</code> and <code class="language-html">id</code> attributes. The <code class="language-html">id</code> attribute must be unique to the page as per semantics.</p>
+
+
+    		<p>A fieldset should be used around logical groupings of form controls, such as a group of radio buttons or checkboxes. These fieldsets must use a <code class="language-html">legend</code> within them to provide context.</p>
+
+
+    		<p><code class="language-html">&lt;option&gt;</code> groups can have a <code class="language-html">value=""</code> inside them to utilise order. To further accessibility, use <code class="language-html">&lt;optgroup&gt;</code> wherever possible and suitable in your option lists to add more context to them.</p>
+
+        <p>See the example below:</p>
+
+        <pre>
+          <code class="language-html">
+            &lt;select&gt;
+              &lt;optgroup label="Swedish Cars"&gt;
+                &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+                &lt;option value="saab"&gt;Saab&lt;/option&gt;
+              &lt;/optgroup&gt;
+              &lt;optgroup label="German Cars"&gt;
+                &lt;option value="mercedes"&gt;Mercedes&lt;/option&gt;
+                &lt;option value="audi"&gt;Audi&lt;/option&gt;
+              &lt;/optgroup&gt;
+            &lt;/select&gt;
+          </code>
+        </pre>
+
+
+    		<p>There are a lot of useful ARIA attributes you can use in your forms to enhance the experience when the user is using a screenreader. These can be found here (build table). You should most definitely use aria-required as a screen reader may not pick up the "required asterix" or the user may be a new user of screen readers and not understand what that concept means.</p>
+
+    		<h2>Readability (characters per line)</h2>
+    		<p>As close to 66 characters per line as possible is ideal. As long as the range is between 45 and 75 characters, your content will be easier to read by everyone, regardless of access need.</p>
+
+
+    		<p>If a line of text is too wide, the user's eyes will struggle to focus on the text because it’s hard to see where the line starts and ends. It can also be hard to continue to the next line in the correct place.</p>
+
+
+    		<p>If the line of text is too narrow, the eye will have to travel back and forth too option. This is tiring and will stress users, especially if that user has dyslexia.</p>
+
+        <p><a href="#contents">Back to top</a></p>
+    	</section>
+
+    	<section id="how-to-learn" class="column medium-7">
+    		<h1>How to learn</h1>
+
+    		<p>If we all work together, learn and continue to care about accessibility we can ensure Co-op Digital creates products and services that are truly accessible to all.</p>
+
+    		<p>There are a number of ways we can achieve this:</p>
+
+ 				<h2>Mentor other colleagues</h2>
+    		<p>Learnt something cool? Share it with your colleagues</p>
+
+    		<h2>Sit with other teams</h2>
+    		<p>We have lots of teams working on different things with different challenges, go and have a nosey at what they're up to.<p>
+
+    		<h2>Review each others code/designs</h2>
+    		<p>Teams should be using Test Driven Development (TDD) or code reviewing pull requests as a team. INtegrate some accessibility tests.</p>
+
+    		<h2>Document common issues</h2>
+    		<p>Another team could be having the same or siumilar issues and that mgiht prescribe a wider issues throughout the team. Another team may well have a solution to something you're trying to tackle, too.</p>
+
+    		<h2>Line managers: building accessibility into targets</h2>
+    		<p>This isn't to enforce the practice as such. An colleauge might feel more empowered to learn about accessibility if it's part of their performance targets.</p>
+
+    		<h2>Test with users with access needs</h2>
+    		<p>This is by far the most important thing you can do. It's impossible to think like a user with an access need, you must test your products and services on them.</p>
+
+        <p><a href="#contents">Back to top</a></p>
+    	</section>
+    </article>
 </div>
+
+<ul>
+  <li>To do:</li>
+  <ul>
+    <li>Statement from Mike Bracken?</li>
+    <li>Physical disabilities (Vicki is working on this)</li>
+    <li>What next section</li>
+    <li>How to get involved? (in what exactly?)</li>
+    <li><a href="#content">Content section</a> - Jo Scho to write?</li>
+  </ul>
+</ul>
