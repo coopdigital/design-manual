@@ -9,6 +9,7 @@ id: colours
 
     <nav>
         <ul class="list-inline">
+            <li><a href="#overview" class="btn btn-small btn-pill">Overview</a></li>
             <li><a href="#brand-colour" class="btn btn-small btn-pill">Brand colour</a></li>
             <li><a href="#text-colours" class="btn btn-small btn-pill">Text</a></li>
             <li><a href="#link-colours" class="btn btn-small btn-pill">Links</a></li>
@@ -17,6 +18,14 @@ id: colours
             <li><a href="#status-colours" class="btn btn-small btn-pill">Status</a></li>
         </ul>
     </nav>
+
+    <h2 id="overview">Overview</h2>
+
+    <div class="row">
+        <div class="column medium-7">
+            <p>We use colour to guide people and aid communication with them. We should not rely on colour in our services, or use it purely for decoration.</p>
+        </div>
+    </div>
 
     <h2 id="brand-colour">Brand colour</h2>
 
@@ -54,8 +63,8 @@ id: colours
 
     <div class="row">
         <div class="column large-7">
-            <p>Text colours meet web accessibility standards that the WCAG 2.0 specify for text and background color combinations. <strong>The colour contrast we look for on body text is 4.5:1 (AAA) and 3.1 (AA) on large text (above 18px or 14px bold)</strong>.</p>
-            <p class="bold">If you are unsure about any of the colours you are using below are some tools that can help you to check and test them.</p>
+            <p>Text colours meet web accessibility standards that the WCAG 2.0 specify for text and background color combinations. The colour contrast we look for on body text is 4.5:1 (AAA) and 3.1 (AA) on large text (above 18px or 14px bold).</p>
+            <p>If you are unsure about any of the colours you are using below are some tools that can help you to check and test them.</p>
             <ul>
                 <li><a href="http://webaim.org/resources/contrastchecker/">Web Aim's Color Contrast Checker</a></li>
                 <li><a href="http://leaverou.github.io/contrast-ratio/#%23fff-on-%23282828">La Verou's Colour Contrast Analyser</a></li>
@@ -85,8 +94,8 @@ id: colours
 
     <div class="row">
         <div class="column large-7">
-            <p>$coop-link-blue passes colour contrast at 4.5.1. so it can be used whereever neccessary. It <a href="#">works well when used within blocks of copy</a>. Remember, if using on a dark background (or image) contrast test for legibility. It is fine to use links in white, grey or black to suit your needs but <strong>always make links self-evident</strong> by making them underlined. They must be <strong>clearly identifiable and distinguishable from surrounding text, by use of a presentation or context cue</strong>.</p>
-            <p>The <strong>exception</strong> to this rule is where main navigational links are already contextual and <strong>will be assumed by the user to be links</strong> and therefore do not need to follow this rule, for example, within the header, footer, any tertiary navigation or buttons.</p>
+            <p>$coop-link-blue passes colour contrast at 4.5.1. so it can be used whereever neccessary. It <a href="#">works well when used within blocks of copy</a>. Remember, if using on a dark background (or image) contrast test for legibility. It is fine to use links in white, grey or black to suit your needs but always make links self-evident by making them underlined. They must be clearly identifiable and distinguishable from surrounding text, by use of a presentation or context cue.</p>
+            <p>The exception to this rule is where main navigational links are already contextual and will be assumed by the user to be links and therefore do not need to follow this rule, for example, within the header, footer, any tertiary navigation or buttons.</p>
             <p>The mouse-over state must use the hand / pointer (cursor:pointer) to indicate that the link is clickable.</p>
         </div>
     </div>
@@ -138,6 +147,23 @@ id: colours
             </div>
         </div>
 
+        <div class="row">
+            <div class="column small-6 large-3">
+                <div class="colour-swatch bluey-dark-grey-bg"></div>
+                <div class="boxed boxed--even margin-bh">
+                    <h3>$bluey-dark-grey</h3>
+                    <h4>#3E464C</h4>
+                    <p>Used for background colour where contrast is required. <strong>Use with caution</strong>.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h2 id="decoration-colours">Decoration colours</h2>
+
+    <div class="row">
+
         <div class="column small-6 large-3">
             <div class="colour-swatch coop-border-grey-bg"></div>
             <div class="boxed boxed--even margin-bh">
@@ -155,17 +181,7 @@ id: colours
                 <p>Used for borders, horizontal rules, etc.</p>
             </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="column small-6 large-3">
-            <div class="colour-swatch bluey-dark-grey-bg"></div>
-            <div class="boxed boxed--even margin-bh">
-                <h3>$bluey-dark-grey</h3>
-                <h4>#3E464C</h4>
-                <p>Used for background colour where contrast is required. <strong>Use with caution</strong>.</p>
-            </div>
-        </div>
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
@@ -226,7 +242,7 @@ id: colours
         </div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="column small-6 large-3">
             <div class="colour-swatch white-bg"></div>
             <div class="boxed boxed--even margin-bh">
@@ -250,7 +266,7 @@ id: colours
                 <button class="btn btn-secondary">Secondary button</button>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
@@ -265,7 +281,7 @@ id: colours
             <div class="boxed boxed--even margin-bh">
                 <h3>$success-green</h3>
                 <h4>#00a318</h4>
-                <p>To be used for positive messages such as success, at 18px+</p>
+                <p>To be used for positive messages</p>
             </div>
         </div>
 
@@ -274,7 +290,7 @@ id: colours
             <div class="boxed boxed--even margin-bh">
                 <h3>$info-orange</h3>
                 <h4>#dc7d00</h4>
-                <p>Used for stand-out messages at 18px+</p>
+                <p>Used for stand-out messages</p>
             </div>
         </div>
 

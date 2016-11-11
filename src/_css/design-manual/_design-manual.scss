@@ -110,6 +110,10 @@
   @include spacing('margin', 'bottom', 'base');
 }
 
+.example--padded {
+  @include spacing('padding', 'all', 'half');
+}
+
 .example-heading {
   font-family: $bold;
   font-size: em-calc(20px);
@@ -147,8 +151,8 @@
         display: block;
         padding: $quarter-spacing-unit / 2;
         min-height: 6em;
-        background: rgba(255,0,0,0.2);
-        border: 2px solid rgba(255,0,0,0.6);;
+        background: rgba(0,0,0,0.1);
+        border: 1px solid rgba(0,0,0,0.5);
       }
     }
 

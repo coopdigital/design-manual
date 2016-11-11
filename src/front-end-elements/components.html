@@ -9,78 +9,91 @@ id: components
 
     <nav>
         <ul class="list-inline">
+            <li><a href="#overview" class="btn btn-small btn-pill">Overview</a></li>
+            <li><a href="#tiles" class="btn btn-small btn-pill">Tiles</a></li>
+            <li><a href="#alerts" class="btn btn-small btn-pill">Alerts</a></li>
             <li><a href="#breadcrumbs" class="btn btn-small btn-pill">Breadcrumbs</a></li>
             <li><a href="#pagination" class="btn btn-small btn-pill">Pagination</a></li>
-            <li><a href="#alerts" class="btn btn-small btn-pill">Alerts</a></li>
             <li><a href="#alpha-beta" class="btn btn-small btn-pill">Use of ‘alpha’ and ‘beta’ banners</a></li>
-            <li><a href="#panels" class="btn btn-small btn-pill">Panels</a></li>
             <li><a href="#tabs" class="btn btn-small btn-pill">Tabs</a></li>
             <li><a href="#toggles" class="btn btn-small btn-pill">Toggles</a></li>
             <li><a href="#accordion" class="btn btn-small btn-pill">Accordion</a></li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2 id="breadcrumbs">Breadcrumbs <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="overview">Overview</h2>
 
     <div class="row">
         <div class="column medium-6">
-            <div class="example">
-                <ul class="breadcrumbs breadcrumbs--no-margin">
-                    <li><a href="#">Grandparent</a></li>
-                    <li><a href="#">Parent</a></li>
-                    <li><a href="#">Child</a></li>
-                    <li><a href="#">Grandchild</a></li>
-                    <li>Current page</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;ul class=&quot;breadcrumbs&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Grandparent&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Parent&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Child&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Grandchild&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;Current page&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
+            <p>We provide a basic set of components that can be used to quickly build up a prototype that you can test.
+            We recommend researching your service and building components that suit your users needs. If components you build are used
+            across many services and are improving user experience then we will work them back into the Design manual.</p>
         </div>
     </div>
 
-    <hr>
+    <h2 id="tiles">Tiles</h2>
 
-    <h2 id="pagintaion">Pagination <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h3 class="example-heading"><span class="example_label">Example</span> Tiles and their design modifiers</h3>
 
     <div class="row">
-        <div class="column medium-6">
+
+        <div class="column medium-4">
             <div class="example">
-                <ol class="pagination">
-                    <li><a href="#">First <span class="visuallyhidden">page</span></a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">Last <span class="visuallyhidden">page</span></a></li>
-                </ol>
+                <div class="tile tile--key">
+                    <h2 class="gamma">New members</h2>
+                    <p class="h-mega padding-tx">248,511</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="example">
+                <div class="tile tile--key tile--rounded">
+                    <h2 class="gamma">Member rewards</h2>
+                    <p class="h-mega padding-tx">6,910,000</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-4">
+            <div class="example">
+                <div class="tile tile--key tile--shadow">
+                    <h2 class="gamma">Member sales</h2>
+                    <p class="h-mega padding-tx">25%</p>
+                </div>
             </div>
         </div>
 
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;ol class=&quot;pagination&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;First &lt;span class=&quot;visuallyhidden&quot;&gt;page&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Last &lt;span class=&quot;visuallyhidden&quot;&gt;page&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</code></pre>
+    </div>
+
+    <div class="row">
+
+        <div class="column medium-7 small-12">
+            <p>Tiles are a quick way to separate content and create a modular design. We currently provide some basic modifiers to allow the tiles to have a border, rounded corners or a drop shadow.</p>
+        </div>
+
+        <div class="column medium-5 small-12">
+            <pre><code class="language-html">&#x3C;div class=&#x22;tile tile--key&#x22;&#x3E;
+    &#x3C;h2 class=&#x22;gamma&#x22;&#x3E;New members&#x3C;/h2&#x3E;
+    &#x3C;p class=&#x22;h-mega padding-tx&#x22;&#x3E;248,511&#x3C;/p&#x3E;
+&#x3C;/div&#x3E;
+
+&#x3C;div class=&#x22;tile tile--key tile--rounded&#x22;&#x3E;
+    &#x3C;h2 class=&#x22;gamma&#x22;&#x3E;Member rewards&#x3C;/h2&#x3E;
+    &#x3C;p class=&#x22;h-mega padding-tx&#x22;&#x3E;6,910,000&#x3C;/p&#x3E;
+&#x3C;/div&#x3E;
+
+&#x3C;div class=&#x22;tile tile--key tile--shadow&#x22;&#x3E;
+    &#x3C;h2 class=&#x22;gamma&#x22;&#x3E;Member sales&#x3C;/h2&#x3E;
+    &#x3C;p class=&#x22;h-mega padding-tx&#x22;&#x3E;25%&#x3C;/p&#x3E;
+&#x3C;/div&#x3E;
+</code></pre>
         </div>
     </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
     <hr>
 
-    <h2 id="alerts">Alerts <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="alerts">Alerts</h2>
 
     <div class="row">
         <div class="column large-7">
@@ -90,6 +103,7 @@ id: components
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <div class="example">
                 <div class="message">
                     <p>A default information message.</p>
@@ -147,9 +161,75 @@ id: components
         </div>
     </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
     <hr>
 
-    <h2 id="alpha-beta">Use of ‘alpha’ and ‘beta’ banners <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="breadcrumbs">Breadcrumbs</h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example">
+                <ul class="breadcrumbs breadcrumbs--no-margin">
+                    <li><a href="#">Grandparent</a></li>
+                    <li><a href="#">Parent</a></li>
+                    <li><a href="#">Child</a></li>
+                    <li><a href="#">Grandchild</a></li>
+                    <li>Current page</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;ul class=&quot;breadcrumbs&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Grandparent&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Parent&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Child&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Grandchild&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Current page&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+    </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
+    <hr>
+
+    <h2 id="pagintaion">Pagination</h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example">
+                <ol class="pagination">
+                    <li><a href="#">First <span class="visuallyhidden">page</span></a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">Last <span class="visuallyhidden">page</span></a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;ol class=&quot;pagination&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;First &lt;span class=&quot;visuallyhidden&quot;&gt;page&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Last &lt;span class=&quot;visuallyhidden&quot;&gt;page&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </div>
+    </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
+    <hr>
+
+    <h2 id="alpha-beta">Use of ‘alpha’ and ‘beta’ banners</h2>
 
     <div class="row">
         <div class="column large-8">
@@ -166,50 +246,26 @@ id: components
         </div>
     </div>
 
+    <h3 class="example-heading"><span class="example_label">Example</span></h3>
     <div class="example">
-
         <div class="info-banner">
           <div class="wrap">
             <p>This is a new version of the [Service]. Help improve it - <a href="/feedback.html">tell us what you think</a>.</p>
           </div>
         </div>
-
     </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
     <hr>
 
-    <h2 id="panels">Panels <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="tabs">Tabs</h2>
+
+    <p>The Tabs component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Tabs.js">Tabs JS module</a> from the Toolkit.</p>
 
     <div class="row">
         <div class="column medium-6">
-            <div class="example">
-                <div class="boxed">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem!</p>
-                </div>
-                <div class="panel-grey">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam?</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;div class=&quot;boxed&quot;&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, rem!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;panel-grey&quot;&gt;
-    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam?&lt;/p&gt;
-&lt;/div&gt;</code></pre>
-        </div>
-    </div>
-
-    <hr>
-
-    <h2 id="tabs">Tabs <a href="#top" class="back-to-top">Back to top</a></h2>
-
-    <p><strong>Note:</strong> the Tabs component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Tabs.js">Tabs JS module</a> from the Toolkit.</p>
-
-    <div class="row">
-        <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <div class="example">
                 <div class="tabs">
                     <ul class="tabs-nav" role="tablist">
@@ -254,18 +310,21 @@ id: components
         </div>
     </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
     <hr>
 
-    <h2 id="toggles">Toggles <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="toggles">Toggles</h2>
 
     <div class="row">
         <div class="column large-7">
-            <p><strong>Note:</strong> the Toggles component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Toggles.js">Toggles JS module</a> from the Toolkit.</p>
+            <p>The Toggles component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Toggles.js">Toggles JS module</a> from the Toolkit.</p>
         </div>
     </div>
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <div class="example">
                 <a href="#toggle-2" class="toggle-trigger" role="button" data-toggle>Toggle title</a>
                 <div id="toggle-2" class="toggle-content">
@@ -282,19 +341,22 @@ id: components
         </div>
     </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
     <hr>
 
-    <h2 id="accordion">Accordion <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="accordion">Accordion</h2>
 
     <div class="row">
         <div class="column large-7">
-            <p><strong>Note:</strong> the Accordion component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Toggles.js">Toggles JS module</a> from the Toolkit.</p>
+            <p>The Accordion component requires the <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/scripts/modules/coop.Toggles.js">Toggles JS module</a> from the Toolkit.</p>
             <p>An Accordion component is effectively a set of Toggles wrapped in a <code>div.accordion</code> container.</p>
         </div>
     </div>
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <div class="example">
                 <div class="accordion">
                     <a class="toggle-trigger" role="button" href="#accordion-1" data-toggle>Accordion Section #1</a>
@@ -334,5 +396,7 @@ id: components
 &lt;/div&gt;</code></pre>
         </div>
     </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
 </div>

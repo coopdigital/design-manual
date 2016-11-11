@@ -8,43 +8,22 @@ id: grid
 
     <nav>
         <ul class="list-inline">
-            <li><a href="#configuration" class="btn btn-small btn-pill">Configuration</a></li>
-            <li><a href="#example" class="btn btn-small btn-pill">Example</a></li>
+            <li><a href="#overview" class="btn btn-small btn-pill">Overview</a></li>
+            <li><a href="#sizes" class="btn btn-small btn-pill">Sizes</a></li>
             <li><a href="#grid-helpers" class="btn btn-small btn-pill">Grid helpers</a></li>
+            <li><a href="#front-end" class="btn btn-small btn-pill">Front-end code</a></li>
         </ul>
     </nav>
 
-    <hr>
+    <h2 id="overview">Overview</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <h2 id="grid">Sizes <a href="#top" class="back-to-top">Back to top</a></h2>
-
-            <p>The default Grid provides classes spanning 12 columns, and provides breakpoints at the following screen sizes:</p>
-
-            <ul>
-                <li><strong>All</strong> (<code>.all-{column-span}</code>) - 0px and up</li>
-                <li><strong>Extra small</strong> (<code>.xsmall-{column-span}</code>) - 320px and up</li>
-                <li><strong>Small</strong> (<code>.small-{column-span}</code>) - 480px and up</li>
-                <li><strong>Medium</strong> (<code>.medium-{column-span}</code>) - 750px and up</li>
-                <li><strong>Large</strong> (<code>.large-{column-span}</code>) - 960px and up</li>
-                <li><strong>Extra large</strong> (<code>.xlarge-{column-span}</code>) - 1300px and up</li>
-            </ul>
-
-            <p>These settings can be overriden by specifying your own list of screen sizes you want columns available for. To keep the size of the resulting production stylesheet down, it is recommended to taylor the settings to your requirements, to make sure only the necessary classes are generated. For instance, if your service uses a 4 column grid, and only requires breakpoints at the medium screen size, you should alter the settings like so:</p>
-
-            <p><strong>Note:</strong> the <code>.all-*</code> classes are always available, even if the <code>$grid-screen-sizes</code> list is empty.</p>
-        </div>
-
-        <div class="column medium-5">
-            <pre><code class="language-scss">$grid-screen-sizes: ("medium");
-    grid-total-columns: 4;</code></pre>
+            <p>We use a grid enable us to structure our designs. Just like our typography and vertical spacing, our grid allows the creation of consitant horizontal space across a variety of contexts.</p>
         </div>
     </div>
 
-    <hr>
-
-    <h2 id="example">Example <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h3 class="example-heading"><span class="example_label">Example</span> Blocks and their CSS classes that can be used to lay out content</h3>
 
     <div class="example grid-example">
         <div class="row">
@@ -114,12 +93,39 @@ id: grid
         </div>
     </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
     <hr>
+
+    <h2 id="sizes">Sizes</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <h2 id="grid-helpers">Grid helpers <a href="#top" class="back-to-top">Back to top</a></h2>
+            <p>The default Grid provides classes spanning 12 columns, and provides breakpoints at the following screen sizes:</p>
+            <ul>
+                <li><strong>All</strong> - 0px and up</li>
+                <li><strong>Extra small</strong> - 320px and up</li>
+                <li><strong>Small</strong> - 480px and up</li>
+                <li><strong>Medium</strong> - 750px and up</li>
+                <li><strong>Large</strong> - 960px and up</li>
+                <li><strong>Extra large</strong> - 1300px and up</li>
+            </ul>
+            <p>These settings can be overriden by specifying your own list of screen sizes you want columns available for. To keep the size of the resulting production stylesheet down, it is recommended to taylor the settings to your requirements, to make sure only the necessary classes are generated.</p>
+        </div>
+        <!-- <div class="column medium-5">
+            <pre><code class="language-scss">$grid-screen-sizes: ("medium");
+    grid-total-columns: 4;</code></pre>
+        </div>  -->
+    </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
+    <hr>
+
+    <h2 id="grid-helpers">Layout helpers</h2>
+
+    <div class="row">
+        <div class="column medium-7">
             <p>The following helpers are included by default in the resulting CSS. If you do not make use of them, it is recommended to exclude them by setting them to false:</p>
             <p>These helpers can be applied to specific breakpoints only.</p>
         </div>
@@ -135,11 +141,11 @@ id: grid
     <div class="row">
         <div class="column medium-7">
             <h3>Centering classes</h3>
-
             <p>These allow centering of columns which do not fill the whole width of the viewport.</p>
         </div>
     </div>
 
+    <h3 class="example-heading"><span class="example_label">Example</span> centering a block</h3>
     <div class="example grid-example">
         <div class="row">
             <div class="column all-6 all-centered">
@@ -154,6 +160,7 @@ id: grid
         </div>
     </div>
 
+    <h3 class="example-heading"><span class="example_label">Example</span> Centering and uncentering blocks across sizes</h3>
     <div class="example grid-example">
         <div class="row">
             <div class="column all-6 all-centered large-uncentered">
@@ -168,11 +175,11 @@ id: grid
     <div class="row">
         <div class="column medium-7">
             <h3>Offsetting classes</h3>
-
             <p class="text">These classes allow adding an offset to the left of any column. They can be applied to specific breakpoints only.</p>
         </div>
     </div>
 
+    <h3 class="example-heading"><span class="example_label">Example</span> Offsetting blocks on the grid on certain sizes</h3>
     <div class="example grid-example">
         <div class="row">
             <div class="column small-4 small-offset-1 large-6 large-offset-0">
@@ -187,11 +194,11 @@ id: grid
     <div class="row">
         <div class="column medium-7">
             <h3>Push/pull classes</h3>
-
             <p>These classes allow re-ordering of the columns by pushing and pulling them relative to their base position.</p>
         </div>
     </div>
 
+    <h3 class="example-heading"><span class="example_label">Example</span> Re-ordering blocks across sizes</h3>
     <div class="example grid-example">
         <div class="row">
             <div class="column small-6 small-push-6">
@@ -218,11 +225,11 @@ id: grid
     <div class="row">
         <div class="column medium-7">
             <h3>Collapse columns</h3>
-
             <p>Collapsed columns have their padding removed. Columns can be collapsed individually, or whole rows can be collapsed at once by adding the class <code>.collapse</code> to the relevant column or row element.</p>
         </div>
     </div>
 
+    <h3 class="example-heading"><span class="example_label">Example</span> Removing column gutters</h3>
     <div class="example grid-example">
         <div class="row">
             <div class="column all-6 collapse">
@@ -241,5 +248,19 @@ id: grid
             </div>
         </div>
     </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
+    <hr>
+
+    <h2 id="front-end">Front-end code</h2>
+
+    <div class="row">
+        <div class="column medium-7">
+            <p>The above grid examples show the classes used to modify the grid at the varous screen sizes we define by default. For more detailed information on using the grid see the <a href="https://github.com/coopdigital/coop-frontend-toolkit">front-end toolkit code</a> or build something using the <a href="https://github.com/coopdigital/coop-prototyping-kit">prototyping kit</a>. There is no substitute for getting your hands dirty.</p>
+        </div>
+    </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
 </div>

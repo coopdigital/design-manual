@@ -16,7 +16,7 @@ id: buttons
         </ul>
     </nav>
 
-    <h2 id="links">Links <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="links">Links</h2>
 
     <div class="row">
         <div class="column large-7">
@@ -26,9 +26,10 @@ id: buttons
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> Descriptive links</h3>
             <div class="example">
                 <div class="margin-bq">
-                    <a href="#">Online Wills Service</a>
+                    <p><a href="#">Online Wills Service</a></p>
                 </div>
             </div>
         </div>
@@ -47,9 +48,10 @@ id: buttons
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> Hidden descriptive text</h3>
             <div class="example">
                 <div class="margin-bq">
-                    <a href="https://www.co-oplegalservices.co.uk/making-a-will/">More information about Wills<span class="visuallyhidden"> on the Co-op Legal website</span></a>
+                    <p><a href="https://www.co-oplegalservices.co.uk/making-a-will/">More information about Wills<span class="visuallyhidden"> on the Co-op Legal website</span></a></p>
                 </div>
             </div>
         </div>
@@ -65,12 +67,13 @@ id: buttons
 
     <div class="row">
         <div class="column large-7">
-            <p>Links to download documents must indicate the type of file and size.</p>
+            <p>Links to download documents must indicate the type of file and size. Links can also be used with icons as long as they are universally understood. Remember, often the best icon is a text label.</p>
         </div>
     </div>
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> Links with icons</h3>
             <div class="example">
                 <div class="margin-bq">
                     <p><a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-download"></span> Download your Will PDF (5mb)</a></p>
@@ -91,53 +94,53 @@ id: buttons
 
     <div class="row">
         <div class="column large-7">
-            <p>Links may also appear in <code>$white</code> if used on a dark background.</p>
+            <p>Links may also appear in white if used on a dark background.</p>
         </div>
     </div>
 
     <div class="row">
         <div class="column medium-6">
-            <div class="example bluey-dark-grey-bg">
-                <div class="margin-bq">
-                    <p><a href="#" class="link-white">Download your Will PDF (5mb)</a></p>
-                </div>
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example example--padded bluey-dark-grey-bg">
+                <p><a href="#" class="link-white">Download your Will PDF (5mb)</a></p>
             </div>
         </div>
 
         <div class="column medium-6">
             <pre><code class="language-html">
-&#x3C;a href=&#x22;#&#x22; class=&#x22;link-black&#x22;&#x3E;Download your Will PDF (5mb)&#x3C;/a&#x3E;
 &#x3C;a href=&#x22;#&#x22; class=&#x22;link-white&#x22;&#x3E;Download your Will PDF (5mb)&#x3C;/a&#x3E;
             </code></pre>
         </div>
     </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
     <hr>
 
-    <h2 id="standard-buttons">Buttons <a href="#top" class="back-to-top">Back to top</a></h2>
+    <h2 id="standard-buttons">Buttons</h2>
 
     <div class="row">
         <div class="column large-8 small-12">
-            <p>Buttons are constructed using Avenir Next Medium at 20px (<code>1em</code>), a 3px border radius, 15px 37.5px padding (<code>$quarter-spacing-unit $half-spacing-unit * 1.25</code>) and a box-shadow. On hover and the background colour is lightened. On focus and active the buttons take a 4px blue outline.</p>
+            <p>Buttons are constructed using Avenir Next Medium at 20px (1em), a 3px border radius, 15px 37.5px padding and a box-shadow. On hover and the background colour is lightened. On focus and active the buttons take a 4px blue outline.</p>
         </div>
     </div>
 
     <div class="row">
         <div class="column medium-6">
-            <div class="candidate">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example">
                 <div class="margin-bq">
                     <button class="btn btn-primary">Primary</button> <a href="http://leaverou.github.io/contrast-ratio/#%23fff-on-%23169F71">Contrast ratio 3.4 (AA over 18px or bold)</a>
                 </div>
                 <div class="margin-bq">
-                    <button class="btn btn-primary-dark">Primary</button> <a href="http://leaverou.github.io/contrast-ratio/#white-on-%23374c63">Contrast ratio 8.8 (AAA)</a>
+                    <button class="btn btn-primary-dark">Button</button> <a href="http://leaverou.github.io/contrast-ratio/#white-on-%23374c63">Contrast ratio 8.8 (AAA)</a>
                 </div>
             </div>
         </div>
 
         <div class="column medium-6">
             <pre><code class="language-html">&lt;button class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;
-&lt;button class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;</code></pre>
-            <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
+&lt;button class=&quot;btn-primary-dark&quot;&gt;Button&lt;/button&gt;</code></pre>
         </div>
     </div>
 
@@ -147,7 +150,7 @@ id: buttons
         </div>
     </div>
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="column medium-6">
             <div class="candidate">
                 <div class="margin-bh">
@@ -170,21 +173,21 @@ id: buttons
             how it performs after it has been tested with users.</p>
             <p>In this form example the hierachy between the primary, secondary and tertiary actions are clear.</p>
         </div>
-    </div>
+    </div>  -->
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> Form</h3>
             <div class="example">
                 <h2>Send a message</h2>
-
                 <form>
                     <label for="message">Your message</label>
                     <textarea id="message" cols="30" rows="4" class="margin-bh"></textarea>
                     <div class="margin-bq">
-                    <button class="btn btn-primary margin-rq">Send your message</button> <button class="btn btn-secondary">Save draft</button>
+                    <button class="btn btn-primary margin-rq">Send your message</button> <!--  <button class="btn btn-secondary">Save draft</button> -->
                     </div>
                     <div class="margin-bh">
-                        <a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-back-arrow"></span> Back</a>
+                        <p><a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-back-arrow"></span> Back</a></p>
                     </div>
                 </form>
             </div>
@@ -193,13 +196,14 @@ id: buttons
 
     <div class="row">
         <div class="column large-7">
-            <p><strong>When you have more that one call to action</strong> on the page use the blue primary, and/or secondary button.</p>
+            <p><strong>When you have more that one call to action</strong> on the page use the blue primary, and/or a secondary button.</p>
         </div>
     </div>
 
     <div class="row">
         <div class="column medium-6 margin-bh">
-            <div class="example offwhite-bg">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example example--padded offwhite-bg">
                 <div>
                     <button class="btn btn-primary-dark">Sign up</button> or <button class="btn btn-secondary">Find out more</button>
                 </div>
@@ -215,7 +219,8 @@ id: buttons
 
     <div class="row">
         <div class="column medium-6">
-            <div class="example example__bad">
+            <h3 class="example-heading"><span class="example_label">Example</span> Do not pair primary buttons</h3>
+            <div class="example example--padded">
                 <div class="margin-bh">
                     <button class="btn btn-primary">Sign up</button> or <button class="btn btn-primary-dark">Find out more</button>
                 </div>
@@ -231,6 +236,7 @@ id: buttons
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <div class="example">
                 <div class="margin-bq">
                     <a href="/booking-form" class="btn btn-primary">Continue to booking</a>
@@ -248,12 +254,15 @@ id: buttons
         </div>
     </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
     <hr>
 
-    <h3 id="disabled-buttons">Disabled buttons <a href="#top" class="back-to-top">Back to top</a></h3>
+    <h3 id="disabled-buttons">Disabled buttons</h3>
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <div class="example">
                 <div class="margin-bq">
                     <button class="btn btn-primary" disabled>Disabled primary</button>
@@ -261,10 +270,9 @@ id: buttons
                 <div class="margin-bq">
                     <button class="btn btn-primary-dark" disabled>Disabled primary</button>
                 </div>
-                <div class="margin-bq">
+                <!-- <div class="margin-bq">
                     <button class="btn btn-secondary" disabled>Disabled secondary</button>
-                </div>
-                <hr>
+                </div> -->
                 <div class="margin-bb">
                     <button class="btn btn-primary btn-loading" disabled>Saving</button>
                 </div>
@@ -280,10 +288,11 @@ id: buttons
         </div>
     </div>
 
-    <h3 id="modified-buttons">Buttons modifiers <a href="#top" class="back-to-top">Back to top</a></h3>
+    <h3 id="modified-buttons">Buttons modifiers</h3>
 
     <div class="row">
         <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <div class="example">
                 <button class="btn btn-primary btn-small">Small</button>
                 <button class="btn btn-primary btn-medium">Medium</button>
@@ -294,10 +303,6 @@ id: buttons
                 <button class="btn btn-secondary btn-small btn-pill">Pill button</button>
                 <button class="btn btn-primary btn-small btn-pill">Pill button primary</button>
                 <button class="btn btn-primary-dark btn-small btn-pill">Pill button secondary</button>
-
-                <hr>
-
-                <button class="btn btn-primary btn-full">Block button</button>
             </div>
         </div>
 
@@ -318,3 +323,7 @@ id: buttons
         </div>
 
     </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
+</div>
