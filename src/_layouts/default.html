@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -18,8 +18,8 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
-<body>
 
+<body>
 
     <div class="app-content">
 
@@ -31,7 +31,7 @@
 
             {% include header.html %}
 
-            <main id="main" class="main">
+            <main id="main" class="main"> 
 
                 {{ content }}
 
@@ -49,7 +49,7 @@
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/vendor/prism.js"></script>
     {% if base_url == http://localhost:9000 %}
-    <!-- <script src="/assets/js/vendor/tota11y.min.js"></script> -->
+    <script src="/assets/js/vendor/tota11y.min.js"></script>
     {% endif %}
 
 </body>
