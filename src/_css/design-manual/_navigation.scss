@@ -5,6 +5,13 @@
 .side-nav-list {
   margin-bottom: $quarter-spacing-unit;
   padding-left: 0;
+
+  li {
+    @include clearfix;
+    overflow: hidden;
+    display: block;
+  }
+
 }
 
 .side-nav-list-link {
@@ -60,6 +67,7 @@
 }
 
 .side-nav-list__parent {
+  display: block;
   @include clearfix;
 }
 
