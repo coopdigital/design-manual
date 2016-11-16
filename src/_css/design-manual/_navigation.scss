@@ -112,6 +112,7 @@
   position: absolute;
   left: 0;
   top: 0;
+  width: 54px;
   padding: $quarter-spacing-unit;
   line-height: .8;
   border: 0;
@@ -122,7 +123,7 @@
   -webkit-transition: none;
           transition: none;
   @include media(medium) {
-    right: -60px;
+    width: 62px;
     padding: 20px;
   }
   &:before {
