@@ -46,7 +46,7 @@
     background: lighten(#2C3136, 5%);
     border-bottom: 1px solid #2C3136;
   }
- 
+
   @include media(medium) {
     font-size: .75em;
   }
@@ -109,9 +109,9 @@
 .nav-trigger {
   @extend .icon;
   @extend .icon-menu;
-  position: fixed;
-  right: -50px;
-  top: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
   padding: $quarter-spacing-unit;
   line-height: .8;
   border: 0;
