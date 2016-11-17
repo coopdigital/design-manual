@@ -305,7 +305,7 @@ id: typography
         <div class="column medium-7">
             <p>The measure is the number of characters in a single line of a column of text.</p>
             <blockquote>
-                &ldquo;Anything from 45 to 75 characters is widely regarded as a satisfactory length of line for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters&rdquo;.
+                <p class="beta">&ldquo;Anything from 45 to 75 characters is widely regarded as a satisfactory length of line for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters&rdquo;.</p>
                 <cite>The Elements of Typographic Style Applied to the Web - <a href="http://webtypography.net/2.1.2">2.1.2 Choose a comfortable&nbsp;measure</a></cite>
             </blockquote>
             <p>Text in the recommended scale run over no more than 7 columns of <a href="/front-end-elements/grid.html">our grid</a> (on desktop). When working with columns run over no more than 4/5. It is more comfortable for people reading on screen as eye movement is kept to a minimum. A good tool to help you test your measure is the <a href="https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd">Google Chrome extension 45 to 75</a>.</p>
@@ -351,7 +351,7 @@ id: typography
         <div class="column medium-7">
             <p>All of our spacing is derived from multiples of 8px. That is known as our <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements using these values.</p>
             <blockquote>
-                &ldquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost&rdquo;.
+                <p class="beta">&ldquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost&rdquo;.</p>
                 <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
             </blockquote>
             <p>Our base font size 20px is set on a 32px 'leading' (the height of the line that the text sits on) - 8x4 = 32.</p>
@@ -499,26 +499,44 @@ id: typography
 
     <div class="row">
         <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span> Other typographic elements</h3>
             <div class="example">
+                <h3 class="example-heading"><span class="example_label">Example</span> Quote: 26px (40px line spacing)</h3>
+                <blockquote>
+                    <p class="beta">&lsquo;Use hanging punctuation to style a quotation&rsquo;</p>
+                    <cite>Design Team</cite>
+                </blockquote>
+                <blockquote>
+                    <p class="beta">&lsquo;This is a quote and should be styled this way a &ldquo;quote within a quote&rdquo; looks like this&rsquo;</p>
+                    <cite>Design Team</cite>
+                </blockquote>
+                <h3 class="example-heading"><span class="example_label">Example</span> Quote: 46px (64px line spacing)</h3>
+                <blockquote>
+                    <p class="alpha">&lsquo;For a really big one you can use &rsquo;</p>
+                    <cite>Design Team</cite>
+                </blockquote>
+                <h3 class="example-heading"><span class="example_label">Example</span> Other typographic elements</h3>
                 <p>Font style can be <span class="regular">regular</span>, <span class="bold">bold</span> or in some cases <span class="medium">Medium</span>.</p>
                 <p>Using standard HTML elements: <strong>strong</strong>, <b>bold</b>, <del>deleted</del>.</p>
                 <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>. Text links: <a href="#">link</a>.</p>
-                <blockquote>
-                    <p>This is a quotation.</p>
-                    <cite>This is a citation</cite>
-                </blockquote>
             </div>
         </div>
 
         <div class="column medium-6">
-            <pre><code class="language-html">&#x3C;p&#x3E;Font style can be &#x3C;span class=&#x22;regular&#x22;&#x3E;regular&#x3C;/span&#x3E;, &#x3C;span class=&#x22;bold&#x22;&#x3E;bold&#x3C;/span&#x3E; or in some cases &#x3C;span class=&#x22;medium&#x22;&#x3E;Medium&#x3C;/span&#x3E;.&#x3C;/p&#x3E;
-&#x3C;p&#x3E;Using standard HTML elements: &#x3C;strong&#x3E;strong&#x3C;/strong&#x3E;, &#x3C;b&#x3E;bold&#x3C;/b&#x3E;, &#x3C;del&#x3E;deleted&#x3C;/del&#x3E;.&#x3C;/p&#x3E;
-&#x3C;p&#x3E;Abbreviation: &#x3C;abbr title=&#x22;HyperText Markup Language&#x22;&#x3E;HTML&#x3C;/abbr&#x3E;. Text links: &#x3C;a href=&#x22;#&#x22;&#x3E;link&#x3C;/a&#x3E;.&#x3C;/p&#x3E;
+            <pre><code class="language-html">&#x3C;blockquote&#x3E;
+    &#x3C;p class=&#x22;beta&#x22;&#x3E;&#x26;lsquo;Use hanging punctuation to style a quotation&#x26;rsquo;&#x3C;/p&#x3E;
+    &#x3C;cite&#x3E;Design Team&#x3C;/cite&#x3E;
+&#x3C;/blockquote&#x3E;
 &#x3C;blockquote&#x3E;
-    &#x3C;p&#x3E;This is a block quotation.&#x3C;/p&#x3E;
-    &#x3C;cite&#x3E;This is a citation&#x3C;/cite&#x3E;
-&#x3C;/blockquote&#x3E;</code></pre>
+    &#x3C;p class=&#x22;beta&#x22;&#x3E;&#x26;lsquo;This is a quote and should be styled this way a &#x26;ldquo;quote within a quote&#x26;rdquo; looks like this&#x26;rsquo;&#x3C;/p&#x3E;
+    &#x3C;cite&#x3E;Design Team&#x3C;/cite&#x3E;
+&#x3C;/blockquote&#x3E;
+&#x3C;blockquote&#x3E;
+    &#x3C;p class=&#x22;alpha&#x22;&#x3E;&#x26;lsquo;For a really big one you can use &#x26;rsquo;&#x3C;/p&#x3E;
+    &#x3C;cite&#x3E;Design Team&#x3C;/cite&#x3E;
+&#x3C;/blockquote&#x3E;
+&#x3C;p&#x3E;Font style can be &#x3C;span class=&#x22;regular&#x22;&#x3E;regular&#x3C;/span&#x3E;, &#x3C;span class=&#x22;bold&#x22;&#x3E;bold&#x3C;/span&#x3E; or in some cases &#x3C;span class=&#x22;medium&#x22;&#x3E;Medium&#x3C;/span&#x3E;.&#x3C;/p&#x3E;
+&#x3C;p&#x3E;Using standard HTML elements: &#x3C;strong&#x3E;strong&#x3C;/strong&#x3E;, &#x3C;b&#x3E;bold&#x3C;/b&#x3E;, &#x3C;del&#x3E;deleted&#x3C;/del&#x3E;.&#x3C;/p&#x3E;
+&#x3C;p&#x3E;Abbreviation: &#x3C;abbr title=&#x22;HyperText Markup Language&#x22;&#x3E;HTML&#x3C;/abbr&#x3E;. Text links: &#x3C;a href=&#x22;#&#x22;&#x3E;link&#x3C;/a&#x3E;.&#x3C;/p&#x3E;</code></pre>
         </div>
     </div>
 
