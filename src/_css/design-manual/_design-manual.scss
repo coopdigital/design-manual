@@ -1,5 +1,9 @@
 // Guilty messy file
 
+.list-heading {
+  @include spacing('margin', 'bottom', 'quarter');
+}
+
 
 .header-design-manual {
   margin-top: $half-spacing-unit;
