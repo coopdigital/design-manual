@@ -418,3 +418,27 @@
   }
 
 }
+
+.type-sizes {
+  width: 1000px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  td, th {
+    padding: 10px;
+  }
+  @include media(medium) {
+    width: 100%;
+  }
+}
+
+// .tr-divider {
+//   @include spacing('padding', 'bottom', 'base');
+// }
+
+.td-half {
+  width: 50%;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $coop-border-grey;
+}
