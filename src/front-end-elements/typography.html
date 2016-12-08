@@ -20,13 +20,13 @@ id: typography
             <li><a href="#typographic-scale">Scale of sizes</a></li>
             <li><a href="#horizontal-space">Horizontal space</a></li>
             <li><a href="#vertical-space">Vertical space</a></li>
-            <li><a href="#type-and-colour">Type and colour</a></li>
+            <li><a href="#white-space">White space</a></li>
+            <li><a href="#quotations">Quotations</a></li>
             <li><a href="#titles">Titles</a></li>
             <li><a href="#orphans">Orphans</a></li>
             <li><a href="#typographic-elements">Typographic elements</a></li>
-            <li><a href="#hr">Horizontal rules</a></li>
-            <li><a href="#typographic-entities">Typographic HTML entities</a></li>
-            <li><a href="#toolkit-usage">Front-end code</a></li>
+            <li><a href="#hyphens-and-dashes">Hyphens and dashes</a></li>
+            <li><a href="#code">Code</a></li>
         </ul>
     </nav>
 
@@ -211,9 +211,7 @@ id: typography
 
     <div class="row">
         <div class="column medium-7">
-
             <p>This example below shows the values above 769px. 768px and below these values are divided by 2.</p>
-
         </div>
     </div>
 
@@ -228,8 +226,6 @@ id: typography
     <p class="baseline-p">Paragraph</p>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-
 
     <h2 id="horizontal-space">Horizontal space</h2>
 
@@ -275,8 +271,6 @@ id: typography
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
-
-
     <h2 id="vertical-space">Vertical space</h2>
 
     <div class="row">
@@ -304,15 +298,24 @@ id: typography
         </div>
     </div>
 
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="type-and-colour">Type and colour</h2>
+    <h2 id="white-space">White space</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <p>Use dark grey for text (#282828). Use other colours for text sparingly and always <a href="/front-end-elements/colours.html">check colours have a high enough contrast</a>.</p>
+            <p>Good use of white space is the best way to break up content.</p>
         </div>
     </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <h3 class="example-heading"><span class="example_label">Example</span> White space</h3>
+            <div class="example">
+
+            </div>
+        </div>
+    </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
     <h2 id="titles">Titles</h2>
 
@@ -343,17 +346,16 @@ id: typography
     </div>
 
     <div class="row">
-        <div class="column medium-2">
+        <div class="column medium-7 small-12">
             <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example">
-                <h3>What is a Design Manual?</h3>
-                <h3>What is a Design&nbsp;Manual?</h3>
+            <div class="example example--padded">
+                <div class="row">
+                    <div class="column small-4">
+                        <h3>What is a Design Manual?</h3>
+                        <h3>What is a Design&nbsp;Manual?</h3>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="column medium-offset-4 medium-6">
-            <pre><code class="language-html">&#x3C;h3&#x3E;What is a Design Manual?&#x3C;/h3&#x3E;
-&#x3C;h3&#x3E;What is a Design&#x26;nbsp;Manual?&#x3C;/h3&#x3E;</code></pre>
         </div>
     </div>
 
@@ -362,6 +364,20 @@ id: typography
     <h2 id="typographic-elements">Typographic elements</h2>
 
     <h3>Unordered list</h3>
+
+    <div class="row">
+        <div class="column medium-7 small-12">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example example--padded">
+                <h4>The meeting agenda will be:</h4>
+                <ul>
+                    <li>an overview of the last month</li>
+                    <li>a presentation</li>
+                    <li>a special announcement</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <div class="row">
         <div class="column large-7">
@@ -383,28 +399,6 @@ id: typography
         </div>
     </div>
 
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span> Unordered list</h3>
-            <div class="example">
-                <h4>The meeting agenda will be:</h4>
-                <ul>
-                    <li>an overview of the last month</li>
-                    <li>a presentation</li>
-                    <li>a special announcement</li>
-                </ul>
-            </div>
-        </div>
-        <div class="column medium-6">
-            <pre><code class="language-html">&#x3C;h4&#x3E;The meeting agenda will be:&#x3C;/h4&#x3E;
-&#x3C;ul&#x3E;
-    &#x3C;li&#x3E;an overview of the last month&#x3C;/li&#x3E;
-    &#x3C;li&#x3E;a presentation&#x3C;/li&#x3E;
-    &#x3C;li&#x3E;a special announcement&#x3C;/li&#x3E;
-&#x3C;/ul&#x3E;</code></pre>
-        </div>
-    </div>
-
     <h3>Ordered list</h3>
 
     <div class="row">
@@ -414,9 +408,9 @@ id: typography
     </div>
 
     <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span> Ordered list</h3>
-            <div class="example">
+        <div class="column medium-7 small-12">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example example--padded">
                 <h4>How to put your shoes on:</h4>
                 <ol>
                     <li>put on socks</li>
@@ -425,142 +419,66 @@ id: typography
                 </ol>
             </div>
         </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&#x3C;h4&#x3E;How to put your shoes on:&#x3C;/h4&#x3E;
-&#x3C;ol&#x3E;
-    &#x3C;li&#x3E;put on socks&#x3C;/li&#x3E;
-    &#x3C;li&#x3E;put on shoes&#x3C;/li&#x3E;
-    &#x3C;li&#x3E;tie laces&#x3C;/li&#x3E;
-&#x3C;/ol&#x3E;</code></pre>
-        </div>
     </div>
+
+    <h2 id="quotations">Quotations</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <h3>Always:</h3>
-            <ul>
-                <li>Use bold sparing</li>
-                <li>Avoid using italics (problematic for people with dyslexia)</li>
-            </ul>
-            <p>It is important to use the correct element to convey meaning both in your typography and your HTML. For example using <code>&#x3C;strong&#x3E;</code> is semantic &mdash; it describes the text it surrounds <strong>(eg. this text should be stronger than the rest of the text you've displayed)</strong> as opposed to describing how the text it surrounds should be displayed <span class="bold">(this text should be visually bold)</span>. In this case <code>&#x3C;strong&#x3E;</code> indicates how something should be understood and it will be read differently by assitive technologies such as screen readers.</p>
+            <p>When you type " on your computer it is not a true quotation mark. True quotes are called smart quotes and the right one must be used according to whether you are opening (<code>&#x26;ldquo;</code>) or closing (<code>&#x26;rdquo;</code>) a quotation.</p>
         </div>
     </div>
 
-    <h2 id="hr">Horizontal rules</h2>
-
+    <h3 class="example-heading"><span class="example_label">Example</span> Quote: 26px (40px line spacing)</h3>
     <div class="row">
-        <div class="column medium-7">
-            <p>Rules can be used to break up content. Most of the time good use of white space will mean these do not need to be used often.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span> Horizontal rules</h3>
+        <div class="column medium-7 small-12">
             <div class="example">
-                <p>Some content.</p>
-
-                <p>Content after rule.</p>
+                <blockquote>
+                    <p class="beta">&lsquo;Use hanging punctuation to style a&nbsp;quotation&rsquo;.</p>
+                    <cite>The Design Team</cite>
+                </blockquote>
+                <blockquote>
+                    <p class="beta">&lsquo;This is a quote and should be styled this way a &ldquo;quote within a quote&rdquo; looks like&nbsp;this&rsquo;.</p>
+                    <cite>The Design Team</cite>
+                </blockquote>
             </div>
         </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;p&gt;Some content.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Content after rule.&lt;/p&gt;</code></pre>
-        </div>
     </div>
 
+    <h3 class="example-heading"><span class="example_label">Example</span> Quote: 46px (64px line spacing)</h3>
     <div class="row">
-        <div class="column medium-6">
+        <div class="column medium-7 small-12">
             <div class="example">
-                <h3 class="example-heading"><span class="example_label">Example</span> Quote: 26px (40px line spacing)</h3>
                 <blockquote>
-                    <p class="beta">&lsquo;Use hanging punctuation to style a quotation&rsquo;</p>
-                    <cite>Design Team</cite>
+                    <p class="alpha">&lsquo;Or you can have a really big&nbsp;one&rsquo;.</p>
+                    <cite>The Design Team</cite>
                 </blockquote>
-                <blockquote>
-                    <p class="beta">&lsquo;This is a quote and should be styled this way a &ldquo;quote within a quote&rdquo; looks like this&rsquo;</p>
-                    <cite>Design Team</cite>
-                </blockquote>
-                <h3 class="example-heading"><span class="example_label">Example</span> Quote: 46px (64px line spacing)</h3>
-                <blockquote>
-                    <p class="alpha">&lsquo;Or you can have a really big one&rsquo;</p>
-                    <cite>Design Team</cite>
-                </blockquote>
-                <h3 class="example-heading"><span class="example_label">Example</span> Other typographic elements</h3>
-                <p>Font style can be <span class="regular">regular</span>, <span class="bold">bold</span> or in some cases <span class="medium">Medium</span>.</p>
-                <p>Using standard HTML elements: <strong>strong</strong>, <b>bold</b>, <del>deleted</del>.</p>
-                <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>. Text links: <a href="#">link</a>.</p>
             </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&#x3C;blockquote&#x3E;
-    &#x3C;p class=&#x22;beta&#x22;&#x3E;&#x26;lsquo;Use hanging punctuation to style a quotation&#x26;rsquo;&#x3C;/p&#x3E;
-    &#x3C;cite&#x3E;Design Team&#x3C;/cite&#x3E;
-&#x3C;/blockquote&#x3E;
-&#x3C;blockquote&#x3E;
-    &#x3C;p class=&#x22;beta&#x22;&#x3E;&#x26;lsquo;This is a quote and should be styled this way a &#x26;ldquo;quote within a quote&#x26;rdquo; looks like this&#x26;rsquo;&#x3C;/p&#x3E;
-    &#x3C;cite&#x3E;Design Team&#x3C;/cite&#x3E;
-&#x3C;/blockquote&#x3E;
-&#x3C;blockquote&#x3E;
-    &#x3C;p class=&#x22;alpha&#x22;&#x3E;&#x26;lsquo;For a really big one you can use &#x26;rsquo;&#x3C;/p&#x3E;
-    &#x3C;cite&#x3E;Design Team&#x3C;/cite&#x3E;
-&#x3C;/blockquote&#x3E;
-&#x3C;p&#x3E;Font style can be &#x3C;span class=&#x22;regular&#x22;&#x3E;regular&#x3C;/span&#x3E;, &#x3C;span class=&#x22;bold&#x22;&#x3E;bold&#x3C;/span&#x3E; or in some cases &#x3C;span class=&#x22;medium&#x22;&#x3E;Medium&#x3C;/span&#x3E;.&#x3C;/p&#x3E;
-&#x3C;p&#x3E;Using standard HTML elements: &#x3C;strong&#x3E;strong&#x3C;/strong&#x3E;, &#x3C;b&#x3E;bold&#x3C;/b&#x3E;, &#x3C;del&#x3E;deleted&#x3C;/del&#x3E;.&#x3C;/p&#x3E;
-&#x3C;p&#x3E;Abbreviation: &#x3C;abbr title=&#x22;HyperText Markup Language&#x22;&#x3E;HTML&#x3C;/abbr&#x3E;. Text links: &#x3C;a href=&#x22;#&#x22;&#x3E;link&#x3C;/a&#x3E;.&#x3C;/p&#x3E;</code></pre>
         </div>
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
-
-
-    <h2 id="typographic-entities">Typographic HTML entities</h2>
+    <h2 id="hyphens-and-dashes">Hyphens and dashes</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <p>HTML entities are small sequences of characters that reference a charcter in the Universal character set/unicode your web page uses. These entities can assist us in using typography correctly. There are certain entities that are useful to ensure that your web type is displayed correctly.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <div class="example">
-                <p>When you type " on your computer it is not a true quotation mark. True quotes are called smart quotes and the right one must be used according to whether you are opening (<code>&#x26;ldquo;</code>) or closing (<code>&#x26;rdquo;</code>) a quotation.</p>
-                <p><span class="bold">Hyphens</span> (the character you get when you type - ) is a punctuation mark and should be used to hyphenate words in justified type. It can also be used in compound modifiers such as &ldquo;fine-tuned&rdquo;.</p>
-                <p><span class="bold">En dashes (<code>&#x26;ndash;</code>)</span> should be used for connecting things that are related to each other by distance such as June&ndash;July</p>
-                <p><span class="bold">Em dashes (<code>&#x26;mdash;</code>)</span> can be used in pairs like parentheses—that is, to enclose a word, or a phrase &mdash; or they can be used alone to detach one end of a sentence from the main body.</p>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&#x3C;p&#x3E;When you type &#x22; on your computer it is not a true quotation mark. True quotes are called &#x26;ldquo;smart quotes&#x26;rdquo; and the right one must be used according to whether you are opening or closing a quotation.&#x3C;/p&#x3E;
-&#x3C;p&#x3E;Hyphens (the character you get when you type - ) is a punctuation mark and should be used to hyphenate words in justified type. It can also be used in compound modifiers such as &#x26;ldquo;fine-tuned&#x26;rdquo;.&#x3C;/p&#x3E;
-&#x3C;p&#x3E;En dashes should be used for connecting things that are related to each other by distance such as June&#x26;ndash;July&#x3C;/p&#x3E;
-&#x3C;p&#x3E;Em dashes can be used in pairs like parentheses&#x2014;that is, to enclose a word, or a phrase &#x26;mdash; or they can be used alone to detach one end of a sentence from the main body.&#x3C;/p&#x3E;</code></pre>
+            <p><span class="bold">Hyphens</span> (the character you get when you type - ) is a punctuation mark and should be used to hyphenate words in justified type. It can also be used in compound modifiers such as &ldquo;fine-tuned&rdquo;.</p>
+            <p><span class="bold">En dashes (<code>&#x26;ndash;</code>)</span> should be used for connecting things that are related to each other by distance such as June&ndash;July</p>
+            <p><span class="bold">Em dashes (<code>&#x26;mdash;</code>)</span> can be used in pairs like parentheses—that is, to enclose a word, or a phrase &mdash; or they can be used alone to detach one end of a sentence from the main body.</p>
         </div>
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
-
-
-    <h2 id="toolkit-usage">Front-end code</h2>
+    <h2 id="code">Code</h2>
 
     <div class="row">
         <div class="column medium-7">
-            <p>The typographic scale can be optimised for different device sizes for more information see the <a href="https://github.com/coopdigital/coop-frontend-toolkit">front-end toolkit code</a>.</p>
+            <p>The typographic scale can be optimised for different device sizes. For more information see the <a href="https://github.com/coopdigital/coop-frontend-toolkit">front-end toolkit code</a>.</p>
         </div>
     </div>
 
-    <div class="row">
-        <div class="column medium-7">
-            <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-        </div>
-    </div>
+    <!-- <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a> -->
 
 </div>

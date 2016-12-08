@@ -108,25 +108,27 @@
 }
 
 .example {
+  @include spacing('margin', 'bottom', 'half');
   position: relative;
-  @include spacing('margin', 'bottom', 'base');
+  border: 1px solid $coop-border-grey;
 }
 
 .example--padded {
-  @include spacing('padding', 'all', 'half');
+  @include spacing('padding', 'all', 'quarter');
 }
 
 .example-heading {
   font-family: $bold;
   font-size: em-calc(20px);
-  @include spacing('margin', 'bottom', 'half');
+  padding-top: 3px;
+  @include spacing('margin', 'bottom', 'quarter');
 }
 
 .example_label {
+  @include spacing('margin', 'right', 'eighth');
   padding: .25em;
-  // font-family: $medium;
-  color: $white;
-  background: $bluey-dark-grey;
+  font-family: $regular;
+  background: $offwhite;
 }
 
 .example__bad {
