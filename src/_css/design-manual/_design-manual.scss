@@ -108,6 +108,7 @@
 }
 
 .example {
+  @include clearfix();
   @include spacing('margin', 'bottom', 'half');
   position: relative;
   border: 1px solid $coop-border-grey;
@@ -240,8 +241,8 @@
 }
 
 .logo-padding {
-  width: 122px;
-  padding: 30px 20px 30px 30px;
+  width: 102px;
+  padding: 30px 30px 30px 0;
   background: rgba(0,0,0,0.1);
 
   .coop-logo-large {
@@ -302,7 +303,7 @@
   &:before {
     position: absolute;
     top: 0;
-    left: 360px;
+    left: 400px;
     display: block;
     font-family: $regular;
     padding: 2px;
@@ -441,4 +442,11 @@
 
 .border-bottom {
   border-bottom: 1px solid $coop-border-grey;
+}
+
+.browser-support {
+  th,
+  td {
+    font-size: 1.25em;
+  }
 }

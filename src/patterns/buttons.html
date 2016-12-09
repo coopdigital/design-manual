@@ -14,7 +14,6 @@ id: buttons
             <li><a href="#links">Links</a></li>
             <li><a href="#standard-buttons">Buttons</a></li>
             <li><a href="#disabled-buttons">Disabled buttons</a></li>
-            <li><a href="#modified-buttons">Buttons modifiers</a></li>
         </ul>
     </nav>
 
@@ -29,41 +28,11 @@ id: buttons
     <div class="row">
         <div class="column medium-6">
             <h3 class="example-heading"><span class="example_label">Example</span> Descriptive links</h3>
-            <div class="example">
+            <div class="example example--padded">
                 <div class="margin-bq">
                     <p><a href="#">Online Wills Service</a></p>
                 </div>
             </div>
-        </div>
-        <div class="column medium-6">
-            <pre><code class="language-html">
-&#x3C;a href=&#x22;https://www.co-oplegalservices.co.uk/making-a-will/&#x22;&#x3E;More information about Wills&#x3C;/a&#x3E;
-            </code></pre>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column large-7">
-            <p>You can hide further descriptive text in a way that can be found by screen readers using a class of <code>.visuallyhidden</code>. The link should however remain descriptive of the place it's taking the user.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span> Hidden descriptive text</h3>
-            <div class="example">
-                <div class="margin-bq">
-                    <p><a href="https://www.co-oplegalservices.co.uk/making-a-will/">More information about Wills<span class="visuallyhidden"> on the Co-op Legal website</span></a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">
-&#x3C;a href=&#x22;https://www.co-oplegalservices.co.uk/making-a-will/&#x22;&#x3E;
-    More information about Wills&#x3C;span class=&#x22;visuallyhidden&#x22;&#x3E; on the Co-op Legal website&#x3C;/span&#x3E;
-&#x3C;/a&#x3E;
-            </code></pre>
         </div>
     </div>
 
@@ -76,21 +45,11 @@ id: buttons
     <div class="row">
         <div class="column medium-6">
             <h3 class="example-heading"><span class="example_label">Example</span> Links with icons</h3>
-            <div class="example">
+            <div class="example example--padded">
                 <div class="margin-bq">
                     <p><a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-download"></span> Download your Will PDF (5mb)</a></p>
-                    <p><a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-twitter"></span> Tweet about this awesome Design Manual</a></p>
-                    <p><a href="#" class="link-icon-right">More information about Wills <span aria-hidden="true" class="icon icon-forward-arrow"></span></a></p>
                 </div>
             </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">
-&#x3C;a href=&#x22;#&#x22; class=&#x22;link-icon-left&#x22;&#x3E;&#x3C;span aria-hidden=&#x22;true&#x22; class=&#x22;icon icon-download&#x22;&#x3E;&#x3C;/span&#x3E; Download your Will PDF (5mb)&#x3C;/a&#x3E;
-&#x3C;a href=&#x22;#&#x22; class=&#x22;link-icon-left&#x22;&#x3E;&#x3C;span aria-hidden=&#x22;true&#x22; class=&#x22;icon icon-twitter&#x22;&#x3E;&#x3C;/span&#x3E; Tweet about this awesome Design Manual&#x3C;/a&#x3E;
-&#x3C;a href=&#x22;#&#x22; class=&#x22;link-icon-right&#x22;&#x3E;More information about Wills &#x3C;span aria-hidden=&#x22;true&#x22; class=&#x22;icon icon-forward-arrow&#x22;&#x3E;&#x3C;/span&#x3E;&#x3C;/a&#x3E;
-            </code></pre>
         </div>
     </div>
 
@@ -107,30 +66,23 @@ id: buttons
                 <p><a href="#" class="link-white">Download your Will PDF (5mb)</a></p>
             </div>
         </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">
-&#x3C;a href=&#x22;#&#x22; class=&#x22;link-white&#x22;&#x3E;Download your Will PDF (5mb)&#x3C;/a&#x3E;
-            </code></pre>
-        </div>
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-
 
     <h2 id="standard-buttons">Buttons</h2>
 
     <div class="row">
         <div class="column large-8 small-12">
             <p>Buttons are constructed using Avenir Next Medium at 20px (1em), a 3px border radius, 15px 37.5px padding and a box-shadow. On hover and the background colour is lightened. On focus and active the buttons take a 4px blue outline.</p>
+            <p>For desktop and tablet formats button width should be defined by the button content. Buttons should be ranged left in these formats; the left edge aligning with other content.</p>
         </div>
     </div>
 
     <div class="row">
         <div class="column medium-6">
             <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example">
+            <div class="example example--padded">
                 <div class="margin-bq">
                     <button class="btn btn-primary">Button</button>
                 </div>
@@ -138,11 +90,6 @@ id: buttons
                     <button class="btn btn-primary-dark">Button</button>
                 </div>
             </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;button class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;
-&lt;button class=&quot;btn-primary-dark&quot;&gt;Button&lt;/button&gt;</code></pre>
         </div>
     </div>
 
@@ -152,35 +99,10 @@ id: buttons
         </div>
     </div>
 
-    <!-- <div class="row">
-        <div class="column medium-6">
-            <div class="candidate">
-                <div class="margin-bh">
-                    <button class="btn btn-secondary">Secondary</button> <a href="http://leaverou.github.io/contrast-ratio/#%2300729a-on-white">Contrast ratio 5.4 (AA - AAA over 18px)</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;button class=&quot;btn-secondary&quot;&gt;Secondary&lt;/button&gt;</code></pre>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>The use and style of the secondry button has been the cause of some debate and requires some explanation. Within this candidate set we are currently recommending this white version for the following reasons.
-            The grey secondary button we have tried previously has not tended to be recognised as a button by our users. Using a colour for the secondary button was something else we tried, but to achieve a contrast
-            ratio we were happy with was difficult as when used together the primary and secondary buttons felt too similar in thier intent.</p>
-            <p>There are pros to the use of the white button. It shows up well on all backgrounds, it uses the link blue as it's text colour and it is an obvious where it falls within the hierarchy. We will only find out
-            how it performs after it has been tested with users.</p>
-            <p>In this form example the hierachy between the primary, secondary and tertiary actions are clear.</p>
-        </div>
-    </div>  -->
-
     <div class="row">
         <div class="column medium-6">
             <h3 class="example-heading"><span class="example_label">Example</span> Form</h3>
-            <div class="example">
+            <div class="example example--padded">
                 <h2>Send a message</h2>
                 <form>
                     <label for="message">Your message</label>
@@ -198,40 +120,6 @@ id: buttons
 
     <div class="row">
         <div class="column large-7">
-            <p><strong>When you have more that one call to action</strong> on the page use the blue primary, and/or a secondary button.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6 margin-bh">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example example--padded offwhite-bg">
-                <div>
-                    <button class="btn btn-primary-dark">Sign up</button> or <button class="btn btn-secondary">Find out more</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column large-7">
-            <p><strong>Don't pair primary buttons together.</strong> This creates ambiguity in the hierachy of actions and could be confusing for users.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span> Do not pair primary buttons</h3>
-            <div class="example example--padded">
-                <div class="margin-bh">
-                    <button class="btn btn-primary">Sign up</button> or <button class="btn btn-primary-dark">Find out more</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column large-7">
             <p><strong>Links that are styled as buttons should ideally be an action eg 'Continue', 'Book' or 'Confirm'.</strong></p>
         </div>
     </div>
@@ -239,7 +127,7 @@ id: buttons
     <div class="row">
         <div class="column medium-6">
             <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example">
+            <div class="example example--padded">
                 <div class="margin-bq">
                     <a href="/booking-form" class="btn btn-primary">Continue to booking</a>
                 </div>
@@ -248,80 +136,27 @@ id: buttons
                 </div>
             </div>
         </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&#x3C;a href=&#x22;/booking-form&#x22; class=&#x22;btn-primary&#x22;&#x3E;Continue to booking&#x3C;/a&#x3E;
-&#x3C;button class=&#x22;btn-primary&#x22;&#x3E;Send your message&#x3C;/button&#x3E;</code></pre>
-            <p>Use the <code>&#x3C;button&#x3E;</code> element within a form or for clickable elements that do not have a meaningful <code>href</code> eg when you want to trigger something with Javascript</p>
-        </div>
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-
 
     <h3 id="disabled-buttons">Disabled buttons</h3>
 
     <div class="row">
         <div class="column medium-6">
             <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example">
+            <div class="example example--padded">
                 <div class="margin-bq">
                     <button class="btn btn-primary" disabled>Disabled primary</button>
                 </div>
                 <div class="margin-bq">
                     <button class="btn btn-primary-dark" disabled>Disabled primary</button>
                 </div>
-                <!-- <div class="margin-bq">
-                    <button class="btn btn-secondary" disabled>Disabled secondary</button>
-                </div> -->
                 <div class="margin-bb">
                     <button class="btn btn-primary btn-loading" disabled>Saving</button>
                 </div>
             </div>
         </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;button disabled&gt;Disabled standard&lt;/button&gt;
-&lt;button class=&quot;btn-primary&quot; disabled&gt;Disabled primary&lt;/button&gt;
-&lt;button class=&quot;btn-secondary&quot; disabled&gt;Disabled secondary&lt;/button&gt;
-&lt;button class=&quot;btn-tertiary&quot; disabled&gt;Disabled tertiary&lt;/button&gt;</code></pre>
-            <p>Buttons can be marked as disabled using the <code>disabled</code> attribute (recommended) or by adding a class of <code>disabled</code> to the <code>button</code> element.</p>
-        </div>
-    </div>
-
-    <h3 id="modified-buttons">Buttons modifiers</h3>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example">
-                <button class="btn btn-primary btn-small">Small</button>
-                <button class="btn btn-primary btn-medium">Medium</button>
-                <button class="btn btn-primary btn-large">Large</button>
-
-                <!-- <button>Pill button</button>
-                <button class="btn btn-primary btn-small btn-pill">Pill button primary</button>
-                <button class="btn btn-primary-dark btn-small btn-pill">Pill button secondary</button> -->
-            </div>
-        </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">&lt;button class=&quot;btn-small&quot;&gt;Small&lt;/button&gt;
-&lt;button class=&quot;btn-medium&quot;&gt;Medium&lt;/button&gt;
-&lt;button class=&quot;btn-large&quot;&gt;Large&lt;/button&gt;
-
-&lt;hr&gt;
-
-&lt;button class=&quot;btn-small btn-pill&quot;&gt;Pill button&lt;/button&gt;
-&lt;button class=&quot;btn-primary btn-small btn-pill&quot;&gt;Pill button primary&lt;/button&gt;
-&lt;button class=&quot;btn-secondary btn-small btn-pill&quot;&gt;Pill button secondary&lt;/button&gt;
-
-&lt;hr&gt;
-
-&lt;button class=&quot;btn-primary btn-full&quot;&gt;Block button&lt;/button&gt;</code></pre>
-        </div>
-
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
