@@ -4,6 +4,9 @@
   @include spacing('margin', 'bottom', 'quarter');
 }
 
+.tile--signpost {
+  min-height: 143px;
+}
 
 .header-design-manual {
   margin-top: $half-spacing-unit;
