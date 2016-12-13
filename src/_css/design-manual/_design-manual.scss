@@ -150,18 +150,25 @@
   .row {
 
     .column {
-      background: $offwhite;
 
-      > code {
+      span {
         display: block;
-        padding: $quarter-spacing-unit / 2;
-        min-height: 6em;
-        background: rgba(0,0,0,0.1);
-        border: 1px solid rgba(0,0,0,0.5);
+        height: 100px;
+        background: #00729A;
+
+        span {
+          display: block;
+          height: 100px;
+          background: #338EAE;
+        }
       }
     }
 
   }
+}
+
+.large-1-5 {
+  width: 12.5%;
 }
 
 .full-width-example {
@@ -303,7 +310,7 @@
   &:before {
     position: absolute;
     top: 0;
-    left: 400px;
+    left: 420px;
     display: block;
     font-family: $regular;
     padding: 2px;

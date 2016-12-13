@@ -19,91 +19,15 @@ id: grid
     <nav>
         <ul class="list-bare in-page-nav">
             <li><a href="#overview">Overview</a></li>
-            <li><a href="#sizes">Sizes</a></li>
-            <li><a href="#grid-helpers">Grid helpers</a></li>
-            <li><a href="#front-end">Front-end code</a></li>
+            <li><a href="#sizes">Viewport sizes</a></li>
+            <li><a href="#columns-and-gutters">Columns and gutters</a></li>
         </ul>
     </nav>
 
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Blocks and their CSS classes that can be used to lay out content</h3>
-
-    <div class="example grid-example">
-        <div class="row">
-            <div class="column small-6 medium-3">
-                <code>.small-6 .medium-3</code>
-            </div>
-            <div class="column small-6 medium-3">
-                <code>.small-6 .medium-3</code>
-            </div>
-            <div class="column small-6 medium-3">
-                <code>.small-6 .medium-3</code>
-            </div>
-            <div class="column small-6 medium-3">
-                <code>.small-6 .medium-3</code>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column small-4">
-                <code>.small-4</code>
-            </div>
-            <div class="column small-4">
-                <code>.small-4</code>
-            </div>
-            <div class="column small-4">
-                <code>.small-4</code>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column medium-6">
-                <code>.medium-6</code>
-            </div>
-            <div class="column medium-6">
-                <code>.medium-6</code>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column medium-4 large-2">
-                <code>.medium-4 .large-2</code>
-            </div>
-            <div class="column medium-4 large-2">
-                <code>.medium-4 .large-2</code>
-            </div>
-            <div class="column medium-4 large-2">
-                <code>.medium-4 .large-2</code>
-            </div>
-            <div class="column medium-4 large-2">
-                <code>.medium-4 .large-2</code>
-            </div>
-            <div class="column medium-4 large-2">
-                <code>.medium-4 .large-2</code>
-            </div>
-            <div class="column medium-4 large-2">
-                <code>.medium-4 .large-2</code>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column small-4">
-                <code>.small-4</code>
-            </div>
-            <div class="column small-8">
-                <code>.small-8</code>
-            </div>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-
-
-    <h2 id="sizes">Sizes</h2>
+    <h2 id="sizes">Viewport sizes</h2>
 
     <div class="row">
-        <div class="column medium-7">
+        <div class="column medium-7 small-12">
             <p>The default Grid provides classes spanning 12 columns, and provides breakpoints at the following screen sizes:</p>
             <ul>
                 <li><strong>All</strong> - 0px and up</li>
@@ -115,151 +39,357 @@ id: grid
             </ul>
             <p>These settings can be overriden by specifying your own list of screen sizes you want columns available for. To keep the size of the resulting production stylesheet down, it is recommended to taylor the settings to your requirements, to make sure only the necessary classes are generated.</p>
         </div>
-        <!-- <div class="column medium-5">
-            <pre><code class="language-scss">$grid-screen-sizes: ("medium");
-    grid-total-columns: 4;</code></pre>
-        </div>  -->
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
-
-
-    <h2 id="grid-helpers">Layout helpers</h2>
+    <h2 id="grid-helpers">Columns and gutters</h2>
 
     <div class="row">
-        <div class="column medium-7">
-            <p>The following helpers are included by default in the resulting CSS. If you do not make use of them, it is recommended to exclude them by setting them to false:</p>
-            <p>These helpers can be applied to specific breakpoints only.</p>
+        <div class="column medium-7 small-12">
+            <p>The default grid is based on 12 columns of equal width; 1 column for small abd extra small viewports. The gutter of each column is a division of the <a href="/patterns/gird.html">8px basline grid</a> as follows:</p>
         </div>
 
-        <div class="column medium-5">
-            <pre><code class="language-scss">$grid-include-center-classes: false;
-    $grid-include-pull-classes: false;
-    $grid-include-push-classes: false;
-    $grid-include-offset-classes: false;</code></pre>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-7">
-            <h3>Centering classes</h3>
-            <p>These allow centering of columns which do not fill the whole width of the viewport.</p>
+        <div class="column medium-7 small-12">
+            <ul>
+                <li><strong>Extra small</strong> - 8px</li>
+                <li><strong>Small</strong> - 8px</li>
+                <li><strong>Medium</strong> - 16px</li>
+                <li><strong>Large</strong> - 36p</li>
+                <li><strong>Extra large</strong> - 32px</li>
+            </ul>
+            <p>Typical column combinations can be seen below.</p>
         </div>
     </div>
 
-    <h3 class="example-heading"><span class="example_label">Example</span> centering a block</h3>
-    <div class="example grid-example">
+    <h3 class="example-heading"><span class="example_label">Example</span> Column combinations</h3>
+
+    <div class="grid-example">
+        <div class="row margin-bh">
+            <div class="column small-6 medium-3">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="column small-6 medium-3">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="column small-6 medium-3">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="column small-6 medium-3">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-4">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="row margin-bh">
+            <div class="column small-4">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="column small-4">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="column small-4">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="row margin-bh">
+            <div class="column medium-6">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="column medium-6">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-2">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="row margin-bh">
+            <div class="column medium-8">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="column medium-4">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="row margin-bh">
+            <div class="column medium-4">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-3">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="column medium-8">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1-5">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
         <div class="row">
-            <div class="column all-6 all-centered">
-                <code>.all-6 .all-centered</code>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>The centering can be undone for subsequent breakpoints:</p>
-        </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Centering and uncentering blocks across sizes</h3>
-    <div class="example grid-example">
-        <div class="row">
-            <div class="column all-6 all-centered large-uncentered">
-                <code>.all-6 .all-centered .large-uncentered</code>
-            </div>
-            <div class="column all-6 all-centered large-uncentered">
-                <code>.all-6 .all-centered .large-uncentered</code>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-7">
-            <h3>Offsetting classes</h3>
-            <p class="text">These classes allow adding an offset to the left of any column. They can be applied to specific breakpoints only.</p>
-        </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Offsetting blocks on the grid on certain sizes</h3>
-    <div class="example grid-example">
-        <div class="row">
-            <div class="column small-4 small-offset-1 large-6 large-offset-0">
-                <code>.small-4 .small-offset-1 .large-6 .large-offset-0</code>
-            </div>
-            <div class="column small-4 small-offset-2 large-offset-1">
-                <code>.small-4 .small-offset-2 .large-offset-1</code>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-7">
-            <h3>Push/pull classes</h3>
-            <p>These classes allow re-ordering of the columns by pushing and pulling them relative to their base position.</p>
-        </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Re-ordering blocks across sizes</h3>
-    <div class="example grid-example">
-        <div class="row">
-            <div class="column small-6 small-push-6">
-                <code>.small-6 .small-push-6 (first in markup)</code>
-            </div>
-            <div class="column small-6 small-pull-6">
-                <code>.small-6 .small-pull-6 (last in markup)</code>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="column small-4 small-push-4">
-                <code>.small-4 .small-push-4 (first in markup)</code>
-            </div>
-            <div class="column small-4 small-push-4">
-                <code>.small-4 .small-push-4 (second in markup)</code>
-            </div>
-            <div class="column small-4 small-pull-8">
-                <code>.small-4 .small-pull-8 (last in markup)</code>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-7">
-            <h3>Collapse columns</h3>
-            <p>Collapsed columns have their padding removed. Columns can be collapsed individually, or whole rows can be collapsed at once by adding the class <code>.collapse</code> to the relevant column or row element.</p>
-        </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Removing column gutters</h3>
-    <div class="example grid-example">
-        <div class="row">
-            <div class="column all-6 collapse">
-                <code>.all-6 .collapse</code>
-            </div>
-            <div class="column all-6">
-                <code>.all-6</code>
-            </div>
-        </div>
-        <div class="row collapse">
-            <div class="column all-6">
-                <code>.row.collapse > .all-6 </code>
-            </div>
-            <div class="column all-6">
-                <code>.row.collapse > .all-6 </code>
+            <div class="column small-12">
+                <span>
+                    <div class="row">
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                        <div class="column small-12 large-1">
+                            <span></span>
+                        </div>
+                    </div>
+                </span>
             </div>
         </div>
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-
 
     <h2 id="front-end">Front-end code</h2>
 
     <div class="row">
-        <div class="column medium-7">
+        <div class="column medium-7 medium-7">
             <p>The above grid examples show the classes used to modify the grid at the varous screen sizes we define by default. For more detailed information on using the grid see the <a href="https://github.com/coopdigital/coop-frontend-toolkit">front-end toolkit code</a> or build something using the <a href="https://github.com/coopdigital/coop-prototyping-kit">prototyping kit</a>. There is no substitute for getting your hands dirty.</p>
         </div>
     </div>

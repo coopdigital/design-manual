@@ -17,11 +17,11 @@ breadcrumb: Typography
             <p>Our typography is designed to allow us to communicate effectively with everyone. By being deliberate and clear in our messages we help people to achieve their goals more easily.</p>
             <p>The font we use is Avenir Next in regular, medium and demi bold weights. This font has clear, open letterforms and open letter spacing. These characteristics help communicate the brand identity for Co-op.</p>
             <p>To make text easy for users to read there are three key things to do with typography:</p>
-            <ul>
-                <li>Range text left</li>
-                <li>Use sentence (upper and lower) case</li>
-                <li>Use white space carefully around typography.</li>
-            </ul>
+            <ol>
+                <li>range text left</li>
+                <li>use sentence (upper and lower) case</li>
+                <li>use white space carefully around typography</li>
+            </ol>
         </div>
     </div>
 
@@ -34,7 +34,6 @@ breadcrumb: Typography
             <li><a href="#titles">Titles</a></li>
             <li><a href="#orphans">Orphans</a></li>
             <li><a href="#lists">Lists</a></li>
-            <li><a href="#hyphens-and-dashes">Hyphens and dashes</a></li>
             <li><a href="#code">Code</a></li>
         </ul>
     </nav>
@@ -43,12 +42,12 @@ breadcrumb: Typography
 
     <div class="row">
         <div class="column medium-7">
-            <p>It is important to have a typographic scale to create clear hierarchy and coherence for readers. By default we have a scale for larger and smaller devices. It is simple to add more breakpoints and sizes in the code to suit your user needs.</p>
+            <p>We have a typographic scale to create clear hierarchy and coherence for readers. We have a scale for larger and smaller devices, but you can add more breakpoints and sizes in the code to suit your user needs.</p>
             <blockquote>
                 <p>&ldquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and&nbsp;lost&rdquo;.</p>
                 <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
             </blockquote>
-            <p>All of our spacing between lines, paragraphs and headings is derived from multiples of 8px. That is known as the <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements using regular values.</p>
+            <p>All of our spacing between lines, paragraphs and headings is derived from multiples of 8px. That is known as the <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements with consistency.</p>
         </div>
     </div>
 
@@ -71,8 +70,8 @@ breadcrumb: Typography
                     <tbody>
                         <tr class="tr-divider">
                             <th scope="row" class="td-half"><h1 class="h-mega baseline-h-mega">Heading mega</h1></th>
-                            <td><p>52px</p></td>
-                            <td><p>46px</p></td>
+                            <td><p>60px</p></td>
+                            <td><p>36px</p></td>
                             <td><p>Demi Bold</p></td>
                         </tr>
                         <tr class="tr-divider">
@@ -143,12 +142,12 @@ breadcrumb: Typography
 
     <div class="row">
         <div class="column medium-7">
-            <p>The measure is the number of characters in a single line of a column of text.</p>
+            <p>'The measure', is the number of characters in a single line of a column of text.</p>
             <blockquote>
                 <p>&ldquo;Anything from 45 to 75 characters is widely regarded as a satisfactory length of line for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters&rdquo;.</p>
                 <cite>The Elements of Typographic Style Applied to the Web - <a href="http://webtypography.net/2.1.2">2.1.2 Choose a comfortable&nbsp;measure</a></cite>
             </blockquote>
-            <p>Text in the recommended scale run over no more than 7 columns of <a href="/front-end-elements/grid.html">our grid</a> (on desktop). When working with columns run over no more than 4/5. It is more comfortable for people reading on screen as eye movement is kept to a minimum. A good tool to help you test your measure is the <a href="https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd">Google Chrome extension 45 to 75</a>.</p>
+            <p>Text in the recommended scale run over no more than 7 columns of <a href="/patterns/grid.html">our grid</a> (on desktop). When you work with columns, do not run over more than 4 or 5 - it's more comfortable for people reading on screen as eye movement is kept to a minimum. A good tool to help you test your measure is the <a href="https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd">Google Chrome extension 45 to 75</a>.</p>
         </div>
     </div>
 
@@ -217,17 +216,7 @@ breadcrumb: Typography
 
     <div class="row">
         <div class="column medium-7">
-            <h3>Titles should:</h3>
-            <ul>
-                <li>be sentence case</li>
-                <li>be less than 65 characters - Google cuts them off after this</li>
-                <li>be unique, clear and descriptive, no puns or single topic words</li>
-                <li>be front-loaded with key words if possible - people tend to scan the first couple of words only</li>
-                <li>use words you know your users actually search for</li>
-                <li>be active where possible, ‘Apply for&hellip;’, ‘Report&hellip;’, ‘Find&hellip;’</li>
-                <li>not have a full stop at the end</li>
-                <li>not use acronyms unless they are well-known, like EU, BBC</li>
-            </ul>
+            <p>Titles should always be title case and descriptive of the contents of the page - someone should be able to get an indication of whether the page is for them, by reading the title. <a href="/style-guide.html#titles">Find out more about how to write titles</a>.</p>
         </div>
     </div>
 
@@ -237,7 +226,7 @@ breadcrumb: Typography
 
     <div class="row">
         <div class="column medium-7">
-            <p>One word, if left on the last line of a title or paragraph, is known as an 'orphan'. We recommend not having orphaned words in your service. It can be fixed by adding a non-breaking space (<code>&#x26;nbsp;</code>) between the final 2&nbsp;words. </p>
+            <p>One word, if left on the last line of a title or paragraph, is known as an 'orphan'. Try to avoid orphaned words in your service. It can be fixed by adding a non-breaking space (<code>&#x26;nbsp;</code>) between the final 2&nbsp;words. </p>
         </div>
     </div>
 
@@ -261,21 +250,7 @@ breadcrumb: Typography
 
     <div class="row">
         <div class="column large-7">
-            <h3>Bullets should always:</h3>
-            <ul>
-                <li>use a lead-in line</li>
-                <li>make sense running on from the lead-in line</li>
-                <li>use lower case at the start of the bullet</li>
-                <li>have only one sentence per bullet point - use commas, dashes or semicolons to expand on an item</li>
-                <li>have more than 2 items</li>
-                <li>appear within the text and not as the whole bullet</li>
-            </ul>
-            <h3>Bullets should not:</h3>
-            <ul>
-                <li>be paragraphs masquerading as a list for a visual effect</li>
-                <li>take a full stop after the last bullet point</li>
-                <li>include ‘or’, ‘and’ after the bullets</li>
-            </ul>
+            <p>Lists are an effective way of breaking up content — they make it easier for users to scan and find information. Use bullet points to break up a list of items, or a numbered list to indicate a logical sequence. <a href="style-guide.html#lists">Find out how to write and structure lists</a>.</p>
         </div>
     </div>
 
@@ -297,7 +272,7 @@ breadcrumb: Typography
 
     <div class="row">
         <div class="column large-7">
-            <p>Numbers should only for a logical sequence of things, like a series of tasks that must be done in a certain order. Apart from this, same rules for bullet lists apply. For example:</p>
+            <p>Numbers should only for a logical sequence of things, like a series of tasks that must be done in a certain order. They do not necessarily need a lead-in line and should be complete sentences that start with a capital letter and end with a full stop.</p>
         </div>
     </div>
 
@@ -307,9 +282,9 @@ breadcrumb: Typography
             <div class="example example--padded">
                 <h4>How to put your shoes on:</h4>
                 <ol>
-                    <li>put on socks</li>
-                    <li>put on shoes</li>
-                    <li>tie laces</li>
+                    <li>Put on socks</li>
+                    <li>Put on shoes</li>
+                    <li>Tie laces</li>
                 </ol>
             </div>
         </div>
@@ -321,7 +296,7 @@ breadcrumb: Typography
 
     <div class="row">
         <div class="column medium-7">
-            <p>When you type " on your computer it is not a true quotation mark. True quotes are called smart quotes and the right one must be used according to whether you are opening (<code>&#x26;ldquo;</code>) or closing (<code>&#x26;rdquo;</code>) a quotation.</p>
+            <p>When you type " on your computer it is not a true quotation mark. True quotes are called smart quotes and the right one must be used according to whether you are opening (<code>&#x26;ldquo;</code>) or closing (<code>&#x26;rdquo;</code>) a quotation. <a href="http://htmlarrows.com/punctuation/">Find out about HTML character codes here</a>.</p>
         </div>
     </div>
 
@@ -351,18 +326,6 @@ breadcrumb: Typography
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
-    <h2 id="hyphens-and-dashes">Hyphens and dashes</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p><span class="bold">Hyphens</span> (the character you get when you type - ) is a punctuation mark and should be used to hyphenate words in justified type. It can also be used in compound modifiers such as &ldquo;fine-tuned&rdquo;.</p>
-            <p><span class="bold">En dashes (<code>&#x26;ndash;</code>)</span> should be used for connecting things that are related to each other by distance such as June&ndash;July</p>
-            <p><span class="bold">Em dashes (<code>&#x26;mdash;</code>)</span> can be used in pairs like parentheses—that is, to enclose a word, or a phrase &mdash; or they can be used alone to detach one end of a sentence from the main body.</p>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
     <h2 id="code">Code</h2>
 
     <div class="row">
@@ -371,6 +334,6 @@ breadcrumb: Typography
         </div>
     </div>
 
-    <!-- <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a> -->
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
 </div>
