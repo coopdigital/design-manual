@@ -313,7 +313,7 @@
   &:before {
     position: absolute;
     top: 0;
-    left: 420px;
+    left: 580px;
     display: block;
     font-family: $regular;
     padding: 2px;
@@ -447,7 +447,7 @@
 // }
 
 .td-half {
-  width: 50%;
+  width: 55%;
 }
 
 .border-bottom {
@@ -459,4 +459,8 @@
   td {
     font-size: 1.25em;
   }
+}
+
+.no-underline {
+    border-bottom: 0;
 }

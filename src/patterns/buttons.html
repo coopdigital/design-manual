@@ -21,7 +21,7 @@ id: buttons
 
     <div class="row">
         <div class="column large-7">
-            <p>A link should be descriptive of the place it's taking the user. Do not use text such as ‘click here’, or anything that does not make sense when read out of context — screen readers can read link text in isolation without the surrounding content. <a href="/style-guide.html#links">Find out how we write link text</a>.</p>
+            <p>A link should be descriptive of the place it's taking the user. Do not use text such as &lsquo;click here&rsquo;, or anything that does not make sense when read out of context — screen readers can read link text in isolation without the surrounding content. <a href="/style-guide.html#links">Find out how we write link text</a>.</p>
         </div>
     </div>
 
@@ -47,7 +47,7 @@ id: buttons
             <h3 class="example-heading"><span class="example_label">Example</span> Download links</h3>
             <div class="example example--padded">
                 <div class="margin-bq">
-                    <p><a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-download"></span> Download your will PDF (5mb)</a></p>
+                    <p><a href="#">Download your will PDF (5mb)</a></p>
                 </div>
             </div>
         </div>
@@ -73,20 +73,17 @@ id: buttons
     <h2 id="standard-buttons">Buttons</h2>
 
     <div class="row">
-        <div class="column large-8 small-12">
-
+        <div class="column large-7 small-12">
             <p>Buttons must use:</p>
             <ul>
                 <li>Avenir Next Medium at 20px (1em)</li>
                 <li>a 3px border radius</li>
-                <li>15px 37.5px padding</li>
+                <li>15px 37.5px padding (as calculated by the browser because we <a href="https://css-tricks.com/why-ems/">size with&nbsp;em</a>)</li>
                 <li>a box-shadow</li>
                 <li>a lightened background colour on hover (see the <a href="/patterns/colours.html#button-colours">colours page</a>)</li>
                 <li>a 4px blue outline on focus and active</li>
             </ul>
-            <p>For desktop and tablet formats, button width should be defined by the content on the button.</p>
-            <p>Buttons should also be ranged left with the left edge aligning with other content.</p>
-
+            <p>Button width should be defined by the content on the button. Buttons should also be ranged left with the left edge aligning with other content.</p>
         </div>
     </div>
 
@@ -114,15 +111,11 @@ id: buttons
         <div class="column medium-6">
             <h3 class="example-heading"><span class="example_label">Example</span> Form</h3>
             <div class="example example--padded">
-                <h2>Send a message</h2>
                 <form>
-                    <label for="message">Your message</label>
-                    <textarea id="message" cols="30" rows="4" class="margin-bh"></textarea>
+                    <label for="feedback">Tell us what you liked or what we can improve</label>
+                    <textarea id="feedback" cols="30" rows="4" class="margin-bq"></textarea>
                     <div class="margin-bq">
-                    <button class="btn btn-primary margin-rq">Send your message</button> <!--  <button class="btn btn-secondary">Save draft</button> -->
-                    </div>
-                    <div class="margin-bh">
-                        <p><a href="#" class="link-icon-left"><span aria-hidden="true" class="icon icon-back-arrow"></span> Back</a></p>
+                        <button class="btn btn-primary margin-rq">Send feedback</button>
                     </div>
                 </form>
             </div>
@@ -141,30 +134,6 @@ id: buttons
             <div class="example example--padded">
                 <div class="margin-bq">
                     <a href="/booking-form" class="btn btn-primary">Continue to booking</a>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn btn-primary">Send your message</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h3 id="disabled-buttons">Disabled buttons</h3>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example example--padded">
-                <div class="margin-bq">
-                    <button class="btn btn-primary" disabled>Disabled primary</button>
-                </div>
-                <div class="margin-bq">
-                    <button class="btn btn-primary-dark" disabled>Disabled primary</button>
-                </div>
-                <div class="margin-bb">
-                    <button class="btn btn-primary btn-loading" disabled>Saving</button>
                 </div>
             </div>
         </div>

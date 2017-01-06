@@ -11,30 +11,71 @@ id: forms
 
     <nav>
         <ul class="list-bare in-page-nav">
-            <li><a href="#names">Asking for names</a></li>
-            <li><a href="#checkboxes-and-radios">Radio buttons and checkboxes</a></li>
+            <li><a href="#element-styles">Element styles</a></li>
             <li><a href="#validation">Validation</a></li>
+            <li><a href="#names">Asking for names</a></li>
         </ul>
     </nav>
 
-    <h2 id="names">Asking for names</h2>
+    <h2 id="element-styles">Element styles</h2>
+
+    <h3>Text inputs</h3>
 
     <div class="row">
-        <div class="column large-6">
-            <p>Before you ask for someone’s name, make sure you know why it’s needed. Only ask for it, if it’s essential.</p>
-            <p> <a href="/style-guide.html#asking-for-names">Find out how we ask for someone’s name</a>.</p>
+        <div class="column medium-7 small-12">
+            <p>Text inputs must use:</p>
+            <ul>
+                <li>Avenir Next Regular</li>
+                <li>a 1px border in #6e6e6e changing to #00a1cc on focus</li>
+                <li>12px 8px padding</li>
+            </ul>
+            <p>The width of text inputs must be appropriate for the width of the information that the user will need to enter.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6 small-12">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example example--padded">
+                <label for="name">Your full name</label>
+                <input type="text" id="name">
+            </div>
         </div>
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
-    <h2 id="checkboxes-and-radios">Radio buttons and checkboxes</h2>
+    <h3>Text areas</h3>
+
+    <div class="row">
+        <div class="column medium-7 small-12">
+            <p>Text areas must use:</p>
+            <ul>
+                <li>Avenir Next Regular</li>
+                <li>a 1px border in #6e6e6e changing to #00a1cc on focus</li>
+                <li>12px 8px padding</li>
+            </ul>
+            <p>The height of text areas must be appropriate for the amount of the information that the user will need to enter. The re-size control on the bottom right must be draggable to allow for more content than the height&nbsp;allows.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6 small-12">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example example--padded">
+                <label for="feedback">Tell us what you liked or what we can improve</label>
+                <textarea id="feedback" cols="30" rows="4"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
     <h3>Radio buttons</h3>
 
     <div class="row">
         <div class="column large-7">
-            <p>Wrap sets of radio buttons in a fieldset. The <code>legend</code> element must carry the label for the set of buttons. This allows screen readers users to associate the question with the answers.  </p>
+            <p>Wrap sets of radio buttons in a fieldset. The legend element must carry the label for the set of buttons. This allows screen readers users to associate the question with the answers.  </p>
         </div>
     </div>
 
@@ -109,6 +150,46 @@ id: forms
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
 
+    <h3>Select menus</h3>
+
+    <div class="row">
+        <div class="column medium-7 small-12">
+            <p>We do not recommend <a href="http://www.formisimo.com/blog/why-are-drop-downs-and-select-boxes-bad-for-forms/">the use of select menus</a>. If you feel you must use one please contact <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>.</p>
+            <p>Select menus must use:</p>
+            <ul>
+                <li>Avenir Next Regular</li>
+                <li>a 1px border in #6e6e6e changing to #00a1cc on focus</li>
+                <li>12px 8px padding</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6 small-12">
+            <h3 class="example-heading"><span class="example_label">Example</span></h3>
+            <div class="example example--padded">
+                <label for="month">Tell us the month you were born</label>
+                <select id="month">
+                    <option>Select a month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
     <h2 id="validation">Validation</h2>
 
     <div class="row">
@@ -130,7 +211,17 @@ id: forms
                 </div>
             </div>
         </div>
+    </div>
 
+    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+
+    <h2 id="names">Asking for names</h2>
+
+    <div class="row">
+        <div class="column large-6">
+            <p>Before you ask for someone’s name, make sure you know why it’s needed. Only ask for it, if it’s essential.</p>
+            <p> <a href="/style-guide.html#asking-for-names">Find out how we ask for someone’s name</a>.</p>
+        </div>
     </div>
 
     <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
