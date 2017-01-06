@@ -159,13 +159,6 @@
   @extend .icon-close;
 }
 
-.content-wrapper {
-  padding-left: 0;
-  @include media(medium) {
-    padding-left: $half-spacing-unit;
-  }
-}
-
 // Sidebar
 
 .side-nav {
