@@ -1,6 +1,14 @@
 {
-  "name": "single-site-styleguide",
+  "name": "design-manual",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/design-manual.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/design-manual/issues"
+  },
+  "homepage": "https://github.com/coopdigital/design-manual#readme",
   "dependencies": {
     "coop-frontend-toolkit": "git+https://f3d43faa6796617a649d989f03d2318ed1018cae:x-oauth-basic@github.com/coopdigital/coop-frontend-toolkit#40-forms",
     "gulp": "^3.9.1",
