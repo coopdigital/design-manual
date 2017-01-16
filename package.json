@@ -1,5 +1,6 @@
 {
   "name": "single-site-styleguide",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "coop-frontend-toolkit": "git+https://f3d43faa6796617a649d989f03d2318ed1018cae:x-oauth-basic@github.com/coopdigital/coop-frontend-toolkit#1.1.3",
