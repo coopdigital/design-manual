@@ -4,210 +4,182 @@ id: forms
 ---
 
 <article class="wrap">
-
     {% include breadcrumbs.html %}
-
-    <h1>Forms</h1>
-
-    <nav>
-        <ul class="list-bare in-page-nav">
-            <li><a href="#element-styles">Element styles</a></li>
-            <li><a href="#validation">Validation</a></li>
-            <li><a href="#names">Asking for names</a></li>
-        </ul>
-    </nav>
-
-    <h2 id="element-styles">Element styles</h2>
-
-    <h3>Text inputs</h3>
-
-    <div class="row">
-        <div class="column medium-7 small-12">
-            <p>Text inputs must use:</p>
-            <ul>
-                <li>Avenir Next Regular</li>
-                <li>a 1px border in #6e6e6e changing to #00a1cc on focus</li>
-                <li>12px 8px padding</li>
+    <header>
+        <h1>Forms</h1>
+        <nav>
+            <ul class="list-bare in-page-nav">
+                <li><a href="#element-styles">Element styles</a></li>
+                <li><a href="#validation">Validation</a></li>
+                <li><a href="#names">Asking for names</a></li>
             </ul>
-            <p>The width of text inputs must be appropriate for the width of the information that the user will need to enter.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6 small-12">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example example--padded">
-                <label for="name">Your full name</label>
-                <input type="text" id="name">
+        </nav>
+    </header>
+    <section id="element-styles">
+        <h2>Element styles</h2>
+        <h3>Text inputs</h3>
+        <div class="row">
+            <div class="column medium-7 small-12">
+                <p>Text inputs must use:</p>
+                <ul>
+                    <li>Avenir Next Regular</li>
+                    <li>a 1px border in #6e6e6e changing to #00a1cc on focus</li>
+                    <li>12px 8px padding</li>
+                </ul>
+                <p>The width of text inputs must be appropriate for the width of the information that the user will need to enter.</p>
             </div>
         </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h3>Text areas</h3>
-
-    <div class="row">
-        <div class="column medium-7 small-12">
-            <p>Text areas must use:</p>
-            <ul>
-                <li>Avenir Next Regular</li>
-                <li>a 1px border in #6e6e6e changing to #00a1cc on focus</li>
-                <li>12px 8px padding</li>
-            </ul>
-            <p>The height of text areas must be appropriate for the amount of the information that the user will need to enter. The re-size control on the bottom right must be draggable to allow for more content than the height&nbsp;allows.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6 small-12">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example example--padded">
-                <label for="feedback">Tell us what you liked or what we can improve</label>
-                <textarea id="feedback" cols="30" rows="4"></textarea>
-            </div>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h3>Radio buttons</h3>
-
-    <div class="row">
-        <div class="column large-7">
-            <p>Wrap sets of radio buttons in a fieldset. The legend element must carry the label for the set of buttons. This allows screen readers users to associate the question with the answers.  </p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example example--padded">
-                <form>
-                    <fieldset>
-                        <legend>What kind of will would you like?</legend>
-
-                        <label class="block-label">
-                            <input data-show data-target="#mirror-will-details" type="radio" value="mirror" name="will-types">Mirror wills
-                        </label>
-
-                        <div id="mirror-will-details" class="indented" aria-hidden="true" hidden="hidden">
-                          <p>Fill in this form based on decisions you and the other person have agreed.</p>
-                          <p>If you’re not sure, or need to speak to them first, leave the questions
-                          blank and we’ll go through them when we call.</p>
-                        </div>
-
-                        <label class="block-label">
-                            <input data-show type="radio" value="single" name="will-types">Single will
-                        </label>
-
-                        <label class="block-label">
-                            <input data-show type="radio" value="not sure" name="will-types">You're not sure
-                        </label>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h3>Checkboxes</h3>
-
-    <div class="row">
-        <div class="column large-7">
-            <p>If checkboxes are grouped, the set must be wrapped in a <code>fieldset</code> element. The <code>legend</code> element must carry the title for the group of checkboxes.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example example--padded">
-                <fieldset>
-                    <legend>Do you own:</legend>
-                    <label class="block-label">
-                        <input type="checkbox" value="1" name="client[owns_a_business]">a business
-                    </label>
-                    <label class="block-label">
-                        <input type="checkbox" value="1" name="client[owns_agricultural_property]">agricultural property
-                    </label>
-                    <label class="block-label">
-                        <input type="checkbox" value="1" name="client[owns_foreign_property]">foreign property
-                    </label>
-                    <label class="block-label">
-                        <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]">trademarks or patents
-                    </label>
-                    <p class="or">or</p>
-                    <label class="block-label">
-                        <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
-                    </label>
-                </fieldset>
-            </div>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h3>Selects</h3>
-
-    <div class="row">
-        <div class="column medium-7 small-12">
-            <p>Selects - also known as drop-down lists - should be avoided in most cases.</p>
-            <p>Selects can be a problem for users because they:</p>
-            <ul>
-                <li>hide content from the user and can slow users down</li>
-                <li>can be harder for some users to manipulate</li>
-                <li>are less accessible than alternative form controls</li>
-            </ul>
-            <p>Alternatives to using a Select:</p>
-            <ul>
-                <li>check boxes work well for shorter lists, such as titles (Mr, Mrs etc.)</li>
-                <li>type ahead, such as Baymard's Country Selector, can help on longer lists such as country and county lists, and do the hard work to support common synonyms e.g Eire, Republic of Ireland; London, Greater London.</li>
-                <li>free text fields are often the best option when the content isn’t being used programmatically</li>
-            </ul>
-            <p>Our recommendation on Selects is based on prior work done in this area by the <a href="https://www.nngroup.com/articles/drop-down-menus-use-sparingly/">Nielsen Norman Group</a> and <a href="https://designpatterns.hackpad.com/Select-boxes-KzQ1IRd07HL">Government Digital Service</a>.</p>
-            <p>Related: <a href="http://baymard.com/labs/country-selector">Redesigning the Country Selector - Labs - Baymard Institute</a>.</p>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="validation">Validation</h2>
-
-    <div class="row">
-        <div class="column large-7">
-            <p>We should let the user fill in form fields in a way that's most natural to them. So, for example, allow them to enter a postcode with or without a space.</p>
-            <p>When you do need to write validation messages, they should help the user fix the problem. They should be clear and unambiguous.
-            <p><a href="/style-guide.html#validation-messages">How we write validation messages</a>.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example example--padded">
-                <div class="form-row">
-                    <label for="email">Your email address <span class="label__hint">We'll only use this to contact you about your will.</span></label>
-                    <input type="text" id="email" class="invalid">
-                    <p class="form-error">Enter an email address</p>
+        <div class="row">
+            <div class="column medium-6 small-12">
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <div class="example example--padded">
+                    <label for="name">Your full name</label>
+                    <input type="text" id="name">
                 </div>
             </div>
         </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="names">Asking for names</h2>
-
-    <div class="row">
-        <div class="column large-6">
-            <p>Before you ask for someone’s name, make sure you know why it’s needed. Only ask for it, if it’s essential.</p>
-            <p> <a href="/style-guide.html#asking-for-names">How we ask for someone’s name</a>.</p>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        <h3>Text areas</h3>
+        <div class="row">
+            <div class="column medium-7 small-12">
+                <p>Text areas must use:</p>
+                <ul>
+                    <li>Avenir Next Regular</li>
+                    <li>a 1px border in #6e6e6e changing to #00a1cc on focus</li>
+                    <li>12px 8px padding</li>
+                </ul>
+                <p>The height of text areas must be appropriate for the amount of the information that the user will need to enter. The re-size control on the bottom right must be draggable to allow for more content than the height&nbsp;allows.</p>
+            </div>
         </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
+        <div class="row">
+            <div class="column medium-6 small-12">
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <div class="example example--padded">
+                    <label for="feedback">Tell us what you liked or what we can improve</label>
+                    <textarea id="feedback" cols="30" rows="4"></textarea>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        <h3>Radio buttons</h3>
+        <div class="row">
+            <div class="column large-7">
+                <p>Wrap sets of radio buttons in a fieldset. The legend element must carry the label for the set of buttons. This allows screen readers users to associate the question with the answers.  </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column medium-6">
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <div class="example example--padded">
+                    <form>
+                        <fieldset>
+                            <legend>What kind of will would you like?</legend>
+                            <label class="block-label">
+                                <input data-show data-target="#mirror-will-details" type="radio" value="mirror" name="will-types">Mirror wills
+                            </label>
+                            <div id="mirror-will-details" class="indented" aria-hidden="true" hidden="hidden">
+                              <p>Fill in this form based on decisions you and the other person have agreed.</p>
+                              <p>If you’re not sure, or need to speak to them first, leave the questions
+                              blank and we’ll go through them when we call.</p>
+                            </div>
+                            <label class="block-label">
+                                <input data-show type="radio" value="single" name="will-types">Single will
+                            </label>
+                            <label class="block-label">
+                                <input data-show type="radio" value="not sure" name="will-types">You're not sure
+                            </label>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        <h3>Checkboxes</h3>
+        <div class="row">
+            <div class="column large-7">
+                <p>If checkboxes are grouped, the set must be wrapped in a <code>fieldset</code> element. The <code>legend</code> element must carry the title for the group of checkboxes.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column medium-6">
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <div class="example example--padded">
+                    <fieldset>
+                        <legend>Do you own:</legend>
+                        <label class="block-label">
+                            <input type="checkbox" value="1" name="client[owns_a_business]">a business
+                        </label>
+                        <label class="block-label">
+                            <input type="checkbox" value="1" name="client[owns_agricultural_property]">agricultural property
+                        </label>
+                        <label class="block-label">
+                            <input type="checkbox" value="1" name="client[owns_foreign_property]">foreign property
+                        </label>
+                        <label class="block-label">
+                            <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]">trademarks or patents
+                        </label>
+                        <p class="or">or</p>
+                        <label class="block-label">
+                            <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
+                        </label>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        <h3>Selects</h3>
+        <div class="row">
+            <div class="column medium-7 small-12">
+                <p>Selects - also known as drop-down lists - should be avoided in most cases.</p>
+                <p>Selects can be a problem for users because they:</p>
+                <ul>
+                    <li>hide content from the user and can slow users down</li>
+                    <li>can be harder for some users to manipulate</li>
+                    <li>are less accessible than alternative form controls</li>
+                </ul>
+                <p>Alternatives to using a Select:</p>
+                <ul>
+                    <li>check boxes work well for shorter lists, such as titles (Mr, Mrs etc.)</li>
+                    <li>type ahead, such as Baymard's Country Selector, can help on longer lists such as country and county lists, and do the hard work to support common synonyms e.g Eire, Republic of Ireland; London, Greater London.</li>
+                    <li>free text fields are often the best option when the content isn’t being used programmatically</li>
+                </ul>
+                <p>Our recommendation on Selects is based on prior work done in this area by the <a href="https://www.nngroup.com/articles/drop-down-menus-use-sparingly/">Nielsen Norman Group</a> and <a href="https://designpatterns.hackpad.com/Select-boxes-KzQ1IRd07HL">Government Digital Service</a>.</p>
+                <p>Related: <a href="http://baymard.com/labs/country-selector">Redesigning the Country Selector - Labs - Baymard Institute</a>.</p>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="validation">
+        <h2>Validation</h2>
+        <div class="row">
+            <div class="column large-7">
+                <p>We should let the user fill in form fields in a way that's most natural to them. So, for example, allow them to enter a postcode with or without a space.</p>
+                <p>When you do need to write validation messages, they should help the user fix the problem. They should be clear and unambiguous.
+                <p><a href="/style-guide.html#validation-messages">How we write validation messages</a>.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column medium-6">
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <div class="example example--padded">
+                    <div class="form-row">
+                        <label for="email">Your email address <span class="label__hint">We'll only use this to contact you about your will.</span></label>
+                        <input type="text" id="email" class="invalid">
+                        <p class="form-error">Enter an email address</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="names">
+        <h2>Asking for names</h2>
+        <div class="row">
+            <div class="column large-6">
+                <p>Before you ask for someone’s name, make sure you know why it’s needed. Only ask for it, if it’s essential.</p>
+                <p> <a href="/style-guide.html#asking-for-names">How we ask for someone’s name</a>.</p>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
 </article>

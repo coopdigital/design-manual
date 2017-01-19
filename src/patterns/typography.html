@@ -5,304 +5,279 @@ breadcrumb: Typography
 ---
 
 <article class="wrap">
-
     {% include breadcrumbs.html %}
-
-    <h1>Typography</h1>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>We use Avenir Next in regular, medium and demi bold weights. Its characteristic clear, open letterforms and letter spacing help communicate a consistent Co-op brand identity.</p>
-            <p>If you need the Avenir font contact <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>.</p>
+    <header>
+        <div class="row">
+            <div class="column medium-7">
+                <h1>Typography</h1>
+                <p>We use Avenir Next in regular, medium and demi bold weights. Its characteristic clear, open letterforms and letter spacing help communicate a consistent Co-op brand identity.</p>
+                <p>If you need the Avenir font contact <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>.</p>
+            </div>
         </div>
-    </div>
-
-    <nav>
-        <ul class="list-bare in-page-nav">
-            <li><a href="#type-setting-basics">Typesetting basics</a></li>
-            <li><a href="#typographic-scale">Typographic scale</a></li>
-            <li><a href="#horizontal-space">Horizontal space</a></li>
-            <li><a href="#vertical-space">Vertical space</a></li>
-            <li><a href="#quotations">Quotations</a></li>
-            <li><a href="#titles">Titles</a></li>
-            <li><a href="#orphans">Orphans</a></li>
-            <li><a href="#lists">Lists</a></li>
-            <li><a href="#horizontal-rules">Horizontal rules</a></li>
-            <li><a href="#code">Code</a></li>
-        </ul>
-    </nav>
-
-    <h2 id="type-setting-basics">Typesetting basics</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>To make digital content accessible and easy to read:</p>
-            <ul>
-                <li>range text left</li>
-                <li>use sentence case</li>
-                <li>use white space carefully around typography</li>
+        <nav>
+            <ul class="list-bare in-page-nav">
+                <li><a href="#type-setting-basics">Typesetting basics</a></li>
+                <li><a href="#typographic-scale">Typographic scale</a></li>
+                <li><a href="#horizontal-space">Horizontal space</a></li>
+                <li><a href="#vertical-space">Vertical space</a></li>
+                <li><a href="#quotations">Quotations</a></li>
+                <li><a href="#titles">Titles</a></li>
+                <li><a href="#orphans">Orphans</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#horizontal-rules">Horizontal rules</a></li>
+                <li><a href="#code">Code</a></li>
             </ul>
-        </div>
-    </div>
-
-    <h2 id="typographic-scale">Typographic scale</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>We have a typographic scale to create clear structure and coherence for readers. We have a recommended scale for larger and smaller devices, but you can add more breakpoints and sizes in the code to suit your user needs.</p>
-            <blockquote>
-                <p>&lsquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost.&rsquo;</p>
-                <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
-            </blockquote>
-            <p>All of our spacing between lines, paragraphs and headings is in multiples of 8px. That is known as the <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements consistently.</p>
-            <p>The example below shows the line height and margin values above 768px. 768px and below these values are divided by 2.</p>
-        </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Default typographic scale</h3>
-
-    <div class="example example--padded">
-
-    <div class="row">
-        <div class="small-12 medium-12 column">
-            <div class="table-overflow-x">
-                <table class="unstyled-table type-sizes">
-                    <thead>
-                        <tr class="tight--divider">
-                            <th scope="col" class="td-half">Heading, typeface, line height and margins</th>
-                            <th scope="col">font size to use above 768px viewport</th>
-                            <th scope="col">font size to use below 768px viewport</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="tr-divider">
-                            <th scope="row" class="td-half"><h1 class="h-mega baseline-h-mega">H Mega - Demi Bold</h1></th>
-                            <td><p>60px</p></td>
-                            <td><p>36px</p></td>
-                        </tr>
-                        <tr class="tr-divider">
-                            <th scope="row" class="td-half"><h1 class="baseline-h1">H1 - Demi Bold</h1></th>
-                            <td><p>46px</p></td>
-                            <td><p>30px</p></td>
-                        </tr>
-                        <tr class="tr-divider">
-                            <th scope="row" class="td-half"><h2 class="baseline-h2">H2 - Demi Bold</h2></th>
-                            <td><p>26px</p></td>
-                            <td><p>22px</p></td>
-                        </tr>
-                        <tr class="tr-divider">
-                            <th scope="row" class="td-half"><h3 class="baseline-h345">H3 - Demi Bold</h3></th>
-                            <td><p>22px</p></td>
-                            <td><p>20px</p></td>
-                        </tr>
-                        <tr class="tr-divider">
-                            <th scope="row" class="td-half"><h4 class="baseline-h345">H4 - Demi Bold</h4></th>
-                            <td><p>22px</p></td>
-                            <td><p>20px</p></td>
-                        </tr>
-                        <tr class="tr-divider">
-                            <th scope="row" class="td-half"><h5 class="baseline-h345">H5 - Demi Bold</h5></th>
-                            <td><p>22px</p></td>
-                            <td><p>20px</p></td>
-                        </tr>
-                        <tr class="tr-divider">
-                            <th scope="row" class="td-half"><h6 class="baseline-h6">H6 - Demi Bold</h6></th>
-                            <td><p>16px</p></td>
-                            <td><p>13px</p></td>
-                        </tr>
-                        <tr class="tr-divider">
-                            <th scope="row" class="td-half"><p class="intro-text baseline-h2">Intro Para - Regular</p></th>
-                            <td><p>26px</p></td>
-                            <td><p>22px</p></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" class="td-half"><p class="baseline-p">Paragraph - Regular</p></th>
-                            <td><p>20px</p></td>
-                            <td><p>16px</p></td>
-                        </tr>
-                    </tbody>
-                </table>
+        </nav>
+    </header>
+    <section id="type-setting-basics">
+        <h2>Typesetting basics</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>To make digital content accessible and easy to read:</p>
+                <ul>
+                    <li>range text left</li>
+                    <li>use sentence case</li>
+                    <li>use white space carefully around typography</li>
+                </ul>
             </div>
         </div>
-    </div>
-
-    </div>
-
-
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="horizontal-space">Horizontal space</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>&lsquo;The measure&rsquo; is the number of characters in a single line of a column of text.</p>
-            <blockquote>
-                <p>&lsquo;Anything from 45 to 75 characters is widely regarded as a satisfactory length of line for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters.&rsquo;</p>
-                <cite>The Elements of Typographic Style Applied to the Web - <a href="http://webtypography.net/2.1.2">2.1.2 Choose a comfortable&nbsp;measure</a></cite>
-            </blockquote>
-            <p>Text shouldn't run over more than about 7 columns in <a href="/patterns/grid.html">our grid</a> (on large devices). It's more comfortable for people reading on screen as eye movement is kept to a minimum. A good tool to help you test your measure is the <a href="https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd">Google Chrome extension 45 to 75</a>.</p>
-        </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> 45 to 75 characters over 7 grid columns</h3>
-
-    <div class="example">
-        <div class="example-grid-wrap">
-            <div class="row example-grid">
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-                <div class="column all-1"><span></span></div>
-            </div>
-
-            <div class="row baseline">
-                <div class="column medium-7">
-                    <h1>What is a Co-operative?</h1>
-                    <p>A co-operative (co-op) is a different kind of business. Its owners, members – have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is ‘one member, one vote’.</p>
-                    <p>Profits mean members receive money, rewards and offers and a co-op can support its local&nbsp;community.</p>
-                </div>
+    </section>
+    <section id="typographic-scale">
+        <h2>Typographic scale</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>We have a typographic scale to create clear structure and coherence for readers. We have a recommended scale for larger and smaller devices, but you can add more breakpoints and sizes in the code to suit your user needs.</p>
+                <blockquote>
+                    <p>&lsquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost.&rsquo;</p>
+                    <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
+                </blockquote>
+                <p>All of our spacing between lines, paragraphs and headings is in multiples of 8px. That is known as the <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements consistently.</p>
+                <p>The example below shows the line height and margin values above 768px. 768px and below these values are divided by 2.</p>
             </div>
         </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="vertical-space">Vertical space</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>All of our spacing is derived from multiples of 8px. This is our <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements using these values.</p>
-            <blockquote>
-                <p>&ldquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost.&rdquo;</p>
-                <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
-            </blockquote>
-            <p>Our base font size 20px is set on a 32px linespacing (the height of the line that the text sits on) — 8 x 4 = 32.</p>
-            <p>You can create your own scale in your custom stylesheet by overriding the values <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/styles/_variables.scss">in our scale varibles in the Toolkit</a>. But, you must have a good reason to do this and compose it to a well thought-out scale.</p>
-        </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Text set on the baseline grid</h3>
-    <div class="example">
-        <div class="example-grid-wrap">
-            <div class="example-baseline"></div>
+        <h3 class="example-heading"><span class="example_label">Example</span> Default typographic scale</h3>
+        <div class="example example--padded">
             <div class="row">
-                <div class="column medium-8 small-12">
-                    <h1>What is a Co-operative?</h1>
-                    <p>A co-operative (co-op) is a different kind of business. Its owners, members – have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is ‘one member, one vote’.</p>
-                    <p>Profits mean members receive money, rewards and offers and a co-op can support its local&nbsp;community.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="titles">Titles</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>Titles should always be sentence case and descriptive of the contents of the page — someone should be able to get an indication of whether the page is for them by reading the title. <a href="/style-guide.html#titles">Find out how we write titles</a>.</p>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="orphans">Orphaned words</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>One word, if left on the last line of a title or paragraph, is known as an ‘orphan’. Avoid orphaned words. Fix them by adding a non-breaking space (<code>&#x26;nbsp;</code>) between the final 2&nbsp;words. </p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-7 small-12">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example example--padded">
-                <div class="row">
-                    <div class="column small-4">
-                        <h3>What is a design manual?</h3>
-                        <h3>What is a design&nbsp;manual?</h3>
+                <div class="small-12 medium-12 column">
+                    <div class="table-overflow-x">
+                        <table class="unstyled-table type-sizes">
+                            <thead>
+                                <tr class="tight--divider">
+                                    <th scope="col" class="td-half">Heading, typeface, line height and margins</th>
+                                    <th scope="col">font size to use above 768px viewport</th>
+                                    <th scope="col">font size to use below 768px viewport</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="tr-divider">
+                                    <th scope="row" class="td-half"><h1 class="h-mega baseline-h-mega">H Mega - Demi Bold</h1></th>
+                                    <td><p>60px</p></td>
+                                    <td><p>36px</p></td>
+                                </tr>
+                                <tr class="tr-divider">
+                                    <th scope="row" class="td-half"><h1 class="baseline-h1">H1 - Demi Bold</h1></th>
+                                    <td><p>46px</p></td>
+                                    <td><p>30px</p></td>
+                                </tr>
+                                <tr class="tr-divider">
+                                    <th scope="row" class="td-half"><h2 class="baseline-h2">H2 - Demi Bold</h2></th>
+                                    <td><p>26px</p></td>
+                                    <td><p>22px</p></td>
+                                </tr>
+                                <tr class="tr-divider">
+                                    <th scope="row" class="td-half"><h3 class="baseline-h345">H3 - Demi Bold</h3></th>
+                                    <td><p>22px</p></td>
+                                    <td><p>20px</p></td>
+                                </tr>
+                                <tr class="tr-divider">
+                                    <th scope="row" class="td-half"><h4 class="baseline-h345">H4 - Demi Bold</h4></th>
+                                    <td><p>22px</p></td>
+                                    <td><p>20px</p></td>
+                                </tr>
+                                <tr class="tr-divider">
+                                    <th scope="row" class="td-half"><h5 class="baseline-h345">H5 - Demi Bold</h5></th>
+                                    <td><p>22px</p></td>
+                                    <td><p>20px</p></td>
+                                </tr>
+                                <tr class="tr-divider">
+                                    <th scope="row" class="td-half"><h6 class="baseline-h6">H6 - Demi Bold</h6></th>
+                                    <td><p>16px</p></td>
+                                    <td><p>13px</p></td>
+                                </tr>
+                                <tr class="tr-divider">
+                                    <th scope="row" class="td-half"><p class="intro-text baseline-h2">Intro Para - Regular</p></th>
+                                    <td><p>26px</p></td>
+                                    <td><p>22px</p></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" class="td-half"><p class="baseline-p">Paragraph - Regular</p></th>
+                                    <td><p>20px</p></td>
+                                    <td><p>16px</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="lists">Lists</h2>
-
-    <div class="row">
-        <div class="column large-7">
-            <p>Lists are an effective way of breaking up content — they make it easier for users to scan and find information.</p>
-            <p>Use bullet points to break up a list of items, or a numbered list to indicate a logical sequence. <a href="/style-guide.html#lists">Find out how we write and structure lists</a>.</p>
-        </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="quotations">Quotations</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>When you type ' on your computer it is not a true quotation mark. True quotes are called smart quotes and the right one must be used according to whether you are opening (<code>&#x26;lsquo;</code>) or closing (<code>&#x26;rsquo;</code>) a quotation. <a href="http://htmlarrows.com/punctuation/">Find out about HTML character codes</a>.</p>
-        </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Quote: 20px (32px line spacing) in Avenir medium</h3>
-    <div class="row">
-        <div class="column medium-7 small-12">
-            <div class="example">
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="horizontal-space">
+        <h2>Horizontal space</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>&lsquo;The measure&rsquo; is the number of characters in a single line of a column of text.</p>
                 <blockquote>
-                    <p>&lsquo;Use hanging punctuation to style a quotation. A &ldquo;quote within a quote&rdquo; should use double quotation&nbsp;marks.&rsquo;</p>
-                    <cite>The Design Team</cite>
+                    <p>&lsquo;Anything from 45 to 75 characters is widely regarded as a satisfactory length of line for a single-column page set in a serifed text face in a text size. The 66-character line (counting both letters and spaces) is widely regarded as ideal. For multiple column work, a better average is 40 to 50 characters.&rsquo;</p>
+                    <cite>The Elements of Typographic Style Applied to the Web - <a href="http://webtypography.net/2.1.2">2.1.2 Choose a comfortable&nbsp;measure</a></cite>
                 </blockquote>
+                <p>Text shouldn't run over more than about 7 columns in <a href="/patterns/grid.html">our grid</a> (on large devices). It's more comfortable for people reading on screen as eye movement is kept to a minimum. A good tool to help you test your measure is the <a href="https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd">Google Chrome extension 45 to 75</a>.</p>
             </div>
         </div>
-    </div>
-
-    <h3 class="example-heading"><span class="example_label">Example</span> Quote: 26px (40px line spacing) Avenir medium</h3>
-    <div class="row">
-        <div class="column medium-7 small-12">
-            <div class="example">
-                <blockquote>
-                    <p class="beta">&lsquo;Or you can have a big&nbsp;one.&rsquo;</p>
-                    <cite>The Design Team</cite>
-                </blockquote>
+        <h3 class="example-heading"><span class="example_label">Example</span> 45 to 75 characters over 7 grid columns</h3>
+        <div class="example">
+            <div class="example-grid-wrap">
+                <div class="row example-grid">
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                    <div class="column all-1"><span></span></div>
+                </div>
+                <div class="row baseline">
+                    <div class="column medium-7">
+                        <h1>What is a Co-operative?</h1>
+                        <p>A co-operative (co-op) is a different kind of business. Its owners, members – have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is ‘one member, one vote’.</p>
+                        <p>Profits mean members receive money, rewards and offers and a co-op can support its local&nbsp;community.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="horizontal-rules">Horizontal rules</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>Horizontal rules can be used to separate areas of content. Use them sparingly. They must appear as solid grey #c4c4c4. Do not use dotted or dashed horizontal rules.</p>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="vertical-space">
+        <h2>Vertical space</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>All of our spacing is derived from multiples of 8px. This is our <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements using these values.</p>
+                <blockquote>
+                    <p>&ldquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost.&rdquo;</p>
+                    <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
+                </blockquote>
+                <p>Our base font size 20px is set on a 32px linespacing (the height of the line that the text sits on) — 8 x 4 = 32.</p>
+                <p>You can create your own scale in your custom stylesheet by overriding the values <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/styles/_variables.scss">in our scale varibles in the Toolkit</a>. But, you must have a good reason to do this and compose it to a well thought-out scale.</p>
+            </div>
         </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-    <h2 id="code">Code</h2>
-
-    <div class="row">
-        <div class="column medium-7">
-            <p>The typographic scale can be optimised for different device sizes. For more information see the <a href="https://github.com/coopdigital/coop-frontend-toolkit">Front-end Toolkit code</a>.</p>
+        <h3 class="example-heading"><span class="example_label">Example</span> Text set on the baseline grid</h3>
+        <div class="example">
+            <div class="example-grid-wrap">
+                <div class="example-baseline"></div>
+                <div class="row">
+                    <div class="column medium-8 small-12">
+                        <h1>What is a Co-operative?</h1>
+                        <p>A co-operative (co-op) is a different kind of business. Its owners, members – have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is ‘one member, one vote’.</p>
+                        <p>Profits mean members receive money, rewards and offers and a co-op can support its local&nbsp;community.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="titles">
+        <h2>Titles</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>Titles should always be sentence case and descriptive of the contents of the page — someone should be able to get an indication of whether the page is for them by reading the title. <a href="/style-guide.html#titles">Find out how we write titles</a>.</p>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="orphans">
+        <h2>Orphaned words</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>One word, if left on the last line of a title or paragraph, is known as an ‘orphan’. Avoid orphaned words. Fix them by adding a non-breaking space (<code>&#x26;nbsp;</code>) between the final 2&nbsp;words. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column medium-7 small-12">
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <div class="example example--padded">
+                    <div class="row">
+                        <div class="column small-4">
+                            <h3>What is a design manual?</h3>
+                            <h3>What is a design&nbsp;manual?</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="lists">
+        <h2>Lists</h2>
+        <div class="row">
+            <div class="column large-7">
+                <p>Lists are an effective way of breaking up content — they make it easier for users to scan and find information.</p>
+                <p>Use bullet points to break up a list of items, or a numbered list to indicate a logical sequence. <a href="/style-guide.html#lists">Find out how we write and structure lists</a>.</p>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="quotations">
+        <h2>Quotations</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>When you type ' on your computer it is not a true quotation mark. True quotes are called smart quotes and the right one must be used according to whether you are opening (<code>&#x26;lsquo;</code>) or closing (<code>&#x26;rsquo;</code>) a quotation. <a href="http://htmlarrows.com/punctuation/">Find out about HTML character codes</a>.</p>
+            </div>
+        </div>
+        <h3 class="example-heading"><span class="example_label">Example</span> Quote: 20px (32px line spacing) in Avenir medium</h3>
+        <div class="row">
+            <div class="column medium-7 small-12">
+                <div class="example">
+                    <blockquote>
+                        <p>&lsquo;Use hanging punctuation to style a quotation. A &ldquo;quote within a quote&rdquo; should use double quotation&nbsp;marks.&rsquo;</p>
+                        <cite>The Design Team</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <h3 class="example-heading"><span class="example_label">Example</span> Quote: 26px (40px line spacing) Avenir medium</h3>
+        <div class="row">
+            <div class="column medium-7 small-12">
+                <div class="example">
+                    <blockquote>
+                        <p class="beta">&lsquo;Or you can have a big&nbsp;one.&rsquo;</p>
+                        <cite>The Design Team</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="horizontal-rules">
+        <h2>Horizontal rules</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>Horizontal rules can be used to separate areas of content. Use them sparingly. They must appear as solid grey #c4c4c4. Do not use dotted or dashed horizontal rules.</p>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
+    <section id="code">
+        <h2>Code</h2>
+        <div class="row">
+            <div class="column medium-7">
+                <p>The typographic scale can be optimised for different device sizes. For more information see the <a href="https://github.com/coopdigital/coop-frontend-toolkit">Front-end Toolkit code</a>.</p>
+            </div>
+        </div>
+        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+    </section>
 </article>

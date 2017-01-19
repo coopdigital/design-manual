@@ -4,61 +4,52 @@ id: displaying-data
 ---
 
 <article class="wrap">
-
     {% include breadcrumbs.html %}
-
-    <h1>Displaying data</h1>
-
-    <!-- <nav>
-        <ul class="list-bare in-page-nav">
-            <li><a href="#tables">Tables</a></li>
-        </ul>
-    </nav> -->
-
-    <h2 id="tables">Tables</h2>
-
-    <div class="row">
-        <div class="column large-7">
-            <p>Tables should only be used for tabular data, and contain a <code>&lt;caption&gt;</code> element with a description of the table contents for assistive technologies. The <code>&lt;table&gt;</code> element should be wrapped in a <code>&lt;div&gt;</code> element with the class <code>table-overflow-x</code> to allow scrolling on smaller devices which may not be able to fit the table within the width of the viewport.</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example">
-                <div class="table-overflow-x">
-                    <table>
-                        <caption><span class="visuallyhidden">2 of the Rochdale Pioneers</span></caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">First name</th>
-                                <th scope="col">Last name</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>William</td>
-                                <td>Cooper</td>
-                            </tr>
-                            <tr>
-                                <td>Samuel</td>
-                                <td>Ashworth</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>First name</td>
-                                <td>Last name</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
+    <header>
+        <h1>Displaying data</h1>
+    </header>
+    <section id="tables">
+        <h2>Tables</h2>
+        <div class="row">
+            <div class="column large-7">
+                <p>Tables should only be used for tabular data, and contain a <code>&lt;caption&gt;</code> element with a description of the table contents for assistive technologies. The <code>&lt;table&gt;</code> element should be wrapped in a <code>&lt;div&gt;</code> element with the class <code>table-overflow-x</code> to allow scrolling on smaller devices which may not be able to fit the table within the width of the viewport.</p>
             </div>
         </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">
+        <div class="row">
+            <div class="column medium-6">
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <div class="example">
+                    <div class="table-overflow-x">
+                        <table>
+                            <caption><span class="visuallyhidden">2 of the Rochdale Pioneers</span></caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">First name</th>
+                                    <th scope="col">Last name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>William</td>
+                                    <td>Cooper</td>
+                                </tr>
+                                <tr>
+                                    <td>Samuel</td>
+                                    <td>Ashworth</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>First name</td>
+                                    <td>Last name</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="column medium-6">
+                <pre><code class="language-html">
 &#x3C;div class=&#x22;table-overflow-x&#x22;&#x3E;
     &#x3C;table&#x3E;
         &#x3C;caption&#x3E;&#x3C;span class=&#x22;visuallyhidden&#x22;&#x3E;2 of the Rochdale Pioneers&#x3C;/span&#x3E;&#x3C;/caption&#x3E;
@@ -86,49 +77,47 @@ id: displaying-data
         &#x3C;/tfoot&#x3E;
     &#x3C;/table&#x3E;
 &#x3C;/div&#x3E;</code></pre>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-6">
-            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-            <div class="example">
-                <div class="table-overflow-x">
-                    <table>
-                        <caption><span class="visuallyhidden">2 of the Rochdale Pioneers and their job titles</span></caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">Job title</th>
-                                <th scope="col">First name</th>
-                                <th scope="col">Last name</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Cashier</th>
-                                <td>William</td>
-                                <td>Cooper</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Salesman</th>
-                                <td>Samuel</td>
-                                <td>Ashworth</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td>Job title</td>
-                                <td>First name</td>
-                                <td>Last name</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
             </div>
         </div>
-
-        <div class="column medium-6">
-            <pre><code class="language-html">
+        <div class="row">
+            <div class="column medium-6">
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <div class="example">
+                    <div class="table-overflow-x">
+                        <table>
+                            <caption><span class="visuallyhidden">2 of the Rochdale Pioneers and their job titles</span></caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Job title</th>
+                                    <th scope="col">First name</th>
+                                    <th scope="col">Last name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Cashier</th>
+                                    <td>William</td>
+                                    <td>Cooper</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Salesman</th>
+                                    <td>Samuel</td>
+                                    <td>Ashworth</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>Job title</td>
+                                    <td>First name</td>
+                                    <td>Last name</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="column medium-6">
+                <pre><code class="language-html">
 &#x3C;div class=&#x22;table-overflow-x&#x22;&#x3E;
     &#x3C;table&#x3E;
         &#x3C;caption&#x3E;&#x3C;span class=&#x22;visuallyhidden&#x22;&#x3E;2 of the Rochdale Pioneers and their job titles&#x3C;/span&#x3E;&#x3C;/caption&#x3E;
@@ -160,13 +149,12 @@ id: displaying-data
         &#x3C;/tfoot&#x3E;
     &#x3C;/table&#x3E;
 &#x3C;/div&#x3E;</code></pre>
+            </div>
         </div>
-    </div>
-
-    <div class="row">
-        <div class="column medium-7">
-            <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+        <div class="row">
+            <div class="column medium-7">
+                <a href="#top" class="link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+            </div>
         </div>
-    </div>
-
+    </section>
 </article>
