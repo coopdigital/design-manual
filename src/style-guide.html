@@ -3,214 +3,211 @@ layout: default
 id: styleguide
 ---
 
-<div class="wrap">
+<article class="wrap">
     {% include breadcrumbs.html %}
+    <header>
+        <div class="row margin-bh">
+            <div class="column medium-7">
+                <h1>Content Style Guide</h1>
+                <p>We write content for the user, not for us.</p>
+                <p>So, we design digital content to give users what they need:</p>
+                <ul>
+                    <li>only when they need it</li>
+                    <li> as simply and quickly as possible</li>
+                    <li>using words they understand</li>
+                    <li>in a consistent way</li>
+                </ul>
+                <p>Designing content that puts our users first makes it easier and faster for them to use our services, encourages them to interact with us again and builds trust in what we’re saying.</p>
+                <nav>
+                    <ul class="list-bare in-page-nav">
+                        <li><a href="#asking-for-names">Asking for names</a></li>
+                        <li><a href="#faqs">Frequently asked questions (FAQs)</a></li>
+                        <li><a href="#hyphens-and-dashes">Hyphens and dashes</a></li>
+                        <li><a href="#links">Links</a></li>
+                        <li><a href="#lists">Lists</a></li>
+                        <li><a href="#titles">Titles</a></li>
+                        <li><a href="#validation-messages">Validation messages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     <div class="row margin-bh">
         <div class="column medium-7 small-12">
-
-            <h1>Content Style Guide</h1>
-
-            <p>We write content for the user, not for us.</p>
-
-            <p>So, we design digital content to give users what they need:</p>
-            <ul>
-                <li>only when they need it</li>
-                <li> as simply and quickly as possible</li>
-                <li>using words they understand</li>
-                <li>in a consistent way</li>
-            </ul>
-            <p>Designing content that puts our users first makes it easier and faster for them to use our services, encourages them to interact with us again and builds trust in what we’re saying.</p>
-
-            <nav>
-                <ul class="list-bare in-page-nav">
-                    <li><a href="#asking-for-names">Asking for names</a></li>
-                    <li><a href="#faqs">Frequently asked questions (FAQs)</a></li>
-                    <li><a href="#hyphens-and-dashes">Hyphens and dashes</a></li>
-                    <li><a href="#links">Links</a></li>
-                    <li><a href="#lists">Lists</a></li>
-                    <li><a href="#titles">Titles</a></li>
-                    <li><a href="#validation-messages">Validation messages</a></li>
+            <section id="asking-for-names">
+                <h2>Asking for names</h2>
+                <p>When asking for someone’s name:</p>
+                <ul>
+                    <li>ask for a ‘Full name’ in one field</li>
+                    <li>make no assumptions about how the user wants to be addressed — ask them</li>
+                    <li>make it explicit whose name we’re asking for — include who the other person is if you’re capturing multiple names in one form, for example, ‘Your child’s full name’</li>
+                    <li>use ‘Full legal name’ if you need to capture a name for legal reasons</li>
+                    <li>give an accurate instruction if the name needs to be written as it appears on another document, for example, ‘Copy the name from your passport’</li>
                 </ul>
-            </nav>
-
-            <h2 id="asking-for-names">Asking for names</h2>
-            <p>When asking for someone’s name:</p>
-            <ul>
-                <li>ask for a ‘Full name’ in one field</li>
-                <li>make no assumptions about how the user wants to be addressed — ask them</li>
-                <li>make it explicit whose name we’re asking for — include who the other person is if you’re capturing multiple names in one form, for example, ‘Your child’s full name’</li>
-                <li>use ‘Full legal name’ if you need to capture a name for legal reasons</li>
-                <li>give an accurate instruction if the name needs to be written as it appears on another document, for example, ‘Copy the name from your passport’</li>
-            </ul>
-            <div class="row">
-                <div class="column large-8">
-                    <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                    <div class="example example--padded">
-                        <div class="form-row">
-                            <label for="full-name">Full name</label>
-                            <input id="full-name" type="text">
-                        </div>
-                        <div class="form-row">
-                            <label for="childs-full-name">Your child’s full name</label>
-                            <input id="childs-full-name" type="text">
+                <div class="row">
+                    <div class="column large-8">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <div class="form-row">
+                                <label for="full-name">Full name</label>
+                                <input id="full-name" type="text">
+                            </div>
+                            <div class="form-row">
+                                <label for="childs-full-name">Your child’s full name</label>
+                                <input id="childs-full-name" type="text">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <p>If you you have to capture name in separate fields, perhaps because of a legacy system, use:</p>
-            <ul>
-                <li>‘First name or names’, ‘Middle name’ (if necessary) and ‘Last name’</li>
-                <li>a free text box if you have to ask for title</li>
-            </ul>
-            <div class="row">
-                <div class="column large-12">
-                    <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                    <div class="example example--padded">
-                        <div class="row">
-                            <div class="column large-2">
-                                <div class="form-row">
-                                    <label for="title">Title</label>
-                                    <input id="title" type="text">
+                <p>If you you have to capture name in separate fields, perhaps because of a legacy system, use:</p>
+                <ul>
+                    <li>‘First name or names’, ‘Middle name’ (if necessary) and ‘Last name’</li>
+                    <li>a free text box if you have to ask for title</li>
+                </ul>
+                <div class="row">
+                    <div class="column large-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <div class="row">
+                                <div class="column large-2">
+                                    <div class="form-row">
+                                        <label for="title">Title</label>
+                                        <input id="title" type="text">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="column large-5">
-                                <div class="form-row">
-                                    <label for="first-name">First name or names</label>
-                                    <input id="first-name" type="text">
+                                <div class="column large-5">
+                                    <div class="form-row">
+                                        <label for="first-name">First name or names</label>
+                                        <input id="first-name" type="text">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="column large-5">
-                                <div class="form-row">
-                                    <label for="last-name">Last name</label>
-                                    <input id="last-name" type="text">
+                                <div class="column large-5">
+                                    <div class="form-row">
+                                        <label for="last-name">Last name</label>
+                                        <input id="last-name" type="text">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-
-            <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-            <h2 id="faqs">Frequently asked questions (FAQs)</h2>
-            <p>Do not use FAQs.</p>
-            <p>Instead, if you know that you are answering a genuine frequently asked question, restructure your content so that the answers form part of the main user journey. And put the information in a logical place in that journey.</p>
-            <p>We do not use FAQs because:</p>
-            <ul>
-                <li>users do not know if their question has been frequently asked</li>
-                <li>they're often made up by the business rather than genuinely asked by the public</li>
-                <li>users have to navigate through irrelevant content to see if their question is there — it’s frustrating and wastes their time</li>
-            </ul>
-            <p>For more information read Content Strategist <a href="http://www.sarahjrichards.com/blog/frequently-asked-questions-faqs">Sarah Richard's blog on FAQs.</a></p>
-
-            <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-            <h2 id="hyphens-and-dashes">Hyphens and dashes</h2>
-            <p>What you’re writing will determine where and when you should use hyphens and dashes.</p>
-            <p>Hyphens (the character you get when you type ‘-’ ) should be used to link words or part of words — they show the user that there’s a connection between them, for example, ‘mother-in-law’, ‘fine-tuned’, ‘Co-op’.
-            <p>En dashes (<code>&#x26;ndash;</code>) should be used for connecting things that are related to each other by distance such as June&ndash;July.</p>
-            <p>Em dashes (<code>&#x26;mdash;</code>) can be used in pairs like parenthesis — that is, to enclose a word, or a phrase — or they can be used alone to detach one end of a sentence from the main body.</p>
-
-            <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-            <h2 id="links">Links</h2>
-            <p>Link text must:</p>
-            <ul>
-                <li>tell the user where it’s taking&nbsp;them</li>
-                <li>never say ‘click here’</li>
-                <li>be action orientated, for example, ‘Choose&hellip;’, ‘Find&hellip;’,&nbsp;‘Discover&hellip;’</li>
-                <li>not include a title tag — this accessibility feature is not used any more as it’s not that helpful for visually impaired&nbsp;people</li>
-                <li>tell the user if they’re leaving our site, for example, ‘For more information visit&nbsp;<a href="http://www.citizensadvice.org.uk">www.citizensadvice.org.uk</a>’</li>
-                <li>use a full url if it’s clean (no symbols), short and potentially easy to remember (max one / ) for example: <a href="http://www.bbc.co.uk/sport">bbc.co.uk/sport</a> — otherwise, if there’s a complex url, use a ‘word’&nbsp;link</li>
-            </ul>
-            <p>When you are linking to another page or an external site, think about the scent of information. If the page you’re linking to opens&nbsp;in:</p>
-            <ul>
-                <li>the same window, your user may lose their place in the information&nbsp;flow</li>
-                <li>a different window, your user may find it difficult to navigate back to your&nbsp;site</li>
-            </ul>
-            <p>Use this to consider how and where to position your&nbsp;links.</p>
-
-            <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-            <h2 id="lists">Lists</h2>
-
-            <h3>Bullet lists</h3>
-            <p>Bullets must:</p>
-            <ul>
-                <li>use a lead-in line</li>
-                <li>make sense running on from the lead-in line</li>
-                <li>use lower case at the start of the bullet</li>
-                <li>have only one sentence per bullet point - use commas, dashes or semicolons to expand on an item</li>
-                <li>have more than 2 items</li>
-                <li>appear within the text and not as the whole bullet</li>
-            </ul>
-            <p>Bullets should not:</p>
-            <ul>
-                <li>be paragraphs masquerading as a list for a visual effect</li>
-                <li>take a full stop after the last bullet point</li>
-                <li>include ‘or’, ‘and’ after the bullets</li>
-            </ul>
-
-            <div class="row">
-                <div class="column medium-7 small-12">
-                    <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                    <div class="example example--padded">
-                        <h4>The meeting agenda will be:</h4>
-                        <ul>
-                            <li>an overview of the last month</li>
-                            <li>a presentation</li>
-                            <li>a special announcement</li>
-                        </ul>
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+            </section>
+            <section id="faqs">
+                <h2>Frequently asked questions (FAQs)</h2>
+                <p>Do not use FAQs.</p>
+                <p>Instead, if you know that you are answering a genuine frequently asked question, restructure your content so that the answers form part of the main user journey. And put the information in a logical place in that journey.</p>
+                <p>We do not use FAQs because:</p>
+                <ul>
+                    <li>users do not know if their question has been frequently asked</li>
+                    <li>they're often made up by the business rather than genuinely asked by the public</li>
+                    <li>users have to navigate through irrelevant content to see if their question is there — it’s frustrating and wastes their time</li>
+                </ul>
+                <p>For more information read Content Strategist <a href="http://www.sarahjrichards.com/blog/frequently-asked-questions-faqs">Sarah Richard's blog on FAQs.</a></p>
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+            </section>
+            <section id="hyphens-and-dashes">
+            <h2>Hyphens and dashes</h2>
+                <p>What you’re writing will determine where and when you should use hyphens and dashes.</p>
+                <p>Hyphens (the character you get when you type ‘-’ ) should be used to link words or part of words — they show the user that there’s a connection between them, for example, ‘mother-in-law’, ‘fine-tuned’, ‘Co-op’.
+                <p>En dashes (<code>&#x26;ndash;</code>) should be used for connecting things that are related to each other by distance such as June&ndash;July.</p>
+                <p>Em dashes (<code>&#x26;mdash;</code>) can be used in pairs like parenthesis — that is, to enclose a word, or a phrase — or they can be used alone to detach one end of a sentence from the main body.</p>
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+            </section>
+            <section id="links">
+                <h2>Links</h2>
+                <p>Link text must:</p>
+                <ul>
+                    <li>tell the user where it’s taking&nbsp;them</li>
+                    <li>never say ‘click here’</li>
+                    <li>be action orientated, for example, ‘Choose&hellip;’, ‘Find&hellip;’,&nbsp;‘Discover&hellip;’</li>
+                    <li>not include a title tag — this accessibility feature is not used any more as it’s not that helpful for visually impaired&nbsp;people</li>
+                    <li>tell the user if they’re leaving our site, for example, ‘For more information visit&nbsp;<a href="http://www.citizensadvice.org.uk">www.citizensadvice.org.uk</a>’</li>
+                    <li>use a full url if it’s clean (no symbols), short and potentially easy to remember (max one / ) for example: <a href="http://www.bbc.co.uk/sport">bbc.co.uk/sport</a> — otherwise, if there’s a complex url, use a ‘word’&nbsp;link</li>
+                </ul>
+                <p>When you are linking to another page or an external site, think about the scent of information. If the page you’re linking to opens&nbsp;in:</p>
+                <ul>
+                    <li>the same window, your user may lose their place in the information&nbsp;flow</li>
+                    <li>a different window, your user may find it difficult to navigate back to your&nbsp;site</li>
+                </ul>
+                <p>Use this to consider how and where to position your&nbsp;links.</p>
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+            </section>
+            <section id="lists">
+                <h2 id="lists">Lists</h2>
+                <h3>Bullet lists</h3>
+                <p>Bullets must:</p>
+                <ul>
+                    <li>use a lead-in line</li>
+                    <li>make sense running on from the lead-in line</li>
+                    <li>use lower case at the start of the bullet</li>
+                    <li>have only one sentence per bullet point - use commas, dashes or semicolons to expand on an item</li>
+                    <li>have more than 2 items</li>
+                    <li>appear within the text and not as the whole bullet</li>
+                </ul>
+                <p>Bullets should not:</p>
+                <ul>
+                    <li>be paragraphs masquerading as a list for a visual effect</li>
+                    <li>take a full stop after the last bullet point</li>
+                    <li>include ‘or’, ‘and’ after the bullets</li>
+                </ul>
+                <div class="row">
+                    <div class="column medium-7 small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <h4>The meeting agenda will be:</h4>
+                            <ul>
+                                <li>an overview of the last month</li>
+                                <li>a presentation</li>
+                                <li>a special announcement</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <h3>Numbered lists</h3>
-            <p>Use a numbered list for a logical sequence of things, like a series of tasks that must be done in a certain order. They do not need a lead-in line and should be complete sentences that start with a capital letter and end with a full stop.</p>
-
-            <div class="row">
-                <div class="column medium-7 small-12">
-                    <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                    <div class="example example--padded">
-                        <h4>How to put your shoes on:</h4>
-                        <ol>
-                            <li>Put on socks.</li>
-                            <li>Put on shoes.</li>
-                            <li>Tie laces.</li>
-                        </ol>
+                <h3>Numbered lists</h3>
+                <p>Use a numbered list for a logical sequence of things, like a series of tasks that must be done in a certain order. They do not need a lead-in line and should be complete sentences that start with a capital letter and end with a full stop.</p>
+                <div class="row">
+                    <div class="column medium-7 small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <h4>How to put your shoes on:</h4>
+                            <ol>
+                                <li>Put on socks.</li>
+                                <li>Put on shoes.</li>
+                                <li>Tie laces.</li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-            <h2 id="titles">Titles</h2>
-            <p>Titles should:</p>
-            <ul>
-                <li>be sentence case</li>
-                <li>be less than 65 characters within HTML document <code class="language-html">&lt;titles&gt;</code> — Google cuts them off after this</li>
-                <li>be unique, clear and descriptive, no puns or single topic words</li>
-                <li>be front-loaded with key words if possible — people tend to scan the first couple of words only</li>
-                <li>use words you know your users actually search for</li>
-                <li>be active where possible, ‘Apply for&hellip;’, ‘Report&hellip;’, ‘Find&hellip;’</li>
-                <li>not use acronyms unless they are well-known, like EU, BBC</li>
-            </ul>
-
-            <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
-
-            <h2 id="validation-messages">Validation messages</h2>
-            <p>Validation messages must:</p>
-            <ul>
-                <li>be flagged at the top of the screen and at each relevant field</li>
-                <li>be a bulleted list if there’s more than one error</li>
-                <li>be a complete sentence if there’s only one error (no bullet)</li>
-                <li>be linked from the top of the page to take users to the relevant field</li>
-                <li>help the user fix the problem, for example, ‘Check you've entered the correct sort code — it’s the 6 digit number usually found on your bank card’</li>
-            </ul>
-
-            <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+            </section>
+            <section id="titles">
+                <h2>Titles</h2>
+                <p>Titles should:</p>
+                <ul>
+                    <li>be sentence case</li>
+                    <li>be less than 65 characters within HTML document <code class="language-html">&lt;titles&gt;</code> — Google cuts them off after this</li>
+                    <li>be unique, clear and descriptive, no puns or single topic words</li>
+                    <li>be front-loaded with key words if possible — people tend to scan the first couple of words only</li>
+                    <li>use words you know your users actually search for</li>
+                    <li>be active where possible, ‘Apply for&hellip;’, ‘Report&hellip;’, ‘Find&hellip;’</li>
+                    <li>not use acronyms unless they are well-known, like EU, BBC</li>
+                </ul>
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+            </section>
+            <section id="validation-messages">
+                <h2>Validation messages</h2>
+                <p>Validation messages must:</p>
+                <ul>
+                    <li>be flagged at the top of the screen and at each relevant field</li>
+                    <li>be a bulleted list if there’s more than one error</li>
+                    <li>be a complete sentence if there’s only one error (no bullet)</li>
+                    <li>be linked from the top of the page to take users to the relevant field</li>
+                    <li>help the user fix the problem, for example, ‘Check you've entered the correct sort code — it’s the 6 digit number usually found on your bank card’</li>
+                </ul>
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+            </section>
         </div>
     </div>
-</div>
+</article>
