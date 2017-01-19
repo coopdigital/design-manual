@@ -170,6 +170,7 @@ id: accessibility
                     <li>letting users customise the web page using in-page controls</li>
                     <li>making other aspects of the page more accessible - using larger fonts and non-white backgrounds can make high contrast text easier to read</li>
                 </ul>
+                <p><a href="patterns/colours.html">How we use color</a>.</p>
                 <h3>Links</h3>
                 <p>There is no need to provide description alt/title text on links. Simply create descriptive link text instead. If the link is to a file, include what format the file is in, for example: Annual Report [PDF].</p>
                 <p>Never use the text "click here". Not only is this link text not descriptive of the destination, it implies the user needs to click rather than use their keyboard.</p>
@@ -182,17 +183,19 @@ id: accessibility
                 </ul>
                 <p>Screen reader users might just hear ‘change, change, change’. This is distracting, and potentially annoying.</p>
                 <p>Front-load links so the important information is at the beginning of the link.</p>
-                <p>Find out more about <a href="/style-guide.html#links">writing accessible links</a>.</p>
+                <p>Find out more about <a href="patterns/buttons.html#links">how we use links</a> and <a href="/style-guide.html#links">writing accessible links</a>.</p>
                 <h3>Images</h3>
                 <p>If an image has no context (therefore doesn’t need to be seen by a screen reader) you can set an empty alt attribute and set the role attribute to 'presentation'.</p>
                 <p>The role attribute ensures that the screen reader does not read out the filename of the image instead.</p>
                 <p>This <a href="http://webaim.org/techniques/alttext/">webaim article on alternative text</a> can help you decide if your images should include alt text.</p>
+                <p><a href="patterns/images.html">How we use images</a>.</p>
                 <h3>Tab index</h3>
                 <p>There’s no need to use this. If your code is semantic it will tab just fine.</p>
                 <p>If you need to alert your user to something urgently — for example to display an error message — use negative integers as your value.</p>
                 <h3>Heading and titles</h3>
                 <p>Use appropriate heading levels. It's a common misconception from the XHTML/HTML4 days that you can only have one h2 per page. You can have more than one h2 in HTML5 as long as they belong inside a article or section. If you're writing XHTML/HTML4, follow the correct semantics.</p>
                 <p>Find out more about <a href="https://webdesign.tutsplus.com/articles/the-truth-about-multiple-h2-tags-in-the-html5-era--webdesign-16824">headings in HTML5 on the Evanto website</a>.</p>
+                <p><a href="/style-guide.html#titles">How to write titles</a>.</p>
                 <h3>Labels</h3>
                 <p>Always provide hidden labels for visual formats that you might consider obvious (like asking for someone's date of birth) — the format may only be obvious for sighted people.</p>
                 <h3>Form elements</h3>
@@ -212,10 +215,12 @@ id: accessibility
 &lt;/select&gt;</code></pre>
                 <p>Use 'aria-required'. A screen reader may not pick up the "required asterix" or may not understand what that concept means.</p>
                 <p>There are many useful <a href="#wai-aria">ARIA attributes</a> you can use in your forms to enhance the experience for people using a screenreader. A good introduction to ARIA roles in forms is available on <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/forms/Basic_form_hints">the Mozilla Developer Network</a>.</p>
+                <p><a href="patterns/forms.html">How to design forms</a>.</p>
                 <h3>Readability (characters per line)</h3>
                 <p>As close to 66 characters per line as possible is ideal. As long as the range is between 45 and 75 characters, your content will be easier to read by everyone, regardless of any access need.</p>
                 <p>If a line of text is too wide, the user's eyes will struggle to focus on the text because it’s hard to see where the line starts and ends. It can also be hard to continue to the next line in the correct place.</p>
                 <p>If the line of text is too narrow, the eye will have to travel back and forth too often. This is tiring and could be stressful for users, especially if they have dyslexia.</p>
+                <p><a href="/patterns/typography.html#horizontal-space">How to use horizontal space</a>.</p>
                 <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
             </section>
             <section id="how-to-learn">
