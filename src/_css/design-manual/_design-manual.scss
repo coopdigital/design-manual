@@ -442,10 +442,6 @@
   }
 }
 
-// .tr-divider {
-//   @include spacing('padding', 'bottom', 'base');
-// }
-
 .td-half {
   width: 55%;
 }
@@ -463,4 +459,8 @@
 
 .no-underline {
     border-bottom: 0;
+}
+
+pre[class*="language-"] {
+   @include spacing('margin', 'bottom', 'half');
 }
