@@ -1,92 +1,74 @@
-//= include coop-frontend-toolkit/scripts/coop-toolkit.js
-//= include coop-frontend-toolkit/scripts/modules/coop.Tabs.js
-//= include coop-frontend-toolkit/scripts/modules/coop.Toggles.js
-//= include coop-frontend-toolkit/scripts/modules/coop.TapCheck.js
+$(function(){
 
-$(function() {
-  Coop.init();
-});
-
-// Responsive sidebar navigation
-
-var sidebar = $('.side-nav'),
-    sidebarTrigger = $('.nav-trigger'),
-    appWrap = $('.app-content'),
-    winHeight = $(document).height();
-    keyTrigger = $('#side-navigtion-keytrigger');
-
-
-function openNavigation(){
-  sidebarTrigger.on('click', function(event){
-    $(appWrap).toggleClass('nav-is--open');
-    $(sidebar).toggleClass('nav-is--closed');
-    $(this).toggleClass('trigger-is--on');
-    event.preventDefault();
-  });
-  keyTrigger.on('click', function(event){
-    $(appWrap).toggleClass('nav-is--open');
-    $(sidebar).toggleClass('nav-is--closed');
-    $(sidebarTrigger).toggleClass('trigger-is--on');
-    event.preventDefault();
-  });
-}
-
-function ariaToggle(){
-  if ($(appWrap).hasClass('nav-is--open')) {
-    $(sidebar).attr('aria-expanded', 'true');
+  function showElement(element) {
+    $(element).show().removeAttr('hidden').attr('aria-hidden', false);
+    $(element).find(':input').prop('disabled', false);
   }
-  else {
-    $(sidebar).attr('aria-expanded', 'false');
-  }
-}
 
-// set tab index
-function tabIndexing(){
-  if ($(appWrap).hasClass('nav-is--open')) {
-    $('.side-nav-list-link').attr('tabIndex', 0);
+  function hideElement(element) {
+    $(element).hide().attr('hidden', '').attr('aria-hidden', true);
+    $(element).find(':input').prop('disabled', true);
   }
-  else {
-    $('.side-nav-list-link').attr('tabIndex', -1);
-  }
-}
 
-function toggleIndexing(){
-  if ($('.toggle-content').hasClass('open')) {
-    $('.side-nav-list-sub-link').attr('tabIndex', 0);
-  }
-  else {
-    $('.side-nav-list-sub-link').attr('tabIndex', -1);
-  }
-}
-$(sidebar).css({
-  'height': winHeight,
-});
-
-$(document).ready(function(){
-  openNavigation();
-  tabIndexing();
-
-  sidebarTrigger.on('click', function(){
-    tabIndexing();
-    ariaToggle();
+  // When "none of the above" checked, uncheck all others in fieldset
+  $(document).on('change', '[data-none-of-the-above]', function(){
+    if ($(this).is(':checked')) {
+      $(this).parents('fieldset')
+        .find(':input').not(this)
+        .prop('checked', false)
+        .trigger('change');
+    }
   });
 
-  keyTrigger.on('click', function(){
-    tabIndexing();
-    ariaToggle();
+  // When any checkbox checked, uncheck "none of the above" if it exists
+  $(document).on('change', 'input[type=checkbox]', function(){
+    if ($(this).is(':checked')) {
+      $(this).parents('fieldset')
+        .find('[data-none-of-the-above]').not(this)
+        .prop('checked', false)
+        .trigger('change');
+    }
   });
 
-  $('.toggle-content .side-nav-list-sub-link').attr('tabIndex', -1);
+  // Allow content to be revealed after selecting a radio button.
+  // Add a data-show attribute to the input
+  // and specify the target with data-target='#foo'
+  $(document).on('change', "input[type=radio][data-show]", function(){
+    // hide all targets within the container
+    $(this).parents("form").find("input[data-show]").each(function(){
+      hideElement($(this).data('target'));
+    });
 
-  $('.toggle-trigger').on('click', function(){
-    toggleIndexing();
-    ariaToggle();
+    // show the selected target
+    showElement($(this).data('target'));
   });
 
-});
+  $(document).on('change', "input[type=radio][data-hide]", function(){
+    hideElement($(this).data('target'));
+  });
 
-$(window).on('resize', function(){
-  $(sidebar).css({
-    'height': winHeight,
+  // On page load, hide all the toggle-able content
+  $("input[data-show]").each(function(){
+    hideElement($(this).data('target'));
+  });
+
+  // ...and show the selected radio button's target
+  var $target = $("input[type=radio][data-show]:checked").data('target');
+  showElement($target);
+
+  function toggleInputLabelClass(input) {
+    var $input = $(input);
+
+    $input.parents(".block-label").toggleClass("checked", $input.is(":checked"));
+  }
+
+  $(".block-label").find("input[type=checkbox], input[type=radio]").on("change", function(){
+    $(this).parents('fieldset').find('input[type=checkbox], input[type=radio]').each(function(){
+      toggleInputLabelClass(this);
+    });
+  });
+
+  $(".block-label").find("input[type=checkbox], input[type=radio]").each(function(){
+    toggleInputLabelClass(this);
   });
 });
