@@ -1,24 +1,8 @@
 {
-  "name": "single-site-styleguide",
+  "name": "design-manual",
   "description": "",
   "scripts": {},
-  "env": {
-    "LANG": {
-      "required": true
-    },
-    "NODE_MODULES_CACHE": {
-      "required": true
-    },
-    "PASSWORD": {
-      "required": true
-    },
-    "RACK_ENV": {
-      "required": true
-    },
-    "USERNAME": {
-      "required": true
-    }
-  },
+  "env": {},
   "formation": {
     "web": {
       "quantity": 1
