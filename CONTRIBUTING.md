@@ -2,7 +2,7 @@
 
 ## Issues
 
-Please report issues in the [issue tracker](https://github.com/coopdigital/single-site-styleguide/issues). When reporting an issue, provide as much information about the issue as possible, particularly:
+Please report issues in the [issue tracker](https://github.com/coopdigital/design-manual/issues). When reporting an issue, provide as much information about the issue as possible, particularly:
 
 - **Overview of the issue**
 - **Steps to reproduce**, if any
