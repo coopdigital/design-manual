@@ -4,7 +4,7 @@
 title: Co-op Design Manual
 description: Co-op Design Manual
 baseurl: ""
-url: "http://single-site-styleguide.heroku.com"
+url: "http://coop-design-manual.herokuapp.com"
 
 # Build settings
 source: ./
