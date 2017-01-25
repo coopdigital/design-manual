@@ -424,9 +424,19 @@
   color: $body-copy;
   @include spacing('margin', 'bottom', 'half');
 
+  &:hover {
+    h3 {
+      color: lighten($coop-link-blue, 15%);
+      border-color: lighten($coop-link-blue, 15%);
+    }
+
+  }
+
   h3 {
     @include spacing('margin', 'bottom', 'half');
   }
+
+
 
 }
 
