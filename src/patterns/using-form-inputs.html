@@ -1,0 +1,199 @@
+---
+layout: default
+id: forms
+---
+
+<article class="wrap">
+    {% include breadcrumbs.html %}
+<div class="row"> 
+ <div class="column medium-4 small-12">
+        <nav>
+            <ul class="list-bare content-nav in-page-nav">
+                <li>Forms</li>
+                <li><a href="./forms.html">Before you start your form</a></li>
+                <li class="active-content">Using form inputs</li>
+                <li><a href="./form-patterns.html">Form patterns</a></li>
+            </ul>
+        </nav>
+  </div>
+    <div class="column medium-7 small-12">
+       <h2 class="h1">Using form inputs.</h1>
+       <ul class="list-bare content-links">
+            <li><a href="#form-inputs">Form inputs</a></li>
+            <li><a href="#radio-checkbox">Radio buttons and checkboxes</a></li>
+            <li><a href="#text-entry">Text entry fields</a></li>
+            <li><a href="#text-input">Text input</a></li>  
+            <li><a href="#text-area">Text area</a></li>                 
+            <li><a href="#submit-buttons">Submit buttons</a></li>
+            <li><a href="#drop-down">Drop down lists</a></li>
+        </ul>
+    <section>
+       
+        <h2 id="form-inputs">Form inputs</h2>
+            <p>Form inputs are any place in your form where you ask the user for data. They can include:</p>
+                <ul>
+                    <li>radio buttons and checkboxes</li>
+                    <li>text entry fields (known as ‘inputs’ and ‘text areas’)</li>
+                    <li>drop down menus</li>
+                    <li>submit buttons</li>
+                </ul>
+
+        <h2 id="radio-checkbox" class="section-title">Radio buttons and checkboxes</h2>
+                <p>Radio buttons and checkboxes allow users to select an answer from 2 or more options.</p>
+                <p>Use radio buttons when the user can choose only one answer from a list.</p>
+                <p>Use checkboxes when the user can choose multiple answers from a list.</p>
+                <p>If you’re using either radio buttons or checkboxes, you must:</p>
+                <ul>
+                    <li>style them in a way that makes it clear which option or options has been selected</li>
+                    <li>allow users to click anywhere in the box</li>
+                    <li>display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan</li>
+                </ul>
+                <p>Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.</p>
+
+               <div class="row">
+                <div class="column medium-8">
+                    <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                    <div class="example example--padded">
+                        <fieldset>
+                            <legend>Do you own:</legend>
+                            <label class="block-label">
+                                <input type="checkbox" value="1" name="client[owns_a_business]">a business
+                            </label>
+                            <label class="block-label">
+                                <input type="checkbox" value="1" name="client[owns_agricultural_property]">agricultural property
+                            </label>
+                            <label class="block-label">
+                                <input type="checkbox" value="1" name="client[owns_foreign_property]">foreign property
+                            </label>
+                            <label class="block-label">
+                                <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]">trademarks or patents
+                            </label>
+                            <p class="or">or</p>
+                            <label class="block-label">
+                                <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
+                            </label>
+                        </fieldset>
+                    </div>
+                </div>
+             </div>
+
+
+                 <h2 id="text-entry" class="section-title">Text entry fields</h2>
+                <p>If you need your user to type information into your form, use a text entry field.</p>
+                <p>If you’re using text entry field, you must:</p>
+                <ul>
+                    <li>give them a label: ‘Full name’</li>
+                    <li>allow users to click on the label to let them to start answer (clicking the label takes the cursor to the text entry field)</li>
+                    <li>don’t use placeholder text (text that sits within the form field) — if a question needs extra clarification, use hint text instead</li>
+                </ul>
+                <h3>Types of text entry field</h3>
+                <p>Depending on the answer you’re expecting, use either:</p>
+                <ul>
+                    <li>a one line entry box (known as a ‘text input’) for things like name, email and so on</li>
+                    <li>multiple line entry box (known as ‘text area’) for things like feedback, additional information and so on</li>
+                </ul>
+
+                <h2 id="text-input" class="section-title">Text input</h2>
+                <p>With a text input you must also make the length of the box appropriate for the amount of information needed: do not make it frustratingly short or intimidatingly long.</p>
+
+                <div class="row">
+                    <div class="column medium-8 small-12">
+                     <h3 class="example-heading"><span class="example_label">Example</span></h3> 
+                     <div class="example example--padded"> 
+
+                    <fieldset>
+                        <legend class="date-of-birth">Your date of birth</legend>
+
+                      <p class="hint date-hint">
+                        For example: 30 4 1980
+                      </p>
+
+                      <div class="form-row inline date-of-birth-day">
+                        <label for="client-date-of-birth-day">Day <span class="visuallyhidden">(as 2 digits)</span></label>
+                        <input maxlength="2" pattern="[0-9]*" placeholder="DD" size="2" type="text" name="client[date-of-birth-day]" id="client-date-of-birth-day">
+                      </div>
+
+                      <div class="form-row inline date-of-birth-month">
+                        <label for="client-date-of-birth-month">Month <span class="visuallyhidden">(as 2 digits)</span></label>
+                        <input maxlength="2" pattern="[0-9]*" placeholder="MM" size="2" type="text" name="client[date-of-birth-month]" id="client-date-of-birth-month">
+                      </div>
+
+                      <div class="form-row inline date-of-birth-year">
+                        <label for="client-date-of-birth-year">Year <span class="visuallyhidden">(as 4 digits)</span></label>
+                        <input maxlength="4" pattern="[0-9]*" placeholder="YYYY" size="4" type="text" name="client[date-of-birth-year]" id="client-date-of-birth-year">
+                      </div>
+                    </fieldset>
+
+                     </div>
+                    </div>
+                </div>
+
+                <h2 id="text-area" class="section-title">Text area</h2>
+                <p>Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.</p>
+                <p>If you have reason to use them, research them with mobile device users.  Entering information using touch devices can be especially time-consuming.</p>
+                <p>Text areas should:</p>
+                <ul>
+                    <li>scale appropriately on mobile devices</li>
+                    <li>be a size that allows the user to scroll outside of it</li>
+                    <li>have ‘draggable’ corners so users can control the size of the text area</li>
+                    <li>show a countdown of remaining characters (if you’re restricting the characters that can be typed in the text area)</li>
+                </ul>
+
+                <div class="row">
+                    <div class="column medium-8 small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <label for="feedback">Tell us what you liked or what we can improve</label>
+                            <textarea id="feedback" cols="30" rows="4"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 id="submit-buttons" class="section-title">Submit buttons</h2>
+                <p>A submit button allow the user to send their data to us.</p>
+                <p>Submit buttons must:</p>
+                <ul>
+                    <li>be descriptive of what they’re doing, for example, ‘send order’</li>
+                    <li>only appear at the end of your form</li>
+                    <li>be the primary button on the page</li>
+                </ul>
+                <p>If you’re designing a multi-page form, make the submit button look different to show users that they are at the end of the form.</p>
+
+                <div class="row">
+                  <div class="column medium-8">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                    <div class="example example--padded">
+                        <div class="margin-bq">
+                            <a href="/booking-form" class="btn btn-primary">Continue to booking</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+                 <h2 id="drop-down" class="section-title">Drop down lists</h2>
+                <p>Drop down lists (also known as ‘select inputs’) can be hard to use because they:</p>
+                <ul>
+                    <li>hide content from the user</li>
+                    <li>can slow users down</li>
+                    <li>are less accessible than other options</li>
+                </ul>
+
+                <p>There are alternatives to using a drop down list. Try:</p>
+
+                <ul>
+                    <li>checkboxes or radio buttons for short lists</li>
+                    <li>type aheads (the user is offered a list of relevant suggestions as they type), such as <a href="#">Baymard's Country Selector,</a> for  longer lists such as country and county lists</li>
+                    <li>text entry fields if you do not need the answer to be matched with a back-end system</li>
+                </ul>
+                <p>Only use a drop down lists if you have  thorough research to support your decision.</p>
+                <p>Our recommendations on drop down lists is based on research by the <a href="#">Nielsen Norman Group</a> and <a href="#">Government Digital Service.</a></p>
+      
+               <h2>Next</h2>
+                <ul class="list-bare">
+                    <li class="next-content"><a href="./form-patterns.html">Form patterns</a></li>
+                </ul>
+    
+    </section>
+   </div>
+  </div>
+</article>

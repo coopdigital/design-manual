@@ -1,0 +1,160 @@
+---
+layout: default
+id: forms
+---
+
+<article class="wrap">
+    {% include breadcrumbs.html %}
+<div class="row"> 
+ <div class="column medium-4 small-12">
+        <nav>
+            <ul class="list-bare content-nav in-page-nav">
+                <li>Forms</li>
+                <li><a href="./forms.html">Before you start your form</a></li>
+                <li><a href="./using-form-inputs.html">Using form inputs</a></li>
+                <li class="active-content">Form patterns</li>
+            </ul>
+        </nav>
+  </div>
+    <div class="column medium-7 small-12">
+        <!-- <h1 class="intro-text">Forms</h1>-->
+       <h2 class="h1">Form patterns.</h1>
+       <ul class="list-bare content-links">
+            <li><a href="#name-title">Asking for name and title</a></li>
+            <li><a href="#gender-sex">Asking for gender and sex</a></li>
+            <li><a href="#validation">Validation</a></li>
+            <li><a href="#address">Address</a></li>  
+            <li><a href="#progressive-reveals">Progressive reveals</a></li>                 
+            <li><a href="#multi-forms">Multi-page forms</a></li>
+            <li><a href="#continue-back">Continue and back</a></li>
+            <li><a href="#progress-trackers">Progress trackers</a></li>
+        </ul>
+    <section>
+       
+        <h2>Labelling elements</h2>
+        <h3 id="name-title">Asking for name and title</h3>
+                <p>Only ask for name and title if it’s essential.The format of people’s names can vary. Some do not fit into conventional UK formats. It can be unnecessary and uncomfortable for users to define themselves using a title, or a separate first name — surname format.</p>
+                <p>Never gather a title to assume gender.</p>
+                     <div class="row">
+                    <div class="column large-8">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <div class="form-row">
+                                <label for="full-name">Full name</label>
+                                <input id="full-name" type="text">
+                            </div>
+                            <div class="form-row">
+                                <label for="childs-full-name">Your child’s full name</label>
+                                <input id="childs-full-name" type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>Find out more on <a href="#">how we ask for names and titles.</a></p>
+                <h3 id="gender-sex" class="section-title">Asking for gender and sex</h3>
+                <p>Don’t ask.</p>
+                <p>As with gathering a ‘title’, some users may feel uneasy giving this information.</p>
+                <p>If you do need to know, ask about a person’s ‘gender’, not their sex. Allow them to tell us in their own words with a text entry field</p>
+                <p>If you’re gathering information to use it to address the user later, ask what pronoun they prefer - he/him, she/her, they/them.</p>
+                <p>But ultimately - if you do not need to know - do not ask.</p>
+                <h2 id="validation" class="section-title">Validation</h2>
+                <p>We should be building services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.</p>
+                <p>Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.</p>
+
+                <div class="row">
+                 <div class="column large-10">
+                    <h3 class="example-heading"><span class="example_label">Example</span></h3>
+
+                    <div class="example example--padded">
+
+                    <div class="message message-error">
+                        <p>There's a problem</p>
+
+                          <p>Check the form. You must:</p>
+                          <ul>
+                              <li>enter your full name</li>
+                              <li>enter an email address</li>
+                          </ul>
+                    </div>
+
+                    <fieldset>
+                        <div class="form-row">
+                          <div class="field_with_errors"><label for="client_name">Your full name</label></div>
+                          <div class="field_with_errors"><input class="name" type="text" value="" name="client[name]" id="client_name"></div>
+                          <p class="form-error">Enter your full name</p>
+                        </div>
+
+                        <div class="form-row">
+                          <div class="field_with_errors"><label for="client_email_address">
+                            Your email address
+                            <span class="hint">
+                              We'll only use this to contact you about your will.
+                            </span>
+                        </label></div>      <div class="field_with_errors"><input class="email" type="email" value="" name="client[email_address]" id="client_email_address"></div>
+                          <p class="form-error">Enter an email address</p>
+                        </div>
+                    </fieldset>
+                     </div>
+
+                  </div>
+                </div>
+
+                <p>Find out more about <a href="/content.html#validation-messages">validation messages.</a></p>
+
+                <h2 id="address" class="section-title">Address</h2>
+                <p>Only ask for a user’s postal address if it is essential information we need to fulfil the service. Telling users how you will use their address may affect their answer: their delivery address may be different to an address we need to verify their identity.</p>
+                <div class="row">
+                    <div class="column medium-8 small-12">
+                    <h3 class="example-heading"><span class="example_label">Example</span></h3> 
+                        <div class="example example--padded"> 
+                        <h2>Address</h2>
+                        <p>We'll send a copy of this will to this address.</p>
+                        <label for="client_address_line_1">Address line 1</label>
+                        <input class="address" type="text" name="client[address_line_1]" id="client_address_line_1">
+                        </div>
+                    </div>
+                </div>
+                <h2 id="progressive-reveals" class="section-title">Progressive reveals</h2>
+                <p>You might need to ask users for more information because of how they answered a previous question. You can use a ‘progressive reveal’ to do this so you only show the extra form field to the users who need to see it.</p>
+                <p>Only use progressive reveals to ask for one piece of information. If you need to ask for more than one thing, do so on a separate screen.</p>
+                <div class="row">
+                    <div class="column medium-8">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <form>
+                                <fieldset>
+                                    <legend>What kind of will would you like?</legend>
+                                    <label class="block-label">
+                                        <input data-show data-target="#mirror-will-details" type="radio" value="mirror" name="will-types">Mirror wills
+                                    </label>
+                                    <div id="mirror-will-details" class="indented" aria-hidden="true" hidden="hidden">
+                                      <p>Fill in this form based on decisions you and the other person have agreed.</p>
+                                      <p>If you’re not sure, or need to speak to them first, leave the questions
+                                      blank and we’ll go through them when we call.</p>
+                                    </div>
+                                    <label class="block-label">
+                                        <input data-show type="radio" value="single" name="will-types">Single will
+                                    </label>
+                                    <label class="block-label">
+                                        <input data-show type="radio" value="not sure" name="will-types">You're not sure
+                                    </label>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <h2 id="multi-forms" class="section-title">Multi-page forms</h2>
+                <p>Only ask users for one type of information on screen at a time. This helps to keep them focused and makes the purpose of each page clear.</p>
+                <h2 id ="continue-back" class="section-title">Continue and back</h3>
+                <p>Allow users to move through the form with a ‘continue’ button and a ‘back’ link. Make the continue button the primary button on the page to encourage users to progress through the form.</p>
+                <p>Position your continue button on the bottom left of the page so it’s easier for users to see.</p>
+                <p>‘Continue’ buttons should always be active. If a user tries to progress without completing the necessary information, run <a href="/content.html#validation-messages">validation messages</a> to tell your user what the error is and how to fix it.</p>
+                <p>Reference GDS material on this?</p>
+                <h2 id="progress-trackers" class="section-title">Progress trackers</h2>
+                <p>A progress tracker gives your users an indication of how far through a form they are. But they can be more problematic than helpful — they can get in the way and confuse users.</p>
+                <p>Only use a progress tracker if you have thorough research to support the decision.</p>
+    
+    </section>
+   </div>
+  </div>
+</article>
