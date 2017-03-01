@@ -1,14 +1,13 @@
 $base-asset-url: '/assets/';
 
 @import 'coop-frontend-toolkit/styles/coop-toolkit';
-
 @import 'design-manual/design-manual';
 @import 'design-manual/navigation';
 @import 'design-manual/prism';
 
 .content-nav {
-	border-left: 10px solid #00b1e7;
 	padding-left: 24px;
+	border-left: 10px solid #00b1e7;
 	li {
 		margin-top: $quarter-spacing-unit;
 		margin-bottom: $quarter-spacing-unit;
@@ -17,7 +16,6 @@ $base-asset-url: '/assets/';
 	   	font-family: $bold;
 	   }
 	   .active-content {
-			margin-top:0;
 			font-family: $bold;
 			margin-left: $eighth-spacing-unit;
 	   }
@@ -33,20 +31,6 @@ $base-asset-url: '/assets/';
 		}
 	}	
 }
-	.active-content:after {
-		content: '\e608';
-		font-family: 'coopicons';
-        speak: none;
-   	    font-style: normal;
-   	    font-weight: normal;
-    	font-variant: normal;
-    	text-transform: none;
-    	line-height: 1;
-    	-webkit-font-smoothing: antialiased;
-    	-moz-osx-font-smoothing: grayscale;
-    	vertical-align: middle;
-    	padding-left: $eighth-spacing-unit;
-	}
 	.next-content {
 		margin-bottom: $quarter-spacing-unit;
 	}
@@ -82,7 +66,5 @@ $base-asset-url: '/assets/';
 	padding-top: $half-spacing-unit;
 	padding-bottom: $half-spacing-unit;
 }
-.next-link {
 
-}
 

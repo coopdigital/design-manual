@@ -6,10 +6,9 @@ id: forms
 <article class="wrap">
     {% include breadcrumbs.html %}
 <div class="row"> 
- <div class="column medium-4 small-12">
+        <div class="column medium-4 small-12">
         <nav>
             <ul class="list-bare content-nav in-page-nav">
-                <li>Forms</li>
                 <li><a href="./forms.html">Before you start your form</a></li>
                 <li><a href="./using-form-inputs.html">Using form inputs</a></li>
                 <li class="active-content">Form patterns</li>
@@ -17,8 +16,8 @@ id: forms
         </nav>
   </div>
     <div class="column medium-7 small-12">
-        <!-- <h1 class="intro-text">Forms</h1>-->
-       <h2 class="h1">Form patterns.</h1>
+         <h1 class="intro-text">Forms</h1>
+       <h2 class="h1">Form patterns</h2>
        <ul class="list-bare content-links">
             <li><a href="#name-title">Asking for name and title</a></li>
             <li><a href="#gender-sex">Asking for gender and sex</a></li>
@@ -68,30 +67,29 @@ id: forms
                     <div class="example example--padded">
 
                     <div class="message message-error">
-                        <p>There's a problem</p>
+                        <h2>There's a problem</h2>
 
                           <p>Check the form. You must:</p>
-                          <ul>
-                              <li>enter your full name</li>
-                              <li>enter an email address</li>
+                          <ul class="list-bare">
+                              <li>Enter your full name</li>
+                              <li>Enter an email address</li>
                           </ul>
                     </div>
 
                     <fieldset>
-                        <div class="form-row">
+                        <div class="form-row form-group-error">
                           <div class="field_with_errors"><label for="client_name">Your full name</label></div>
-                          <div class="field_with_errors"><input class="name" type="text" value="" name="client[name]" id="client_name"></div>
                           <p class="form-error">Enter your full name</p>
+                          <div class="field_with_errors"><input class="name" type="text" value="" name="client[name]" id="client_name"></div>
                         </div>
 
-                        <div class="form-row">
+                        <div class="form-row form-group-error">
                           <div class="field_with_errors"><label for="client_email_address">
                             Your email address
                             <span class="hint">
                               We'll only use this to contact you about your will.
                             </span>
-                        </label></div>      <div class="field_with_errors"><input class="email" type="email" value="" name="client[email_address]" id="client_email_address"></div>
-                          <p class="form-error">Enter an email address</p>
+                        </label> <p class="form-error">Enter an email address</p></div>      <div class="field_with_errors"><input class="email" type="email" value="" name="client[email_address]" id="client_email_address"></div>
                         </div>
                     </fieldset>
                      </div>
