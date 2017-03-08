@@ -8,6 +8,10 @@
   min-height: 143px;
 }
 
+.col--right {
+  float: right;
+}
+
 .header-design-manual {
   margin-top: $half-spacing-unit;
   border-bottom: 0;
@@ -463,4 +467,20 @@
 
 pre[class*="language-"] {
    @include spacing('margin', 'bottom', 'half');
+}
+
+.sprint-table {
+  font-size: em-calc(20);
+
+  td {
+    vertical-align: top;
+  }
+
+  li {
+    line-height: 1.2;
+  }
+
+  a {
+    font-size: em-calc(12);
+  }
 }
