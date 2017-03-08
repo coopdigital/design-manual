@@ -14,7 +14,7 @@ $base-asset-url: '/assets/';
 		margin-bottom: $quarter-spacing-unit;
 		&:first-of-type {
 			font-family: $bold;
-			font-size: 24px;
+			font-size: 26px;
 		}
 	   }
 	   .content-title {
@@ -85,4 +85,20 @@ $base-asset-url: '/assets/';
 	border-top: 1px solid #e6e6e6;
 	padding-top: $half-spacing-unit;
 	padding-bottom: $half-spacing-unit;
+}
+.top-level a {
+	margin-left: 0;
+	color: #282828;
+	text-decoration: none;
+	border-bottom: none;
+}
+.update {
+	color: #fff;
+	background-color: #00a500;
+	border-radius: 1px;
+	margin-left: $eighth-spacing-unit;
+	font-size: 14px;
+		padding: 4px 8px;
+		font-family: $regular;
+		vertical-align: middle;
 }
