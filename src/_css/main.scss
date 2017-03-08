@@ -7,8 +7,8 @@ $base-asset-url: '/assets/';
 @import 'design-manual/prism';
 
 .content-nav {
-	border-left: 10px solid #00b1e7;
-	padding-left: 24px;
+	//border-left: 10px solid #00b1e7;
+	//padding-left: 24px;
 	li {
 		margin-top: $quarter-spacing-unit;
 		margin-bottom: $quarter-spacing-unit;
@@ -23,10 +23,10 @@ $base-asset-url: '/assets/';
 	   .active-content {
 			margin-top:0;
 			//font-family: $bold;
-			margin-left: $quarter-spacing-unit;
+			//margin-left: $quarter-spacing-unit;
 	   }
 	a {
-			margin-left: $quarter-spacing-unit;
+			//margin-left: $quarter-spacing-unit;
 	}
 }
 .bottom-nav {
