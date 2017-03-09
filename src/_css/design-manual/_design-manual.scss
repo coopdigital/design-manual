@@ -528,4 +528,11 @@ pre[class*="language-"] {
 .form-error {
   padding-left: 0;
 }
-
+// Form main
+.inline-links li {
+  display: inline-block;
+  margin-right: $half-spacing-unit;
+}
+.section-link {
+  font-family: $regular;
+}
