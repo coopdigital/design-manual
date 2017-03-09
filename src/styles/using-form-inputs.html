@@ -6,29 +6,18 @@ id: forms
 <article class="wrap">
     {% include breadcrumbs.html %}
 <div class="row"> 
-       <div class="column medium-4 small-12">
-        <nav>
-            <ul class="list-bare content-nav in-page-nav">
-                <li><a href="./forms.html">Before you start your form</a></li>
-                <li class="active-content">Using form inputs</li>
-                <li><a href="./form-patterns.html">Form patterns</a></li>
-            </ul>
-        </nav>
-  </div>
     <div class="column medium-7 small-12">
-        <h1 class="intro-text">Forms</h1>
-       <h2 class="h1">Using form inputs</h2>
-       <ul class="list-bare content-links">
+    <section>
+       <h1>Using form inputs</h1>
+       <ul class="list-bare content-links in-page-nav">
             <li><a href="#form-inputs">Form inputs</a></li>
             <li><a href="#radio-checkbox">Radio buttons and checkboxes</a></li>
             <li><a href="#text-entry">Text entry fields</a></li>
-            <li><a href="#text-input">Text input</a></li>  
-            <li><a href="#text-area">Text area</a></li>                 
+            <li><a href="#text-input">Text input</a></li>
+            <li><a href="#text-area">Text area</a></li>
             <li><a href="#submit-buttons">Submit buttons</a></li>
             <li><a href="#drop-down">Drop down lists</a></li>
         </ul>
-    <section>
-       
         <h2 id="form-inputs">Form inputs</h2>
             <p>Form inputs are any place in your form where you ask the user for data. They can include:</p>
                 <ul>
@@ -51,7 +40,7 @@ id: forms
                 <p>Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.</p>
 
                <div class="row">
-                <div class="column medium-8">
+                <div class="column medium-10 large-8">
                     <h3 class="example-heading"><span class="example_label">Example</span></h3>
                     <div class="example example--padded">
                         <fieldset>
@@ -70,7 +59,7 @@ id: forms
                             </label>
                             <p class="or">or</p>
                             <label class="block-label">
-                                <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
+                                <input type="checkbox" name="client_owns_none_of_the_above">You do not own any of these
                             </label>
                         </fieldset>
                     </div>
@@ -97,30 +86,28 @@ id: forms
                 <p>With a text input you must also make the length of the box appropriate for the amount of information needed: do not make it frustratingly short or intimidatingly long.</p>
 
                 <div class="row">
-                    <div class="column medium-8 small-12">
-                     <h3 class="example-heading"><span class="example_label">Example</span></h3> 
-                     <div class="example example--padded"> 
+                    <div class="column medium-10 large-8 small-12">
+                     <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                     <div class="example example--padded">
 
                     <fieldset>
                         <legend class="date-of-birth">Your date of birth</legend>
 
-                      <p class="hint date-hint">
-                        For example: 30 4 1980
-                      </p>
+                      <p class="hint date-hint">For example: 30 4 1980</p>
 
                       <div class="form-row inline date-of-birth-day">
-                        <label for="client-date-of-birth-day">Day <span class="visuallyhidden">(as 2 digits)</span></label>
-                        <input maxlength="2" pattern="[0-9]*" placeholder="DD" size="2" type="text" name="client[date-of-birth-day]" id="client-date-of-birth-day">
+                        <label for="client-date-of-birth-day" class="h6">Day <span class="visuallyhidden">(as 2 digits)</span></label>
+                        <input maxlength="2" pattern="[0-9]*" size="2" type="text" name="client[date-of-birth-day]" id="client-date-of-birth-day">
                       </div>
 
                       <div class="form-row inline date-of-birth-month">
-                        <label for="client-date-of-birth-month">Month <span class="visuallyhidden">(as 2 digits)</span></label>
-                        <input maxlength="2" pattern="[0-9]*" placeholder="MM" size="2" type="text" name="client[date-of-birth-month]" id="client-date-of-birth-month">
+                        <label for="client-date-of-birth-month" class="h6">Month <span class="visuallyhidden">(as 2 digits)</span></label>
+                        <input maxlength="2" pattern="[0-9]*" size="2" type="text" name="client[date-of-birth-month]" id="client-date-of-birth-month">
                       </div>
 
                       <div class="form-row inline date-of-birth-year">
-                        <label for="client-date-of-birth-year">Year <span class="visuallyhidden">(as 4 digits)</span></label>
-                        <input maxlength="4" pattern="[0-9]*" placeholder="YYYY" size="4" type="text" name="client[date-of-birth-year]" id="client-date-of-birth-year">
+                        <label for="client-date-of-birth-year" class="h6">Year <span class="visuallyhidden">(as 4 digits)</span></label>
+                        <input maxlength="4" pattern="[0-9]*" size="4" type="text" name="client[date-of-birth-year]" id="client-date-of-birth-year">
                       </div>
                     </fieldset>
 
@@ -140,7 +127,7 @@ id: forms
                 </ul>
 
                 <div class="row">
-                    <div class="column medium-8 small-12">
+                    <div class="column medium-10 large-8 small-12">
                         <h3 class="example-heading"><span class="example_label">Example</span></h3>
                         <div class="example example--padded">
                             <label for="feedback">Tell us what you liked or what we can improve</label>
@@ -182,19 +169,19 @@ id: forms
 
                 <ul>
                     <li>checkboxes or radio buttons for short lists</li>
-                    <li>type aheads (the user is offered a list of relevant suggestions as they type), such as <a href="#">Baymard's Country Selector,</a> for  longer lists such as country and county lists</li>
+                    <li>type aheads (the user is offered a list of relevant suggestions as they type), such as <a href="https://baymard.com/labs/country-selector" target="_blank">Baymard's Country Selector,</a> for  longer lists such as country and county lists</li>
                     <li>text entry fields if you do not need the answer to be matched with a back-end system</li>
                 </ul>
                 <p>Only use a drop down lists if you have  thorough research to support your decision.</p>
-                <p>Our recommendations on drop down lists is based on research by the <a href="#">Nielsen Norman Group</a> and <a href="#">Government Digital Service.</a></p>
-      
-               <h2>Next</h2>
-                <ul class="list-bare">
-                    <li class="next-content"><a href="./form-patterns.html">Form patterns</a></li>
+                <p>Our recommendations on drop down lists is based on research by the <a href="https://www.nngroup.com/articles/drop-down-menus-use-sparingly/" target="_blank">Nielsen Norman Group</a> and <a href="https://designpatterns.hackpad.com/Select-boxes-KzQ1IRd07HL" target="_blank">Government Digital Service.</a></p>
+
+                <h3 class="h2">Next</h3>
+                <ul class="list-bare content-link">
+                    <li><a href="./form-patterns.html">Form patterns</a></li>
                 </ul>
-    
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
     </section>
    </div>
- 
+
   </div>
 </article>
