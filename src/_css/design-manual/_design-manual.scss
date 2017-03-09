@@ -1,3 +1,17 @@
+// The start of tidying this
+// design manual classes should now be prefixed with dm-
+
+.dm-section {
+  // A bit shoncky we really need an addition to the mixin to allow spacing larger than 64px (the base size)
+  @include spacing('padding', 'bottom', 'half');
+  @include spacing('margin', 'bottom', 'base');
+}
+
+
+
+
+
+
 // Guilty messy file
 
 .list-heading {
@@ -5,7 +19,7 @@
 }
 
 .tile--equal {
-  min-height: 143px;
+  min-height: 150px;
 }
 
 .col--right {
@@ -427,11 +441,16 @@
   display: block;
   color: $body-copy;
   @include spacing('margin', 'bottom', 'half');
+}
 
-  h3 {
-    @include spacing('margin', 'bottom', 'half');
+.tile--link--block {
+  // To suit my anal need to align to the grid correctly.
+  position: relative;
+  top: 2px;
+
+  &:hover {
+    border: 1px solid $coop-border-grey;
   }
-
 }
 
 .type-sizes {
@@ -472,15 +491,17 @@ pre[class*="language-"] {
 .sprint-table {
   font-size: em-calc(20);
 
-  td {
+  td,
+  th {
     vertical-align: top;
   }
 
   li {
-    line-height: 1.2;
+    line-height: 1.6;
   }
 
-  a {
+  p,
+  li {
     font-size: em-calc(12);
   }
 }
