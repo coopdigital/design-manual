@@ -5,36 +5,35 @@ id: forms
 
 <article class="wrap">
     {% include breadcrumbs.html %}
-    <div class="row">
-        <div class="column medium-7 small-12">
-        <section>
-           <h1>Form patterns</h1>
-           <ul class="list-bare content-links in-page-nav">
-                <li><a href="#name-title">Asking for name and title</a></li>
-                <li><a href="#gender-sex">Asking for gender and sex</a></li>
-                <li><a href="#validation">Validation</a></li>
-                <li><a href="#address">Address</a></li>
-                <li><a href="#progressive-reveals">Progressive reveals</a></li>
-                <li><a href="#multi-forms">Multi-page forms</a></li>
-                <li><a href="#continue-back">Continue and back</a></li>
-                <li><a href="#progress-trackers">Progress trackers</a></li>
-            </ul>
-            <h2>Labelling elements</h2>
-            <h3 id="name-title">Asking for name and title</h3>
-                    <p>Only ask for name and title if it’s essential.The format of people’s names can vary. Some do not fit into conventional UK formats. It can be unnecessary and uncomfortable for users to define themselves using a title, or a separate first name — surname format.</p>
-                    <p>Never gather a title to assume gender.</p>
-                         <div class="row">
-                        <div class="column medium-10 large-8">
-                            <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                            <div class="example example--padded">
-                                <div class="form-row">
-                                    <label for="full-name">Full name</label>
-                                    <input id="full-name" type="text">
-                                </div>
-                                <div class="form-row">
-                                    <label for="childs-full-name">Your child’s full name</label>
-                                    <input id="childs-full-name" type="text">
-                                </div>
+<div class="row">
+    <div class="column medium-7 small-12">
+    <section>
+       <h1>Form patterns</h1>
+       <ul class="list-bare content-links in-page-nav">
+            <li><a href="#name-title">Asking for name and title</a></li>
+            <li><a href="#gender-sex">Asking for gender and sex</a></li>
+            <li><a href="#validation">Validation</a></li>
+            <li><a href="#address">Address</a></li>
+            <li><a href="#progressive-reveals">Progressive reveals</a></li>
+            <li><a href="#multi-forms">Multi-page forms</a></li>
+            <li><a href="#continue-back">Continue and back</a></li>
+            <li><a href="#progress-trackers">Progress trackers</a></li>
+        </ul>
+        <h2>Labelling elements</h2>
+        <h3 id="name-title">Asking for name and title</h3>
+                <p>Only ask for name and title if it’s essential.The format of people’s names can vary. Some do not fit into conventional UK formats. It can be unnecessary and uncomfortable for users to define themselves using a title, or a separate first name — surname format.</p>
+                <p>Never gather a title to assume gender.</p>
+                     <div class="row">
+                    <div class="column medium-10 large-8">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <div class="form-row">
+                                <label for="full-name">Full name</label>
+                                <input id="full-name" type="text">
+                            </div>
+                            <div class="form-row">
+                                <label for="childs-full-name">Your child’s full name</label>
+                                <input id="childs-full-name" type="text">
                             </div>
                         </div>
                     </div>
@@ -48,30 +47,24 @@ id: forms
                     <h2 id="validation" class="section-title">Validation</h2>
                     <p>We should be building services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.</p>
                     <p>Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.</p>
-
-                    <div class="row">
-                     <div class="column medium-10">
-                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
-
-                        <div class="example example--padded">
-
+                <div class="row">
+                 <div class="column medium-10">
+                    <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                    <div class="example example--padded">
                         <div class="message message-error">
                             <h2>There's a problem</h2>
-
                               <p>Check the form. You must:</p>
                               <ul class="list-bare">
                                   <li>Enter your full name</li>
                                   <li>Enter an email address</li>
                               </ul>
                         </div>
-
                         <fieldset>
                             <div class="form-row form-group-error">
                               <div class="field_with_errors"><label for="client_name">Your full name</label></div>
                               <p class="form-error">Enter your full name</p>
                               <div class="field_with_errors"><input class="name" type="text" value="" name="client[name]" id="client_name"></div>
                             </div>
-
                             <div class="form-row form-group-error">
                               <div class="field_with_errors"><label for="client_email_address">
                                 Your email address
@@ -82,12 +75,10 @@ id: forms
                             </div>
                         </fieldset>
                          </div>
-
                       </div>
                     </div>
-
+ 
                     <p>Find out more about <a href="/content.html#validation-messages">validation messages.</a></p>
-
                     <h2 id="address" class="section-title">Address</h2>
                     <p>Only ask for a user’s postal address if it is essential information we need to fulfil the service. Telling users how you will use their address may affect their answer: their delivery address may be different to an address we need to verify their identity.</p>
                     <div class="row">
