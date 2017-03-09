@@ -484,3 +484,67 @@ pre[class*="language-"] {
     font-size: em-calc(12);
   }
 }
+
+// Forms
+.content-nav {
+  li {
+    margin-top: $quarter-spacing-unit;
+    margin-bottom: $quarter-spacing-unit;
+      &:first-of-type {
+        font-family: $bold;
+        margin-top: 0;
+      }
+     }
+}
+.content-links li {
+  margin-bottom: $quarter-spacing-unit;
+}
+.section-title {
+  margin-top: $base-spacing-unit;
+}
+.example--padded {
+  padding: $quarter-spacing-unit;
+}
+// Address
+.date-of-birth-day, .date-of-birth-month, .date-of-birth-year {
+  display: inline-block;
+  margin-right: $quarter-spacing-unit;
+}
+.date-of-birth-day, .date-of-birth-month {
+  width: 17%;
+    @include media(large) {
+       width: 15%;
+    }
+}
+.date-of-birth-year {
+  width: 30%;
+    @include media(large) {
+       width: 20%;
+    }
+}
+
+// Error Validation
+.hint {
+  display: block;
+  font-size: 16px;
+  color: #6e6e6e;
+  margin-bottom: 0;
+}
+.form-group-error {
+  border-left: 2px solid $saleerror-red;
+  padding-left: $half-spacing-unit;
+}
+.message-error {
+  background-color: #fff;
+  padding: $half-spacing-unit;
+  border: 2px solid $saleerror-red;
+   ul {
+    color: $saleerror-red;
+   }
+}
+.icon-alert:before, .form-error:before, .message-error:before {
+  content: none;
+}
+.form-error {
+  padding-left: 0;
+}

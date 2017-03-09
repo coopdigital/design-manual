@@ -6,19 +6,20 @@ id: forms
 <article class="wrap">
     {% include breadcrumbs.html %}
 <div class="row"> 
-        <div class="column medium-4 small-12">
+        <div class="column medium-3 small-12">
         <nav>
-            <ul class="list-bare content-nav in-page-nav">
-                <li><a href="./forms.html">Before you start your form</a></li>
+            <ul class="list-bare content-nav">
+                <li class="h3">Forms</li>
+                <li><a href="./before-you-start-your-form.html">Before you start your form</a></li>
                 <li><a href="./using-form-inputs.html">Using form inputs</a></li>
                 <li class="active-content">Form patterns</li>
             </ul>
         </nav>
   </div>
     <div class="column medium-7 small-12">
-         <h1 class="intro-text">Forms</h1>
-       <h2 class="h1">Form patterns</h2>
-       <ul class="list-bare content-links">
+    <section>
+       <h1>Form patterns</h1>
+       <ul class="list-bare content-links in-page-nav">
             <li><a href="#name-title">Asking for name and title</a></li>
             <li><a href="#gender-sex">Asking for gender and sex</a></li>
             <li><a href="#validation">Validation</a></li>
@@ -28,14 +29,12 @@ id: forms
             <li><a href="#continue-back">Continue and back</a></li>
             <li><a href="#progress-trackers">Progress trackers</a></li>
         </ul>
-    <section>
-       
         <h2>Labelling elements</h2>
         <h3 id="name-title">Asking for name and title</h3>
                 <p>Only ask for name and title if it’s essential.The format of people’s names can vary. Some do not fit into conventional UK formats. It can be unnecessary and uncomfortable for users to define themselves using a title, or a separate first name — surname format.</p>
                 <p>Never gather a title to assume gender.</p>
                      <div class="row">
-                    <div class="column large-8">
+                    <div class="column medium-10 large-8">
                         <h3 class="example-heading"><span class="example_label">Example</span></h3>
                         <div class="example example--padded">
                             <div class="form-row">
@@ -61,7 +60,7 @@ id: forms
                 <p>Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.</p>
 
                 <div class="row">
-                 <div class="column large-10">
+                 <div class="column medium-10">
                     <h3 class="example-heading"><span class="example_label">Example</span></h3>
 
                     <div class="example example--padded">
@@ -102,7 +101,7 @@ id: forms
                 <h2 id="address" class="section-title">Address</h2>
                 <p>Only ask for a user’s postal address if it is essential information we need to fulfil the service. Telling users how you will use their address may affect their answer: their delivery address may be different to an address we need to verify their identity.</p>
                 <div class="row">
-                    <div class="column medium-8 small-12">
+                    <div class="column medium-10 large-8 small-12">
                     <h3 class="example-heading"><span class="example_label">Example</span></h3> 
                         <div class="example example--padded"> 
                         <h2>Address</h2>
@@ -116,7 +115,7 @@ id: forms
                 <p>You might need to ask users for more information because of how they answered a previous question. You can use a ‘progressive reveal’ to do this so you only show the extra form field to the users who need to see it.</p>
                 <p>Only use progressive reveals to ask for one piece of information. If you need to ask for more than one thing, do so on a separate screen.</p>
                 <div class="row">
-                    <div class="column medium-8">
+                    <div class="column medium-10 large-8">
                         <h3 class="example-heading"><span class="example_label">Example</span></h3>
                         <div class="example example--padded">
                             <form>
@@ -151,7 +150,7 @@ id: forms
                 <h2 id="progress-trackers" class="section-title">Progress trackers</h2>
                 <p>A progress tracker gives your users an indication of how far through a form they are. But they can be more problematic than helpful — they can get in the way and confuse users.</p>
                 <p>Only use a progress tracker if you have thorough research to support the decision.</p>
-    
+                <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
     </section>
    </div>
   </div>
