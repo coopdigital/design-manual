@@ -553,6 +553,7 @@ pre[class*="language-"] {
   margin-right: $half-spacing-unit;
 }
 .section-wrap {
+  border-bottom: 1px solid #EAEAEA;
  .title-link {
   border-bottom: 0;
    h2 {
@@ -571,7 +572,7 @@ pre[class*="language-"] {
 }
 
 #FeedbackForm {
-  padding-top: $base-spacing-unit;
+  padding-top: $half-spacing-unit;
   .tile {
     padding: 0;
   }
