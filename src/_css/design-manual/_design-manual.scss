@@ -548,3 +548,64 @@ pre[class*="language-"] {
 .form-error {
   padding-left: 0;
 }
+.inline-list li {
+  display: inline-block;
+  margin-right: $half-spacing-unit;
+}
+.section-wrap {
+  border-bottom: 1px solid #EAEAEA;
+ .title-link {
+  border-bottom: 0;
+   .h3 {
+    display: inline-block;
+    line-height: 1.1;
+    color: $coop-link-blue;
+    border-bottom: .075em solid $coop-link-blue;
+    @include spacing('margin', 'bottom', 'quarter');
+    font-family: $regular;
+   }
+ }
+}
+.legend-tap {
+   font-size: 16px;
+   font-family: $regular;
+}
+
+#FeedbackForm {
+  padding-top: $base-spacing-unit;
+  .tile {
+    padding: 0;
+  }
+  label {
+    font-size: 18px;
+    font-family: $regular;
+  }
+}
+
+.input-tap input[type=radio]+label {
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 7.5px 50px;
+    font-size: 16px;
+    border: 1px solid #c4c4c4;
+}
+
+.input-tap input[type=radio]:checked+label {
+    background: #3e464c;
+    border-color: #3e464c;
+    color: #fff;
+}
+
+input[type=radio] {
+    position: absolute;
+    left: -9999px;
+    width: 0;
+    height: 0;
+  }
+
+.slide-toggle-content {
+  outline: 0;
+  display: none;
+}
+

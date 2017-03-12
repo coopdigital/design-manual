@@ -1,9 +1,84 @@
+<section>
+ <div class="wrap">
+  <div class="row">
+   <div class="columns medium-7">
+    <div id="FeedbackForm">
+        <form action="/ethics/charity-partnership#FeedbackForm" method="POST">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NXn0kwkP3qo5LQ3UVkITkDckIfPNIFAQ" />
+            <div class="tile">
+                <div class="row">
+                    <div class="column">
+                        <div class="text">
+                            <h3>Feedback</h3>
+                        </div>
+                        <div class="form-row">
+
+                            <fieldset>
+                                <legend class="legend-tap">Did you find this useful?</legend>
+
+                                <div class="input input-tap">
+
+                                    <input id="id_like_0" name="like" type="radio" value="Good" />
+                                    <label for="id_like_0">Yes</label>
+
+                                    <input id="id_like_1" name="like" type="radio" value="Bad" />
+                                    <label for="id_like_1">No</label>
+
+                                </div>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile slide-toggle-content" id="FeedbackFormExpanded">
+                <div class="row">
+                    <div class="column">
+                        <div class="form-row">
+                            <div class="input input-textarea">
+
+                                <div class="input input-text">
+                                    <label for="id_comments">Tell us what you liked or what we can improve:</label>
+
+                                    <textarea cols="40" id="id_comments" name="comments" rows="5">
+                                    </textarea>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button class="btn btn-primary" type="submit">Send feedback</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+     </div>
+      </div>
+        </div>
+</section>
+
 <footer class="footer-main">
-    <div class="wrap legalese">
+     <div class="wrap legalese">
         <div class="row">
             <div class="small-12 column">
                 <p class="pull-left">Copyright &copy; Co-operative Group Limited. All rights reserved.</p>
             </div>
         </div>
-    </div>
+     </div>
 </footer>
+ {% comment %}
+<script type="text/javascript">
+    window.doorbellOptions = {
+        appKey: 'PW5QzlZF2Eg42rWNRwVkV47b1ow8oLgMG4VrFxDac8RBucuCNnNV1vPmxG0bJAn0'
+    };
+    (function(w, d, t) {
+        var hasLoaded = false;
+        function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/5838?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+        if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+        if (d.readyState == 'complete') { l(); }
+    }(window, document, 'script'));
+</script>
+      {% endcomment %}
