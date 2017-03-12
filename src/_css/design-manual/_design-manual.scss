@@ -553,10 +553,9 @@ pre[class*="language-"] {
   margin-right: $half-spacing-unit;
 }
 .section-wrap {
-  border-bottom: 1px solid #EAEAEA;
  .title-link {
   border-bottom: 0;
-   .h3 {
+   h2 {
     display: inline-block;
     line-height: 1.1;
     color: $coop-link-blue;
