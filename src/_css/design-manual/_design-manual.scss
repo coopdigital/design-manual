@@ -609,3 +609,25 @@ input[type=radio] {
   display: none;
 }
 
+.related-wrap {
+  margin-right:  $half-spacing-unit;
+}
+.related-side {
+  margin-top:  $quarter-spacing-unit;
+  border-top: 10px solid #00b1e7;
+  border-bottom: 2px solid #EAEAEA;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right:  $quarter-spacing-unit;
+  margin-left:  $quarter-spacing-unit;
+}
+
+.related-footer {
+  border-top: 2px solid #EAEAEA;
+  padding-top: $half-spacing-unit;
+  padding-bottom: $base-spacing-unit;
+}
+
+.footer-main {
+  margin-top: $half-spacing-unit;
+}
