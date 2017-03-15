@@ -451,6 +451,19 @@
   &:hover {
     border: 1px solid $coop-border-grey;
   }
+
+  h3 {
+    @include spacing('margin', 'bottom', 'eighth');
+    font-size: em-calc(20px);
+    font-family: $bold;
+    display: block;
+    border-bottom: 0;
+    color: $body-copy;
+
+    &:hover {
+      color: $body-copy;
+    }
+  }
 }
 
 .type-sizes {
