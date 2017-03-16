@@ -14,6 +14,7 @@ id: forms
             <li><a href="#gender-sex">Asking for gender and sex</a></li>
             <li><a href="#validation">Validation</a></li>
             <li><a href="#address">Address</a></li>  
+            <li><a href="#date-birth">Date of birth</a></li> 
             <li><a href="#progressive-reveals">Progressive reveals</a></li>                 
             <li><a href="#multi-forms">Multi-page forms</a></li>
             <li><a href="#continue-back">Continue and back</a></li>
@@ -101,6 +102,39 @@ id: forms
                         </div>
                     </div>
                 </div>
+
+                <h2 id="date-birth" class="section-title">Date of birth</h2>
+                <p>Date of birth text to go here</p>
+
+                <div class="row">
+                    <div class="column medium-10 large-8 small-12">
+                     <h3 class="example-heading"><span class="example_label">Example</span></h3> 
+                     <div class="example example--padded"> 
+
+                    <fieldset>
+                        <legend class="date-of-birth">Your date of birth</legend>
+
+                      <p class="hint date-hint">For example: 30 4 1980</p>
+
+                      <div class="form-row inline date-of-birth-day">
+                        <label for="client-date-of-birth-day" class="h6">Day <span class="visuallyhidden">(as 2 digits)</span></label>
+                        <input maxlength="2" pattern="[0-9]*" size="2" type="text" name="client[date-of-birth-day]" id="client-date-of-birth-day">
+                      </div>
+
+                      <div class="form-row inline date-of-birth-month">
+                        <label for="client-date-of-birth-month" class="h6">Month <span class="visuallyhidden">(as 2 digits)</span></label>
+                        <input maxlength="2" pattern="[0-9]*" size="2" type="text" name="client[date-of-birth-month]" id="client-date-of-birth-month">
+                      </div>
+
+                      <div class="form-row inline date-of-birth-year">
+                        <label for="client-date-of-birth-year" class="h6">Year <span class="visuallyhidden">(as 4 digits)</span></label>
+                        <input maxlength="4" pattern="[0-9]*" size="4" type="text" name="client[date-of-birth-year]" id="client-date-of-birth-year">
+                      </div>
+                    </fieldset>
+
+                     </div>
+                    </div>
+                </div>
                 <h2 id="progressive-reveals" class="section-title">Progressive reveals</h2>
                 <p>You might need to ask users for more information because of how they answered a previous question. You can use a ‘progressive reveal’ to do this so you only show the extra form field to the users who need to see it.</p>
                 <p>Only use progressive reveals to ask for one piece of information. If you need to ask for more than one thing, do so on a separate screen.</p>
@@ -148,7 +182,7 @@ id: forms
            </div>
     </section>
    </div>
-       <div class="column large-3 small-12 col--right side-box-wrap">
+       <div class="column large-3 small-12 col--right side-box-wrap hide-small">
             <ul class="list-bare content-links side-box grey-border">
                 <li><a href="designing-forms.html">Designing forms</a></li>
                 <li><a href="form-inputs.html">Form inputs</a></li>

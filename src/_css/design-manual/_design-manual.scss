@@ -546,6 +546,10 @@ pre[class*="language-"] {
     }
 }
 
+.ccv-number {
+  width: 25%;
+}
+
 // Error Validation
 .hint {
   display: block;
@@ -585,14 +589,18 @@ pre[class*="language-"] {
     color: $coop-link-blue;
     border-bottom: .075em solid $coop-link-blue;
       @include spacing('margin', 'bottom', 'quarter');
-      font-family: $regular;
+        font-family: $regular;
       }
   }
 }
 .legend-tap {
-   font-size: 20px;
+   font-size: 16px;
    font-family: $regular;
    margin-bottom: $quarter-spacing-unit;
+      @include media(large) {
+         font-size: 20px;
+      }
+
 }
 
 //Feedback content
@@ -602,19 +610,31 @@ pre[class*="language-"] {
     padding: 0;
   }
   .input-textarea  label {
-    font-size: 20px;
+    font-size: 16px;
     font-family: $regular;
+      @include media(large) {
+         font-size: 20px;
+      }
   }
   textarea {
     margin-top: $quarter-spacing-unit;
   }
    .block-label {
-    width: 45%;
+    width: 51%;
     display: inline-block;
     margin-right: $quarter-spacing-unit;
-    @include media(large) {
-       width: 25%;
-    }
+    font-size: 16px;
+    padding-top: 22px;
+      @include media(large) {
+         width: 29%;
+         padding-top: 18px;
+         font-size: 20px;
+      }
+        @include media(xlarge) {
+         width: 25%;
+         padding-top: 18px;
+         font-size: 20px;
+      }
   }
 }
 
@@ -644,14 +664,14 @@ pre[class*="language-"] {
 
 .grey-border {
   border-top: 5px solid $mid-grey;
-     @include media(medium) {
+     @include media(large) {
          border-top: 10px solid $mid-grey;
     }
 }
 
 .green-border {
   border-top: 5px solid #9fad37;
-   @include media(medium) {
+   @include media(large) {
          border-top: 10px solid #9fad37;
     }
 }
