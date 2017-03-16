@@ -485,6 +485,12 @@ pre[class*="language-"] {
   }
 }
 
+// Update
+
+.update-box {
+   border-top: 10px solid $mid-grey;
+}
+
 // Forms
 .content-links li {
   margin-bottom: $quarter-spacing-unit;
@@ -559,6 +565,7 @@ pre[class*="language-"] {
 .legend-tap {
    font-size: 16px;
    font-family: $regular;
+   margin-bottom: $quarter-spacing-unit;
 }
 
 //Feedback content
@@ -571,6 +578,9 @@ pre[class*="language-"] {
     font-size: 18px;
     font-family: $regular;
   }
+  textarea {
+    margin-top: $quarter-spacing-unit;
+  }
 }
 
 .input-tap input[type=radio]+label {
@@ -578,6 +588,7 @@ pre[class*="language-"] {
     border-radius: 2px;
     cursor: pointer;
     padding: 7.5px 50px;
+    margin-right: $quarter-spacing-unit;
     font-size: 16px;
     border: 1px solid #c4c4c4;
 }
@@ -606,7 +617,7 @@ input[type=radio] {
 }
 .related-side {
   margin-top:  $quarter-spacing-unit;
-  border-top: 10px solid #e5e5e5;
+  border-top: 10px solid $mid-grey;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right:  $quarter-spacing-unit;

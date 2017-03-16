@@ -3,8 +3,11 @@
   <div class="row">
    <div class="columns medium-7">
     <div id="FeedbackForm">
-        <form action="/" method="POST">
-            <input type="hidden" name="" value="" />
+        <form action="https://formspree.io/lee.murray@coopdigital.co.uk" method="POST">
+            <input type="hidden" name="_next" value="http://localhost:9000/feedback.html" />
+            <input type="hidden" name="_subject" value="New feedback for design manual" />
+            <input type="hidden" name="_cc" value="uxeskimo@gmail.com" />
+            <input type="hidden" name="_format" value="plain" />
             <div class="tile">
                 <div class="row">
                     <div class="column">
@@ -15,16 +18,15 @@
 
                             <fieldset>
                                 <legend class="legend-tap">Did you find this useful?</legend>
+                                    <div class="input input-tap">
 
-                                <div class="input input-tap">
+                                        <input id="id_like_0" name="like" type="radio" value="Good" />
+                                        <label for="id_like_0">Yes</label>
 
-                                    <input id="id_like_0" name="like" type="radio" value="Good" />
-                                    <label for="id_like_0">Yes</label>
+                                        <input id="id_like_1" name="like" type="radio" value="Bad" />
+                                        <label for="id_like_1">No</label>
 
-                                    <input id="id_like_1" name="like" type="radio" value="Bad" />
-                                    <label for="id_like_1">No</label>
-
-                                </div>
+                                    </div>
                             </fieldset>
 
                         </div>
@@ -40,8 +42,7 @@
                                 <div class="input input-text">
                                     <label for="id_comments">Tell us what you liked or what we can improve:</label>
 
-                                    <textarea cols="40" id="id_comments" name="comments" rows="5">
-                                    </textarea>
+                                    <textarea cols="40" id="id_comments" name="comments" rows="5"></textarea>
 
                                 </div>
 
@@ -69,16 +70,3 @@
         </div>
      </div>
 </footer>
- {% comment %}
-<script type="text/javascript">
-    window.doorbellOptions = {
-        appKey: 'PW5QzlZF2Eg42rWNRwVkV47b1ow8oLgMG4VrFxDac8RBucuCNnNV1vPmxG0bJAn0'
-    };
-    (function(w, d, t) {
-        var hasLoaded = false;
-        function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/5838?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
-        if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
-        if (d.readyState == 'complete') { l(); }
-    }(window, document, 'script'));
-</script>
-      {% endcomment %}
