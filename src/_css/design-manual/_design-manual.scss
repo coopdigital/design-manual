@@ -485,10 +485,37 @@ pre[class*="language-"] {
   }
 }
 
-// Update
+// General
+.hide-small {
+  display: none;
+    @include media(large) {
+      display: block;
+    }
+}
 
-.update-box {
-   border-top: 10px solid $mid-grey;
+// Home
+.landing-content {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+       @include media(large) {
+      display: block;
+    }
+}
+.intro-content {
+  order: 2;
+    @include media(large) {
+       order: 1;
+    }
+}
+.side-box-wrap {
+  order: 1;
+     @include media(large) {
+       order: 2;
+    }
 }
 
 // Forms
@@ -563,7 +590,7 @@ pre[class*="language-"] {
   }
 }
 .legend-tap {
-   font-size: 16px;
+   font-size: 20px;
    font-family: $regular;
    margin-bottom: $quarter-spacing-unit;
 }
@@ -574,37 +601,22 @@ pre[class*="language-"] {
   .tile {
     padding: 0;
   }
-  label {
-    font-size: 18px;
+  .input-textarea  label {
+    font-size: 20px;
     font-family: $regular;
   }
   textarea {
     margin-top: $quarter-spacing-unit;
   }
-}
-
-.input-tap input[type=radio]+label {
+   .block-label {
+    width: 45%;
     display: inline-block;
-    border-radius: 2px;
-    cursor: pointer;
-    padding: 7.5px 50px;
     margin-right: $quarter-spacing-unit;
-    font-size: 16px;
-    border: 1px solid #c4c4c4;
-}
-
-.input-tap input[type=radio]:checked+label {
-    background: #3e464c;
-    border-color: #3e464c;
-    color: #fff;
-}
-
-input[type=radio] {
-    position: absolute;
-    left: -9999px;
-    width: 0;
-    height: 0;
+    @include media(large) {
+       width: 25%;
+    }
   }
+}
 
 .slide-toggle-content {
   outline: 0;
@@ -612,16 +624,36 @@ input[type=radio] {
 }
 
 //Side/bottom content
-.related-wrap {
-  margin-right:  $half-spacing-unit;
+.side-box-wrap {
+    @include media(large) {
+      margin-right:  $half-spacing-unit;
+  }
 }
-.related-side {
+.side-box {
+  width: 50%;
   margin-top:  $quarter-spacing-unit;
-  border-top: 10px solid $mid-grey;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-right:  $quarter-spacing-unit;
-  margin-left:  $quarter-spacing-unit;
+  padding-top: $quarter-spacing-unit;
+  padding-bottom: $quarter-spacing-unit;
+    @include media(large) {
+       width: 100%;
+    }
+    h3 {
+      padding-top: 0;
+    }
+}
+
+.grey-border {
+  border-top: 5px solid $mid-grey;
+     @include media(medium) {
+         border-top: 10px solid $mid-grey;
+    }
+}
+
+.green-border {
+  border-top: 5px solid #9fad37;
+   @include media(medium) {
+         border-top: 10px solid #9fad37;
+    }
 }
 
 .related-footer {

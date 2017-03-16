@@ -12,20 +12,22 @@
                 <div class="row">
                     <div class="column">
                         <div class="text">
-                            <h3>Feedback</h3>
+                            <h3 class="h2">Feedback</h3>
                         </div>
                         <div class="form-row">
 
                             <fieldset>
                                 <legend class="legend-tap">Did you find this useful?</legend>
                                     <div class="input input-tap">
-
+                                        <label for="id_like_0" class="block-label">
                                         <input id="id_like_0" name="like" type="radio" value="Good" />
-                                        <label for="id_like_0">Yes</label>
-
+                                        Yes</label>
+                                        <label for="id_like_1" class="block-label">
                                         <input id="id_like_1" name="like" type="radio" value="Bad" />
-                                        <label for="id_like_1">No</label>
-
+                                        No</label>
+                                         <label for="id_like_2" class="block-label">
+                                        <input id="id_like_2" name="like" type="radio" value="Other" />
+                                        Other</label>
                                     </div>
                             </fieldset>
 
@@ -60,7 +62,7 @@
       </div>
         </div>
 </section>
-
+ {% comment %}
 <footer class="footer-main">
      <div class="wrap legalese">
         <div class="row">
@@ -70,3 +72,4 @@
         </div>
      </div>
 </footer>
+  {% endcomment %}
