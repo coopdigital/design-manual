@@ -10,8 +10,6 @@
 
 
 
-
-
 // Guilty messy file
 
 .list-heading {
@@ -19,7 +17,7 @@
 }
 
 .tile--equal {
-  min-height: 150px;
+  min-height: 143px;
 }
 
 .col--right {
@@ -441,29 +439,11 @@
   display: block;
   color: $body-copy;
   @include spacing('margin', 'bottom', 'half');
-}
-
-.tile--link--block {
-  // To suit my anal need to align to the grid correctly.
-  position: relative;
-  top: 2px;
-
-  &:hover {
-    border: 1px solid $coop-border-grey;
-  }
 
   h3 {
-    @include spacing('margin', 'bottom', 'eighth');
-    font-size: em-calc(20px);
-    font-family: $bold;
-    display: block;
-    border-bottom: 0;
-    color: $body-copy;
-
-    &:hover {
-      color: $body-copy;
-    }
+    @include spacing('margin', 'bottom', 'half');
   }
+
 }
 
 .type-sizes {
@@ -504,32 +484,53 @@ pre[class*="language-"] {
 .sprint-table {
   font-size: em-calc(20);
 
-  td,
-  th {
+  td {
     vertical-align: top;
   }
 
   li {
-    line-height: 1.6;
+    line-height: 1.2;
   }
 
-  p,
-  li {
+  a {
     font-size: em-calc(12);
   }
 }
 
-// Forms
-.content-nav {
-  li {
-    margin-top: $quarter-spacing-unit;
-    margin-bottom: $quarter-spacing-unit;
-      &:first-of-type {
-        font-family: $bold;
-        margin-top: 0;
-      }
-     }
+// General
+.hide-small {
+  display: none;
+    @include media(large) {
+      display: block;
+    }
 }
+
+// Home
+.landing-content {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+       @include media(large) {
+      display: block;
+    }
+}
+.intro-content {
+  order: 2;
+    @include media(large) {
+       order: 1;
+    }
+}
+.side-box-wrap {
+  order: 1;
+     @include media(large) {
+       order: 2;
+    }
+}
+
+// Forms
 .content-links li {
   margin-bottom: $quarter-spacing-unit;
 }
@@ -557,6 +558,10 @@ pre[class*="language-"] {
     }
 }
 
+.ccv-number {
+  width: 25%;
+}
+
 // Error Validation
 .hint {
   display: block;
@@ -582,74 +587,114 @@ pre[class*="language-"] {
 .form-error {
   padding-left: 0;
 }
-
-// Form main
-.inline-links li {
+.inline-list li {
   display: inline-block;
   margin-right: $half-spacing-unit;
 }
-.section-link {
-  font-family: $regular;
+.section-wrap {
+  border-bottom: 1px solid #EAEAEA;
+ .title-link {
+  border-bottom: 0;
+   h2 {
+    display: inline-block;
+    line-height: 1.1;
+    color: $coop-link-blue;
+    border-bottom: .075em solid $coop-link-blue;
+      @include spacing('margin', 'bottom', 'quarter');
+        font-family: $regular;
+      }
+  }
+}
+.legend-tap {
+   font-size: 16px;
+   font-family: $regular;
+   margin-bottom: $quarter-spacing-unit;
+      @include media(large) {
+         font-size: 20px;
+      }
+
 }
 
-.content-nav {
-	padding-left: 24px;
-	border-left: 10px solid #00b1e7;
-	li {
-		margin-top: $quarter-spacing-unit;
-		margin-bottom: $quarter-spacing-unit;
-	   }
-	   .content-title {
-	   	font-family: $bold;
-	   }
-	   .active-content {
-			font-family: $bold;
-			margin-left: $eighth-spacing-unit;
-	   }
-	a {
-			margin-left: $eighth-spacing-unit;
-	}
-}
-.bottom-nav {
-	border-left: 10px solid #00b1e7;
-	li {
-		&:first-of-type {
-			font-family: $bold;
-		}
-	}
-}
-	.next-content {
-		margin-bottom: $quarter-spacing-unit;
-	}
-.example-wrap {
-	border: 1px solid #c4c4c4;
-	padding: $quarter-spacing-unit;
-}
-.content-links li {
-	margin-bottom: $quarter-spacing-unit;
+//Feedback content
+#FeedbackForm {
+  padding-top: $half-spacing-unit;
+  .tile {
+    padding: 0;
+  }
+  .input-textarea  label {
+    font-size: 16px;
+    font-family: $regular;
+      @include media(large) {
+         font-size: 20px;
+      }
+  }
+  textarea {
+    margin-top: $quarter-spacing-unit;
+  }
+   .block-label {
+    width: 51%;
+    display: inline-block;
+    margin-right: $quarter-spacing-unit;
+    font-size: 16px;
+    padding-top: 22px;
+      @include media(large) {
+         width: 29%;
+         padding-top: 18px;
+         font-size: 20px;
+      }
+        @include media(xlarge) {
+         width: 25%;
+         padding-top: 18px;
+         font-size: 20px;
+      }
+  }
 }
 
- .form-row.inline {
- 	display: inline-block;
- 	margin-right: $quarter-spacing-unit;
- }
- .section-title {
- 	margin-top: $base-spacing-unit;
- }
-
- .example--padded {
- 	padding: $quarter-spacing-unit;
- }
-
-.hint {
-    font-size: 1rem;
-    color: #6e6e6e;
-    margin-top: 1.5px;
-    display: block;
-    font-family: "AvenirNextLTW01-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.slide-toggle-content {
+  outline: 0;
+  display: none;
 }
-.bottom-nav-wrap {
-	border-top: 1px solid #e6e6e6;
-	padding-top: $half-spacing-unit;
-	padding-bottom: $half-spacing-unit;
+
+//Side/bottom content
+.side-box-wrap {
+    @include media(large) {
+      margin-right:  $half-spacing-unit;
+  }
+}
+.side-box {
+  width: 50%;
+  margin-top:  $quarter-spacing-unit;
+  padding-top: $quarter-spacing-unit;
+  padding-bottom: $quarter-spacing-unit;
+    @include media(large) {
+       width: 100%;
+    }
+    h3 {
+      padding-top: 0;
+    }
+}
+
+.grey-border {
+  border-top: 5px solid $mid-grey;
+     @include media(large) {
+         border-top: 10px solid $mid-grey;
+    }
+}
+
+.green-border {
+  border-top: 5px solid #9fad37;
+   @include media(large) {
+         border-top: 10px solid #9fad37;
+    }
+}
+
+.related-footer {
+  border-bottom: 2px solid #EAEAEA;
+  padding-bottom: $half-spacing-unit;
+  padding-bottom: $quarter-spacing-unit;
+}
+
+//Footer
+.footer-main {
+  margin-top: $quarter-spacing-unit;
 }

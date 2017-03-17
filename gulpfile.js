@@ -47,7 +47,8 @@ var settings = {
   },
   include: {
     includePaths: [
-      __dirname + '/node_modules'
+      __dirname + '/node_modules',
+      __dirname + '/src/_js'
     ]
   }
 };

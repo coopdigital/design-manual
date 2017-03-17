@@ -1,9 +1,75 @@
+<section>
+ <div class="wrap">
+  <div class="row">
+   <div class="columns medium-7">
+    <div id="FeedbackForm">
+        <form action="https://formspree.io/lee.murray@coopdigital.co.uk" method="POST">
+            <input type="hidden" name="_next" value="http://localhost:9000/feedback.html" />
+            <input type="hidden" name="_subject" value="New feedback for design manual" />
+            <input type="hidden" name="_cc" value="uxeskimo@gmail.com" />
+            <input type="hidden" name="_format" value="plain" />
+            <div class="tile">
+                <div class="row">
+                    <div class="column">
+                        <div class="text">
+                            <h3 class="h2">Feedback</h3>
+                        </div>
+                        <div class="form-row">
+
+                            <fieldset>
+                                <legend class="legend-tap">Did you find this useful?</legend>
+                                    <div class="input input-tap">
+                                        <label for="id_like_0" class="block-label">
+                                        <input id="id_like_0" name="like" type="radio" value="Good" />
+                                        Yes</label>
+                                        <label for="id_like_1" class="block-label">
+                                        <input id="id_like_1" name="like" type="radio" value="Bad" />
+                                        No</label>
+                                         <label for="id_like_2" class="block-label">
+                                        <input id="id_like_2" name="like" type="radio" value="Other" />
+                                        Other</label>
+                                    </div>
+                            </fieldset>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tile slide-toggle-content" id="FeedbackFormExpanded">
+                <div class="row">
+                    <div class="column">
+                        <div class="form-row">
+                            <div class="input input-textarea">
+
+                                <div class="input input-text">
+                                    <label for="id_comments">Tell us what you liked or what we can improve:</label>
+
+                                    <textarea cols="40" id="id_comments" name="comments" rows="5"></textarea>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button class="btn btn-primary" type="submit">Send feedback</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+     </div>
+      </div>
+        </div>
+</section>
+ {% comment %}
 <footer class="footer-main">
-    <div class="wrap legalese">
+     <div class="wrap legalese">
         <div class="row">
             <div class="small-12 column">
                 <p class="pull-left">Copyright &copy; Co-operative Group Limited. All rights reserved.</p>
             </div>
         </div>
-    </div>
+     </div>
 </footer>
+  {% endcomment %}
