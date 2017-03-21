@@ -4,11 +4,15 @@
 .dm-section {
   // A bit shoncky we really need an addition to the mixin to allow spacing larger than 64px (the base size)
   @include spacing('padding', 'bottom', 'half');
-  @include spacing('margin', 'bottom', 'base');
+  @include spacing('margin', 'bottom', 'half');
 }
 
 .dm-intro-section {
   @include spacing('margin', 'bottom', 'base');
+}
+
+.dm-related-section {
+  @include spacing('margin', 'bottom', 'quarter');
 }
 
 // Guilty messy file
@@ -535,9 +539,6 @@ pre[class*="language-"] {
 .content-links li {
   margin-bottom: $quarter-spacing-unit;
 }
-.section-title {
-  margin-top: $base-spacing-unit;
-}
 .example--padded {
   padding: $quarter-spacing-unit;
 }
@@ -593,7 +594,11 @@ pre[class*="language-"] {
   margin-right: $half-spacing-unit;
 }
 .section-wrap {
-  border-bottom: 1px solid #EAEAEA;
+  border-bottom: 2px solid #EAEAEA;
+  margin-bottom: $base-spacing-unit;
+  &:last-of-type {
+    margin-bottom: $half-spacing-unit;
+  }
  .title-link {
   border-bottom: 0;
    h2 {
@@ -618,9 +623,12 @@ pre[class*="language-"] {
 
 //Feedback content
 #FeedbackForm {
-  padding-top: $half-spacing-unit;
+  .h2 {
+    padding-top: 0;
+  }
   .tile {
     padding: 0;
+    margin-bottom: 0;
   }
   .input-textarea  label {
     font-size: 16px;
@@ -632,23 +640,17 @@ pre[class*="language-"] {
   textarea {
     margin-top: $quarter-spacing-unit;
   }
+  .block-label input[type=radio], .block-label input[type=checkbox] {
+    top: 19px;
+  }
    .block-label {
-    width: 51%;
+    width: 118px;
+    min-width: 118px;
     display: inline-block;
     margin-right: $quarter-spacing-unit;
     font-size: 16px;
-    padding-top: 22px;
-      @include media(large) {
-         width: 29%;
-         padding-top: 18px;
-         font-size: 20px;
-      }
-        @include media(xlarge) {
-         width: 25%;
-         padding-top: 18px;
-         font-size: 20px;
-      }
-  }
+    padding: 15px 47px;
+}
 }
 
 .slide-toggle-content {
@@ -692,7 +694,15 @@ pre[class*="language-"] {
 .related-footer {
   border-bottom: 2px solid #EAEAEA;
   padding-bottom: $half-spacing-unit;
-  padding-bottom: $quarter-spacing-unit;
+  margin-bottom: $half-spacing-unit;
+   @include media(large) {
+     padding-bottom: $base-spacing-unit;
+     margin-bottom: $base-spacing-unit;
+
+   }
+   ul {
+    margin-bottom: 0;
+   }
 }
 
 //Footer

@@ -7,7 +7,7 @@ id: forms
     {% include breadcrumbs.html %}
     <div class="row">
         <div class="column medium-7 small-12">
-            <section>
+             <header>
                <h1>Form patterns</h1>
                <ul class="list-bare content-links in-page-nav">
                     <li><a href="#name-title">Asking for name and title</a></li>
@@ -20,6 +20,8 @@ id: forms
                     <li><a href="#continue-back">Continue and back</a></li>
                     <li><a href="#progress-trackers">Progress trackers</a></li>
                 </ul>
+            </header>
+            <section id="#name-title" class="dm-section">
                 <h2>Labelling elements</h2>
                 <h3 id="name-title">Asking for name and title</h3>
                 <p>Only ask for name and title if it’s essential.</p>
@@ -41,13 +43,17 @@ id: forms
                     </div>
                 </div>
                 <p>Find out more on <a href="#">how we ask for names and titles.</a></p>
-                <h3 id="gender-sex" class="section-title">Asking for gender and sex</h3>
+              </section>
+              <section id="gender-sex" class="dm-section">
+                <h3>Asking for gender and sex</h3>
                 <p>Do not ask unless you can justify why you're asking.</p>
                 <p>As with gathering a ‘title’, some users may feel uneasy giving this information.</p>
                 <p>If you’re gathering information to use to address the user later, ask what pronoun they prefer - he/him, she/her, they/them. See <a href="http:/techland.time.com/2014/02/14/a-comprehensive-guide-to-facebooks-new-options-for-gender-identity/">how Facebook offers gender options</a>.</p>
                 <p>If you do need to know, ask about a person’s ‘gender’, not their sex. Allow them to tell us in their own words with a text entry field.</p>
                 <p>But ultimately - if you do not need to know - do not ask.</p>
-                <h2 id="validation" class="section-title">Validation</h2>
+               </section>
+               <section id="validation" class="dm-section">
+                <h2>Validation</h2>
                 <p>Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.</p>
                 <p>Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.</p>
                 <div class="row">
@@ -81,7 +87,9 @@ id: forms
                       </div>
                     </div>
                     <p>Find out more about <a href="/content.html#validation-messages">validation messages.</a></p>
-                    <h2 id="address" class="section-title">Address</h2>
+                   </section>
+                   <section id="address" class="dm-section">
+                    <h2>Address</h2>
                     <p><a href"/designing-forms.html">Know why you’re asking</a> for an address and tell users why you’re asking.</p>
                     <p>You might need to ask for addresses when you:</p>
                     <ul>
@@ -102,7 +110,9 @@ id: forms
                             </div>
                         </div>
                     </div>
-                    <h2 id="date-birth" class="section-title">Date of birth</h2>
+                   </section>
+                   <section id="date-birth" class="dm-section">
+                    <h2>Date of birth</h2>
                     <p>Allow users to enter the date as flexibly as possible, for example, allowing 'Jan' as well as '1', or '01' for a month input.</p>
                     <p>Use the length of the text input field to indicate the format. If research shows that more clarification is needed, use hint text (static text that sits outside of the text entry field) rather than placeholder text (text that sits within the text entry field).</p>
                     <p>Do not auto tab between fields — this can be unnerving for some users and can make it difficult to edit mistakes.</p>
@@ -129,7 +139,9 @@ id: forms
                     </div>
                 </div>
             </div>
-            <h2 id="progressive-reveals" class="section-title">Progressive reveals</h2>
+           </section>
+           <section id="progressive-reveals" class="dm-section">
+            <h2>Progressive reveals</h2>
             <p>You might need to ask users for more information because of how they answered a previous question. You can use a ‘progressive reveal’ to do this so you only show the extra form field to the users who need to see it.</p>
             <p>Only use progressive reveals to ask for one piece of information. If you need to ask for more than one thing, do so on a separate screen.</p>
             <div class="row">
@@ -158,7 +170,9 @@ id: forms
                     </div>
                 </div>
             </div>
-            <h2 id ="continue-back" class="section-title">Continue and back</h3>
+           </section>
+           <section id="continue-back" class="dm-section">
+            <h2>Continue and back</h3>
             <p>If you're building a multi-page form, allow users to move through it with a ‘continue’ button and a ‘back’ link.</p>
             <p>Encourage users to progress through the form by:</p>
             <ul>
@@ -166,9 +180,12 @@ id: forms
                 <li>positioning the continue button at the bottom left of each page so it’s easier for users to see and become familiar with where it is</li>
                 <li>making the continue button active, always  — if a user tries to progress without completing the necessary information, run <a href="/content.html#validation-messages">validation messages</a> to tell your user what the error is and how to fix it</p>
             </ul>
-            <h2 id="progress-trackers" class="section-title">Progress trackers</h2>
+           </section>
+           <section class="dm-section" id="progress-trackers">
+            <h2>Progress trackers</h2>
             <p>A progress tracker gives users an indication of how far through a form they are. But they can also get in the way and confuse users.</p>
             <p>Only use a progress tracker if you have thorough research to support the decision. If you do, let the Design Team know: email <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>
+           </section>
                 <div class="related-footer">
                     <h3>More about forms</h3>
                     <ul class="list-bare content-links">
@@ -176,7 +193,6 @@ id: forms
                         <li><a href="form-inputs.html">Form inputs</a></li>
                     </ul>
                </div>
-            </section>
         </div>
         <div class="column large-3 small-12 col--right side-box-wrap hide-small">
             <ul class="list-bare content-links side-box grey-border">
