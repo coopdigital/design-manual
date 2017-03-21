@@ -620,7 +620,6 @@ pre[class*="language-"] {
       @include media(large) {
          font-size: 20px;
       }
-
 }
 
 //Feedback content
@@ -670,7 +669,7 @@ pre[class*="language-"] {
 //Side/bottom content
 .side-box-wrap {
     @include media(large) {
-      margin-right:  $half-spacing-unit;
+      margin-right: $half-spacing-unit;
   }
 }
 .side-box {
