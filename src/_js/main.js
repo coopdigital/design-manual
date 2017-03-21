@@ -77,4 +77,14 @@ $(function(){
   $(".block-label").find("input[type=checkbox], input[type=radio]").each(function(){
     toggleInputLabelClass(this);
   });
+
+  $(".block-label input[type='radio']").on( 'click', function() {
+    if ($("#id_like_0").is(":checked")) {
+         $("#feedback-comment").html( "Yes text" );
+    } else if ($("#id_like_1").is(":checked")) {
+         $("#feedback-comment").html( "No text" );
+  } else if ($("#id_like_2").is(":checked")) {
+         $("#feedback-comment").html( "Other text" );
+    }
+});
 });
