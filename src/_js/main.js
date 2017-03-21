@@ -80,7 +80,7 @@ $(function(){
 
   $(".block-label input[type='radio']").on( 'click', function() {
     if ($("#id_like_0").is(":checked")) {
-         $("#feedback-comment").html( "Yes text" );
+         $("#feedback-comment").html( "Tell us why" );
     } else if ($("#id_like_1").is(":checked")) {
          $("#feedback-comment").html( "No text" );
   } else if ($("#id_like_2").is(":checked")) {
