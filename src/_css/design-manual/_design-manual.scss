@@ -667,11 +667,7 @@ pre[class*="language-"] {
 }
 
 //Side/bottom content
-.side-box-wrap {
-    @include media(large) {
-      margin-right: $half-spacing-unit;
-  }
-}
+
 .side-box {
   width: 50%;
   margin-top:  $quarter-spacing-unit;
