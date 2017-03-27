@@ -675,6 +675,7 @@ pre[class*="language-"] {
   padding-bottom: $quarter-spacing-unit;
     @include media(large) {
        width: 100%;
+       margin-top:  $quarter-spacing-unit/2;
     }
     h3 {
       padding-top: 0;
