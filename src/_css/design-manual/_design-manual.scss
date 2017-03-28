@@ -1,3 +1,20 @@
+// The start of tidying this
+// design manual classes should now be prefixed with dm-
+
+.dm-section {
+  // A bit shoncky we really need an addition to the mixin to allow spacing larger than 64px (the base size)
+  @include spacing('padding', 'bottom', 'half');
+  @include spacing('margin', 'bottom', 'half');
+}
+
+.dm-intro-section {
+  @include spacing('margin', 'bottom', 'base');
+}
+
+.dm-related-section {
+  @include spacing('margin', 'bottom', 'quarter');
+}
+
 // Guilty messy file
 
 .list-heading {
@@ -6,6 +23,10 @@
 
 .tile--equal {
   min-height: 143px;
+}
+
+.col--right {
+  float: right;
 }
 
 .header-design-manual {
@@ -463,4 +484,233 @@
 
 pre[class*="language-"] {
    @include spacing('margin', 'bottom', 'half');
+}
+
+.sprint-table {
+  font-size: em-calc(20);
+
+  td {
+    vertical-align: top;
+  }
+
+  li {
+    line-height: 1.2;
+  }
+
+  a {
+    font-size: em-calc(12);
+  }
+}
+
+// General
+.hide-small {
+  display: none;
+    @include media(large) {
+      display: block;
+    }
+}
+
+// Home
+.dm-intro-section {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+       @include media(large) {
+          display: block;
+        }
+    .column {
+    &:first-of-type {
+      order: 2;
+        @include media(large) {
+           order: 1;
+        }
+     }
+   }
+}
+.side-box-wrap {
+  order: 1;
+     @include media(large) {
+       order: 2;
+    }
+}
+
+// Forms
+.content-links li {
+  margin-bottom: $quarter-spacing-unit;
+}
+.example--padded {
+  padding: $quarter-spacing-unit;
+}
+// Address
+.date-of-birth-day, .date-of-birth-month, .date-of-birth-year {
+  display: inline-block;
+  margin-right: $quarter-spacing-unit;
+}
+.date-of-birth-day, .date-of-birth-month {
+  width: 17%;
+    @include media(large) {
+       width: 15%;
+    }
+}
+.date-of-birth-year {
+  width: 30%;
+    @include media(large) {
+       width: 20%;
+    }
+}
+
+.ccv-number {
+  width: 25%;
+}
+
+// Error Validation
+.hint {
+  display: block;
+  font-size: 16px;
+  color: #6e6e6e;
+  margin-bottom: 0;
+}
+.form-group-error {
+  border-left: 2px solid $saleerror-red;
+  padding-left: $half-spacing-unit;
+}
+.message-error {
+  background-color: #fff;
+  padding: $half-spacing-unit;
+  border: 2px solid $saleerror-red;
+   ul {
+    color: $saleerror-red;
+   }
+}
+.icon-alert:before, .form-error:before, .message-error:before {
+  content: none;
+}
+.form-error {
+  padding-left: 0;
+}
+.inline-list li {
+  display: inline-block;
+  margin-right: $half-spacing-unit;
+}
+.section-wrap {
+  border-bottom: 2px solid #EAEAEA;
+  margin-bottom: $base-spacing-unit;
+  &:last-of-type {
+    margin-bottom: $half-spacing-unit;
+  }
+ .title-link {
+  border-bottom: 0;
+   h2 {
+    display: inline-block;
+    line-height: 1.1;
+    color: $coop-link-blue;
+    border-bottom: .075em solid $coop-link-blue;
+      @include spacing('margin', 'bottom', 'quarter');
+        font-family: $regular;
+      }
+  }
+}
+.legend-tap {
+   font-size: 16px;
+   font-family: $regular;
+   margin-bottom: $quarter-spacing-unit;
+      @include media(large) {
+         font-size: 20px;
+      }
+}
+
+//Feedback content
+#FeedbackForm {
+  .h2 {
+    padding-top: 0;
+  }
+  .tile {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .input-textarea  label {
+    font-size: 16px;
+    font-family: $regular;
+      @include media(large) {
+         font-size: 20px;
+      }
+  }
+  textarea {
+    margin-top: $quarter-spacing-unit;
+  }
+  .block-label input[type=radio], .block-label input[type=checkbox] {
+    top: 19px;
+  }
+   .block-label {
+    width: 50%;
+    display: inline-block;
+    margin-right: $eighth-spacing-unit;
+    font-size: 16px;
+    padding: 15px 47px;
+     @include media(medium) {
+         width: 118px;
+         min-width: 118px;
+         margin-right: $quarter-spacing-unit;
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+  }
+}
+
+.slide-toggle-content {
+  outline: 0;
+  display: none;
+}
+
+//Side/bottom content
+
+.side-box {
+  width: 50%;
+  margin-top:  $quarter-spacing-unit;
+  padding-top: $quarter-spacing-unit;
+  padding-bottom: $quarter-spacing-unit;
+    @include media(large) {
+       width: 100%;
+       margin-top:  $quarter-spacing-unit/2;
+    }
+    h3 {
+      padding-top: 0;
+    }
+}
+
+.grey-border {
+  border-top: 5px solid $mid-grey;
+     @include media(large) {
+         border-top: 10px solid $mid-grey;
+    }
+}
+
+.green-border {
+  border-top: 5px solid #9fad37;
+   @include media(large) {
+         border-top: 10px solid #9fad37;
+    }
+}
+
+.related-footer {
+  border-bottom: 2px solid #EAEAEA;
+  padding-bottom: $half-spacing-unit;
+  margin-bottom: $half-spacing-unit;
+   @include media(large) {
+     padding-bottom: $base-spacing-unit;
+     margin-bottom: $base-spacing-unit;
+
+   }
+   ul {
+    margin-bottom: 0;
+   }
+}
+
+//Footer
+.footer-main {
+  margin-top: $quarter-spacing-unit;
 }

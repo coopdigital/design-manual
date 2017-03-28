@@ -1,5 +1,11 @@
+//= include includes/coop-toolkit.js
+//= include includes/feedback.js
+//= include includes/FeedbackWrongInfo.js
+
 $(function(){
 
+  Coop.init();
+  
   function showElement(element) {
     $(element).show().removeAttr('hidden').attr('aria-hidden', false);
     $(element).find(':input').prop('disabled', false);
