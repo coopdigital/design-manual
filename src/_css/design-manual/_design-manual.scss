@@ -622,6 +622,10 @@ pre[class*="language-"] {
       }
 }
 
+.form-error:last-child {
+      margin: .5em 0;
+}
+
 //Feedback content
 #FeedbackForm {
   .h2 {
