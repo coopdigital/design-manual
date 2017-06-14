@@ -479,27 +479,11 @@
 }
 
 .no-underline {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 pre[class*="language-"] {
    @include spacing('margin', 'bottom', 'half');
-}
-
-.sprint-table {
-  font-size: em-calc(20);
-
-  td {
-    vertical-align: top;
-  }
-
-  li {
-    line-height: 1.2;
-  }
-
-  a {
-    font-size: em-calc(12);
-  }
 }
 
 // General
@@ -636,7 +620,6 @@ pre[class*="language-"] {
   }
   .label {
     font-size: em-calc(16px);
-    // font-family: $regular;
     @include media(large) {
        font-size: em-calc(20px);
     }
