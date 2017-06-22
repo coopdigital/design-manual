@@ -1,75 +1,76 @@
 ---
 layout: default
 id: forms
+active: designing-forms
+group: "inner-page"
 ---
 
 <article class="wrap">
     {% include breadcrumbs.html %}
-<div class="row">
-    <div class="column medium-7 small-12">
-     <section class="dm-section">
-        <h1>Designing forms</h1>
-        <h2 id="know-why">Know why you’re asking each question and what it’s needed for</h2>
-        <p>Before you ask users a question, make sure that you know exactly how you will use the answer and why the answer is necessary for the service. If it’s not necessary, do not ask.</p>
-        <p> The more you ask of the user, the more effort it takes of them, and the more likely they are to drop out of the form.</p>
-     </section>
-     <section class="dm-section">
-        <h2 id="tell-users">Tell users why we’re asking</h2>
-        <p>When you ask for information tell users why we are asking for it and what we’ll do with it.</p>
-        <p>This can not only encourage the user to trust the service but can affect the answer they give. For example, asking users for an address to verify who they are, and asking them for an address to deliver something to, could result in different responses. Telling users why we’re asking removes ambiguity.</p>
-     </section>
-     <section class="dm-section">
-        <h2 id="simple-language">Use simple, direct language</h2>
-        <p>Do not burden a user with new terminology and concepts if you can avoid it. It increases the effort needed to get through the form, and makes it more likely that they’ll stop using it and go elsewhere.</p>
-        <p>If the answer relies on the users' understanding of a complex concept, explain it in plain English. Do not assume any prior knowledge of the subject you’re writing about, or a certain level of literacy, education or digital experience of your users. <a href="/principles.html#everyone#">Design for everyone</a></p>
-        <p>Even if you’re writing for a specialist audience, <a href="https://gds.blog.gov.uk/2014/02/17/guest-post-clarity-is-king-the-evidence-that-reveals-the-desperate-need-to-re-think-the-way-we-write/">research shows that the higher the level of expertise the greater the preference for plain English.</a></p>
-        <p>Content that’s easy to understand benefits everyone.</p>
-     </section>
-     <section class="dm-section">
-        <h2 id="give-context">Give information in context</h2>
-        <p>Think about the most effective place and channel for your user to get information.</p>
-        <p>Content should be timely: given at the point it’s needed. Do not give information within a form that:
-           <ul>
-             <li>a user needs to refer to at a later date</li>
-             <li>disturbs the task the user is completing (for example, including a link that takes them away)</li>
-             <li>would be more timely, relevant or effective through a different channel</li>
-           </ul>
-        <p>Give information through the most appropriate channel, at the time it’s relevant.</p>
-           </ul>
-        </p>
-      </section>
-      <section class="dm-section">
-        <h2 id="get-context">Get information in context</h2>
-        <p>If the user needs to understand complex information in order to answer a question, give that information at the point it’s needed. Allow users to easily refer back to it, re-read it or skip to parts they’re unsure of.</p>
-        <p>Consider users who have short term memory, cognitive problems or are in a distracting environment — do not expect complex information to be retained easily or for a long time. Make complex questions as easy as possible for your users to answer. See <a href="https://digitalblog.coop.co.uk/tag/joanne-schofield/">how the Wills Team tried to make writing a will less daunting.</a></p>
-        <p>And let users focus on one thing at a time. Do not overwhelm them by either asking for, or giving, a lot of information at once.</p>
-       </section>
-       <section class="dm-section">
-        <h2 id="set-exectations">Set expectations</h2>
-        <p>Tell users what’s expected of them before they start the form. It will reduce frustration and make it less likely that they’ll drop out of the form.</p>
-        <p>Tell users upfront:</p>
-        <ul>
-            <li>what the service is</li>
-            <li>what the eligibility is</li>
-            <li>what information they need which they may not have immediately to hand</li>
-            <li>any related costs or commitments</li>
-            <li>any other essential information that may affect their decision to use your service</li>
-        </ul>
-       </section>
-        <div class="related-footer">
-            <h3 class="h2">More about forms</h3>
-              <ul class="list-bare content-links">
-                <li><a href="form-inputs.html">Form inputs</a></li>
-                <li><a href="form-patterns.html">Form patterns</a></li>
-            </ul>
-           </div>
-   </div>
-     <div class="column large-3 small-12 col--right side-box-wrap hide-small">
-            <ul class="list-bare content-links side-box grey-border">
-                <li class="active">Designing forms</li>
-                <li><a href="form-inputs.html">Form inputs</a></li>
-                <li><a href="form-patterns.html">Form patterns</a></li>
-            </ul>
-     </div>
-  </div>
+    <div class="row">
+        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
+            {% include navigation/forms-navigation.html %}
+        </div>
+        <div class="column medium-7 small-12">
+            <section class="dm-section">
+                <h1>Designing forms</h1>
+                <h2 id="know-why">Know why you’re asking each question and what it’s needed for</h2>
+                <p>Before you ask users a question, make sure that you know exactly how you will use the answer and why the answer is necessary for the service. If it’s not necessary, do not ask.</p>
+                <p> The more you ask of the user, the more effort it takes of them, and the more likely they are to drop out of the form.</p>
+            </section>
+            <section class="dm-section">
+                <h2 id="tell-users">Tell users why we’re asking</h2>
+                <p>When you ask for information tell users why we are asking for it and what we’ll do with it.</p>
+                <p>This can not only encourage the user to trust the service but can affect the answer they give. For example, asking users for an address to verify who they are, and asking them for an address to deliver something to, could result in different
+                    responses. Telling users why we’re asking removes ambiguity.</p>
+            </section>
+            <section class="dm-section">
+                <h2 id="simple-language">Use simple, direct language</h2>
+                <p>Do not burden a user with new terminology and concepts if you can avoid it. It increases the effort needed to get through the form, and makes it more likely that they’ll stop using it and go elsewhere.</p>
+                <p>If the answer relies on the users' understanding of a complex concept, explain it in plain English. Do not assume any prior knowledge of the subject you’re writing about, or a certain level of literacy, education or digital experience
+                    of your users. <a href="/principles.html#everyone#">Design for everyone</a></p>
+                <p>Even if you’re writing for a specialist audience, <a href="https://gds.blog.gov.uk/2014/02/17/guest-post-clarity-is-king-the-evidence-that-reveals-the-desperate-need-to-re-think-the-way-we-write/">research shows that the higher the level of expertise the greater the preference for plain English.</a></p>
+                <p>Content that’s easy to understand benefits everyone.</p>
+            </section>
+            <section class="dm-section">
+                <h2 id="give-context">Give information in context</h2>
+                <p>Think about the most effective place and channel for your user to get information.</p>
+                <p>Content should be timely: given at the point it’s needed. Do not give information within a form that:
+                    <ul>
+                        <li>a user needs to refer to at a later date</li>
+                        <li>disturbs the task the user is completing (for example, including a link that takes them away)</li>
+                        <li>would be more timely, relevant or effective through a different channel</li>
+                    </ul>
+                    <p>Give information through the most appropriate channel, at the time it’s relevant.</p>
+                    </ul>
+                </p>
+            </section>
+            <section class="dm-section">
+                <h2 id="get-context">Get information in context</h2>
+                <p>If the user needs to understand complex information in order to answer a question, give that information at the point it’s needed. Allow users to easily refer back to it, re-read it or skip to parts they’re unsure of.</p>
+                <p>Consider users who have short term memory, cognitive problems or are in a distracting environment — do not expect complex information to be retained easily or for a long time. Make complex questions as easy as possible for your users to
+                    answer. See <a href="https://digitalblog.coop.co.uk/tag/joanne-schofield/">how the Wills Team tried to make writing a will less daunting.</a></p>
+                <p>And let users focus on one thing at a time. Do not overwhelm them by either asking for, or giving, a lot of information at once.</p>
+            </section>
+            <section class="dm-section">
+                <h2 id="set-exectations">Set expectations</h2>
+                <p>Tell users what’s expected of them before they start the form. It will reduce frustration and make it less likely that they’ll drop out of the form.</p>
+                <p>Tell users upfront:</p>
+                <ul>
+                    <li>what the service is</li>
+                    <li>what the eligibility is</li>
+                    <li>what information they need which they may not have immediately to hand</li>
+                    <li>any related costs or commitments</li>
+                    <li>any other essential information that may affect their decision to use your service</li>
+                </ul>
+            </section>
+            <div class="related-footer">
+                <h3 class="h2">More about forms</h3>
+                <ul class="list-bare content-links">
+                    <li><a href="form-inputs.html">Form inputs</a></li>
+                    <li><a href="form-patterns.html">Form patterns</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </article>

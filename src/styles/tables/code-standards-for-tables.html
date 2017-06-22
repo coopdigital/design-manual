@@ -1,0 +1,57 @@
+---
+layout: default
+id: tables
+active: code-standards
+group: "inner-page"
+---
+
+<article class="wrap">
+    {% include breadcrumbs.html %}
+    <div class="row">
+        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
+            {% include navigation/tables-navigation.html %}
+        </div>
+        <div class="column medium-7 small-12">
+            <section class="dm-section">
+                <h1>Code standards for tables</h1>
+                <h2 id="basic-markup">Basic table markup</h2>
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <pre><code class="language-html">
+Add example...
+                </code></pre>
+                <p>[Explain basic markup and why said structure is required for our styling (particularly in relation to the responsive example)]</p>
+                <h2 id="captions">Captions</h2>
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <pre><code class="language-html">
+Add example...
+                </code></pre>
+                <p>A caption is the heading for a table. Most screen readers announce the content of captions. Captions help users to find a table and understand what it’s about and decide if they want to read it. The caption is provided by the <code class="language-html">&lt;caption&gt;</code> element.</p>
+                <h2 id="headers-and-footers">Headers and footer</h2>
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <pre><code class="language-html">
+Add example...
+                </code></pre>
+                <p>Both columns and rows of a table can have headings. These are marked up as <code class="language-html">&lt;th&gt;</code> (table heading). We also use the <code class="language-html">&lt;thead&gt;</code> and <code class="language-html">&lt;tbody&gt;</code> tags. Although these are not technically needed in all tables, they add some semantic value and are useful if a table needs to be printed as the <code class="language-html">&lt;thead&gt;</code> element is repeated across all printed pages.</p>
+                <h2 id="scope">Scope</h2>
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <pre><code class="language-html">
+Add example...
+                </code></pre>
+                <p>When the data that relates to the headings is ambiguous the attribute <code class="language-html">scope=&#x201C;col&#x201D;</code> or <code class="language-html">scope=&#x201C;row&#x201D;</code> should be added. The scope attribute defines the direction of the header cells and associates them with the corresponding data cells. The scope attribute is also needed for larger tables with one header row or column. We recommend always defining the scope of your column or row headings.</p>
+                <h2 id="top-left-cell">Top left cell</h2>
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <pre><code class="language-html">
+Add example...
+                </code></pre>
+                <p>The top left cell of a table is often blank as there is no overarching header for the row headings and the content of the table has been described by the <code class="language-html">&lt;caption&gt;</code>. This cell can be left blank, but must be marked up as an empty <code class="language-html">&lt;td&gt;&lt;/td&gt;</code></p>.
+            </section>
+            <div class="related-footer">
+                <h3 class="h2">More about tables</h3>
+                <ul class="list-bare content-links">
+                    <li><a href="designing-tables.html">Designing tables</a></li>
+                    <li><a href="table-patterns.html">Table patterns</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</article>

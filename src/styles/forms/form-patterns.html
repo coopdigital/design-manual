@@ -1,11 +1,16 @@
 ---
 layout: default
 id: forms
+active: form-patterns
+group: "inner-page"
 ---
 
 <article class="wrap">
     {% include breadcrumbs.html %}
     <div class="row">
+        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
+            {% include navigation/forms-navigation.html %}
+        </div>
         <div class="column medium-7 small-12">
              <header>
                <h1>Form patterns</h1>
@@ -191,13 +196,6 @@ id: forms
                         <li><a href="form-inputs.html">Form inputs</a></li>
                     </ul>
                </div>
-        </div>
-        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
-            <ul class="list-bare content-links side-box grey-border">
-                <li><a href="designing-forms.html">Designing forms</a></li>
-                <li><a href="form-inputs.html">Form inputs</a></li>
-                <li class="active">Form patterns</li>
-            </ul>
         </div>
     </div>
 </article>
