@@ -77,7 +77,8 @@ group: "inner-page"
                 <h3>Blank cells and zeros</h3>
                 <p>Avoid blank cells as they can be confusing. It’s best to try and answer the question or explain why there isn’t a value that isn’t of the same type of the rest of the cells. (An exception to this is the top left cell in a table, which can be left blank.)</p>
                 <p>A blank cell could be a sign that a table is not the right way to represent the information.</p>
-                <p>In this example, boarding fees aren’t covered in the simple plan, so a blank cell is technically correct. However, it would be easy to read this table and think the boarding fees were free.</p>
+                <p>In this example, boarding fees aren’t covered in the simple plan, so a blank cell is technically correct. However, it would be easy to think that the boarding fees were free.</p>
+                <p>Answering the question is more helpful, and there’s less chance of misunderstanding.</p>
                 <table>
                   <caption>This table compares our Simple and Extra insurance plans</caption>
                     <thead>
@@ -97,7 +98,7 @@ group: "inner-page"
                       <tr>
                         <th scope="row">
                           Vet&rsquo;s fees
-                        </td>
+                        </th>
                         <td>
                           &pound;150
                         </td>
@@ -108,7 +109,7 @@ group: "inner-page"
                       <tr>
                         <th scope="row">
                           Boarding fees
-                        </td>
+                        </th>
                         <td>
                           Not covered
                         </td>
@@ -118,24 +119,46 @@ group: "inner-page"
                       </tr>
                     </tbody>
                 </table>
-                <p>Answering the question is more helpful, and there’s less chance of misunderstanding.</p>
-                <div class="row">
-                    <div class="column medium-10 large-8">
-                        <h3 class="example-heading"><span class="example_label">Example</span> Goes here</h3>
-                        <div class="example example--padded">
-                            Example box.
-                        </div>
-                    </div>
-                </div>
                 <p>Use a zero when the thing you are measuring does exist, but has a value of zero. For example:</p>
-                <div class="row">
-                    <div class="column medium-10 large-8">
-                        <h3 class="example-heading"><span class="example_label">Example</span> Goes here</h3>
-                        <div class="example example--padded">
-                            Example box.
-                        </div>
-                    </div>
-                </div>
+                <table>
+                  <caption>This table shows your payments by month</caption>
+                    <thead>
+                      <tr>
+                        <td>
+                          <th scope="col">Month</th>
+                        </td>
+                        <td>
+                          <th scope="col">Your payment</th>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          January
+                        </td>
+                        <td>
+                          &pound;15
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          February
+                        </td>
+                        <td>
+                          &pound;0
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          March
+                        </td>
+                        <td>
+                          &pound;17
+                        </td>
+                      </tr>
+                    </tbody>
+                </table>
                 <p>The top left cell can be completely empty, although it must be marked up as an ordinary cell (<code class="language-html">&lt;td&gt;</code>) and not a column heading (<code class="language-html">&lt;th&gt;</code>). This is to make the table is understandable to people using screen readers.</p>
                 <p>To learn more about tables and screen readers visit <a href="https://www.w3.org/WAI/tutorials/tables/two-headers/">www.w3.org/WAI/tutorials/tables/two—headers</a></p>
                 <!-- <h3>Decimal places</h3>
