@@ -78,14 +78,46 @@ group: "inner-page"
                 <p>Avoid blank cells as they can be confusing. It’s best to try and answer the question or explain why there isn’t a value that isn’t of the same type of the rest of the cells. (An exception to this is the top left cell in a table, which can be left blank.)</p>
                 <p>A blank cell could be a sign that a table is not the right way to represent the information.</p>
                 <p>In this example, boarding fees aren’t covered in the simple plan, so a blank cell is technically correct. However, it would be easy to read this table and think the boarding fees were free.</p>
-                <div class="row">
-                    <div class="column medium-10 large-8">
-                        <h3 class="example-heading"><span class="example_label">Example</span> Goes here</h3>
-                        <div class="example example--padded">
-                            Example box.
-                        </div>
-                    </div>
-                </div>
+                <table>
+                  <caption>This table compares our Simple and Extra insurance plans</caption>
+                    <thead>
+                      <tr>
+                        <td>
+                          <th scope="col">What&rsquo;s covered</th>
+                        </td>
+                        <td>
+                          <th scope="col">Simple plan</th>
+                        </td>
+                        <td>
+                          <th scope="col">Extra plan</th>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">
+                          Vet&rsquo;s fees
+                        </td>
+                        <td>
+                          &pound;150
+                        </td>
+                        <td>
+                          &pound;200
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          Boarding fees
+                        </td>
+                        <td>
+                          Not covered
+                        </td>
+                        <td>
+                          &pound;1000
+                        </td>
+                      </tr>
+                    </tbody>
+                </table>
                 <p>Answering the question is more helpful, and there’s less chance of misunderstanding.</p>
                 <div class="row">
                     <div class="column medium-10 large-8">
