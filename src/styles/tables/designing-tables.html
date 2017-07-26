@@ -26,20 +26,34 @@ group: "inner-page"
                 <h3>Use tables to present complex information</h3>
                 <p>Tables are useful for showing information that can’t be laid out as a list and would be repetitive if written as a paragraph of text. Eye-tracking studies show that tables attract and hold a reader’s attention.</p>
                 <h3>Answering the question &lsquo;it depends&rsquo;</h3>
-                <p>Here’s a quote from Ginny Redish from her book Letting Go of the Words:</p>
+                <p>This table answers the question "Do I get free treatment for my pet" with the answer “It depends what type of insurance you have”.
+                </p>
+                <table>
+                  <caption>This table compares our Classic and Select Plus pet insurance</caption>
+                  <thead>
+                    <tr>
+                      <th scope=“col”>Compare Pet Insurance</th>
+                      <th scope=“col”>Classic</th>
+                      <th scope=“col”>Select Plus</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th  scope=“row”>Vet fees cover</th>
+                      <td>£2000</td>
+                      <td>£5000</td>
+                    </tr>
+                    <tr>
+                      <th  scope=“row”>Complementary treatment</th>
+                      <td>£0</td>
+                      <td>£750</td>
+                    </tr>
+                  </tbody>
+                </table>
                 <blockquote>
                     <p>&lsquo;When a site visitor asks a question to which your first answer is “it depends,” that’s a clue that you need a table. What it depends on becomes the left column of the table. The answer to the question for each site visitor’s situation becomes the right column.&rsquo;</p>
                     <cite>Ginny Redish - <a href="http://redish.net/books/item/5-letting-go-of-the-words-writing-web-content-that-works">Letting Go of the Words</a></cite>
                 </blockquote>
-                <p>For example, in this table the question is “[XXX]”, and the answer is “it depends whether [X], [Y] or [Z]”.</p>
-                <div class="row">
-                    <div class="column medium-10 large-12">
-                        <h3 class="example-heading"><span class="example_label">Example</span> [specific table — real life example]</h3>
-                        <div class="example example--padded">
-                            Example box.
-                        </div>
-                    </div>
-                </div>
                 <h3>Don’t assume that people will look at every row</h3>
                 <p>They will usually scan down the left side of the table until they find a cell that interests them and read across, jumping up to check column headings as they read the content in that row. Most of their attention will be on the left hand&nbsp;column.</p>
                 <h3>Even a simple table takes effort to use</h3>
@@ -63,33 +77,88 @@ group: "inner-page"
                 <h3>Blank cells and zeros</h3>
                 <p>Avoid blank cells as they can be confusing. It’s best to try and answer the question or explain why there isn’t a value that isn’t of the same type of the rest of the cells. (An exception to this is the top left cell in a table, which can be left blank.)</p>
                 <p>A blank cell could be a sign that a table is not the right way to represent the information.</p>
-                <p>In this example, boarding fees aren’t covered in the simple plan, so a blank cell is technically correct. However, it would be easy to read this table and think the boarding fees were free.</p>
-                <div class="row">
-                    <div class="column medium-10 large-8">
-                        <h3 class="example-heading"><span class="example_label">Example</span> Goes here</h3>
-                        <div class="example example--padded">
-                            Example box.
-                        </div>
-                    </div>
-                </div>
+                <p>In this example, boarding fees aren’t covered in the simple plan, so a blank cell is technically correct. However, it would be easy to think that the boarding fees were free.</p>
                 <p>Answering the question is more helpful, and there’s less chance of misunderstanding.</p>
-                <div class="row">
-                    <div class="column medium-10 large-8">
-                        <h3 class="example-heading"><span class="example_label">Example</span> Goes here</h3>
-                        <div class="example example--padded">
-                            Example box.
-                        </div>
-                    </div>
-                </div>
+                <table>
+                  <caption>This table compares our Simple and Extra insurance plans</caption>
+                    <thead>
+                      <tr>
+                        <td>
+                          <th scope="col">What&rsquo;s covered</th>
+                        </td>
+                        <td>
+                          <th scope="col">Simple plan</th>
+                        </td>
+                        <td>
+                          <th scope="col">Extra plan</th>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">
+                          Vet&rsquo;s fees
+                        </th>
+                        <td>
+                          &pound;150
+                        </td>
+                        <td>
+                          &pound;200
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                          Boarding fees
+                        </th>
+                        <td>
+                          Not covered
+                        </td>
+                        <td>
+                          &pound;1000
+                        </td>
+                      </tr>
+                    </tbody>
+                </table>
                 <p>Use a zero when the thing you are measuring does exist, but has a value of zero. For example:</p>
-                <div class="row">
-                    <div class="column medium-10 large-8">
-                        <h3 class="example-heading"><span class="example_label">Example</span> Goes here</h3>
-                        <div class="example example--padded">
-                            Example box.
-                        </div>
-                    </div>
-                </div>
+                <table>
+                  <caption>This table shows your payments by month</caption>
+                    <thead>
+                      <tr>
+                        <td>
+                          <th scope="col">Month</th>
+                        </td>
+                        <td>
+                          <th scope="col">Your payment</th>
+                        </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          January
+                        </td>
+                        <td>
+                          &pound;15
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          February
+                        </td>
+                        <td>
+                          &pound;0
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          March
+                        </td>
+                        <td>
+                          &pound;17
+                        </td>
+                      </tr>
+                    </tbody>
+                </table>
                 <p>The top left cell can be completely empty, although it must be marked up as an ordinary cell (<code class="language-html">&lt;td&gt;</code>) and not a column heading (<code class="language-html">&lt;th&gt;</code>). This is to make the table is understandable to people using screen readers.</p>
                 <p>To learn more about tables and screen readers visit <a href="https://www.w3.org/WAI/tutorials/tables/two-headers/">www.w3.org/WAI/tutorials/tables/two—headers</a></p>
                 <!-- <h3>Decimal places</h3>
@@ -146,7 +215,7 @@ group: "inner-page"
                 <h3>Decimal points</h3>
                 <p>If there are decimal points, line them up. Consider whether rounding to a larger number (example: thousands) might meet user needs better.</p>
                 <h3>Emphasis (bold)</h3>
-                <p>At the risk of sounding obvious, use emphasis to show the reader what’s important. For example, it may or may not be appropriate to use emphasis on the row headings.</p>
+                <p>Use emphasis to show the reader what’s important. For example, it may or may not be appropriate to use emphasis on the row headings.</p>
                 <p>For content within the table (excluding row and column headers) use emphasis only if it supports the user need is for that table and for the page as a whole.</p>
                 <h3>Headings</h3>
                 <p>The heading for the table will always be within the semantic context of a wider page. This means that the size of the table heading will be defined by the established typographic hierarchy (not by the table).</p>
