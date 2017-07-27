@@ -1,0 +1,139 @@
+---
+layout: default
+id: colour
+---
+
+<article class="wrap">
+    {% include breadcrumbs.html %}
+    <header>
+        <div class="row">
+            <div class="column medium-7">
+                <h1>Errors</h1>
+                <p>intro...</p>
+            </div>
+        </div>
+        <nav>
+            <ul class="list-bare in-page-nav">
+                <li><a href="#validation">Form validation</a></li>
+                <li><a href="#404">404 page not found</a></li>
+                <li><a href="#503">503 internal server error</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="validation" class="dm-section">
+        <div class="row">
+            <div class="column large-7">
+                <h2>Validation</h2>
+                <p>Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.</p>
+                <p>Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.</p>
+                <div class="row">
+                    <div class="column medium-10">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <div class="message message-error">
+                                <h2>There's a problem</h2>
+                                <p>Check the form. You must:</p>
+                                <ul class="list-bare">
+                                    <li>Enter your full name</li>
+                                    <li>Enter an email address</li>
+                                </ul>
+                            </div>
+                            <fieldset>
+                                <div class="form-row form-group-error">
+                                   <div class="field_with_errors"><label for="client_name">Your full name</label></div>
+                                   <p class="form-error">Enter your full name</p>
+                                   <div class="field_with_errors"><input class="name" type="text" value="" name="client[name]" id="client_name"></div>
+                                </div>
+                                <div class="form-row form-group-error">
+                                    <div class="field_with_errors"><label for="client_email_address">
+                                     Your email address
+                                    <span class="hint">
+                                       We'll only use this to contact you about your will.
+                                    </span>
+                                    </label> <p class="form-error">Enter an email address</p></div>
+                                    <div class="field_with_errors">
+                                        <input class="email" type="email" value="" name="client[email_address]" id="client_email_address">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <p>Find out more about <a href="/styles/forms/index.html">how we design forms</a> or about <a href="/content.html#validation-messages">validation messages</a>.</p>
+            </div>
+        </div>
+    </section>
+    <section id="404" class="dm-section">
+        <div class="row">
+            <div class="column large-7">
+                <h2>404 page not found</h2>
+                <p>Users see a 404 page when they follow a broken link; from another website, from our website, from search results, by mistyping a url or following a link to a page that we’ve moved or deleted. It’s a frustrating experience for more confident users, and troubling for the less experienced.</p>
+                <p>A good 404 page:</p>
+                <ul>
+                    <li>reassures the user</li>
+                    <li>helps them get back on track</li>
+                    <li>doesn’t make them feel as though they’ve done something wrong</li>
+                </ul>
+                <h3>Basic 404 page</h3>
+                <p>Update the standard 404 page with this message.</p>
+                <h3 class="example-heading"><span class="example_label">Example</span> 404 page content</h3>
+                <div class="example example--padded">
+                    <p class="h1">This page doesn't exist</p>
+                    <p>You may have followed a broken link or we may have moved or deleted this page.</p>
+                    <p><a href="/">Go back to the [service] homepage</a></p>
+                    <p>You can:</p>
+                    <ul>
+                        <li>check the link and try again</li>
+                        <li>go to [the service] to find the information you're looking for</li>
+                    </ul>
+                </div>
+                <!-- <p>You can also look at the design manual 404 page.</p> -->
+                <h3>Advanced 404 page options</h3>
+                <h4>Make a guess about what the user might have been looking for</h4>
+                <p>Add some code to your 404 page that displays a url, taking common misspellings into account.</p>
+                <p>There’s more information about how to add this to your 404 page here: <a href="https://alistapart.com/article/perfect404">alistapart.com/article/perfect404</a></p>
+                <p>Page content: Were you looking for this page? [show the whole url]</p>
+                <h4>Use custom messages that reflect how the user arrived at the 404 page</h4>
+                <p>Show a message that tells the user in more detail what has happened. In some cases, we can even take the opportunity to thank them for making us aware of a problem.</p>
+                <p>Use these custom messages for the following scenarios:</p>
+                <h4>Mistyped URL or out-of-date bookmark</h4>
+                <p>Page content: There isn’t a page at this address. Try searching for the page you were looking for or go back to the [service] home page.</p>
+                <h4>Broken link on one of our pages</h4>
+                <p>Page content: Thank you for finding a broken link on our website. We’ll fix it as soon as we can. In the meantime, try searching for the page you were looking for or go back to the [service]home page.</p>
+                <h4>Broken link on somebody else’s website</h4>
+                <p>Page content: It looks like you followed a broken link to our website. We’ll try and let the owner of that website know about this problem. In the meantime, try searching for the page you were looking for or go back to the [service] home page.</p>
+                <h4>Broken link from search results</h4>
+                <p>Page content: Thank you for finding a broken link to our website. We’ll fix it as soon as we can. In the meantime, try searching for the page you were looking for or go back to the [service] home page.</p>
+            </div>
+        </div>
+    </section>
+    <section id="503" class="dm-section">
+        <div class="row">
+            <div class="column large-7">
+                <h2>503 internal server error</h2>
+                <p>People will see one of our 503 pages if our server is not available, either because we are carrying out some work or because it is getting an unusually large amount of traffic.</p>
+                <p>A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.[56]</p>
+                <h3>A good 503 page:</h3>
+                <ul>
+                    <li>reassures the user</li>
+                    <li>is honest about what has happened</li>
+                    <li>gives the user an alternative</li>
+                </ul>
+                <h3>You’re doing planned server maintenance</h3>
+                <p>Show this message when the website is not available because of work being carried out on the server.</p>
+                <p>Page title: We’re doing some work on our website</p>
+                <p>Page content: Try refreshing your browser window. If that doesn’t work, try again later - [a few minutes] should be enough.</p>
+                <p>If it’s an emergency and you need to speak to someone, call us on [service contact centre number].</p>
+                <h3>An unexpected problem has happened</h3>
+                <p>Show this message when the website is not available because of an unexpected problem (like an unusually high volume of traffic).</p>
+                <h3 class="example-heading"><span class="example_label">Example</span> 503 page content</h3>
+                <div class="example example--padded">
+                    <p class="h1">There’s a temporary problem with our website</p>
+                    <p>We know there’s an issue and we’re working to fix it.</p>
+                    <p>Try refreshing your browser window. If that doesn’t work, try again later.</p>
+                    <p>If it’s an emergency and you need to speak to someone, call us on [service contact centre number].</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
