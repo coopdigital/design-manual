@@ -15,26 +15,70 @@ group: "inner-page"
             <header>
                 <h1>Table patterns</h1>
                 <ul class="list-bare content-links in-page-nav">
-                    <li><a href="#name-title">Link</a></li>
+                    <li><a href="#interacting-with-tables">Interacting with tables</a></li>
+                    <li><a href="#responsive-tables">Responsive tables</a></li>
                 </ul>
             </header>
-            <section id="#name-title" class="dm-section">
-                <h3 id="name-title">Section title</h3>
-                <p>Text.</p>
+            <section id="interacting-with-tables" class="dm-section">
+                <h2>Interacting with tables</h2>
+                <h3>Form inputs within tables</h3>
+                <p>Avoid doing this — make a form instead.</p>
+                <h3>Hiding and revealing tables (accordions)</h3>
+                <p>We don’t yet have a recommendation about how to hide and reveal tables.</p>
+                <p>If you have any examples to share, or have researched this pattern, please get in touch.</p>
+                <h3>Large tables (or lots of tables)</h3>
+                <p>Don’t try to answer multiple questions by making one very large table. Instead break the information out into smaller, more focused tables. It’s easier to scroll through a long page with lots of tables than to hunt for information in one big table.</p>
+                <p>People don’t mind scrolling through a long page, so long as they are confident they will find what they are looking for. Use the content at the top of the page to set the user’s expectations so they are happy to scroll. Consider using in-page navigation to help the user find the information they need in a long page.</p>
+                <blockquote>
+                    <p>&lsquo;Users do scroll when the content is relevant, organised properly and formatted for ease of scanning. In fact, people prefer scrolling the page for content over pagination when the topics within that page answer the right questions.&rsquo;</p>
+                    <cite><a href="https://www.nngroup.com/">Nielsen Norman Group</a></cite>
+                </blockquote>
+                <h2 id="responsive-tables">Responsive tables</h2>
+                <p>There are a few ways of making a table responsive.</p>
+                <p>Whichever approach you choose, it should reflect how users will look at the data in the table.</p>
+                <p>The patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.</p>
+                <h3>Table width reduces</h3>
+                <p>This approach works well when there is very little content in the columns — just figures.</p>
+                <p>In this scenario, the design of the table stays the same for all screen sizes — it just scales down.</p>
                 <div class="row">
-                    <div class="column medium-10 large-8">
-                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                    <div class="column medium-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span> Cell widths reduce with device size</h3>
                         <div class="example example--padded">
-                            Example box.
+                            <table>
+                              <caption>This table compares our Classic and Select Plus pet insurance</caption>
+                              <thead>
+                                <tr>
+                                  <th scope="col">Compare Pet Insurance</th>
+                                  <th scope="col">Classic</th>
+                                  <th scope="col">Select Plus</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">Vet fees cover</th>
+                                  <td>&pound;2000</td>
+                                  <td>&pound;5000</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Complementary treatment</th>
+                                  <td>&pound;0</td>
+                                  <td>&pound;750</td>
+                                </tr>
+                              </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
+                <h3>Rows become mini-tables</h3>
+                <p>This approach works for a table with different types of values — including text.</p>
+                <p>Remove horizontal lines, with the exception of the heavier line which is now be used to separate the mini-tables.</p>
+                <p>An example of this responsive table is on the <a href="updates/index.html">design manual updates page</a>. The code example is on the <a href="code-standards-for-tables.html">tables code standards page</a>.</p>
             </section>
             <div class="related-footer">
                 <h3>More about tables</h3>
                 <ul class="list-bare content-links">
                     <li><a href="designing-tables.html">Designing tables</a></li>
-                    <li><a href="code-standards.html">Code standards</a></li>
+                    <li><a href="code-standards-for-tables.html">Code standards</a></li>
                 </ul>
             </div>
         </div>
