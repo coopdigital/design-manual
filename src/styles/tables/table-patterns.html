@@ -61,7 +61,7 @@ group: "inner-page"
                                 </tr>
                                 <tr>
                                   <th scope="row">Complementary treatment</th>
-                                  <td>&pound;0</td>
+                                  <td>Not included</td>
                                   <td>&pound;750</td>
                                 </tr>
                               </tbody>
@@ -72,7 +72,39 @@ group: "inner-page"
                 <h3>Rows become mini-tables</h3>
                 <p>This approach works for a table with different types of values — including text.</p>
                 <p>Remove horizontal lines, with the exception of the heavier line which is now be used to separate the mini-tables.</p>
-                <p>An example of this responsive table is on the <a href="updates/index.html">design manual updates page</a>. The code example is on the <a href="code-standards-for-tables.html">tables code standards page</a>.</p>
+                <div class="row">
+                    <div class="column medium-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span> Responsive table - rows become mini-tables</h3>
+                        <div class="dm-alert">
+                            <p>Please use this pattern with caution</p>
+                        </div>
+                        <div class="example example--padded">
+                            <table class="table-smallscreen--stacked">
+                              <caption>This table compares our Classic and Select Plus pet insurance</caption>
+                              <thead>
+                                <tr>
+                                  <th scope="col">Compare Pet Insurance</th>
+                                  <th scope="col">Classic</th>
+                                  <th scope="col">Select Plus</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row">Vet fees cover</th>
+                                  <td data-th="Classic">&pound;2000</td>
+                                  <td data-th="Select Plus">&pound;5000</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Complementary treatment</th>
+                                  <td data-th="Classic">Not included</td>
+                                  <td data-th="Select Plus">&pound;750</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <p>Another example of this responsive table is on the <a href="updates/index.html">design manual updates page</a>. The code example is on the <a href="code-standards-for-tables.html">tables code standards page</a>.</p>
             </section>
             <div class="related-footer">
                 <h3>More about tables</h3>

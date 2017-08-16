@@ -15,6 +15,16 @@
   @include spacing('margin', 'bottom', 'quarter');
 }
 
+.dm-alert {
+  @include spacing('padding', 'all', 'quarter');
+  @include spacing('margin', 'bottom', 'quarter');
+  background: $info-orange;
+  color: $white;
+  p {
+    margin-bottom: 0;
+  }
+}
+
 // Guilty messy file
 
 .list-heading {
