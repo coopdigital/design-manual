@@ -25,9 +25,7 @@ pre[class*="language-"],
     background: #2a2a2a;
 }
 pre[class*="language-"] {
-    padding: 15px;
-    border-radius: 4px;
-    border: 1px solid #e1e1e8;
+    padding: 16px;
     overflow: auto;
 }
 
@@ -40,10 +38,7 @@ pre[class*="language-"] code {
 }
 
 :not(pre)>code[class*="language-"] {
-    padding: 0.15em 0.2em 0.05em;
-    border-radius: .3em;
-    border: 0.13em solid #7a6652;
-    box-shadow: 1px 1px 0.3em -0.1em #000 inset;
+    padding: 0.15em 0.2em 0.15em;
 }
 .token.namespace {
     opacity: .7;

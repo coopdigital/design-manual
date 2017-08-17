@@ -17,17 +17,14 @@
                         </div>
                         <div class="form-row">
                             <fieldset>
-                                <legend class="legend-tap">Did you find this useful?</legend>
+                                <legend class="legend-tap">Did you find what you were looking for?</legend>
                                     <div class="input input-tap">
-                                        <label for="id_like_0" class="block-label">
-                                        <input id="id_like_0" name="like" type="radio" value="Good" />
+                                        <label for="id_yes" class="block-label">
+                                        <input id="id_yes" name="find-yes-no" type="radio" value="Yes" />
                                         Yes</label>
-                                        <label for="id_like_1" class="block-label">
-                                        <input id="id_like_1" name="like" type="radio" value="Bad" />
+                                        <label for="id_no" class="block-label">
+                                        <input id="id_no" name="find-yes-no" type="radio" value="No" />
                                         No</label>
-                                        <label for="id_like_2" class="block-label">
-                                        <input id="id_like_2" name="like" type="radio" value="Other" />
-                                        Other</label>
                                     </div>
                             </fieldset>
                         </div>
@@ -38,12 +35,15 @@
                 <div class="row">
                     <div class="column">
                         <div class="form-row">
-                            <div class="input input-textarea">
-                                <div class="input input-text">
-                                    <label id="feedback-comment" for="id_comments">Tell us why.</label>
-                                    <textarea cols="40" id="id_comments" name="comments" rows="5"></textarea>
-                                </div>
-                            </div>
+                            <label id="feedback-comment" for="id_comments" class="label">Anything to add?</label>
+                            <textarea cols="40" id="id_comments" name="comments" rows="5"></textarea>
+                        </div>
+                        <div class="form-row">
+                            <label for="email" class="label">
+                              Your email address
+                              <span class="hint">Include an email address if you want us to reply.</span>
+                            </label>
+                            <input type="email" id="email" name="email" class="email" />
                         </div>
                         <div class="form-row">
                             <button class="btn btn-primary" type="submit">Send feedback</button>
@@ -56,11 +56,11 @@
      </div>
       </div>
         </div>
-    <div class="wrap">
-     <div class="row">
-       <div class="columns medium-7">
-        <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+      <div class="wrap">
+       <div class="row">
+         <div class="columns medium-7">
+          <a href="#top" class="back-to-top link-icon-right">Back to top <span class="icon icon-up-arrow" aria-hidden="true"></span></a>
+         </div>
        </div>
      </div>
-   </div>
 </section>
