@@ -15,6 +15,25 @@
   @include spacing('margin', 'bottom', 'quarter');
 }
 
+.dm-experiment {
+  @include spacing('padding', 'top', 'quarter');
+  @include spacing('padding', 'right', 'quarter');
+  @include spacing('padding', 'bottom', 'quarter');
+  padding-left: $base-spacing-unit/1.25;
+  @include spacing('margin', 'top', 'half');
+  @include spacing('margin', 'bottom', 'half');
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjIwMy45IC02MS45IDMzOC4xIDc5MS45Ij4gIDxzdHlsZT4gICAgLnN0MHtmaWxsOiMwMEIxRTc7fSAgPC9zdHlsZT4gIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yOTUgMzAwaDE1N3YzNzhIMjk1eiIvPiAgPHBhdGggZD0iTTUxNC45IDcyLjFoLTQ3LjNjLTE1IDAtMjcgMTIuMS0yNyAyN3YxNTYuMUgzMDQuOVY5OS4xYzAtMTQuOS0xMi4xLTI3LTI3LTI3SDIzMWMtMTUgMC0yNy4xIDEyLjEtMjcuMSAyNyAwIDE1IDEyLjEgMjcuMSAyNy4xIDI3LjFoMTkuOFY2MDhjMCA2Ny4zIDU0LjcgMTIyIDEyMiAxMjIgNjcuMiAwIDEyMS45LTU0LjcgMTIxLjktMTIyVjEyNi4ySDUxNWMxNSAwIDI3LTEyLjEgMjctMjcuMSAwLTE0LjktMTIuMS0yNy0yNy4xLTI3ek00NDAuNiA2MDhjMCAzNy40LTMwLjUgNjcuOS02Ny44IDY3LjktMzcuNCAwLTY3LjktMzAuNS02Ny45LTY3LjlWMzA5LjJoMTM1LjdWNjA4eiIvPiAgPHBhdGggY2xhc3M9InN0MCIgZD0iTTMwNSAzNi40YzI3LjEgMCA0OS4xLTIyIDQ5LjEtNDkuMiAwLTI3LTIyLTQ5LjEtNDkuMS00OS4xLTI3LjIgMC00OS4yIDIyLjEtNDkuMiA0OS4xIDAgMjcuMiAyMi4xIDQ5LjIgNDkuMiA0OS4yem0xMDcgNDRjMTYuOSAwIDMwLjUtMTMuNyAzMC41LTMwLjVTNDI4LjggMTkuNCA0MTIgMTkuNHMtMzAuNSAxMy43LTMwLjUgMzAuNWMuMSAxNi44IDEzLjcgMzAuNSAzMC41IDMwLjV6bS04MS40IDY3LjljMCAxNC4xIDExLjUgMjUuNSAyNS40IDI1LjUgMTQuMSAwIDI1LjUtMTEuNCAyNS41LTI1LjVzLTExLjQtMjUuNS0yNS41LTI1LjVjLTE0IC4xLTI1LjQgMTEuNS0yNS40IDI1LjV6TTMwNSAyNTMuNGgxMzUuOHYyOTZIMzA1eiIvPjwvc3ZnPg==);
+  background-repeat: no-repeat;
+  background-position: left 16px;
+  background-size: auto 64px;
+  .dm-experiment__title {
+    margin-top: 3px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+}
+
 // Guilty messy file
 
 .list-heading {
@@ -479,27 +498,11 @@
 }
 
 .no-underline {
-    border-bottom: 0;
+  border-bottom: 0;
 }
 
 pre[class*="language-"] {
    @include spacing('margin', 'bottom', 'half');
-}
-
-.sprint-table {
-  font-size: em-calc(20);
-
-  td {
-    vertical-align: top;
-  }
-
-  li {
-    line-height: 1.2;
-  }
-
-  a {
-    font-size: em-calc(12);
-  }
 }
 
 // General
@@ -615,7 +618,6 @@ pre[class*="language-"] {
 }
 .legend-tap {
    font-size: 16px;
-   font-family: $regular;
    margin-bottom: $quarter-spacing-unit;
       @include media(large) {
          font-size: 20px;
@@ -635,15 +637,11 @@ pre[class*="language-"] {
     padding: 0;
     margin-bottom: 0;
   }
-  .input-textarea  label {
-    font-size: 16px;
-    font-family: $regular;
-      @include media(large) {
-         font-size: 20px;
-      }
-  }
-  textarea {
-    margin-top: $quarter-spacing-unit;
+  .label {
+    font-size: em-calc(16px);
+    @include media(large) {
+       font-size: em-calc(20px);
+    }
   }
   .block-label input[type=radio], .block-label input[type=checkbox] {
     top: 19px;
@@ -654,14 +652,17 @@ pre[class*="language-"] {
     margin-right: $eighth-spacing-unit;
     font-size: 16px;
     padding: 15px 47px;
-     @include media(medium) {
-         width: 118px;
-         min-width: 118px;
-         margin-right: $quarter-spacing-unit;
-      }
-      &:last-of-type {
-        margin-right: 0;
-      }
+    @include media(medium) {
+      width: 118px;
+      min-width: 118px;
+      margin-right: $quarter-spacing-unit;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  .email {
+    margin-bottom: $quarter-spacing-unit;
   }
 }
 

@@ -1,28 +1,33 @@
 ---
 layout: default
 id: forms
+active: form-inputs
+group: "inner-page"
 ---
 
 <article class="wrap">
     {% include breadcrumbs.html %}
     <div class="row">
+        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
+            {% include navigation/forms-navigation.html %}
+        </div>
         <div class="column medium-7 small-12">
-         <header>
-           <h1>Form inputs</h1>
+            <header>
+               <h1>Form inputs</h1>
                <p>Form inputs are any point that the user gives you data. They include:</p>
-           <ul class="list-bare content-links in-page-nav margin-tq">
-                <li><a href="#radio-checkbox">Radio buttons and checkboxes</a></li>
-                <li><a href="#text-entry">Text entry fields</a></li>
-                <li><a href="#text-input">Text input</a></li>
-                <li><a href="#text-area">Text area</a></li>
-                <li><a href="#submit-buttons">Submit buttons</a></li>
-                <li><a href="#drop-down">Drop down lists</a></li>
-            </ul>
-           </header>
-           <section id="radio-checkbox" class="dm-section">
+                <ul class="list-bare content-links in-page-nav margin-tq">
+                    <li><a href="#radio-checkbox">Radio buttons and checkboxes</a></li>
+                    <li><a href="#text-entry">Text entry fields</a></li>
+                    <li><a href="#text-input">Text input</a></li>
+                    <li><a href="#text-area">Text area</a></li>
+                    <li><a href="#submit-buttons">Submit buttons</a></li>
+                    <li><a href="#drop-down">Drop down lists</a></li>
+                </ul>
+            </header>
+            <section id="radio-checkbox" class="dm-section">
             <h2>Radio buttons and checkboxes</h2>
                 <p>Radio buttons and checkboxes allow users to select an answer from 2 or more options.</p>
-                <p>Use:<p>
+                <p>Use:</p>
                 <ul>
                   <li>radio buttons when the user can choose only one answer</li>
                   <li>checkboxes when the user can choose multiple answers</li>
@@ -34,32 +39,32 @@ id: forms
                     <li>display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan</li>
                 </ul>
                 <p>Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.</p>
-               <div class="row">
-                <div class="column medium-10 large-8">
-                    <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                    <div class="example example--padded">
-                        <fieldset>
-                        <legend>Do you own:</legend>
-                        <label class="block-label">
-                            <input type="checkbox" value="1" name="client[owns_a_business]">a business
-                        </label>
-                        <label class="block-label">
-                            <input type="checkbox" value="1" name="client[owns_agricultural_property]">agricultural property
-                        </label>
-                        <label class="block-label">
-                            <input type="checkbox" value="1" name="client[owns_foreign_property]">foreign property
-                        </label>
-                        <label class="block-label">
-                            <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]">trademarks or patents
-                        </label>
-                        <p class="or">or</p>
-                        <label class="block-label checked">
-                            <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
-                        </label>
-                    </fieldset>
+                <div class="row">
+                    <div class="column medium-10 large-8">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <fieldset>
+                                <legend>Do you own:</legend>
+                                <label class="block-label">
+                                    <input type="checkbox" value="1" name="client[owns_a_business]">a business
+                                </label>
+                                <label class="block-label">
+                                    <input type="checkbox" value="1" name="client[owns_agricultural_property]">agricultural property
+                                </label>
+                                <label class="block-label">
+                                    <input type="checkbox" value="1" name="client[owns_foreign_property]">foreign property
+                                </label>
+                                <label class="block-label">
+                                    <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]">trademarks or patents
+                                </label>
+                                <p class="or">or</p>
+                                <label class="block-label checked">
+                                    <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
+                                </label>
+                            </fieldset>
+                        </div>
                     </div>
                 </div>
-            </div>
             </section>
             <section id="text-entry" class="dm-section">
             <h2>Text entry fields</h2>
@@ -76,8 +81,8 @@ id: forms
                     <li>a one line entry box (known as a ‘text input’) for things like name, email and so on</li>
                     <li>multiple line entry box (known as ‘text area’) for things like feedback, additional information and so on</li>
                 </ul>
-               </section>
-               <section id="text-input" class="dm-section">
+                </section>
+                <section id="text-input" class="dm-section">
                 <h2>Text input</h2>
                 <p>Make the length of the text input box appropriate for the amount of information needed: do not make it frustratingly short or intimidatingly long.</p>
                  <div class="row">
@@ -89,8 +94,8 @@ id: forms
                         </div>
                     </div>
                 </div>
-               </section>
-               <section id="text-area" class="dm-section">
+                </section>
+                <section id="text-area" class="dm-section">
                 <h2>Text area</h2>
                 <p>Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.</p>
                 <p>If you have reason to use them, research them using mobile devices.  Entering information using touch devices can be especially time-consuming.</p>
@@ -110,8 +115,8 @@ id: forms
                         </div>
                     </div>
                 </div>
-               </section>
-               <section id="submit-buttons" class="dm-section">
+                </section>
+                <section id="submit-buttons" class="dm-section">
                 <h2>Submit buttons</h2>
                 <p>A submit button allows the user to send their data to us.</p>
                 <p>Make submit buttons:</p>
@@ -131,8 +136,8 @@ id: forms
                     </div>
                   </div>
                 </div>
-               </section>
-               <section id="drop-down" class="dm-section">
+                </section>
+                <section id="drop-down" class="dm-section">
                 <h2>Drop down lists</h2>
                 <p>Drop down lists (also known as ‘select inputs’) can be hard to use because they:</p>
                 <ul>
@@ -148,21 +153,14 @@ id: forms
                 </ul>
                 <p>If you have thorough user research that shows that your design cannot work without a drop down list, then try it with one.</p>
                 <p>Our recommendations on drop down lists are based on research by the <a href="https://www.nngroup.com/articles/drop-down-menus-use-sparingly/">Nielsen Norman Group</a> and <a href="https://designpatterns.hackpad.com/Select-boxes-KzQ1IRd07HL">Government Digital Service.</a></p>
-              </section>
-        <div class="related-footer">
-            <h3>More about forms</h3>
-             <ul class="list-bare content-links">
-                <li><a href="designing-forms.html">Designing forms</a></li>
-                <li><a href="form-patterns.html">Form patterns</a></li>
-            </ul>
-       </div>
-   </div>
-       <div class="column large-3 small-12 col--right side-box-wrap hide-small">
-            <ul class="list-bare content-links side-box grey-border">
-                <li><a href="designing-forms.html">Designing forms</a></li>
-                <li class="active">Form inputs</li>
-               <li><a href="form-patterns.html">Form patterns</a></li>
-            </ul>
-      </div>
-  </div>
+            </section>
+            <div class="related-footer">
+                <h3>More about forms</h3>
+                 <ul class="list-bare content-links">
+                    <li><a href="designing-forms.html">Designing forms</a></li>
+                    <li><a href="form-patterns.html">Form patterns</a></li>
+                </ul>
+           </div>
+        </div>
+    </div>
 </article>
