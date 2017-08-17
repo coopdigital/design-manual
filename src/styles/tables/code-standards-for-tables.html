@@ -84,9 +84,9 @@ group: "inner-page"
             <thead>
                 <tr>
                     <td></td>
-                    <th scope=“col”>Heading column 1</th>
-                    <th scope=“col”>Heading column 2</th>
-                    <th scope=“col”>Heading column 3</th>
+                    <th scope="col">Heading column 1</th>
+                    <th scope="col">Heading column 2</th>
+                    <th scope="col">Heading column 3</th>
                 </tr>
             </thead>
             <tfoot>
@@ -99,13 +99,13 @@ group: "inner-page"
             </tfoot>
             <tbody>
                 <tr>
-                    <th scope=“row”>Row heading 1</th>
+                    <th scope="row">Row heading 1</th>
                     <td>Content column 1</td>
                     <td>Content column 2</td>
                     <td>Content column 3</td>
                 </tr>
                 <tr>
-                    <th scope=“row”>Row heading 2</th>
+                    <th scope="row">Row heading 2</th>
                     <td>Content column 1</td>
                     <td>Content column 2</td>
                     <td>Content column 3</td>
@@ -155,6 +155,7 @@ group: "inner-page"
             <p>The top left cell of a table is often blank as there is no overarching header for the row headings and the content of the table has been described by the <code class="language-html">&lt;caption&gt;</code>. This cell can be left blank, but must be marked up as an empty <code class="language-html">&lt;td&gt;&lt;/td&gt;</code></p>.
             <h2 id="responsive-tables">Responsive tables</h2>
             <p>We have created a basic responsive table as seen in the <a href="table-patterns.html">table patterns page</a> you can use this by adding the class <code class="language-html">table-smallscreen--stacked</code> to your table. For the styles to work correctly, you must match the markup structure in the example. When deciding whether to use this solution think carefully abbout if it will fit the needs of your users. If in doubt don't use it, or build your own responsive table. We have made this solution as simple as possible and cannot varify its accessibility yet on smaller device size. Please research your service with users of all abilities.</p>
+            {% include experimental-banner.html %}
             <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <pre><code class="language-html">
 &#x3C;table class=&#x22;table-smallscreen--stacked&#x22;&#x3E;
