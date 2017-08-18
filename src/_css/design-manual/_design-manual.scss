@@ -525,7 +525,7 @@ pre[class*="language-"] {
           display: block;
         }
     .column {
-    &:first-of-type {
+      &:first-of-type {
       order: 2;
         @include media(large) {
            order: 1;
@@ -674,7 +674,7 @@ pre[class*="language-"] {
 //Side/bottom content
 
 .side-box {
-  width: 50%;
+  width: 80%;
   margin-top:  $quarter-spacing-unit;
   padding-top: $quarter-spacing-unit;
   padding-bottom: $quarter-spacing-unit;
@@ -715,7 +715,7 @@ pre[class*="language-"] {
    }
 }
 
-//Footer
+// Footer
 .footer-main {
   margin-top: $quarter-spacing-unit;
 }
