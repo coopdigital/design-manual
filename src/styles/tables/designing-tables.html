@@ -48,17 +48,17 @@ group: "inner-page"
                               <thead>
                                 <tr>
                                   <th scope="col">Compare Pet Insurance</th>
-                                  <th scope="col">Classic</th>
-                                  <th scope="col">Select Plus</th>
+                                  <th scope="col" class="table--numeral">Classic</th>
+                                  <th scope="col" class="table--numeral">Select Plus</th>
                                 </tr>
                               </thead>
                               <tbody>
-                                <tr>
+                                <tr class="table--numeral">
                                   <th scope="row">Vet fees cover</th>
                                   <td>&pound;2000</td>
                                   <td>&pound;5000</td>
                                 </tr>
-                                <tr>
+                                <tr class="table--numeral">
                                   <th scope="row">Extra treatments</th>
                                   <td>Not included</td>
                                   <td>&pound;750</td>
@@ -170,8 +170,26 @@ group: "inner-page"
             <section id="style" class="dm-section">
                 <h2>Style</h2>
                 <h3>Alignment</h3>
-                <p>Column headings should align with the column content.
+                <p>Column headings should align with the column content.</p>
                 <p>Text align left. Numbers align right (to maintain the order of magnitude). Do not centre any type of content — it is very hard to read. </p>
+                <p>Sometimes right-aligning a numbers will not help your reader scan down the column. For example when the data is not set to the same order of magnitude. In this case, align numbers to the decimal point. This will enable the person to more easily compare magnitudes among a wide variety of data.</p>
+                <p>
+                    <pre>
++-------------+
+| Daily spend |
++-------------+
+|     £1.30   |
+|     £2.50   |
+|    £10.80   |
+|   £111.01   |
+|    £85      |
+|    N/A      |
+|      £.05   |
+|      £.06   |
++-------------+
+                    </pre>
+                </p>
+                <p>In the future this will be achievable by using character alignment in CSS using <code class="language-css">td { text-align: "." center; }</code>. <a href="https://developer.mozilla.org/en-US/docs/CSS:text-align?redirect=no">At the moment is is not supported by any major browsers</a>. Consider a Javascript solution if you need to do this.</p>
                 <h3>Colour</h3>
                 <p>Use colour when you need to make a distinction between one grouping of data from another. Examples of this are hover or selection interactions for rows or columns. When colour is used ensure there is sufficient contrast between colour and type. Make sure you’re familiar with the advice about designing for people with different access needs.</p>
                 <p>void using zebra stripes for rows as this adds emphasis to the rows with colour where none is needed.</p>

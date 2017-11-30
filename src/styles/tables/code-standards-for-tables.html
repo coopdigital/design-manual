@@ -71,16 +71,16 @@ group: "inner-page"
 &#x3C;/table&#x3E;
             </code></pre>
         </div>
-        <div class="column medium-7 small-12">
-                <p>Both columns and rows of a table can have headings. These are marked up as <code class="language-html">&lt;th&gt;</code> (table heading). We also use the <code class="language-html">&lt;thead&gt;</code> and <code class="language-html">&lt;tbody&gt;</code> tags. Although these are not technically needed in all tables, they add some semantic value and are useful if a table needs to be printed as the <code class="language-html">&lt;thead&gt;</code> element is repeated across all printed pages.</p>
-                <p>Table footers (<code class="language-html">&lt;tfoot&gt;</code>) can be used if there is a lot of rows in a table. It will be displayed by a browser under the body content, but in the markup must be above it. If you have to support a very old browser test this display as in some older browsers it is displayed before the body. In this case move it to below the table content.</p>
-                <h2 id="row-headings">Row headings</h2>
-                <p>When a row needs a heading the <code class="language-html">&lt;td&gt;</code> of that row should be marked up as a <code class="language-html">&lt;th&gt;</code>.</p>
-                <h2 id="scope">Scope</h2>
-        </div>
-        <div class="column medium-8 small-12">
+    <div class="column medium-7 small-12">
+        <p>Both columns and rows of a table can have headings. These are marked up as <code class="language-html">&lt;th&gt;</code> (table heading). We also use the <code class="language-html">&lt;thead&gt;</code> and <code class="language-html">&lt;tbody&gt;</code> tags. Although these are not technically needed in all tables, they add some semantic value and are useful if a table needs to be printed as the <code class="language-html">&lt;thead&gt;</code> element is repeated across all printed pages.</p>
+        <p>Table footers (<code class="language-html">&lt;tfoot&gt;</code>) can be used if there is a lot of rows in a table. It will be displayed by a browser under the body content, but in the markup must be above it. If you have to support a very old browser test this display as in some older browsers it is displayed before the body. In this case move it to below the table content.</p>
+        <h2 id="row-headings">Row headings</h2>
+        <p>When a row needs a heading the <code class="language-html">&lt;td&gt;</code> of that row should be marked up as a <code class="language-html">&lt;th&gt;</code>.</p>
+        <h2 id="scope">Scope</h2>
+    </div>
+    <div class="column medium-8 small-12">
         <table>
-            <caption>This example shows header and footer mark-up used for a table</caption>
+            <caption>This example shows the scope attribute being used</caption>
             <thead>
                 <tr>
                     <td></td>
@@ -117,7 +117,7 @@ group: "inner-page"
         <h3 class="example-heading"><span class="example_label">Example</span></h3>
         <pre><code class="language-html">
 &#x3C;table&#x3E;
-    &#x3C;caption&#x3E;This example shows header and footer mark-up used for a table&#x3C;/caption&#x3E;
+    &#x3C;caption&#x3E;This example shows the scope attribute being used&#x3C;/caption&#x3E;
     &#x3C;thead&#x3E;
         &#x3C;tr&#x3E;
             &#x3C;td&#x3E;&#x3C;/td&#x3E;
@@ -192,6 +192,8 @@ group: "inner-page"
     &#x3C;/tbody&#x3E;
 &#x3C;/table&#x3E;
             </code></pre>
+        </div>
+        </div>
             <div class="related-footer">
                 <h3 class="h2">More about tables</h3>
                 <ul class="list-bare content-links">
