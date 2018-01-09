@@ -10,7 +10,7 @@
   },
   "homepage": "https://github.com/coopdigital/design-manual#readme",
   "dependencies": {
-    "coop-frontend-toolkit": "coopdigital/coop-frontend-toolkit",
+    "coop-frontend-toolkit": "coopdigital/coop-frontend-toolkit#2.1.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
