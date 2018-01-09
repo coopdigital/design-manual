@@ -226,7 +226,7 @@
   position: relative;
   @include spacing('margin', 'bottom', 'half');
 
-  h3 {
+  h4 {
     font-size: 18px;
     padding: $quarter-spacing-unit/2 0 0 $quarter-spacing-unit;
   }
