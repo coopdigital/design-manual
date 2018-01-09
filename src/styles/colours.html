@@ -9,43 +9,57 @@ id: colour
         <div class="row">
             <div class="column medium-7">
                 <h1>Colour</h1>
-                <p>We use colour to guide people and aid communication.</p>
-                <p>We do not:</p>
+                <p>Use Co-op’s colour palette:</p>
                 <ul>
-                    <li>rely on colour alone to convey meaning — consider people who are colour blind</li>
-                    <li>use colour just for decoration — we apply it only when it’s helpful to the user</li>
-                    <li>use blue text for anything other than links</li>
+                    <!-- <li>to guide people and help&nbsp;communication</li> -->
+                    <li>to give emphasis, depth and highlight to our work where&nbsp;needed</li>
+                    <li>in the right context &mdash; for example don’t use large amounts of colour in a form, it can distract the&nbsp;user</li>
+                    <li>with restraint &mdash; users can read content better when we use limited colour</li>
+                    <li>to help convey meaning to interaction patterns, for example, for mandatory form fields. Never use colour alone to do&nbsp;this.</li>
+                    <li>to communicate the Co-op brand &mdash; see <a href="/assets.html">the brand&nbsp;guidelines</a></li>
                 </ul>
-                <p>We’re developing further guidance on using colour along with a secondary colour palette. We’ll update this page when it’s ready.</p>
+                <h2>Colour and accessibility</h2>
+                <p>Think about how your colour choices can affect legibility and accessibility &mdash; read <a href="https://www.w3.org/WAI/WCAG20/quickref/?levels=aaa#visual-audio-contrast-without-color">WCAG 2.0 specifications on using colour</a>.
+                To be legible, text and background colours must have a minimum contrast between them. You can check colour contrasts online using:</p>
+                <ul>
+                    <li><a href="http://webaim.org/resources/contrastchecker/">Web Aim's Colour Contrast Checker</a></li>
+                    <li><a href="http://colororacle.org/">Color Oracle (free colour blindness simulator)</a></li>
+                </ul>
+                <p>As well as using these tools, test colour contrast with people of all abilities.</p>
                 <p>If you have a question about colour, contact <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>.</p>
             </div>
         </div>
         <nav>
             <ul class="list-bare in-page-nav">
                 <li><a href="#brand-colour">Brand blue</a></li>
-                <li><a href="#text-colours">Text</a></li>
-                <li><a href="#link-colours">Links</a></li>
-                <li><a href="#page-colours">Page</a></li>
-                <li><a href="#border-colours">Borders</a></li>
-                <li><a href="#button-colours">Buttons</a></li>
-                <li><a href="#status-colours">Status</a></li>
+                <li><a href="#white-space">White space</a></li>
+                <li><a href="#text-colours">Text colour</a></li>
+                <li><a href="#link-colours">Link colours</a></li>
+                <li><a href="#button-colours">Button colours</a></li>
+                <li><a href="#borders-and-pages">Greys</a></li>
+                <li><a href="#secondary-colours">Other colours you can use</a></li>
             </ul>
         </nav>
     </header>
     <section id="brand-colour" class="dm-section">
-        <h2>Brand blue</h2>
+        <h2>Colours that have a defined use</h2>
+        <h3>Brand blue</h3>
         <div class="row">
             <div class="column large-7">
-                <p>Our brand blue should only be used for the logo. Do not use it as text or as a background colour. It has poor contrast and can be difficult for those with low vision to read on screen — we <a href="/principles.html#everyone">design for everyone</a>.</p>
-                <p>Stylised text used in logos is exempt from colour contrast requirements.</p>
+                <p>The Co-op brand blue is only used on the Co&#8209;op logo. Never use brand blue as text or as a background colour &mdash; it’s difficult for those with low vision to read on screen.</p>
+                <p>Note that text in logos doesn’t have to meet colour contrast standards. Although, if using anything other than the Co-op’s logo make sure it has enough contrast to be legible.</p>
             </div>
         </div>
         <div class="row">
-            <div class="column small-12 medium-6 large-3">
-                <div class="colour-swatch coop-brand-blue-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#00b1e7</h3>
-                    <p>Use only for the Co-op logo.</p>
+            <div class="column small-12 large-3">
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch brand-bg"></div>
+                    <h4>Brand blue</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                    	<li>$brand</li>
+                    	<li>rgb(0,177,231)</li>
+                    	<li>#00B1E7</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -60,125 +74,109 @@ id: colour
             </div>
         </div>
     </section>
-    <section id="text-colours" class="dm-section">
-        <h2>Text colour</h2>
+    <section id="white-space" class="dm-section">
         <div class="row">
             <div class="column large-7">
-                <p>Our recommended text colours meet WCAG 2.0 web accessibility standards for text and background colour combinations. You should make sure that the colour contrast on body text is 4.5:1 (AAA) and 3:1 (AA) on large text (24px).</p>
-                <p>If you are unsure about any of the colours you are using, there are some good tools you can use to check them:</p>
-                <ul>
-                    <li><a href="http://webaim.org/resources/contrastchecker/">Web Aim's Colour Contrast Checker</a></li>
-                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23fff-on-%23282828">La Verou's Colour Contrast Analyser</a></li>
-                    <li><a href="http://colororacle.org/">Color Oracle (free colour blindness simulator)</a></li>
-                    <li><a href="https://www.w3.org/WAI/WCAG20/quickref/?levels=aaa#visual-audio-contrast-without-color">information on use of colour from the WCAG 2.0 specification</a></li>
-                </ul>
-                <p>Using a colour contrast checker is never a substitute for testing with real people, of all abilities.</p>
+                <h3>White space</h3>
+                <p>White space can help group elements on a page and structure information. Used well, white space makes content easier to read.</p>
+            </div>
+        </div>
+    </section>
+    <section id="text-colours" class="dm-section">
+        <h3>Text colour</h3>
+        <div class="row">
+            <div class="column large-7">
+                <p>#282828 (dark grey) is our main text colour. Use a colour contrast checker when using this colour on backgrounds other than white.</p>
             </div>
         </div>
         <div class="row">
-            <div class="column small-6 large-3">
-                <div class="colour-swatch body-copy"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#282828</h3>
-                    <p>Use for all main content copy.</p>
+            <div class="column small-12 large-3">
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch text-bg"></div>
+                    <h4>Text</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                    	<li>$text</li>
+                    	<li>rgb(40,40,40)</li>
+                    	<li>#282828</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
     <section id="link-colours" class="dm-section">
-        <h2>Link colours</h2>
+        <h3>Link colours</h3>
         <div class="row">
             <div class="column large-7">
-                <p>#00729a passes colour contrast at 4.5:1. so it can be used wherever neccessary.</p>
-                <p>It <a href="#">works well within blocks of copy</a>. But, if you’re using it on a dark background (or image), contrast test it for legibility.</p>
-                <p>You can use links in white, grey or black but underline them to make it evident that they’re links. They must be clearly identifiable and distinguishable from surrounding text — make it easy for users to scan.</p>
-                <p>However, you do not necessarily need to underline a link if it is:</p>
-                <ul>
-                    <li>a main navigational link, for example, <a href="http://www.co-operatiove.coop" class="no-underline">www.co-operative.coop</a></li>
-                    <li>within the primary or secondary navigation</li>
-                </ul>
+                <p>Use #00729A (dark blue) as the default colour for text links. You can use #282828 as an alternative if needed &mdash; for instance if you are using links on a coloured background.</p>
+                <p>If you’re using a dark background colour you must do a colour contrast check.</p>
+                <p>All text links should be underlined regardless of what colour they are.</p>
                 <p>The mouse-over state must use the hand/pointer to indicate that the link is clickable.</p>
-                <p>Link text can be read out of context and should always tell the user where it’s taking them — no ‘click here’s’. Find out <a href="/content.html#links">how we write link text</a>.</p>
+                <p>Link text can be read out of context and should always tell the user where it’s taking them &mdash; never use  ‘click here’. Find out <a href="/content.html#links">how we write link text</a>.</p>
             </div>
         </div>
         <div class="row">
             <div class="column small-6 large-3">
-                <div class="colour-swatch coop-link-blue-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#00729a</h3>
-                    <p>Use for text links.</p>
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch link-blue-bg"></div>
+                    <h4>Link</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                        <li>$link</li>
+                        <li>rgb(0,161,204)</li>
+                        <li>#00729A</li>
+                    </ul>
                 </div>
             </div>
             <div class="column small-6 large-3">
-                <div class="colour-swatch coop-link-hover-blue-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#00394e</h3>
-                    <p>Use for text link hover.</p>
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch link-hover-blue-bg"></div>
+                    <h4>Link hover</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                        <li>$link-hover</li>
+                        <li>rgb(0,57,78)</li>
+                        <li>#00394E</li>
+                    </ul>
                 </div>
             </div>
             <div class="column small-6 large-3">
-                <div class="colour-swatch coop-link-blue-focused"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#00bbe3</h3>
-                    <p>Outline colour for focused links.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="page-colours" class="dm-section">
-        <h2>Page colours</h2>
-        <div class="row">
-            <div class="column small-12 medium-6">
-                <p>Only use white as a background colour.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column small-6 large-3">
-                <div class="colour-swatch white-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#fff</h3>
-                    <p>Main background colour for pages.</p>
-                </div>
-            </div>
-        </div>
-    <section id="border-colours" class="dm-section">
-        <h2>Border colours</h2>
-        <div class="row">
-            <div class="column small-6 large-3">
-                <div class="colour-swatch coop-border-grey-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#c4c4c4</h3>
-                    <p>Use for borders.</p>
-                </div>
-            </div>
-            <div class="column small-6 large-3">
-                <div class="colour-swatch coop-grey-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#6e6e6e</h3>
-                    <p>Use for borders.</p>
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch link-focus-blue-bg"></div>
+                    <h4>Link focus</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                        <li>$link-focus</li>
+                        <li>rgb(0,161,204)</li>
+                        <li>#00A1CC</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
     <section id="button-colours" class="dm-section">
-        <h2>Button colours</h2>
+        <h3>Button colours</h3>
         <div class="row">
             <div class="column small-6 large-3">
-                <div class="colour-swatch button-green-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#118156</h3>
-                    <p>Primary button colour.</p>
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch button-green-bg"></div>
+                    <h4>Primary</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                        <li>$button-primary</li>
+                        <li>rgb(17,129,86)</li>
+                        <li>#118156</li>
+                    </ul>
                 </div>
             </div>
             <div class="column small-6 large-3">
-                <div class="colour-swatch button-green-highlighted-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#149865</h3>
-                    <p>Primary button hover.</p>
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch button-green-hover-bg"></div>
+                    <h4>Primary hover</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                        <li>$button-primary-hover</li>
+                        <li>rgb(32,151,103)</li>
+                        <li>#209767</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row margin-bh">
             <div class="column small-12 large-6">
                 <h3 class="example-heading"><span class="example_label">Example</span></h3>
                 <div class="example example--padded">
@@ -188,17 +186,25 @@ id: colour
         </div>
         <div class="row">
             <div class="column small-6 large-3">
-                <div class="colour-swatch button-primary-dark-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#374c63</h3>
-                    <p>Button colour.</p>
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch button-primary-dark-bg"></div>
+                    <h4>Primary dark</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                        <li>$button-primary-dark</li>
+                        <li>rgb(55,76,99)</li>
+                        <li>#374C63</li>
+                    </ul>
                 </div>
             </div>
             <div class="column small-6 large-3">
-                <div class="colour-swatch button-primary-dark-highlighted-bg"></div>
-                <div class="boxed boxed--even margin-bh">
-                    <h3>#496584</h3>
-                    <p>Button hover.</p>
+                <div class="dm-colour">
+                    <div class="dm-colour__swatch button-primary-dark-hover-bg"></div>
+                    <h4>Primary dark hover</h4>
+                    <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                        <li>$button-primary-dark-hover</li>
+                        <li>rgb(73,101,132)</li>
+                        <li>#496584</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -211,5 +217,415 @@ id: colour
             </div>
         </div>
         <p>Find out <a href="/styles/buttons.html#standard-buttons">how we design buttons</a>.</p>
+    </section>
+    <section id="borders-and-page" class="dm-section">
+        <div class="row">
+            <div class="column large-7">
+                <h3>Greys</h3>
+                <p>Try to use borders only where absolutely necessary. Where possible use typography and the white space around content to help structure a page.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12">
+                <h3>Page colours</h3>
+                <div class="row">
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch white-bg border"></div>
+                            <h4>Page</h4>
+                            <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                                <li>$page</li>
+                                <li>rgb(255,255,255)</li>
+                                <li>#FFFFFF</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch grey-light-bg"></div>
+                            <h4>Light grey</h4>
+                            <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                                <li>$grey-light</li>
+                                <li>rgb(243,243,243)</li>
+                                <li>#F3F3F3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12">
+                <h3>Border colours</h3>
+                <div class="row">
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch grey-mid-bg"></div>
+                            <h4>Mid grey</h4>
+                            <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                                <li>$grey-mid</li>
+                                <li>rgb(196,196,196)</li>
+                                <li>#C4C4C4</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch grey-dark-bg"></div>
+                            <h4>Dark grey</h4>
+                            <ul class="list-bare dm-colour__definition dm-colour__definition--stack">
+                                <li>$grey-dark</li>
+                                <li>rgb(110,110,110)</li>
+                                <li>#6E6E6E</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="secondary-colours" class="dm-section">
+        <h2>Other colours you can use</h2>
+        <div class="row">
+            <div class="column large-7">
+                <p>You can use other colours to:</p>
+                <ul>
+                    <li>draw users’ focus to particular content areas</li>
+                    <li>emphasise content so that it's read in an order that makes sense to users</li>
+                    <li>give the impression of depth and layering &mdash; this can help structure content in a helpful way for users</li>
+                    <li>avoid overusing the Co-op brand blue</li>
+                </ul>
+                <p>These colours have been contrast tested as background colours with white or grey (#282828) text. Use a colour contrast checker when using any other colour of text.</p>
+                <p>These colours can be seen on our <a href="https://twitter.com/CoopDigital/status/940951137657802752">twitter cards</a> and our <a href="https://www.coop.co.uk/membership">membership dashboard</a> (you must be a Co-op member and logged in).</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12">
+                <h3>Yellows</h3>
+                <div class="row">
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide yellow-bright-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Bright</li>
+                                    <li>$yellow-bright</li>
+                                    <li>rgb(255,255,0)</li>
+                                    <li>#FFFF00</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23FFFF00" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide yellow-light-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Light</li>
+                                    <li>$yellow-light</li>
+                                    <li>rgb(255,236,0)</li>
+                                    <li>#FFEC00</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23FFEC00" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide yellow-mid-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Mid</li>
+                                    <li>$yellow-mid</li>
+                                    <li>rgb(255,211,8)</li>
+                                    <li>#FFD308</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23FFD308" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12">
+                <h3>Greens</h3>
+                <div class="row">
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide green-bright-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Bright</li>
+                                    <li>$green-bright</li>
+                                    <li>rgb(237,251,60)</li>
+                                    <li>#EDFB3C</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23EDFB3C" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide green-light-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Light</li>
+                                    <li>$green-light</li>
+                                    <li>rgb(186,211,3)</li>
+                                    <li>#BAD303</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23BAD303" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide green-mid-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Mid</li>
+                                    <li>$green-mid</li>
+                                    <li>rgb(79,130,13)</li>
+                                    <li>#4F820D</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%234F820D" class="dm-colour__definition_link-light">AAA 24px plus size AA other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide green-dark-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Dark</li>
+                                    <li>$green-dark</li>
+                                    <li>rgb(56,92,10)</li>
+                                    <li>#385C0A</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%23385C0A" class="dm-colour__definition_link-light">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12">
+                <h3>Green blues</h3>
+                <div class="row">
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide green-blue-bright-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Bright</li>
+                                    <li>$green-blue-bright</li>
+                                    <li>rgb(10,251,251)</li>
+                                    <li>#0AFBFB</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%230AFBFB" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide green-blue-light-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Light</li>
+                                    <li>$green-blue-light</li>
+                                    <li>rgb(114,220,219)</li>
+                                    <li>#72DCDB</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%2372DCDB" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide green-blue-mid-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Mid</li>
+                                    <li>$green-blue-mid</li>
+                                    <li>rgb(15,132,130)</li>
+                                    <li>#0F8482</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%230F8482" class="dm-colour__definition_link-light">AAA 24px plus size AA other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide green-blue-dark-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Dark</li>
+                                    <li>$green-blue-dark</li>
+                                    <li>rgb(22,109,102)</li>
+                                    <li>#166D66</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%23166D66" class="dm-colour__definition_link-light">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12">
+                <h3>Blues</h3>
+                <div class="row">
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide blue-bright-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Bright</li>
+                                    <li>$green-blue-bright</li>
+                                    <li>rgb(65,140,252)</li>
+                                    <li>#418CFC</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23418CFC" class="dm-colour__definition_link-dark">AAA 24px plus size AA other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide blue-light-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Light</li>
+                                    <li>$blue-light</li>
+                                    <li>rgb(146,216,254)</li>
+                                    <li>#92D8FE</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%2392D8FE" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide blue-mid-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Mid</li>
+                                    <li>$blue-mid</li>
+                                    <li>rgb(50,107,183)</li>
+                                    <li>#326BB7</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%23326BB7" class="dm-colour__definition_link-light">AAA 24px plus size AA other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide blue-dark-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Dark</li>
+                                    <li>$blue-dark</li>
+                                    <li>rgb(51,76,137)</li>
+                                    <li>#334C89</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%23334C89" class="dm-colour__definition_link-light">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12">
+                <h3>Pinks and Purples</h3>
+                <div class="row">
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide pink-bright-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Bright</li>
+                                    <li>$pink-bright</li>
+                                    <li>rgb(252,67,211)</li>
+                                    <li>#FC43D3</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23FC43D3" class="dm-colour__definition_link-dark">AAA 24px plus size AA other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide pink-light-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Light</li>
+                                    <li>$pink-light</li>
+                                    <li>rgb(255,128,211)</li>
+                                    <li>#FF80D3</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23FF80D3" class="dm-colour__definition_link-dark">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide purple-mid-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Mid</li>
+                                    <li>$purple-mid</li>
+                                    <li>rgb(173,32,142)</li>
+                                    <li>#AD208E</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%23AD208E" class="dm-colour__definition_link-light">AAA 24px plus size AA other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide purple-dark-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Dark</li>
+                                    <li>$purple-dark</li>
+                                    <li>rgb(173,32,142)</li>
+                                    <li>#61307D</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%2361307D" class="dm-colour__definition_link-light">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column small-12">
+                <h3>Reds and Oranges</h3>
+                <div class="row">
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide orange-mid-bg">
+                                <ul class="list-bare dm-colour__definition">
+                                    <li class="bold">Mid</li>
+                                    <li>$orange-mid</li>
+                                    <li>rgb(248,100,44)</li>
+                                    <li>#F8642C</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23282828-on-%23F8642C" class="dm-colour__definition_link-dark">AAA 24px plus size AA other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide red-mid-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Mid</li>
+                                    <li>$red-mid</li>
+                                    <li>rgb(214,49,24)</li>
+                                    <li>#D63118</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%23D63118" class="dm-colour__definition_link-light">AAA 24px plus size AA other</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column small-6 large-3">
+                        <div class="dm-colour">
+                            <div class="dm-colour__swatch dm-colour__swatch--wide red-dark-bg">
+                                <ul class="list-bare dm-colour__definition white">
+                                    <li class="bold">Dark</li>
+                                    <li>$red-dark</li>
+                                    <li>rgb(159,42,0)</li>
+                                    <li>#9F2A00</li>
+                                    <li><a href="http://leaverou.github.io/contrast-ratio/#%23FFFFFF-on-%239F2A00" class="dm-colour__definition_link-light">AAA any size text</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </article>
