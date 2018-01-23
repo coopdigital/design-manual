@@ -1,0 +1,210 @@
+// Styles for v2 design
+
+// Logo
+.header-main .coop-logo {
+  width: 34px;
+  height: 36px;
+  padding: 5px;
+  svg {
+    fill:#fff;
+    width: 34px;
+  }
+}
+
+// Black link
+.black-link {
+  color: #282828;
+}
+
+.box-title {
+  background-color: #fff;
+    h3 {
+      text-decoration: underline;
+      font-size: 36px;
+      @include media(large) {
+        padding: 50px 0;
+        font-size: 60px;
+      }
+    }
+}
+
+.strong-title {
+  font-family: $bold;
+}
+
+// Home
+.home .header-main {
+    background: #ab288d;
+}
+
+.dm-intro-section {
+  background: #ab288d;
+  padding-top: $half-spacing-unit;
+  padding-bottom: $half-spacing-unit;
+  color: #fff;
+  @include media(large) {
+    padding-top: $base-spacing-unit;
+    padding-bottom: $base-spacing-unit;
+  }
+    .side-box {
+      border-top: #d592c5 10px solid;
+    }
+    a {
+      color: #fff;
+      border-color: #fff;
+   }
+   .side-box-wrap {
+    margin-top: $half-spacing-unit;
+    @include media(large) {
+         margin-top: 0;
+    }
+   }
+ }
+
+// Main Nav
+.primary-nav {
+  clear: both;
+  @include media(large) {
+      float: right;
+      clear: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    text-align: left;
+    padding-left: 0;
+      li {
+        display: block;
+        padding-right: 30px;
+        padding-bottom: $quarter-spacing-unit;
+        @include media(large) {
+          display: inline-block;
+        }
+          &:last-child {
+            padding-right: 0;
+          }
+      }
+  }
+}
+
+
+// Main comtent
+.home .main {
+  margin-top: 0;
+}
+
+.highlight-section {
+  padding-top: $half-spacing-unit;
+  @include media(large) {
+    padding-top: $base-spacing-unit;
+  }
+  h2 {
+    margin-bottom: $half-spacing-unit;
+  }
+}
+.highlight-img {
+  background-image: url("/images/sketching-is-useful.jpg");
+  height: 697px;
+}
+.home .box-title {
+  width: 80%;
+  margin-top: -100px;
+  padding: 25px 0;
+  @include media(large) {
+    width: 100%;
+    margin-top: -231px;
+    max-width: 845px;
+  }
+    h3 {
+      @include media(large) {
+        padding: 50px 0;
+        font-size: 60px;
+      }
+    }
+}
+
+h4 {
+  font-family: $regular;
+}
+
+// Blogs
+.blog-section {
+  margin-bottom: $base-spacing-unit;
+}
+
+.blog-title {
+  background-color: #fff;
+  max-width: 80%;
+  margin-top: -75px;
+   h4 {
+     margin-top: $half-spacing-unit;
+   }
+}
+
+.blog-img1 {
+  background-image: url("/images/blog-1.jpg");
+  height: 221px;
+  background-repeat: no-repeat;
+}
+.blog-img2 {
+  background-image: url("/images/blog-2.jpg");
+  height: 221px;
+  background-repeat: no-repeat;
+}
+.blog-img3 {
+  background-image: url("/images/blog-3.jpg");
+  height: 221px;
+  background-repeat: no-repeat;
+}
+
+//Feedback content
+#FeedbackForm {
+  .h2 {
+    padding-top: 0;
+  }
+  .tile {
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .label {
+    font-size: em-calc(16px);
+    @include media(large) {
+       font-size: em-calc(20px);
+    }
+  }
+  .block-label input[type=radio], .block-label input[type=checkbox] {
+    top: 19px;
+  }
+   .block-label {
+    width: 50%;
+    display: inline-block;
+    margin-right: $eighth-spacing-unit;
+    font-size: 16px;
+    padding: 15px 47px;
+    @include media(medium) {
+      width: 118px;
+      min-width: 118px;
+      margin-right: $quarter-spacing-unit;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+  .email {
+    margin-bottom: $quarter-spacing-unit;
+  }
+}
+
+.slide-toggle-content {
+  outline: 0;
+  display: none;
+}
+
+//Clear btn
+.clear-btn {
+  border: 2px solid #31918e;
+  border-radius: 7px;
+  box-shadow: none;
+  color: #31918e;
+  padding: $quarter-spacing-unit $base-spacing-unit;
+}

@@ -1,0 +1,38 @@
+.principles {
+    .header-main {
+        background-color:#228480;    
+        .principles {
+            border-bottom: 10px solid #fff;
+            padding-bottom: 50px;
+        }
+    }
+    .highlight-banner {
+        border: 2px solid #d2e6e6;
+        padding: $base-spacing-unit;
+        font-size: 20px;
+        @include media(large) {
+            padding-right: 300px;
+        }
+        a {
+            border-bottom: none;
+        }
+        .download-link {
+            border-bottom: 0.075em solid #00729a;
+        }
+        .download-size {
+            color: #8F8F8F;
+        }
+    }
+    .principles-intro {
+        margin-bottom: $base-spacing-unit;
+    }
+    .in-page-nav {
+        border-left: 6px #d2e6e6 solid;
+    }
+}
+
+.border-sections section {
+    border-bottom: 2px solid #d2e6e6;
+    padding-bottom: $half-spacing-unit;
+    margin-bottom: $base-spacing-unit;
+}

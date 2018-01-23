@@ -1,16 +1,27 @@
 ---
 layout: default
 id: design-principles
+body-page-class: principles
 ---
 
 <article class="wrap">
-    {% include breadcrumbs.html %}
-    <header>
-        <div class="row">
-            <div class="column medium-7 small-12">
-                <h1>Principles</h1>
-                <p>Our digital design principles reflect how we think about design. They provide a way for us to look at the work we create and how we create it: building the right thing; building the thing right.</p>
-                <p>We design:</p>
+    <div class="principles-intro">
+        <header>
+            <div class="row">
+                <div class="column small-12">
+                    <h1>Principles</h1>
+                    <div class="highlight-banner">
+                        <p>Our digital design principles reflect how we think about design. They provide a way for us to look at the work we create and how we create it: building the right thing; building the thing right.</p>
+                        <a href="/"><span class="download-link">Download design principle posters PDF</span><span class="download-size"> (46kb)</span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="row">
+    <section id="context" class="dm-section">
+            <div class="column medium-4 small-12">
+                <p class="strong-title">We design:</p>
                 <nav>
                     <ul class="list-bare in-page-nav">
                       <li><a href="#context">in context</a></li>
@@ -22,11 +33,9 @@ id: design-principles
                     </ul>
                 </nav>
             </div>
-        </div>
-    </header>
-    <section id="context" class="dm-section">
-        <div class="row">
-            <div class="column medium-7 small-12">
+    </section>
+    <div class="column medium-8 small-12 border-sections">
+        <section id="purpose" class="dm-section">
                 <h2>We design in context</h2>
                 <p>Communicating with a clear voice, at the right time, in the right&nbsp;way.</p>
                 <p>We do this by:</p>
@@ -35,79 +44,70 @@ id: design-principles
                     <li>looking at the whole experience for the user, not just the digital&nbsp;part</li>
                     <li>giving information only at the point it’s needed, and through the most effective&nbsp;channel</li>
                 </ul>
-            </div>
+        </section>
+        <section id="purpose" class="dm-section">
+
+                    <h2>We design with purpose</h2>
+                    <p>Making services that are useful, elegant and easy to&nbsp;use.</p>
+                    <p>We’re doing this by:</p>
+                    <ul>
+                        <li>knowing why the service is needed before we build&nbsp;it</li>
+                        <li>measuring and challenging the effectiveness of what we&nbsp;build</li>
+                        <li>getting out of the way — helping users achieve their goals as quickly as they&nbsp;can</li>
+                        <li>designing services that speak for themselves — they’re self-explanatory and&nbsp;intuitive </li>
+                    </ul>
+        
+        </section>
+        <section id="everyone" class="dm-section">
+        
+                    <h2>We design for everyone</h2>
+                    <p>Designing so that no one feels different.</p>
+                    <p>We do this by:</p>
+                    <ul>
+                        <li>communicating in a clear, simple way; opening up our services to&nbsp;everyone</li>
+                        <li>designing for people irrespective of their background, circumstance, digital skills or subject knowledge - removing any barriers to our&nbsp;services</li>
+                        <li>recognising that people come to our services with their own needs, insecurities and struggles – they deserve our consideration and&nbsp;thoughtfulness</li>
+                    </ul>
+        
+        </section>
+        <section id="honesty" class="dm-section">
+        
+                    <h2>We design with honesty</h2>
+                    <p>Nothing made up.</p>
+                    <p>We do this by:</p>
+                    <ul>
+                        <li>being truthful about what we can and cannot do for our&nbsp;users</li>
+                        <li>talking about what we’ve done, not what we’ve yet to&nbsp;do</li>
+                        <li>being true to our medium, understanding its opportunities and&nbsp;limits</li>
+                    </ul>
+
+    
+        </section>
+        <section id="open" class="dm-section">
+        
+                    <h2>We design in the open</h2>
+                    <p>Being co-operative in the way we work with&nbsp;others.</p>
+                    <p>We do this by:</p>
+                    <ul>
+                        <li>talking about what we’re making as we make&nbsp;it</li>
+                        <li>being generous with what we know, and open to learning from&nbsp;others</li>
+                        <li>not being afraid to&nbsp;experiment</li>
+                    </ul>
+
+        </section>
+        <section id="iteratively" class="dm-section">
+        
+                    <h2>We design iteratively</h2>
+                    <p>There’s no substitute for putting our work in front of real&nbsp;people.</p>
+                    <p>We do this by:</p>
+                    <ul>
+                        <li>releasing earlier, learning&nbsp;faster</li>
+                        <li>learning from what people do, not what they say they&nbsp;do</li>
+                        <li>making design decisions based on&nbsp;evidence</li>
+                        <li>responding to change</li>
+                    </ul>
+    
+        </section>
         </div>
-    </section>
-    <section id="purpose" class="dm-section">
-        <div class="row">
-            <div class="column medium-7 small-12">
-                <h2>We design with purpose</h2>
-                <p>Making services that are useful, elegant and easy to&nbsp;use.</p>
-                <p>We’re doing this by:</p>
-                <ul>
-                    <li>knowing why the service is needed before we build&nbsp;it</li>
-                    <li>measuring and challenging the effectiveness of what we&nbsp;build</li>
-                    <li>getting out of the way — helping users achieve their goals as quickly as they&nbsp;can</li>
-                    <li>designing services that speak for themselves — they’re self-explanatory and&nbsp;intuitive </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="everyone" class="dm-section">
-        <div class="row">
-            <div class="column medium-7 small-12">
-                <h2>We design for everyone</h2>
-                <p>Designing so that no one feels different.</p>
-                <p>We do this by:</p>
-                <ul>
-                    <li>communicating in a clear, simple way; opening up our services to&nbsp;everyone</li>
-                    <li>designing for people irrespective of their background, circumstance, digital skills or subject knowledge - removing any barriers to our&nbsp;services</li>
-                    <li>recognising that people come to our services with their own needs, insecurities and struggles – they deserve our consideration and&nbsp;thoughtfulness</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="honesty" class="dm-section">
-        <div class="row">
-            <div class="column medium-7 small-12">
-                <h2>We design with honesty</h2>
-                <p>Nothing made up.</p>
-                <p>We do this by:</p>
-                <ul>
-                    <li>being truthful about what we can and cannot do for our&nbsp;users</li>
-                    <li>talking about what we’ve done, not what we’ve yet to&nbsp;do</li>
-                    <li>being true to our medium, understanding its opportunities and&nbsp;limits</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="open" class="dm-section">
-        <div class="row">
-            <div class="column medium-7 small-12">
-                <h2>We design in the open</h2>
-                <p>Being co-operative in the way we work with&nbsp;others.</p>
-                <p>We do this by:</p>
-                <ul>
-                    <li>talking about what we’re making as we make&nbsp;it</li>
-                    <li>being generous with what we know, and open to learning from&nbsp;others</li>
-                    <li>not being afraid to&nbsp;experiment</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="iteratively" class="dm-section">
-        <div class="row">
-            <div class="column medium-7 small-12">
-                <h2>We design iteratively</h2>
-                <p>There’s no substitute for putting our work in front of real&nbsp;people.</p>
-                <p>We do this by:</p>
-                <ul>
-                    <li>releasing earlier, learning&nbsp;faster</li>
-                    <li>learning from what people do, not what they say they&nbsp;do</li>
-                    <li>making design decisions based on&nbsp;evidence</li>
-                    <li>responding to change</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    </div>
 </article>
