@@ -32,6 +32,11 @@
   font-family: $bold;
 }
 
+// Tables
+table thead, table tbody td, table tbody td, table tbody th:after {
+  border-color: #fdd045;
+}
+
 // Home
 .home .header-main {
     background: #ab288d;
