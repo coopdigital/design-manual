@@ -6,30 +6,55 @@
   height: 36px;
   padding: 5px;
   svg {
-    fill:#fff;
+    fill: $white;
     width: 34px;
   }
 }
 
-// Black link
-.black-link {
-  color: #282828;
+// Common
+.strong-title {
+  font-family: $bold;
 }
 
-.box-title {
-  background-color: #fff;
-    h3 {
-      text-decoration: underline;
-      font-size: 36px;
+.intro-box {
+  p {
+    font-family: $medium;
+    
       @include media(large) {
-        padding: 50px 0;
-        font-size: 60px;
+        font-size: 25px;
+      }
+  }
+  a {
+    border: none;
+      @include media(large) {
+        font-size: 21px;
       }
     }
 }
 
-.strong-title {
-  font-family: $bold;
+.download-link {
+  text-decoration: underline;
+}
+
+.download-size {
+  color: #b9b9b9;
+}
+
+.tile--signpost {
+  border-bottom: 6px solid #eaf0f7;
+  &:hover {
+    border-bottom: 6px solid $blue-mid;
+  }
+  h2 {
+    display: inline;
+  }
+  p {
+    margin-top: $half-spacing-unit;
+  }
+}
+
+.dm-section {
+  margin-bottom: $base-spacing-unit;
 }
 
 // Tables
@@ -39,52 +64,73 @@ table thead, table tbody td, table tbody td, table tbody th:after {
 
 // Home
 .home .header-main {
-    background: #ab288d;
+    background: $blue-mid;
+}
+
+.home {
+  .tile--link {
+    min-height: 120px;
+    margin-bottom: $quarter-spacing-unit;
+    
+    @include media(large) {
+      min-height: 170px;
+    }
+  }
 }
 
 .dm-intro-section {
-  background: #ab288d;
+  background: $blue-mid;
+  margin-bottom: $base-spacing-unit;
   padding-top: $half-spacing-unit;
   padding-bottom: $half-spacing-unit;
-  color: #fff;
+  color: $white;
+
   @include media(large) {
     padding-top: $base-spacing-unit;
     padding-bottom: $base-spacing-unit;
   }
     .side-box {
-      border-top: #d592c5 10px solid;
+      border-top: #9bb7d8 6px solid;
     }
     a {
-      color: #fff;
-      border-color: #fff;
+      color: $white;
+      border-color:$white;
    }
    .side-box-wrap {
     margin-top: $half-spacing-unit;
+
     @include media(large) {
          margin-top: 0;
     }
+
    }
  }
 
 // Main Nav
 .primary-nav {
-  clear: both;
-  @include media(large) {
-      float: right;
-      clear: none;
-  }
+    float: right;
+    clear: none;
+    margin-top: 7px;
   ul {
     list-style: none;
     margin: 0;
     text-align: left;
     padding-left: 0;
+    .active {
+      a {
+        padding-right: 0;
+        padding-bottom: 29px;
+        border-bottom: 11px solid $white;
+
+        @include media(medium) {
+          padding-bottom: 49px;
+        }
+      }
+    }
       li {
-        display: block;
+        display: inline-block;
         padding-right: 30px;
         padding-bottom: $quarter-spacing-unit;
-        @include media(large) {
-          display: inline-block;
-        }
           &:last-child {
             padding-right: 0;
           }
@@ -98,71 +144,14 @@ table thead, table tbody td, table tbody td, table tbody th:after {
   margin-top: 0;
 }
 
-.highlight-section {
-  padding-top: $half-spacing-unit;
-  @include media(large) {
-    padding-top: $base-spacing-unit;
-  }
-  h2 {
-    margin-bottom: $half-spacing-unit;
-  }
-}
-.highlight-img {
-  background-image: url("/images/sketching-is-useful.jpg");
-  height: 697px;
-}
-.home .box-title {
-  width: 80%;
-  margin-top: -100px;
-  padding: 25px 0;
-  @include media(large) {
-    width: 100%;
-    margin-top: -231px;
-    max-width: 845px;
-  }
-    h3 {
-      @include media(large) {
-        padding: 50px 0;
-        font-size: 60px;
-      }
-    }
-}
-
-h4 {
-  font-family: $regular;
-}
-
-// Blogs
-.blog-section {
-  margin-bottom: $base-spacing-unit;
-}
-
-.blog-title {
-  background-color: #fff;
-  max-width: 80%;
-  margin-top: -75px;
-   h4 {
-     margin-top: $half-spacing-unit;
-   }
-}
-
-.blog-img1 {
-  background-image: url("/images/blog-1.jpg");
-  height: 221px;
-  background-repeat: no-repeat;
-}
-.blog-img2 {
-  background-image: url("/images/blog-2.jpg");
-  height: 221px;
-  background-repeat: no-repeat;
-}
-.blog-img3 {
-  background-image: url("/images/blog-3.jpg");
-  height: 221px;
-  background-repeat: no-repeat;
-}
-
 //Feedback content
+.feedback {
+  margin-top: $half-spacing-unit*2;
+  @include media(medium) {
+    margin-top: $base-spacing-unit*2;
+  }
+}
+
 #FeedbackForm {
   .h2 {
     padding-top: 0;
@@ -173,6 +162,7 @@ h4 {
   }
   .label {
     font-size: em-calc(16px);
+
     @include media(large) {
        font-size: em-calc(20px);
     }
@@ -186,6 +176,7 @@ h4 {
     margin-right: $eighth-spacing-unit;
     font-size: 16px;
     padding: 15px 47px;
+
     @include media(medium) {
       width: 118px;
       min-width: 118px;
@@ -205,11 +196,32 @@ h4 {
   display: none;
 }
 
-//Clear btn
-.clear-btn {
-  border: 2px solid #31918e;
-  border-radius: 7px;
-  box-shadow: none;
-  color: #31918e;
-  padding: $quarter-spacing-unit $base-spacing-unit;
+//Footer 
+.footer-main {
+  background-color: $grey-light;
+  padding: $base-spacing-unit 0;
+  .secondary-nav {
+   
+    @include media(medium) {
+      text-align: right;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+    li { 
+      margin-bottom: $quarter-spacing-unit;
+      @include media(medium) {
+        display: inline-block;
+        margin-right: $half-spacing-unit;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    a {
+      color: $text;
+      border: none;
+      text-decoration: underline;
+    }
+  }
 }

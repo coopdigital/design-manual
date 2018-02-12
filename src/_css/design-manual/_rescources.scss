@@ -1,16 +1,12 @@
 .rescources {
     .header-main {
-        background-color:#96d8fb;    
-        .rescources {
-            border-bottom: 10px solid #fff;
-            padding-bottom: 50px;
-        }
+        background-color: $yellow-mid;    
        .coop-logo svg, .coop-logo-large svg {
-           fill: #000000;
+           fill: $black;
        }
        a {
-           color: #000000;
-           border-color: #000000;
+           color: $black;
+           border-color: $black;
        }
     }
     .highlight-banner {
@@ -25,7 +21,7 @@
         margin-bottom: $base-spacing-unit;
     }
     .in-page-nav {
-        border-left: 6px #caebfd solid;
+        border-left: 6px #e8f2f2 solid;
     }
     .border-sections section {
         border-color: #caebfd;

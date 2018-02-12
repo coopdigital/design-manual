@@ -1,9 +1,13 @@
 // Main Nav
 .header-main {
   color: #fff;
-  padding-top: 40px;
-  padding-bottom: 40px;
   border-bottom: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include media(medium) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
  a {
     color: #fff;
     border-color: #fff;
