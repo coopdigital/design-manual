@@ -1,4 +1,4 @@
-.rescources {
+.resources {
     .header-main {
         background-color: $yellow-mid;    
        .coop-logo svg, .coop-logo-large svg {
@@ -10,15 +10,6 @@
        }
     }
    
-    .highlight-banner {
-        border: 2px solid #caebfd;
-        padding: $base-spacing-unit;
-        font-size: 20px;
-            @include media(large) {
-                padding-right: 300px;
-            }
-    }
-
     .border-sections section {
         border-color: #caebfd;
     }
@@ -33,3 +24,4 @@
 .mid-yellow-bb {
     border-bottom: 2px solid lighten($yellow-mid, 40%);
   }
+

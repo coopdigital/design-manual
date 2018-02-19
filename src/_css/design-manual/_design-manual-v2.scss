@@ -115,6 +115,15 @@ $green-blue-dark: #29837f;
     }
 }
 
+.highlight-banner {
+  padding: $half-spacing-unit;
+      @include media(large) {
+          padding: $base-spacing-unit;
+          padding-right: 300px;
+          font-size: 20px;
+      }
+}
+
 .tile--link h3 {
   display: inline;
 }
@@ -186,8 +195,26 @@ table thead, table tbody td, table tbody td, table tbody th:after {
       color: $text;
       border-color: $text;
     }
-    &::after {
+    &::before {
+      content: '\e608';
+      margin-right: $quarter-spacing-unit;
       color: $text;
+      font-family: 'coopicons';
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      vertical-align: middle;
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      transform: rotate(180deg);
+      display: inline-block;
     }
   }
 
