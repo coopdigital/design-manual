@@ -1,0 +1,13 @@
+.secondary-content {
+    .header-main {
+        background-color: $grey-dark;    
+    }
+}
+
+.grey-dark-bl {
+    border-left: 7px solid lighten($grey-dark, 50%);
+  }
+
+.grey-dark-bb {
+    border-bottom: 2px solid lighten($grey-dark, 50%);
+  }

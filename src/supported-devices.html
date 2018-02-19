@@ -1,171 +1,190 @@
 ---
 layout: default
-id: supported-devices
+id: supported-devices 
+body-page-class: secondary-content
 ---
 
-<article class="wrap">
-    {% include breadcrumbs.html %}
-    <header>
-        <div class="row margin-bh">
-            <div class="column medium-7">
-                <h1>Supported devices</h1>
-                <p>We want to give a consistent experience across browsers and devices. But, we know that small variations can be inevitable.</p>
-                <p>You should use new technology and the latest features. Apply them in a way that allows users who do not have (or intentionally disable) these features to access the same content. Understand the opportunities and the limits of the medium: <a href="/principles.html#honesty">design with honesty</a>.</p>
-                <nav>
-                    <ul class="list-bare in-page-nav">
-                        <li><a href="#browser-matrix">Supported browsers and devices</a></li>
-                        <li><a href="#levels-of-support">Levels of support</a></li>
-                        <li><a href="#maintenance">Maintenance</a></li>
-                    </ul>
-                </nav>
-            </div>
+<article class="wrap margin-tb">
+        <div class="rescources-intro m-bh-med-b">
+            <header>
+                <div class="row">
+                    <div class="column medium-9 small-12 intro-box">
+                         <h1>Supported devices</h1>
+                         <p class="medium">We want to give a consistent experience across browsers and devices. But, we know that small variations can be inevitable.</p>
+                         <p class="medium">You should use new technology and the latest features. Apply them in a way that allows users who do not have (or intentionally disable) these features to access the same content. Understand the opportunities and the limits of the medium: <a href="/principles.html#honesty">design with honesty</a>.</p>
+                    </div>
+                </div>
+            </header>
         </div>
-    </header>
-    <section id="browser-matrix" class="dm-section">
-        <h2 class="tight--divider">Supported browsers and devices</h2>
-        <div class="border-bottom">
-            <div class="row">
-                <div class="small-12 medium-2 column">
-                    <h2 class="gamma table-header">Windows</h2>
-                </div>
-                <div class="small-12 medium-10 column">
-                    <table class="unstyled-table browser-support">
-                        <tbody>
-                            <tr class="tr-divider">
-                                <th scope="row">11, Edge</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                            <tr class="tr-divider">
-                                <th scope="row">9, 10</th>
-                                <td class="table__digit"><span class="bold">Partial</span></td>
-                            </tr>
-                            <tr class="tr-divider">
-                                <th scope="row">Google Chrome latest (2 most recent versions*)</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                            <tr class="tr-divider">
-                                <th scope="row">Mozilla Firefox latest (2 most recent versions*)</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Nokia Lumia 1072 (Windows Phone 8.1) **</th>
-                                <td class="table__digit"><span class="bold">Partial</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="border-bottom">
-            <div class="row">
-                <div class="small-12 medium-2 column">
-                    <h2 class="gamma table-header">Mac OS X</h2>
-                </div>
-                <div class="small-12 medium-10 column">
-                    <table class="unstyled-table browser-support">
-                        <tbody>
-                            <tr class="tr-divider">
-                                <th scope="row">Safari 6.x, 7.x, 8.x, 9.x, 10.x</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                            <tr class="tr-divider">
-                                <th scope="row">Google Chrome latest (2 most recent versions*)</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Mozilla Firefox latest (2 most recent versions*)</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="border-bottom">
-            <div class="row">
-                <div class="small-12 medium-2 column">
-                    <h2 class="gamma table-header">Android</h2>
-                </div>
-                <div class="small-12 medium-10 column">
-                    <table class="unstyled-table browser-support">
-                        <tbody>
-                            <tr class="tr-divider">
-                                <th scope="row">Google Chrome (latest version)</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Android browser</th>
-                                <td class="table__digit"><span class="bold">Partial</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="border-bottom margin-bh">
-            <div class="row">
-                <div class="small-12 medium-2 column">
-                    <h2 class="gamma table-header">iOS</h2>
-                </div>
-                <div class="small-12 medium-10 column">
-                    <table class="unstyled-table browser-support">
-                        <tbody>
-                            <tr class="tr-divider">
-                                <th scope="row">Safari (iOS 7.x, 8.x, 9.x, 10.x)</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                            <tr class="tr-divider">
-                                <th scope="row">Google Chrome (2 most recent versions*)</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Safari in-app</th>
-                                <td class="table__digit"><span class="bold">Full</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="row margin-bh">
-            <div class="column medium-7">
-                <p>It's fine to support devices and browsers not listed here if analytics show that they're popular with your users.</p>
-                <p>* Browser versions auto update without user intervention, so the full supported version is the 2 most recent non-beta versions and partial support is the third most recent non-beta version.</p>
-                <p>** The standard smart phone given to Co-op colleagues. It has low usage but you may need to support it.</p>
-            </div>
-        </div>
-    </section>
-    <section id="levels-of-support" class="dm-section">
-        <div class="row margin-bh">
-            <div class="column medium-7">
-                <h2>Levels of support</h2>
-                <h3>Fully supported browsers</h3>
-                <p>‘Full support’ means:</p>
-                <ul>
-                    <li>all content <strong>must</strong> be readable and usable</li>
-                    <li>all functionality <strong>must</strong> work</li>
-                    <li>variations to the presentation of content <strong>must</strong> be minimised</li>
-                    <li>the CSS (where used) <strong>must</strong> be rendered by supported web browsers that present a fully-styled version of the page</li>
-                    <li>pages <strong>should</strong> be developed to maximise the user experience for the browser that has the highest proportion of users</li>
-                </ul>
-                <h3>Partially supported browsers</h3>
-                <p>‘Partial support’ means:</p>
-                <ul>
-                    <li>all core content <strong>must</strong> be readable and usable</li>
-                    <li>navigation <strong>must</strong> work</li>
-                    <li>any degradation to functionality <strong>must</strong> be graceful degradation</li>
-                    <li>any degradation to presentation <strong>must not</strong> obscure content</li>
-                </ul>
-                <p>We do not support IE 8, Windows Phone, Blackberry and Opera because not many of our customers use them.</p>
-            </div>
-        </div>
-    </section>
-    <section id="maintenance" class="dm-section">
         <div class="row">
-            <div class="column medium-7">
-                <h2>Maintenance</h2>
-                <p>We’ll update the browser support matrix as new versions become available and when our users' choice of browser changes.</p>
+        <section id="context">
+                <div class="column medium-4 small-12">
+                    <nav>
+                        <ul id="in-page-nav" class="list-bare in-page-nav grey-dark-bl">
+                          <li class="selected"><a href="#browser-matrix">Supported browsers and devices</a></li>
+                          <li><a href="#levels-of-support">Levels of support</a></li>
+                          <li><a href="#maintenance">Maintenance</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        </section>
+ 
+        <div class="column medium-8 small-12">
+           
+                <section id="browser-matrix" class="grey-dark-bb m-tb-med-x margin-bb padding-bh">
+                        <h2 class="tight--divider">Supported browsers and devices</h2>
+                        <div class="border-bottom">
+                            <div class="row">
+                                <div class="small-12 medium-2 column">
+                                    <h2 class="gamma table-header">Windows</h2>
+                                </div>
+                                <div class="small-12 medium-10 column">
+                                    <table class="unstyled-table browser-support">
+                                        <tbody>
+                                            <tr class="tr-divider">
+                                                <th scope="row">11, Edge</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                            <tr class="tr-divider">
+                                                <th scope="row">9, 10</th>
+                                                <td class="table__digit"><span class="bold">Partial</span></td>
+                                            </tr>
+                                            <tr class="tr-divider">
+                                                <th scope="row">Google Chrome latest (2 most recent versions*)</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                            <tr class="tr-divider">
+                                                <th scope="row">Mozilla Firefox latest (2 most recent versions*)</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Nokia Lumia 1072 (Windows Phone 8.1) **</th>
+                                                <td class="table__digit"><span class="bold">Partial</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-bottom">
+                            <div class="row">
+                                <div class="small-12 medium-2 column">
+                                    <h2 class="gamma table-header">Mac OS X</h2>
+                                </div>
+                                <div class="small-12 medium-10 column">
+                                    <table class="unstyled-table browser-support">
+                                        <tbody>
+                                            <tr class="tr-divider">
+                                                <th scope="row">Safari 6.x, 7.x, 8.x, 9.x, 10.x</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                            <tr class="tr-divider">
+                                                <th scope="row">Google Chrome latest (2 most recent versions*)</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Mozilla Firefox latest (2 most recent versions*)</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-bottom">
+                            <div class="row">
+                                <div class="small-12 medium-2 column">
+                                    <h2 class="gamma table-header">Android</h2>
+                                </div>
+                                <div class="small-12 medium-10 column">
+                                    <table class="unstyled-table browser-support">
+                                        <tbody>
+                                            <tr class="tr-divider">
+                                                <th scope="row">Google Chrome (latest version)</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Android browser</th>
+                                                <td class="table__digit"><span class="bold">Partial</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-bottom margin-bh">
+                            <div class="row">
+                                <div class="small-12 medium-2 column">
+                                    <h2 class="gamma table-header">iOS</h2>
+                                </div>
+                                <div class="small-12 medium-10 column">
+                                    <table class="unstyled-table browser-support">
+                                        <tbody>
+                                            <tr class="tr-divider">
+                                                <th scope="row">Safari (iOS 7.x, 8.x, 9.x, 10.x)</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                            <tr class="tr-divider">
+                                                <th scope="row">Google Chrome (2 most recent versions*)</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">Safari in-app</th>
+                                                <td class="table__digit"><span class="bold">Full</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row margin-bh">
+                            <div class="column medium-7">
+                                <p>It's fine to support devices and browsers not listed here if analytics show that they're popular with your users.</p>
+                                <p>* Browser versions auto update without user intervention, so the full supported version is the 2 most recent non-beta versions and partial support is the third most recent non-beta version.</p>
+                                <p>** The standard smart phone given to Co-op colleagues. It has low usage but you may need to support it.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="levels-of-support" class="grey-dark-bb m-tb-med-x margin-bb padding-bh">
+                            <div class="row margin-bh">
+                                <div class="column medium-7">
+                                    <h2>Levels of support</h2>
+                                    <h3>Fully supported browsers</h3>
+                                    <p>‘Full support’ means:</p>
+                                    <ul>
+                                        <li>all content <strong>must</strong> be readable and usable</li>
+                                        <li>all functionality <strong>must</strong> work</li>
+                                        <li>variations to the presentation of content <strong>must</strong> be minimised</li>
+                                        <li>the CSS (where used) <strong>must</strong> be rendered by supported web browsers that present a fully-styled version of the page</li>
+                                        <li>pages <strong>should</strong> be developed to maximise the user experience for the browser that has the highest proportion of users</li>
+                                    </ul>
+                                    <h3>Partially supported browsers</h3>
+                                    <p>‘Partial support’ means:</p>
+                                    <ul>
+                                        <li>all core content <strong>must</strong> be readable and usable</li>
+                                        <li>navigation <strong>must</strong> work</li>
+                                        <li>any degradation to functionality <strong>must</strong> be graceful degradation</li>
+                                        <li>any degradation to presentation <strong>must not</strong> obscure content</li>
+                                    </ul>
+                                    <p>We do not support IE 8, Windows Phone, Blackberry and Opera because not many of our customers use them.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="maintenance" class="grey-dark-bb m-tb-med-x margin-bb padding-bh">
+                            <div class="row">
+                                <div class="column medium-7">
+                                    <h2>Maintenance</h2>
+                                    <p>We’ll update the browser support matrix as new versions become available and when our users' choice of browser changes.</p>
+                                </div>
+                            </div>
+                        </section>
             </div>
         </div>
-    </section>
 </article>
+
+
+
+
+
+

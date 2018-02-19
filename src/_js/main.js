@@ -77,4 +77,9 @@ $(function(){
   $(".block-label").find("input[type=checkbox], input[type=radio]").each(function(){
     toggleInputLabelClass(this);
   });
+
+// In page nav add class to active link
+$("#in-page-nav li a").click(function() {
+    $(this).parent().addClass('selected').siblings().removeClass('selected');
+    });
 });

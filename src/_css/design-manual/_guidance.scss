@@ -4,18 +4,14 @@
     }
 
     .tile--link {
-        border-bottom: 6px solid #f6e8f3;
-        margin-bottom: $base-spacing-unit;
-        padding-bottom: $base-spacing-unit;
+        border-bottom: 4px solid lighten($purple-mid, 50%);
         
-        @include media(medium) {
-            margin-bottom: $half-spacing-unit;
-        }
-        h2 {
-            font-size: 23px;
-        }
         &:hover {
-             border-bottom: 6px solid $purple-mid;
-        }
+            border-bottom: 4px solid lighten($purple-mid, 40%);
+       }
+    }
+
+    .breadcrumbs-wrap {
+        background-color: lighten($purple-mid, 50%);
     }
 }

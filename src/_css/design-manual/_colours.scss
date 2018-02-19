@@ -1,0 +1,28 @@
+.colours {
+ 
+    .highlight-banner {
+        border: 2px solid #caebfd;
+        padding: $base-spacing-unit;
+        font-size: 20px;
+            @include media(large) {
+                padding-right: 300px;
+            }
+    }
+
+    .border-sections section {
+        border-color: #caebfd;
+    }
+
+    .main {
+        margin-top: 0;
+    }
+}
+
+
+.mid-yellow-bl {
+    border-left: 7px solid lighten($yellow-mid, 40%);
+  }
+
+.mid-yellow-bb {
+    border-bottom: 2px solid lighten($yellow-mid, 40%);
+  }

@@ -17,13 +17,17 @@
                 padding-right: 300px;
             }
     }
-    .rescources-intro {
-        margin-bottom: $base-spacing-unit;
-    }
-    .in-page-nav {
-        border-left: 6px #e8f2f2 solid;
-    }
+
     .border-sections section {
         border-color: #caebfd;
     }
 }
+
+
+.mid-yellow-bl {
+    border-left: 7px solid lighten($yellow-mid, 40%);
+  }
+
+.mid-yellow-bb {
+    border-bottom: 2px solid lighten($yellow-mid, 40%);
+  }

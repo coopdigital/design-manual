@@ -1,38 +1,13 @@
 .principles {
     .header-main {
-        background-color:#228480;    
-        .principles {
-            border-bottom: 10px solid #fff;
-            padding-bottom: 50px;
-        }
-    }
-    .highlight-banner {
-        border: 2px solid #d2e6e6;
-        padding: $base-spacing-unit;
-        font-size: 20px;
-        @include media(large) {
-            padding-right: 300px;
-        }
-        a {
-            border-bottom: none;
-        }
-        .download-link {
-            border-bottom: 0.075em solid #00729a;
-        }
-        .download-size {
-            color: #8F8F8F;
-        }
-    }
-    .principles-intro {
-        margin-bottom: $base-spacing-unit;
-    }
-    .in-page-nav {
-        border-left: 7px #e8f2f2 solid;
+        background-color: $green-blue-dark;    
     }
 }
 
-.border-sections section {
-    border-bottom: 2px solid #e8f2f2;
-    padding-bottom: $half-spacing-unit;
-    margin-bottom: $base-spacing-unit;
+.green-blue-bl {
+    border-left: 7px solid lighten($green-blue-dark, 60%);
+  }
+
+.green-blue-bb {
+    border-bottom: 2px solid lighten($green-blue-dark, 60%); 
 }
