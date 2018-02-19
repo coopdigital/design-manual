@@ -14,4 +14,13 @@
     .breadcrumbs-wrap {
         background-color: lighten($purple-mid, 50%);
     }
+
 }
+
+.purple-mid-bl {
+    border-left: 7px solid lighten($purple-mid, 50%);
+  }
+
+.purple-mid-bb {
+    border-bottom: 2px solid lighten($purple-mid, 50%);
+  }

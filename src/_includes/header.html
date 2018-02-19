@@ -5,9 +5,9 @@
         </a>
         {% if page.id contains 'design-principles' or page.id contains 'guidance' or page.id contains 'rescources' or page.id contains 'supported-devices', or page.id contains 'archive', or page.id contains 'updates',  or page.id contains 'colour'  %}
         <nav class="primary-nav">
-            <ul>
+             <ul>
                 <li {% if page.id == 'design-principles' %} class="active"{% endif %}><a href="/principles.html">Principles</a></li>
-                <li {% if page.id == 'guidance' %} class="active"{% endif %}><a href="/guidance.html">Guidance</a></li>
+                <li {% if page.id contains 'guidance' %} class="active"{% endif %}><a href="/guidance.html">Guidance</a></li>
                 <li {% if page.id == 'rescources' %} class="active"{% endif %}><a href="/rescources.html">Resources</a></li>
             </ul>
         </nav>
