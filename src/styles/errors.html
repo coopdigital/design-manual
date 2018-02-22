@@ -1,34 +1,34 @@
 ---
 layout: default
-id: colour
+id: error guidance
+body-page-class: dm-purple-theme dm-purple-theme-second-level
 ---
-
+{% include breadcrumbs.html %}
 <article class="wrap">
-    {% include breadcrumbs.html %}
     <header>
-        <div class="row">
-            <div class="column medium-7">
-                <h1>Errors</h1>
-                <p>Error messages help to prompt users when something’s gone wrong.</p>
-                <p>It doesn’t matter whether they’ve misspelled a URL or we’re carrying out maintenance on our end (like a 503 error). The message should be succinct, reassuring and useful.</p>
-            </div>
+        <h1>Errors</h1>
+        <div class="highlight-banner purple-mid-b m-bh-med-b">
+            <p class="medium">Error messages help to prompt users when something’s gone wrong.</p>
+            <p class="medium">It doesn’t matter whether they’ve misspelled a URL or we’re carrying out maintenance on our end (like a 503 error). The message should be succinct, reassuring and useful.</p>
         </div>
-        <nav>
-            <ul class="list-bare in-page-nav">
-                <li><a href="#validation">Form validation</a></li>
-                <li><a href="#404">404 page not found</a></li>
-                <li><a href="#503">503 internal server error</a></li>
-            </ul>
-        </nav>
     </header>
-    <section id="validation" class="dm-section">
-        <div class="row">
-            <div class="column large-7">
+    <div class="row">
+        <div class="column medium-4 small-12 fixedsticky">
+            <nav>
+                <ul class="list-bare in-page-nav">
+                    <li><a href="#validation">Form validation</a></li>
+                    <li><a href="#404">404 page not found</a></li>
+                    <li><a href="#503">503 internal server error</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="column medium-8 small-12">
+            <section id="validation" class="dm-section">
                 <h2>Validation</h2>
                 <p>Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.</p>
                 <p>Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.</p>
                 <div class="row">
-                    <div class="column medium-10">
+                    <div class="column medium-12">
                         <h3 class="example-heading"><span class="example_label">Example</span></h3>
                         <div class="example example--padded">
                             <div class="message message-error">
@@ -61,12 +61,8 @@ id: colour
                     </div>
                 </div>
                 <p>Find out more about <a href="/styles/forms/index.html">how we design forms</a> or about <a href="/content.html#validation-messages">validation messages</a>.</p>
-            </div>
-        </div>
-    </section>
-    <section id="404" class="dm-section">
-        <div class="row">
-            <div class="column large-7">
+            </section>
+            <section id="404" class="dm-section">
                 <h2>404 page not found</h2>
                 <p>Users see a 404 page when they follow a broken link; from another website, from our website, from search results, by mistyping a url or following a link to a page that we’ve moved or deleted. It’s a frustrating experience for more confident users, and troubling for the less experienced.</p>
                 <p>A good 404 page:</p>
@@ -105,12 +101,8 @@ id: colour
                 <p>Page content: It looks like you followed a broken link to our website. We’ll try and let the owner of that website know about this problem. In the meantime, try searching for the page you were looking for or go back to the [service] home page.</p>
                 <h4>Broken link from search results</h4>
                 <p>Page content: Thank you for finding a broken link to our website. We’ll fix it as soon as we can. In the meantime, try searching for the page you were looking for or go back to the [service] home page.</p>
-            </div>
-        </div>
-    </section>
-    <section id="503" class="dm-section">
-        <div class="row">
-            <div class="column large-7">
+            </section>
+            <section id="503" class="dm-section">
                 <h2>503 internal server error</h2>
                 <p>People will see one of our 503 pages if our server is not available, either because we are carrying out some work or because it is getting an unusually large amount of traffic.</p>
                 <p>A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.[56]</p>
@@ -134,7 +126,7 @@ id: colour
                     <p>Try refreshing your browser window. If that doesn’t work, try again later.</p>
                     <p>If it’s an emergency and you need to speak to someone, call us on [service contact centre number].</p>
                 </div>
-            </div>
+            </section>
         </div>
-    </section>
+    </div>
 </article>

@@ -1,11 +1,7 @@
 // The start of tidying this
 // design manual classes should now be prefixed with dm-
 
-.dm-section {
-  // A bit shoncky we really need an addition to the mixin to allow spacing larger than 64px (the base size)
-  @include spacing('padding', 'bottom', 'half');
-  @include spacing('margin', 'bottom', 'half');
-}
+
 
 .dm-intro-section {
   @include spacing('margin', 'bottom', 'base');

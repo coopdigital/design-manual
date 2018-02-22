@@ -167,7 +167,7 @@
     color: $white;
     outline: 4px solid #00bbe3;
     box-shadow: none;
-  }  
+  }
 
 }
 
@@ -188,15 +188,4 @@
   background-color: #2c3136;
   -webkit-transform: translateX(-250px);
           transform: translateX(-250px);
-}
-
-
-.app-content {
-  -webkit-transition: .3s ease all;
-          transition: .3s ease all;
-}
-
-.app-content.nav-is--open {
-  -webkit-transform: translateX(250px);
-          transform: translateX(250px);
 }

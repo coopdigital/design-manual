@@ -1,0 +1,134 @@
+/*===============================================
+Themes
+===============================================*/
+
+// Blue theme
+.dm-blue-theme .header-main {
+  background: $blue-mid;
+}
+
+.dm-blue-theme {
+  .tile--link {
+    min-height: 170px;
+  }
+}
+
+.dm-blue-theme .main {
+  margin-top: 0;
+}
+
+// Grey theme
+.dm-grey-theme {
+
+  .header-main {
+    background-color: $grey-dark;
+  }
+}
+
+.grey-dark-bl {
+  border-left: 7px solid lighten($grey-dark, 50%);
+}
+
+.grey-dark-bb {
+  border-bottom: 2px solid lighten($grey-dark, 50%);
+}
+
+// Purple theme
+.dm-purple-theme {
+  .header-main {
+    background-color: $purple-mid;
+  }
+
+  .tile--link {
+    border-bottom: 4px solid lighten($purple-mid, 50%);
+
+    &:hover {
+      border-bottom: 4px solid lighten($purple-mid, 40%);
+    }
+  }
+
+  .breadcrumbs-wrap {
+    background-color: lighten($purple-mid, 50%);
+  }
+
+  .highlight-banner {
+    border-color: lighten($purple-mid, 40%);
+  }
+
+  .in-page-nav {
+    border-color: lighten($purple-mid, 50%);
+  }
+
+  .dm-section {
+    border-bottom: 2px solid lighten($purple-mid, 50%);
+  }
+}
+
+.purple-mid-b {
+  border: 2px solid lighten($purple-mid, 50%);
+}
+
+.dm-purple-theme-second-level {
+
+  .primary-nav ul .active a {
+    border-color: lighten($purple-mid, 50%);
+  }
+
+  .main {
+    margin-top: 0;
+  }
+}
+
+
+.images {
+
+  .main {
+    margin-top: 0;
+  }
+}
+
+
+// Green theme
+.dm-green-theme {
+  .header-main {
+    background-color: $green-blue-dark;
+  }
+}
+
+.green-blue-bl {
+  border-left: 7px solid lighten($green-blue-dark, 60%);
+}
+
+.green-blue-bb {
+  border-bottom: 2px solid lighten($green-blue-dark, 60%);
+}
+
+// Yellow theme
+.dm-yellow-theme {
+
+  .header-main {
+    background-color: $yellow-mid;
+
+     .coop-logo svg,
+     .coop-logo-large svg {
+         fill: $black;
+     }
+
+    a {
+      color: $black;
+      border-color: $black;
+    }
+  }
+
+  .border-sections section {
+    border-color: #caebfd;
+  }
+}
+
+.mid-yellow-bl {
+  border-left: 7px solid lighten($yellow-mid, 40%);
+}
+
+.mid-yellow-bb {
+  border-bottom: 2px solid lighten($yellow-mid, 40%);
+}

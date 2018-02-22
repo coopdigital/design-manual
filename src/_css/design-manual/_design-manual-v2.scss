@@ -1,28 +1,56 @@
 // Styles for v2 design
 
+
 //Colour varibles
 $green-blue-dark: #29837f;
 
-// Common 
+.dm-section {
+  // A bit shoncky we really need an addition to the mixin to allow spacing larger than 64px (the base size)
+  @include spacing('padding', 'bottom', 'half');
+  @include spacing('margin', 'bottom', 'base');
+}
+
+// .example-full {
+//   margin-left: 0;
+//   @include media(medium) {
+// 		margin-left: -51.5%;
+//   }
+// }
+
+.highlight-banner {
+  border: 2px solid;
+  padding: $half-spacing-unit;
+
+  @include media(large) {
+    padding: $base-spacing-unit;
+    padding-right: 300px;
+    font-size: 20px;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Common
 .m-tb-med-x {
-  margin-top: $base-spacing-unit; ; 
+  margin-top: $base-spacing-unit; ;
   @include media(medium) {
-    margin-top: 0; 
+    margin-top: 0;
   }
 }
 
 .m-bh-med-b {
-  margin-bottom: $half-spacing-unit; 
+  margin-bottom: $half-spacing-unit;
   @include media(medium) {
-    margin-bottom: $base-spacing-unit; 
+    margin-bottom: $base-spacing-unit;
   }
 }
 
 .m-re-med-q {
   margin-right: $eighth-spacing-unit;
-  
+
   @include media(medium) {
-    margin-right: $quarter-spacing-unit; 
+    margin-right: $quarter-spacing-unit;
   }
 }
 
@@ -103,7 +131,7 @@ $green-blue-dark: #29837f;
 }
 
 .intro-box {
-  p {    
+  p {
       @include media(large) {
         font-size: 25px;
       }
@@ -182,9 +210,9 @@ table thead, table tbody td, table tbody td, table tbody th:after {
 
 .in-page-nav {
   .selected a {
-    border: 0;
-    font-family: $bold;
-    color: $text;
+    // border: 0;
+    // font-family: $bold;
+    // color: $text;
   }
 }
 
@@ -266,12 +294,12 @@ table thead, table tbody td, table tbody td, table tbody th:after {
   display: none;
 }
 
-//Footer 
+//Footer
 .footer-main {
   background-color: $grey-light;
   padding: $base-spacing-unit 0;
   .secondary-nav {
-   
+
     @include media(medium) {
       text-align: right;
     }
@@ -282,14 +310,14 @@ table thead, table tbody td, table tbody td, table tbody th:after {
           padding-right: 0;
           padding-top: $eighth-spacing-unit;
           border-top: 11px solid $white;
-  
+
           @include media(medium) {
             padding-top: 57px;
           }
         }
       }
     }
-    li { 
+    li {
       margin-bottom: $quarter-spacing-unit;
       @include media(medium) {
         display: inline-block;
@@ -305,20 +333,4 @@ table thead, table tbody td, table tbody td, table tbody th:after {
       text-decoration: underline;
     }
   }
-}
-
-
-// Home
-.home .header-main {
-  background: $blue-mid;
-}
-
-.home {
-  .tile--link {
-      min-height: 170px;
-  }
-}
-
-.home .main {
-  margin-top: 0;
 }

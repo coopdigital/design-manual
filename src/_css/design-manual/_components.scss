@@ -1,0 +1,27 @@
+.dm-component__body {
+  @include clearfix();
+  @include spacing('padding', 'all', 'half');
+  border: 1px solid $coop-border-grey;
+}
+
+.dm-component__heading {
+  @include spacing('margin', 'bottom', 'quarter');
+  float: left;
+  font-family: $bold;
+  font-size: em-calc(20px);
+  padding-top: 3px;
+}
+
+.dm-component__label {
+  @include spacing('margin', 'right', 'eighth');
+  padding: .25em;
+  font-family: $regular;
+  background: $offwhite;
+}
+
+.dm-component__source {
+  width: 100%;
+  .highlight {
+    margin: 0;
+  }
+}
