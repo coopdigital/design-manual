@@ -1,21 +1,22 @@
 ---
 layout: default
-id: forms
+id: form guidance second level
 active: form-inputs
+body-page-class: dm-purple-theme dm-purple-theme-second-level
 group: "inner-page"
 ---
-
+{% include breadcrumbs.html %}
 <article class="wrap">
-    {% include breadcrumbs.html %}
-    <div class="row">
-        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
-            {% include navigation/forms-navigation.html %}
+    <header>
+        <h1>Form inputs</h1>
+        <div class="highlight-banner purple-mid-b m-bh-med-b">
+            <p class="medium">Form inputs are any point that the user gives you data. There are different types of form inputs &mdash; check boxes, free text boxes, radio buttons, drop down menus. Use them appropriately to help users give you the right answer, first time.</p>
         </div>
-        <div class="column medium-7 small-12">
-            <header>
-               <h1>Form inputs</h1>
-               <p>Form inputs are any point that the user gives you data. They include:</p>
-                <ul class="list-bare content-links in-page-nav margin-tq">
+    </header>
+    <div class="row">
+        <div class="column medium-4 small-12 fixedsticky">
+            <nav>
+                <ul class="list-bare in-page-nav">
                     <li><a href="#radio-checkbox">Radio buttons and checkboxes</a></li>
                     <li><a href="#text-entry">Text entry fields</a></li>
                     <li><a href="#text-input">Text input</a></li>
@@ -23,7 +24,9 @@ group: "inner-page"
                     <li><a href="#submit-buttons">Submit buttons</a></li>
                     <li><a href="#drop-down">Drop down lists</a></li>
                 </ul>
-            </header>
+            </nav>
+        </div>
+        <div class="column medium-8 small-12">
             <section id="radio-checkbox" class="dm-section">
             <h2>Radio buttons and checkboxes</h2>
                 <p>Radio buttons and checkboxes allow users to select an answer from 2 or more options.</p>

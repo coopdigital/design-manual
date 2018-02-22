@@ -1,36 +1,47 @@
 ---
 layout: default
 id: archive
+body-page-class: dm-grey-theme
 ---
 
-<article class="wrap">
-    {% include breadcrumbs.html %}
-    <header>
-        <div class="row margin-bh">
-            <div class="column medium-7">
-                <h1>Archived versions</h1>
-                <p>We <a href="principles.html#iteratively">design iteratively</a> and this design manual has evolved over time.</p>
-                <p>These versions of the design manual, prototyping kit and front-end toolkit should only be used to support old projects. Do not use them for new&nbsp;services.</p>
+<article class="wrap margin-tb">
+    <div class="principles-intro m-bh-med-b">
+        <header>
+            <div class="row">
+                <div class="column medium-9 small-12 intro-box">
+                    <h1>Archived versions</h1>
+                    <p class="medium">We <a href="principles.html#iteratively">design iteratively</a> and this design manual has evolved over time.</p>
+                    <p class="medium">These versions of the design manual, prototyping kit and front-end toolkit should only be used to support old projects. Do not use them for new&nbsp;services</p>
+                </div>
             </div>
+        </header>
+    </div>
+    <div class="row">
+        <div class="column medium-4 small-12  fixedsticky">
+            <nav>
+                <ul id="in-page-nav" class="list-bare in-page-nav grey-dark-bl">
+                  <li><a href="#design-manual">Design manual</a></li>
+                  <li><a href="#frontend">Front-end toolkit</a></li>
+                  <li><a href="#toolkit">Prototyping toolkit</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
-    <section class="dm-section">
-        <div class="row">
-            <div class="column medium-4">
+        <div class="column medium-8 small-12">
+            <section id="design-manual" class="dm-section">
                 <h2>Design manual</h2>
-                <h3><a href="/archive/release-1/index.html">1.0.0 - (Co-op style guide)</a></h3>
                 <p>Second release. Codebase re-factored and moved to a new repo.</p>
-            </div>
-            <div class="column medium-4">
+                <p><a href="/archive/release-1/index.html">1.0.0 - (Co-op style guide)</a></p>
+            </section>
+            <section id="frontend" class="dm-section">
                 <h2>Front-end toolkit</h2>
-                <h3><a href="https://github.com/coopdigital/coop-frontend-toolkit/releases/tag/1.0.0">1.0.0</a></h3>
                 <p>First release. Codebase re-factored and moved to a new repo.</p>
-            </div>
-            <div class="column medium-4">
+                <p><a href="https://github.com/coopdigital/coop-frontend-toolkit/releases/tag/1.0.0">1.0.0</a></p>
+            </section>
+            <section id="toolkit" class="dm-section">
                 <h2>Prototyping kit</h2>
-                <h3><a href="https://github.com/coopdigital/coop-prototyping-kit/releases/tag/0.1.0">0.1.0</a></h3>
                 <p>First release.</p>
-            </div>
+                <p><a href="https://github.com/coopdigital/coop-prototyping-kit/releases/tag/0.1.0">0.1.0</a></p>
+            </section>
         </div>
-    </section>
+    </div>
 </article>
