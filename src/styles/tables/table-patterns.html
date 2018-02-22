@@ -1,24 +1,28 @@
 ---
 layout: default
-active: table-patterns
+active: table guidance second level
 group: "inner-page"
-id: table guidance
+id: table guidance second level
 body-page-class: dm-purple-theme dm-purple-theme-second-level
 ---
 {% include breadcrumbs.html %}
 <article class="wrap">
-    <div class="row">
-        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
-            {% include navigation/tables-navigation.html %}
+    <header>
+        <h1>Table patterns</h1>
+        <div class="highlight-banner purple-mid-b m-bh-med-b">
+            <p class="medium">There are different approaches you can take when making a table, depending on the type and amount of information you are presenting. This isn’t an exhaustive list of patterns. We’re still exploring what works and what doesn’t, so please share examples and research.</p>
         </div>
-        <div class="column medium-7 small-12">
-            <header>
-                <h1>Table patterns</h1>
-                <ul class="list-bare content-links in-page-nav">
+    </header>
+    <div class="row">
+        <div class="column medium-4 small-12 fixedsticky">
+            <nav>
+                <ul class="list-bare in-page-nav">
                     <li><a href="#interacting-with-tables">Interacting with tables</a></li>
                     <li><a href="#responsive-tables">Responsive tables</a></li>
                 </ul>
-            </header>
+            </nav>
+        </div>
+        <div class="column medium-8 small-12">
             <section id="interacting-with-tables" class="dm-section">
                 <h2>Interacting with tables</h2>
                 <h3>Form inputs within tables</h3>
@@ -33,7 +37,9 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
                     <p>&lsquo;Users do scroll when the content is relevant, organised properly and formatted for ease of scanning. In fact, people prefer scrolling the page for content over pagination when the topics within that page answer the right questions.&rsquo;</p>
                     <cite><a href="https://www.nngroup.com/">Nielsen Norman Group</a></cite>
                 </blockquote>
-                <h2 id="responsive-tables">Responsive tables</h2>
+            </section>
+            <section id="responsive-tables" class="dm-section">
+                <h2>Responsive tables</h2>
                 <p>There are a few ways of making a table responsive.</p>
                 <p>Whichever approach you choose, it should reflect how users will look at the data in the table.</p>
                 <p>The patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.</p>

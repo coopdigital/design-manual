@@ -1,13 +1,12 @@
 // Styles for v2 design
 
-
 //Colour varibles
 $green-blue-dark: #29837f;
 
 .dm-section {
-  // A bit shoncky we really need an addition to the mixin to allow spacing larger than 64px (the base size)
   @include spacing('padding', 'bottom', 'half');
   @include spacing('margin', 'bottom', 'base');
+  border-bottom: 2px solid $grey-light;
 }
 
 // .example-full {
@@ -160,10 +159,6 @@ $green-blue-dark: #29837f;
       }
 }
 
-.tile--link h3 {
-  display: inline;
-}
-
 // Logo
 .header-main .coop-logo {
   width: 34px;
@@ -225,33 +220,34 @@ table thead, table tbody td, table tbody td, table tbody th:after {
 }
 
 .breadcrumbs {
-  li {
-      color: $text;
-    a {
-      color: $text;
-      border-color: $text;
-    }
-    &::before {
-      content: '\e608';
-      margin-right: $quarter-spacing-unit;
-      color: $text;
-      font-family: 'coopicons';
-      speak: none;
-      font-style: normal;
-      font-weight: normal;
-      font-variant: normal;
-      text-transform: none;
-      line-height: 1;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      vertical-align: middle;
-      -webkit-transform: rotate(180deg);
-      -moz-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-      -o-transform: rotate(180deg);
-      transform: rotate(180deg);
-      display: inline-block;
-    }
+
+  a {
+    font-size: em-calc(20px);
+    color: $text;
+    border-color: $text;
+  }
+
+  &::before {
+    content: '\e608';
+    font-size: em-calc(20px);
+    margin-right: $quarter-spacing-unit;
+    color: $text;
+    font-family: 'coopicons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    display: inline-block;
   }
 
   @include media(medium) {
@@ -260,7 +256,7 @@ table thead, table tbody td, table tbody td, table tbody th:after {
   }
 }
 
-//Feedback content
+// Feedback content
 .feedback {
   margin-top: $half-spacing-unit*2;
   @include media(medium) {
@@ -276,9 +272,12 @@ table thead, table tbody td, table tbody td, table tbody th:after {
        font-size: em-calc(20px);
     }
   }
-  .block-label input[type=radio], .block-label input[type=checkbox] {
+
+  .block-label input[type=radio],
+  .block-label input[type=checkbox] {
     top: 19px;
   }
+
    .block-label {
     width: 50%;
     display: inline-block;
@@ -291,6 +290,7 @@ table thead, table tbody td, table tbody td, table tbody th:after {
       min-width: 118px;
       margin-right: $quarter-spacing-unit;
     }
+
     &:last-of-type {
       margin-right: 0;
     }
@@ -306,6 +306,7 @@ table thead, table tbody td, table tbody td, table tbody th:after {
 .footer-main {
   background-color: $grey-light;
   padding: $base-spacing-unit 0;
+
   .secondary-nav {
 
     @include media(medium) {
@@ -313,7 +314,9 @@ table thead, table tbody td, table tbody td, table tbody th:after {
     }
     ul {
       margin-bottom: 0;
+
       .active {
+
         a {
           padding-right: 0;
           padding-top: $eighth-spacing-unit;
@@ -331,10 +334,12 @@ table thead, table tbody td, table tbody td, table tbody th:after {
         display: inline-block;
         margin-right: $half-spacing-unit;
       }
+
       &:last-child {
         margin-right: 0;
       }
     }
+
     a {
       color: $text;
       border: none;
@@ -351,4 +356,8 @@ table thead, table tbody td, table tbody td, table tbody th:after {
 // table
 .small-width {
   width: 75px;
+}
+
+table ul {
+  font-size: 20px;
 }

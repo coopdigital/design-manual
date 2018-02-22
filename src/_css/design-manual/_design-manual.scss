@@ -517,11 +517,16 @@
   color: $body-copy;
   @include spacing('margin', 'bottom', 'half');
 
-  h3 {
+  .tile--link__title {
     @include spacing('margin', 'bottom', 'half');
   }
 
+  .tile--link__p {
+    margin-top: -16px;
+  }
+
 }
+
 
 .type-sizes {
   width: 1000px;
@@ -755,7 +760,7 @@ pre[class*="language-"] {
 }
 
 .related-footer {
-  border-bottom: 2px solid #EAEAEA;
+  border-bottom: 2px solid $grey-light;
   padding-bottom: $half-spacing-unit;
   margin-bottom: $half-spacing-unit;
    @include media(large) {

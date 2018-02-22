@@ -1,21 +1,35 @@
 ---
 layout: default
-id: table guidance
+id: table guidance second level
 active: code-standards
 body-page-class: dm-purple-theme dm-purple-theme-second-level
 group: "inner-page"
 ---
 {% include breadcrumbs.html %}
 <article class="wrap">
-    <div class="row">
-        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
-            {% include navigation/tables-navigation.html %}
+    <header>
+        <h1>Code standards for tables</h1>
+        <div class="highlight-banner purple-mid-b m-bh-med-b">
+            <p class="medium">These code standards will help you create tables that are accessible to everyone, understandable and useful on every size of screen.</p>
         </div>
-        <div class="column medium-7 small-12">
-            <h1>Code standards for tables</h1>
-            <h2 id="basic-markup">Basic table markup</h2>
+    </header>
+    <div class="row">
+        <div class="column medium-4 small-12 fixedsticky">
+            <nav>
+                <ul class="list-bare in-page-nav">
+                    <li><a href="#basic-markup">Basic table markup</a></li>
+                    <li><a href="#captions">Captions</a></li>
+                    <li><a href="#headers-and-footers">Headers and footers</a></li>
+                    <li><a href="#scope">Scope</a></li>
+                    <li><a href="#top-left-cell">Top left cell</a></li>
+                    <li><a href="#responsive-tables">Responsive tables</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="column medium-8 small-12">
+
+        <section id="basic-markup" class="dm-section">
+            <h2>Basic table markup</h2>
             <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <pre><code class="language-html">
 &#x3C;table&#x3E;
@@ -36,13 +50,13 @@ group: "inner-page"
     &#x3C;/tbody&#x3E;
 &#x3C;/table&#x3E;
             </code></pre>
-        </div>
-        <div class="column medium-7 small-12">
+        </section>
+        <section id="captions" class="dm-section">
             <h2 id="captions">Captions</h2>
             <p>A caption is the heading for a table. Most screen readers announce the content of captions. Captions help users to find a table and understand what it’s about and decide if they want to read it. The caption is provided by the <code class="language-html">&lt;caption&gt;</code> element.</p>
-            <h2 id="headers-and-footers">Headers and footers</h2>
-        </div>
-        <div class="column medium-8 small-12">
+        </section>
+        <section id="headers-and-footers" class="dm-section">
+            <h2>Headers and footers</h2>
             <h3 class="example-heading"><span class="example_label">Example</span></h3>
             <pre><code class="language-html">
 &#x3C;table&#x3E;
@@ -70,15 +84,13 @@ group: "inner-page"
     &#x3C;/tbody&#x3E;
 &#x3C;/table&#x3E;
             </code></pre>
-        </div>
-    <div class="column medium-7 small-12">
         <p>Both columns and rows of a table can have headings. These are marked up as <code class="language-html">&lt;th&gt;</code> (table heading). We also use the <code class="language-html">&lt;thead&gt;</code> and <code class="language-html">&lt;tbody&gt;</code> tags. Although these are not technically needed in all tables, they add some semantic value and are useful if a table needs to be printed as the <code class="language-html">&lt;thead&gt;</code> element is repeated across all printed pages.</p>
         <p>Table footers (<code class="language-html">&lt;tfoot&gt;</code>) can be used if there is a lot of rows in a table. It will be displayed by a browser under the body content, but in the markup must be above it. If you have to support a very old browser test this display as in some older browsers it is displayed before the body. In this case move it to below the table content.</p>
         <h2 id="row-headings">Row headings</h2>
         <p>When a row needs a heading the <code class="language-html">&lt;td&gt;</code> of that row should be marked up as a <code class="language-html">&lt;th&gt;</code>.</p>
-        <h2 id="scope">Scope</h2>
-    </div>
-    <div class="column medium-8 small-12">
+    </section>
+    <section id="scope" class="dm-section">
+        <h2>Scope</h2>
         <table>
             <caption>This example shows the scope attribute being used</caption>
             <thead>
@@ -112,8 +124,6 @@ group: "inner-page"
                 </tr>
             </tbody>
         </table>
-    </div>
-    <div class="column medium-7 small-12">
         <h3 class="example-heading"><span class="example_label">Example</span></h3>
         <pre><code class="language-html">
 &#x3C;table&#x3E;
@@ -151,9 +161,13 @@ group: "inner-page"
 &#x3C;/table&#x3E;
         </code></pre>
             <p>When the data that relates to the headings is ambiguous the attribute <code class="language-html">scope=&#x201C;col&#x201D;</code> or <code class="language-html">scope=&#x201C;row&#x201D;</code> should be added. The scope attribute defines the direction of the header cells and associates them with the corresponding data cells. The scope attribute is also needed for larger tables with one header row or column. We recommend always defining the scope of your column or row headings.</p>
-            <h2 id="top-left-cell">Top left cell</h2>
-            <p>The top left cell of a table is often blank as there is no overarching header for the row headings and the content of the table has been described by the <code class="language-html">&lt;caption&gt;</code>. This cell can be left blank, but must be marked up as an empty <code class="language-html">&lt;td&gt;&lt;/td&gt;</code></p>.
-            <h2 id="responsive-tables">Responsive tables</h2>
+        </section>
+        <section id="top-left-cell" class="dm-section">
+            <h2>Top left cell</h2>
+            <p>The top left cell of a table is often blank as there is no overarching header for the row headings and the content of the table has been described by the <code class="language-html">&lt;caption&gt;</code>. This cell can be left blank, but must be marked up as an empty <code class="language-html">&lt;td&gt;&lt;/td&gt;</code>.</p>
+        </section>
+        <section id="responsive-tables" class="dm-section">
+            <h2>Responsive tables</h2>
             <p>We have created a basic responsive table as seen in the <a href="table-patterns.html">table patterns page</a> you can use this by adding the class <code class="language-html">table-smallscreen--stacked</code> to your table. For the styles to work correctly, you must match the markup structure in the example. When deciding whether to use this solution think carefully abbout if it will fit the needs of your users. If in doubt don't use it, or build your own responsive table. We have made this solution as simple as possible and cannot varify its accessibility yet on smaller device size. Please research your service with users of all abilities.</p>
             {% include experimental-banner.html %}
             <h3 class="example-heading"><span class="example_label">Example</span></h3>
@@ -192,8 +206,7 @@ group: "inner-page"
     &#x3C;/tbody&#x3E;
 &#x3C;/table&#x3E;
             </code></pre>
-        </div>
-        </div>
+        </section>
             <div class="related-footer">
                 <h3 class="h2">More about tables</h3>
                 <ul class="list-bare content-links">

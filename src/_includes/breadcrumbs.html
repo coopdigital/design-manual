@@ -1,7 +1,15 @@
 <div class="breadcrumbs-wrap">
     <div class="wrap">
-        <ul class="breadcrumbs">
-            <li><a href="../guidance.html">Guidance</a></li>
-        </ul>
+        <div class="breadcrumbs">
+            {% if page.id == 'guidance' %}
+                <a href="/guidance.html">Guidance</a>
+            {% endif %}
+            {% if page.id == 'form guidance second level' %}
+                <a href="/styles/forms/index.html">Forms</a>
+            {% endif %}
+            {% if page.id == 'table guidance second level' %}
+                <a href="/styles/tables/index.html">Tables</a>
+            {% endif %}
+        </div>
     </div>
 </div>
