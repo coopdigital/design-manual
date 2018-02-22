@@ -219,25 +219,28 @@ table thead, table tbody td, table tbody td, table tbody th:after {
   border-color: $grey-dark;
 }
 
-.in-page-nav {
-  .selected a {
-    // border: 0;
-    // font-family: $bold;
-    // color: $text;
-  }
-}
+// .in-page-nav {
+//   .selected a {
+//     border: 0;
+//     font-family: $bold;
+//     color: $text;
+//   }
+// }
 
 .breadcrumbs {
 
+  padding-top: 10px;
+  padding-bottom:12px;
+
   a {
-    font-size: em-calc(20px);
+    font-size: em-calc(16px);
     color: $text;
     border-color: $text;
   }
 
   &::before {
     content: '\e608';
-    font-size: em-calc(20px);
+    font-size: em-calc(16px);
     margin-right: $quarter-spacing-unit;
     color: $text;
     font-family: 'coopicons';
@@ -259,9 +262,15 @@ table thead, table tbody td, table tbody td, table tbody th:after {
   }
 
   @include media(medium) {
+    font-size: em-calc(20px);
     padding-top: 20px;
     padding-bottom: 22px;
+
+    &::before {
+      font-size: em-calc(20px);
+    }
   }
+
 }
 
 // Feedback content
