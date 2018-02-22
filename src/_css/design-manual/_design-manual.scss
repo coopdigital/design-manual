@@ -10,18 +10,6 @@ $green-blue-dark: #29837f;
   border-bottom: 2px solid $grey-light;
 }
 
-.highlight-spacing-margin-hq {
-
-  &::before,
-  &::after {
-    height: $quarter-spacing-unit;
-
-    @include media(medium) {
-      height: $half-spacing-unit;
-    }
-  }
-}
-
 .highlight-banner {
   border: 2px solid;
   padding: $half-spacing-unit;
@@ -158,11 +146,12 @@ $green-blue-dark: #29837f;
 
 .highlight-banner {
   padding: $half-spacing-unit;
-      @include media(large) {
-          padding: $base-spacing-unit;
-          padding-right: 300px;
-          font-size: 20px;
-      }
+
+  @include media(large) {
+    padding: $base-spacing-unit;
+    padding-right: 300px;
+    font-size: 20px;
+  }
 }
 
 // Logo
