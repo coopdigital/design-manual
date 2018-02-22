@@ -49,77 +49,139 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
                 <p>We have a typographic scale to create clear structure and coherence for readers. We have a recommended scale for larger and smaller devices, but you can add more breakpoints and sizes in the code to suit your user needs.</p>
                 <blockquote>
                     <p>&lsquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost.&rsquo;</p>
-                    <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
+                    <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter &mdash; Compose to a Vertical Rhythm</a></cite>
                 </blockquote>
                 <p>All of our spacing between lines, paragraphs and headings is in multiples of 8px. That is known as the <a href="http://www.teehanlax.com/blog/designing-faster-with-a-baseline-grid/">baseline grid</a>. This baseline allows us to space our text, images or any other page elements consistently.</p>
                 <p>The example below shows the line height and margin values above 768px. 768px and below these values are divided by 2.</p>
-                <div class="example-full">
                 <h3 class="example-heading"><span class="example_label">Example</span> Default typographic scale</h3>
                 <div class="example example--padded">
                     <div class="row">
-                        <div class="small-12 medium-12 column">
-                            <div class="table-overflow-x">
-                                <table class="unstyled-table type-sizes">
-                                    <thead>
-                                        <tr class="tight--divider">
-                                            <th scope="col" class="td-half">Heading, typeface, line height and margins</th>
-                                            <th scope="col">font size to use above 768px viewport</th>
-                                            <th scope="col">font size to use below 768px viewport</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="tr-divider">
-                                            <th scope="row" class="td-half"><h1 class="h-mega baseline-h-mega">H Mega - Demi Bold</h1></th>
-                                            <td><p>60px</p></td>
-                                            <td><p>36px</p></td>
-                                        </tr>
-                                        <tr class="tr-divider">
-                                            <th scope="row" class="td-half"><h1 class="baseline-h1">H1 - Demi Bold</h1></th>
-                                            <td><p>46px</p></td>
-                                            <td><p>30px</p></td>
-                                        </tr>
-                                        <tr class="tr-divider">
-                                            <th scope="row" class="td-half"><h2 class="baseline-h2">H2 - Demi Bold</h2></th>
-                                            <td><p>26px</p></td>
-                                            <td><p>22px</p></td>
-                                        </tr>
-                                        <tr class="tr-divider">
-                                            <th scope="row" class="td-half"><h3 class="baseline-h345">H3 - Demi Bold</h3></th>
-                                            <td><p>22px</p></td>
-                                            <td><p>20px</p></td>
-                                        </tr>
-                                        <tr class="tr-divider">
-                                            <th scope="row" class="td-half"><h4 class="baseline-h345">H4 - Demi Bold</h4></th>
-                                            <td><p>22px</p></td>
-                                            <td><p>20px</p></td>
-                                        </tr>
-                                        <tr class="tr-divider">
-                                            <th scope="row" class="td-half"><h5 class="baseline-h345">H5 - Demi Bold</h5></th>
-                                            <td><p>22px</p></td>
-                                            <td><p>20px</p></td>
-                                        </tr>
-                                        <tr class="tr-divider">
-                                            <th scope="row" class="td-half"><h6 class="baseline-h6">H6 - Demi Bold</h6></th>
-                                            <td><p>16px</p></td>
-                                            <td><p>13px</p></td>
-                                        </tr>
-                                        <tr class="tr-divider">
-                                            <th scope="row" class="td-half"><p class="intro-text baseline-h2">Intro Para - Regular</p></th>
-                                            <td><p>26px</p></td>
-                                            <td><p>22px</p></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row" class="td-half"><p class="baseline-p">Paragraph - Regular</p></th>
-                                            <td><p>20px</p></td>
-                                            <td><p>16px</p></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                        <div class="column all-12">
+                            <h1 class="h-mega">Mega</h1>
+                            <h1>Heading 1</h1>
+                            <h2>Heading 2</h2>
+                            <h3>Heading 3</h3>
+                            <h4>Heading 4</h4>
+                            <h5>Heading 5</h5>
+                            <h6>Heading 6</h6>
+                            <p class="intro-text">Lead paragraph</p>
+                            <p>Paragraph</p>
                         </div>
                     </div>
                 </div>
-            </div>
+                <table class="table-smallscreen--stacked">
+                    <caption>Typeface, sizes, line heights and spacing</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="small-width"></th>
+                            <th scope="col"></th>
+                            <th scope="col" colspan="3">Below 768px</th>
+                            <th scope="col" colspan="3">Above 768px</th>
+                        </tr>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Typeface</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Leading</th>
+                            <th scope="col">Spacing</th>
+                            <th scope="col">Size</th>
+                            <th scope="col">Leading</th>
+                            <th scope="col">Spacing</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Mega</th>
+                            <td data-th="Typeface">Demi-bold</td>
+                            <td data-th="Size below 768px">36px</td>
+                            <td data-th="Leading">50px</td>
+                            <td data-th="Spacing">Top 16px Btm 16px</td>
+                            <td data-th="Size above 768px">60px</td>
+                            <td data-th="Leading">83px</td>
+                            <td data-th="Spacing">Top 32px Btm 32px</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">H1</th>
+                            <td data-th="Typeface">Demi-bold</td>
+                            <td data-th="Size below 768px">30px</td>
+                            <td data-th="Leading">42px</td>
+                            <td data-th="Spacing">Btm 16px</td>
+                            <td data-th="Size above 768px">46px</td>
+                            <td data-th="Leading">64px</td>
+                            <td data-th="Spacing">Btm 32px</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">H2</th>
+                            <td data-th="Typeface">Demi-bold</td>
+                            <td data-th="Size below 768px">20px</td>
+                            <td data-th="Leading">31px</td>
+                            <td data-th="Spacing">Btm 4px</td>
+                            <td data-th="Size above 768px">26px</td>
+                            <td data-th="Leading">40px</td>
+                            <td data-th="Spacing">Btm 8px</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">H3</th>
+                            <td data-th="Typeface">Demi-bold</td>
+                            <td data-th="Size below 768px">18px</td>
+                            <td data-th="Leading">31px</td>
+                            <td data-th="Spacing">Top 4px Btm 4px</td>
+                            <td data-th="Size above 768px">22px</td>
+                            <td data-th="Leading">32px</td>
+                            <td data-th="Spacing">Top 8px Btm 8px</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">H4</th>
+                            <td data-th="Typeface">Demi-bold</td>
+                            <td data-th="Size below 768px">18px</td>
+                            <td data-th="Leading">31px</td>
+                            <td data-th="Spacing">Top 4px Btm 4px</td>
+                            <td data-th="Size above 768px">22px</td>
+                            <td data-th="Leading">32px</td>
+                            <td data-th="Spacing">Top 8px Btm 8px</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">H5</th>
+                            <td data-th="Typeface">Demi-bold</td>
+                            <td data-th="Size below 768px">18px</td>
+                            <td data-th="Leading">31px</td>
+                            <td data-th="Spacing">Top 4px Btm 4px</td>
+                            <td data-th="Size above 768px">22px</td>
+                            <td data-th="Leading">32px</td>
+                            <td data-th="Spacing">Top 8px Btm 8px</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">H6</th>
+                            <td data-th="Typeface">Demi-bold</td>
+                            <td data-th="Size below 768px">13px</td>
+                            <td data-th="Leading">20px</td>
+                            <td data-th="Spacing">Top 8px Btm 2px</td>
+                            <td data-th="Size above 768px">16px</td>
+                            <td data-th="Leading">24px</td>
+                            <td data-th="Spacing">Top 0px Btm 4px</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P lead</th>
+                            <td data-th="Typeface">Regular</td>
+                            <td data-th="Size below 768px">20px</td>
+                            <td data-th="Leading">34px</td>
+                            <td data-th="Spacing">Btm 4px</td>
+                            <td data-th="Size above 768px">26px</td>
+                            <td data-th="Leading">42px</td>
+                            <td data-th="Spacing">Btm 8px</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">P</th>
+                            <td data-th="Typeface">Regular</td>
+                            <td data-th="Size below 768px">16px</td>
+                            <td data-th="Leading">27px</td>
+                            <td data-th="Spacing">Btm 16px</td>
+                            <td data-th="Size above 768px">20px</td>
+                            <td data-th="Leading">32px</td>
+                            <td data-th="Spacing">Btm 32px</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
             <section id="horizontal-space" class="dm-section">
                 <h2>Horizontal space</h2>
@@ -134,21 +196,16 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
                     <div class="example">
                         <div class="example-grid-wrap">
                             <div class="row example-grid">
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
-                                <div class="column all-1"><span></span></div>
+                                <div class="column one-seventh"><span></span></div>
+                                <div class="column one-seventh"><span></span></div>
+                                <div class="column one-seventh"><span></span></div>
+                                <div class="column one-seventh"><span></span></div>
+                                <div class="column one-seventh"><span></span></div>
+                                <div class="column one-seventh"><span></span></div>
+                                <div class="column one-seventh"><span></span></div>
                             </div>
                             <div class="row baseline">
-                                <div class="column medium-7">
+                                <div class="column all-12">
                                     <h1>What is a Co-operative?</h1>
                                     <p>A co-operative (co-op) is a different kind of business. Its owners, members – have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is ‘one member, one vote’.</p>
                                     <p>Profits mean members receive money, rewards and offers and a co-op can support its local&nbsp;community.</p>
@@ -166,16 +223,16 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
                     <p>&ldquo;Just as regular use of time provides rhythm in music, so regular use of space provides rhythm in typography, and without rhythm the listener, or the reader, becomes disorientated and lost.&rdquo;</p>
                     <cite><a href="https://24ways.org/2006/compose-to-a-vertical-rhythm">Richard Rutter - Compose to a Vertical Rhythm</a></cite>
                 </blockquote>
-                <p>Our base font size 20px is set on a 32px linespacing (the height of the line that the text sits on) — 8 x 4 = 32.</p>
+                <p>Our base font size 20px is set on a 32px linespacing (the height of the line that the text sits on) &mdash; 8 x 4 = 32.</p>
                 <p>You can create your own scale in your custom stylesheet by overriding the values <a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/styles/_variables.scss">in our scale varibles in the Toolkit</a>. But, you must have a good reason to do this and compose it to a well thought-out scale.</p>
                 <h3 class="example-heading"><span class="example_label">Example</span> Text set on the baseline grid</h3>
                 <div class="example">
                     <div class="example-grid-wrap">
                         <div class="example-baseline"></div>
                         <div class="row">
-                            <div class="column medium-8 small-12">
+                            <div class="column all-12">
                                 <h1>What is a Co-operative?</h1>
-                                <p>A co-operative (co-op) is a different kind of business. Its owners, members – have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is ‘one member, one vote’.</p>
+                                <p>A co-operative (co-op) is a different kind of business. Its owners, members &mdash; have a say in how it's run. Members make the decisions, not shareholders or investors. Voting is fair and equal because voting rights can't be bought. Voting is ‘one member, one vote’.</p>
                                 <p>Profits mean members receive money, rewards and offers and a co-op can support its local&nbsp;community.</p>
                             </div>
                         </div>
@@ -184,11 +241,7 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
             </section>
             <section id="titles" class="dm-section">
                 <h2>Titles</h2>
-                <div class="row">
-                    <div class="column medium-7">
-                        <p>Titles should always be sentence case and descriptive of the contents of the page — someone should be able to get an indication of whether the page is for them by reading the title. Find out <a href="/content.html#titles">how we write titles</a>.</p>
-                    </div>
-                </div>
+                <p>Titles should always be sentence case and descriptive of the contents of the page &mdash; someone should be able to get an indication of whether the page is for them by reading the title. Find out <a href="/content.html#titles">how we write titles</a>.</p>
             </section>
             <section id="orphans" class="dm-section">
                 <h2>Orphaned words</h2>
@@ -209,7 +262,7 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
             </section>
             <section id="lists" class="dm-section">
                 <h2>Lists</h2>
-                <p>Lists are an effective way of breaking up content — they make it easier for users to scan and find information.</p>
+                <p>Lists are an effective way of breaking up content &mdash; they make it easier for users to scan and find information.</p>
                 <p>Use bullet points to break up a list of items, or a numbered list to indicate a logical sequence. Find out <a href="/content.html#lists">how we write and structure lists</a>.</p>
             </section>
             <section id="quotations" class="dm-section">

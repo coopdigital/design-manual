@@ -101,6 +101,14 @@ $green-blue-dark: #29837f;
   border-top: 6px solid lighten($blue-mid, 20%);
 }
 
+.grey-bl {
+  border-left: 1px solid $coop-border-grey;
+}
+
+.grey-br {
+  border-right: 1px solid $coop-border-grey;
+}
+
 .mid-blue-bb {
   border-bottom: 6px solid lighten($blue-mid, 40%);
 
@@ -333,4 +341,14 @@ table thead, table tbody td, table tbody td, table tbody th:after {
       text-decoration: underline;
     }
   }
+}
+
+// Grid hack for example...
+.one-seventh {
+  width: 14.285%;
+}
+
+// table
+.small-width {
+  width: 75px;
 }
