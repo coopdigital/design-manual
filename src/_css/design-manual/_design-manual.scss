@@ -60,7 +60,7 @@ $green-blue-dark: #29837f;
   }
 
   .link-text {
-    text-decoration: underline;
+    border-bottom: .05em solid $coop-link-blue;
   }
 
   .link-info {
@@ -791,9 +791,6 @@ table ul {
   .tile--link__p {
     margin-top: -16px;
   }
-
-
-
 }
 
 
