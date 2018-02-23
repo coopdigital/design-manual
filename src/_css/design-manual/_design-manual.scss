@@ -60,7 +60,7 @@ $green-blue-dark: #29837f;
   }
 
   .link-text {
-    text-decoration: underline;
+    border-bottom: .05em solid $coop-link-blue;
   }
 
   .link-info {
@@ -103,10 +103,10 @@ $green-blue-dark: #29837f;
 }
 
 .mid-blue-bb {
-  border-bottom: 6px solid lighten($blue-mid, 40%);
+  border-bottom: 6px solid lighten($blue-mid, 50%);
 
   &:hover {
-    border-bottom: 6px solid lighten($blue-mid, 48%);
+    border-bottom: 6px solid lighten($blue-mid, 40%);
   }
 }
 
@@ -779,7 +779,9 @@ table ul {
 
 .tile--link {
   display: block;
+  width: 100%;
   color: $body-copy;
+  transition: all 0.15s ease;
   @include spacing('margin', 'bottom', 'half');
 
   .tile--link__title {
@@ -789,7 +791,6 @@ table ul {
   .tile--link__p {
     margin-top: -16px;
   }
-
 }
 
 
@@ -936,7 +937,7 @@ pre[class*="language-"] {
     display: inline-block;
     line-height: 1.1;
     color: $coop-link-blue;
-    border-bottom: .075em solid $coop-link-blue;
+    border-bottom: .05em solid $coop-link-blue;
       @include spacing('margin', 'bottom', 'quarter');
         font-family: $regular;
       }
