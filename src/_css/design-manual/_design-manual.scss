@@ -937,7 +937,7 @@ pre[class*="language-"] {
     display: inline-block;
     line-height: 1.1;
     color: $coop-link-blue;
-    border-bottom: .075em solid $coop-link-blue;
+    border-bottom: .05em solid $coop-link-blue;
       @include spacing('margin', 'bottom', 'quarter');
         font-family: $regular;
       }
