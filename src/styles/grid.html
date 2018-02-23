@@ -20,6 +20,10 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
             <nav>
                 <ul class="list-bare in-page-nav">
                     <li><a href="#grid">Grid</a></li>
+                    <li><a href="#centering">Centering columns</a></li>
+                    <li><a href="#offest">Offsetting columns</a></li>
+                    <li><a href="#re-order">Re-ordering columns</a></li>
+                    <li><a href="#collapsed">Collapsed columns</a></li>
                     <li><a href="#code">Code</a></li>
                 </ul>
             </nav>
@@ -28,13 +32,44 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
             <section id="grid" class="dm-section">
                 <h2>Grid</h2>
                 <p>Our grid has 12 columns that can be used in various combinations. It has gutters of 32px above 768px and 16px below 768px. We recommend its use because it has been designed to suit <a href="/styles/typography.html">our typography</a>.</p>
+                <h3>Viewport sizes</h3>
+                <p>The grid column widths can be changed using css classes. The default widths we use are:</p>
+                <ul>
+                    <li>All: 0px and up &mdash; (all-{column-span})</li>
+                    <li>Extra small: 320px and up &mdash; (.xsmall-{column-span})</li>
+                    <li>Small: 480px and up &mdash; ((.small-{column-span})</li>
+                    <li>Medium: 750px and up &mdash; ((.medium-{column-span})</li>
+                    <li>Large: 960px and up &mdash; ((.large-{column-span})</li>
+                    <li>Extra large: 1300px and up &mdash; ((.xlarge-{column-span})</li>
+                </ul>
                 <h3 class="example-heading"><span class="example_label">Example</span></h3>
                 <p data-height="475" data-theme-id="32530" data-slug-hash="WMOWVq" data-default-tab="result" data-user="coopdigital" data-embed-version="2" data-pen-title="Grid" class="codepen">See the Pen <a href="https://codepen.io/coopdigital/pen/WMOWVq/">Grid</a> by Co-op digital (<a href="https://codepen.io/coopdigital">@coopdigital</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
+            <section id="centering" class="dm-section">
+                <h2>Centering columns</h2>
+                <p>Columns can be set to centred or uncentered at different viewport sizes.</p>
+                <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                <p data-height="218" data-theme-id="32530" data-slug-hash="KQBZzJ" data-default-tab="result" data-user="coopdigital" data-embed-version="2" data-pen-title="Grid centering" class="codepen">See the Pen <a href="https://codepen.io/coopdigital/pen/KQBZzJ/">Grid centering</a> by Co-op digital (<a href="https://codepen.io/coopdigital">@coopdigital</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
+            <section id="offest" class="dm-section">
+                <h2>Offsetting columns</h2>
+                <p>Columns can be offset by a specified amount of columns from the left hand side.</p>
+                <p data-height="217" data-theme-id="32530" data-slug-hash="yvqKYp" data-default-tab="result" data-user="coopdigital" data-embed-version="2" data-pen-title="Column offset" class="codepen">See the Pen <a href="https://codepen.io/coopdigital/pen/yvqKYp/">Column offset</a> by Co-op digital (<a href="https://codepen.io/coopdigital">@coopdigital</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
+            <section id="re-order" class="dm-section">
+                <h2>Re-ordering columns</h2>
+                <p>Columns can be re-ordered by pushing and pulling them relative to their base position.</p>
+                <p data-height="215" data-theme-id="32530" data-slug-hash="PQBRWG" data-default-tab="result" data-user="coopdigital" data-embed-version="2" data-pen-title="Column re-ordering" class="codepen">See the Pen <a href="https://codepen.io/coopdigital/pen/PQBRWG/">Column re-ordering</a> by Co-op digital (<a href="https://codepen.io/coopdigital">@coopdigital</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
+            <section id="flush" class="dm-section">
+                <h2>Collapsed columns</h2>
+                <p>Collapsed columns have their padding removed. Columns can be collapsed individually, or whole rows can be collapsed at once by adding the class .collapse to a column or row.</p>
+                <p data-height="376" data-theme-id="32530" data-slug-hash="Zrjxyj" data-default-tab="result" data-user="coopdigital" data-embed-version="2" data-pen-title="Column collapse" class="codepen">See the Pen <a href="https://codepen.io/coopdigital/pen/Zrjxyj/">Column collapse</a> by Co-op digital (<a href="https://codepen.io/coopdigital">@coopdigital</a>) on <a href="https://codepen.io">CodePen</a>.</p>
                 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
             </section>
             <section id="code" class="dm-section">
                 <h2>Code</h2>
-                <p>For more information on using the grid, see the <a href="https://github.com/coopdigital/coop-frontend-toolkit">front-end toolkit code</a> or try it out using the <a href="https://github.com/coopdigital/coop-prototyping-kit">prototyping kit</a>.</p>
+                <p>For more information on using the grid, see the <a href="https://github.com/coopdigital/coop-frontend-toolkit">front-end toolkit code</a>, try it out using the <a href="https://github.com/coopdigital/coop-prototyping-kit">prototyping kit</a> or see the <a href="https://codepen.io/collection/naJoNd/">grid collection on Codepen</a></p>
             </section>
         </div>
     </div>
