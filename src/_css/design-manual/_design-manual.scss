@@ -59,6 +59,8 @@ a {
 
 .icon-link {
 
+
+
   &::before {
     content:'';
     display: inline-block;
@@ -67,6 +69,12 @@ a {
 
   .link-text {
     border-bottom: .05em solid $coop-link-blue;
+  }
+
+  &:hover {
+    .link-text {
+      border-bottom: 0;
+    }
   }
 
   .link-info {
@@ -84,6 +92,8 @@ a {
 
 .external-icon {
   &::before {
+    position: relative;
+    top: 4px;
     height: 21px;
     width: 17px;
     background-image: url('/images/icons/external-icon.svg');
