@@ -141,11 +141,11 @@ $green-blue-dark: #29837f;
         font-size: 25px;
       }
   }
-  a {
-      @include media(large) {
-        font-size: 21px;
-      }
-    }
+  // a {
+  //     @include media(large) {
+  //       font-size: 21px;
+  //     }
+  //   }
 }
 
 .highlight-banner {

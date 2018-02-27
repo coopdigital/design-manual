@@ -3,10 +3,10 @@
   color: #fff;
   border-bottom: none;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   @include media(medium) {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
   }
  a {
     color: #fff;
@@ -208,11 +208,11 @@
     .active {
       a {
         padding-right: 0;
-        padding-bottom: 29px;
-        border-bottom: 11px solid $white;
+        padding-bottom: 30px;
+        border-bottom: 5px solid $white;
 
         @include media(medium) {
-          padding-bottom: 49px;
+          padding-bottom: 50px;
         }
       }
     }
