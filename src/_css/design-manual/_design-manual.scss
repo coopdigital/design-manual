@@ -4,6 +4,12 @@
 //Colour varibles
 $green-blue-dark: #29837f;
 
+a {
+  &:hover {
+    border-bottom: 0;
+  }
+}
+
 .dm-section {
   @include spacing('padding', 'bottom', 'half');
   @include spacing('margin', 'bottom', 'base');
