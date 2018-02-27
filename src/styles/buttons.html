@@ -1,69 +1,66 @@
 ---
 layout: default
-id: buttons
+id: guidance
+body-page-class: dm-purple-theme dm-purple-theme-second-level
 ---
-
+{% include breadcrumbs.html %}
 <article class="wrap">
-    {% include breadcrumbs.html %}
     <header>
-        <h1>Links and buttons</h1>
-        <nav>
-            <ul class="list-bare in-page-nav">
-                <li><a href="#links">Links</a></li>
-                <li><a href="#buttons">Buttons</a></li>
-            </ul>
-        </nav>
+        <div class="row">
+            <div class="column small-12">
+                <h1>Links and buttons</h1>
+                <div class="highlight-banner purple-mid-b m-bh-med-b">
+                    <p>A link should be descriptive of the place it's taking the user. A button should tell the user what it is gonig to do with the information they have provided. Find out <a href="/content.html#links">how we write link text</a>.</p>
+                </div>
+            </div>
+        </div>
     </header>
-    <section id="links" class="dm-section">
-        <h2>Links</h2>
-        <div class="row">
-            <div class="column large-7">
+    <div class="row">
+        <div class="column medium-4 small-12 fixedsticky">
+            <nav>
+                <ul class="list-bare in-page-nav">
+                    <li><a href="#links">Links</a></li>
+                    <li><a href="#buttons">Buttons</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="column medium-8 small-12">
+            <section id="links" class="dm-section">
+                <h2>Links</h2>
                 <p>A link should be descriptive of the place it's taking the user. Find out <a href="/content.html#links">how we write link text</a>.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column medium-6">
-                <h3 class="example-heading"><span class="example_label">Example</span> Descriptive links</h3>
-                <div class="example example--padded">
-                    <div class="margin-bq">
-                        <p><a href="#">Start making your will</a></p>
+                <div class="row">
+                    <div class="column small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span> Descriptive links</h3>
+                        <div class="example example--padded">
+                            <div class="margin-bq">
+                                <p><a href="#">Start making your will</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column large-7">
                 <p>Links to download documents must indicate the type of file and size.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column medium-6">
-                <h3 class="example-heading"><span class="example_label">Example</span> Download links</h3>
-                <div class="example example--padded">
-                    <div class="margin-bq">
-                        <p><a href="#">Download your will PDF (5mb)</a></p>
+                <div class="row">
+                    <div class="column small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span> Download links</h3>
+                        <div class="example example--padded">
+                            <div class="margin-bq">
+                                <p><a href="#">Download your will PDF (5mb)</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column large-7">
                 <p>Links may also appear in white if used on a dark background.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column medium-6">
-                <h3 class="example-heading"><span class="example_label">Example</span> Link on a dark background</h3>
-                <div class="example example--padded bluey-dark-grey-bg">
-                    <p><a href="#" class="link-white">Download your will PDF (5mb)</a></p>
+                <div class="row">
+                    <div class="column small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span> Link on a dark background</h3>
+                        <div class="example example--padded bluey-dark-grey-bg">
+                            <p><a href="#" class="link-white">Download your will PDF (5mb)</a></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section id="buttons" class="dm-section">
-        <h2>Buttons</h2>
-        <div class="row">
-            <div class="column large-7 small-12">
+            </section>
+            <section id="buttons" class="dm-section">
+                <h2>Buttons</h2>
                 <p>Buttons must use:</p>
                 <ul>
                     <li>Avenir Next Medium at 20px (1em)</li>
@@ -74,54 +71,46 @@ id: buttons
                     <li>a 4px blue outline on focus and active</li>
                 </ul>
                 <p>Button width should be defined by the content on the button. Buttons should also be ranged left with the left edge aligning with other content.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column medium-6">
-                <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                <div class="example example--padded">
-                    <div class="margin-bq">
-                        <button class="btn btn-primary">Button</button>
-                    </div>
-                    <div class="margin-bq">
-                        <button class="btn btn-primary-dark">Button</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column large-7">
-                <p>Use the green primary button when you have one call to action on your page.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column medium-6">
-                <h3 class="example-heading"><span class="example_label">Example</span> Form</h3>
-                <div class="example example--padded">
-                    <form>
-                        <label for="feedback">Tell us what you liked or what we can improve</label>
-                        <textarea id="feedback" cols="30" rows="4" class="margin-bq"></textarea>
-                        <div class="margin-bq">
-                            <button class="btn btn-primary margin-rq">Send feedback</button>
+                <div class="row">
+                    <div class="column small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <div class="margin-bq">
+                                <button class="btn btn-primary">Button</button>
+                            </div>
+                            <div class="margin-bq">
+                                <button class="btn btn-primary-dark">Button</button>
+                            </div>
                         </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column large-7">
-                <p>Links that are styled as buttons should be an action, such as, ‘Continue’, ‘Book’ or ‘Confirm’.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="column medium-6">
-                <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                <div class="example example--padded">
-                    <div class="margin-bq">
-                        <a href="/booking-form" class="btn btn-primary">Continue to booking</a>
                     </div>
                 </div>
-            </div>
+                <p>Use the green primary button when you have one call to action on your page.</p>
+                <div class="row">
+                    <div class="column small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span> Form</h3>
+                        <div class="example example--padded">
+                            <form>
+                                <label for="feedback">Tell us what you liked or what we can improve</label>
+                                <textarea id="feedback" cols="30" rows="4" class="margin-bq"></textarea>
+                                <div class="margin-bq">
+                                    <button class="btn btn-primary margin-rq">Send feedback</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <p>Links that are styled as buttons should be an action, such as, ‘Continue’, ‘Book’ or ‘Confirm’.</p>
+                <div class="row">
+                    <div class="column small-12">
+                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
+                        <div class="example example--padded">
+                            <div class="margin-bq">
+                                <a href="/booking-form" class="btn btn-primary">Continue to booking</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </section>
+    </div>
 </article>

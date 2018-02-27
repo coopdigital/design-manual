@@ -4,6 +4,45 @@
 
 $(function(){
 
+  $('.dm-page-nav').fixedsticky();
+
+  // $.fn.isInViewport = function() {
+  //   var elementTop = $(".example-full").offset().top;
+  //   var elementBottom = elementTop + $(".example-full").outerHeight();
+  //   var viewportTop = $(window).scrollTop();
+  //   var viewportBottom = viewportTop + $(window).height();
+  //   return elementBottom > viewportTop && elementTop < viewportBottom;
+  // };
+  //
+  //
+  // $(window).on('resize scroll', function() {
+  //   var fixed = $('.fixedsticky');
+  //
+  //   var fixed_position = $('.fixedsticky').offset().top;
+  //   var fixed_height = $('.fixedsticky').height();
+  //
+  //   if ($('.example-full').isInViewport()) {
+  //
+  //     var toCross_position = $('.example-full').offset().top;
+  //     var toCross_height = $('.example-full').height();
+  //
+  //     // $('.example-full').each(function() {
+  //     //
+  //     //
+  //     //
+  //     // });
+  //
+  //     if (fixed_position + fixed_height  < toCross_position) {
+  //       fixed.removeClass('is--hidden');
+  //     } else if (fixed_position > toCross_position + toCross_height) {
+  //       fixed.removeClass('is--hidden');
+  //     } else {
+  //       fixed.addClass('is--hidden');
+  //     }
+  //
+  //   }
+  // });
+
   Coop.init();
 
   function showElement(element) {
@@ -77,4 +116,9 @@ $(function(){
   $(".block-label").find("input[type=checkbox], input[type=radio]").each(function(){
     toggleInputLabelClass(this);
   });
+
+// In page nav add class to active link
+$("#in-page-nav li a").click(function() {
+    $(this).parent().addClass('selected').siblings().removeClass('selected');
+    });
 });

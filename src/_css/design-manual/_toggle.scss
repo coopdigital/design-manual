@@ -1,0 +1,26 @@
+.toggle-trigger {
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  font-family: $regular;
+  font-size: em-calc(18px);
+
+  &:hover {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 0;
+  }
+}
+
+.toggle-trigger.init:after {
+  content: '';
+}
+
+.dm-component__header {
+  @include clearfix();
+}
+
+.dm-toggle__content {
+  height: 0;
+  overflow: hidden;
+}

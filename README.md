@@ -1,6 +1,6 @@
-# Co-op Design Manual
+# Co-op design system
 
-The Design Manual provides guidance on creating digital content for the Co-op.
+The design system provides guidance on creating digital content for the Co-op.
 
 ## Dependencies
 
@@ -23,11 +23,11 @@ gulp server
 
 ## Heroku deployment
 
-The Design Manual is automatically deployed to Heroku (<https://coop-design-manual.herokuapp.com>) when changes are merged into the master branch.
+The Design system is automatically deployed to Heroku (<https://coop-design-manual.herokuapp.com>) when changes are merged into the master branch.
 
 ## Working on the [Co-op Front-end Toolkit](https://github.com/coopdigital/coop-frontend-toolkit) locally
 
-The Design Manual is set up to allow easy development work on the Toolkit. In order to reflect changes made to your local version of the Toolkit directly in your local version of the Design Manual, you must first link the NPM dependency to your local version of the Toolkit.
+The Design system is set up to allow easy development work on the Toolkit. In order to reflect changes made to your local version of the Toolkit directly in your local version of the Design system, you must first link the NPM dependency to your local version of the Toolkit.
 
 If you haven't done so, first clone the Toolkit repository:
 ```
@@ -40,10 +40,10 @@ cd coop-frontend-toolkit
 npm link
 ```
 
-From the Design Manual directory, link the NPM package to the local version:
+From the Design system directory, link the NPM package to the local version:
 ```
 cd ../design-manual
 npm link coop-frontend-toolkit
 ```
 
-Any changes made to the local version of the Toolkit will now automatically be reflected in the local version of the Design Manual. The Gulp watch tasks are set up to pick up changes made to the Toolkit files automatically, so any change will trigger a recompiling of the assets and reload the browser if you have the server running.
+Any changes made to the local version of the Toolkit will now automatically be reflected in the local version of the Design system. The Gulp watch tasks are set up to pick up changes made to the Toolkit files automatically, so any change will trigger a recompiling of the assets and reload the browser if you have the server running.

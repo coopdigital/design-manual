@@ -1,8 +1,8 @@
 # Jekyll config
 
 # Site settings
-title: Co-op Design Manual
-description: Co-op Design Manual
+title: Co-op design system
+description: Co-op design system
 baseurl: ""
 url: "http://coop-design-manual.herokuapp.com"
 

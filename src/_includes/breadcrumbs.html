@@ -1,11 +1,15 @@
-<ul class="breadcrumbs">
-    <li><a href="/index.html">Design manual</a></li>
-    {% assign crumbs = page.url | split: '/' %}
-    {% for crumb in crumbs offset: 1 %}
-    {% if forloop.last %}
-    <li>{{ crumb | replace:'-',' ' | replace:'.html',' ' | remove:'/index.html' | capitalize }}</li>
-    {% else %}
-    <li><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{{site.baseurl}}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'/index.html' | capitalize }}</a></li>
-    {% endif %}
-    {% endfor %}
-</ul>
+<div class="breadcrumbs-wrap">
+    <div class="wrap">
+        <div class="breadcrumbs">
+            {% if page.id == 'guidance' %}
+                <a href="/guidance.html">Guidance</a>
+            {% endif %}
+            {% if page.id == 'form guidance second level' %}
+                <a href="/styles/forms/index.html">Forms</a>
+            {% endif %}
+            {% if page.id == 'table guidance second level' %}
+                <a href="/styles/tables/index.html">Tables</a>
+            {% endif %}
+        </div>
+    </div>
+</div>
