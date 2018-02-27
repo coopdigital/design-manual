@@ -84,6 +84,10 @@ $green-blue-dark: #29837f;
   }
 }
 
+.in-page-nav {
+  border-left: 5px solid #C4C4C4;
+}
+
 
 .blue-mid {
   background: $blue-mid;
@@ -318,7 +322,10 @@ table thead, table tbody td, table tbody td, table tbody th:after {
     a {
       color: $text;
       border: none;
-      text-decoration: underline;
+      border-bottom: 0.05em solid $text;
+      &:hover {
+        border-bottom: 0;
+      }
     }
   }
 }

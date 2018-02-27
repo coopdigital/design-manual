@@ -11,6 +11,9 @@
  a {
     color: #fff;
     border-color: #fff;
+    &:hover {
+      border: 0;
+    }
  }
 }
 
