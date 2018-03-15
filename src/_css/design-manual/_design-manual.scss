@@ -823,6 +823,24 @@ table ul {
   }
 }
 
+.tile--link--heading {
+  @include spacing('padding', 'bottom', 'half');
+
+  .tile--link__title {
+    color: $body-copy;
+    font-family: $bold;
+    border-bottom: 0;
+    @include spacing('margin', 'bottom', 'quarter');
+  }
+
+  .tile--link__p {
+    display: inline;
+    line-height: 1.1;
+    font-size: em-calc(22px);
+    @include link;
+  }
+}
+
 
 .type-sizes {
   width: 1000px;
