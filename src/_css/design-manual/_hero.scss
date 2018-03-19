@@ -1,0 +1,36 @@
+/*===============================================
+Heros
+===============================================*/
+
+.dm-main-hero {}
+
+.dm-main-hero__title {}
+
+.dm-main-hero__intro {
+  font-size: em-calc(20px);
+
+  @include media(large) {
+    font-size: em-calc(25px);
+  }
+}
+
+.highlight-banner {
+  @include spacing('padding', 'top', 'base');
+  @include spacing('padding', 'left', 'base');
+  @include spacing('padding', 'bottom', 'base');
+  @include spacing('padding', 'right', 'base');
+  border: 2px solid;
+  font-size: 20px;
+
+  @include media(large) {
+    padding-right: 350px;
+  }
+
+  .highlight-banner__text:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.principles-intro {
+  margin-bottom: $base-spacing-unit;
+}

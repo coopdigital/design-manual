@@ -1,20 +1,22 @@
 ---
 layout: default
-id: forms
+id: form guidance second level
 active: form-patterns
+body-page-class: dm-purple-theme dm-purple-theme-second-level
 group: "inner-page"
 ---
-
+{% include breadcrumbs.html %}
 <article class="wrap">
-    {% include breadcrumbs.html %}
-    <div class="row">
-        <div class="column large-3 small-12 col--right side-box-wrap hide-small">
-            {% include navigation/forms-navigation.html %}
+    <header>
+        <h1>Form patterns</h1>
+        <div class="highlight-banner purple-mid-b m-bh-med-b">
+            <p>Form patterns are ways to solve commonly occurring problems. They can be reusable both within a single form (for example, validation messages) and across different forms (asking for name, address and so on).</p>
         </div>
-        <div class="column medium-7 small-12">
-             <header>
-               <h1>Form patterns</h1>
-               <ul class="list-bare content-links in-page-nav">
+    </header>
+    <div class="row">
+        <div class="column medium-4 small-12 fixedsticky">
+            <nav>
+                <ul class="list-bare in-page-nav">
                     <li><a href="#name-title">Asking for name and title</a></li>
                     <li><a href="#gender-sex">Asking for gender and sex</a></li>
                     <li><a href="#address">Address</a></li>
@@ -23,7 +25,9 @@ group: "inner-page"
                     <li><a href="#continue-back">Continue and back</a></li>
                     <li><a href="#progress-trackers">Progress trackers</a></li>
                 </ul>
-            </header>
+            </nav>
+        </div>
+        <div class="column medium-8 small-12">
             <section id="#name-title" class="dm-section">
                 <h3 id="name-title">Asking for name and title</h3>
                 <p>Only ask for name and title if it’s essential.</p>
@@ -54,7 +58,7 @@ group: "inner-page"
                 <p>If you do need to know, ask about a person’s ‘gender’, not their sex. Allow them to tell us in their own words with a text entry field.</p>
                 <p>But ultimately - if you do not need to know - do not ask.</p>
                </section>
-               
+
                    <section id="address" class="dm-section">
                     <h2>Address</h2>
                     <p><a href"/designing-forms.html">Know why you’re asking</a> for an address and tell users why you’re asking.</p>
