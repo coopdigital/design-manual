@@ -33,7 +33,7 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
                         <h3 class="example-heading"><span class="example_label">Example</span> Descriptive links</h3>
                         <div class="example example--padded">
                             <div class="margin-bq">
-                                <p><a href="#">Start making your will</a></p>
+                                <p>{% include components/elements/links/links.hbs %}</p>
                             </div>
                         </div>
                     </div>
@@ -75,12 +75,7 @@ body-page-class: dm-purple-theme dm-purple-theme-second-level
                     <div class="column small-12">
                         <h3 class="example-heading"><span class="example_label">Example</span></h3>
                         <div class="example example--padded">
-                            <div class="margin-bq">
-                                <button class="btn btn-primary">Button</button>
-                            </div>
-                            <div class="margin-bq">
-                                <button class="btn btn-primary-dark">Button</button>
-                            </div>
+                            {% include components/elements/buttons/buttons.hbs %}
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,11 @@
+title: "Page example"
+order: 11
+display:
+  min-height: 800px
+context:
+  title: "Example page"
+  primaryButton:
+    text: Send feedback
+  label:
+    text: Full name
+    for: full-name

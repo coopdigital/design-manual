@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Single Site Style guide</title>
+
+    <meta name="description" content="Single-site Style guide">
+
+    <!--[if lte IE 8]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/ie-lte8.css" />
+    <![endif]-->
+    <!--[if IE 9]><link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/ie-9.css"><![endif]-->
+    <!--[if gt IE 9]><!--><link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/main.css"><!--<![endif]-->
+
+    <link rel="canonical" href="http://single-site-styleguide.heroku.com/front-end-elements/common-elements.html">
+</head>
+<body>
+
+    <nav class="skip-nav">
+    <ul>
+        <li><a accesskey="c" href="#main" title="Skip to main content">Skip to content</a></li>
+        <li><a accesskey="n" href="#navigation" title="Skip to primary navigation">Skip to navigation</a></li>
+    </ul>
+</nav>
+<header class="wrap header-main">
+    <a class="coop-logo" aria-label="Homepage" href="/archive/release-1/">
+        <img src="/archive/release-1/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/archive/release-1/assets/images/logos/coopX2.png'">
+    </a>
+    <a href="/archive/release-1/" class="identifier">Style Guide</a>
+    <a href="#navigation" class="mobile-menu-toggle" data-toggle data-toggle-text-open="Close" data-toggle-text-selector="body > .header-main .mobile-menu-text">
+        <span class="icon icon-menu"></span><span class="mobile-menu-text">Menu</span>
+    </a>
+</header>
+<nav id="navigation" class="nav-primary">
+    <div class="wrap">
+        <ul>
+            <li><a href="/archive/release-1/front-end-elements/">Front-end elements <span class="icon icon-down-arrow-button"></span></a>
+                <ul>
+                    <li><a href="/archive/release-1/front-end-elements/colours.html">Colours</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/typography.html">Typography</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/icons.html">Icons</a></li>
+                    <li class="active"><a href="/archive/release-1/front-end-elements/common-elements.html">Common elements</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/layout.html">Layout</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/forms.html">Forms</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/components.html">Components</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/templates.html">Templates</a></li>
+                </ul>
+            </li>
+            <li><a href="/archive/release-1/accessibility.html">Accessibility</a></li>
+            <li><a href="/archive/release-1/supported-devices.html">Supported devices</a></li>
+            <!-- <li><a href="/code-standards.html">Code standards</a></li> -->
+        </ul>
+    </div>
+</nav>
+
+
+    <main id="main" class="main">
+
+      <div class="wrap">
+
+    <ul class="breadcrumbs">
+        <li><a href="/archive/release-1/">Home</a></li>
+        <li><a href="/archive/release-1/front-end-elements/">Front-end elements</a></li>
+        <li>Common elements</li>
+    </ul>
+
+    <h1>Common HTML elements</h1>
+
+    <nav>
+        <ul class="list-inline">
+            <li><a href="#lists" class="btn btn-small btn-pill">Lists</a></li>
+            <li><a href="#tables" class="btn btn-small btn-pill">Tables</a></li>
+            <li><a href="#hr" class="btn btn-small btn-pill">Horizontal rules</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2 id="lists">Lists <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <h3>Unordered list</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <ul>
+                    <li>List item</li>
+                    <li>List item</li>
+                    <li>List item</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;ul&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+    </div>
+
+    <h3>Ordered list</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <ol>
+                    <li>List item</li>
+                    <li>List item</li>
+                    <li>List item</li>
+                </ol>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;ol&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+        </div>
+    </div>
+
+    <h3>Undecorated list</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <ul class="list-bare">
+                    <li>List item</li>
+                    <li>List item</li>
+                    <li>List item</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;ul class="list-bare"&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+    </div>
+
+    <h3>Inline list</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <ul class="list-inline">
+                    <li>List item</li>
+                    <li>List item</li>
+                    <li>List item</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;ul class="list-inline"&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+    &lt;li&gt;List item&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="tables">Tables <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="text">
+        <p>Tables should only be used for tabular data, and contain a <code>&lt;caption&gt;</code> element with a description of the table contents for assistive technologies. The <code>&lt;table&gt;</code> element should be wrapped in a <code>&lt;div&gt;</code> element with the class <code>table-overflow-x</code> to allow scrolling on smaller devices which may not be able to fit the table within the width of the viewport.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="table-overflow-x">
+                    <table>
+                        <caption><span class="visuallyhidden">An example of how to mark up a table in HTML</span></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Col heading</th>
+                                <th scope="col">Col heading</th>
+                                <th scope="col">Col heading</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Row heading</th>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Row heading</th>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Row heading</th>
+                                <td>Cell</td>
+                                <td>Cell</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Col footer value</td>
+                                <td>Col footer value</td>
+                                <td>Col footer value</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;table-overflow-x&quot;&gt;
+    &lt;table&gt;
+        &lt;caption&gt;&lt;span class=&quot;visuallyhidden&quot;&gt;An example of how to mark up a table in HTML&lt;/span&gt;&lt;/caption&gt;
+        &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th scope=&quot;col&quot;&gt;Col heading&lt;/th&gt;
+                &lt;th scope=&quot;col&quot;&gt;Col heading&lt;/th&gt;
+                &lt;th scope=&quot;col&quot;&gt;Col heading&lt;/th&gt;
+            &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;
+                &lt;th scope=&quot;row&quot;&gt;Row heading&lt;/th&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope=&quot;row&quot;&gt;Row heading&lt;/th&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;th scope=&quot;row&quot;&gt;Row heading&lt;/th&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+                &lt;td&gt;Cell&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tbody&gt;
+        &lt;tfoot&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Col footer value&lt;/td&gt;
+                &lt;td&gt;Col footer value&lt;/td&gt;
+                &lt;td&gt;Col footer value&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/tfoot&gt;
+    &lt;/table&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="hr">Horizontal rules <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <h3>Normal rule</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <p>Some content.</p>
+                <hr>
+                <p>Content after rule.</p>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;p&gt;Some content.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Content after rule.&lt;/p&gt;</code></pre>
+        </div>
+    </div>
+
+    <h3>Dashed rule</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <p>Some content.</p>
+                <hr class="dashed">
+                <p>Content after rule.</p>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;p&gt;Some content.&lt;/p&gt;
+&lt;hr class="dashed"&gt;
+&lt;p&gt;Content after rule.&lt;/p&gt;</code></pre>
+        </div>
+    </div>
+
+</div>
+
+
+    </main>
+
+    <footer class="footer-main">
+    <div class="wrap footer-main-top">
+       <a class="coop-logo" aria-label="Homepage" href="/archive/release-1/">
+           <img src="/archive/release-1/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/archive/release-1/assets/images/logos/coopX2.png'">
+       </a>
+    </div>
+    <div class="wrap legalese">
+        <p>Copyright &copy; Co-operative Group Limited. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js" integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/archive/release-1/assets/js/vendor/jquery-1.12.1.min.js"><\/script>')</script>
+
+    <script src="/archive/release-1/assets/js/main.js"></script>
+    <script src="/archive/release-1/assets/js/vendor/prism.js"></script>
+
+</body>
+
+</html>

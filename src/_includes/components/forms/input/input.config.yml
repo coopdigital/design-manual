@@ -1,0 +1,9 @@
+title: Input
+status: ready
+order: 2
+display:
+  max-width: 500px
+context:
+  label:
+    text: Full name
+    for: full-name

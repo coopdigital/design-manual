@@ -54,7 +54,6 @@ var settings = {
 };
 
 
-
 /**
  * Lint tasks
  */
@@ -80,6 +79,16 @@ gulp.task('lintscss', function() {
  * Build tasks
  */
 
+// Copy Co-op components
+gulp.task('copy', function () {
+  gulp.src([
+    'node_modules/coop-components/**/*',
+    '!node_modules/coop-components/package.json',
+    '!node_modules/coop-components/package-lock.json'
+  ])
+  .pipe(gulp.dest('src/_includes/'));
+});
+
 // Jekyll
 gulp.task('html', ['jekyll'], function() {
   return gulp.src(dest + '**/*.html')
@@ -88,7 +97,6 @@ gulp.task('html', ['jekyll'], function() {
 gulp.task('jekyll', function (gulpCallBack){
   var spawn = require('child_process').spawn;
   var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'src'});
-
   jekyll.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
   });
@@ -148,12 +156,12 @@ gulp.task('testjs', function() {
  * Watch tasks
  */
 gulp.task('watch', function() {
+
   // Toolkit watching for local development
   gulp.watch('node_modules/coop-frontend-toolkit/styles/**/*.scss', ['css']);
   gulp.watch('node_modules/coop-frontend-toolkit/scripts/**/*.js', ['js']);
-
   // Source
-  gulp.watch(src_paths.styles, ['lintscss', 'css']);
+  // gulp.watch(src_paths.styles, ['lintscss', 'css']);
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
   gulp.watch(src_paths.assets, ['imagemin']);
   gulp.watch(src_paths.html, ['html']);
@@ -175,7 +183,6 @@ gulp.task('connect', function() {
  * Run tasks
  */
 gulp.task('test', ['testjs']);
-gulp.task('build', ['html', 'css', 'vendorjs', 'js', 'imagemin']);
+gulp.task('build', ['html', 'css', 'vendorjs', 'js', 'imagemin', 'copy']);
 gulp.task('server', ['build', 'watch', 'connect']);
-
 gulp.task('default', ['build']);

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Single Site Style guide</title>
+
+    <meta name="description" content="Single-site Style guide">
+
+    <!--[if lte IE 8]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/ie-lte8.css" />
+    <![endif]-->
+    <!--[if IE 9]><link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/ie-9.css"><![endif]-->
+    <!--[if gt IE 9]><!--><link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/main.css"><!--<![endif]-->
+
+    <link rel="canonical" href="http://single-site-styleguide.heroku.com/front-end-elements/typography.html">
+</head>
+<body>
+
+    <nav class="skip-nav">
+    <ul>
+        <li><a accesskey="c" href="#main" title="Skip to main content">Skip to content</a></li>
+        <li><a accesskey="n" href="#navigation" title="Skip to primary navigation">Skip to navigation</a></li>
+    </ul>
+</nav>
+<header class="wrap header-main">
+    <a class="coop-logo" aria-label="Homepage" href="/archive/release-1/">
+        <img src="/archive/release-1/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/archive/release-1/assets/images/logos/coopX2.png'">
+    </a>
+    <a href="/archive/release-1/" class="identifier">Style Guide</a>
+    <a href="#navigation" class="mobile-menu-toggle" data-toggle data-toggle-text-open="Close" data-toggle-text-selector="body > .header-main .mobile-menu-text">
+        <span class="icon icon-menu"></span><span class="mobile-menu-text">Menu</span>
+    </a>
+</header>
+<nav id="navigation" class="nav-primary">
+    <div class="wrap">
+        <ul>
+            <li><a href="/archive/release-1/">Front-end elements <span class="icon icon-down-arrow-button"></span></a>
+                <ul>
+                    <li><a href="/archive/release-1/front-end-elements/colours.html">Colours</a></li>
+                    <li class="active"><a href="/archive/release-1/front-end-elements/typography.html">Typography</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/icons.html">Icons</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/common-elements.html">Common elements</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/layout.html">Layout</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/forms.html">Forms</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/components.html">Components</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/templates.html">Templates</a></li>
+                </ul>
+            </li>
+            <li><a href="/archive/release-1/../accessibility.html">Accessibility</a></li>
+            <li><a href="/archive/release-1/../supported-devices.html">Supported devices</a></li>
+            <!-- <li><a href="/code-standards.html">Code standards</a></li> -->
+        </ul>
+    </div>
+</nav>
+
+
+    <main id="main" class="main">
+
+      <div class="wrap">
+
+    <ul class="breadcrumbs">
+        <li><a href="/archive/release-1/">Home</a></li>
+        <li><a href="/archive/release-1/front-end-elements/">Front-end elements</a></li>
+        <li>Typography</li>
+    </ul>
+
+    <h1>Typography</h1>
+
+    <nav>
+        <ul class="list-inline">
+            <li><a href="#typographic-scale" class="btn btn-small btn-pill">Typographic scale</a></li>
+            <li><a href="#custom-scale" class="btn btn-small btn-pill">Custom scale</a></li>
+            <li><a href="#typographic-styles" class="btn btn-small btn-pill">Typographic styles</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2 id="typographic-scale">Typographic scale <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="text">
+        <p>This is the basic typographic scale provided by the Toolkit. For this scale, only the <code>h1</code> and <code>small</code> elements have a bigger size from the <code>medium</code> breakpoint.</p>
+
+        <p>CSS classes are also provided for these sizes, so that should a developer need to create a certain visual hierarchy, they can, without breaking the semantics of the page. This is known as a <a href="http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/">Double strand hierarchy.</a></p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <h1>H1 (36px, 30px mobile)</h1>
+                <h2>H2 (21px)</h2>
+                <h3>H3 (19px)</h3>
+                <h4>H4 (16px)</h4>
+                <h5>H5 (13px)</h5>
+                <h6>H6 (11px)</h6>
+
+                <p>body (base, 16px)</p>
+                <p><small>small (13px desktop (11px mobile)</small></p>
+                <p>Using classes: <span class="h1">h1</span>, <span class="h2">h2</span>, etc.</p>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;h1&gt;H1 (36px, 30px mobile)&lt;/h1&gt;
+&lt;h2&gt;H2 (21px)&lt;/h2&gt;
+&lt;h3&gt;H3 (19px)&lt;/h3&gt;
+&lt;h4&gt;H4 (16px)&lt;/h4&gt;
+&lt;h5&gt;H5 (13px)&lt;/h5&gt;
+&lt;h6&gt;H6 (11px)&lt;/h6&gt;
+&lt;p&gt;body (base, 16px)&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;small (13px desktop (11px mobile)&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;Using classes: &lt;span class=&quot;h1&quot;&gt;h1&lt;/span&gt;, &lt;span class=&quot;h2&quot;&gt;h2&lt;/span&gt;, etc.&lt;/p&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="custom-scale">Custom scale <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <p>The typographic scale can be customised by overriding the default variable. To do so, set a new <code>$typographic-scale</code> variable with at least a <code>base</code> property containing all the default sizes. You can also pass optional extra breakpoints containing the sizes you want to modify as the screens get bigger:</p>
+
+    <pre><code class="language-scss">$typographic-scale: (
+  base: (
+    body: 24px, // This is the default size for the main content
+    h1: 40px,
+    h2: 32px,
+    h3: 28px,
+    h4: 24px,
+    h5: 20px,
+    h6: 18px,
+    blockquote: 28px,
+    small: 16px
+  ),
+  medium: (
+    h1: 50px // h1 will be 50px from medium breakpoint and above
+  ),
+  large: (
+    h2: 40px // h2 will be 40px from large breakpoint and above
+  )
+);</code></pre>
+
+    <hr>
+
+    <h2 id="typographic-styles">Typographic styles <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <p>Font style can be <span class="regular">regular</span>, <span class="bold">bold</span>, <span class="italic">italic</span>, or <span class="bold-italic">bold-italic</span>.</p>
+
+                <p>Using standard HTML elements: <strong>strong</strong>, <b>bold</b>, <em>emphasized</em>, <i>italic</i>, <del>deleted</del>.</p>
+
+                <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>. Text links: <a href="#">link</a>.</p>
+
+                <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation.</q></p>
+
+                <blockquote>
+                    <p>This is a block quotation.</p>
+                    <cite>This is a citation</cite>
+                </blockquote>
+
+                <p class="intro-text">Intro text is the size of an <code>h2</code> element.</p>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;p&gt;Font style can be &lt;span class=&quot;regular&quot;&gt;regular&lt;/span&gt;, &lt;span class=&quot;bold&quot;&gt;bold&lt;/span&gt;, &lt;span class=&quot;italic&quot;&gt;italic&lt;/span&gt;, or &lt;span class=&quot;bold-italic&quot;&gt;bold-italic&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Using standard HTML elements: &lt;strong&gt;strong&lt;/strong&gt;, &lt;b&gt;bold&lt;/b&gt;, &lt;em&gt;emphasized&lt;/em&gt;, &lt;i&gt;italic&lt;/i&gt;, &lt;del&gt;deleted&lt;/del&gt;.&lt;/p&gt;
+&lt;p&gt;Abbreviation: &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt;. Text links: &lt;a href=&quot;#&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;q cite=&quot;https://developer.mozilla.org/en-US/docs/HTML/Element/q&quot;&gt;This text is a short inline quotation.&lt;/q&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+    &lt;p&gt;This is a block quotation.&lt;/p&gt;
+    &lt;cite&gt;This is a citation&lt;/cite&gt;
+&lt;/blockquote&gt;
+&lt;p class=&quot;intro-text&quot;&gt;Intro text is the size of an &lt;code&gt;h2&lt;/code&gt; element.&lt;/p&gt;</code></pre>
+        </div>
+    </div>
+
+</div>
+
+
+    </main>
+
+    <footer class="footer-main">
+    <div class="wrap footer-main-top">
+       <a class="coop-logo" aria-label="Homepage" href="/archive/release-1/">
+           <img src="/archive/release-1/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/archive/release-1/assets/images/logos/coopX2.png'">
+       </a>
+    </div>
+    <div class="wrap legalese">
+        <p>Copyright &copy; Co-operative Group Limited. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js" integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/archive/release-1/assets/js/vendor/jquery-1.12.1.min.js"><\/script>')</script>
+
+    <script src="/archive/release-1/assets/js/main.js"></script>
+    <script src="/archive/release-1/assets/js/vendor/prism.js"></script>
+
+</body>
+
+</html>

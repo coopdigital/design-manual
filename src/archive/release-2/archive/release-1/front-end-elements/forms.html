@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Single Site Style guide</title>
+
+    <meta name="description" content="Single-site Style guide">
+
+    <!--[if lte IE 8]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/ie-lte8.css" />
+    <![endif]-->
+    <!--[if IE 9]><link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/ie-9.css"><![endif]-->
+    <!--[if gt IE 9]><!--><link rel="stylesheet" type="text/css" href="/archive/release-1/assets/css/main.css"><!--<![endif]-->
+
+    <link rel="canonical" href="http://single-site-styleguide.heroku.com/front-end-elements/forms.html">
+</head>
+<body>
+
+    <nav class="skip-nav">
+    <ul>
+        <li><a accesskey="c" href="#main" title="Skip to main content">Skip to content</a></li>
+        <li><a accesskey="n" href="#navigation" title="Skip to primary navigation">Skip to navigation</a></li>
+    </ul>
+</nav>
+<header class="wrap header-main">
+    <a class="coop-logo" aria-label="Homepage" href="/archive/release-1/">
+        <img src="/archive/release-1/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/archive/release-1/assets/images/logos/coopX2.png'">
+    </a>
+    <a href="/archive/release-1/" class="identifier">Style Guide</a>
+    <a href="#navigation" class="mobile-menu-toggle" data-toggle data-toggle-text-open="Close" data-toggle-text-selector="body > .header-main .mobile-menu-text">
+        <span class="icon icon-menu"></span><span class="mobile-menu-text">Menu</span>
+    </a>
+</header>
+<nav id="navigation" class="nav-primary">
+    <div class="wrap">
+        <ul>
+            <li><a href="/archive/release-1/front-end-elements/">Front-end elements <span class="icon icon-down-arrow-button"></span></a>
+                <ul>
+                    <li><a href="/archive/release-1/front-end-elements/colours.html">Colours</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/typography.html">Typography</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/icons.html">Icons</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/common-elements.html">Common elements</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/layout.html">Layout</a></li>
+                    <li class="active"><a href="/archive/release-1/front-end-elements/forms.html">Forms</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/components.html">Components</a></li>
+                    <li><a href="/archive/release-1/front-end-elements/templates.html">Templates</a></li>
+                </ul>
+            </li>
+            <li><a href="/archive/release-1/accessibility.html">Accessibility</a></li>
+            <li><a href="/archive/release-1/supported-devices.html">Supported devices</a></li>
+            <!-- <li><a href="/code-standards.html">Code standards</a></li> -->
+        </ul>
+    </div>
+</nav>
+
+
+    <main id="main" class="main">
+
+      <div class="wrap">
+
+    <ul class="breadcrumbs">
+        <li><a href="/archive/release-1/">Home</a></li>
+        <li><a href="/archive/release-1/front-end-elements/">Front-end elements</a></li>
+        <li>Forms</li>
+    </ul>
+
+    <h1>Forms</h1>
+
+    <nav>
+        <ul class="list-inline">
+            <li><a href="#buttons" class="btn btn-small btn-pill">Buttons</a></li>
+            <li><a href="#text-fields" class="btn btn-small btn-pill">Text fields</a></li>
+            <li><a href="#dropdowns" class="btn btn-small btn-pill">Dropdowns</a></li>
+            <li><a href="#checkboxes-and-radios" class="btn btn-small btn-pill">Checkboxes and radios</a></li>
+            <li><a href="#tap-tiles" class="btn btn-small btn-pill">Tap tiles</a></li>
+            <li><a href="#large-inputs" class="btn btn-small btn-pill">large inputs</a></li>
+            <li><a href="#validation" class="btn btn-small btn-pill">Validation</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2 id="buttons">Buttons <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <h3>Standard buttons</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="margin-bq">
+                    <button>Standard</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-primary">Primary</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-secondary">Secondary</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-tertiary-positive">Tertiary Positive</button>
+                </div>
+                <div class="margin-bq  padding-h  coop-blue-bg">
+                    <button class="btn-tertiary-negative">Tertiary Negative</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-primary btn-loading">Loading</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-primary btn-proceed">Proceed</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-primary btn-back">Back</button>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;button&gt;Standard&lt;/button&gt;
+&lt;button class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button class=&quot;btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button class=&quot;btn-tertiary&quot;&gt;Tertiary&lt;/button&gt;
+&lt;button class=&quot;btn-primary btn-loading&quot;&gt;Loading&lt;/button&gt;
+&lt;button class=&quot;btn-primary btn-proceed&quot;&gt;Proceed&lt;/button&gt;
+&lt;button class=&quot;btn-primary btn-back&quot;&gt;Back&lt;/button&gt;</code></pre>
+            <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
+        </div>
+    </div>
+
+    <h3>Disabled buttons</h3>
+
+    <div class="text">
+        <p>Buttons can be marked as disabled using the <code>disabled</code> attribute (recommended) or by adding a class of <code>disabled</code> to the <code>button</code> element.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="margin-bq">
+                    <button disabled>Disabled standard</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-primary" disabled>Disabled primary</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-secondary" disabled>Disabled secondary</button>
+                </div>
+                <div class="margin-bq">
+                    <button class="btn-tertiary" disabled>Disabled tertiary</button>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;button disabled&gt;Disabled standard&lt;/button&gt;
+&lt;button class=&quot;btn-primary&quot; disabled&gt;Disabled primary&lt;/button&gt;
+&lt;button class=&quot;btn-secondary&quot; disabled&gt;Disabled secondary&lt;/button&gt;
+&lt;button class=&quot;btn-tertiary&quot; disabled&gt;Disabled tertiary&lt;/button&gt;</code></pre>
+            <p class="regular-italic">Note: margin was added below the buttons in the example; it is not shown in markup above for simplicity.</p>
+        </div>
+    </div>
+
+    <h3>Buttons modifiers</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <button class="btn-small">Small</button>
+                <button class="btn-medium">Medium</button>
+                <button class="btn-large">Large</button>
+
+                <hr>
+
+                <button class="btn-small btn-pill">Pill button</button>
+                <button class="btn-primary btn-small btn-pill">Pill button primary</button>
+                <button class="btn-secondary btn-small btn-pill">Pill button secondary</button>
+
+                <hr>
+
+                <button class="btn-primary btn-full">Block button</button>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;button class=&quot;btn-small&quot;&gt;Small&lt;/button&gt;
+&lt;button class=&quot;btn-medium&quot;&gt;Medium&lt;/button&gt;
+&lt;button class=&quot;btn-large&quot;&gt;Large&lt;/button&gt;
+
+&lt;hr&gt;
+
+&lt;button class=&quot;btn-small btn-pill&quot;&gt;Pill button&lt;/button&gt;
+&lt;button class=&quot;btn-primary btn-small btn-pill&quot;&gt;Pill button primary&lt;/button&gt;
+&lt;button class=&quot;btn-secondary btn-small btn-pill&quot;&gt;Pill button secondary&lt;/button&gt;
+
+&lt;hr&gt;
+
+&lt;button class=&quot;btn-primary btn-full&quot;&gt;Block button&lt;/button&gt;</code></pre>
+        </div>
+    </div>
+
+    <h2 id="text-fields">Text fields <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="text">
+        <p>All form controls should be accompanied with a <code>label</code> element associated to the field using the <code>for</code> attribute. Each form row should also be wrapped in a <code>div.form-row</code> container, as per the examples below.</p>
+
+        <p><code>textarea</code> elements should have their <code>rows</code> attribute set to the desired height.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="form-row">
+                    <label for="input">Text input</label>
+                    <input id="input" type="text">
+                </div>
+
+                <div class="form-row">
+                    <label for="input">Inline text input</label>
+                    <input class="input-inline" id="input" type="text" size="10">
+                </div>
+
+                <div class="form-row">
+                    <label for="textarea">Textarea</label>
+                    <textarea id="textarea" cols="30" rows="4"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;input-1&quot;&gt;Text input&lt;/label&gt;
+    &lt;input id=&quot;input-1&quot; type=&quot;text&quot;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;input&quot;&gt;Inline text input&lt;/label&gt;
+    &lt;input class=&quot;input-inline&quot; id=&quot;input&quot; type=&quot;text&quot; size=&quot;10&quot;&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;textarea-1&quot;&gt;Textarea&lt;/label&gt;
+    &lt;textarea id=&quot;textarea-1&quot; cols=&quot;30&quot; rows=&quot;4&quot;&gt;&lt;/textarea&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <h3>Input fields prefixes and suffixes</h3>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="form-row">
+                    <label for="input-prefix">Input prefix</label>
+                    <span class="prefix">£</span>
+                    <input id="input-prefix" class="input-prefix" type="text">
+                </div>
+
+                <div class="form-row">
+                    <label for="input-prefix">Input suffix</label>
+                    <input id="input-suffix" class="input-suffix" type="text">
+                    <span class="suffix">km</span>
+                </div>
+
+                <div class="form-row">
+                    <label for="input-prefix-suffix">Input with both prefix and suffix</label>
+                    <span class="prefix">£</span>
+                    <input id="input-prefix-suffix" class="input-prefix input-suffix" type="text">
+                    <span class="suffix">.00</span>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;input-prefix&quot;&gt;Input prefix&lt;/label&gt;
+    &lt;span class=&quot;prefix&quot;&gt;&pound;&lt;/span&gt;
+    &lt;input id=&quot;input-prefix&quot; class=&quot;input-prefix&quot; type=&quot;text&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;input-prefix&quot;&gt;Input suffix&lt;/label&gt;
+    &lt;input id=&quot;input-suffix&quot; class=&quot;input-suffix&quot; type=&quot;text&quot;&gt;
+    &lt;span class=&quot;suffix&quot;&gt;km&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;input-prefix-suffix&quot;&gt;Input with both prefix and suffix&lt;/label&gt;
+    &lt;span class=&quot;prefix&quot;&gt;&pound;&lt;/span&gt;
+    &lt;input id=&quot;input-prefix-suffix&quot; class=&quot;input-prefix input-suffix&quot; type=&quot;text&quot;&gt;
+    &lt;span class=&quot;suffix&quot;&gt;.00&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="dropdowns">Dropdowns <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="form-row">
+                    <label for="select">Select dropdown</label>
+                    <select id="select">
+                        <option>Option One</option>
+                        <option>Option Two</option>
+                        <option>Option Three</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label for="select">Inline select dropdown</label>
+                    <select class="input-inline" id="select">
+                        <option>Option One</option>
+                        <option>Option Two</option>
+                        <option>Option Three</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
+&lt;label for=&quot;select&quot;&gt;Select dropdown&lt;/label&gt;
+&lt;select id=&quot;select&quot;&gt;
+    &lt;option&gt;Option One&lt;/option&gt;
+    &lt;option&gt;Option Two&lt;/option&gt;
+    &lt;option&gt;Option Three&lt;/option&gt;
+&lt;/select&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;select&quot;&gt;Inline select dropdown&lt;/label&gt;
+    &lt;select class=&quot;input-inline&quot; id=&quot;select&quot;&gt;
+        &lt;option&gt;Option One&lt;/option&gt;
+        &lt;option&gt;Option Two&lt;/option&gt;
+        &lt;option&gt;Option Three&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="checkboxes-and-radios">Checkboxes and radio buttons <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <h3>Checkboxes</h3>
+
+    <div class="text">
+        <p>If checkboxes are grouped, the set must be wrapped in a <code>fieldset</code> element. The <code>legend</code> element then carries the title for the grouped checkboxes.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <fieldset>
+                    <legend>Select all that apply</legend>
+                    <div class="form-row">
+                        <input id="box1" type="checkbox">
+                        <label for="box1">Checkbox 1</label>
+                    </div>
+                    <div class="form-row">
+                        <input id="box2" type="checkbox">
+                        <label for="box2">Checkbox 2</label>
+                    </div>
+                    <div class="form-row">
+                        <input id="box3" type="checkbox">
+                        <label for="box3">Checkbox 3</label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;fieldset&gt;
+    &lt;legend&gt;Select all that apply&lt;/legend&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;input id=&quot;box1&quot; type=&quot;checkbox&quot;&gt;
+        &lt;label for=&quot;box1&quot;&gt;Checkbox 1&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;input id=&quot;box2&quot; type=&quot;checkbox&quot;&gt;
+        &lt;label for=&quot;box2&quot;&gt;Checkbox 2&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;input id=&quot;box3&quot; type=&quot;checkbox&quot;&gt;
+        &lt;label for=&quot;box3&quot;&gt;Checkbox 3&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/fieldset&gt;</code></pre>
+        </div>
+    </div>
+
+    <h3>Radio buttons</h3>
+
+    <div class="text">
+        <p>Sets of radio buttons must be wrapped in a fieldset for accessibility purposes. The <code>legend</code> element must carry the label for the set of buttons.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <fieldset>
+                    <legend>Gender</legend>
+                    <div class="form-row">
+                        <input type="radio" id="gender_male" value="m" name="gender">
+                        <label for="gender_male" class="radio-label">Male</label>
+                    </div>
+                    <div class="form-row">
+                        <input type="radio" id="gender_female" value="f" name="gender">
+                        <label for="gender_female" class="radio-label">Female</label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;fieldset&gt;
+    &lt;legend&gt;Gender&lt;/legend&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;gender_male&quot; value=&quot;m&quot; name=&quot;gender&quot;&gt;
+        &lt;label for=&quot;gender_male&quot; class=&quot;radio-label&quot;&gt;Male&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;input type=&quot;radio&quot; id=&quot;gender_female&quot; value=&quot;f&quot; name=&quot;gender&quot;&gt;
+        &lt;label for=&quot;gender_female&quot; class=&quot;radio-label&quot;&gt;Female&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/fieldset&gt;</code></pre>
+        </div>
+    </div>
+
+    <h2 id="tap-tiles">Tap tiles <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="text">
+        <p>Tap tiles are essentially radio buttons styled to be much easier to use on mobile and touch devices.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <fieldset class="form-row">
+                    <legend>Answer the question. Yes or No.</legend>
+
+                    <input type="radio" id="radio-one" name="radio-group-1" class="tap-input">
+                    <label for="radio-one">Yes</label>
+
+                    <input type="radio" id="radio-two" name="radio-group-1" class="tap-input">
+                    <label for="radio-two">No</label>
+                </fieldset>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;fieldset class=&quot;form-row&quot;&gt;
+    &lt;legend&gt;Answer the question. Yes or No.&lt;/legend&gt;
+
+    &lt;input type=&quot;radio&quot; id=&quot;radio-one&quot; name=&quot;radio-group-1&quot; class=&quot;tap-input&quot;&gt;
+    &lt;label for=&quot;radio-one&quot;&gt;Yes&lt;/label&gt;
+
+    &lt;input type=&quot;radio&quot; id=&quot;radio-two&quot; name=&quot;radio-group-1&quot; class=&quot;tap-input&quot;&gt;
+    &lt;label for=&quot;radio-two&quot;&gt;No&lt;/label&gt;
+&lt;/fieldset&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="large-inputs">Large inputs <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="text">
+        <p>Large inputs can be created by simply increasing the font-size on the container element.</p>
+    </div>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div style="font-size: 1.5em;">
+                    <div class="form-row">
+                        <label for="large-1">Input</label>
+                        <input id="large-1" type="text">
+                    </div>
+                    <div class="form-row">
+                        <label for="large-2">Select</label>
+                        <select id="large-2">
+                            <option value="">Option 1</option>
+                            <option value="">Option 2</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div style=&quot;font-size: 1.5em;&quot;&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;label for=&quot;large-1&quot;&gt;Input&lt;/label&gt;
+        &lt;input id=&quot;large-1&quot; type=&quot;text&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-row&quot;&gt;
+        &lt;label for=&quot;large-2&quot;&gt;Select&lt;/label&gt;
+        &lt;select id=&quot;large-2&quot;&gt;
+            &lt;option value=&quot;&quot;&gt;Option 1&lt;/option&gt;
+            &lt;option value=&quot;&quot;&gt;Option 2&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 id="validation">Validation <a href="#top" class="back-to-top">Back to top</a></h2>
+
+    <div class="row">
+        <div class="column medium-6">
+            <div class="example">
+                <div class="form-row">
+                    <label for="input_error">Enter something</label>
+                    <input type="text" id="input_error" class="invalid">
+                    <p class="form-error">Please enter something</p>
+                </div>
+            </div>
+        </div>
+        <div class="column medium-6">
+            <pre><code class="language-html">&lt;div class=&quot;form-row&quot;&gt;
+    &lt;label for=&quot;input_error&quot;&gt;Enter something&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;input_error&quot; class=&quot;invalid&quot;&gt;
+    &lt;p class=&quot;form-error&quot;&gt;Please enter something&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+    </div>
+
+</div>
+
+
+    </main>
+
+    <footer class="footer-main">
+    <div class="wrap footer-main-top">
+       <a class="coop-logo" aria-label="Homepage" href="/archive/release-1/">
+           <img src="/archive/release-1/assets/images/logos/coop-logo.svg" alt="Co-op" onerror="this.onerror=null; this.src='/archive/release-1/assets/images/logos/coopX2.png'">
+       </a>
+    </div>
+    <div class="wrap legalese">
+        <p>Copyright &copy; Co-operative Group Limited. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js" integrity="sha256-I1nTg78tSrZev3kjvfdM5A5Ak/blglGzlaZANLPDl3I=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/archive/release-1/assets/js/vendor/jquery-1.12.1.min.js"><\/script>')</script>
+
+    <script src="/archive/release-1/assets/js/main.js"></script>
+    <script src="/archive/release-1/assets/js/vendor/prism.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+title: Textarea
+status: ready
+order: 2
+display:
+  max-width: 600px
+  min-height: 300px

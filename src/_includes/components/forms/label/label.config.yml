@@ -1,0 +1,10 @@
+title: Input
+status: ready
+order: 1
+hidden: true
+display:
+  max-width: 500px
+context:
+  label:
+    text: Input label
+    for: input-id-name
