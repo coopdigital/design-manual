@@ -2,7 +2,10 @@
 Heros
 ===============================================*/
 
-.dm-main-hero {}
+.ds-hero {
+  padding-top: 60px;
+  @include spacing('margin', 'bottom', 'half');
+}
 
 .dm-main-hero__title {}
 

@@ -158,10 +158,10 @@ gulp.task('testjs', function() {
 gulp.task('watch', function() {
 
   // Toolkit watching for local development
-  gulp.watch('node_modules/coop-frontend-toolkit/styles/**/*.scss', ['css']);
+  gulp.watch('node_modules/coop-frontend-toolkit/styles/**/*.scss',  ['css']);
   gulp.watch('node_modules/coop-frontend-toolkit/scripts/**/*.js', ['js']);
   // Source
-  // gulp.watch(src_paths.styles, ['lintscss', 'css']);
+  gulp.watch('src/_css/**/*.scss',  ['css']);
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
   gulp.watch(src_paths.assets, ['imagemin']);
   gulp.watch(src_paths.html, ['html']);

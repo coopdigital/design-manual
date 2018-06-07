@@ -1,4 +1,30 @@
-// Main Nav
+
+.ds-header {
+  @include spacing("padding", "top", "half");
+  @include spacing("padding", "bottom", "half");
+
+  .coop-logo {
+    display: inline-block;
+    width: auto;
+
+    svg {
+      display: inline-block;
+    }
+  }
+
+  .service-name {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: em-calc(21px);
+    font-family: $medium;
+    line-height: 1.8;
+    color: $text;
+    vertical-align: top;
+  }
+}
+
+
+
 .header-main {
   color: #fff;
   border-bottom: none;

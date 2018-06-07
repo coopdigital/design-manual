@@ -3,11 +3,43 @@
 
 //Colour varibles
 $green-blue-dark: #29837f;
+$woodsmoke: #1D2534;
 
 a {
   &:hover {
     border-bottom: 0;
   }
+}
+
+.ds-card {
+  @include spacing('padding', 'all', 'half');
+  background: $page;
+  border-radius: 16px;
+
+  P:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.margin-tb {
+  @include spacing('margin', 'top', 'base');
+}
+
+.ds-card--shadow {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+     -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+          box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+}
+
+.ds-section-bg {
+  @include spacing('padding', 'top', 'half');
+  @include spacing('padding', 'bottom', 'half');
+  background: $woodsmoke;
+}
+
+.ds-section-bg__title {
+  color: $page;
+  font-size: em-calc(32px);
 }
 
 .dm-section {
