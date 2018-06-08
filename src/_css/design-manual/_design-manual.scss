@@ -9,6 +9,12 @@ a {
   &:hover {
     border-bottom: 0;
   }
+  &:active,
+  &:focus {
+    transition: none;
+    outline: 2px dotted darken($yellow-mid, 5%);
+    outline-offset: 3px;
+  } 
 }
 
 .margin-tb {
