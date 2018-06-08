@@ -1,4 +1,3 @@
-
 .ds-header {
   @include spacing("padding", "top", "half");
   @include spacing("padding", "bottom", "half");
@@ -6,9 +5,19 @@
   .coop-logo {
     display: inline-block;
     width: auto;
+    margin-left: 0;
+    // margin-top: 2px;
+
+    @include media(medium) {
+      margin-left: 1px;
+    }
 
     svg {
       display: inline-block;
+
+      path {
+        fill: #00B1E7;
+      }
     }
   }
 

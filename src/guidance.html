@@ -1,73 +1,74 @@
 ---
 layout: default
 id: guidance
-body-page-class: dm-purple-theme
+body-page-class: dm-dark
 ---
-<article class="wrap margin-tb">
+<article class="wrap">
+     {% include breadcrumbs.html %}
      <div class="resources-intro">
           <header>
                <div class="row">
-                    <div class="column small-12 medium-8 intro-box">
+                    <div class="column small-12 medium-7 intro-box">
                         <h1>Design guidance</h1>
-                        <p>This guidance is meant as a reference point when designing for Co-op.  Experimenting is encouraged.</p>
+                        <p>Our design guideance provides more detailed information on how to use our <a href="https://coop-design-system.herokuapp.com">design patterns</a>.</p>
+
+                    </div>
+                    <div class="column small-12 medium-7 intro-box">
+                        <div class="message message--info">
+                          <p>We're updating our design guidance. You can find our old design manual in the <a href="/archive.html">archive</a>.</p>
+                        </div>
                     </div>
                </div>
           </header>
           <section>
-                <div class="row">
-                    <div class="column small-12 medium-9">
-                        <h2>Styles and patterns</h2>
-                        <p>These are the basic structural guidelines for our digital services.</p>
-                    </div>
-               </div>
                <div class="row margin-th">
                     <div class="column small-12 medium-4">
-                         <a href="styles/colours.html" class="tile--link m-bh-med-b">
-                             <h3 class="tile--link__title">Colours</h3>
+                         <a href="styles/logo.html" class="card--link m-bh-med-b">
+                             <h3 class="card--link__title">Logo</h3>
                          </a>
                     </div>
                     <div class="column small-12 medium-4">
-                         <a href="styles/typography.html" class="tile--link m-bh-med-b">
-                             <h3 class="tile--link__title">Typography</h3>
+                         <a href="styles/colours.html" class="card--link m-bh-med-b">
+                             <h3 class="card--link__title">Colours</h3>
                          </a>
                     </div>
                     <div class="column small-12 medium-4">
-                         <a href="styles/logo.html" class="tile--link m-bh-med-b">
-                             <h3 class="tile--link__title">Logo</h3>
-                         </a>
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="column small-12 medium-4">
-                         <a href="styles/buttons.html" class="tile--link m-bh-med-b">
-                             <h3 class="tile--link__title">Links and buttons</h3>
-                         </a>
-                    </div>
-                    <div class="column small-12 medium-4">
-                         <a href="styles/forms/index.html" class="tile--link m-bh-med-b">
-                             <h3 class="tile--link__title">Forms</h3>
-                         </a>
-                    </div>
-                    <div class="column small-12 medium-4">
-                         <a href="styles/tables/index.html" class="tile--link m-bh-med-b">
-                             <h3 class="tile--link__title">Tables</h3>
+                         <a href="styles/typography.html" class="card--link m-bh-med-b">
+                             <h3 class="card--link__title">Typography</h3>
                          </a>
                     </div>
                </div>
                <div class="row">
                     <div class="column small-12 medium-4">
-                         <a href="styles/errors.html" class="tile--link m-bh-med-b">
-                              <h3 class="tile--link__title">Errors</h3>
+                         <a href="styles/buttons.html" class="card--link m-bh-med-b">
+                             <h3 class="card--link__title">Links and buttons</h3>
                          </a>
                     </div>
                     <div class="column small-12 medium-4">
-                         <a href="styles/images.html" class="tile--link m-bh-med-b">
-                              <h3 class="tile--link__title">Images</h3>
+                         <a href="styles/forms/index.html" class="card--link m-bh-med-b">
+                             <h3 class="card--link__title">Forms</h3>
                          </a>
                     </div>
                     <div class="column small-12 medium-4">
-                         <a href="styles/grid.html" class="tile--link m-bh-med-b">
-                              <h3 class="tile--link__title">Grid</h3>
+                         <a href="styles/tables/index.html" class="card--link m-bh-med-b">
+                             <h3 class="card--link__title">Tables</h3>
+                         </a>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="column small-12 medium-4">
+                         <a href="styles/errors.html" class="card--link m-bh-med-b">
+                              <h3 class="card--link__title">Errors</h3>
+                         </a>
+                    </div>
+                    <div class="column small-12 medium-4">
+                         <a href="styles/images.html" class="card--link m-bh-med-b">
+                              <h3 class="card--link__title">Images</h3>
+                         </a>
+                    </div>
+                    <div class="column small-12 medium-4">
+                         <a href="styles/grid.html" class="card--link m-bh-med-b">
+                              <h3 class="card--link__title">Grid</h3>
                          </a>
                     </div>
                </div>
@@ -75,21 +76,9 @@ body-page-class: dm-purple-theme
           <section>
                <div class="row margin-th">
                     <div class="column small-12 medium-4">
-                       <a href="/content.html" class="tile--link tile--link--heading m-bh-med-b">
-                            <h3 class="tile--link__title">Content</h3>
-                            <p>How to write for Co-op.</p>
-                            <p class="tile--link__p">Content design style guide</p>
-                       </a>
-                    </div>
-               </div>
-          </section>
-          <section>
-               <div class="row margin-th">
-                    <div class="column small-12 medium-4">
-                        <a href="/accessibility.html" class="tile--link tile--link--heading m-bh-med-b">
-                             <h3 class="tile--link__title">Accessibility</h3>
-                             <p>Do not design for difference, design so no one feels different.</p>
-                             <p class="tile--link__p">Accessibility requirements and resources</p>
+                        <a href="/accessibility.html" class="card--link card--link--heading m-bh-med-b">
+                             <h3 class="card--link__title">Accessibility</h3>
+                             <p class="margin-x">Do not design for difference, design so no one feels different.</p>
                         </a>
                     </div>
                </div>

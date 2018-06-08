@@ -1,0 +1,26 @@
+.status {
+  font-size: em-calc(12px);
+  color: $page;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+.status--alpha {
+  background: #FF3333;
+}
+
+.status--beta {
+  background: #FF9233;
+}
+
+.status--live {
+  background: #1AA579;
+}
+
+h1 {
+  .status {
+    font-size: em-calc(10px);
+    font-family: $medium;
+    margin-left: $quarter-spacing-unit;
+  }
+}

@@ -4,7 +4,7 @@
 
 $(function(){
 
-  $('.dm-page-nav').fixedsticky();
+  $('.in-page-nav').fixedsticky();
 
   // $.fn.isInViewport = function() {
   //   var elementTop = $(".example-full").offset().top;

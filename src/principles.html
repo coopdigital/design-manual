@@ -1,15 +1,16 @@
 ---
 layout: default
 id: design-principles
-body-page-class: dm-green-theme
+body-page-class: dm-dark
 ---
 
-<article class="wrap margin-tb">
+<article class="wrap">
+    {% include breadcrumbs.html %}
     <div class="principles-intro m-bh-med-b">
         <header>
             <div class="row">
                 <div class="column medium-8 small-12 intro-box">
-                    <h1>Principles</h1>
+                    <h1>Design principles</h1>
                     <p>Our digital design principles reflect how we think about design. They provide a way for us to look at the work we create and how we create it: building the right thing; building the thing right.</p>
                     <p><a href="https://github.com/coopdigital/coop-design-assets/raw/master/principles/DP_poster_v7.pdf" class="icon-link download-icon no-bord"><span class="link-text">Download design principle posters PDF</span><span class="link-info"> (46kb)</span></a></p>
                 </div>
@@ -20,7 +21,7 @@ body-page-class: dm-green-theme
         <div class="column medium-4 small-12 fixedsticky">
             <p class="bold">We design:</p>
             <nav>
-                <ul id="in-page-nav" class="list-bare in-page-nav green-blue-bl">
+                <ul id="in-page-nav" class="list-bare in-page-nav">
                   <li class="selected"><a href="#context">in context</a></li>
                   <li><a href="#purpose">with purpose</a></li>
                   <li><a href="#everyone">for everyone</a></li>
@@ -31,7 +32,7 @@ body-page-class: dm-green-theme
             </nav>
         </div>
         <div class="column medium-8 small-12">
-            <section id="context" class="green-blue-bb m-tb-med-x margin-bb padding-bh">
+            <section id="context" class="m-tb-med-x margin-bb padding-bh">
                 <h2>We design in context</h2>
                 <p>Communicating with a clear voice, at the right time, in the right&nbsp;way.</p>
                 <p>We do this by:</p>
@@ -40,70 +41,59 @@ body-page-class: dm-green-theme
                     <li>looking at the whole experience for the user, not just the digital&nbsp;part</li>
                     <li>giving information only at the point it’s needed, and through the most effective&nbsp;channel</li>
                 </ul>
-        </section>
-        <section id="purpose" class="green-blue-bb margin-bb padding-bh">
-
-                    <h2>We design with purpose</h2>
-                    <p>Making services that are useful, elegant and easy to&nbsp;use.</p>
-                    <p>We’re doing this by:</p>
-                    <ul>
-                        <li>knowing why the service is needed before we build&nbsp;it</li>
-                        <li>measuring and challenging the effectiveness of what we&nbsp;build</li>
-                        <li>getting out of the way — helping users achieve their goals as quickly as they&nbsp;can</li>
-                        <li>designing services that speak for themselves — they’re self-explanatory and&nbsp;intuitive </li>
-                    </ul>
-
-        </section>
-        <section id="everyone" class="green-blue-bb margin-bb padding-bh">
-
-                    <h2>We design for everyone</h2>
-                    <p>Designing so that no one feels different.</p>
-                    <p>We do this by:</p>
-                    <ul>
-                        <li>communicating in a clear, simple way; opening up our services to&nbsp;everyone</li>
-                        <li>designing for people irrespective of their background, circumstance, digital skills or subject knowledge - removing any barriers to our&nbsp;services</li>
-                        <li>recognising that people come to our services with their own needs, insecurities and struggles – they deserve our consideration and&nbsp;thoughtfulness</li>
-                    </ul>
-
-        </section>
-        <section id="honesty" class="green-blue-bb margin-bb padding-bh">
-
-                    <h2>We design with honesty</h2>
-                    <p>Nothing made up.</p>
-                    <p>We do this by:</p>
-                    <ul>
-                        <li>being truthful about what we can and cannot do for our&nbsp;users</li>
-                        <li>talking about what we’ve done, not what we’ve yet to&nbsp;do</li>
-                        <li>being true to our medium, understanding its opportunities and&nbsp;limits</li>
-                    </ul>
-
-
-        </section>
-        <section id="open" class="green-blue-bb margin-bb padding-bh">
-
-                    <h2>We design in the open</h2>
-                    <p>Being co-operative in the way we work with&nbsp;others.</p>
-                    <p>We do this by:</p>
-                    <ul>
-                        <li>talking about what we’re making as we make&nbsp;it</li>
-                        <li>being generous with what we know, and open to learning from&nbsp;others</li>
-                        <li>not being afraid to&nbsp;experiment</li>
-                    </ul>
-
-        </section>
-        <section id="iteratively" class="green-blue-bb margin-bb padding-bh">
-
-                    <h2>We design iteratively</h2>
-                    <p>There’s no substitute for putting our work in front of real&nbsp;people.</p>
-                    <p>We do this by:</p>
-                    <ul>
-                        <li>releasing earlier, learning&nbsp;faster</li>
-                        <li>learning from what people do, not what they say they&nbsp;do</li>
-                        <li>making design decisions based on&nbsp;evidence</li>
-                        <li>responding to change</li>
-                    </ul>
-
-        </section>
+            </section>
+            <section id="purpose" class="margin-bb padding-bh">
+                <h2>We design with purpose</h2>
+                <p>Making services that are useful, elegant and easy to&nbsp;use.</p>
+                <p>We’re doing this by:</p>
+                <ul>
+                    <li>knowing why the service is needed before we build&nbsp;it</li>
+                    <li>measuring and challenging the effectiveness of what we&nbsp;build</li>
+                    <li>getting out of the way — helping users achieve their goals as quickly as they&nbsp;can</li>
+                    <li>designing services that speak for themselves — they’re self-explanatory and&nbsp;intuitive </li>
+                </ul>
+            </section>
+            <section id="everyone" class="margin-bb padding-bh">
+                <h2>We design for everyone</h2>
+                <p>Designing so that no one feels different.</p>
+                <p>We do this by:</p>
+                <ul>
+                    <li>communicating in a clear, simple way; opening up our services to&nbsp;everyone</li>
+                    <li>designing for people irrespective of their background, circumstance, digital skills or subject knowledge - removing any barriers to our&nbsp;services</li>
+                    <li>recognising that people come to our services with their own needs, insecurities and struggles – they deserve our consideration and&nbsp;thoughtfulness</li>
+                </ul>
+            </section>
+            <section id="honesty" class="margin-bb padding-bh">
+                <h2>We design with honesty</h2>
+                <p>Nothing made up.</p>
+                <p>We do this by:</p>
+                <ul>
+                    <li>being truthful about what we can and cannot do for our&nbsp;users</li>
+                    <li>talking about what we’ve done, not what we’ve yet to&nbsp;do</li>
+                    <li>being true to our medium, understanding its opportunities and&nbsp;limits</li>
+                </ul>
+            </section>
+            <section id="open" class="margin-bb padding-bh">
+                <h2>We design in the open</h2>
+                <p>Being co-operative in the way we work with&nbsp;others.</p>
+                <p>We do this by:</p>
+                <ul>
+                    <li>talking about what we’re making as we make&nbsp;it</li>
+                    <li>being generous with what we know, and open to learning from&nbsp;others</li>
+                    <li>not being afraid to&nbsp;experiment</li>
+                </ul>
+            </section>
+            <section id="iteratively" class="margin-bb padding-bh">
+                <h2>We design iteratively</h2>
+                <p>There’s no substitute for putting our work in front of real&nbsp;people.</p>
+                <p>We do this by:</p>
+                <ul>
+                    <li>releasing earlier, learning&nbsp;faster</li>
+                    <li>learning from what people do, not what they say they&nbsp;do</li>
+                    <li>making design decisions based on&nbsp;evidence</li>
+                    <li>responding to change</li>
+                </ul>
+            </section>
         </div>
     </div>
 </article>

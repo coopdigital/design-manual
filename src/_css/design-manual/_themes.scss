@@ -1,6 +1,29 @@
 /*===============================================
 Themes
 ===============================================*/
+// Dark theme
+.dm-dark {
+
+  .ds-header {
+    background: $woodsmoke;
+  }
+
+  .service-name {
+    color: $page;
+  }
+
+  .coop-logo {
+    svg {
+      display: inline-block;
+
+      path {
+        fill: $page;
+      }
+    }
+  }
+
+
+}
 
 // Blue theme
 .dm-blue-theme .header-main {

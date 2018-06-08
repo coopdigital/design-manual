@@ -1,0 +1,38 @@
+.signpost {
+  margin: 0 0 $half-spacing-unit 0;
+  padding: 0;
+  list-style: none;
+
+  @include media(medium) {
+    margin-bottom: 0;
+  }
+}
+
+.signpost__link {
+  position: relative;
+  display: block;
+  padding: $quarter-spacing-unit 0;
+  border-bottom: 1px solid lighten($grey-mid, 10%);
+  color: $text;
+  font-family: $medium;
+  transition: all 0.25s ease;
+
+  &:hover {
+    color: $text;
+    border-bottom: 1px solid $grey-mid;
+
+    .signpost__icon svg {
+      fill: $grey-mid;
+    }
+  }
+}
+
+.signpost__icon {
+  position: absolute;
+  line-height: 1.7;
+  right: 0;
+
+  svg {
+    fill: lighten($grey-mid, 10%);
+  }
+}
