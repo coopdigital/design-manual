@@ -74,10 +74,6 @@ Themes
     background-color: lighten($purple-mid, 50%);
   }
 
-  .highlight-banner {
-    border-color: lighten($purple-mid, 40%);
-  }
-
   .in-page-nav {
     border-color: lighten($purple-mid, 50%);
   }
@@ -85,10 +81,6 @@ Themes
   .dm-section {
     border-bottom: 2px solid lighten($purple-mid, 50%);
   }
-}
-
-.purple-mid-b {
-  border: 2px solid lighten($purple-mid, 50%);
 }
 
 .dm-purple-theme-second-level {

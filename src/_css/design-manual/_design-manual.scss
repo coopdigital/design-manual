@@ -14,7 +14,7 @@ a {
     transition: none;
     outline: 2px dotted darken($yellow-mid, 5%);
     outline-offset: 3px;
-  } 
+  }
 }
 
 .margin-tb {
@@ -23,13 +23,17 @@ a {
 
 .ds-section-bg {
 
-  @include spacing('padding', 'top', 'half');
-  @include spacing('padding', 'bottom', 'half');
+  @include spacing('padding', 'top', 'base');
+  @include spacing('padding', 'bottom', 'base');
   background: $woodsmoke;
 
   .card .card {
     // min-height: 340px;
     position: relative;
+  }
+
+  .intro-text.white {
+    color: rgba(255,255,255,0.8);
   }
 
   // .signpost {
@@ -56,17 +60,12 @@ a {
 }
 
 .highlight-banner {
-  border: 2px solid;
-  padding: $half-spacing-unit;
 
-  @include media(large) {
-    padding: $base-spacing-unit;
-    padding-right: 300px;
-    font-size: 20px;
+  p,
+  ul {
+    color: lighten($text, 30%);
   }
-  p:last-child {
-    margin-bottom: 0;
-  }
+
 }
 
 // Common
@@ -140,7 +139,20 @@ a {
 }
 
 .in-page-nav {
-  border-left: 5px solid #C4C4C4;
+  border-left: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.in-page-nav-title {
+  text-transform: uppercase;
+  font-family: $medium;
+  color: lighten($text, 30%);
+  font-size: 16px;
+}
+
+.in-page-nav-title + ul {
+  margin-top: 0;
 }
 
 
@@ -231,16 +243,6 @@ a {
   }
 }
 
-.highlight-banner {
-  padding: $half-spacing-unit;
-
-  @include media(large) {
-    padding: $base-spacing-unit;
-    padding-right: 300px;
-    font-size: 20px;
-  }
-}
-
 // Logo
 .header-main .coop-logo {
   width: 34px;
@@ -270,7 +272,7 @@ table thead, table tbody td, table tbody td, table tbody th:after {
 // }
 
 .breadcrumbs-wrap {
-  @include spacing('margin', 'bottom', 'half');
+  @include spacing('margin', 'bottom', 'base');
 
   .link-back {
     font-size: em-calc(20px);
@@ -284,9 +286,9 @@ table thead, table tbody td, table tbody td, table tbody th:after {
 
 // Feedback content
 .feedback {
-  margin-top: $half-spacing-unit*2;
+  margin-top: $half-spacing-unit;
   @include media(medium) {
-    margin-top: $base-spacing-unit*2;
+    margin-top: $base-spacing-unit;
   }
 }
 
@@ -331,7 +333,7 @@ table thead, table tbody td, table tbody td, table tbody th:after {
 //Footer
 .footer-main {
   background-color: $grey-light;
-  padding: $base-spacing-unit 0;
+  padding: $quarter-spacing-unit 0;
 
   .secondary-nav {
 
@@ -358,7 +360,7 @@ table thead, table tbody td, table tbody td, table tbody th:after {
       }
     }
     li {
-      margin-bottom: $quarter-spacing-unit;
+
       @include media(medium) {
         display: inline-block;
         margin-right: $half-spacing-unit;
@@ -667,7 +669,8 @@ table ul {
 }
 
 .colour-swatch {
-  @extend %boxed;
+  @include spacing('padding', 'all', 'half');
+  @include spacing('margin', 'bottom', 'half');
   margin-bottom: 0;
   border-bottom: 0;
   height: 5em;
@@ -1049,7 +1052,6 @@ pre[class*="language-"] {
   }
   .tile {
     padding: 0;
-    margin-bottom: 0;
   }
   .label {
     font-size: em-calc(16px);

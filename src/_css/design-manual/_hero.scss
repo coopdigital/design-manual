@@ -18,16 +18,7 @@ Heros
 }
 
 .highlight-banner {
-  @include spacing('padding', 'top', 'base');
-  @include spacing('padding', 'left', 'base');
-  @include spacing('padding', 'bottom', 'base');
-  @include spacing('padding', 'right', 'base');
-  border: 2px solid;
   font-size: 20px;
-
-  @include media(large) {
-    padding-right: 350px;
-  }
 
   .highlight-banner__text:last-child {
     margin-bottom: 0;

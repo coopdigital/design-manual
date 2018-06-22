@@ -1,20 +1,25 @@
 ---
 layout: default
-id: guidance
+id: secondlevel
 body-page-class: dm-dark
 ---
-{% include breadcrumbs.html %}
 <article class="wrap">
+    {% include breadcrumbs.html %}
     <header>
-        <h1>Errors</h1>
-        <div class="highlight-banner purple-mid-b m-bh-med-b">
-            <p>Error messages help to prompt users when something’s gone wrong.</p>
-            <p>It doesn’t matter whether they’ve misspelled a URL or we’re carrying out maintenance on our end (like a 503 error). The message should be succinct, reassuring and useful.</p>
+        <div class="row">
+            <div class="column medium-8 small-12">
+                <h1>Errors</h1>
+                <div class="highlight-banner m-bh-med-b">
+                    <p>Error messages help to prompt users when something’s gone wrong.</p>
+                    <p>It doesn’t matter whether they’ve misspelled a URL or we’re carrying out maintenance on our end (like a 503 error). The message should be succinct, reassuring and useful.</p>
+                </div>
+            </div>
         </div>
     </header>
     <div class="row">
         <div class="column medium-4 small-12 fixedsticky">
             <nav>
+                <p class="in-page-nav-title">Contents</p>
                 <ul class="list-bare in-page-nav">
                     <li><a href="#validation">Form validation</a></li>
                     <li><a href="#404">404 page not found</a></li>
