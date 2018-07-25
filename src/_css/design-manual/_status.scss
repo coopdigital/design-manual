@@ -4,6 +4,16 @@
   padding: 5px 8px;
 }
 
+.status__link {
+  border-bottom: 0;
+  text-decoration: underline;
+  color: $page;
+  &:hover {
+    color: $page;
+    text-decoration: none;
+  }
+}
+
 .status--alpha {
   background: #FF3333;
 }

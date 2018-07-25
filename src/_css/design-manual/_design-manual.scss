@@ -1138,6 +1138,22 @@ table ul {
   }
 }
 
+dl {
+  dd,
+  dt {
+    font-size: em-calc(20px);
+  }
+  dd {
+    margin-bottom: $base-spacing-unit;
+    font-family: $regular;
+  }
+  .status {
+    display: inline-block;
+    font-size: em-calc(18px);
+    margin-bottom: $quarter-spacing-unit;
+  }
+}
+
 // Footer
 .footer-main {
   margin-top: $quarter-spacing-unit;
