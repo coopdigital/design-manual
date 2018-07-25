@@ -21,52 +21,12 @@ body-page-class: dm-dark
             <nav>
                 <p class="in-page-nav-title">Contents</p>
                 <ul class="list-bare in-page-nav">
-                    <li><a href="#validation">Form validation</a></li>
                     <li><a href="#404">404 page not found</a></li>
                     <li><a href="#503">503 internal server error</a></li>
                 </ul>
             </nav>
         </div>
         <div class="column medium-8 small-12">
-            <section id="validation" class="dm-section">
-                <h2>Validation</h2>
-                <p>Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.</p>
-                <p>Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.</p>
-                <div class="row">
-                    <div class="column medium-12">
-                        <h3 class="example-heading"><span class="example_label">Example</span></h3>
-                        <div class="example example--padded">
-                            <div class="message message-error">
-                                <h2>There's a problem</h2>
-                                <p>Check the form. You must:</p>
-                                <ul class="list-bare">
-                                    <li>Enter your full name</li>
-                                    <li>Enter an email address</li>
-                                </ul>
-                            </div>
-                            <fieldset>
-                                <div class="form-row form-group-error">
-                                   <div class="field_with_errors"><label for="client_name">Your full name</label></div>
-                                   <p class="form-error">Enter your full name</p>
-                                   <div class="field_with_errors"><input class="name" type="text" value="" name="client[name]" id="client_name"></div>
-                                </div>
-                                <div class="form-row form-group-error">
-                                    <div class="field_with_errors"><label for="client_email_address">
-                                     Your email address
-                                    <span class="hint">
-                                       We'll only use this to contact you about your will.
-                                    </span>
-                                    </label> <p class="form-error">Enter an email address</p></div>
-                                    <div class="field_with_errors">
-                                        <input class="email" type="email" value="" name="client[email_address]" id="client_email_address">
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </div>
-                    </div>
-                </div>
-                <p>Find out more about <a href="/styles/forms/index.html">how we design forms</a> or about <a href="/content.html#validation-messages">validation messages</a>.</p>
-            </section>
             <section id="404" class="dm-section">
                 <h2>404 page not found</h2>
                 <p>Users see a 404 page when they follow a broken link; from another website, from our website, from search results, by mistyping a url or following a link to a page that we’ve moved or deleted. It’s a frustrating experience for more confident users, and troubling for the less experienced.</p>
@@ -89,7 +49,6 @@ body-page-class: dm-dark
                         <li>go to [the service] to find the information you're looking for</li>
                     </ul>
                 </div>
-                <!-- <p>You can also look at the design manual 404 page.</p> -->
                 <h3>Advanced 404 page options</h3>
                 <h4>Make a guess about what the user might have been looking for</h4>
                 <p>Add some code to your 404 page that displays a url, taking common misspellings into account.</p>

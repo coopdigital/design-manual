@@ -26,14 +26,14 @@
 .card--link {
   display: block;
   width: 100%;
-  color: $body-copy;
-  transition: all 0.15s ease;
-  padding: $quarter-spacing-unit 0;
   @include spacing('margin', 'bottom', 'half');
-  border-bottom: 3px solid lighten($grey-mid, 10%);
+  padding: $half-spacing-unit 0;
+  border-bottom: 5px solid rgba(15,114,152,0.1);
+  text-indent: 2px;
+  transition: all 0.15s ease;
 
   &:hover {
-    border-bottom: 3px solid $grey-mid;
+    border-bottom: 5px solid $coop-link-hover-blue;
 
     h2,
     h3 {
@@ -45,7 +45,12 @@
     font-family: $medium;
     text-decoration: underline;
     display: inline;
+
     @include spacing('margin', 'bottom', 'half');
+  }
+
+  p {
+    color: $text;
   }
 
   .card--link__p {
@@ -61,7 +66,7 @@
   }
 
   .card--link__title {
-    color: $body-copy;
+    color: $link;  
     font-family: $bold;
     border-bottom: 0;
     @include spacing('margin', 'bottom', 'quarter');
