@@ -45,7 +45,6 @@
     font-family: $medium;
     text-decoration: underline;
     display: inline;
-
     @include spacing('margin', 'bottom', 'half');
   }
 
@@ -66,7 +65,7 @@
   }
 
   .card--link__title {
-    color: $link;  
+    color: $link;
     font-family: $bold;
     border-bottom: 0;
     @include spacing('margin', 'bottom', 'quarter');
