@@ -50,9 +50,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-contentful (0.1.5)
-      contentful
-      jekyll
     jekyll-contentful-data-import (1.8.0)
       contentful (~> 2.1)
       jekyll (>= 2.5.0, < 4)
@@ -103,7 +100,6 @@ PLATFORMS
 DEPENDENCIES
   contentful_bootstrap
   jekyll
-  jekyll-contentful
   jekyll-contentful-data-import
   kramdown
   puma
@@ -111,4 +107,4 @@ DEPENDENCIES
   scss_lint
 
 BUNDLED WITH
-   1.15.2
+   1.16.6
