@@ -21,6 +21,11 @@ body-page-class:
     <header class="wrap">
         <div class="row">
             <div class="column medium-8 small-12">
+                <ul class="post-list">
+
+                  {{ site.data.contentful.spaces.fields }}
+                
+                </ul>
                 <h2 class="ds-section-bg__title">Getting started</h2>
                 <p class="intro-text white">Our design system is made up of principles, guidelines and tools that help us design and build user-centered Co&#8209;op&nbsp;services.</p>
             </div>
@@ -145,6 +150,17 @@ body-page-class:
                         <li>
                             <a href="/user-research/index.html" class="signpost__link">
                                 User research guides
+                                <span class="status status--beta">Beta</span>
+                                <span class="signpost__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                        <path class="st0" d="M4.4 16c-.2 0-.3-.1-.4-.2-.2-.2-.2-.5 0-.8l7.3-7.5c.2-.2.5-.2.8 0 .2.2.2.5 0 .8l-7.3 7.5c-.1.1-.3.2-.4.2z"/><path class="st0" d="M11.7 8.5c-.2 0-.3-.1-.4-.2L3.9.9c-.2-.2-.2-.5 0-.8.2-.2.5-.2.8 0l7.5 7.5c.2.2.2.5 0 .8-.2.1-.3.1-.5.1z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="accessibility.html" class="signpost__link">
+                                Accessibility guidelines
                                 <span class="status status--beta">Beta</span>
                                 <span class="signpost__icon">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">

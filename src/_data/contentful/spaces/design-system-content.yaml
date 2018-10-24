@@ -1,0 +1,59 @@
+---
+inPageNavigationLink:
+- sys:
+    id: 6Cp3eqqWBykQ8GW0oAUyKA
+    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Asking for names
+  section_id: asking-for-names
+designPattern:
+- sys:
+    id: 14fiLmQ4P2o8aMiaWCSYiC
+    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Test component
+  introduction: Test.
+page:
+- sys:
+    id: 3YTlC0pezKMGMsSEq4gkAu
+    created_at: !ruby/object:DateTime 2018-10-23 13:26:32.454000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 10:54:43.730000000 Z
+    content_type_id: page
+    revision: 6
+  title: Content design style guide
+  introduction: |-
+    We write content for the user, not for us.
+
+    So, we design content to give users what they need:
+
+    - only when they need it
+    - as simply and quickly as possible
+    - using words they understand
+    - in a consistent way
+    - We design in context.
+
+    Designing content that puts our users first makes it easier and faster for them to use our services, encourages them to interact with us again and builds trust in what we’re saying.
+  in_page_navigation:
+  - sys:
+      id: 6Cp3eqqWBykQ8GW0oAUyKA
+      created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Asking for names
+    section_id: asking-for-names
+  content: |-
+    ## [Asking for names](#asking-for-names)
+
+    Only ask for someone's name if it's essential: design with purpose.
+
+    If it is, and you can justify the reason you're asking:
+
+    - ask for a ‘Full name’ in one field
+    - make no assumptions about how the user wants to be addressed — ask them
+    - make it explicit whose name we’re asking for — include who the other person is if you’re capturing multiple names in one form, for example, ‘Your child’s full name’
+    - give an accurate instruction if the name needs to be written as it appears on another document, for example, ‘Copy the name from your passport’

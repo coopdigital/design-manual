@@ -97,6 +97,8 @@ gulp.task('html', ['jekyll'], function() {
 gulp.task('jekyll', function (gulpCallBack){
   var spawn = require('child_process').spawn;
   var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'src'});
+  // Get Contenful content
+  var contentful = spawn('jekyll', ['contentful']);
   jekyll.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
   });

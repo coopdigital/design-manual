@@ -1,0 +1,7 @@
+# Contentful
+contentful:
+  spaces:
+    - design-system-content:
+        space: 95z9ms2kvox3
+        access_token: 9ee9badaa2d7bdf90b84b001b21358f267a8b6a17f72b5d14538ef0937d509ad
+        base_path: ./src
