@@ -7,7 +7,9 @@ body-page-class: dm-dark
 <article class="wrap">
 {% include breadcrumbs.html %}
 
+
 {% for page in site.data.contentful.spaces.design-system-content.page %}
+{% if page.sys.id == '3YTlC0pezKMGMsSEq4gkAu' %}
 <header>
     <div class="row">
         <div class="column medium-8 small-12 intro-box">
@@ -34,8 +36,7 @@ body-page-class: dm-dark
         </section>
     </div>
 </div>
-
-
+{% endif %}
 {% endfor %}
 
 

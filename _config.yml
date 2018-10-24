@@ -2,6 +2,7 @@
 contentful:
   spaces:
     - design-system-content:
-        space: 95z9ms2kvox3
-        access_token: 9ee9badaa2d7bdf90b84b001b21358f267a8b6a17f72b5d14538ef0937d509ad
+        space:        ENV_CONTENTFUL_SPACE_ID
+        access_token: ENV_CONTENTFUL_ACCESS_TOKEN
+        environment:  ENV_CONTENTFUL_ENVIRONMENT
         base_path: ./src
