@@ -25,6 +25,14 @@ inPageNavigationLink:
   url_text: Dates and times
   section_id: dates-and-times
 - sys:
+    id: 2qVPoLl9JGWo0WuIO4qkuw
+    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Brackets ('parentheses')
+  section_id: brackets-parentheses
+- sys:
     id: 1aBqmIklgQgaAgGeuGuoeS
     created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
     updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
@@ -40,6 +48,14 @@ inPageNavigationLink:
     revision: 1
   url_text: Colons and semicolons
   section_id: colons-and-semicolons
+- sys:
+    id: 5JYkC4T3JSK6mkQqQYQa8C
+    created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Links
+  section_id: links
 - sys:
     id: 6Cp3eqqWBykQ8GW0oAUyKA
     created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
@@ -64,14 +80,6 @@ inPageNavigationLink:
     revision: 1
   url_text: Validation messages
   section_id: validation-messages
-- sys:
-    id: 2qVPoLl9JGWo0WuIO4qkuw
-    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Brackets ('parentheses')
-  section_id: brackets
 - sys:
     id: 3bLHyid7T2iq2QIyMEQ2e
     created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
@@ -128,14 +136,6 @@ inPageNavigationLink:
     revision: 1
   url_text: Hyphens and dashes
   section_id: hyphens-and-dashes
-- sys:
-    id: 5JYkC4T3JSK6mkQqQYQa8C
-    created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Links
-  section_id: links
 designPattern:
 - sys:
     id: 14fiLmQ4P2o8aMiaWCSYiC
@@ -186,11 +186,11 @@ page:
   - sys:
       id: 2qVPoLl9JGWo0WuIO4qkuw
       created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
       content_type_id: inPageNavigationLink
-      revision: 1
+      revision: 2
     url_text: Brackets ('parentheses')
-    section_id: brackets
+    section_id: brackets-parentheses
   - sys:
       id: 1aBqmIklgQgaAgGeuGuoeS
       created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
