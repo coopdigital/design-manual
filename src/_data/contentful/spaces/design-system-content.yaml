@@ -1,11 +1,166 @@
 ---
+inPageNavigationLink:
+- sys:
+    id: 4ISHoIB6b62Q0yAIwuYWOu
+    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Titles
+  section_id: titles
+- sys:
+    id: 1UKVpYiwYgemQCQ2QIaSOu
+    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 16UHPg7SlSoG68kk0qOcmG
+    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 1aBqmIklgQgaAgGeuGuoeS
+    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Using Co-op
+  section_id: using-co-op
+- sys:
+    id: 2DWYd6Fp4wCkCMyO4owk20
+    created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Colons and semicolons
+  section_id: colons-and-semicolons
+- sys:
+    id: 6Cp3eqqWBykQ8GW0oAUyKA
+    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Asking for names
+  section_id: asking-for-names
+- sys:
+    id: 5jvVTmFwDm0Y4Yci2m4Ykw
+    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Numbers and units
+  section_id: numbers-and-units
+- sys:
+    id: 2BqtPMQpQwQomuMM62QeGY
+    created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Validation messages
+  section_id: validation-messages
+- sys:
+    id: 2qVPoLl9JGWo0WuIO4qkuw
+    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Brackets ('parentheses')
+  section_id: brackets
+- sys:
+    id: 3bLHyid7T2iq2QIyMEQ2e
+    created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Ellipsis
+  section_id: ellipsis
+- sys:
+    id: 18UiYd1uoO4sqEgqew0M0u
+    created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Job titles
+  section_id: job-titles
+- sys:
+    id: 3ampSbV0IEOa0gcgaYyioy
+    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Frequently asked questions (FAQs)
+  section_id: faqs
+- sys:
+    id: 5Vre0BzSViue2WW2qq2uOG
+    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Money
+  section_id: money
+- sys:
+    id: 1ArPAloWisyIEQS88WQyaE
+    created_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Lists
+  section_id: lists
+- sys:
+    id: 3ixUqdVh1YcokouyKq0GgY
+    created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Phone numbers
+  section_id: phone-numbers
+- sys:
+    id: jFui2S5j2w6aWO4wW6cCE
+    created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Hyphens and dashes
+  section_id: hyphens-and-dashes
+- sys:
+    id: 5JYkC4T3JSK6mkQqQYQa8C
+    created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Links
+  section_id: links
+designPattern:
+- sys:
+    id: 14fiLmQ4P2o8aMiaWCSYiC
+    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Test component
+  introduction: Test.
 page:
+- sys:
+    id: 2dwjl9DDVOEK8WEkwss0Mc
+    created_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
+    content_type_id: page
+    revision: 1
+  title: Accessibility
+  introduction: Test intro.
+  content: Test content.
 - sys:
     id: 3YTlC0pezKMGMsSEq4gkAu
     created_at: !ruby/object:DateTime 2018-10-23 13:26:32.454000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 14:48:53.972000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:22:48.338000000 Z
     content_type_id: page
-    revision: 16
+    revision: 18
   title: Content design style guide
   introduction: |-
     We write content for the user, not for us.
@@ -36,6 +191,126 @@ page:
       revision: 1
     url_text: Brackets ('parentheses')
     section_id: brackets
+  - sys:
+      id: 1aBqmIklgQgaAgGeuGuoeS
+      created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Using Co-op
+    section_id: using-co-op
+  - sys:
+      id: 1UKVpYiwYgemQCQ2QIaSOu
+      created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Dates and times
+    section_id: dates-and-times
+  - sys:
+      id: 2DWYd6Fp4wCkCMyO4owk20
+      created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Colons and semicolons
+    section_id: colons-and-semicolons
+  - sys:
+      id: 3bLHyid7T2iq2QIyMEQ2e
+      created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Ellipsis
+    section_id: ellipsis
+  - sys:
+      id: 3ampSbV0IEOa0gcgaYyioy
+      created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Frequently asked questions (FAQs)
+    section_id: faqs
+  - sys:
+      id: jFui2S5j2w6aWO4wW6cCE
+      created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Hyphens and dashes
+    section_id: hyphens-and-dashes
+  - sys:
+      id: 18UiYd1uoO4sqEgqew0M0u
+      created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Job titles
+    section_id: job-titles
+  - sys:
+      id: 5JYkC4T3JSK6mkQqQYQa8C
+      created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Links
+    section_id: links
+  - sys:
+      id: 1ArPAloWisyIEQS88WQyaE
+      created_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Lists
+    section_id: lists
+  - sys:
+      id: 5Vre0BzSViue2WW2qq2uOG
+      created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Money
+    section_id: money
+  - sys:
+      id: 5jvVTmFwDm0Y4Yci2m4Ykw
+      created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Numbers and units
+    section_id: numbers-and-units
+  - sys:
+      id: 16UHPg7SlSoG68kk0qOcmG
+      created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Dates and times
+    section_id: dates-and-times
+  - sys:
+      id: 3ixUqdVh1YcokouyKq0GgY
+      created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Phone numbers
+    section_id: phone-numbers
+  - sys:
+      id: 4ISHoIB6b62Q0yAIwuYWOu
+      created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Titles
+    section_id: titles
+  - sys:
+      id: 2BqtPMQpQwQomuMM62QeGY
+      created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Validation messages
+    section_id: validation-messages
   content: "## [Asking for names](#asking-for-names)\n\nOnly ask for someone's name
     if it's essential: design with purpose.\n\nIf it is, and you can justify the reason
     you're asking:\n\n- ask for a ‘Full name’ in one field\n- make no assumptions
@@ -76,39 +351,173 @@ page:
     stop before the closing bracket.)'\n\nTry not to overuse brackets, they can disrupt
     the flow of reading.\n\n### Square brackets\nOnly use square brackets to when
     you need to add clarification to a quote or something you've not written yourself,
-    like:\n\n\"It [content] deserves our full time and attention\"\n\n\n\n\n"
-- sys:
-    id: 2dwjl9DDVOEK8WEkwss0Mc
-    created_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
-    content_type_id: page
-    revision: 1
-  title: Accessibility
-  introduction: Test intro.
-  content: Test content.
-inPageNavigationLink:
-- sys:
-    id: 2qVPoLl9JGWo0WuIO4qkuw
-    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Brackets ('parentheses')
-  section_id: brackets
-- sys:
-    id: 6Cp3eqqWBykQ8GW0oAUyKA
-    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Asking for names
-  section_id: asking-for-names
-designPattern:
-- sys:
-    id: 14fiLmQ4P2o8aMiaWCSYiC
-    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Test component
-  introduction: Test.
+    like:\n\n\"It [content] deserves our full time and attention\".\n\n\nBrackets
+    ('parentheses')\nRound brackets\nUse round brackets to:\n\nclarify an acronym
+    or technical term that you’ll use from that point onwards, for example: \n‘Customer
+    team member (CTM)’, or\n‘the people you want to sort out your will (known as 'executors')'\ninclude
+    supplementary information that’s not essential to the main point of your sentence
+    – information that, if removed, would not change the meaning of the sentence\nDo
+    not use round brackets to indicate that something can be singular or plural, like:\n\n‘Check
+    which document(s) you need to send to HR’\n\nInstead, use the plural, as this
+    will cover each possibility: ‘Check which documents you need to send to HR .’\n\n(A
+    complete sentence that stands alone in parentheses starts with a capital letter
+    and ends with a full stop before the closing bracket.)'\n\nTry not to overuse
+    brackets, they can disrupt the flow of reading.\n\nSquare brackets\nOnly use square
+    brackets to when you need to add clarification to a quote or something you've
+    not written yourself, like:\n\n\"It [content] deserves our full time and attention\"\n\n##
+    [Using Co-op](#using-co-op) \nRefer to Co‑op as a noun in writing as ‘Co‑op’,
+    and not (where possible/practical) as ‘the Co‑op’.\n\nWe know that users tend
+    to refer to our food stores as ‘the Co‑op’, so dropping the ‘the’ avoids any confusion.\n\nMake
+    sure you use a non-breaking hyphen using &#8209;. This will ensure the word ‘Co‑op’
+    does not break when it appears at the end of a line.\n\nRefer to our business
+    units as Co‑op Funeralcare, Co‑op Digital etc. (Two words, both capitalised.)\n\nWhen
+    we're talking about our organisation in terms of what we do, it's fine to use
+    Co‑op as an adjective, as in 'Co‑op values'.\n\nNo need to capitalise 'Co‑operative'
+    when it appears as an adjective or a noun unless you are referring to the Co‑operative
+    Group.\n\nHowever, do not talk about 'the Group' to an external audience. It doesn't
+    mean anything to anyone outside Co‑op.\n\nUsing 'our' as in 'our Co‑op' can be
+    powerful but use with caution - is it clear who 'our' is? Will 'our' mean the
+    same thing to your reader as it does to you? It’s more suited to an internal audience.\n\n'Co‑operative'
+    and ‘Co‑op’ are always hyphenated.\n\nThe only exception to this rule is on social
+    media when using a hashtag such as #TheCoopWay or #BeingCoop.\n\n## [Dates and
+    times](#dates-and-times)\nThe following guidance on dates and times is taken from
+    gov.uk:\n\n### Dates\nAs a general rule, dates should be capitalised and written
+    out in full like this:\n\n‘1 January 2018’\n\nBut if you’re limited with space,
+    such as creating a table, then ‘Jan’, ‘Feb’ and so on is fine.\n\nDon't use ordinal
+    numbers for dates like 10th, 1st and so on. It's easy to get wrong and uses more
+    characters.\n\nIf you’re referring to date ranges, then use ‘to’ rather than hyphens,
+    en rules or em dashes.\n\nIt should look like this: January to March\n\nAvoid
+    all references to annual quarters. Instead, write the dates in full:\n\n‘This
+    offer is valid between 1 October 2018 and 31 December 2018.’\n\n### Times\nUse
+    the 12 hour clock. It’s easier to understand and helps avoids confusion:\n\n‘Monday
+    to Friday, 9am to 5pm.’\n\nIf you need to include minutes, write it like this:\n\n‘9.15am’\n\nUse
+    ‘midday’ rather than noon, 12noon, or 12pm.\n\nFor example: ‘This store closes
+    24 December, midday.’\n\nUse ‘midnight’ rather 12am, but be careful that it’s
+    not misleading. For example, if I said:\n\n‘Please complete and send your application
+    form by 6 July 2018, at midnight’\n\nThen you might wonder if I meant ‘ 6 July
+    2018, 11.59pm’ or ‘5 July 2018, 11.59pm’\n\nTo avoid this confusion, consider
+    using ‘11.59pm’ where possible.\n\nIt’s not necessary to specify time zones, such
+    as ‘1pm GMT’.\n\n## [Colons and semicolons](#colons-and-semicolons)\nUse a colon
+    at the end of a lead-in line to a bulleted list, for example:\n\nYou need to bring:\n\n-
+    your driving licence or passport\n- a copy of your P60\n- something else\n\nIf
+    you use a colon to continue or explain an idea that you mention before the colon,
+    consider whether it would be better to have 2 sentences or an em dash.\n\nAvoid
+    using semicolons — they can make sentences long and hard-to-read. If you think
+    a sentence needs a semicolon, break it into separate sentences.\n\n## [Ellipsis
+    (…)](ellipsis)\n\nEllipsis are 3 dots that should only be used when:\n\n- you’re
+    quoting someone and need to show words have been missed out — only do this is
+    the meaning will not be changed, for example: “We're building things that are
+    user-centric… doing the hard work centrally to make things clearer, simpler and
+    quicker.\"\n- to indicate there's more to come, for example, in a header: 'We
+    asked our users to name a wine…’\n\nIf you use ellipsis, use 3 dots only. They
+    should follow straight on after the previous word (with no space), and have one
+    space after.\n\nIf the ellipsis ends the sentence, do not add an additional full
+    stop.\n\nIf you’re putting an ellipsis in html use &hellip;.\n\n\n## [Frequently
+    asked questions (FAQs)](#faqs)\n\nDo not use FAQs.\n\nInstead, if you know that
+    you are answering a genuine frequently asked question, restructure your content
+    so that the answers form part of the main user journey. And put the information
+    in a logical place in that journey.\n\nWe do not use FAQs because:\n\n- users
+    do not know if their question has been frequently asked\n- they're often made
+    up by the business rather than genuinely asked by the public\n- users have to
+    navigate through irrelevant content to see if their question is there — it’s frustrating
+    and wastes their time\n- we should be creating services that speak for themselves:
+    [we design with purpose](https://coop-design-manual.herokuapp.com/principles.html#purpose)\n-
+    \nFor more information read [Content Strategist Sarah Richards' blog on FAQs](https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/).\n\n##
+    [Hyphens and dashes](hyphens-and-dashes)\n\nWhat you’re writing will determine
+    where and when you should use hyphens and dashes.\n\nHyphens (the character you
+    get when you type ‘-’ ) should be used to link words or part of words — they show
+    the user that there’s a connection between them, for example, ‘mother-in-law’,
+    ‘fine-tuned’, ‘Co‑op’.\n\nEn dashes (&ndash;) should be used for connecting things
+    that are related to each other by distance such as June–July.\n\nEm dashes (&mdash;)
+    can be used in pairs like parenthesis — that is, to enclose a word, or a phrase
+    — or they can be used alone to detach one end of a sentence from the main body.\n\n##
+    [Job titles](job-titles)\nShould only be capitalised when associated with a name
+    - otherwise lower case.\n\nFor example: Chief Executive Mary Smith, a boatload
+    of chief executives.\n\n## [Links](links)\n\nA link should be descriptive of the
+    place it's taking the user. Do not use text such as ‘click here’, or anything
+    that does not make sense when read out of context — screen readers can read link
+    text in isolation without the surrounding content.\n\nLink text must:\n\n- tell
+    the user where it’s taking them\n- be action orientated, for example, ‘Choose…’,
+    ‘Find…’, ‘Discover…’\n- not include a title tag — this accessibility feature is
+    not used any more as it’s not that helpful for visually impaired people\n- tell
+    the user if they’re leaving our site, for example, ‘For more information visit
+    [www.citizensadvice.org.uk](https://www.citizensadvice.org.uk)’\n- use a full
+    url if it’s clean (no symbols), short and potentially easy to remember (max one
+    / ) for example: [bbc.co.uk/sport](https://bbc.co.uk/sport) — otherwise, if there’s
+    a complex url, use a ‘word’ link\n\nWhen you are linking to another page or an
+    external site, think about your user‘s onward journey. If the page you’re linking
+    to opens in:\n\n- the same window, your user may lose their place in the information
+    flow\n- a different window, your user may find it difficult to navigate back to
+    your site\n- Use this to consider how and where to position your links.\n\n##
+    [Lists](lists)\n### Bullet lists\n\nBullets must:\n\n- use a lead-in line\n- make
+    sense running on from the lead-in line\n- use lower case at the start of the bullet\n-
+    have only one sentence per bullet point — use commas, dashes or semicolons to
+    expand on an item\n\nBullets should not:\n\n- be paragraphs masquerading as a
+    list for a visual effect\n- use a full stop after the last bullet point\n- include
+    ‘or’ or an ‘and’ after the bullets\n\n<div class=\"row\">\n  <div class=\"column
+    medium-7 small-12\">\n    <h3 class=\"example-heading\"><span class=\"example_label\">Example</span></h3>\n
+    \   <div class=\"example example--padded\">\n      <h4>The meeting agenda will
+    be:</h4>\n      <ul>\n        <li>an overview of the last month</li>\n        <li>a
+    presentation</li>\n        <li>a special announcement</li>\n      </ul>\n    </div>\n
+    \ </div>\n</div>\n\n\n### Numbered lists\n\nUse a numbered list for a logical
+    sequence of things, like a series of tasks that must be done in a certain order.
+    They do not need a lead-in line and should be complete sentences that start with
+    a capital letter and end with a full stop.\n\n<div class=\"row\">\n  <div class=\"column
+    medium-7 small-12\">\n    <h3 class=\"example-heading\"><span class=\"example_label\">Example</span></h3>\n
+    \   <div class=\"example example--padded\">\n      <h4>How to put your shoes on:</h4>\n
+    \     <ol>\n        <li>Put on socks.</li>\n        <li>Put on shoes.</li>\n        <li>Tie
+    laces.</li>\n      </ol>\n    </div>\n  </div>\n</div>\n\n## [Money](money)\n\nUse
+    the £ symbol: £75\n\nCurrencies are lower case.\n\nWrite out pence in full: calls
+    will cost 4 pence per minute from a landline.\n\nDon’t use decimals unless pence
+    are included: £75.50 but not £75.00\n\nCheck the advice about numbers and units
+    for amounts over 1,000.\n\n## [Numbers and units](numbers-and-units)\n\nUse ‘one’
+    unless you’re talking about a step, a point in a list or another situation where
+    using the numeral makes more sense.\n\nWrite all numbers in numerals (including
+    2 to 9) except where it’s part of a common expression and it would look strange,
+    like ‘one or two of them’.\n\nIf a number starts a sentence, write it out in full
+    (‘Thirty-four hula-hoops found in researcher’s filing cupboard’) except where
+    it starts a title or subheading.\n\nFor numerals over 999, insert a comma for
+    clarity. For example, ‘It was over 1,000’.\n\nSpell out common fractions, such
+    as one-half.\n\nUse a % sign for percentages: 50%, not ‘pc’ or ‘percent’.\n\nUse
+    a 0 where there’s no digit before the decimal point.\n\nIn tables, use numerals
+    throughout (not written numbers).\n\nFor big numbers use ‘million’, ‘billion’
+    and so on, written without a space after the number — for example, £3.5million.\n\n###
+    Ordinal numbers: first, second and so on\n\nSpell out 'first' to 'ninth'. After
+    that use 10th, 11th and so on.\n\nBut, write dates as 10 January 2017.\n\n###
+    Units\n\nUse MB not KB for anything over 1MB, for example 4.09MB not 4096KB.\n\nFor
+    anything under 1MB, use KB, for example, 569KB not 0.55MB.\n\nKeep units as accurate
+    as possible and up to 2 decimal places. For example, 4.03MB.\n\n## [Dates and
+    times](dates-and-times)\nThe following guidance on dates and times is taken from
+    gov.uk:\n\n### Dates\n\nAs a general rule, dates should be capitalised and written
+    out in full like this:\n\n‘1 January 2018’\n\nBut if you’re limited with space,
+    such as creating a table, then ‘Jan’, ‘Feb’ and so on is fine.\n\nDon't use ordinal
+    numbers for dates like 10th, 1st and so on. It's easy to get wrong and uses more
+    characters.\n\nIf you’re referring to date ranges, then use ‘to’ rather than hyphens,
+    en rules or em dashes.\n\nIt should look like this: January to March\n\nAvoid
+    all references to annual quarters. Instead, write the dates in full:\n\n‘This
+    offer is valid between 1 October 2018 and 31 December 2018.’\n\n### Times\n\nUse
+    the 12 hour clock. It’s easier to understand and helps avoids confusion:\n\n‘Monday
+    to Friday, 9am to 5pm.’\n\nIf you need to include minutes, write it like this:\n\n‘9.15am’\n\nUse
+    ‘midday’ rather than noon, 12noon, or 12pm.\n\nFor example: ‘This store closes
+    24 December, midday.’\n\nUse ‘midnight’ rather than 12am, but be careful that
+    it’s not misleading. For example, if I said:\n\n‘Please complete and send your
+    application form by 6 July 2018, at midnight’\n\nThen you might wonder if I meant
+    ‘ 6 July 2018, 11.59pm’ or ‘5 July 2018, 11.59pm’\n\nTo avoid this confusion,
+    consider using ‘11.59pm’ where possible.\n\nIt’s not necessary to specify time
+    zones, such as ‘1pm GMT’.\n\n## [Phone numbers](phone-numbers)\n\nShow a mobile
+    phone number like this: 08765 555 333.\n\nShow a UK landline number like this:
+    0161 000 0000 or 01524 000 000.\n\nShow an overseas number as you'd dial it from
+    the UK, so no + or (0): 00 353 1 222 3333.\n\nRemember:\n- include call charges\n-
+    include opening hours\n- make sure phone numbers are usable from mobiles\n\n##
+    [Titles](titles)\n\nTitles should:\n- be sentence case\n- be less than 65 characters
+    within HTML document titles — Google cuts them off after this\n- be unique, clear
+    and descriptive — no puns or single topic words\n- be front-loaded with key words
+    if possible — people tend to scan the first couple of words only\n- use words
+    you know your users actually search for\n- be active where possible, ‘Apply for…’,
+    ‘Report…’, ‘Find…’\n- not use acronyms unless they are well-known, like EU, BBC.\n\n##
+    [Validation messages](validation-messages)\n\nValidation messages must:\n\n- be
+    flagged at the top of the screen and at each relevant field\n- be a bulleted list
+    if there’s more than one error\n- be a complete sentence if there’s only one error
+    (no bullet)\n- be linked from the top of the page to take users to the relevant
+    field\n- help the user fix the problem, for example, ‘Check you've entered the
+    correct sort code — it’s the 6 digit number usually found on your bank card’\n\n\n\n\n\n\n\n"
