@@ -1,0 +1,21 @@
+.message {
+  @include spacing("padding", "top", "quarter");
+  @include spacing("padding", "left", "half");
+  @include spacing("padding", "bottom", "quarter");
+  @include spacing("padding", "right", "half");
+  border: 0;
+
+  &:before {
+    display: none;
+  }
+
+  p {
+    font-family: $medium;
+    margin-bottom: 0;
+    font-size: em-calc(20px);
+  }
+}
+
+.message--info {
+  background: $yellow-mid;
+}

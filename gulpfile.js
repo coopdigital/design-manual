@@ -82,11 +82,9 @@ gulp.task('lintscss', function() {
 // Copy Co-op components
 gulp.task('copy', function () {
   gulp.src([
-    'node_modules/coop-components/**/*',
-    '!node_modules/coop-components/package.json',
-    '!node_modules/coop-components/package-lock.json'
+    'node_modules/@coopdigital/**/*'
   ])
-  .pipe(gulp.dest('src/_includes/'));
+  .pipe(gulp.dest('src/_includes/pattern-library/'));
 });
 
 // Jekyll

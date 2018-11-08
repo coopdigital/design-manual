@@ -1,0 +1,141 @@
+/*===============================================
+Themes
+===============================================*/
+// Dark theme
+.dm-dark {
+
+  .ds-header {
+    background: $woodsmoke;
+  }
+
+  .service-name {
+    color: $page;
+  }
+
+  .coop-logo {
+    svg {
+      display: inline-block;
+
+      path {
+        fill: $page;
+      }
+    }
+  }
+
+
+}
+
+// Blue theme
+.dm-blue-theme .header-main {
+  background: $blue-mid;
+}
+
+.dm-blue-theme {
+  .tile--link {
+    min-height: 170px;
+  }
+}
+
+.dm-blue-theme .main {
+  margin-top: 0;
+}
+
+// Grey theme
+.dm-grey-theme {
+
+  .header-main {
+    background-color: $grey-dark;
+  }
+}
+
+.grey-dark-bl {
+  border-left: 7px solid $grey-dark;
+}
+
+.grey-dark-bb {
+  border-bottom: 2px solid $grey-dark;
+}
+
+// Purple theme
+.dm-purple-theme {
+  .header-main {
+    background-color: $purple-mid;
+  }
+
+  .tile--link {
+    border-bottom: 4px solid $purple-mid;
+
+    &:hover {
+      border-bottom: 4px solid $purple-mid;
+    }
+  }
+
+  .breadcrumbs-wrap {
+    background-color: $purple-mid;
+  }
+
+  .in-page-nav {
+    border-color: $purple-mid;
+  }
+
+  .dm-section {
+    border-bottom: 2px solid $purple-mid;
+  }
+}
+
+.dm-purple-theme-second-level {
+
+  .primary-nav ul .active a {
+    border-color: $purple-mid;
+  }
+
+  .main {
+    margin-top: 0;
+  }
+}
+
+
+.images {
+
+  .main {
+    margin-top: 0;
+  }
+}
+
+
+// Green theme
+.dm-green-theme {
+  .header-main {
+    background-color: $green-blue-dark;
+  }
+}
+
+.green-blue-bl {
+  border-left: 7px solid $green-blue-dark;
+}
+
+.green-blue-bb {
+  border-bottom: 2px solid $green-blue-dark;
+}
+
+// Yellow theme
+.dm-yellow-theme {
+
+  .header-main {
+    background-color: $yellow-mid;
+
+     .coop-logo svg,
+     .coop-logo-large svg {
+         fill: $black;
+     }
+
+    a {
+      color: $black;
+      border-color: $black;
+    }
+  }
+
+  .border-sections section {
+    border-color: #caebfd;
+  }
+}

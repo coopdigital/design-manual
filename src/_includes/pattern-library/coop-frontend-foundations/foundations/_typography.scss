@@ -1,0 +1,169 @@
+/* ========================================
+ * Typography - Co-op front-end foundations
+ * ======================================== */
+
+@import "../variables";
+@import "../mixins/typography";
+
+h1, .coop-h1,
+h2, .coop-h2,
+h3, .coop-h3,
+h4, .coop-h4,
+h5, .coop-h5,
+h6, .coop-h6
+ul,
+ol,
+p,
+address {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+h1, .coop-h1,
+h2, .coop-h2,
+h3, .coop-h3,
+h4, .coop-h4,
+h5, .coop-h5,
+h6, .coop-h6 {
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+p {
+  @include body;
+  @include spacing('margin', 'bottom', 'quarter');
+}
+
+ul,
+ol {
+  @include body;
+  @include list;
+  @include spacing('margin', 'bottom', 'quarter');
+}
+
+p:last-child {
+  @include spacing('margin', 'bottom', 'half');
+}
+
+.coop-h-mega {
+  @include heading-mega;
+}
+
+h1,
+.coop-h1 {
+  @include heading-h1;
+}
+
+h2,
+.coop-h2 {
+  @include heading-h2;
+}
+
+h3,
+.coop-h3 {
+  @include heading-h3;
+}
+
+h4,
+.coop-h4 {
+  @include heading-h4;
+}
+
+h5,
+.coop-h5 {
+  @include heading-h5;
+}
+
+h6,
+.coop-h6 {
+  @include heading-h6;
+}
+
+small,
+.coop-smallprint {
+  @include small;
+}
+
+hr,
+.coop-hr {
+  display: block;
+  margin: 2em 0 3em;
+  border: 1px solid $grey-mid;
+  border-width: 0 0 1px;
+  height: 0;
+  color: $grey-mid;
+
+  &.dashed {
+    border-style: dashed;
+    border-color: $grey-mid;
+  }
+}
+
+.coop-regular {
+  @include regular;
+}
+
+.coop-italic,
+.coop-em,
+em {
+  @include regular-italic;
+}
+
+.coop-bold,
+.coop-strong,
+strong {
+  @include bold;
+}
+
+.coop-medium {
+  @include medium;
+}
+
+.coop-bold-italic {
+  @include bold-italic;
+}
+
+blockquote,
+.coop-blockquote {
+  @include blockquote;
+}
+
+cite,
+.coop-blockquote__cite {
+  @include cite;
+}
+
+del,
+.coop-line-through {
+  @include line-through;
+}
+
+address {
+  @include regular;
+}
+
+.coop-intro-text {
+  @include intro-text;
+}
+
+p + ul {
+  margin-top: -$eighth-spacing-unit;
+
+  @include media(medium) {
+     margin-top: -$quarter-spacing-unit;
+  }
+}
+
+dl,
+.coop-definition-list {
+  @include definition-list;
+}
+
+.coop-undecorated-list,
+.coop-list-bare {
+  @include list-bare;
+}
+
+.coop-list-inline {
+  @include list-inline;
+}

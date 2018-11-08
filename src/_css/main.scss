@@ -1,15 +1,23 @@
 $base-asset-url: '/assets/';
 
 @import 'coop-frontend-toolkit/styles/coop-toolkit';
-@import 'design-manual/design-manual';
-@import 'design-manual/navigation';
-@import 'design-manual/prism';
-@import 'design-manual/themes';
-@import 'design-manual/hero';
-@import 'design-manual/card';
-@import 'design-manual/signpost';
-@import 'design-manual/status';
-@import 'design-manual/demo';
-@import 'design-manual/states';
-@import 'design-manual/messages';
-@import 'design-manual/toolkit-overrides';
+// @import 'node_modules/@coopdigital/coop-frontend-foundations/coop-foundations';
+
+@import 'design-system/design-system';
+@import 'design-system/navigation';
+@import 'design-system/prism';
+@import 'design-system/themes';
+@import 'design-system/hero';
+@import 'design-system/card';
+@import 'design-system/signpost';
+@import 'design-system/status';
+@import 'design-system/demo';
+@import 'design-system/states';
+@import 'design-system/messages';
+@import 'design-system/toolkit-overrides';
+
+@import 'pattern-library/example';
+@import 'pattern-library/pills';
+@import 'pattern-library/code';
+
+@import 'node_modules/@coopdigital/component-search/src/component';

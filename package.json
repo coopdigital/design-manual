@@ -12,7 +12,10 @@
   "dependencies": {
     "contentful-migration": "^0.10.0",
     "coop-components": "^1.0.3",
+    "@coopdigital/coop-frontend-foundations": "^0.1.2",
     "coop-frontend-toolkit": "github:coopdigital/coop-frontend-toolkit#2.1.3",
+    "@coopdigital/foundations-vars": "^1.0.0",
+    "@coopdigital/component-search": "^1.0.1",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",

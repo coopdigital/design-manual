@@ -1,0 +1,309 @@
+/* ===================================================================
+ * Typography and vertical rhythm mixins - Co-op front-end foundations
+ * =================================================================== */
+
+@import "functions";
+@import "utilities";
+
+@mixin font-size($element: 'body', $line-height: $base-line-height) {
+  font-size: em-calc(map-deep-get($typographic-scale, "base", $element));
+
+  @if $line-height != $base-line-height {
+    line-height: $line-height;
+  }
+
+  @each $screen-size in map-keys($typographic-scale) {
+    @if $screen-size != 'base' {
+      @if map-deep-get($typographic-scale, $screen-size, $element) {
+        @include media($screen-size) {
+          font-size: em-calc(map-deep-get($typographic-scale, $screen-size, $element));
+        }
+      }
+    }
+  }
+}
+
+@mixin line-height($line-height: 'base-line-height')  {
+  line-height: (map-deep-get($typographic-scale, "base", $line-height));
+
+  @each $screen-size in map-keys($typographic-scale) {
+    @if $screen-size != 'base' {
+      @if map-deep-get($typographic-scale, $screen-size, $line-height) {
+        @include media($screen-size) {
+          line-height: (map-deep-get($typographic-scale, $screen-size, $line-height));
+        }
+      }
+    }
+  }
+}
+
+$spacing-type: 'margin', 'padding';
+$spacing-direction: 'top', 'left', 'bottom', 'right', 'all';
+$spacing-rhythm: 'base', 'half', 'quarter', 'eighth', 'sixteenth';
+
+@mixin spacing($spacing-type, $spacing-direction, $spacing-rhythm, $spacing-unit: 'base-spacing-unit', $hyphen: '-' ) {
+
+  @if $spacing-rhythm == 'base' {
+    @if $spacing-direction == 'all' {
+      #{$spacing-type}: (map-deep-get($typographic-scale, 'base', $spacing-unit));
+    }
+    @else {
+      #{$spacing-type}#{$hyphen}#{$spacing-direction}: (map-deep-get($typographic-scale, 'base', $spacing-unit));
+    }
+  }
+  @if $spacing-rhythm == 'half' {
+      @if $spacing-direction == 'all' {
+        #{$spacing-type}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 2);
+      }
+      @else {
+        #{$spacing-type}#{$hyphen}#{$spacing-direction}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 2);
+      }
+  }
+  @if $spacing-rhythm == 'quarter' {
+      @if $spacing-direction == 'all' {
+        #{$spacing-type}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 4);
+      }
+      @else {
+        #{$spacing-type}#{$hyphen}#{$spacing-direction}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 4);
+      }
+  }
+  @if $spacing-rhythm == 'eighth' {
+      @if $spacing-direction == 'all' {
+        #{$spacing-type}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 8);
+      }
+      @else {
+        #{$spacing-type}#{$hyphen}#{$spacing-direction}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 8);
+      }
+  }
+  @if $spacing-rhythm == 'sixteenth' {
+      @if $spacing-direction == 'all' {
+        #{$spacing-type}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 16);
+      }
+      @else {
+        #{$spacing-type}#{$hyphen}#{$spacing-direction}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 16);
+      }
+  }
+
+  @each $screen-size in map-keys($typographic-scale) {
+    @if $screen-size != 'base' {
+      @if map-deep-get($typographic-scale, $screen-size, $spacing-unit) {
+        @include media($screen-size) {
+          @if $spacing-rhythm == 'base' {
+            @if $spacing-direction == 'all' {
+              #{$spacing-type}: (map-deep-get($typographic-scale, 'base', $spacing-unit));
+            }
+            @else {
+              #{$spacing-type}#{$hyphen}#{$spacing-direction}: (map-deep-get($typographic-scale, $screen-size, $spacing-unit));
+            }
+          }
+          @if $spacing-rhythm == 'half' {
+            @if $spacing-direction == 'all' {
+              #{$spacing-type}: ((map-deep-get($typographic-scale, $screen-size, $spacing-unit)) / 2);
+            }
+            @else {
+              #{$spacing-type}#{$hyphen}#{$spacing-direction}: ((map-deep-get($typographic-scale, $screen-size, $spacing-unit)) / 2);
+            }
+          }
+          @if $spacing-rhythm == 'quarter' {
+            @if $spacing-direction == 'all' {
+              #{$spacing-type}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 4);
+            }
+            @else {
+              #{$spacing-type}#{$hyphen}#{$spacing-direction}: ((map-deep-get($typographic-scale, $screen-size, $spacing-unit)) / 4);
+            }
+          }
+          @if $spacing-rhythm == 'eighth' {
+            @if $spacing-direction == 'all' {
+              #{$spacing-type}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 8);
+            }
+            @else {
+              #{$spacing-type}#{$hyphen}#{$spacing-direction}: ((map-deep-get($typographic-scale, $screen-size, $spacing-unit)) / 8);
+            }
+          }
+          @if $spacing-rhythm == 'sixteenth' {
+            @if $spacing-direction == 'all' {
+              #{$spacing-type}: ((map-deep-get($typographic-scale, 'base', $spacing-unit)) / 16);
+            }
+            @else {
+              #{$spacing-type}#{$hyphen}#{$spacing-direction}: ((map-deep-get($typographic-scale, $screen-size, $spacing-unit)) / 16);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin body {
+  @include font-size('body');
+}
+
+@mixin heading-mega {
+  @include bold;
+  @include font-size('h-mega', 1.385);
+  @include spacing('margin', 'bottom', 'half');
+  @include spacing('padding', 'top', 'half');
+}
+
+@mixin heading-h1 {
+  @include bold;
+  @include font-size('h1', 1.4);
+  @include spacing('margin', 'bottom', 'half');
+}
+
+@mixin heading-h2 {
+  @include bold;
+  @include font-size('h2', 1.55);
+  @include spacing('margin', 'bottom', 'eighth');
+}
+
+@mixin heading-h3 {
+  @include bold;
+  @include font-size('h3', 1.455);
+  @include spacing('padding', 'top', 'eighth');
+  @include spacing('margin', 'bottom', 'eighth');
+}
+
+@mixin heading-h4 {
+  @include bold;
+  @include font-size('h4', 1.455);
+  @include spacing('padding', 'top', 'eighth');
+  @include spacing('margin', 'bottom', 'eighth');
+}
+
+@mixin heading-h5 {
+  @include bold;
+  @include font-size('h5', 1.455);
+  @include spacing('padding', 'top', 'eighth');
+  @include spacing('margin', 'bottom', 'eighth');
+}
+
+@mixin heading-h6 {
+  @include bold;
+  @include font-size('h6', 1.5);
+  @include spacing('padding', 'top', 'quarter');
+  @include spacing('margin', 'bottom', 'sixteenth');
+}
+
+@mixin intro-text {
+  @include font-size('lead', 1.6);
+  @include spacing('margin', 'bottom', 'eighth');
+}
+
+@mixin small {
+  @include font-size('small', 1.25);
+  @include spacing('padding', 'top', 'quarter');
+  @include spacing('margin', 'bottom', 'sixteenth');
+}
+
+@mixin list {
+  margin-bottom: $half-spacing-unit;
+}
+
+@mixin list-bare {
+  list-style-type: none;
+  padding: 0;
+}
+
+@mixin list-inline {
+  @include list-bare;
+
+  li {
+    display: inline-block;
+  }
+}
+
+@mixin definition-list {
+  @include font-size('body');
+  margin-top: 0;
+  margin-bottom: $half-spacing-unit;
+
+  dt {
+    font-family: var(--font-family);
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  dd {
+    font-family: var(--font-family);
+    margin: 0 0 $quarter-spacing-unit/2;
+  }
+}
+
+@mixin blockquote {
+  @include spacing('margin', 'bottom', 'half');
+  @include spacing('margin', 'left', 'quarter');
+  padding-left: .5em;
+
+  &:before,
+  &:after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 6px;
+    margin: $quarter-spacing-unit 0 $quarter-spacing-unit -.5em;
+    background: $grey-light;
+  }
+
+  @include media(medium) {
+    @include spacing('margin', 'left', 'half');
+  }
+
+  p {
+    @include spacing('margin', 'bottom', 'quarter');
+    @include medium;
+    font-style: normal;
+    text-indent: -.25em;
+
+    &.alpha,
+    &.beta {
+      @include medium;
+    }
+  }
+
+  cite {
+    @include body;
+    @include spacing('margin', 'top', 'quarter');
+    font-style: normal;
+  }
+
+}
+
+@mixin cite {
+  display: block;
+  font-size: 0.75em;
+}
+
+@mixin regular {
+  font-family: $regular;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin regular-italic {
+  font-family: $regular-italic;
+  font-weight: normal;
+  font-style: italic;
+}
+
+@mixin medium {
+  font-family: $medium;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin bold {
+  font-family: $bold;
+  font-weight: bold;
+  font-style: normal;
+}
+
+@mixin bold-italic {
+  font-family: $bold-italic;
+  font-family: bold;
+  font-style: italic;
+}
+
+@mixin line-through {
+  text-decoration: line-through;
+}

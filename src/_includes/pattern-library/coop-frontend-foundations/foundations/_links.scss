@@ -1,0 +1,26 @@
+/* ===================================
+ * Links - Co-op Front-end Foundations
+ * =================================== */
+
+@import "../variables";
+@import "../mixins/links";
+
+a {
+  @include link;
+}
+
+.link-white {
+  @include link(
+    $color: $white,
+    $color-hover: $white,
+    $color-focus: $white
+  );
+}
+
+.link-black {
+  @include link(
+    $color: $black,
+    $color-hover: $black,
+    $color-focus: $black
+  );
+}
