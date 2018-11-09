@@ -1,6 +1,9 @@
 {
   "name": "design-manual",
   "private": true,
+  "engines": {
+    "node": "8.9.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coopdigital/design-manual.git"
