@@ -11,6 +11,7 @@ var stylish = require('jshint-stylish');
 var uglify = require('gulp-uglify');
 var mocha = require('gulp-mocha');
 var imagemin = require('gulp-imagemin');
+var cssimport = require("gulp-cssimport");
 
 /**
  * Settings
@@ -53,6 +54,13 @@ var settings = {
   }
 };
 
+var importOptions = {
+    matchPattern: "!*.{scss}",
+    includePaths: [
+      'node_modules/@coopdigital/coop-frontend-foundations/'
+    ]
+};
+
 
 /**
  * Lint tasks
@@ -84,7 +92,7 @@ gulp.task('copy', function () {
   gulp.src([
     'node_modules/@coopdigital/**/*'
   ])
-  .pipe(gulp.dest('src/_includes/pattern-library/'));
+  .pipe(gulp.dest('src/_includes/pattern-library/components'));
 });
 
 // Jekyll
@@ -94,6 +102,8 @@ gulp.task('html', ['jekyll'], function() {
 });
 gulp.task('jekyll', function (gulpCallBack){
   var spawn = require('child_process').spawn;
+  // Get Contenful content
+  var contentful = spawn('jekyll', ['contentful']);
   var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'src'});
   jekyll.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
@@ -106,6 +116,7 @@ gulp.task('css', function() {
     .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
       .on('error', sass.logError)
+      .pipe(cssimport(importOptions))
       .pipe(autoprefixer(settings.autoprefixer))
     .pipe(sourcemaps.write('maps/'))
     .pipe(gulp.dest(dest_paths.styles))
@@ -154,11 +165,6 @@ gulp.task('testjs', function() {
  * Watch tasks
  */
 gulp.task('watch', function() {
-
-  // Toolkit watching for local development
-  gulp.watch('node_modules/coop-frontend-toolkit/styles/**/*.scss',  ['css']);
-  gulp.watch('node_modules/coop-frontend-toolkit/scripts/**/*.js', ['js']);
-  // Source
   gulp.watch('src/_css/**/*.scss',  ['css']);
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
   gulp.watch(src_paths.assets, ['imagemin']);

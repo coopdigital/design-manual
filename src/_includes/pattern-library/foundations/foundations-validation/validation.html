@@ -1,0 +1,24 @@
+
+<div class="coop-c-message coop-c-message--error" role="alert">
+    <h2>There's a problem</h2>
+    <p>Check the form. You must:</p>
+    <ul>
+        <li>Enter your full name</li>
+        <li>Enter an email address</li>
+    </ul>
+</div>
+<fieldset>
+    <div class="coop-form__row coop-c-form-error">
+        <label for="client_name">Your full name</label>
+        <p class="coop-c-form-error__text" aria-live="polite">Enter your full name</p>
+        <input class="coop-form__input" type="text" value="" name="client[name]" id="client_name">
+    </div>
+    <div class="coop-form__row coop-c-form-error">
+        <label for="client_email_address">
+            Your email address
+            <span class="coop-label__hint">We'll only use this to contact you about your will.</span>
+        </label>
+        <p class="coop-c-form-error__text" aria-live="polite">Enter an email address</p>
+        <input class="coop-form__input" type="email" value="" name="client[email_address]" id="client_email_address">
+    </div>
+</fieldset>

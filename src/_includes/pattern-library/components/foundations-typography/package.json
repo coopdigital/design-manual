@@ -1,0 +1,70 @@
+{
+  "_from": "@coopdigital/foundations-typography",
+  "_id": "@coopdigital/foundations-typography@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-CmCOjG9FTs0d4sm2zmZrUXQ8K3lepNZnxVP286DVovUo0ixg34fcQXZtYVpqtO35vLc1EGJyQ7ZP0quTbC4hxw==",
+  "_location": "/@coopdigital/foundations-typography",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@coopdigital/foundations-typography",
+    "name": "@coopdigital/foundations-typography",
+    "escapedName": "@coopdigital%2ffoundations-typography",
+    "scope": "@coopdigital",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-typography/-/foundations-typography-1.1.3.tgz",
+  "_shasum": "18127671ca2fef9d0bef936c615b8592b9ce5b31",
+  "_spec": "@coopdigital/foundations-typography",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
+  "author": {
+    "name": "Matthew Morek",
+    "url": "matthew.morek@coopdigital.co.uk"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/foundations-typography/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Co-op Foundations: Typography",
+  "devDependencies": {
+    "@coopdigital/foundations-vars": "^1.0.0",
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "precss": "^3.1.2",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.7.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.3"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "homepage": "https://github.com/coopdigital/foundations-typography#readme",
+  "license": "MIT",
+  "main": "dist/typography.css",
+  "name": "@coopdigital/foundations-typography",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/foundations-typography.git"
+  },
+  "scripts": {
+    "build": "postcss src/*.pcss --dir dist/ --ext css",
+    "dist": "npm run build && npm run lint",
+    "lint": "stylelint 'dist/*.css' --fix"
+  },
+  "style": "src/typography.pcss",
+  "version": "1.1.3"
+}

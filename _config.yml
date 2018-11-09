@@ -1,0 +1,8 @@
+# Contentful
+contentful:
+  spaces:
+    - design-system-content:
+        space:        ENV_CONTENTFUL_SPACE_ID
+        access_token: ENV_CONTENTFUL_ACCESS_TOKEN
+        environment:  ENV_CONTENTFUL_ENVIRONMENT
+        base_path: ./src
