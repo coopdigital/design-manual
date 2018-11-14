@@ -1,5 +1,6 @@
-@import 'node_modules/coop-frontend-toolkit/styles/coop-toolkit';
+
 @import 'node_modules/@coopdigital/coop-frontend-foundations/coop-foundations';
+@import 'node_modules/@coopdigital/css-foundations/dist/foundations';
 
 @import 'design-system/design-system';
 @import 'design-system/navigation';
@@ -19,9 +20,15 @@
 @import 'pattern-library/pills';
 @import 'pattern-library/code';
 
-// Patterns
+// Components
 @import 'node_modules/@coopdigital/component-search/src/component';
+@import 'node_modules/@coopdigital/component-checkbox/dist/checkbox';
 
+.coop-logo {
+  border-bottom: 0;
+}
+
+// HACKS
 .coop-form__input:focus,
 input[type="text"]:focus,
 .coop-form__input:focus,
@@ -30,7 +37,6 @@ textarea:focus,
     outline: 2px dotted #EABD3E;
 }
 
-// HACKS
 input[type="search"] {
     box-sizing: border-box;
 }

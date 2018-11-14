@@ -11,7 +11,9 @@ var stylish = require('jshint-stylish');
 var uglify = require('gulp-uglify');
 var mocha = require('gulp-mocha');
 var imagemin = require('gulp-imagemin');
-var cssimport = require("gulp-cssimport");
+var cssimport = require('gulp-cssimport');
+
+var postcss = require('gulp-postcss');
 
 /**
  * Settings
@@ -165,7 +167,7 @@ gulp.task('testjs', function() {
  * Watch tasks
  */
 gulp.task('watch', function() {
-  gulp.watch('src/_css/**/*.scss',  ['css']);
+  gulp.watch('src/_css/**/*.scss', ['css']);
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
   gulp.watch(src_paths.assets, ['imagemin']);
   gulp.watch(src_paths.html, ['html']);

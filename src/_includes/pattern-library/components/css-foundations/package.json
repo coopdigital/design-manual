@@ -1,0 +1,81 @@
+{
+  "_from": "@coopdigital/css-foundations",
+  "_id": "@coopdigital/css-foundations@1.7.4",
+  "_inBundle": false,
+  "_integrity": "sha512-NMkebnubkFTMe/izhcD5VYlvcBZRLaE50AHsxePdRpULi3+3hKoELnhz9MMva/dMCCPFGtlSZygLlCS8jOGpOg==",
+  "_location": "/@coopdigital/css-foundations",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@coopdigital/css-foundations",
+    "name": "@coopdigital/css-foundations",
+    "escapedName": "@coopdigital%2fcss-foundations",
+    "scope": "@coopdigital",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@coopdigital/css-foundations/-/css-foundations-1.7.4.tgz",
+  "_shasum": "f7a0a98a532ad79ca70eb7be58e46be86c53801a",
+  "_spec": "@coopdigital/css-foundations",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
+  "author": {
+    "name": "Matthew Morek",
+    "email": "matthew.morek@coopdigital.co.uk",
+    "url": "https://github.com/matthewmorek"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/css-foundations/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@coopdigital/foundations-buttons": "~1.0.4",
+    "@coopdigital/foundations-colors": "~1.0.0",
+    "@coopdigital/foundations-forms": "~1.0.1",
+    "@coopdigital/foundations-global": "~1.0.2",
+    "@coopdigital/foundations-layout": "~1.0.0",
+    "@coopdigital/foundations-tables": "~1.0.0",
+    "@coopdigital/foundations-typography": "~1.1.3",
+    "@coopdigital/foundations-vars": "~1.0.0",
+    "normalize.css": "~8.0.1"
+  },
+  "deprecated": false,
+  "description": "Co-op CSS Foundations",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "precss": "^3.1.2",
+    "prettier": "^1.15.2",
+    "stylelint": "^9.8.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.4"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/coopdigital/css-foundations#readme",
+  "license": "MIT",
+  "main": "dist/foundations.css",
+  "name": "@coopdigital/css-foundations",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/css-foundations.git"
+  },
+  "scripts": {
+    "build": "postcss src/*.pcss --dir dist/ --ext css",
+    "dist": "npm run build && npm run lint",
+    "lint": "stylelint 'dist/*.css' --fix"
+  },
+  "style": "src/foundations.pcss",
+  "version": "1.7.4"
+}

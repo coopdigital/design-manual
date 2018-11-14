@@ -5,6 +5,35 @@
 $green-blue-dark: #29837f;
 $woodsmoke: #1D2534;
 
+.coop-c-skip-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+
+  a {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    font-size: em-calc(20);
+    padding: $quarter-spacing-unit / 2 $quarter-spacing-unit;
+    color: $white;
+    background: $grey-dark;
+    white-space: nowrap;
+
+    &:focus,
+    &:active {
+      left: $quarter-spacing-unit;
+    }
+  }
+}
+
+
 a {
   &:hover {
     border-bottom: 0;

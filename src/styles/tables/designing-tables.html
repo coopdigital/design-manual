@@ -5,11 +5,11 @@ active: designing-tables
 body-page-class: dm-dark
 group: "inner-page"
 ---
-<article class="wrap">
+<article class="coop-l-wrap">
     {% include breadcrumbs.html %}
     <header>
-        <div class="row">
-            <div class="column medium-8 small-12">
+        <div class="coop-l-row">
+            <div class="coop-l-column coop-l-medium-8 scoop-l-mall-12">
                 <h1>Designing tables</h1>
                 <div class="highlight-banner m-bh-med-b">
                     <p>Tables are a good way to present large amounts of complex information when the user needs to compare different things or or interrogate that information. The table format is familiar and, when done well, helps people to find answers to questions.</p>
@@ -18,18 +18,18 @@ group: "inner-page"
             </div>
         </div>
     </header>
-    <div class="row">
-        <div class="column medium-4 small-12 fixedsticky">
+    <div class="coop-l-row">
+        <div class="coop-l-column coop-l-medium-4 scoop-l-mall-12 fixedsticky">
             <nav>
                 <p class="in-page-nav-title">Contents</p>
-                <ul class="list-bare in-page-nav">
+                <ul class="coop-list-bare in-page-nav">
                     <li><a href="#before-you-start">Before you start</a></li>
                     <li><a href="#content">Content</a></li>
                     <li><a href="#style">Style</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="column medium-8 small-12">
+        <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
             <section id="before-you-start" class="dm-section">
                 <h2>Before you start</h2>
                 <p>Like any type of content, start with user needs. Before you create a table, make sure it’s the right format for the information you’re presenting, and meets a user need.</p>
@@ -48,8 +48,8 @@ group: "inner-page"
                     <cite>Ginny Redish - <a href="http://redish.net/books/item/5-letting-go-of-the-words-writing-web-content-that-works">Letting Go of the Words</a></cite>
                 </blockquote>
                 <p>This table answers the question "Do I get free treatment for my pet" with the answer “It depends what type of insurance you have”.</p>
-                <div class="row">
-                    <div class="column medium-12">
+                <div class="coop-l-row">
+                    <div class="coop-l-column coop-l-medium-12">
                         <h3 class="example-heading"><span class="example_label">Example</span> Answering the question &lsquo;it depends&rsquo;</h3>
                         <div class="example example--padded">
                             <table>
@@ -100,8 +100,8 @@ group: "inner-page"
                 <p>A blank cell could be a sign that a table is not the right way to represent the information.</p>
                 <p>In this example, boarding fees aren’t covered in the simple plan, so a blank cell is technically correct. However, it would be easy to think that the boarding fees were free.</p>
                 <p>Answering the question is more helpful, and there’s less chance of misunderstanding.</p>
-                <div class="row">
-                    <div class="column medium-12">
+                <div class="coop-l-row">
+                    <div class="coop-l-column coop-l-medium-12">
                         <h3 class="example-heading"><span class="example_label">Example</span> Avoiding blank cells</h3>
                         <div class="example example--padded">
                             <table>
@@ -130,8 +130,8 @@ group: "inner-page"
                     </div>
                 </div>
                 <p>Use a zero when the thing you are measuring does exist, but has a value of zero. For example:</p>
-                <div class="row">
-                    <div class="column medium-8">
+                <div class="coop-l-row">
+                    <div class="coop-l-column coop-l-medium-8">
                         <h3 class="example-heading"><span class="example_label">Example</span> Using zero</h3>
                         <div class="example example--padded">
                             <table>
@@ -182,7 +182,6 @@ group: "inner-page"
                 <p>Column headings should align with the column content.</p>
                 <p>Text align left. Numbers align right (to maintain the order of magnitude). Do not centre any type of content — it is very hard to read. </p>
                 <p>Sometimes right-aligning a numbers will not help your reader scan down the column. For example when the data is not set to the same order of magnitude. In this case, align numbers to the decimal point. This will enable the person to more easily compare magnitudes among a wide variety of data.</p>
-                <p>
                     <pre>
 +-------------+
 | Daily spend |
@@ -197,7 +196,6 @@ group: "inner-page"
 |      £.06   |
 +-------------+
                     </pre>
-                </p>
                 <p>In the future this will be achievable by using character alignment in CSS using <code class="language-css">td { text-align: "." center; }</code>. <a href="https://developer.mozilla.org/en-US/docs/CSS:text-align?redirect=no">At the moment is is not supported by any major browsers</a>. Consider a Javascript solution if you need to do this.</p>
                 <h3>Colour</h3>
                 <p>Use colour when you need to make a distinction between one grouping of data from another. Examples of this are hover or selection interactions for rows or columns. When colour is used ensure there is sufficient contrast between colour and type. Make sure you’re familiar with the advice about designing for people with different access needs.</p>
@@ -222,8 +220,8 @@ group: "inner-page"
                 <p>Don’t define heights of rows — let them be the height they need to be. Use percentages to define widths of cells.</p>
             </section>
             <div class="related-footer">
-                <h3 class="h2">More about tables</h3>
-                <ul class="list-bare content-links">
+                <h3 class="coop-h2">More about tables</h3>
+                <ul class="coop-list-bare content-links">
                     <li><a href="table-patterns.html">Table patterns</a></li>
                     <li><a href="code-standards-for-tables.html">Code standards</a></li>
                 </ul>
