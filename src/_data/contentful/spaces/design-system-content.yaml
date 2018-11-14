@@ -1,13 +1,77 @@
 ---
 inPageNavigationLink:
 - sys:
-    id: 5Vre0BzSViue2WW2qq2uOG
-    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    id: jFui2S5j2w6aWO4wW6cCE
+    created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
     content_type_id: inPageNavigationLink
     revision: 1
-  url_text: Money
-  section_id: money
+  url_text: Hyphens and dashes
+  section_id: hyphens-and-dashes
+- sys:
+    id: 16UHPg7SlSoG68kk0qOcmG
+    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 3ampSbV0IEOa0gcgaYyioy
+    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Frequently asked questions (FAQs)
+  section_id: faqs
+- sys:
+    id: 3ixUqdVh1YcokouyKq0GgY
+    created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Phone numbers
+  section_id: phone-numbers
+- sys:
+    id: 1UKVpYiwYgemQCQ2QIaSOu
+    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 2qVPoLl9JGWo0WuIO4qkuw
+    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Brackets ('parentheses')
+  section_id: brackets-parentheses
+- sys:
+    id: 3bLHyid7T2iq2QIyMEQ2e
+    created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Ellipsis
+  section_id: ellipsis
+- sys:
+    id: 5jvVTmFwDm0Y4Yci2m4Ykw
+    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Numbers and units
+  section_id: numbers-and-units
+- sys:
+    id: 2BqtPMQpQwQomuMM62QeGY
+    created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Validation messages
+  section_id: validation-messages
 - sys:
     id: 18UiYd1uoO4sqEgqew0M0u
     created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
@@ -16,6 +80,30 @@ inPageNavigationLink:
     revision: 1
   url_text: Job titles
   section_id: job-titles
+- sys:
+    id: 4ISHoIB6b62Q0yAIwuYWOu
+    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Titles
+  section_id: titles
+- sys:
+    id: 5Vre0BzSViue2WW2qq2uOG
+    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Money
+  section_id: money
+- sys:
+    id: 1aBqmIklgQgaAgGeuGuoeS
+    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Using Co-op
+  section_id: using-co-op
 - sys:
     id: 2DWYd6Fp4wCkCMyO4owk20
     created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
@@ -48,95 +136,224 @@ inPageNavigationLink:
     revision: 1
   url_text: Asking for names
   section_id: asking-for-names
-- sys:
-    id: 1UKVpYiwYgemQCQ2QIaSOu
-    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Dates and times
-  section_id: dates-and-times
-- sys:
-    id: 16UHPg7SlSoG68kk0qOcmG
-    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Dates and times
-  section_id: dates-and-times
-- sys:
-    id: 2qVPoLl9JGWo0WuIO4qkuw
-    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Brackets ('parentheses')
-  section_id: brackets-parentheses
-- sys:
-    id: 3ampSbV0IEOa0gcgaYyioy
-    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Frequently asked questions (FAQs)
-  section_id: faqs
-- sys:
-    id: jFui2S5j2w6aWO4wW6cCE
-    created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Hyphens and dashes
-  section_id: hyphens-and-dashes
-- sys:
-    id: 3ixUqdVh1YcokouyKq0GgY
-    created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Phone numbers
-  section_id: phone-numbers
-- sys:
-    id: 3bLHyid7T2iq2QIyMEQ2e
-    created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Ellipsis
-  section_id: ellipsis
-- sys:
-    id: 4ISHoIB6b62Q0yAIwuYWOu
-    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Titles
-  section_id: titles
-- sys:
-    id: 1aBqmIklgQgaAgGeuGuoeS
-    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Using Co-op
-  section_id: using-co-op
-- sys:
-    id: 5jvVTmFwDm0Y4Yci2m4Ykw
-    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Numbers and units
-  section_id: numbers-and-units
-- sys:
-    id: 2BqtPMQpQwQomuMM62QeGY
-    created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Validation messages
-  section_id: validation-messages
 designPattern:
+- sys:
+    id: 5xyICzuozC8oY8Uuiuu8om
+    created_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Reordering columns
+  status: live
+  introduction: Columns can be re-ordered by pushing and pulling them relative to
+    their base position.
+- sys:
+    id: 14fiLmQ4P2o8aMiaWCSYiC
+    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 13:31:20.917000000 Z
+    content_type_id: designPattern
+    revision: 5
+  title: Search
+  status: beta
+  introduction: 'Make the length of the text input box appropriate for the amount
+    of information needed: do not make it frustratingly short or intimidatingly long.'
+  design_and_content_documentation: Test documentation.
+  accessibility_documentation: Test accessibility.
+- sys:
+    id: 5JoR23Ulbi8CisOuQ6g02c
+    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Numbered list
+  status: live
+  introduction: Numbered lists are used to indicate a logical sequence.
+- sys:
+    id: 39qEfscUWQUIcyA0esG8Kc
+    created_at: !ruby/object:DateTime 2018-11-08 23:16:05.840000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:17:51.678000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Tables
+  status: live
+  introduction: Tables are a good way to present large amounts of complex information
+    when the user needs to compare different things or or interrogate that information.
+    The table format is familiar and, when done well, helps people to find answers
+    to questions.
+- sys:
+    id: nyqE2V53eCUsKKguIcimS
+    created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Font
+  status: live
+  introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
+    clear, open letterforms and letter spacing help communicate a consistent Co-op
+    brand identity.
+  design_and_content_documentation: If you need the Avenir font contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk)
+- sys:
+    id: C66rMoN0gCCek2QCcygak
+    created_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Input
+  status: live
+  introduction: 'Make the length of the text input box appropriate for the amount
+    of information needed: do not make it frustratingly short or intimidatingly long.'
+- sys:
+    id: lAvhQFgf60gYgaGeSyS2k
+    created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Logo
+  status: live
+  introduction: The Cloverleaf Symbol was created in 1968 for project facelift, when
+    all the Co-op societies united under one banner. We now use a modernised version
+    that optimised for modern production methods.
+  design_and_content_documentation: |-
+    The logo should:
+
+    - only be used at a width of 38px and a height of 40px
+    - only be used once per page
+    - be the only thing that uses the brand blue
+  accessibility_documentation: |-
+    The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
+
+    [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
+    id: 1KYnuYZmqsMMe0uuO88uQo
+    created_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Centring
+  status: live
+  introduction: Columns can be set to centred or uncentered at different viewport
+    sizes.
+- sys:
+    id: 60XDcMEd68iowm6k8S624U
+    created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Validation
+  status: live
+  introduction: Validation lets a user know that they need to amend the information
+    they have entered. It should be flexible - allowing a person to enter information
+    in the way they natuarally would.
+  design_and_content_documentation: |-
+    Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
+
+    Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
+- sys:
+    id: tP1aGA2t5AEG42aquge0y
+    created_at: !ruby/object:DateTime 2018-11-08 22:04:36.898000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:11:36.147000000 Z
+    content_type_id: designPattern
+    revision: 5
+  title: Quotations
+  status: live
+  introduction: "Quotations highlight and support points within content. \n\nUsually
+    quotes come from someone with experience or authority in a subject area. It could
+    be an expert or someone who has used a product or service. \n\nIf you’re using
+    them on a digital platform you need to make sure that they are going to help the
+    user do what they came to do. \n"
+  design_and_content_documentation: "Use quotations when you:\n- want to refer to
+    what someone said, not to pull out text written within the page copy\n- are referring
+    to an external source - remember to cite the author and if possible link to their
+    original work\n- are knowingly using a jargon word after giving a plain English
+    description, for example, 'the people you want to sort out your will (known as
+    'executors')'   \n\nOur quotations use hanging punctuation when using this pattern.
+    This means the opening quotation mark must sit in the margin so as not to disrupt
+    the flow (left alignment) of the text. If the quote is within the text (on the
+    same line) it would not hang.\n\nWhen marking up quotes in HTML - use true quotation
+    marks. True quotes are called smart quotes and the right one must be used according
+    to whether you are opening (‘) or closing (’) a quotation. [Find out about HTML
+    character codes to use for quotes.](https://www.toptal.com/designers/htmlarrows/punctuation/)\n"
+  accessibility_documentation: |-
+    Our quotations are marked up with the blockquote element (for the quotation text) and the cite element for referring to the author of the quote.
+    According to the W3C, the “blockquote element represents a section that is quoted from another source.” So,  when you use this pattern, do not to use it to refer to text within the same page.
+  variations: 'As in the example above - you can use larger text for the quotation
+    if the text is shorter.
+
+'
+- sys:
+    id: 7hxfZ01mU0Sw6ceA06oOki
+    created_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Page layout
+  status: live
+  introduction: We use a grid to structure our designs. Just like the typography and
+    vertical spacing we use, our grid allows the creation of a consistent horizontal
+    space.
+  design_and_content_documentation: |-
+    Our grid has 12 columns that can be used in various combinations. It has gutters of 32px above 768px and 16px below 768px. We recommend its use because it has been designed to suit our typographic scale.
+
+    The default widths (breakpoints) we use are:
+
+    - All: 0px and up — (all-{column-span})
+    - Extra small: 320px and up — (.xsmall-{column-span})
+    - Small: 480px and up — ((.small-{column-span})
+    - Medium: 750px and up — ((.medium-{column-span})
+    - Large: 960px and up — ((.large-{column-span})
+    - Extra large: 1300px and up — ((.xlarge-{column-span})
+- sys:
+    id: zzd72Zvyj6MCGaWQsMcCO
+    created_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Offsetting columns
+  status: live
+  introduction: Columns can be offset by a specified amount of columns from the left
+    hand side.
+- sys:
+    id: 1yKUj6nb3OYgyQ8y6k2gW4
+    created_at: !ruby/object:DateTime 2018-11-08 22:48:24.835000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:54:23.442000000 Z
+    content_type_id: designPattern
+    revision: 3
+  title: Checkboxes and radios
+  status: live
+  introduction: Radio buttons and checkboxes allow users to select an answer from
+    2 or more options.
+  design_and_content_documentation: |-
+    If you’re using either radio buttons or checkboxes:
+
+    - style them in a way that makes it clear which option or options has been selected
+    - allow users to click anywhere in the box
+    - display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan
+    - Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.
+- sys:
+    id: 3ji7octqKIAK6M64O4C4UW
+    created_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Bullet list
+  status: live
+  introduction: Lists are an effective way of breaking up content — they make it easier
+    for users to scan and find information. Use bullet points to break up a list of
+    items.
+- sys:
+    id: 40h3DXMNVSQcaqs44wEEkA
+    created_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Textarea
+  status: live
+  introduction: Textareas are for when users need to provide longer responses. Use
+    with caution.
+  design_and_content_documentation: |-
+    Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.
+
+    If you have reason to use them, research them using mobile devices. Entering information using touch devices can be especially time-consuming.
 - sys:
     id: 1B1xHli8eMAe2emCygaQ8K
     created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
@@ -231,23 +448,6 @@ designPattern:
 
     [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
 - sys:
-    id: 5M9geK32nYMoqgiYCkoSI4
-    created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:30:40.873000000 Z
-    content_type_id: designPattern
-    revision: 4
-  title: Responsive tables
-  status: beta
-  introduction: |-
-    Patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.
-
-    This ‘rows become mini-tables’ approach works for a table with different types of values — including text.
-  design_and_content_documentation: |-
-    The responsive table takes the same style as the main table — but differ under 480px by the:
-
-    - heading rows becoming table headers
-    - table cell borders are removed
-- sys:
     id: 6wmK1ZxEeAAC2iuuYqgiui
     created_at: !ruby/object:DateTime 2018-11-08 20:53:34.160000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 20:57:39.502000000 Z
@@ -315,6 +515,49 @@ designPattern:
   accessibility_documentation: "A link should be descriptive of the place it's taking
     the user. \n\nFind out [how we write link text](https://coop-design-manual.herokuapp.com/content.html#links).\n\n[For
     more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html)."
+- sys:
+    id: 5M9geK32nYMoqgiYCkoSI4
+    created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:30:40.873000000 Z
+    content_type_id: designPattern
+    revision: 4
+  title: Responsive tables
+  status: beta
+  introduction: |-
+    Patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.
+
+    This ‘rows become mini-tables’ approach works for a table with different types of values — including text.
+  design_and_content_documentation: |-
+    The responsive table takes the same style as the main table — but differ under 480px by the:
+
+    - heading rows becoming table headers
+    - table cell borders are removed
+- sys:
+    id: 18ffWPhguWa4qIKWQYOWaA
+    created_at: !ruby/object:DateTime 2018-11-14 15:13:55.826000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:50:38.865000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Collapsing columns
+  status: live
+  introduction: Collapsed columns have their padding removed. Columns can be collapsed
+    individually, or whole rows can be collapsed at once by adding the class .collapse
+    to a column or row
+- sys:
+    id: 6MqI93E8P6AMuWUKYiy00I
+    created_at: !ruby/object:DateTime 2018-11-08 22:57:54.493000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:00:43.331000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Submit
+  status: live
+  introduction: Submit buttons allows a user have a conversation with your service.
+  design_and_content_documentation: |-
+    Make submit buttons:
+
+    - descriptive of what they’re doing, for example, ‘send order’
+    - available only at the end of your form
+    - the primary button on the page
 - sys:
     id: 6iRruMXnlmieAEIoMWeEeG
     created_at: !ruby/object:DateTime 2018-11-08 21:36:57.455000000 Z
@@ -395,36 +638,6 @@ designPattern:
         </tbody>
     </table>
 - sys:
-    id: 6MqI93E8P6AMuWUKYiy00I
-    created_at: !ruby/object:DateTime 2018-11-08 22:57:54.493000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:00:43.331000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Submit
-  status: live
-  introduction: Submit buttons allows a user have a conversation with your service.
-  design_and_content_documentation: |-
-    Make submit buttons:
-
-    - descriptive of what they’re doing, for example, ‘send order’
-    - available only at the end of your form
-    - the primary button on the page
-- sys:
-    id: 60XDcMEd68iowm6k8S624U
-    created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Validation
-  status: live
-  introduction: Validation lets a user know that they need to amend the information
-    they have entered. It should be flexible - allowing a person to enter information
-    in the way they natuarally would.
-  design_and_content_documentation: |-
-    Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
-
-    Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
-- sys:
     id: 6lzK0U8LlYgc2OWmuu22e6
     created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
@@ -459,198 +672,7 @@ designPattern:
     If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
 
     [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 14fiLmQ4P2o8aMiaWCSYiC
-    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 13:31:20.917000000 Z
-    content_type_id: designPattern
-    revision: 5
-  title: Search
-  status: beta
-  introduction: 'Make the length of the text input box appropriate for the amount
-    of information needed: do not make it frustratingly short or intimidatingly long.'
-  design_and_content_documentation: Test documentation.
-  accessibility_documentation: Test accessibility.
-- sys:
-    id: 5JoR23Ulbi8CisOuQ6g02c
-    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Numbered list
-  status: live
-  introduction: Numbered lists are used to indicate a logical sequence.
-- sys:
-    id: 39qEfscUWQUIcyA0esG8Kc
-    created_at: !ruby/object:DateTime 2018-11-08 23:16:05.840000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:17:51.678000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Tables
-  status: live
-  introduction: Tables are a good way to present large amounts of complex information
-    when the user needs to compare different things or or interrogate that information.
-    The table format is familiar and, when done well, helps people to find answers
-    to questions.
-- sys:
-    id: nyqE2V53eCUsKKguIcimS
-    created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Font
-  status: live
-  introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
-    clear, open letterforms and letter spacing help communicate a consistent Co-op
-    brand identity.
-  design_and_content_documentation: If you need the Avenir font contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk)
-- sys:
-    id: tP1aGA2t5AEG42aquge0y
-    created_at: !ruby/object:DateTime 2018-11-08 22:04:36.898000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:11:36.147000000 Z
-    content_type_id: designPattern
-    revision: 5
-  title: Quotations
-  status: live
-  introduction: "Quotations highlight and support points within content. \n\nUsually
-    quotes come from someone with experience or authority in a subject area. It could
-    be an expert or someone who has used a product or service. \n\nIf you’re using
-    them on a digital platform you need to make sure that they are going to help the
-    user do what they came to do. \n"
-  design_and_content_documentation: "Use quotations when you:\n- want to refer to
-    what someone said, not to pull out text written within the page copy\n- are referring
-    to an external source - remember to cite the author and if possible link to their
-    original work\n- are knowingly using a jargon word after giving a plain English
-    description, for example, 'the people you want to sort out your will (known as
-    'executors')'   \n\nOur quotations use hanging punctuation when using this pattern.
-    This means the opening quotation mark must sit in the margin so as not to disrupt
-    the flow (left alignment) of the text. If the quote is within the text (on the
-    same line) it would not hang.\n\nWhen marking up quotes in HTML - use true quotation
-    marks. True quotes are called smart quotes and the right one must be used according
-    to whether you are opening (‘) or closing (’) a quotation. [Find out about HTML
-    character codes to use for quotes.](https://www.toptal.com/designers/htmlarrows/punctuation/)\n"
-  accessibility_documentation: |-
-    Our quotations are marked up with the blockquote element (for the quotation text) and the cite element for referring to the author of the quote.
-    According to the W3C, the “blockquote element represents a section that is quoted from another source.” So,  when you use this pattern, do not to use it to refer to text within the same page.
-  variations: 'As in the example above - you can use larger text for the quotation
-    if the text is shorter.
-
-'
-- sys:
-    id: C66rMoN0gCCek2QCcygak
-    created_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Input
-  status: live
-  introduction: 'Make the length of the text input box appropriate for the amount
-    of information needed: do not make it frustratingly short or intimidatingly long.'
-- sys:
-    id: lAvhQFgf60gYgaGeSyS2k
-    created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Logo
-  status: live
-  introduction: The Cloverleaf Symbol was created in 1968 for project facelift, when
-    all the Co-op societies united under one banner. We now use a modernised version
-    that optimised for modern production methods.
-  design_and_content_documentation: |-
-    The logo should:
-
-    - only be used at a width of 38px and a height of 40px
-    - only be used once per page
-    - be the only thing that uses the brand blue
-  accessibility_documentation: |-
-    The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
-
-    [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 1KYnuYZmqsMMe0uuO88uQo
-    created_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Centring
-  status: live
-  introduction: Columns can be set to centred or uncentered at different viewport
-    sizes.
-- sys:
-    id: 1yKUj6nb3OYgyQ8y6k2gW4
-    created_at: !ruby/object:DateTime 2018-11-08 22:48:24.835000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:54:23.442000000 Z
-    content_type_id: designPattern
-    revision: 3
-  title: Checkboxes and radios
-  status: live
-  introduction: Radio buttons and checkboxes allow users to select an answer from
-    2 or more options.
-  design_and_content_documentation: |-
-    If you’re using either radio buttons or checkboxes:
-
-    - style them in a way that makes it clear which option or options has been selected
-    - allow users to click anywhere in the box
-    - display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan
-    - Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.
-- sys:
-    id: 40h3DXMNVSQcaqs44wEEkA
-    created_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Textarea
-  status: live
-  introduction: Textareas are for when users need to provide longer responses. Use
-    with caution.
-  design_and_content_documentation: |-
-    Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.
-
-    If you have reason to use them, research them using mobile devices. Entering information using touch devices can be especially time-consuming.
-- sys:
-    id: 3ji7octqKIAK6M64O4C4UW
-    created_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Bullet list
-  status: live
-  introduction: Lists are an effective way of breaking up content — they make it easier
-    for users to scan and find information. Use bullet points to break up a list of
-    items.
-- sys:
-    id: 7hxfZ01mU0Sw6ceA06oOki
-    created_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Page layout
-  status: live
-  introduction: We use a grid to structure our designs. Just like the typography and
-    vertical spacing we use, our grid allows the creation of a consistent horizontal
-    space.
-  design_and_content_documentation: |-
-    Our grid has 12 columns that can be used in various combinations. It has gutters of 32px above 768px and 16px below 768px. We recommend its use because it has been designed to suit our typographic scale.
-
-    The default widths (breakpoints) we use are:
-
-    - All: 0px and up — (all-{column-span})
-    - Extra small: 320px and up — (.xsmall-{column-span})
-    - Small: 480px and up — ((.small-{column-span})
-    - Medium: 750px and up — ((.medium-{column-span})
-    - Large: 960px and up — ((.large-{column-span})
-    - Extra large: 1300px and up — ((.xlarge-{column-span})
 page:
-- sys:
-    id: 2dwjl9DDVOEK8WEkwss0Mc
-    created_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
-    content_type_id: page
-    revision: 1
-  title: Accessibility
-  introduction: Test intro.
-  content: Test content.
 - sys:
     id: 3YTlC0pezKMGMsSEq4gkAu
     created_at: !ruby/object:DateTime 2018-10-23 13:26:32.454000000 Z
@@ -1018,3 +1040,12 @@ page:
     (no bullet)\n- be linked from the top of the page to take users to the relevant
     field\n- help the user fix the problem, for example, ‘Check you've entered the
     correct sort code — it’s the 6 digit number usually found on your bank card’\n\n\n\n\n\n\n\n"
+- sys:
+    id: 2dwjl9DDVOEK8WEkwss0Mc
+    created_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
+    content_type_id: page
+    revision: 1
+  title: Accessibility
+  introduction: Test intro.
+  content: Test content.
