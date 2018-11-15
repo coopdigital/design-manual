@@ -1,0 +1,94 @@
+/* ================================================
+ * Utilities - Colour - Co-op Front-end Foundations
+ * ================================================ */
+
+@import "../variables";
+
+.coop-u-brand { color: $brand; }
+.coop-u-brand-bg { background: $brand; }
+
+.coop-u-text { color: $text; }
+.coop-u-text-bg { background: $text; }
+
+.coop-u-white { color: $white; }
+.coop-u-white-bg { background: $white; }
+.coop-u-black { color: $black; }
+.coop-u-black-bg { background: $black; }
+
+.coop-u-link-blue { color: $link; }
+.coop-u-link-blue-bg { background: $link; }
+.coop-u-link-hover-blue { color: $link-hover; }
+.coop-u-link-hover-blue-bg { background: $link-hover; }
+.coop-u-link-focus { color: $link-focus; }
+.coop-u-link-focus-bg { background: $link-focus; }
+.coop-u-link-focus-outline { outline: 4px solid $link-focus; }
+
+.coop-u-link-visited,
+.coop-u-link-active { color: $link-visited; }
+
+.coop-u-link-visited-bg,
+.coop-u-link-active-bg { background: $link-visited; }
+
+.coop-u-button-primary { color: $button-primary; }
+.coop-u-button-primary-bg { background: $button-primary; }
+.coop-u-button-primary-hover-bg { background: $button-primary-hover; }
+.coop-u-button-dark { color: $button-dark; }
+.coop-u-button-dark-bg { background: $button-dark; }
+.coop-u-button-dark-hover-bg { background: $button-dark-hover; }
+
+.coop-u-yellow-bright { color: $yellow-bright; }
+.coop-u-yellow-bright-bg { background: $yellow-bright; }
+.coop-u-yellow-light { color: $yellow-light; }
+.coop-u-yellow-light-bg { background: $yellow-light; }
+.coop-u-yellow-mid { color: $yellow-mid; }
+.coop-u-yellow-mid-bg { background: $yellow-mid; }
+
+.coop-u-green-bright { color: $green-bright; }
+.coop-u-green-bright-bg { background: $green-bright; }
+.coop-u-green-light { color: $green-light; }
+.coop-u-green-light-bg { background: $green-light; }
+.coop-u-green-mid { color: $green-mid; }
+.coop-u-green-mid-bg { background: $green-mid; }
+.coop-u-green-dark { color: $green-dark; }
+.coop-u-green-dark-bg { background: $green-dark; }
+
+.coop-u-green-blue-bright { color: $green-blue-bright; }
+.coop-u-green-blue-bright-bg { background: $green-blue-bright; }
+.coop-u-green-blue-light { color: $green-blue-light; }
+.coop-u-green-blue-light-bg { background: $green-blue-light; }
+.coop-u-green-blue-mid { color: $green-blue-mid; }
+.coop-u-green-blue-mid-bg { background: $green-blue-mid; }
+.coop-u-green-blue-dark { color: $green-blue-dark; }
+.coop-u-green-blue-dark-bg { background: $green-blue-dark; }
+
+.coop-u-blue-bright { color: $blue-bright; }
+.coop-u-blue-bright-bg { background: $blue-bright; }
+.coop-u-blue-light { color: $blue-light; }
+.coop-u-blue-light-bg { background: $blue-light; }
+.coop-u-blue-mid { color: $blue-mid; }
+.coop-u-blue-mid-bg { background: $blue-mid; }
+.coop-u-blue-dark { color: $blue-dark; }
+.coop-u-blue-dark-bg { background: $blue-dark; }
+
+.coop-u-pink-bright { color: $pink-bright; }
+.coop-u-pink-bright-bg { background: $pink-bright; }
+.coop-u-pink-light { color: $pink-light; }
+.coop-u-pink-light-bg { background: $pink-light; }
+.coop-u-purple-mid { color: $purple-mid; }
+.coop-u-purple-mid-bg { background: $purple-mid; }
+.coop-u-purple-dark { color: $purple-dark; }
+.coop-u-purple-dark-bg { background: $purple-dark; }
+
+.coop-u-orange-mid { color: $orange-mid; }
+.coop-u-orange-mid-bg { background: $orange-mid; }
+.coop-u-red-mid { color: $red-mid; }
+.coop-u-red-mid-bg { background: $red-mid; }
+.coop-u-red-dark { color: $red-dark; }
+.coop-u-red-dark-bg { background: $red-dark; }
+
+.coop-u-grey-light { color: $grey-light; }
+.coop-u-grey-light-bg { background: $grey-light; }
+.coop-u-grey-mid { color: $grey-mid; }
+.coop-u-grey-mid-bg { background: $grey-mid; }
+.coop-u-grey-dark { color: $grey-dark; }
+.coop-u-grey-dark-bg { background: $grey-dark; }

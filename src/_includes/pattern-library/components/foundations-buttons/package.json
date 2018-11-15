@@ -1,0 +1,70 @@
+{
+  "_from": "@coopdigital/foundations-buttons",
+  "_id": "@coopdigital/foundations-buttons@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-PUAMtemxmCm8VBEh7Gk3wSRMQ3L0vzAMpVNuh/5ENXm5GthquGwuQCD8hgeW4w77OaunR/Y3U/tYHgVOCXDl1A==",
+  "_location": "/@coopdigital/foundations-buttons",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@coopdigital/foundations-buttons",
+    "name": "@coopdigital/foundations-buttons",
+    "escapedName": "@coopdigital%2ffoundations-buttons",
+    "scope": "@coopdigital",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-buttons/-/foundations-buttons-1.0.2.tgz",
+  "_shasum": "81d0c54b7ee8636e45c40d0972760021a99559b4",
+  "_spec": "@coopdigital/foundations-buttons",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
+  "author": {
+    "name": "Matt Tyas",
+    "url": "matt.tyas@coopdigital.co.uk"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/foundations-buttons/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Co-op Foundations: Buttons",
+  "devDependencies": {
+    "@coopdigital/foundations-vars": "^1.0.0",
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "precss": "^3.1.2",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.7.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/coopdigital/foundations-buttons#readme",
+  "license": "MIT",
+  "main": "dist/buttons.css",
+  "name": "@coopdigital/foundations-buttons",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/foundations-buttons.git"
+  },
+  "scripts": {
+    "build": "postcss src/*.pcss --dir dist/ --ext css",
+    "dist": "npm run build && npm run lint",
+    "lint": "stylelint 'dist/*.css' --fix"
+  },
+  "style": "src/buttons.pcss",
+  "version": "1.0.2"
+}

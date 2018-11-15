@@ -11,3 +11,8 @@ source: ./
 destination: ../build
 keep_files: ['css', 'js', 'assets']
 markdown: kramdown
+
+# Collections
+collections:
+  pattern-library:
+    output: false

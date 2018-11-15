@@ -1,0 +1,189 @@
+@import "@coopdigital/foundations-vars";
+
+table,
+.coop-table {
+  width: 100%;
+  table-layout: fixed;
+  font-size: var(--type-base--body);
+  margin-bottom: var(--spacing-base--1-2);
+
+  @media var(--mq-medium) {
+    font-size: var(--type-medium--body);
+    margin-bottom: var(--spacing-medium--1-2);
+  }
+
+  caption {
+    font-family: var(--font-family);
+    font-weight: bold;
+    text-align: left;
+  }
+
+  th {
+    font-family: var(--font-family);
+    font-weight: bold;
+  }
+
+  th,
+  td {
+    padding: var(--spacing-base--1-4) var(--spacing-base--1-4) var(--spacing-base--1-4) 0;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  thead {
+    border-bottom: 2px solid var(--color-grey-mid);
+
+    .coop-table--regular-th {
+      font-family: var(--font-family);
+    }
+  }
+
+  tbody {
+    th {
+      position: relative;
+
+      &:after {
+        content: '';
+        position : absolute;
+        left: 0;
+        bottom: -1px;
+        height: 1px;
+        width: 80%;
+        border-bottom: 1px solid var(--color-grey-mid);
+      }
+    }
+
+    td {
+      border-bottom: 1px solid var(--color-grey-mid);
+    }
+  }
+
+  tfoot {
+    td {
+      font-family: var(--font-family);
+    }
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+/* Stacked columns basic responsive table solution */
+.coop-table-smallscreen--stacked {
+
+  /* defaults to 480px */
+  @media (max-width: 30em) {
+    th,
+    td {
+      padding-top: var(--spacing-base--1-8);
+      padding-botom: var(--spacing-base--1-8);
+      padding-right: 0;
+      padding-left: 0;
+      text-align: left;
+    }
+
+    thead,
+    tfoot {
+      border-bottom: 0;
+      th,
+      td {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 0;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 0;
+        opacity: 0;
+        letter-spacing: 0;
+      }
+    }
+
+    tbody {
+      th {
+        display: block;
+        border-top: 2px solid var(--color-grey-mid);
+        margin-top: var(--spacing-base--1-4);
+      }
+
+      .coop-table-smallscreen--stacked_hidden {
+        display: none;
+      }
+
+      td {
+        display: block;
+        border-bottom: 0;
+
+        &:before {
+          content: attr(data-th)"";
+          vertical-align: top;
+          font-family: var(--font-family);
+          font-weight: normal;
+          /* Should be amended with a custom value... */
+          width: 40%;
+          display: inline-block;
+        }
+      }
+      th:after {
+        border-bottom: 0;
+      }
+
+      ul {
+        display: inline-block;
+        /* This old chestnut https://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
+        margin-left: -5px;
+      }
+
+      a {
+        margin-left: -5px;
+      }
+    }
+  }
+}
+
+.coop-table--unstyled {
+  border: 0;
+  margin-bottom: 0;
+
+  th, td {
+    padding-top: var(--spacing-base--1-8);
+    padding-bottom: var(--spacing-base--1-8);
+    padding-left: 0;
+    padding-right: 0;
+
+    @media var(--mq-medium) {
+      padding: var(--spacing-medium--1-4);
+    }
+  }
+
+  .coop-table--tr-divider {
+    border-bottom: 1px solid var(--color-grey-mid);
+  }
+
+  thead th {
+    background: var(--color-white);
+  }
+
+  tbody th,
+  tbody td{
+    background: var(--color-white);
+    border-bottom: 0;
+    font-family: var(--font-family);
+    font-weight: normal;
+  }
+
+  .coop-table__bold {
+    font-family: var(--font-family);
+    font-weight: bold;
+  }
+}
+
+.coop-table__header {
+  padding: 16px 0px 0px 0px;
+  margin-bottom: 0;
+
+  @media var(--mq-medium) {
+    padding: 16px 8px 10px 8px;
+  }
+}

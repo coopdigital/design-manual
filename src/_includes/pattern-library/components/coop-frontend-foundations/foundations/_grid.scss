@@ -1,0 +1,30 @@
+/* ==================================
+ * Grid - Co-op front-end foundations
+ * ================================== */
+
+@import "../variables";
+@import "../mixins/utilities";
+@import "../mixins/grid";
+
+.coop-l-wrap {
+  @extend %coop-l-wrap;
+}
+
+.coop-l-row {
+  @include coop-l-row($collapse-class: 'collapse');
+}
+
+.coop-l-column,
+.coop-l-columns {
+  @include coop-l-column($collapse-class: 'collapse');
+}
+
+@include coop-l-grid-columns('all');
+
+@each $size in $grid-screen-sizes {
+  @if index($grid-screen-sizes, $size) {
+    @include media($size) {
+      @include coop-l-grid-columns($size);
+    }
+  }
+}

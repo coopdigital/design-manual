@@ -1,0 +1,49 @@
+.coop-c-search {
+  position: relative;
+}
+
+.coop-c-search__input {
+  box-sizing: border-box;
+  padding: 15px;
+  border-color: $grey-mid;
+}
+
+.coop-c-search__input:hover,
+.coop-c-search__input:focus {
+  border-color: $grey-dark;
+}
+
+.coop-c-search__input:focus {
+  transition: none;
+  outline: 2px dotted $link-focus;
+  outline-offset: 3px;
+}
+
+@media (min-width: 750px) {
+  .coop-c-search__input {
+    padding: 20px;
+  }
+}
+
+.coop-c-search__button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  padding: 0 15px;
+  margin-bottom: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.coop-c-search__button:focus {
+  transition: none;
+  outline: 2px dotted $link-focus;
+  outline-offset: 3px;
+}
+
+.coop-c-search__button svg {
+  position: relative;
+  top: 4px;
+}

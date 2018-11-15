@@ -1,0 +1,46 @@
+/* =====================================
+ * Buttons - Co-op Front-end Foundations
+ * ===================================== */
+
+@import "../variables";
+@import "../mixins/typography";
+@import "../mixins/buttons";
+
+.coop-btn {
+  @extend %coop-button-base;
+  @include coop-button-colour(
+    $text-colour: $white,
+    $hover-text-colour: $white,
+    $active-text-colour: $white,
+    $bg-colour: $button-dark,
+    $hover-bg-colour: $button-dark-hover,
+    $active-bg-colour: $button-dark-active
+  );
+}
+
+.coop-btn--primary {
+  @include coop-button-colour(
+    $text-colour: $white,
+    $hover-text-colour: $white,
+    $active-text-colour: $white,
+    $bg-colour: $button-primary,
+    $hover-bg-colour: $button-primary-hover,
+    $active-bg-colour: $button-primary-active
+  );
+}
+
+.coop-btn--full {
+  @extend %coop-btn--full;
+}
+
+.coop-btn--small {
+  @extend %coop-btn--small;
+}
+
+.coop-btn--medium {
+  @extend %coop-btn--medium;
+}
+
+.coop-btn--large {
+  @extend %coop-btn--large;
+}

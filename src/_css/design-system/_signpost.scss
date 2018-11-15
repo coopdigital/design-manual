@@ -1,0 +1,42 @@
+.signpost {
+  margin: $quarter-spacing-unit 0 $half-spacing-unit 0;
+  padding: 0;
+  list-style: none;
+
+  @include media(medium) {
+    margin-bottom: 0;
+  }
+}
+
+.signpost__link {
+  position: relative;
+  display: block;
+  padding: $quarter-spacing-unit 0;
+  border-bottom: 2px solid rgba(15,114,152,0.1);
+  color: $link;
+  font-family: $medium;
+  transition: all 0.25s ease;
+
+  .status {
+    margin-left: 12px;
+  }
+
+  &:hover {
+    color: $text;
+    border-bottom: 2px solid $link-hover;
+
+    .signpost__icon svg {
+      fill: $link-hover;
+    }
+  }
+}
+
+.signpost__icon {
+  position: absolute;
+  line-height: 1.7;
+  right: 0;
+
+  svg {
+    fill: rgba(15,114,152,0.2);
+  }
+}

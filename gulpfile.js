@@ -11,6 +11,8 @@ var stylish = require('jshint-stylish');
 var uglify = require('gulp-uglify');
 var mocha = require('gulp-mocha');
 var imagemin = require('gulp-imagemin');
+var cssimport = require('gulp-cssimport');
+var postcss = require('gulp-postcss');
 
 /**
  * Settings
@@ -19,7 +21,9 @@ var src = 'src/';
 var dest = 'build/';
 
 var src_paths = {
-  styles: src + '_css/**/*.scss',
+  scss: src + '_css/**/*.scss',
+  css: src + '_css/**/*.pcss',
+  temp: src + 'temp/**/*',
   scripts: src + '_js/*.js',
   assets: [
     src + '_assets/**/*',
@@ -37,9 +41,20 @@ var dest_paths = {
 var settings = {
   sass: {
     outputStyle: 'compressed',
+
     includePaths: [
       'node_modules',
-      src + 'src/css'
+      src + 'src/css/design-system',
+      src + 'src/css/pattern-library',
+      src + 'src/css/mainscss.scss'
+    ]
+  },
+  css: {
+    outputStyle: 'compressed',
+
+    includePaths: [
+      'node_modules',
+      src + 'src/css/maincss.pcss'
     ]
   },
   autoprefixer: {
@@ -51,6 +66,13 @@ var settings = {
       __dirname + '/src/_js'
     ]
   }
+};
+
+var importOptions = {
+    matchPattern: "!*.{pcss}",
+    includePaths: [
+      __dirname + '/node_modules/@coopdigital'
+    ]
 };
 
 
@@ -68,7 +90,7 @@ gulp.task('lintjs', function() {
 
 gulp.task('lintscss', function() {
   return gulp.src([
-    src_paths.styles,
+    src_paths.scss,
     '!src/_css/_prism.scss'
   ])
     .pipe(scsslint());
@@ -78,15 +100,13 @@ gulp.task('lintscss', function() {
 /**
  * Build tasks
  */
-
 // Copy Co-op components
+
 gulp.task('copy', function () {
   gulp.src([
-    'node_modules/coop-components/**/*',
-    '!node_modules/coop-components/package.json',
-    '!node_modules/coop-components/package-lock.json'
+    'node_modules/@coopdigital/**/*'
   ])
-  .pipe(gulp.dest('src/_includes/'));
+  .pipe(gulp.dest('src/_includes/pattern-library/components'))
 });
 
 // Jekyll
@@ -96,6 +116,8 @@ gulp.task('html', ['jekyll'], function() {
 });
 gulp.task('jekyll', function (gulpCallBack){
   var spawn = require('child_process').spawn;
+  // Get Contenful content
+  var contentful = spawn('jekyll', ['contentful']);
   var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'src'});
   jekyll.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
@@ -103,13 +125,31 @@ gulp.task('jekyll', function (gulpCallBack){
 });
 
 // Styles
-gulp.task('css', function() {
-  return gulp.src(src_paths.styles)
+gulp.task('scss', function() {
+  return gulp.src(src_paths.scss)
     .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
       .on('error', sass.logError)
       .pipe(autoprefixer(settings.autoprefixer))
     .pipe(sourcemaps.write('maps/'))
+    .pipe(gulp.dest(dest_paths.styles))
+    .pipe(connect.reload());
+});
+
+gulp.task('css', function() {
+  return gulp.src(src_paths.css)
+    .pipe(sourcemaps.init())
+      .pipe(postcss(settings.css))
+      .pipe(cssimport(importOptions))
+      .pipe(autoprefixer(settings.autoprefixer))
+    .pipe(sourcemaps.write('maps/'))
+    .pipe(gulp.dest(dest_paths.styles))
+    .pipe(connect.reload());
+});
+
+gulp.task('cssconcat', ['scss', 'css'], function() {
+  return gulp.src(['build/assets/css/mainscss.css', 'build/assets/css/maincss.pcss'])
+    .pipe(concat('app.css'))
     .pipe(gulp.dest(dest_paths.styles))
     .pipe(connect.reload());
 });
@@ -156,12 +196,8 @@ gulp.task('testjs', function() {
  * Watch tasks
  */
 gulp.task('watch', function() {
-
-  // Toolkit watching for local development
-  gulp.watch('node_modules/coop-frontend-toolkit/styles/**/*.scss',  ['css']);
-  gulp.watch('node_modules/coop-frontend-toolkit/scripts/**/*.js', ['js']);
-  // Source
-  gulp.watch('src/_css/**/*.scss',  ['css']);
+  gulp.watch('src/_css/**/*.scss', ['scss', 'cssconcat']);
+  gulp.watch('src/_css/**/*.pcss', ['css', 'cssconcat']);
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
   gulp.watch(src_paths.assets, ['imagemin']);
   gulp.watch(src_paths.html, ['html']);
@@ -183,6 +219,6 @@ gulp.task('connect', function() {
  * Run tasks
  */
 gulp.task('test', ['testjs']);
-gulp.task('build', ['html', 'css', 'vendorjs', 'js', 'imagemin', 'copy']);
+gulp.task('build', ['html', 'scss', 'css', 'vendorjs', 'js', 'imagemin', 'copy', 'cssconcat']);
 gulp.task('server', ['build', 'watch', 'connect']);
 gulp.task('default', ['build']);

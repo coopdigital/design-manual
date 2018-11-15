@@ -1,0 +1,25 @@
+/* ===================================
+ * Links - Co-op Front-end Foundations
+ * =================================== */
+
+@mixin link(
+  $color: $link,
+  $color-hover: $link-hover,
+  $color-focus: $link-focus) {
+
+  color: $color;
+  border-bottom: .05em solid $color;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-hover;
+    border: 0;
+  }
+
+  &:active,
+  &:focus {
+    transition: none;
+    outline: 2px dotted $color-focus;
+    outline-offset: 3px;
+  }
+}

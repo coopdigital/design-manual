@@ -1,0 +1,70 @@
+{
+  "_from": "@coopdigital/foundations-global@~1.0.2",
+  "_id": "@coopdigital/foundations-global@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-UaJ1reKJ8X2YpfcwCz2pMRBqa617A/L0zfLlmV+9YDtK4M3SHxZYqMrXNJkgv5t0QxjKpSYU+2pGUOLupqtjHg==",
+  "_location": "/@coopdigital/foundations-global",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@coopdigital/foundations-global@~1.0.2",
+    "name": "@coopdigital/foundations-global",
+    "escapedName": "@coopdigital%2ffoundations-global",
+    "scope": "@coopdigital",
+    "rawSpec": "~1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "~1.0.2"
+  },
+  "_requiredBy": [
+    "/@coopdigital/css-foundations"
+  ],
+  "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-global/-/foundations-global-1.0.2.tgz",
+  "_shasum": "6d5da7ea3ef3d15b1827c5bb2a0adb7c5b26add2",
+  "_spec": "@coopdigital/foundations-global@~1.0.2",
+  "_where": "/Applications/MAMP/htdocs/design-manual/node_modules/@coopdigital/css-foundations",
+  "author": {
+    "name": "Matthew Morek",
+    "email": "matthew.morek@coopdigital.co.uk",
+    "url": "https://github.com/matthewmorek"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/foundations-global/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "CSS Foundations: Global",
+  "devDependencies": {
+    "@coopdigital/foundations-vars": "~1.0.0",
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "precss": "^3.1.2",
+    "prettier": "^1.15.1",
+    "stylelint": "^9.7.1",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/coopdigital/foundations-global#readme",
+  "license": "MIT",
+  "main": "dist/global.css",
+  "name": "@coopdigital/foundations-global",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/foundations-global.git"
+  },
+  "scripts": {
+    "build": "postcss src/*.pcss --dir dist/ --ext css",
+    "dist": "npm run build && npm run lint",
+    "lint": "stylelint 'dist/*.css' --fix"
+  },
+  "style": "src/global.pcss",
+  "version": "1.0.2"
+}

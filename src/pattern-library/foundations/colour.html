@@ -1,0 +1,59 @@
+---
+layout: default
+body-page-class: dm-dark
+title: Colour palette
+id: pattern-library
+---
+<article class="coop-l-wrap">
+{% include breadcrumbs.html %}
+{% for designPattern in site.data.contentful.spaces.design-system-content.designPattern %}
+    {% if designPattern.title == 'Colour palette' %}
+    <div class="m-bh-med-b">
+        <header>
+            <div class="coop-l-row">
+                <div class="coop-l-column coop-l-medium-7 coop-l-small-12 intro-box">
+                    <h1>{{ designPattern.title }}
+                        <span class="status status--{{ designPattern.status }}">
+                            <a href="/process.html" class="status__link">{{ designPattern.status }}</a>
+                        </span>
+                    </h1>
+                    <div class="highlight-banner m-bh-med-b">
+                        <p class="ds-intro">{{ designPattern.introduction | markdownify }}</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="coop-l-row">
+        <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
+            <nav>
+                <ul id="in-page-nav" class="coop-list-bare in-page-nav">
+                    <li><a href="#example">Colour palette</a></li>
+                    <li><a href="#design-and-content">Design and content</a></li>
+                    <li><a href="#accessibility">Accessibility</a></li>
+                    <li><a href="#suggest-a-change">Suggest a change</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
+            <section id="example" class="coop-u-margin-bb">
+                {% include pattern-library/foundations/foundations-color/color.html %}
+            </section>
+            <section id="design-and-content" class="m-tb-med-x margin-bb padding-bh">
+                <h2>Design and content</h2>
+                <p>{{ designPattern.design_and_content_documentation | markdownify }}</p>
+            </section>
+            <section id="accessibility" class="m-tb-med-x margin-bb padding-bh">
+                <h2>Accessibility</h2>
+                <p>{{ designPattern.accessibility_documentation | markdownify }}</p>
+            </section>
+            <section id="suggest-a-change" class="m-tb-med-x margin-bb padding-bh">
+                <h2>Suggest a pattern</h2>
+                <p>Use this form to suggest a new pattern or a change to an existing one.</p>
+                <p><a href="https://goo.gl/forms/jWx9l3CmFJ5JN2JB2">Suggest a new pattern or a change</a></p>
+            </section>
+        </div>
+    </div>
+    {% endif %}
+{% endfor %}
+</article>

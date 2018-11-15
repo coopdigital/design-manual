@@ -1,0 +1,84 @@
+/* ================================================
+ * Utilities - Layout - Co-op Front-end Foundations
+ * ================================================ */
+
+@import "../variables";
+@import "../mixins/utilities";
+
+.coop-u-padding-x { padding: 0 !important; }
+.coop-u-padding-e { padding: $quarter-spacing-unit / 2; }
+.coop-u-padding-q { padding: $quarter-spacing-unit; }
+.coop-u-padding-h { padding: $half-spacing-unit; }
+.coop-u-padding-b { padding: $base-spacing-unit; }
+
+.coop-u-padding-bx { padding-bottom: 0 !important; }
+.coop-u-padding-be { padding-bottom: $quarter-spacing-unit / 2; }
+.coop-u-padding-bq { padding-bottom: $quarter-spacing-unit; }
+.coop-u-padding-bh { padding-bottom: $half-spacing-unit; }
+.coop-u-padding-bb { padding-bottom: $base-spacing-unit; }
+
+.coop-u-padding-tx { padding-top: 0 !important; }
+.coop-u-padding-te { padding-top: $quarter-spacing-unit / 2; }
+.coop-u-padding-tq { padding-top: $quarter-spacing-unit; }
+.coop-u-padding-th { padding-top: $half-spacing-unit; }
+.coop-u-padding-tb { padding-top: $base-spacing-unit; }
+
+.coop-u-margin-x { margin: 0 !important; }
+.coop-u-margin-e { margin: $quarter-spacing-unit / 2; }
+.coop-u-margin-q { margin: $quarter-spacing-unit; }
+.coop-u-margin-h { margin: $half-spacing-unit; }
+.coop-u-margin-b { margin: $base-spacing-unit; }
+
+.coop-u-margin-bx { margin-bottom: 0 !important; }
+.coop-u-margin-be { margin-bottom: $quarter-spacing-unit / 2; }
+.coop-u-margin-bq { margin-bottom: $quarter-spacing-unit; }
+.coop-u-margin-bh { margin-bottom: $half-spacing-unit; }
+.coop-u-margin-bb { margin-bottom: $base-spacing-unit; }
+
+.coop-u-margin-tx { margin-top: 0 !important; }
+.coop-u-margin-te { margin-top: $quarter-spacing-unit / 2; }
+.coop-u-margin-tq { margin-top: $quarter-spacing-unit; }
+.coop-u-margin-th { margin-top: $half-spacing-unit; }
+.coop-u-margin-tb { margin-top: $base-spacing-unit; }
+
+.coop-u-border { border: 1px solid $grey-mid; }
+.coop-u-border-t { border-top: 1px solid $grey-mid; }
+.coop-u-border-r { border-right: 1px solid $grey-mid; }
+.coop-u-border-b { border-bottom: 1px solid $grey-mid; }
+.coop-u-border-l { border-left: 1px solid $grey-mid; }
+
+.coop-u-text-centre {
+  text-align: center;
+}
+
+.coop-u-text-left {
+  text-align: left;
+}
+
+.coop-u-text-right {
+  text-align: right;
+}
+
+.coop-u-nowrap {
+  white-space: nowrap;
+}
+
+.coop-u-visuallyhidden {
+  @include visuallyhidden;
+}
+
+.coop-u-visuallyshown {
+  @include visuallyshown;
+}
+
+.coop-u-pull-left {
+  float: left;
+}
+
+.coop-u-pull-right {
+  float: right;
+}
+
+.coop-u-clearfix {
+  @include clearfix;
+}

@@ -1,0 +1,73 @@
+/* ============================================
+ * Buttons mixins - Co-op Front-end Foundations
+ * ============================================ */
+
+@import "functions";
+
+%coop-button-base {
+  @include body;
+  display: inline-block;
+  padding: $quarter-spacing-unit $half-spacing-unit * 1.25;
+  color: $link;
+  font-family: var(--font-family);
+  font-weight: 500;
+  text-align: center;
+  border: 0;
+  border-radius: $border-radius;
+  transition: all 0.15s linear;
+  outline: none;
+
+  &:hover,
+  &:focus {
+    border: 0;
+  }
+
+  &:focus {
+    transition: none;
+    outline: 2px dotted $link-focus;
+    outline-offset: 3px;
+  }
+
+  &:active {
+    outline: 0;
+  }
+}
+
+@mixin coop-button-colour(
+  $text-colour: $white,
+  $hover-text-colour: $white,
+  $active-text-colour: $white,
+  $bg-colour: $button-dark,
+  $hover-bg-colour: $button-dark-hover,
+  $active-bg-colour: $button-dark-active) {
+  color: $text-colour;
+  background-color: $bg-colour;
+
+  &:hover,
+  &:focus {
+    background-color: $hover-bg-colour;
+    color: $hover-text-colour;
+  }
+
+  &:active {
+    background-color: $active-bg-colour;
+    color: $active-text-colour;
+  }
+}
+
+%coop-btn--full {
+  width: 100%;
+}
+
+%coop-btn--small {
+  padding: $quarter-spacing-unit / 3 $quarter-spacing-unit;
+  font-size: .875em;
+}
+
+%coop-btn--medium {
+  padding: $quarter-spacing-unit / 2 $quarter-spacing-unit;
+}
+
+%coop-btn--large {
+  padding: $quarter-spacing-unit $half-spacing-unit;
+}
