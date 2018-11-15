@@ -1,5 +1,6 @@
-// The start of tidying this
-// design manual classes should now be prefixed with dm-
+// Colour varibles
+$green-blue-dark: #29837f;
+$woodsmoke: #1D2534;
 
 .coop-logo {
   border-bottom: 0;
@@ -18,13 +19,29 @@ input[type="search"] {
     box-sizing: border-box;
 }
 
+.message.message--info {
+  background: #FDF2C3;
+}
+
+.coop-form__input--cvv {
+  width: 100px !important;
+}
+
+.message.message--info p {
+  margin-bottom: 0;
+
+}
+
 .coop-c-search__button {
     height: 66px;
 }
 
-//Colour varibles
-$green-blue-dark: #29837f;
-$woodsmoke: #1D2534;
+.ds-section h2 a,
+.ds-section h2 a:hover {
+  cursor: default;
+  color: $text;
+  border-bottom: 0;
+}
 
 .coop-c-skip-nav {
   position: absolute;

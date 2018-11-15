@@ -21,7 +21,7 @@ group: "inner-page"
     <div class="coop-l-row">
         <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
             <nav>
-                <p class="in-page-nav-title">Contents</p>
+
                 <ul class="coop-list-bare in-page-nav">
                     <li><a href="#radio-checkbox">Radio buttons and checkboxes</a></li>
                     <li><a href="#text-entry">Text entry fields</a></li>
@@ -52,23 +52,23 @@ group: "inner-page"
                     <div class="coop-l-column coop-l-medium-10 coop-l-large-8">
                         <h3 class="example-heading"><span class="example_label">Example</span></h3>
                         <div class="example example--padded">
-                            <fieldset>
-                                <legend>Do you own:</legend>
-                                <label class="coop-block-label">
-                                    <input type="checkbox" value="1" name="client[owns_a_business]">a business
+                            <fieldset class="coop-c-checkbox-radio">
+                                <legend class="coop-legend">Do you own:</legend>
+                                <label class="coop-c-checkbox-radio__label">
+                                    <input type="checkbox" value="1" name="client[owns_a_business]" class="coop-c-checkbox-radio__input">a business
                                 </label>
-                                <label class="coop-block-label">
-                                    <input type="checkbox" value="1" name="client[owns_agricultural_property]">agricultural property
+                                <label class="coop-c-checkbox-radio__label">
+                                    <input type="checkbox" value="1" name="client[owns_agricultural_property]" class="coop-c-checkbox-radio__input">agricultural property
                                 </label>
-                                <label class="coop-block-label">
-                                    <input type="checkbox" value="1" name="client[owns_foreign_property]">foreign property
+                                <label class="coop-c-checkbox-radio__label">
+                                    <input type="checkbox" value="1" name="client[owns_foreign_property]" class="coop-c-checkbox-radio__input">foreign property
                                 </label>
-                                <label class="coop-block-label">
-                                    <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]">trademarks or patents
+                                <label class="coop-c-checkbox-radio__label">
+                                    <input type="checkbox" value="1" name="client[owns_trademarks_or_patents]" class="coop-c-checkbox-radio__input">trademarks or patents
                                 </label>
                                 <p class="or">or</p>
-                                <label class="coop-block-label checked">
-                                    <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="">You do not own any of these
+                                <label class="coop-c-checkbox-radio__label">
+                                    <input type="checkbox" name="client_owns_none_of_the_above" data-none-of-the-above="" class="coop-c-checkbox-radio__input">You do not own any of these
                                 </label>
                             </fieldset>
                         </div>
@@ -98,8 +98,8 @@ group: "inner-page"
                     <div class="column medium-10 large-8 small-12">
                     <h3 class="example-heading"><span class="example_label">Example</span></h3>
                         <div class="example example--padded">
-                        <label for="ccv-number">CCV number</label>
-                        <input class="ccv-number" type="number" name="ccv-number" id="ccv-number">
+                            <label for="ccv-number">CCV number</label>
+                            <input type="number" name="ccv-number" id="ccv-number" class="coop-form__input coop-form__input--cvv" width="50">
                         </div>
                     </div>
                 </div>
@@ -140,7 +140,7 @@ group: "inner-page"
                         <h3 class="example-heading"><span class="example_label">Example</span></h3>
                     <div class="example example--padded">
                         <div class="coop-u-margin-bq">
-                            <a href="#" class="btn btn-primary">Continue to booking</a>
+                            <a href="#" class="coop-btn coop-btn--primary">Continue to booking</a>
                         </div>
                     </div>
                   </div>
