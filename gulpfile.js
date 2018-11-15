@@ -12,7 +12,6 @@ var uglify = require('gulp-uglify');
 var mocha = require('gulp-mocha');
 var imagemin = require('gulp-imagemin');
 var cssimport = require('gulp-cssimport');
-
 var postcss = require('gulp-postcss');
 
 /**
@@ -22,7 +21,8 @@ var src = 'src/';
 var dest = 'build/';
 
 var src_paths = {
-  styles: src + '_css/**/*.scss',
+  scss: src + '_css/**/*.scss',
+  css: src + '_css/**/*.pcss',
   scripts: src + '_js/*.js',
   assets: [
     src + '_assets/**/*',
@@ -43,7 +43,17 @@ var settings = {
 
     includePaths: [
       'node_modules',
-      src + 'src/css'
+      src + 'src/css/design-system',
+      src + 'src/css/pattern-library',
+      src + 'src/css/mainscss.scss'
+    ]
+  },
+  css: {
+    outputStyle: 'compressed',
+
+    includePaths: [
+      'node_modules',
+      src + 'src/css/maincss.pcss'
     ]
   },
   autoprefixer: {
@@ -58,9 +68,9 @@ var settings = {
 };
 
 var importOptions = {
-    matchPattern: "!*.{scss}",
+    matchPattern: "!*.{pcss}",
     includePaths: [
-      'node_modules/@coopdigital/coop-frontend-foundations/'
+      __dirname + '/node_modules/@coopdigital'
     ]
 };
 
@@ -79,7 +89,7 @@ gulp.task('lintjs', function() {
 
 gulp.task('lintscss', function() {
   return gulp.src([
-    src_paths.styles,
+    src_paths.scss,
     '!src/_css/_prism.scss'
   ])
     .pipe(scsslint());
@@ -114,20 +124,33 @@ gulp.task('jekyll', function (gulpCallBack){
 });
 
 // Styles
-gulp.task('css', function() {
-  return gulp.src([
-      src_paths.styles,
-      '!node_modules/@coopdigital/css-foundations/dist/foundations'
-    ])
+gulp.task('scss', function() {
+  return gulp.src(src_paths.scss)
     .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
-      .pipe(postcss())
       .on('error', sass.logError)
-      .pipe(cssimport(importOptions))
       .pipe(autoprefixer(settings.autoprefixer))
     .pipe(sourcemaps.write('maps/'))
     .pipe(gulp.dest(dest_paths.styles))
     .pipe(connect.reload());
+});
+
+gulp.task('css', function() {
+  return gulp.src(src_paths.css)
+    .pipe(postcss(settings.css))
+    .pipe(cssimport(importOptions))
+    .pipe(autoprefixer(settings.autoprefixer))
+    .pipe(gulp.dest(dest_paths.styles))
+    .pipe(connect.reload());
+});
+
+/* Join compiled SCSS and CSS together */
+gulp.task('cssconcat', function() {
+  return gulp.src(['build/assets/css/maincss.pcss', 'build/assets/css/mainscss.css'])
+    .pipe(sourcemaps.init())
+    .pipe(concat('app.css'))
+    .pipe(sourcemaps.write('maps/'))
+    .pipe(gulp.dest(dest_paths.styles))
 });
 
 // Scripts
@@ -194,6 +217,6 @@ gulp.task('connect', function() {
  * Run tasks
  */
 gulp.task('test', ['testjs']);
-gulp.task('build', ['html', 'css', 'vendorjs', 'js', 'imagemin', 'copy']);
+gulp.task('build', ['html', 'scss', 'css', 'cssconcat', 'vendorjs', 'js', 'imagemin', 'copy']);
 gulp.task('server', ['build', 'watch', 'connect']);
 gulp.task('default', ['build']);

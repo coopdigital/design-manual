@@ -1,5 +1,3 @@
-
-@import 'node_modules/@coopdigital/css-foundations/dist/foundations';
 @import 'node_modules/@coopdigital/coop-frontend-foundations/coop-foundations';
 
 @import 'design-system/design-system';
@@ -19,10 +17,6 @@
 @import 'pattern-library/example';
 @import 'pattern-library/pills';
 @import 'pattern-library/code';
-
-// Components
-@import 'node_modules/@coopdigital/component-search/src/component';
-@import 'node_modules/@coopdigital/component-checkbox/dist/checkbox';
 
 .coop-logo {
   border-bottom: 0;
