@@ -203,27 +203,6 @@ designPattern:
   introduction: 'Make the length of the text input box appropriate for the amount
     of information needed: do not make it frustratingly short or intimidatingly long.'
 - sys:
-    id: lAvhQFgf60gYgaGeSyS2k
-    created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Logo
-  status: live
-  introduction: The Cloverleaf Symbol was created in 1968 for project facelift, when
-    all the Co-op societies united under one banner. We now use a modernised version
-    that optimised for modern production methods.
-  design_and_content_documentation: |-
-    The logo should:
-
-    - only be used at a width of 38px and a height of 40px
-    - only be used once per page
-    - be the only thing that uses the brand blue
-  accessibility_documentation: |-
-    The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
-
-    [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
     id: 1KYnuYZmqsMMe0uuO88uQo
     created_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
@@ -233,6 +212,51 @@ designPattern:
   status: live
   introduction: Columns can be set to centred or uncentered at different viewport
     sizes.
+- sys:
+    id: 6wmK1ZxEeAAC2iuuYqgiui
+    created_at: !ruby/object:DateTime 2018-11-08 20:53:34.160000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 14:58:54.399000000 Z
+    content_type_id: designPattern
+    revision: 3
+  title: Links
+  status: live
+  introduction: 'A link should be descriptive of the place it’s taking the user. For
+    example: “Start making your will”.'
+  design_and_content_documentation: "A link should always be displayed as above unless
+    it's used on a background colour, in which case is can be black or white.\n\nLinks
+    that are in context, for example within a header or footer — can be styled differently.\n\n<div
+    class=\"coop-l-row\">\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
+    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
+    dm-colour__swatch--wide coop-u-link-blue-bg coop-u-padding-q coop-u-margin-bh\">\n
+    \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
+    class=\"coop-bold\">Link</li>\n                  <li>$link</li>\n                  <li>rgb(0,14,154)</li>\n
+    \                 <li>#00729A</li>\n              </ul>\n            </div>\n
+    \       </div>\n    </div>\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
+    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
+    dm-colour__swatch--wide coop-u-link-hover-blue-bg coop-u-padding-q coop-u-margin-bh\">\n
+    \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
+    class=\"coop-bold\">Link hover</li>\n                  <li>$link-hover</li>\n
+    \                 <li>rgb(0,57,78)</li>\n                  <li>#00394E</li>\n
+    \             </ul>\n            </div>\n        </div>\n    </div>\n    <div
+    class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n        <div class=\"dm-colour\">\n
+    \           <div class=\"dm-colour__swatch dm-colour__swatch--wide coop-u-link-focus-bg
+    coop-u-padding-q coop-u-margin-bh\">\n              <ul class=\"list-bare dm-colour__definition\">\n
+    \                 <li class=\"coop-bold\">Link focus</li>\n                  <li>$link-focus</li>\n
+    \                 <li>rgb(231,196,66)</li>\n                  <li>#E7C442</li>\n
+    \             </ul>\n            </div>\n        </div>\n    </div>\n    <div
+    class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n        <div class=\"dm-colour\">\n
+    \           <div class=\"dm-colour__swatch dm-colour__swatch--wide coop-u-link-active-bg
+    coop-u-padding-q coop-u-margin-bh\">\n              <ul class=\"list-bare dm-colour__definition
+    coop-u-white\">\n                  <li class=\"coop-bold\">Link active</li>\n
+    \                 <li>$link-active</li>\n                  <li>rgb(0,50,69)</li>\n
+    \                 <li>#002C3D</li>\n              </ul>\n            </div>\n
+    \       </div>\n    </div>\n</div>\n\nLinks should: \n- be colour contrast checked.\n-
+    be underlined regardless of what colour they are.\n- use the hand/pointer to indicate
+    that the link is clickable.\n\n"
+  accessibility_documentation: "Link text can be read out of context and should always
+    tell the user where it’s taking them — never use ‘click here’. Find out how we
+    write link text. \n\nFind out [how we write link text](https://coop-design-manual.herokuapp.com/content.html#links).\n\n[For
+    more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html)."
 - sys:
     id: 60XDcMEd68iowm6k8S624U
     created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
@@ -330,6 +354,40 @@ designPattern:
     - display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan
     - Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.
 - sys:
+    id: lAvhQFgf60gYgaGeSyS2k
+    created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 14:55:58.025000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Logo
+  status: live
+  introduction: The Cloverleaf Symbol was created in 1968 for project facelift, when
+    all the Co-op societies united under one banner. We now use a modernised version
+    that optimised for modern production methods.
+  design_and_content_documentation: |-
+    The logo should:
+
+    - only be used at a width of 38px and a height of 40px
+    - only be used once per page
+    - be the only thing that uses the brand blue
+
+    <div class="coop-l-row coop-u-margin-th">
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-brand-bg coop-u-padding-q coop-u-margin-bh">
+                <ul class="list-bare dm-colour__definition coop-u-white">
+                    <li class="coop-bold">Co-op blue</li>
+                    <li>$brand</li>
+                    <li>rgb(0,177,231)</li>
+                    <li>#00B1E7</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  accessibility_documentation: |-
+    The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
+
+    [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
     id: 3ji7octqKIAK6M64O4C4UW
     created_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
@@ -355,11 +413,65 @@ designPattern:
 
     If you have reason to use them, research them using mobile devices. Entering information using touch devices can be especially time-consuming.
 - sys:
+    id: 6lzK0U8LlYgc2OWmuu22e6
+    created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 14:51:20.685000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Colour palette
+  status: live
+  introduction: |-
+    You can use other colours to:
+
+    - draw users’ focus to particular content areas
+    - emphasise content so that it’s read in an order that makes sense to users
+    - give the impression of depth and layering — this can help structure content in a helpful way for users
+  design_and_content_documentation: |
+    These colours have been contrast tested as background colours with white or grey (#282828) text. Use a colour contrast checker when using any other colour of text.
+
+    Use Co-op’s colour palette:
+
+    - to draw users’ focus to particular content areas
+    - to give emphasis, depth and highlight to our work where needed
+    - in the right context — for example don’t use large amounts of colour in a form, it can distract the user
+    - with restraint — users can read content better when we use limited colour
+    - to help convey meaning to interaction patterns, for example, for mandatory form fields. Never use colour alone to do this.
+    - to communicate the Co-op brand — see the brand guidelines
+
+    The Co-op brand blue is only used on the Co‑op logo. Never use brand blue as text or as a background colour — it’s difficult for those with low vision to read on screen.
+  accessibility_documentation: |-
+    Think about how your colour choices can affect legibility and accessibility — [read WCAG 2.0 specifications on using colour](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0#use-of-color). To be legible, text and background colours must have a minimum contrast between them. You can check colour contrasts online using:
+
+    - [Web Aim's Colour Contrast Checker](https://webaim.org/resources/contrastchecker/)
+    - [Color Oracle (free colour blindness simulator)](http://colororacle.org/)
+    - As well as using these tools, test colour contrast with people of all abilities.
+
+    If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
+
+    [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
+    id: 5M9geK32nYMoqgiYCkoSI4
+    created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:30:40.873000000 Z
+    content_type_id: designPattern
+    revision: 4
+  title: Responsive tables
+  status: beta
+  introduction: |-
+    Patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.
+
+    This ‘rows become mini-tables’ approach works for a table with different types of values — including text.
+  design_and_content_documentation: |-
+    The responsive table takes the same style as the main table — but differ under 480px by the:
+
+    - heading rows becoming table headers
+    - table cell borders are removed
+- sys:
     id: 1B1xHli8eMAe2emCygaQ8K
     created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 15:00:35.219000000 Z
     content_type_id: designPattern
-    revision: 1
+    revision: 2
   title: Buttons
   status: live
   introduction: Buttons are functional. They should allow a user to complete a task
@@ -368,6 +480,7 @@ designPattern:
     Button width should be defined by the content on the button. Buttons should also be ranged left with the left edge aligning with other content.
 
     The primary button should only be used once per page.
+
 
     <div class="coop-l-row coop-u-margin-th">
         <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
@@ -447,91 +560,6 @@ designPattern:
     The area for clicking and tapping buttons must be large enough for people to activate them. Small buttons, and buttons that are placed too close to each other, are difficult for many people to use.
 
     [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 6wmK1ZxEeAAC2iuuYqgiui
-    created_at: !ruby/object:DateTime 2018-11-08 20:53:34.160000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 20:57:39.502000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Links
-  status: live
-  introduction: 'A link should be descriptive of the place it’s taking the user. For
-    example: “Start making your will”.'
-  design_and_content_documentation: |-
-    A link should always be displayed as above unless it's used on a background colour, in which case is can be black or white.
-
-    Links that are in context, for example within a header or footer — can be styled differently.
-
-    <div class="coop-l-row">
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-link-blue-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white">
-                      <li class="coop-bold">Link</li>
-                      <li>$link</li>
-                      <li>rgb(0,14,154)</li>
-                      <li>#00729A</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-link-hover-blue-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white">
-                      <li class="coop-bold">Link hover</li>
-                      <li>$link-hover</li>
-                      <li>rgb(0,57,78)</li>
-                      <li>#00394E</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-link-focus-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition">
-                      <li class="coop-bold">Link focus</li>
-                      <li>$link-focus</li>
-                      <li>rgb(231,196,66)</li>
-                      <li>#E7C442</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-link-active-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white">
-                      <li class="coop-bold">Link active</li>
-                      <li>$link-active</li>
-                      <li>rgb(0,50,69)</li>
-                      <li>#002C3D</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-  accessibility_documentation: "A link should be descriptive of the place it's taking
-    the user. \n\nFind out [how we write link text](https://coop-design-manual.herokuapp.com/content.html#links).\n\n[For
-    more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html)."
-- sys:
-    id: 5M9geK32nYMoqgiYCkoSI4
-    created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:30:40.873000000 Z
-    content_type_id: designPattern
-    revision: 4
-  title: Responsive tables
-  status: beta
-  introduction: |-
-    Patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.
-
-    This ‘rows become mini-tables’ approach works for a table with different types of values — including text.
-  design_and_content_documentation: |-
-    The responsive table takes the same style as the main table — but differ under 480px by the:
-
-    - heading rows becoming table headers
-    - table cell borders are removed
 - sys:
     id: 18ffWPhguWa4qIKWQYOWaA
     created_at: !ruby/object:DateTime 2018-11-14 15:13:55.826000000 Z
@@ -637,41 +665,6 @@ designPattern:
             </tr>
         </tbody>
     </table>
-- sys:
-    id: 6lzK0U8LlYgc2OWmuu22e6
-    created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Colour palette
-  status: live
-  introduction: |-
-    You can use other colours to:
-
-    - draw users’ focus to particular content areas
-    - emphasise content so that it’s read in an order that makes sense to users
-    - give the impression of depth and layering — this can help structure content in a helpful way for users
-  design_and_content_documentation: |-
-    These colours have been contrast tested as background colours with white or grey (#282828) text. Use a colour contrast checker when using any other colour of text.
-
-    Use Co-op’s colour palette:
-
-    - to draw users’ focus to particular content areas
-    - to give emphasis, depth and highlight to our work where needed
-    - in the right context — for example don’t use large amounts of colour in a form, it can distract the user
-    - with restraint — users can read content better when we use limited colour
-    - to help convey meaning to interaction patterns, for example, for mandatory form fields. Never use colour alone to do this.
-    - to communicate the Co-op brand — see the brand guidelines
-  accessibility_documentation: |-
-    Think about how your colour choices can affect legibility and accessibility — [read WCAG 2.0 specifications on using colour](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0#use-of-color). To be legible, text and background colours must have a minimum contrast between them. You can check colour contrasts online using:
-
-    - [Web Aim's Colour Contrast Checker](https://webaim.org/resources/contrastchecker/)
-    - [Color Oracle (free colour blindness simulator)](http://colororacle.org/)
-    - As well as using these tools, test colour contrast with people of all abilities.
-
-    If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
-
-    [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
 page:
 - sys:
     id: 3YTlC0pezKMGMsSEq4gkAu

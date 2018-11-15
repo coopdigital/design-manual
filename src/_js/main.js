@@ -67,17 +67,16 @@ $(function(){
 
   function toggleInputLabelClass(input) {
     var $input = $(input);
-
-    $input.parents(".block-label").toggleClass("checked", $input.is(":checked"));
+    $input.parents(".coop-c-checkbox-radio__label").toggleClass("is--checked", $input.is(":checked"));
   }
 
-  $(".block-label").find("input[type=checkbox], input[type=radio]").on("change", function(){
+  $(".coop-c-checkbox-radio__label").find("input[type=checkbox], input[type=radio]").on("change", function(){
     $(this).parents('fieldset').find('input[type=checkbox], input[type=radio]').each(function(){
       toggleInputLabelClass(this);
     });
   });
 
-  $(".block-label").find("input[type=checkbox], input[type=radio]").each(function(){
+  $(".coop-c-checkbox-radio__label").find("input[type=checkbox], input[type=radio]").each(function(){
     toggleInputLabelClass(this);
   });
 

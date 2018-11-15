@@ -100,7 +100,6 @@ gulp.task('lintscss', function() {
 /**
  * Build tasks
  */
-
 // Copy Co-op components
 gulp.task('copy', function () {
   gulp.src([
@@ -124,15 +123,6 @@ gulp.task('jekyll', function (gulpCallBack){
   });
 });
 
-/* Join compiled SCSS and CSS together */
-// gulp.task('cssconcat', function() {
-//   return gulp.src(src_paths.temp)
-//     .pipe(sourcemaps.init())
-//     .pipe(concat('app.css'))
-//     .pipe(sourcemaps.write('maps/'))
-//     .pipe(gulp.dest(dest_paths.styles))
-// });
-
 // Styles
 gulp.task('scss', function() {
   return gulp.src(src_paths.scss)
@@ -147,33 +137,21 @@ gulp.task('scss', function() {
 
 gulp.task('css', function() {
   return gulp.src(src_paths.css)
-    .pipe(postcss(settings.css))
-    .pipe(cssimport(importOptions))
-    .pipe(autoprefixer(settings.autoprefixer))
+    .pipe(sourcemaps.init())
+      .pipe(postcss(settings.css))
+      .pipe(cssimport(importOptions))
+      .pipe(autoprefixer(settings.autoprefixer))
+    .pipe(sourcemaps.write('maps/'))
     .pipe(gulp.dest(dest_paths.styles))
     .pipe(connect.reload());
 });
 
 gulp.task('cssconcat', ['scss', 'css'], function() {
-  return gulp.src(['build/assets/css/maincss.pcss', 'build/assets/css/mainscss.css'])
-    .pipe(sourcemaps.init())
+  return gulp.src(['build/assets/css/mainscss.css', 'build/assets/css/maincss.pcss'])
     .pipe(concat('app.css'))
-    .pipe(sourcemaps.write('maps/'))
     .pipe(gulp.dest(dest_paths.styles))
+    .pipe(connect.reload());
 });
-
-// Styles
-// gulp.task('styles', ['scss', 'css'], function () {
-//   var scssStream,
-//       cssStream;
-//
-//   sassStream = gulp.src('build/assets/css/mainscss.scss')
-//   cssStream = gulp.src('build/assets/css/maincss.pcss');
-//
-//   return merge(sassStream, cssStream)
-//     .pipe(concat('app.css'))
-//     .pipe(gulp.dest(dest_paths.styles));
-// });
 
 // Scripts
 gulp.task('js', ['lintjs'], function() {
@@ -217,7 +195,8 @@ gulp.task('testjs', function() {
  * Watch tasks
  */
 gulp.task('watch', function() {
-  gulp.watch('src/_css/**/*.scss', ['css']);
+  gulp.watch('src/_css/**/*.scss', ['scss', 'cssconcat']);
+  gulp.watch('src/_css/**/*.pcss', ['css', 'cssconcat']);
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
   gulp.watch(src_paths.assets, ['imagemin']);
   gulp.watch(src_paths.html, ['html']);

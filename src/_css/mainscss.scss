@@ -1,3 +1,4 @@
+// Begin to depcriate this file and all the SCSS within
 @import 'node_modules/@coopdigital/coop-frontend-foundations/coop-foundations';
 
 @import 'design-system/design-system';
@@ -29,6 +30,15 @@ input[type="text"]:focus,
 textarea:focus,
 .coop-form__textarea:focus {
     outline: 2px dotted #EABD3E;
+}
+
+.coop-c-checkbox-radio__input {
+  top: 1.7rem !important;  
+}
+
+.coop-c-checkbox-radio__label.is--checked {
+  border: 2px solid #00B1E7;
+  background: #FFFFFF;
 }
 
 input[type="search"] {
