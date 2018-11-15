@@ -138,6 +138,25 @@
 /* Transition to this native CSS using postCSS */
 @import 'css-foundations/dist/foundations.css';
 
+
+/* Overrides until PR is in */
+html,
+body {
+  font-size: var(--type-base--body);
+
+  @media (--mq-medium) {
+    font-size: var(--type-base--body);
+  }
+}
+
+body {
+  line-height: var(--type-base--line-height);
+
+  @media (--mq-medium) {
+    line-height: var(--type-base--line-height);
+  }
+}
+
 /* Components */
 @import 'component-search/src/component.css';
 @import 'component-checkbox/dist/checkbox.css';
