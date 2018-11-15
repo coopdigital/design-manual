@@ -13,6 +13,7 @@ var mocha = require('gulp-mocha');
 var imagemin = require('gulp-imagemin');
 var cssimport = require('gulp-cssimport');
 var postcss = require('gulp-postcss');
+var merge = require('merge-stream');
 
 /**
  * Settings
@@ -23,6 +24,7 @@ var dest = 'build/';
 var src_paths = {
   scss: src + '_css/**/*.scss',
   css: src + '_css/**/*.pcss',
+  temp: src + 'temp/**/*',
   scripts: src + '_js/*.js',
   assets: [
     src + '_assets/**/*',
@@ -124,16 +126,16 @@ gulp.task('jekyll', function (gulpCallBack){
 });
 
 /* Join compiled SCSS and CSS together */
-gulp.task('cssconcat', function() {
-  return gulp.src(['build/assets/css/maincss.pcss', 'build/assets/css/mainscss.css'])
-    .pipe(sourcemaps.init())
-    .pipe(concat('app.css'))
-    .pipe(sourcemaps.write('maps/'))
-    .pipe(gulp.dest(dest_paths.styles))
-});
+// gulp.task('cssconcat', function() {
+//   return gulp.src(src_paths.temp)
+//     .pipe(sourcemaps.init())
+//     .pipe(concat('app.css'))
+//     .pipe(sourcemaps.write('maps/'))
+//     .pipe(gulp.dest(dest_paths.styles))
+// });
 
 // Styles
-gulp.task('scss', ['cssconcat'], function() {
+gulp.task('scss', function() {
   return gulp.src(src_paths.scss)
     .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
@@ -144,13 +146,26 @@ gulp.task('scss', ['cssconcat'], function() {
     .pipe(connect.reload());
 });
 
-gulp.task('css', ['cssconcat'], function() {
+gulp.task('css', function() {
   return gulp.src(src_paths.css)
     .pipe(postcss(settings.css))
     .pipe(cssimport(importOptions))
     .pipe(autoprefixer(settings.autoprefixer))
     .pipe(gulp.dest(dest_paths.styles))
     .pipe(connect.reload());
+});
+
+// Styles
+gulp.task('styles', ['scss', 'css'], function () {
+  var scssStream,
+      cssStream;
+
+  sassStream = gulp.src('build/assets/css/mainscss.scss')
+  cssStream = gulp.src('build/assets/css/maincss.pcss');
+
+  return merge(sassStream, cssStream)
+    .pipe(concat('app.css'))
+    .pipe(gulp.dest(dest_paths.styles));
 });
 
 // Scripts
@@ -217,6 +232,6 @@ gulp.task('connect', function() {
  * Run tasks
  */
 gulp.task('test', ['testjs']);
-gulp.task('build', ['html', 'scss', 'css', 'vendorjs', 'js', 'imagemin', 'copy', 'cssconcat']);
+gulp.task('build', ['html', 'scss', 'css', 'styles', 'vendorjs', 'js', 'imagemin', 'copy']);
 gulp.task('server', ['build', 'watch', 'connect']);
 gulp.task('default', ['build']);
