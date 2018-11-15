@@ -43,8 +43,7 @@ var settings = {
 
     includePaths: [
       'node_modules',
-      src + 'src/css',
-      '!node_modules/@coopdigital/css-foundations/dist/foundations',
+      src + 'src/css'
     ]
   },
   autoprefixer: {
@@ -116,7 +115,10 @@ gulp.task('jekyll', function (gulpCallBack){
 
 // Styles
 gulp.task('css', function() {
-  return gulp.src(src_paths.styles)
+  return gulp.src([
+      src_paths.styles,
+      '!node_modules/@coopdigital/css-foundations/dist/foundations'
+    ])
     .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
       .pipe(postcss())
