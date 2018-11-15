@@ -101,11 +101,12 @@ gulp.task('lintscss', function() {
  * Build tasks
  */
 // Copy Co-op components
+
 gulp.task('copy', function () {
   gulp.src([
     'node_modules/@coopdigital/**/*'
   ])
-  .pipe(gulp.dest('src/_includes/pattern-library/components'));
+  .pipe(gulp.dest('src/_includes/pattern-library/components'))
 });
 
 // Jekyll
