@@ -1,6 +1,27 @@
 // The start of tidying this
 // design manual classes should now be prefixed with dm-
 
+.coop-logo {
+  border-bottom: 0;
+}
+
+// HACKS
+.coop-form__input:focus,
+input[type="text"]:focus,
+.coop-form__input:focus,
+textarea:focus,
+.coop-form__textarea:focus {
+    outline: 2px dotted #EABD3E;
+}
+
+input[type="search"] {
+    box-sizing: border-box;
+}
+
+.coop-c-search__button {
+    height: 66px;
+}
+
 //Colour varibles
 $green-blue-dark: #29837f;
 $woodsmoke: #1D2534;

@@ -115,12 +115,15 @@ gulp.task('jekyll', function (gulpCallBack){
 // Styles
 gulp.task('css', function() {
   return gulp.src(src_paths.styles)
-    .pipe(sourcemaps.init())
+    //.pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
+      .pipe(postcss(
+        require('postcss-cssnext')
+      ))
       .on('error', sass.logError)
       .pipe(cssimport(importOptions))
       .pipe(autoprefixer(settings.autoprefixer))
-    .pipe(sourcemaps.write('maps/'))
+    // .pipe(sourcemaps.write('maps/'))
     .pipe(gulp.dest(dest_paths.styles))
     .pipe(connect.reload());
 });
