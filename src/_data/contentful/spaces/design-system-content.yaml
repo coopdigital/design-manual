@@ -561,14 +561,57 @@ designPattern:
 
 '
 - sys:
+    id: 5xyICzuozC8oY8Uuiuu8om
+    created_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Reordering columns
+  status: live
+  introduction: Columns can be re-ordered by pushing and pulling them relative to
+    their base position.
+- sys:
+    id: 14fiLmQ4P2o8aMiaWCSYiC
+    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 13:31:20.917000000 Z
+    content_type_id: designPattern
+    revision: 5
+  title: Search
+  status: beta
+  introduction: 'Make the length of the text input box appropriate for the amount
+    of information needed: do not make it frustratingly short or intimidatingly long.'
+  design_and_content_documentation: Test documentation.
+  accessibility_documentation: Test accessibility.
+- sys:
+    id: 5JoR23Ulbi8CisOuQ6g02c
+    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Numbered list
+  status: live
+  introduction: Numbered lists are used to indicate a logical sequence.
+- sys:
+    id: nyqE2V53eCUsKKguIcimS
+    created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Font
+  status: live
+  introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
+    clear, open letterforms and letter spacing help communicate a consistent Co-op
+    brand identity.
+  design_and_content_documentation: If you need the Avenir font contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk)
+- sys:
     id: 1B1xHli8eMAe2emCygaQ8K
     created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 21:51:16.365000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 22:08:52.690000000 Z
     content_type_id: designPattern
-    revision: 7
+    revision: 8
   title: Buttons
   status: live
-  introduction: Buttons r functional. They should allow a user to complete a task
+  introduction: Buttons are functional. They should allow a user to complete a task
     and tell them what it is going to do with the information they have provided.
   design_and_content_documentation: |-
     Button width should be defined by the content on the button. Buttons should also be ranged left with the left edge aligning with other content.
@@ -654,49 +697,6 @@ designPattern:
     The area for clicking and tapping buttons must be large enough for people to activate them. Small buttons, and buttons that are placed too close to each other, are difficult for many people to use.
 
     [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 5xyICzuozC8oY8Uuiuu8om
-    created_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Reordering columns
-  status: live
-  introduction: Columns can be re-ordered by pushing and pulling them relative to
-    their base position.
-- sys:
-    id: 14fiLmQ4P2o8aMiaWCSYiC
-    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 13:31:20.917000000 Z
-    content_type_id: designPattern
-    revision: 5
-  title: Search
-  status: beta
-  introduction: 'Make the length of the text input box appropriate for the amount
-    of information needed: do not make it frustratingly short or intimidatingly long.'
-  design_and_content_documentation: Test documentation.
-  accessibility_documentation: Test accessibility.
-- sys:
-    id: 5JoR23Ulbi8CisOuQ6g02c
-    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Numbered list
-  status: live
-  introduction: Numbered lists are used to indicate a logical sequence.
-- sys:
-    id: nyqE2V53eCUsKKguIcimS
-    created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Font
-  status: live
-  introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
-    clear, open letterforms and letter spacing help communicate a consistent Co-op
-    brand identity.
-  design_and_content_documentation: If you need the Avenir font contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk)
 - sys:
     id: C66rMoN0gCCek2QCcygak
     created_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
