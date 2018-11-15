@@ -22,7 +22,7 @@ var dest = 'build/';
 
 var src_paths = {
   scss: src + '_css/**/*.scss',
-  css: src + '_css/**/*.css',
+  css: src + '_css/**/*.pcss',
   temp: src + 'temp/**/*',
   scripts: src + '_js/*.js',
   assets: [
@@ -54,7 +54,7 @@ var settings = {
 
     includePaths: [
       'node_modules',
-      src + 'src/css/maincss.css'
+      src + 'src/css/maincss.pcss'
     ]
   },
   autoprefixer: {
@@ -69,10 +69,9 @@ var settings = {
 };
 
 var importOptions = {
-    matchPattern: "!*.{css}",
+    matchPattern: "!*.{pcss}",
     includePaths: [
-      __dirname + '/node_modules/@coopdigital',
-      __dirname + '/node_modules/@coopdigital/css-foundations/dist/foundations.css'
+      __dirname + '/node_modules/@coopdigital'
     ]
 };
 
@@ -148,7 +147,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('cssconcat', ['scss', 'css'], function() {
-  return gulp.src(['build/assets/css/mainscss.css', 'build/assets/css/maincss.css'])
+  return gulp.src(['build/assets/css/mainscss.css', 'build/assets/css/maincss.pcss'])
     .pipe(concat('app.css'))
     .pipe(gulp.dest(dest_paths.styles))
     .pipe(connect.reload());
