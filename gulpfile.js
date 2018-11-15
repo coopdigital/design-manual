@@ -13,7 +13,6 @@ var mocha = require('gulp-mocha');
 var imagemin = require('gulp-imagemin');
 var cssimport = require('gulp-cssimport');
 var postcss = require('gulp-postcss');
-var merge = require('merge-stream');
 
 /**
  * Settings
@@ -155,18 +154,26 @@ gulp.task('css', function() {
     .pipe(connect.reload());
 });
 
-// Styles
-gulp.task('styles', ['scss', 'css'], function () {
-  var scssStream,
-      cssStream;
-
-  sassStream = gulp.src('build/assets/css/mainscss.scss')
-  cssStream = gulp.src('build/assets/css/maincss.pcss');
-
-  return merge(sassStream, cssStream)
+gulp.task('cssconcat', ['scss', 'css'], function() {
+  return gulp.src(['build/assets/css/maincss.pcss', 'build/assets/css/mainscss.css'])
+    .pipe(sourcemaps.init())
     .pipe(concat('app.css'))
-    .pipe(gulp.dest(dest_paths.styles));
+    .pipe(sourcemaps.write('maps/'))
+    .pipe(gulp.dest(dest_paths.styles))
 });
+
+// Styles
+// gulp.task('styles', ['scss', 'css'], function () {
+//   var scssStream,
+//       cssStream;
+//
+//   sassStream = gulp.src('build/assets/css/mainscss.scss')
+//   cssStream = gulp.src('build/assets/css/maincss.pcss');
+//
+//   return merge(sassStream, cssStream)
+//     .pipe(concat('app.css'))
+//     .pipe(gulp.dest(dest_paths.styles));
+// });
 
 // Scripts
 gulp.task('js', ['lintjs'], function() {
@@ -232,6 +239,6 @@ gulp.task('connect', function() {
  * Run tasks
  */
 gulp.task('test', ['testjs']);
-gulp.task('build', ['html', 'scss', 'css', 'styles', 'vendorjs', 'js', 'imagemin', 'copy']);
+gulp.task('build', ['html', 'scss', 'css', 'vendorjs', 'js', 'imagemin', 'copy', 'cssconcat']);
 gulp.task('server', ['build', 'watch', 'connect']);
 gulp.task('default', ['build']);
