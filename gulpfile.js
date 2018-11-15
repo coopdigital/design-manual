@@ -9,7 +9,6 @@ var include = require('gulp-include');
 var jshint = require('gulp-jshint');
 var stylish = require('jshint-stylish');
 var uglify = require('gulp-uglify');
-var mocha = require('gulp-mocha');
 var imagemin = require('gulp-imagemin');
 var cssimport = require('gulp-cssimport');
 var postcss = require('gulp-postcss');
@@ -184,15 +183,6 @@ gulp.task('imagemin', ['assets'], function() {
 
 
 /**
- * Tests
- */
-gulp.task('testjs', function() {
-  return gulp.src('test.js')
-    .pipe(mocha());
-});
-
-
-/**
  * Watch tasks
  */
 gulp.task('watch', function() {
@@ -218,7 +208,6 @@ gulp.task('connect', function() {
 /**
  * Run tasks
  */
-gulp.task('test', ['testjs']);
 gulp.task('build', ['html', 'scss', 'css', 'vendorjs', 'js', 'imagemin', 'copy', 'cssconcat']);
 gulp.task('server', ['build', 'watch', 'connect']);
 gulp.task('default', ['build']);
