@@ -69,7 +69,7 @@ var settings = {
 };
 
 var importOptions = {
-    matchPattern: "!*.{pcss}",
+    matchPattern: "!*.{css}",
     includePaths: [
       __dirname + '/node_modules/@coopdigital'
     ]
