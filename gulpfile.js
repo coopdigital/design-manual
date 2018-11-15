@@ -40,9 +40,11 @@ var dest_paths = {
 var settings = {
   sass: {
     outputStyle: 'compressed',
+
     includePaths: [
       'node_modules',
-      src + 'src/css'
+      src + 'src/css',
+      '!node_modules/@coopdigital/css-foundations/dist/foundations',
     ]
   },
   autoprefixer: {
@@ -115,15 +117,13 @@ gulp.task('jekyll', function (gulpCallBack){
 // Styles
 gulp.task('css', function() {
   return gulp.src(src_paths.styles)
-    //.pipe(sourcemaps.init())
+    .pipe(sourcemaps.init())
       .pipe(sass(settings.sass))
-      .pipe(postcss(
-        require('postcss-cssnext')
-      ))
+      .pipe(postcss())
       .on('error', sass.logError)
       .pipe(cssimport(importOptions))
       .pipe(autoprefixer(settings.autoprefixer))
-    // .pipe(sourcemaps.write('maps/'))
+    .pipe(sourcemaps.write('maps/'))
     .pipe(gulp.dest(dest_paths.styles))
     .pipe(connect.reload());
 });
