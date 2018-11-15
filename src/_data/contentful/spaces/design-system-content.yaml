@@ -561,6 +561,100 @@ designPattern:
 
 '
 - sys:
+    id: 1B1xHli8eMAe2emCygaQ8K
+    created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 21:51:16.365000000 Z
+    content_type_id: designPattern
+    revision: 7
+  title: Buttons
+  status: live
+  introduction: Buttons r functional. They should allow a user to complete a task
+    and tell them what it is going to do with the information they have provided.
+  design_and_content_documentation: |-
+    Button width should be defined by the content on the button. Buttons should also be ranged left with the left edge aligning with other content.
+
+    The primary button should only be used once per page.
+
+
+    <div class="coop-l-row coop-u-margin-th">
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour ">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Primary button</li>
+                      <li>$button-primary</li>
+                      <li>rgb(15,132,130)</li>
+                      <li>#0F8482</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-hover-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Primary button hover</li>
+                      <li>$button-primary-hover</li>
+                      <li>rgb(43,158,156)</li>
+                      <li>#2B9E9C</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-active-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Primary button active</li>
+                      <li>$button-primary-active</li>
+                      <li>rgb(12,111,109)</li>
+                      <li>#0C6F6D</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Button dark</li>
+                      <li>$button-primary-dark</li>
+                      <li>rgb(0,57,78)</li>
+                      <li>#00394E</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide  coop-u-button-dark-hover-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white  coop-u-margin-x">
+                      <li class="coop-bold">Button dark hover</li>
+                      <li>$button-primary-dark-hover</li>
+                      <li>rgb(74,102,131)</li>
+                      <li>#4A6683</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-active-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Button dark active</li>
+                      <li>$button-primary-dark-active</li>
+                      <li>rgb(46,64,82)</li>
+                      <li>#2e4052</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  accessibility_documentation: |-
+    The area for clicking and tapping buttons must be large enough for people to activate them. Small buttons, and buttons that are placed too close to each other, are difficult for many people to use.
+
+    [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
     id: 5xyICzuozC8oY8Uuiuu8om
     created_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
     updated_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
@@ -865,100 +959,6 @@ designPattern:
     - As well as using these tools, test colour contrast with people of all abilities.
 
     If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
-
-    [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 1B1xHli8eMAe2emCygaQ8K
-    created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 15:00:35.219000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Buttons
-  status: live
-  introduction: Buttons are functional. They should allow a user to complete a task
-    and tell them what it is going to do with the information they have provided.
-  design_and_content_documentation: |-
-    Button width should be defined by the content on the button. Buttons should also be ranged left with the left edge aligning with other content.
-
-    The primary button should only be used once per page.
-
-
-    <div class="coop-l-row coop-u-margin-th">
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour ">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Primary button</li>
-                      <li>$button-primary</li>
-                      <li>rgb(15,132,130)</li>
-                      <li>#0F8482</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-hover-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Primary button hover</li>
-                      <li>$button-primary-hover</li>
-                      <li>rgb(43,158,156)</li>
-                      <li>#2B9E9C</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-active-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Primary button active</li>
-                      <li>$button-primary-active</li>
-                      <li>rgb(12,111,109)</li>
-                      <li>#0C6F6D</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Button dark</li>
-                      <li>$button-primary-dark</li>
-                      <li>rgb(0,57,78)</li>
-                      <li>#00394E</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide  coop-u-button-dark-hover-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white  coop-u-margin-x">
-                      <li class="coop-bold">Button dark hover</li>
-                      <li>$button-primary-dark-hover</li>
-                      <li>rgb(74,102,131)</li>
-                      <li>#4A6683</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-active-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Button dark active</li>
-                      <li>$button-primary-dark-active</li>
-                      <li>rgb(46,64,82)</li>
-                      <li>#2e4052</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-  accessibility_documentation: |-
-    The area for clicking and tapping buttons must be large enough for people to activate them. Small buttons, and buttons that are placed too close to each other, are difficult for many people to use.
 
     [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
 - sys:
