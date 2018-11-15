@@ -6,6 +6,10 @@ $woodsmoke: #1D2534;
   border-bottom: 0;
 }
 
+.list-bare {
+  list-style: none;
+}
+
 // HACKS
 .coop-form__input:focus,
 input[type="text"]:focus,
