@@ -1,5 +1,28 @@
 // Begin to depcriate this file and all the SCSS within
-@import 'node_modules/@coopdigital/coop-frontend-foundations/coop-foundations';
+// This is a transition hack job....
+
+/* Mixins */
+@import "node_modules/@coopdigital/coop-frontend-foundations/mixins/functions";
+@import "node_modules/@coopdigital/coop-frontend-foundations/mixins/utilities";
+@import "node_modules/@coopdigital/coop-frontend-foundations/mixins/grid";
+@import "node_modules/@coopdigital/coop-frontend-foundations/mixins/typography";
+@import "node_modules/@coopdigital/coop-frontend-foundations/mixins/links";
+@import "node_modules/@coopdigital/coop-frontend-foundations/mixins/buttons";
+@import "node_modules/@coopdigital/coop-frontend-foundations/mixins/forms";
+
+/* Utilities */
+@import "node_modules/@coopdigital/coop-frontend-foundations/utilities/layout";
+@import "node_modules/@coopdigital/coop-frontend-foundations/utilities/colour";
+
+/* Foundations */
+@import "node_modules/@coopdigital/coop-frontend-foundations/foundations/global";
+@import "node_modules/@coopdigital/coop-frontend-foundations/foundations/grid";
+@import "node_modules/@coopdigital/coop-frontend-foundations/foundations/typography";
+@import "node_modules/@coopdigital/coop-frontend-foundations/foundations/logo";
+@import "node_modules/@coopdigital/coop-frontend-foundations/foundations/links";
+@import "node_modules/@coopdigital/coop-frontend-foundations/foundations/buttons";
+@import "node_modules/@coopdigital/coop-frontend-foundations/foundations/forms";
+@import "node_modules/@coopdigital/coop-frontend-foundations/foundations/tables";
 
 @import 'design-system/design-system';
 @import 'design-system/navigation';
