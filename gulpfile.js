@@ -69,9 +69,10 @@ var settings = {
 };
 
 var importOptions = {
-    matchPattern: "!*.{css}",
+    matchPattern: "*.{css}",
     includePaths: [
-      __dirname + '/node_modules/@coopdigital'
+      __dirname + '/node_modules/@coopdigital',
+      __dirname + '/node_modules/@coopdigital/css-foundations/dist/foundations.css'
     ]
 };
 
