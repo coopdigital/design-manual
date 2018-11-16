@@ -210,6 +210,20 @@ designPattern:
   introduction: Columns can be re-ordered by pushing and pulling them relative to
     their base position.
 - sys:
+    id: 14fiLmQ4P2o8aMiaWCSYiC
+    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-16 21:58:46.666000000 Z
+    content_type_id: designPattern
+    revision: 6
+  title: Search
+  status: beta
+  github_url: https://github.com/coopdigital/component-search
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-search
+  introduction: 'Make the length of the text input box appropriate for the amount
+    of information needed: do not make it frustratingly short or intimidatingly long.'
+  design_and_content_documentation: Test documentation.
+  accessibility_documentation: Test accessibility.
+- sys:
     id: 60XDcMEd68iowm6k8S624U
     created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
@@ -224,18 +238,6 @@ designPattern:
     Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
 
     Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
-- sys:
-    id: 14fiLmQ4P2o8aMiaWCSYiC
-    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 13:31:20.917000000 Z
-    content_type_id: designPattern
-    revision: 5
-  title: Search
-  status: beta
-  introduction: 'Make the length of the text input box appropriate for the amount
-    of information needed: do not make it frustratingly short or intimidatingly long.'
-  design_and_content_documentation: Test documentation.
-  accessibility_documentation: Test accessibility.
 - sys:
     id: 5JoR23Ulbi8CisOuQ6g02c
     created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
