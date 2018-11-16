@@ -3,6 +3,8 @@
 FROM circleci/node:latest
 LABEL maintainer="matt.tyas@coopdigital.co.uk"
 
+RUN sudo apt-get install sudo
+
 # Add Ruby
 RUN sudo apt-get install gpgv2
 RUN sudo curl -sSL https://rvm.io/mpapis.asc | gpg --import --no-tty
