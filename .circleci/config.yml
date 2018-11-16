@@ -12,22 +12,27 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Install RVM
-          command: command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+          command: sudo command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
       - run:
           name: Install RVM 2
-          command: \curl -sSL https://get.rvm.io | bash -s stable
+          command: sudo \curl -sSL https://get.rvm.io | bash -s stable
       - run:
           name: Install RVM 3
-          command: source /home/circleci/.rvm/scripts/rvm
+          command: sudo source /home/circleci/.rvm/scripts/rvm
       - run:
           name: Install ruby-2.5.1
-          command: rvm install "ruby-2.5.1"
+          command: sudo rvm install ruby-2.5.1
+      - run:
+          name: use 2.5.1
+          command: rvm use 2.5.1
       - run:
           name: Install bundler
           command: gem install bundler
       - run:
           name: Install gems
           command: bundler install
+      - restore_cache:
+          key: gemfile-{{ checksum "Gemfile.lock" }}
       - run:
           name: Install node modules
           command: npm install
