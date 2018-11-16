@@ -21,7 +21,7 @@ jobs:
           command: source /home/circleci/.rvm/scripts/rvm
       - run:
           name: Install ruby-2.5.1
-          command: rvm install ruby-2.5.1
+          command: rvm install "ruby-2.5.1"
       - run:
           name: Install bundler
           command: gem install bundler
