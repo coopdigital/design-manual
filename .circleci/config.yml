@@ -14,9 +14,6 @@ jobs:
           name: Set Ruby Version
           command:  echo "ruby-2.5.1" > ~/.ruby-version
       - run:
-          name: Install bundler
-          command: gem install bundler
-      - run:
           name: Install gems
           command: bundler install
       - run:
