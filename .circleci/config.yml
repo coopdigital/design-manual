@@ -1,8 +1,8 @@
 version: 2
 jobs:
   build:
-    docker: # run the steps with Docker
-      - image: circleci/node:8.9.4
+    docker:
+      - image: yoant/circleci-node-ruby
     steps:
       - checkout
       - run:
@@ -12,7 +12,7 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Install gems
-          command: bundle install
+          command: bundler install
       - run:
           name: Install node modules
           command: npm install
