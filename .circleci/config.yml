@@ -11,6 +11,15 @@ jobs:
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
+          name: Install RVM
+          command: \curl -sSL https://get.rvm.io | bash -s stable
+      - run:
+          name: Install ruby-2.5.1
+          command: rvm install ruby-2.5.1
+      - run:
+          name: Install bundler
+          command: gem install bundler
+      - run:
           name: Install gems
           command: bundler install
       - run:
