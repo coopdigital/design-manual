@@ -11,6 +11,9 @@ jobs:
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
+          name: Install bundler
+          command: sudo gem install bundler
+      - run:
           name: Install gems
           command: bundler install
       - restore_cache:
