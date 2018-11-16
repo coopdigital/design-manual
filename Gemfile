@@ -1,6 +1,5 @@
 source 'http://rubygems.org'
-ruby '2.1.5'
-rubydep '1.3'
+ruby '2.5.1'
 gem 'rack'
 gem 'puma'
 gem 'jekyll'

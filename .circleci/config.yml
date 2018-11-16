@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: yoant/circleci-node-ruby
+      - image: 42424242/node-ruby:0.0.1
     steps:
       - checkout
       - run:
@@ -10,6 +10,9 @@ jobs:
           command: 'sudo npm install -g npm@latest'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: Install bundler
+          command: gem install bundler
       - run:
           name: Install gems
           command: bundler install
