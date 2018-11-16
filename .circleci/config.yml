@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: yoant/circleci-node-ruby
+      - image: yoant/circleci-node-ruby:2.5.1
     steps:
       - checkout
       - run:
@@ -10,9 +10,6 @@ jobs:
           command: 'sudo npm install -g npm@latest'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
-      - run:
-          name: Set Ruby Version
-          command:  echo "ruby-2.5.1" > ~/.ruby-version
       - run:
           name: Install gems
           command: bundler install
