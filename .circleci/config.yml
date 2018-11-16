@@ -2,12 +2,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: 42424242/node-ruby:0.0.5
+      - image: 42424242/node-ruby:0.0.6
     steps:
       - checkout
       - run:
           name: update npm
-          command: 'npm install -g npm@latest'
+          command: 'sudo npm install -g npm@latest'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
