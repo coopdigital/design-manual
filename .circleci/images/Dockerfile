@@ -8,3 +8,6 @@ RUN sudo apt-get update \
 	&& sudo apt-get install -y \
 		ruby-build -v 2.5.1 ruby-dev \
 	&& sudo rm -rf /var/lib/apt/lists/*
+
+# Install Bundler
+RUN sudo gem install bundler
