@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: yoant/circleci-node-ruby:2.5.1
+      - image: yoant/circleci-node-ruby
     steps:
       - checkout
       - run:
@@ -10,6 +10,15 @@ jobs:
           command: 'sudo npm install -g npm@latest'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: Install RVM
+          command: sudo \curl -sSL https://get.rvm.io | bash -s stable
+      - run:
+          name: Install ruby-2.5.1
+          command: rvm install ruby-2.5.1
+      - run:
+          name: Install bundler
+          command: gem install bundler
       - run:
           name: Install gems
           command: bundler install
