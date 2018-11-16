@@ -17,6 +17,9 @@ jobs:
           name: Install RVM 2
           command: \curl -sSL https://get.rvm.io | bash -s stable
       - run:
+          name: Install RVM 3
+          command: source /home/circleci/.rvm/scripts/rvm
+      - run:
           name: Install ruby-2.5.1
           command: rvm install ruby-2.5.1
       - run:
