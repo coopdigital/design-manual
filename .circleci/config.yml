@@ -12,7 +12,7 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Install RVM
-          command: sudo \curl -sSL https://get.rvm.io | bash -s stable
+          command: command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
       - run:
           name: Install ruby-2.5.1
           command: rvm install ruby-2.5.1
