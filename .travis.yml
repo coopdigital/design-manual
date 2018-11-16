@@ -11,4 +11,4 @@ install:
   - rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install 5
 
 script:
-  - npm install -s
+  - npm install -g npm@6.2.0
