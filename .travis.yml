@@ -12,3 +12,4 @@ install:
 
 script:
   - npm install -g npm@6.2.0
+  - gulp build
