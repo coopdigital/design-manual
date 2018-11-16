@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: 42424242/node-ruby
+      - image: 42424242/node-ruby:0.0.2
     steps:
       - checkout
       - run:
