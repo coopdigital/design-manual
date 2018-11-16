@@ -13,6 +13,7 @@
   },
   "homepage": "https://github.com/coopdigital/design-manual#readme",
   "dependencies": {
+    "@coopdigital/component-card": "^1.0.1",
     "@coopdigital/component-checkbox": "^1.0.1",
     "@coopdigital/component-search": "^1.0.1",
     "@coopdigital/coop-frontend-foundations": "^0.1.2",

@@ -11,6 +11,40 @@ $woodsmoke: #1D2534;
   list-style: none;
 }
 
+.dm-icon-list {
+  a {
+    display: inline;
+    margin-right: 32px;
+  }
+}
+
+.coop-c-icon {
+  font-size: em-calc(16);
+  color: #595959;
+}
+
+.coop-c-icon__left {
+  position: relative;
+  top: 5px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.coop-c-icon__left--npm {
+  top: 12px;
+  width: 32px;
+}
+
+.coop-u-link-black {
+  color: #000;
+  border-bottom: 1px solid #000;
+
+  &:hover {
+    color: #000;
+    border-bottom: 0;
+  }
+}
+
 .coop-form__input:focus,
 input[type="text"]:focus,
 .coop-form__input:focus,

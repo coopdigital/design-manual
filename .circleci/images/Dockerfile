@@ -3,14 +3,14 @@
 FROM circleci/node:latest
 LABEL maintainer="matt.tyas@coopdigital.co.uk"
 
-# Add Ruby
-RUN sudo apt-get install gpgv2
+# Add Ruby.
+# TODO Do we need ruby-full?
 RUN sudo curl -sSL https://rvm.io/mpapis.asc | gpg --import --no-tty
-RUN sudo apt-get update
-RUN sudo \curl -sSL https://get.rvm.io | bash -s stable --ruby
+RUN sudo curl -sSL https://get.rvm.io | bash -s stable
 
-# Install Bundler
-FROM ruby:2.5.1
-RUN gem install bundler
+RUN sudo rvm install ruby-2.5.1
+RUN sudo rvm --default use 2.5.1
 
-FROM circleci/node:latest
+
+# Install Bundler.
+RUN sudo gem install bundler

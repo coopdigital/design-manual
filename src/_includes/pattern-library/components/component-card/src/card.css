@@ -1,0 +1,107 @@
+/*================================
+Cards - Co-op front-end components
+================================== */
+@import "@coopdigital/foundations-vars";
+
+.coop-c-card {
+  margin-bottom: var(--spacing-base);
+
+  @media (--mq-medium) {
+    margin-bottom: var(--spacing-medium);
+  }
+}
+
+.coop-c-card__content {
+  padding: 12px;
+  color: var(--color-text);
+  background: var(--color-white);
+  box-shadow: 0 5px 0 0 rgba(0,0,0,0.05);
+
+  > :first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  @media (--mq-medium) {
+    padding: 24px;
+  }
+}
+
+.coop-c-card__image {
+  display: block;
+  width: 100%;
+}
+
+/* Only apply the content offset if an image is present */
+.coop-c-card__image + .coop-c-card__content {
+  position: relative;
+  z-index: 101;
+  margin: -32px var(--spacing-medium--1-8) 0 0;
+
+  @media (--mq-small) {
+    margin-right: var(--spacing-medium--1-4);
+  }
+
+  @media (--mq-medium) {
+    margin: -50px var(--spacing-medium--1-2) 0 0;
+  }
+}
+
+.coop-c-card__title {
+  color: var(--color-text);
+}
+
+.coop-c-card-heading {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  z-index: 110;
+  display: block;
+  padding: 20px 24px;
+  background: var(--color-white);
+  font-weight: 500;
+  font-size: var(--type-base--body);
+  padding: 8px 12px;
+
+  @media (--mq-medium) {
+    top: -24px;
+    left: 40px;
+    padding: 8px 12px;
+    font-size: var(--type-medium--body);
+  }
+
+  @media (--mq-large) {
+    top: -35px;
+    padding: 18px 24px;
+  }
+}
+
+.coop-c-card-heading__link {
+  display: block;
+  color: var(--color-text);
+  text-decoration: underline;
+  border-bottom: 0;
+}
+
+.coop-c-card-heading__link:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.coop-c-card__link {
+  display: block;
+  border-bottom: 0;
+}
+
+.coop-c-card__content .coop-c-card__title {
+  text-decoration: underline;
+}
+
+.coop-c-card__content:hover .coop-c-card__title {
+  text-decoration: none;
+}
