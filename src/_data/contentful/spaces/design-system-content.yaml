@@ -1,351 +1,803 @@
 ---
-page:
+designPattern:
 - sys:
-    id: 2dwjl9DDVOEK8WEkwss0Mc
-    created_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:09:59.089000000 Z
-    content_type_id: page
-    revision: 2
-  title: Accessibility guidelines
+    id: 40h3DXMNVSQcaqs44wEEkA
+    created_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Textarea
+  status: live
+  introduction: Textareas are for when users need to provide longer responses. Use
+    with caution.
+  design_and_content_documentation: |-
+    Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.
+
+    If you have reason to use them, research them using mobile devices. Entering information using touch devices can be especially time-consuming.
+- sys:
+    id: 14fiLmQ4P2o8aMiaWCSYiC
+    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-16 21:58:46.666000000 Z
+    content_type_id: designPattern
+    revision: 6
+  title: Search
+  status: beta
+  github_url: https://github.com/coopdigital/component-search
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-search
+  introduction: 'Make the length of the text input box appropriate for the amount
+    of information needed: do not make it frustratingly short or intimidatingly long.'
+  design_and_content_documentation: Test documentation.
+  accessibility_documentation: Test accessibility.
+- sys:
+    id: 2g6EqBgo8kCi8IYwkgy8Gk
+    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Card - product
+  status: beta
+  github_url: https://github.com/coopdigital/component-card--product
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
+  variations: |2
+
+    - [card component](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card.html)
+- sys:
+    id: 5xyICzuozC8oY8Uuiuu8om
+    created_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Reordering columns
+  status: live
+  introduction: Columns can be re-ordered by pushing and pulling them relative to
+    their base position.
+- sys:
+    id: nyqE2V53eCUsKKguIcimS
+    created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Font
+  status: live
+  introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
+    clear, open letterforms and letter spacing help communicate a consistent Co-op
+    brand identity.
+  design_and_content_documentation: If you need the Avenir font contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk)
+- sys:
+    id: 1B1xHli8eMAe2emCygaQ8K
+    created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 22:08:52.690000000 Z
+    content_type_id: designPattern
+    revision: 8
+  title: Buttons
+  status: live
+  introduction: Buttons are functional. They should allow a user to complete a task
+    and tell them what it is going to do with the information they have provided.
+  design_and_content_documentation: |-
+    Button width should be defined by the content on the button. Buttons should also be ranged left with the left edge aligning with other content.
+
+    The primary button should only be used once per page.
+
+
+    <div class="coop-l-row coop-u-margin-th">
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour ">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Primary button</li>
+                      <li>$button-primary</li>
+                      <li>rgb(15,132,130)</li>
+                      <li>#0F8482</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-hover-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Primary button hover</li>
+                      <li>$button-primary-hover</li>
+                      <li>rgb(43,158,156)</li>
+                      <li>#2B9E9C</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-active-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Primary button active</li>
+                      <li>$button-primary-active</li>
+                      <li>rgb(12,111,109)</li>
+                      <li>#0C6F6D</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Button dark</li>
+                      <li>$button-primary-dark</li>
+                      <li>rgb(0,57,78)</li>
+                      <li>#00394E</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide  coop-u-button-dark-hover-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white  coop-u-margin-x">
+                      <li class="coop-bold">Button dark hover</li>
+                      <li>$button-primary-dark-hover</li>
+                      <li>rgb(74,102,131)</li>
+                      <li>#4A6683</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-active-bg coop-u-padding-q coop-u-margin-bh">
+                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
+                      <li class="coop-bold">Button dark active</li>
+                      <li>$button-primary-dark-active</li>
+                      <li>rgb(46,64,82)</li>
+                      <li>#2e4052</li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  accessibility_documentation: |-
+    The area for clicking and tapping buttons must be large enough for people to activate them. Small buttons, and buttons that are placed too close to each other, are difficult for many people to use.
+
+    [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
+    id: 5JoR23Ulbi8CisOuQ6g02c
+    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Numbered list
+  status: live
+  introduction: Numbered lists are used to indicate a logical sequence.
+- sys:
+    id: 1KYnuYZmqsMMe0uuO88uQo
+    created_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Centring
+  status: live
+  introduction: Columns can be set to centred or uncentered at different viewport
+    sizes.
+- sys:
+    id: C66rMoN0gCCek2QCcygak
+    created_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Input
+  status: live
+  introduction: 'Make the length of the text input box appropriate for the amount
+    of information needed: do not make it frustratingly short or intimidatingly long.'
+- sys:
+    id: zzd72Zvyj6MCGaWQsMcCO
+    created_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Offsetting columns
+  status: live
+  introduction: Columns can be offset by a specified amount of columns from the left
+    hand side.
+- sys:
+    id: 1yKUj6nb3OYgyQ8y6k2gW4
+    created_at: !ruby/object:DateTime 2018-11-08 22:48:24.835000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:54:23.442000000 Z
+    content_type_id: designPattern
+    revision: 3
+  title: Checkboxes and radios
+  status: live
+  introduction: Radio buttons and checkboxes allow users to select an answer from
+    2 or more options.
+  design_and_content_documentation: |-
+    If you’re using either radio buttons or checkboxes:
+
+    - style them in a way that makes it clear which option or options has been selected
+    - allow users to click anywhere in the box
+    - display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan
+    - Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.
+- sys:
+    id: 7hxfZ01mU0Sw6ceA06oOki
+    created_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Page layout
+  status: live
+  introduction: We use a grid to structure our designs. Just like the typography and
+    vertical spacing we use, our grid allows the creation of a consistent horizontal
+    space.
+  design_and_content_documentation: |-
+    Our grid has 12 columns that can be used in various combinations. It has gutters of 32px above 768px and 16px below 768px. We recommend its use because it has been designed to suit our typographic scale.
+
+    The default widths (breakpoints) we use are:
+
+    - All: 0px and up — (all-{column-span})
+    - Extra small: 320px and up — (.xsmall-{column-span})
+    - Small: 480px and up — ((.small-{column-span})
+    - Medium: 750px and up — ((.medium-{column-span})
+    - Large: 960px and up — ((.large-{column-span})
+    - Extra large: 1300px and up — ((.xlarge-{column-span})
+- sys:
+    id: 39qEfscUWQUIcyA0esG8Kc
+    created_at: !ruby/object:DateTime 2018-11-08 23:16:05.840000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 20:06:54.372000000 Z
+    content_type_id: designPattern
+    revision: 6
+  title: Tables
+  status: live
+  introduction: Tables are a good way to present large amounts of complex information
+    when the user needs to compare different things or or interrogate that information.
+    The table format is familiar and, when done well, helps people to find answers
+    to questions.
+  accessibility_documentation: "### Captions\nA caption is the heading for a table.
+    Most screen readers announce the content of captions. Captions help users to find
+    a table and understand what it’s about and decide if they want to read it. The
+    caption is provided by the &lt;caption&gt; element.\n\n### Headers and footers\nBoth
+    columns and rows of a table can have headings. These are marked up as &lt;th&gt;
+    (table heading). We also use the &lt;thead&gt;and &lt;tbody&gt; tags. Although
+    these are not technically needed in all tables, they add some semantic value and
+    are useful if a table needs to be printed as the &lt;thead&gt; element is repeated
+    across all printed pages.\n  \nTable footers (&lt;tfoot&gt;) can be used if there
+    is a lot of rows in a table. It will be displayed by a browser under the body
+    content, but in the markup must be above it. If you have to support a very old
+    browser test this display as in some older browsers it is displayed before the
+    body. In this case move it to below the table content.\n\n### Row headings\nWhen
+    a row needs a heading the &lt;td&gt; of that row should be marked up as a &lt;th&gt;.\n\n###
+    Scope\nWhen the data that relates to the headings is ambiguous the attribute scope=&#x201C;col&#x201D;
+    or scope=&#x201C;row&#x201D; should be added. The scope attribute defines the
+    direction of the header cells and associates them with the corresponding data
+    cells. The scope attribute is also needed for larger tables with one header row
+    or column. We recommend always defining the scope of your column or row headings.\n
+    \ \n### Top left cell\nThe top left cell of a table is often blank as there is
+    no overarching header for the row headings and the content of the table has been
+    described by the &lt;caption&gt;. This cell can be left blank, but must be marked
+    up as an empty &lt;td&gt;&lt;/td&gt;.\n"
+- sys:
+    id: 5M9geK32nYMoqgiYCkoSI4
+    created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 20:03:39.934000000 Z
+    content_type_id: designPattern
+    revision: 6
+  title: Responsive tables
+  status: beta
   introduction: |-
-    Do not design for difference, design so that no one feels different.
-
-    Write in a consistently clear, simple way; this is how we open up our services to everyone.
-  in_page_navigation:
-  - sys:
-      id: 5DhfNoq1m8isM8uEWkqcm6
-      created_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: This is for everyone
-    section_id: this-is-for-everyone
-  - sys:
-      id: 1ycwpgjmXaCEgyy4KOaY02
-      created_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Designing for people with disabilities
-    section_id: designing-for-people-with-disabilities
-  - sys:
-      id: 4PdLyWY4iQ6MkaSqgwSwWO
-      created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Be considerate with language
-    section_id: be-considerate-with-language
-  - sys:
-      id: 5BoAkhXis8IoKe88Mce0G8
-      created_at: !ruby/object:DateTime 2018-11-19 14:05:25.061000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-19 14:05:57.538000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 2
-    url_text: Different access needs
-    section_id: different-access-needs
-  - sys:
-      id: 1JvFECBhQwCMQOYuMo6o8C
-      created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 2
-    url_text: 'WAI-ARIA: make your service technically accessible'
-    section_id: wai-aria-make-your-service-technically-accessible
-  - sys:
-      id: oh4NWHH4DAYIK4Ee0a6um
-      created_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Key common issues
-    section_id: key-common-issues
-  - sys:
-      id: 6AKlYZC88wocEus2kwuGwS
-      created_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: How to learn
-    section_id: how-to-learn
-  content: |-
-    ## [This is for everyone](#this-is-for-everyone)
-    We build our digital services so anyone can use them when they need to. This includes people:
-
-    - with a disability or health condition
-    - who use assistive technology
-    - with low literacy
-    - with English as a second language
-    - who are not confident using digital channels
-
-    [We design services for everyone](https://coop-design-system.herokuapp.com/principles.html#everyone).
-
-    ## Accessibility means no barriers
-    We believe in removing barriers. No one should be prevented from interacting with us or using our services.
-
-    ## Accessibility means empowerment
-    We empower. Accessibility means that people can interact with us independently.
-
-    ## The Equality Act 2010
-    We must not distriminate against people who have a disability or health condition. All information and services that are available to people who have not got a disability, must be available to those who have.
-
-    Anticipate the needs of disabled users, as well as reacting to them — monitor and iterate on the accessibility of your service.
-
-    ## [Designing for people with disabilities](#designing-for-people-with-disabilities)
-    Every user is different: what may solve an issue for one person may not solve it for another.
-
-    We're not just building websites, we're designing services. We should consider every point in the end-to-end journey that Co-op and our customers interact with each other.
-
-    If a service does not work for someone with an access need, including in any off-line part of the interaction (for example, not offering letters in alternative formats), do what you can to change it. Sometimes, the business will need to change to be truly accessible.
-
-    By regularly carrying out user research with people of various disabilities, you can get evidence to persuade the service that a change is needed.
-
-    ## [Be considerate with language](be-considerate-with-language)
-    ### Consider who's reading your content
-    Some people can be sensitive to the language we choose to use: what may be right for some people may not be right for others. Research it with real users, write in a sensitive way, and consider that the people reading it may:
-
-    - have accessibility needs
-    - have little or no knowledge about the subject you're writing about
-    - not be confident using a computer or mobile device
-    - have their own situation, insecurities and struggles
-    - All users deserve our consideration.
-
-    There's guidance on writing clear, understandable, accessible content in our [content guidelines](https://coop-design-system.herokuapp.com/content.html).
-
-    ## How to talk about disability
-    ### Avoid medical terms for people
-    You're not a doctor, do not use a doctors terms or medical jargon.
-
-    ### How to write about deafness
-    Many deaf people who use British Sign Language as their first language refer to themselves as “Deaf”, with a capital D. That means that they consider themselves part of the Deaf community and have a strong deaf identity.
-
-    When writing about deafness, some people use an upper case D to refer to aspects of deaf culture, and a lower case d when speaking about hearing loss. Which one you use will depend on what you are writing and the research you've done.
-
-    ### Positive language
-    Be sensitive about how you refer to people. For example, use ‘partially sighted’ not ‘visually impaired’. Many users with a health condition or disability do not consider themselves to have an impairment.
-
-    Think of mobility aids as just that, rather than someone being “confined to a wheelchair”.
-
-    Avoid phrases such as “suffers from”. They have negative connotations which could be offensive.
-
-    ### Use the language that your users do
-    If you’re unsure which terms to use to write about disability, ask people who have a disability.
-
-    Do not let uncertainty draw out your content. Be direct but sensitive.
-
-    ## [Different access needs](different-access-needs)
-    ### Eye conditions
-    There is a wide spectrum of eye conditions; from colour blindness and low-vision, to partial sightedness and total blindness.
-
-    ### Colour blindness
-    There are many types of colour blindness with varying degrees of impact on people’s perception of colour.
-
-    Users with colour blindness may not need to use any special software. But, insufficient colour contrast between text and background, or use of colours alone to denote status or meaning, will make browsing unnecessarily hard.
-
-    Consider including an alternate colour scheme for people who are colour blind (they may use their own browser extension such as [Color Enhancer](https://chrome.google.com/webstore/detail/color-enhancer/ipkjmjaledkapilfdigkgfmpekpfnkih)).
-
-    You can test how accessible colours are to people who are colour blind using the [Color Laboratory app](http://colorlab.wickline.org/colorblind/colorlab/).
-
-    ### Partially sighted
-    Partially sighted users will have extreme forms of short or long-sightedness; a small field of vision or their vision may be unclear in other ways.
-
-    Partially sighted people may:
-
-    - use high contrast colour schemes when browsing
-    - adjust the size of text
-    - magnify the page using assistive technology, such as a screen magnifier or a handheld magnifier
-    - use a screen reader or a braille display
-
-    ### Blindness
-    Blindness has varying degrees and has different legal measures in different countries.
-
-    People who are “legally blind” may still have the ability to tell light from dark or have residual vision. Blind people often use either a screen reader or a Braille display.
-
-    Your service must work with JavaScript and CSS turned off so that screen readers can work with them.
-
-    ### Hard of hearing and deaf
-    Many hard of hearing or deaf people use British Sign Language (BSL) as their first or preferred language, making English their second language. And so some content and concepts may be difficult to understand.
-
-    All content, in any format, should be clear, simple and to the point. Get advice on how to write for Co-op in our [content guidelines](https://coop-design-system.herokuapp.com/content.html).
-
-    Include captions, transcripts, subtitles and BSL interpreted videos where applicable.
-
-    ### Cognitive impairments
-    Someone with a cognitive impairment may have trouble with one or two types of mental processing but be fine in other areas.
-
-    There are a huge range of cognitive and learning disabilities with differing needs, but there are some things that can make accessing our services easier for everyone:
-
-    - let users decide how they access the service
-    - use plain English and avoid large blocks of text
-    - keep lines of text to around 60 characters (90 maximum)
-    - break up information with logical sub-headings so people can scan information
-    - use large text (minimum 16pt)
-    - build in options for customisation (for example, text colour) or alternative output such as Browsealoud
-    - avoid italics and complex fonts including those that use serifs
-    - avoid anything moving or flickering on the page — if you must, include an easy way to stop it
-    - do not use pure white (#fff) page backgrounds
-
-    ### Epilepsy
-    Do not use flashing or strobe effects on your pages. This can cause a seizure.
-
-    ## [WAI-ARIA: make your service technically accessible](WAI-ARIA-make-your-service-technically-accessible)
-    Websites are getting increasingly complex. They can become inaccessible when assistive technologies do not understand the meaning behind the code — it can make it hard, impossible even, for the user to navigate properly with a screenreader.
-
-    WAI-ARIA (Web Accessibility Initiative – Accessible Rich Internet Applications) is a technical specification that tells you how you can increase the accessibility of your web page. It allows you to associate elements with an WAI-ARIA (or ARIA for short) role and allows you to attach states and properties to support these roles.
-
-    HTML5 elements already contain ARIA behaviour, for example nav doesn't need aria-role=’navigation’ unless supporting an older browser.
-
-    See the full list of ARIA roles available from W3.
-
-    There are some common patterns we're using at Co-op:
-
-    ### Content-info
-    This is used to to declare a region of the page that contains information about the parent document. For example, 'privacy policy' and 'terms and conditions' links. This role is usually placed on the footer element.
-
-    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>contentinfo<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span>”#”</span><span class="token punctuation">&gt;</span></span>Privacy Policy<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span>”#”</span><span class="token punctuation">&gt;</span></span>Terms &amp; Conditions<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">&gt;</span></span></code></pre>
-
-    ### Alerts
-    This role is used to convey an important message to the user. An alert event will be sent to various assistive technologies to allow them to alert the user quickly.
-
-    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>You need to perform an action to fix something<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
-
-    ### Presentation/no context
-    This role is used when there is no context to an element and the screen reader (or other assistive technology) does not need to ‘talk’ about it. For example, a decorative image.
-
-    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>decorative-image.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">aria-role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>presentation<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span></code></pre>
-
-    ### Visibility
-    Use 'aria-hidden' to hide content from screen readers. Most screen readers will ignore display:none so use this to hide subfields until a user action. If you do not use this, some screenreaders may still read out these hidden fields which could be confusing to the user.
-
-    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>This content is hidden.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>This content is not hidden.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>This content is also not hidden.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre>
-
-    ### Importance of new content
-    An ARIA live region is a way of notifying screen readers when content is updated on the page. Screenreader support tends to be inconsisent but it's getting better. It does work on VoiceOver on macOS and iOS.
-
-    A screen reader can only focus on one part of the page at a time. If a new bit of content is updated, such as a validation error outside of the current zone the screenreader is in, the user might miss this update.
-
-    ARIA live regions tackle this by utilising 3 states, these are: off, polite and assertive.
-
-    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>off<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>aria-live is off, there will be no notification<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>polite<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>The screen reader will notify the user of a change when the current task is complete<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>The screen reader will interupt the current task to notifiy the user of a change<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre>
-
-    Only use assertive when absolutely nessesary (for example, form validation which needs the user to act) as it can be disruptive.
-
-    ## [Key common issues](key-common-issues)
-    There are some common accessibility issue that crop up across the web. Many can be easily fixed:
-
-    ### Semantic code
-    Text must have a minimum contrast ratio of 1:4.3 at 24px bold and 19px regular. You can test this using [WebAims Contrast Checker tool](https://webaim.org/resources/contrastchecker/).
-
-    You could also use a 'dropper' style tool like this c[olour contrast analyser from the Paciello Group](https://www.paciellogroup.com/resources/contrastanalyser/) which allows you to select a colour.
-
-    For some users low contrast is preferable (for example, for some people with dyslexia). To accommodate different contrast needs, consider:
-
-    - letting users add their own style sheets
-    - letting users customise the web page using in-page controls
-    - making other aspects of the page more accessible - using larger fonts and non-white backgrounds can make high contrast text easier to read
-
-    [How we use color](https://coop-design-system.herokuapp.com/pattern-library/foundations/colour.html).
-
-    ### Links
-    There is no need to provide description alt/title text on links. Simply create descriptive link text instead. If the link is to a file, include what format the file is in, for example: Annual Report [PDF].
-
-    Never use the text "click here". Not only is this link text not descriptive of the destination, it implies the user needs to click rather than use their keyboard.
-
-    Every link must give a clear indication of what it does. Screenreader users or magnification users will find it easier to navigate.
-
-    Users can use screen reader functionality to list just the links on a page. And many screen reader users audio skim — they just listen to the start of the link. So, link text like this would be problematic:
-
-    - Change your address
-    - Change your name
-    - Change your answers for question 1
-    - Screen reader users might just hear ‘change, change, change’. This is distracting, and potentially annoying.
-
-    Front-load links so the important information is at the beginning of the link.
-
-    Find out more about [how we use links](https://coop-design-system.herokuapp.com/pattern-library/foundations/links.html) and [writing accessible links](https://coop-design-system.herokuapp.com/content.html#links).
-
-    ### Images
-    If an image has no context (therefore doesn’t need to be seen by a screen reader) you can set an empty alt attribute and set the role attribute to 'presentation'.
-
-    The role attribute ensures that the screen reader does not read out the filename of the image instead.
-
-    This webaim article on alternative text can help you decide if your images should include alt text.
-
-    ### Tab index
-    There’s no need to use this. If your code is semantic it will tab just fine.
-
-    If you need to alert your user to something urgently — for example to display an error message — use negative integers as your value.
-
-    ### Heading and titles
-    Use appropriate heading levels. It's a common misconception from the XHTML/HTML4 days that you can only have one h2 per page. You can have more than one h2 in HTML5 as long as they belong inside a article or section. If you're writing XHTML/HTML4, follow the correct semantics.
-
-    Find out more about headings in HTML5 on the Evanto website.
-
-    [How to write titles](https://coop-design-system.herokuapp.com/content.html#titles).
-
-    ### Labels
-    Always provide hidden labels for visual formats that you might consider obvious (like asking for someone's date of birth) — the format may only be obvious for sighted people.
-
-    ### Form elements
-    The (appropriate) form control must have matching for and id attributes. The id attribute must be unique to the page as per semantics.
-
-    A fieldset should be used around logical groupings of form controls, such as a group of radio buttons or checkboxes. These fieldsets must use a legend within them to provide context.
-
-    <option> groups can have a value="" inside them to utilise order. Use <optgroup> wherever possible in your option lists to give more context.
-
-    For example:
-
-    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>optgroup</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Favourite fruit<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>banana<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Banana<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>watermelon<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Watermelon<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>optgroup</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>optgroup</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Favourite Bread<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>sourdough<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Sourdough<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
-            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>pumpernickel<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Pumpernickel<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
-        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>optgroup</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span></code></pre>
-
-    Use 'aria-required'. A screen reader may not pick up the "required asterix" or may not understand what that concept means.
-
-    There are many useful ARIA attributes you can use in your forms to enhance the experience for people using a screenreader. A good introduction to ARIA roles in forms is available on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/forms/Basic_form_hints).
-
-    [How to design forms](https://coop-design-system.herokuapp.com/styles/forms/index.html).
-
-    ### Readability (characters per line)
-    As close to 66 characters per line as possible is ideal. As long as the range is between 45 and 75 characters, your content will be easier to read by everyone, regardless of any access need.
-
-    If a line of text is too wide, the user's eyes will struggle to focus on the text because it’s hard to see where the line starts and ends. It can also be hard to continue to the next line in the correct place.
-
-    If the line of text is too narrow, the eye will have to travel back and forth too often. This is tiring and could be stressful for users, especially if they have dyslexia.
-
-    [How to use horizontal space](https://coop-design-system.herokuapp.com/styles/typography.html#horizontal-space).
-
-    ## [How to learn](how-to-learn)
-    If we all work together, learn and continue to care about accessibility we'll create Co-op digitals products and services that are truly accessible to all.
-
-    There are a number of ways we can [design in the open](https://coop-design-system.herokuapp.com/principles.html#open):
-
-    ### Mentor other colleagues
-    If you've learnt something that could be relevant to other services, share it with your colleagues.
-
-    ### Sit with other teams
-    We have lots of teams working on different things with different challenges, spend time learning what other teams are up to.
-
-    ### Document common issues
-    Another team could be having the same or similar issues as you. Share your problems, along with any solutions you've tried. Another team may well have a solution to something you're trying to tackle.
-
-    ### Test with users with access needs
-    This is by far the most important thing you can do. Research your products and services with a variety of people with a range of access needs.
+    Patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.
+
+    This ‘rows become mini-tables’ approach works for a table with different types of values — including text.
+  design_and_content_documentation: |-
+    The responsive table takes the same style as the main table — but differ under 480px by the:
+
+    - heading rows becoming table headers
+    - table cell borders are removed
+
+    For the styles to work correctly, you must match the markup structure in the example. When deciding whether to use this solution think carefully about if it will fit the needs of your users. If in doubt don't use it, or build your own responsive table. We have made this solution as simple as possible and cannot varify its accessibility yet on smaller device size. Please research your service with users of all abilities.
+- sys:
+    id: 6lzK0U8LlYgc2OWmuu22e6
+    created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 14:51:20.685000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Colour palette
+  status: live
+  introduction: |-
+    You can use other colours to:
+
+    - draw users’ focus to particular content areas
+    - emphasise content so that it’s read in an order that makes sense to users
+    - give the impression of depth and layering — this can help structure content in a helpful way for users
+  design_and_content_documentation: |
+    These colours have been contrast tested as background colours with white or grey (#282828) text. Use a colour contrast checker when using any other colour of text.
+
+    Use Co-op’s colour palette:
+
+    - to draw users’ focus to particular content areas
+    - to give emphasis, depth and highlight to our work where needed
+    - in the right context — for example don’t use large amounts of colour in a form, it can distract the user
+    - with restraint — users can read content better when we use limited colour
+    - to help convey meaning to interaction patterns, for example, for mandatory form fields. Never use colour alone to do this.
+    - to communicate the Co-op brand — see the brand guidelines
+
+    The Co-op brand blue is only used on the Co‑op logo. Never use brand blue as text or as a background colour — it’s difficult for those with low vision to read on screen.
+  accessibility_documentation: |-
+    Think about how your colour choices can affect legibility and accessibility — [read WCAG 2.0 specifications on using colour](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0#use-of-color). To be legible, text and background colours must have a minimum contrast between them. You can check colour contrasts online using:
+
+    - [Web Aim's Colour Contrast Checker](https://webaim.org/resources/contrastchecker/)
+    - [Color Oracle (free colour blindness simulator)](http://colororacle.org/)
+    - As well as using these tools, test colour contrast with people of all abilities.
+
+    If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
+
+    [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
+    id: 59IgUOk2tyqWmQeEAuEu8C
+    created_at: !ruby/object:DateTime 2018-11-16 20:55:59.171000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-16 21:40:20.184000000 Z
+    content_type_id: designPattern
+    revision: 5
+  title: Card
+  status: live
+  github_url: https://github.com/coopdigital/component-card
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card
+  introduction: Cards are used to group information.
+  design_and_content_documentation: You can see examples of the Card component in
+    use on [colleagues.coop.co.uk](https://colleagues.coop.co.uk) and [coop.co.uk/recipes](https://coop.co.uk/recipes).
+- sys:
+    id: lAvhQFgf60gYgaGeSyS2k
+    created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 14:55:58.025000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Logo
+  status: live
+  introduction: The Cloverleaf Symbol was created in 1968 for project facelift, when
+    all the Co-op societies united under one banner. We now use a modernised version
+    that optimised for modern production methods.
+  design_and_content_documentation: |-
+    The logo should:
+
+    - only be used at a width of 38px and a height of 40px
+    - only be used once per page
+    - be the only thing that uses the brand blue
+
+    <div class="coop-l-row coop-u-margin-th">
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-brand-bg coop-u-padding-q coop-u-margin-bh">
+                <ul class="list-bare dm-colour__definition coop-u-white">
+                    <li class="coop-bold">Co-op blue</li>
+                    <li>$brand</li>
+                    <li>rgb(0,177,231)</li>
+                    <li>#00B1E7</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  accessibility_documentation: |-
+    The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
+
+    [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
+    id: 3ji7octqKIAK6M64O4C4UW
+    created_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Bullet list
+  status: live
+  introduction: Lists are an effective way of breaking up content — they make it easier
+    for users to scan and find information. Use bullet points to break up a list of
+    items.
+- sys:
+    id: 6MqI93E8P6AMuWUKYiy00I
+    created_at: !ruby/object:DateTime 2018-11-08 22:57:54.493000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:00:43.331000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Submit
+  status: live
+  introduction: Submit buttons allows a user have a conversation with your service.
+  design_and_content_documentation: |-
+    Make submit buttons:
+
+    - descriptive of what they’re doing, for example, ‘send order’
+    - available only at the end of your form
+    - the primary button on the page
+- sys:
+    id: 6iRruMXnlmieAEIoMWeEeG
+    created_at: !ruby/object:DateTime 2018-11-08 21:36:57.455000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:36:57.456000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Typographic scale
+  status: live
+  introduction: All of our spacing is derived from multiples of 8px. This is our baseline
+    grid. This baseline allows us to space our text, images or any other page elements
+    using these values.
+  design_and_content_documentation: |-
+    <table class="typographic-scale table-smallscreen--stacked margin-bb">
+        <caption>Size, line height and spacing above 768px</caption>
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Size</th>
+                <th scope="col">Line height</th>
+                <th scope="col">Spacing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Mega</th>
+                <td data-th="Size above 768px">60px</td>
+                <td data-th="Leading">83px</td>
+                <td data-th="Spacing">Top 32px<br>Bottom 32px</td>
+            </tr>
+            <tr>
+                <th scope="row">H1</th>
+                <td data-th="Size above 768px">46px</td>
+                <td data-th="Leading">64px</td>
+                <td data-th="Spacing">Bottom 32px</td>
+            </tr>
+            <tr>
+                <th scope="row">H2</th>
+                <td data-th="Size above 768px">26px</td>
+                <td data-th="Leading">40px</td>
+                <td data-th="Spacing">Bottom 8px</td>
+            </tr>
+            <tr>
+                <th scope="row">H3</th>
+                <td data-th="Size above 768px">22px</td>
+                <td data-th="Leading">32px</td>
+                <td data-th="Spacing">Top 8px<br>Bottom 8px</td>
+            </tr>
+            <tr>
+                <th scope="row">H4</th>
+                <td data-th="Size above 768px">22px</td>
+                <td data-th="Leading">32px</td>
+                <td data-th="Spacing">Top 8px Btm 8px</td>
+            </tr>
+            <tr>
+                <th scope="row">H5</th>
+                <td data-th="Size above 768px">22px</td>
+                <td data-th="Leading">32px</td>
+                <td data-th="Spacing">Top 8px<br>Bottom 8px</td>
+            </tr>
+            <tr>
+                <th scope="row">H6</th>
+                <td data-th="Size above 768px">16px</td>
+                <td data-th="Leading">24px</td>
+                <td data-th="Spacing">Top 0px<br>Bottom 4px</td>
+            </tr>
+            <tr>
+                <th scope="row">P lead</th>
+                <td data-th="Size above 768px">26px</td>
+                <td data-th="Leading">42px</td>
+                <td data-th="Spacing">Bottom 8px</td>
+            </tr>
+            <tr>
+                <th scope="row">Paragraph</th>
+                <td data-th="Size above 768px">20px</td>
+                <td data-th="Leading">32px</td>
+                <td data-th="Spacing">Bottom 32px</td>
+            </tr>
+        </tbody>
+    </table>
+- sys:
+    id: 18ffWPhguWa4qIKWQYOWaA
+    created_at: !ruby/object:DateTime 2018-11-14 15:13:55.826000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:50:38.865000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Collapsing columns
+  status: live
+  introduction: Collapsed columns have their padding removed. Columns can be collapsed
+    individually, or whole rows can be collapsed at once by adding the class .collapse
+    to a column or row
+- sys:
+    id: 2Sf5HLM2ooWSAU2UIS0AQg
+    created_at: !ruby/object:DateTime 2018-11-20 08:25:36.906000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-20 08:25:36.906000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Signpost
+  status: live
+  github_url: https://github.com/coopdigital/component-signpost
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-signpost
+  introduction: Signpost navigation is used in pages to link to permanent content.
+- sys:
+    id: 60XDcMEd68iowm6k8S624U
+    created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Validation
+  status: live
+  introduction: Validation lets a user know that they need to amend the information
+    they have entered. It should be flexible - allowing a person to enter information
+    in the way they natuarally would.
+  design_and_content_documentation: |-
+    Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
+
+    Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
+- sys:
+    id: tP1aGA2t5AEG42aquge0y
+    created_at: !ruby/object:DateTime 2018-11-08 22:04:36.898000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:11:36.147000000 Z
+    content_type_id: designPattern
+    revision: 5
+  title: Quotations
+  status: live
+  introduction: "Quotations highlight and support points within content. \n\nUsually
+    quotes come from someone with experience or authority in a subject area. It could
+    be an expert or someone who has used a product or service. \n\nIf you’re using
+    them on a digital platform you need to make sure that they are going to help the
+    user do what they came to do. \n"
+  design_and_content_documentation: "Use quotations when you:\n- want to refer to
+    what someone said, not to pull out text written within the page copy\n- are referring
+    to an external source - remember to cite the author and if possible link to their
+    original work\n- are knowingly using a jargon word after giving a plain English
+    description, for example, 'the people you want to sort out your will (known as
+    'executors')'   \n\nOur quotations use hanging punctuation when using this pattern.
+    This means the opening quotation mark must sit in the margin so as not to disrupt
+    the flow (left alignment) of the text. If the quote is within the text (on the
+    same line) it would not hang.\n\nWhen marking up quotes in HTML - use true quotation
+    marks. True quotes are called smart quotes and the right one must be used according
+    to whether you are opening (‘) or closing (’) a quotation. [Find out about HTML
+    character codes to use for quotes.](https://www.toptal.com/designers/htmlarrows/punctuation/)\n"
+  accessibility_documentation: |-
+    Our quotations are marked up with the blockquote element (for the quotation text) and the cite element for referring to the author of the quote.
+    According to the W3C, the “blockquote element represents a section that is quoted from another source.” So,  when you use this pattern, do not to use it to refer to text within the same page.
+  variations: 'As in the example above - you can use larger text for the quotation
+    if the text is shorter.
+
+'
+- sys:
+    id: 7eOgyHT2MgC8ciKEyy6aIm
+    created_at: !ruby/object:DateTime 2018-11-20 08:56:28.899000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-20 08:56:28.899000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Skip navigation
+  status: live
+  github_url: https://github.com/coopdigital/component-skipnav
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-skipnav
+  introduction: A “skip navigation” link is used to create efficient access for users
+    with certain disabilities.
+- sys:
+    id: 6wmK1ZxEeAAC2iuuYqgiui
+    created_at: !ruby/object:DateTime 2018-11-08 20:53:34.160000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 14:58:54.399000000 Z
+    content_type_id: designPattern
+    revision: 3
+  title: Links
+  status: live
+  introduction: 'A link should be descriptive of the place it’s taking the user. For
+    example: “Start making your will”.'
+  design_and_content_documentation: "A link should always be displayed as above unless
+    it's used on a background colour, in which case is can be black or white.\n\nLinks
+    that are in context, for example within a header or footer — can be styled differently.\n\n<div
+    class=\"coop-l-row\">\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
+    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
+    dm-colour__swatch--wide coop-u-link-blue-bg coop-u-padding-q coop-u-margin-bh\">\n
+    \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
+    class=\"coop-bold\">Link</li>\n                  <li>$link</li>\n                  <li>rgb(0,14,154)</li>\n
+    \                 <li>#00729A</li>\n              </ul>\n            </div>\n
+    \       </div>\n    </div>\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
+    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
+    dm-colour__swatch--wide coop-u-link-hover-blue-bg coop-u-padding-q coop-u-margin-bh\">\n
+    \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
+    class=\"coop-bold\">Link hover</li>\n                  <li>$link-hover</li>\n
+    \                 <li>rgb(0,57,78)</li>\n                  <li>#00394E</li>\n
+    \             </ul>\n            </div>\n        </div>\n    </div>\n    <div
+    class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n        <div class=\"dm-colour\">\n
+    \           <div class=\"dm-colour__swatch dm-colour__swatch--wide coop-u-link-focus-bg
+    coop-u-padding-q coop-u-margin-bh\">\n              <ul class=\"list-bare dm-colour__definition\">\n
+    \                 <li class=\"coop-bold\">Link focus</li>\n                  <li>$link-focus</li>\n
+    \                 <li>rgb(231,196,66)</li>\n                  <li>#E7C442</li>\n
+    \             </ul>\n            </div>\n        </div>\n    </div>\n    <div
+    class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n        <div class=\"dm-colour\">\n
+    \           <div class=\"dm-colour__swatch dm-colour__swatch--wide coop-u-link-active-bg
+    coop-u-padding-q coop-u-margin-bh\">\n              <ul class=\"list-bare dm-colour__definition
+    coop-u-white\">\n                  <li class=\"coop-bold\">Link active</li>\n
+    \                 <li>$link-active</li>\n                  <li>rgb(0,50,69)</li>\n
+    \                 <li>#002C3D</li>\n              </ul>\n            </div>\n
+    \       </div>\n    </div>\n</div>\n\nLinks should: \n- be colour contrast checked.\n-
+    be underlined regardless of what colour they are.\n- use the hand/pointer to indicate
+    that the link is clickable.\n\n"
+  accessibility_documentation: "Link text can be read out of context and should always
+    tell the user where it’s taking them — never use ‘click here’. Find out how we
+    write link text. \n\nFind out [how we write link text](https://coop-design-manual.herokuapp.com/content.html#links).\n\n[For
+    more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html)."
+inPageNavigationLink:
+- sys:
+    id: 16UHPg7SlSoG68kk0qOcmG
+    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 6AKlYZC88wocEus2kwuGwS
+    created_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: How to learn
+  section_id: how-to-learn
+- sys:
+    id: 2BqtPMQpQwQomuMM62QeGY
+    created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Validation messages
+  section_id: validation-messages
+- sys:
+    id: 1ycwpgjmXaCEgyy4KOaY02
+    created_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Designing for people with disabilities
+  section_id: designing-for-people-with-disabilities
+- sys:
+    id: oh4NWHH4DAYIK4Ee0a6um
+    created_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Key common issues
+  section_id: key-common-issues
+- sys:
+    id: 18UiYd1uoO4sqEgqew0M0u
+    created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Job titles
+  section_id: job-titles
+- sys:
+    id: 3ampSbV0IEOa0gcgaYyioy
+    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 19:01:52.723000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Frequently asked questions (FAQs)
+  section_id: frequently-asked-questions-faqs
+- sys:
+    id: 3bLHyid7T2iq2QIyMEQ2e
+    created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 19:13:37.126000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: Ellipsis
+  section_id: ellipsis
+- sys:
+    id: 5BoAkhXis8IoKe88Mce0G8
+    created_at: !ruby/object:DateTime 2018-11-19 14:05:25.061000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:05:57.538000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Different access needs
+  section_id: different-access-needs
+- sys:
+    id: 5Vre0BzSViue2WW2qq2uOG
+    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Money
+  section_id: money
+- sys:
+    id: 4PdLyWY4iQ6MkaSqgwSwWO
+    created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Be considerate with language
+  section_id: be-considerate-with-language
+- sys:
+    id: 1aBqmIklgQgaAgGeuGuoeS
+    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Using Co-op
+  section_id: using-co-op
+- sys:
+    id: 2DWYd6Fp4wCkCMyO4owk20
+    created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Colons and semicolons
+  section_id: colons-and-semicolons
+- sys:
+    id: jFui2S5j2w6aWO4wW6cCE
+    created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Hyphens and dashes
+  section_id: hyphens-and-dashes
+- sys:
+    id: 5jvVTmFwDm0Y4Yci2m4Ykw
+    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Numbers and units
+  section_id: numbers-and-units
+- sys:
+    id: 5DhfNoq1m8isM8uEWkqcm6
+    created_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: This is for everyone
+  section_id: this-is-for-everyone
+- sys:
+    id: 4ISHoIB6b62Q0yAIwuYWOu
+    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Titles
+  section_id: titles
+- sys:
+    id: 1JvFECBhQwCMQOYuMo6o8C
+    created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: 'WAI-ARIA: make your service technically accessible'
+  section_id: wai-aria-make-your-service-technically-accessible
+- sys:
+    id: 1ArPAloWisyIEQS88WQyaE
+    created_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Lists
+  section_id: lists
+- sys:
+    id: 5JYkC4T3JSK6mkQqQYQa8C
+    created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Links
+  section_id: links
+- sys:
+    id: 6Cp3eqqWBykQ8GW0oAUyKA
+    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Asking for names
+  section_id: asking-for-names
+- sys:
+    id: 1UKVpYiwYgemQCQ2QIaSOu
+    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 2qVPoLl9JGWo0WuIO4qkuw
+    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Brackets ('parentheses')
+  section_id: brackets-parentheses
+- sys:
+    id: 3ixUqdVh1YcokouyKq0GgY
+    created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Phone numbers
+  section_id: phone-numbers
+page:
 - sys:
     id: 3YTlC0pezKMGMsSEq4gkAu
     created_at: !ruby/object:DateTime 2018-10-23 13:26:32.454000000 Z
@@ -699,788 +1151,349 @@ page:
     (no bullet)\n- be linked from the top of the page to take users to the relevant
     field\n- help the user fix the problem, for example, ‘Check you've entered the
     correct sort code — it’s the 6 digit number usually found on your bank card’\n\n\n\n\n\n\n\n"
-inPageNavigationLink:
 - sys:
-    id: 2BqtPMQpQwQomuMM62QeGY
-    created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Validation messages
-  section_id: validation-messages
-- sys:
-    id: 1ycwpgjmXaCEgyy4KOaY02
-    created_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Designing for people with disabilities
-  section_id: designing-for-people-with-disabilities
-- sys:
-    id: oh4NWHH4DAYIK4Ee0a6um
-    created_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Key common issues
-  section_id: key-common-issues
-- sys:
-    id: 6AKlYZC88wocEus2kwuGwS
-    created_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: How to learn
-  section_id: how-to-learn
-- sys:
-    id: 16UHPg7SlSoG68kk0qOcmG
-    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Dates and times
-  section_id: dates-and-times
-- sys:
-    id: 6Cp3eqqWBykQ8GW0oAUyKA
-    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Asking for names
-  section_id: asking-for-names
-- sys:
-    id: 1ArPAloWisyIEQS88WQyaE
-    created_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Lists
-  section_id: lists
-- sys:
-    id: 5JYkC4T3JSK6mkQqQYQa8C
-    created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Links
-  section_id: links
-- sys:
-    id: 3ampSbV0IEOa0gcgaYyioy
-    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 19:01:52.723000000 Z
-    content_type_id: inPageNavigationLink
+    id: 2dwjl9DDVOEK8WEkwss0Mc
+    created_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:09:59.089000000 Z
+    content_type_id: page
     revision: 2
-  url_text: Frequently asked questions (FAQs)
-  section_id: frequently-asked-questions-faqs
-- sys:
-    id: 3bLHyid7T2iq2QIyMEQ2e
-    created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 19:13:37.126000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: Ellipsis
-  section_id: ellipsis
-- sys:
-    id: 5BoAkhXis8IoKe88Mce0G8
-    created_at: !ruby/object:DateTime 2018-11-19 14:05:25.061000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:05:57.538000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Different access needs
-  section_id: different-access-needs
-- sys:
-    id: 1aBqmIklgQgaAgGeuGuoeS
-    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Using Co-op
-  section_id: using-co-op
-- sys:
-    id: 2DWYd6Fp4wCkCMyO4owk20
-    created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Colons and semicolons
-  section_id: colons-and-semicolons
-- sys:
-    id: jFui2S5j2w6aWO4wW6cCE
-    created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Hyphens and dashes
-  section_id: hyphens-and-dashes
-- sys:
-    id: 1UKVpYiwYgemQCQ2QIaSOu
-    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Dates and times
-  section_id: dates-and-times
-- sys:
-    id: 2qVPoLl9JGWo0WuIO4qkuw
-    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Brackets ('parentheses')
-  section_id: brackets-parentheses
-- sys:
-    id: 5Vre0BzSViue2WW2qq2uOG
-    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Money
-  section_id: money
-- sys:
-    id: 4PdLyWY4iQ6MkaSqgwSwWO
-    created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Be considerate with language
-  section_id: be-considerate-with-language
-- sys:
-    id: 18UiYd1uoO4sqEgqew0M0u
-    created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Job titles
-  section_id: job-titles
-- sys:
-    id: 4ISHoIB6b62Q0yAIwuYWOu
-    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Titles
-  section_id: titles
-- sys:
-    id: 1JvFECBhQwCMQOYuMo6o8C
-    created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: 'WAI-ARIA: make your service technically accessible'
-  section_id: wai-aria-make-your-service-technically-accessible
-- sys:
-    id: 5jvVTmFwDm0Y4Yci2m4Ykw
-    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Numbers and units
-  section_id: numbers-and-units
-- sys:
-    id: 5DhfNoq1m8isM8uEWkqcm6
-    created_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: This is for everyone
-  section_id: this-is-for-everyone
-- sys:
-    id: 3ixUqdVh1YcokouyKq0GgY
-    created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Phone numbers
-  section_id: phone-numbers
-designPattern:
-- sys:
-    id: zzd72Zvyj6MCGaWQsMcCO
-    created_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Offsetting columns
-  status: live
-  introduction: Columns can be offset by a specified amount of columns from the left
-    hand side.
-- sys:
-    id: 1yKUj6nb3OYgyQ8y6k2gW4
-    created_at: !ruby/object:DateTime 2018-11-08 22:48:24.835000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:54:23.442000000 Z
-    content_type_id: designPattern
-    revision: 3
-  title: Checkboxes and radios
-  status: live
-  introduction: Radio buttons and checkboxes allow users to select an answer from
-    2 or more options.
-  design_and_content_documentation: |-
-    If you’re using either radio buttons or checkboxes:
-
-    - style them in a way that makes it clear which option or options has been selected
-    - allow users to click anywhere in the box
-    - display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan
-    - Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.
-- sys:
-    id: 39qEfscUWQUIcyA0esG8Kc
-    created_at: !ruby/object:DateTime 2018-11-08 23:16:05.840000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 20:06:54.372000000 Z
-    content_type_id: designPattern
-    revision: 6
-  title: Tables
-  status: live
-  introduction: Tables are a good way to present large amounts of complex information
-    when the user needs to compare different things or or interrogate that information.
-    The table format is familiar and, when done well, helps people to find answers
-    to questions.
-  accessibility_documentation: "### Captions\nA caption is the heading for a table.
-    Most screen readers announce the content of captions. Captions help users to find
-    a table and understand what it’s about and decide if they want to read it. The
-    caption is provided by the &lt;caption&gt; element.\n\n### Headers and footers\nBoth
-    columns and rows of a table can have headings. These are marked up as &lt;th&gt;
-    (table heading). We also use the &lt;thead&gt;and &lt;tbody&gt; tags. Although
-    these are not technically needed in all tables, they add some semantic value and
-    are useful if a table needs to be printed as the &lt;thead&gt; element is repeated
-    across all printed pages.\n  \nTable footers (&lt;tfoot&gt;) can be used if there
-    is a lot of rows in a table. It will be displayed by a browser under the body
-    content, but in the markup must be above it. If you have to support a very old
-    browser test this display as in some older browsers it is displayed before the
-    body. In this case move it to below the table content.\n\n### Row headings\nWhen
-    a row needs a heading the &lt;td&gt; of that row should be marked up as a &lt;th&gt;.\n\n###
-    Scope\nWhen the data that relates to the headings is ambiguous the attribute scope=&#x201C;col&#x201D;
-    or scope=&#x201C;row&#x201D; should be added. The scope attribute defines the
-    direction of the header cells and associates them with the corresponding data
-    cells. The scope attribute is also needed for larger tables with one header row
-    or column. We recommend always defining the scope of your column or row headings.\n
-    \ \n### Top left cell\nThe top left cell of a table is often blank as there is
-    no overarching header for the row headings and the content of the table has been
-    described by the &lt;caption&gt;. This cell can be left blank, but must be marked
-    up as an empty &lt;td&gt;&lt;/td&gt;.\n"
-- sys:
-    id: 7hxfZ01mU0Sw6ceA06oOki
-    created_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Page layout
-  status: live
-  introduction: We use a grid to structure our designs. Just like the typography and
-    vertical spacing we use, our grid allows the creation of a consistent horizontal
-    space.
-  design_and_content_documentation: |-
-    Our grid has 12 columns that can be used in various combinations. It has gutters of 32px above 768px and 16px below 768px. We recommend its use because it has been designed to suit our typographic scale.
-
-    The default widths (breakpoints) we use are:
-
-    - All: 0px and up — (all-{column-span})
-    - Extra small: 320px and up — (.xsmall-{column-span})
-    - Small: 480px and up — ((.small-{column-span})
-    - Medium: 750px and up — ((.medium-{column-span})
-    - Large: 960px and up — ((.large-{column-span})
-    - Extra large: 1300px and up — ((.xlarge-{column-span})
-- sys:
-    id: 1KYnuYZmqsMMe0uuO88uQo
-    created_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:55:43.065000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Centring
-  status: live
-  introduction: Columns can be set to centred or uncentered at different viewport
-    sizes.
-- sys:
-    id: C66rMoN0gCCek2QCcygak
-    created_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Input
-  status: live
-  introduction: 'Make the length of the text input box appropriate for the amount
-    of information needed: do not make it frustratingly short or intimidatingly long.'
-- sys:
-    id: nyqE2V53eCUsKKguIcimS
-    created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Font
-  status: live
-  introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
-    clear, open letterforms and letter spacing help communicate a consistent Co-op
-    brand identity.
-  design_and_content_documentation: If you need the Avenir font contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk)
-- sys:
-    id: 1B1xHli8eMAe2emCygaQ8K
-    created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 22:08:52.690000000 Z
-    content_type_id: designPattern
-    revision: 8
-  title: Buttons
-  status: live
-  introduction: Buttons are functional. They should allow a user to complete a task
-    and tell them what it is going to do with the information they have provided.
-  design_and_content_documentation: |-
-    Button width should be defined by the content on the button. Buttons should also be ranged left with the left edge aligning with other content.
-
-    The primary button should only be used once per page.
-
-
-    <div class="coop-l-row coop-u-margin-th">
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour ">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Primary button</li>
-                      <li>$button-primary</li>
-                      <li>rgb(15,132,130)</li>
-                      <li>#0F8482</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-hover-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Primary button hover</li>
-                      <li>$button-primary-hover</li>
-                      <li>rgb(43,158,156)</li>
-                      <li>#2B9E9C</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-active-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Primary button active</li>
-                      <li>$button-primary-active</li>
-                      <li>rgb(12,111,109)</li>
-                      <li>#0C6F6D</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Button dark</li>
-                      <li>$button-primary-dark</li>
-                      <li>rgb(0,57,78)</li>
-                      <li>#00394E</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide  coop-u-button-dark-hover-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white  coop-u-margin-x">
-                      <li class="coop-bold">Button dark hover</li>
-                      <li>$button-primary-dark-hover</li>
-                      <li>rgb(74,102,131)</li>
-                      <li>#4A6683</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-active-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Button dark active</li>
-                      <li>$button-primary-dark-active</li>
-                      <li>rgb(46,64,82)</li>
-                      <li>#2e4052</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-  accessibility_documentation: |-
-    The area for clicking and tapping buttons must be large enough for people to activate them. Small buttons, and buttons that are placed too close to each other, are difficult for many people to use.
-
-    [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 5JoR23Ulbi8CisOuQ6g02c
-    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Numbered list
-  status: live
-  introduction: Numbered lists are used to indicate a logical sequence.
-- sys:
-    id: 14fiLmQ4P2o8aMiaWCSYiC
-    created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-16 21:58:46.666000000 Z
-    content_type_id: designPattern
-    revision: 6
-  title: Search
-  status: beta
-  github_url: https://github.com/coopdigital/component-search
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-search
-  introduction: 'Make the length of the text input box appropriate for the amount
-    of information needed: do not make it frustratingly short or intimidatingly long.'
-  design_and_content_documentation: Test documentation.
-  accessibility_documentation: Test accessibility.
-- sys:
-    id: 5xyICzuozC8oY8Uuiuu8om
-    created_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Reordering columns
-  status: live
-  introduction: Columns can be re-ordered by pushing and pulling them relative to
-    their base position.
-- sys:
-    id: 2Sf5HLM2ooWSAU2UIS0AQg
-    created_at: !ruby/object:DateTime 2018-11-20 08:25:36.906000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-20 08:25:36.906000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Signpost
-  status: live
-  github_url: https://github.com/coopdigital/component-signpost
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-signpost
-  introduction: Signpost navigation is used in pages to link to permanent content.
-- sys:
-    id: 6iRruMXnlmieAEIoMWeEeG
-    created_at: !ruby/object:DateTime 2018-11-08 21:36:57.455000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:36:57.456000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Typographic scale
-  status: live
-  introduction: All of our spacing is derived from multiples of 8px. This is our baseline
-    grid. This baseline allows us to space our text, images or any other page elements
-    using these values.
-  design_and_content_documentation: |-
-    <table class="typographic-scale table-smallscreen--stacked margin-bb">
-        <caption>Size, line height and spacing above 768px</caption>
-        <thead>
-            <tr>
-                <th scope="col"></th>
-                <th scope="col">Size</th>
-                <th scope="col">Line height</th>
-                <th scope="col">Spacing</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">Mega</th>
-                <td data-th="Size above 768px">60px</td>
-                <td data-th="Leading">83px</td>
-                <td data-th="Spacing">Top 32px<br>Bottom 32px</td>
-            </tr>
-            <tr>
-                <th scope="row">H1</th>
-                <td data-th="Size above 768px">46px</td>
-                <td data-th="Leading">64px</td>
-                <td data-th="Spacing">Bottom 32px</td>
-            </tr>
-            <tr>
-                <th scope="row">H2</th>
-                <td data-th="Size above 768px">26px</td>
-                <td data-th="Leading">40px</td>
-                <td data-th="Spacing">Bottom 8px</td>
-            </tr>
-            <tr>
-                <th scope="row">H3</th>
-                <td data-th="Size above 768px">22px</td>
-                <td data-th="Leading">32px</td>
-                <td data-th="Spacing">Top 8px<br>Bottom 8px</td>
-            </tr>
-            <tr>
-                <th scope="row">H4</th>
-                <td data-th="Size above 768px">22px</td>
-                <td data-th="Leading">32px</td>
-                <td data-th="Spacing">Top 8px Btm 8px</td>
-            </tr>
-            <tr>
-                <th scope="row">H5</th>
-                <td data-th="Size above 768px">22px</td>
-                <td data-th="Leading">32px</td>
-                <td data-th="Spacing">Top 8px<br>Bottom 8px</td>
-            </tr>
-            <tr>
-                <th scope="row">H6</th>
-                <td data-th="Size above 768px">16px</td>
-                <td data-th="Leading">24px</td>
-                <td data-th="Spacing">Top 0px<br>Bottom 4px</td>
-            </tr>
-            <tr>
-                <th scope="row">P lead</th>
-                <td data-th="Size above 768px">26px</td>
-                <td data-th="Leading">42px</td>
-                <td data-th="Spacing">Bottom 8px</td>
-            </tr>
-            <tr>
-                <th scope="row">Paragraph</th>
-                <td data-th="Size above 768px">20px</td>
-                <td data-th="Leading">32px</td>
-                <td data-th="Spacing">Bottom 32px</td>
-            </tr>
-        </tbody>
-    </table>
-- sys:
-    id: 6MqI93E8P6AMuWUKYiy00I
-    created_at: !ruby/object:DateTime 2018-11-08 22:57:54.493000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:00:43.331000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Submit
-  status: live
-  introduction: Submit buttons allows a user have a conversation with your service.
-  design_and_content_documentation: |-
-    Make submit buttons:
-
-    - descriptive of what they’re doing, for example, ‘send order’
-    - available only at the end of your form
-    - the primary button on the page
-- sys:
-    id: 18ffWPhguWa4qIKWQYOWaA
-    created_at: !ruby/object:DateTime 2018-11-14 15:13:55.826000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-14 15:50:38.865000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Collapsing columns
-  status: live
-  introduction: Collapsed columns have their padding removed. Columns can be collapsed
-    individually, or whole rows can be collapsed at once by adding the class .collapse
-    to a column or row
-- sys:
-    id: 59IgUOk2tyqWmQeEAuEu8C
-    created_at: !ruby/object:DateTime 2018-11-16 20:55:59.171000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-16 21:40:20.184000000 Z
-    content_type_id: designPattern
-    revision: 5
-  title: Card
-  status: live
-  github_url: https://github.com/coopdigital/component-card
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-card
-  introduction: Cards are used to group information.
-  design_and_content_documentation: You can see examples of the Card component in
-    use on [colleagues.coop.co.uk](https://colleagues.coop.co.uk) and [coop.co.uk/recipes](https://coop.co.uk/recipes).
-- sys:
-    id: 7eOgyHT2MgC8ciKEyy6aIm
-    created_at: !ruby/object:DateTime 2018-11-20 08:56:28.899000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-20 08:56:28.899000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Skip navigation
-  status: live
-  github_url: https://github.com/coopdigital/component-skipnav
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-skipnav
-  introduction: A “skip navigation” link is used to create efficient access for users
-    with certain disabilities.
-- sys:
-    id: tP1aGA2t5AEG42aquge0y
-    created_at: !ruby/object:DateTime 2018-11-08 22:04:36.898000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:11:36.147000000 Z
-    content_type_id: designPattern
-    revision: 5
-  title: Quotations
-  status: live
-  introduction: "Quotations highlight and support points within content. \n\nUsually
-    quotes come from someone with experience or authority in a subject area. It could
-    be an expert or someone who has used a product or service. \n\nIf you’re using
-    them on a digital platform you need to make sure that they are going to help the
-    user do what they came to do. \n"
-  design_and_content_documentation: "Use quotations when you:\n- want to refer to
-    what someone said, not to pull out text written within the page copy\n- are referring
-    to an external source - remember to cite the author and if possible link to their
-    original work\n- are knowingly using a jargon word after giving a plain English
-    description, for example, 'the people you want to sort out your will (known as
-    'executors')'   \n\nOur quotations use hanging punctuation when using this pattern.
-    This means the opening quotation mark must sit in the margin so as not to disrupt
-    the flow (left alignment) of the text. If the quote is within the text (on the
-    same line) it would not hang.\n\nWhen marking up quotes in HTML - use true quotation
-    marks. True quotes are called smart quotes and the right one must be used according
-    to whether you are opening (‘) or closing (’) a quotation. [Find out about HTML
-    character codes to use for quotes.](https://www.toptal.com/designers/htmlarrows/punctuation/)\n"
-  accessibility_documentation: |-
-    Our quotations are marked up with the blockquote element (for the quotation text) and the cite element for referring to the author of the quote.
-    According to the W3C, the “blockquote element represents a section that is quoted from another source.” So,  when you use this pattern, do not to use it to refer to text within the same page.
-  variations: 'As in the example above - you can use larger text for the quotation
-    if the text is shorter.
-
-'
-- sys:
-    id: 60XDcMEd68iowm6k8S624U
-    created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Validation
-  status: live
-  introduction: Validation lets a user know that they need to amend the information
-    they have entered. It should be flexible - allowing a person to enter information
-    in the way they natuarally would.
-  design_and_content_documentation: |-
-    Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
-
-    Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
-- sys:
-    id: 6lzK0U8LlYgc2OWmuu22e6
-    created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 14:51:20.685000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Colour palette
-  status: live
+  title: Accessibility guidelines
   introduction: |-
-    You can use other colours to:
+    Do not design for difference, design so that no one feels different.
 
-    - draw users’ focus to particular content areas
-    - emphasise content so that it’s read in an order that makes sense to users
-    - give the impression of depth and layering — this can help structure content in a helpful way for users
-  design_and_content_documentation: |
-    These colours have been contrast tested as background colours with white or grey (#282828) text. Use a colour contrast checker when using any other colour of text.
+    Write in a consistently clear, simple way; this is how we open up our services to everyone.
+  in_page_navigation:
+  - sys:
+      id: 5DhfNoq1m8isM8uEWkqcm6
+      created_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
+      updated_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: This is for everyone
+    section_id: this-is-for-everyone
+  - sys:
+      id: 1ycwpgjmXaCEgyy4KOaY02
+      created_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
+      updated_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Designing for people with disabilities
+    section_id: designing-for-people-with-disabilities
+  - sys:
+      id: 4PdLyWY4iQ6MkaSqgwSwWO
+      created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
+      updated_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Be considerate with language
+    section_id: be-considerate-with-language
+  - sys:
+      id: 5BoAkhXis8IoKe88Mce0G8
+      created_at: !ruby/object:DateTime 2018-11-19 14:05:25.061000000 Z
+      updated_at: !ruby/object:DateTime 2018-11-19 14:05:57.538000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: Different access needs
+    section_id: different-access-needs
+  - sys:
+      id: 1JvFECBhQwCMQOYuMo6o8C
+      created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
+      updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: 'WAI-ARIA: make your service technically accessible'
+    section_id: wai-aria-make-your-service-technically-accessible
+  - sys:
+      id: oh4NWHH4DAYIK4Ee0a6um
+      created_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
+      updated_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Key common issues
+    section_id: key-common-issues
+  - sys:
+      id: 6AKlYZC88wocEus2kwuGwS
+      created_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
+      updated_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: How to learn
+    section_id: how-to-learn
+  content: |-
+    ## [This is for everyone](#this-is-for-everyone)
+    We build our digital services so anyone can use them when they need to. This includes people:
 
-    Use Co-op’s colour palette:
+    - with a disability or health condition
+    - who use assistive technology
+    - with low literacy
+    - with English as a second language
+    - who are not confident using digital channels
 
-    - to draw users’ focus to particular content areas
-    - to give emphasis, depth and highlight to our work where needed
-    - in the right context — for example don’t use large amounts of colour in a form, it can distract the user
-    - with restraint — users can read content better when we use limited colour
-    - to help convey meaning to interaction patterns, for example, for mandatory form fields. Never use colour alone to do this.
-    - to communicate the Co-op brand — see the brand guidelines
+    [We design services for everyone](https://coop-design-system.herokuapp.com/principles.html#everyone).
 
-    The Co-op brand blue is only used on the Co‑op logo. Never use brand blue as text or as a background colour — it’s difficult for those with low vision to read on screen.
-  accessibility_documentation: |-
-    Think about how your colour choices can affect legibility and accessibility — [read WCAG 2.0 specifications on using colour](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.0#use-of-color). To be legible, text and background colours must have a minimum contrast between them. You can check colour contrasts online using:
+    ## Accessibility means no barriers
+    We believe in removing barriers. No one should be prevented from interacting with us or using our services.
 
-    - [Web Aim's Colour Contrast Checker](https://webaim.org/resources/contrastchecker/)
-    - [Color Oracle (free colour blindness simulator)](http://colororacle.org/)
-    - As well as using these tools, test colour contrast with people of all abilities.
+    ## Accessibility means empowerment
+    We empower. Accessibility means that people can interact with us independently.
 
-    If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
+    ## The Equality Act 2010
+    We must not distriminate against people who have a disability or health condition. All information and services that are available to people who have not got a disability, must be available to those who have.
 
-    [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 5M9geK32nYMoqgiYCkoSI4
-    created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 20:03:39.934000000 Z
-    content_type_id: designPattern
-    revision: 6
-  title: Responsive tables
-  status: beta
-  introduction: |-
-    Patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.
+    Anticipate the needs of disabled users, as well as reacting to them — monitor and iterate on the accessibility of your service.
 
-    This ‘rows become mini-tables’ approach works for a table with different types of values — including text.
-  design_and_content_documentation: |-
-    The responsive table takes the same style as the main table — but differ under 480px by the:
+    ## [Designing for people with disabilities](#designing-for-people-with-disabilities)
+    Every user is different: what may solve an issue for one person may not solve it for another.
 
-    - heading rows becoming table headers
-    - table cell borders are removed
+    We're not just building websites, we're designing services. We should consider every point in the end-to-end journey that Co-op and our customers interact with each other.
 
-    For the styles to work correctly, you must match the markup structure in the example. When deciding whether to use this solution think carefully about if it will fit the needs of your users. If in doubt don't use it, or build your own responsive table. We have made this solution as simple as possible and cannot varify its accessibility yet on smaller device size. Please research your service with users of all abilities.
-- sys:
-    id: 40h3DXMNVSQcaqs44wEEkA
-    created_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Textarea
-  status: live
-  introduction: Textareas are for when users need to provide longer responses. Use
-    with caution.
-  design_and_content_documentation: |-
-    Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.
+    If a service does not work for someone with an access need, including in any off-line part of the interaction (for example, not offering letters in alternative formats), do what you can to change it. Sometimes, the business will need to change to be truly accessible.
 
-    If you have reason to use them, research them using mobile devices. Entering information using touch devices can be especially time-consuming.
-- sys:
-    id: 3ji7octqKIAK6M64O4C4UW
-    created_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Bullet list
-  status: live
-  introduction: Lists are an effective way of breaking up content — they make it easier
-    for users to scan and find information. Use bullet points to break up a list of
-    items.
-- sys:
-    id: lAvhQFgf60gYgaGeSyS2k
-    created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 14:55:58.025000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Logo
-  status: live
-  introduction: The Cloverleaf Symbol was created in 1968 for project facelift, when
-    all the Co-op societies united under one banner. We now use a modernised version
-    that optimised for modern production methods.
-  design_and_content_documentation: |-
-    The logo should:
+    By regularly carrying out user research with people of various disabilities, you can get evidence to persuade the service that a change is needed.
 
-    - only be used at a width of 38px and a height of 40px
-    - only be used once per page
-    - be the only thing that uses the brand blue
+    ## [Be considerate with language](be-considerate-with-language)
+    ### Consider who's reading your content
+    Some people can be sensitive to the language we choose to use: what may be right for some people may not be right for others. Research it with real users, write in a sensitive way, and consider that the people reading it may:
 
-    <div class="coop-l-row coop-u-margin-th">
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-brand-bg coop-u-padding-q coop-u-margin-bh">
-                <ul class="list-bare dm-colour__definition coop-u-white">
-                    <li class="coop-bold">Co-op blue</li>
-                    <li>$brand</li>
-                    <li>rgb(0,177,231)</li>
-                    <li>#00B1E7</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-  accessibility_documentation: |-
-    The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
+    - have accessibility needs
+    - have little or no knowledge about the subject you're writing about
+    - not be confident using a computer or mobile device
+    - have their own situation, insecurities and struggles
+    - All users deserve our consideration.
 
-    [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 6wmK1ZxEeAAC2iuuYqgiui
-    created_at: !ruby/object:DateTime 2018-11-08 20:53:34.160000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 14:58:54.399000000 Z
-    content_type_id: designPattern
-    revision: 3
-  title: Links
-  status: live
-  introduction: 'A link should be descriptive of the place it’s taking the user. For
-    example: “Start making your will”.'
-  design_and_content_documentation: "A link should always be displayed as above unless
-    it's used on a background colour, in which case is can be black or white.\n\nLinks
-    that are in context, for example within a header or footer — can be styled differently.\n\n<div
-    class=\"coop-l-row\">\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
-    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
-    dm-colour__swatch--wide coop-u-link-blue-bg coop-u-padding-q coop-u-margin-bh\">\n
-    \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
-    class=\"coop-bold\">Link</li>\n                  <li>$link</li>\n                  <li>rgb(0,14,154)</li>\n
-    \                 <li>#00729A</li>\n              </ul>\n            </div>\n
-    \       </div>\n    </div>\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
-    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
-    dm-colour__swatch--wide coop-u-link-hover-blue-bg coop-u-padding-q coop-u-margin-bh\">\n
-    \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
-    class=\"coop-bold\">Link hover</li>\n                  <li>$link-hover</li>\n
-    \                 <li>rgb(0,57,78)</li>\n                  <li>#00394E</li>\n
-    \             </ul>\n            </div>\n        </div>\n    </div>\n    <div
-    class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n        <div class=\"dm-colour\">\n
-    \           <div class=\"dm-colour__swatch dm-colour__swatch--wide coop-u-link-focus-bg
-    coop-u-padding-q coop-u-margin-bh\">\n              <ul class=\"list-bare dm-colour__definition\">\n
-    \                 <li class=\"coop-bold\">Link focus</li>\n                  <li>$link-focus</li>\n
-    \                 <li>rgb(231,196,66)</li>\n                  <li>#E7C442</li>\n
-    \             </ul>\n            </div>\n        </div>\n    </div>\n    <div
-    class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n        <div class=\"dm-colour\">\n
-    \           <div class=\"dm-colour__swatch dm-colour__swatch--wide coop-u-link-active-bg
-    coop-u-padding-q coop-u-margin-bh\">\n              <ul class=\"list-bare dm-colour__definition
-    coop-u-white\">\n                  <li class=\"coop-bold\">Link active</li>\n
-    \                 <li>$link-active</li>\n                  <li>rgb(0,50,69)</li>\n
-    \                 <li>#002C3D</li>\n              </ul>\n            </div>\n
-    \       </div>\n    </div>\n</div>\n\nLinks should: \n- be colour contrast checked.\n-
-    be underlined regardless of what colour they are.\n- use the hand/pointer to indicate
-    that the link is clickable.\n\n"
-  accessibility_documentation: "Link text can be read out of context and should always
-    tell the user where it’s taking them — never use ‘click here’. Find out how we
-    write link text. \n\nFind out [how we write link text](https://coop-design-manual.herokuapp.com/content.html#links).\n\n[For
-    more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html)."
+    There's guidance on writing clear, understandable, accessible content in our [content guidelines](https://coop-design-system.herokuapp.com/content.html).
+
+    ## How to talk about disability
+    ### Avoid medical terms for people
+    You're not a doctor, do not use a doctors terms or medical jargon.
+
+    ### How to write about deafness
+    Many deaf people who use British Sign Language as their first language refer to themselves as “Deaf”, with a capital D. That means that they consider themselves part of the Deaf community and have a strong deaf identity.
+
+    When writing about deafness, some people use an upper case D to refer to aspects of deaf culture, and a lower case d when speaking about hearing loss. Which one you use will depend on what you are writing and the research you've done.
+
+    ### Positive language
+    Be sensitive about how you refer to people. For example, use ‘partially sighted’ not ‘visually impaired’. Many users with a health condition or disability do not consider themselves to have an impairment.
+
+    Think of mobility aids as just that, rather than someone being “confined to a wheelchair”.
+
+    Avoid phrases such as “suffers from”. They have negative connotations which could be offensive.
+
+    ### Use the language that your users do
+    If you’re unsure which terms to use to write about disability, ask people who have a disability.
+
+    Do not let uncertainty draw out your content. Be direct but sensitive.
+
+    ## [Different access needs](different-access-needs)
+    ### Eye conditions
+    There is a wide spectrum of eye conditions; from colour blindness and low-vision, to partial sightedness and total blindness.
+
+    ### Colour blindness
+    There are many types of colour blindness with varying degrees of impact on people’s perception of colour.
+
+    Users with colour blindness may not need to use any special software. But, insufficient colour contrast between text and background, or use of colours alone to denote status or meaning, will make browsing unnecessarily hard.
+
+    Consider including an alternate colour scheme for people who are colour blind (they may use their own browser extension such as [Color Enhancer](https://chrome.google.com/webstore/detail/color-enhancer/ipkjmjaledkapilfdigkgfmpekpfnkih)).
+
+    You can test how accessible colours are to people who are colour blind using the [Color Laboratory app](http://colorlab.wickline.org/colorblind/colorlab/).
+
+    ### Partially sighted
+    Partially sighted users will have extreme forms of short or long-sightedness; a small field of vision or their vision may be unclear in other ways.
+
+    Partially sighted people may:
+
+    - use high contrast colour schemes when browsing
+    - adjust the size of text
+    - magnify the page using assistive technology, such as a screen magnifier or a handheld magnifier
+    - use a screen reader or a braille display
+
+    ### Blindness
+    Blindness has varying degrees and has different legal measures in different countries.
+
+    People who are “legally blind” may still have the ability to tell light from dark or have residual vision. Blind people often use either a screen reader or a Braille display.
+
+    Your service must work with JavaScript and CSS turned off so that screen readers can work with them.
+
+    ### Hard of hearing and deaf
+    Many hard of hearing or deaf people use British Sign Language (BSL) as their first or preferred language, making English their second language. And so some content and concepts may be difficult to understand.
+
+    All content, in any format, should be clear, simple and to the point. Get advice on how to write for Co-op in our [content guidelines](https://coop-design-system.herokuapp.com/content.html).
+
+    Include captions, transcripts, subtitles and BSL interpreted videos where applicable.
+
+    ### Cognitive impairments
+    Someone with a cognitive impairment may have trouble with one or two types of mental processing but be fine in other areas.
+
+    There are a huge range of cognitive and learning disabilities with differing needs, but there are some things that can make accessing our services easier for everyone:
+
+    - let users decide how they access the service
+    - use plain English and avoid large blocks of text
+    - keep lines of text to around 60 characters (90 maximum)
+    - break up information with logical sub-headings so people can scan information
+    - use large text (minimum 16pt)
+    - build in options for customisation (for example, text colour) or alternative output such as Browsealoud
+    - avoid italics and complex fonts including those that use serifs
+    - avoid anything moving or flickering on the page — if you must, include an easy way to stop it
+    - do not use pure white (#fff) page backgrounds
+
+    ### Epilepsy
+    Do not use flashing or strobe effects on your pages. This can cause a seizure.
+
+    ## [WAI-ARIA: make your service technically accessible](WAI-ARIA-make-your-service-technically-accessible)
+    Websites are getting increasingly complex. They can become inaccessible when assistive technologies do not understand the meaning behind the code — it can make it hard, impossible even, for the user to navigate properly with a screenreader.
+
+    WAI-ARIA (Web Accessibility Initiative – Accessible Rich Internet Applications) is a technical specification that tells you how you can increase the accessibility of your web page. It allows you to associate elements with an WAI-ARIA (or ARIA for short) role and allows you to attach states and properties to support these roles.
+
+    HTML5 elements already contain ARIA behaviour, for example nav doesn't need aria-role=’navigation’ unless supporting an older browser.
+
+    See the full list of ARIA roles available from W3.
+
+    There are some common patterns we're using at Co-op:
+
+    ### Content-info
+    This is used to to declare a region of the page that contains information about the parent document. For example, 'privacy policy' and 'terms and conditions' links. This role is usually placed on the footer element.
+
+    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>footer</span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>contentinfo<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span>”#”</span><span class="token punctuation">&gt;</span></span>Privacy Policy<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span>”#”</span><span class="token punctuation">&gt;</span></span>Terms &amp; Conditions<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>footer</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+    ### Alerts
+    This role is used to convey an important message to the user. An alert event will be sent to various assistive technologies to allow them to alert the user quickly.
+
+    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>alert<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>You need to perform an action to fix something<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+    ### Presentation/no context
+    This role is used when there is no context to an element and the screen reader (or other assistive technology) does not need to ‘talk’ about it. For example, a decorative image.
+
+    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>decorative-image.jpg<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">aria-role</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>presentation<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span></code></pre>
+
+    ### Visibility
+    Use 'aria-hidden' to hide content from screen readers. Most screen readers will ignore display:none so use this to hide subfields until a user action. If you do not use this, some screenreaders may still read out these hidden fields which could be confusing to the user.
+
+    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>This content is hidden.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>false<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>This content is not hidden.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>This content is also not hidden.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+    ### Importance of new content
+    An ARIA live region is a way of notifying screen readers when content is updated on the page. Screenreader support tends to be inconsisent but it's getting better. It does work on VoiceOver on macOS and iOS.
+
+    A screen reader can only focus on one part of the page at a time. If a new bit of content is updated, such as a validation error outside of the current zone the screenreader is in, the user might miss this update.
+
+    ARIA live regions tackle this by utilising 3 states, these are: off, polite and assertive.
+
+    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>off<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>aria-live is off, there will be no notification<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>polite<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>The screen reader will notify the user of a change when the current task is complete<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">aria-live</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>assertive<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>The screen reader will interupt the current task to notifiy the user of a change<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+    Only use assertive when absolutely nessesary (for example, form validation which needs the user to act) as it can be disruptive.
+
+    ## [Key common issues](key-common-issues)
+    There are some common accessibility issue that crop up across the web. Many can be easily fixed:
+
+    ### Semantic code
+    Text must have a minimum contrast ratio of 1:4.3 at 24px bold and 19px regular. You can test this using [WebAims Contrast Checker tool](https://webaim.org/resources/contrastchecker/).
+
+    You could also use a 'dropper' style tool like this c[olour contrast analyser from the Paciello Group](https://www.paciellogroup.com/resources/contrastanalyser/) which allows you to select a colour.
+
+    For some users low contrast is preferable (for example, for some people with dyslexia). To accommodate different contrast needs, consider:
+
+    - letting users add their own style sheets
+    - letting users customise the web page using in-page controls
+    - making other aspects of the page more accessible - using larger fonts and non-white backgrounds can make high contrast text easier to read
+
+    [How we use color](https://coop-design-system.herokuapp.com/pattern-library/foundations/colour.html).
+
+    ### Links
+    There is no need to provide description alt/title text on links. Simply create descriptive link text instead. If the link is to a file, include what format the file is in, for example: Annual Report [PDF].
+
+    Never use the text "click here". Not only is this link text not descriptive of the destination, it implies the user needs to click rather than use their keyboard.
+
+    Every link must give a clear indication of what it does. Screenreader users or magnification users will find it easier to navigate.
+
+    Users can use screen reader functionality to list just the links on a page. And many screen reader users audio skim — they just listen to the start of the link. So, link text like this would be problematic:
+
+    - Change your address
+    - Change your name
+    - Change your answers for question 1
+    - Screen reader users might just hear ‘change, change, change’. This is distracting, and potentially annoying.
+
+    Front-load links so the important information is at the beginning of the link.
+
+    Find out more about [how we use links](https://coop-design-system.herokuapp.com/pattern-library/foundations/links.html) and [writing accessible links](https://coop-design-system.herokuapp.com/content.html#links).
+
+    ### Images
+    If an image has no context (therefore doesn’t need to be seen by a screen reader) you can set an empty alt attribute and set the role attribute to 'presentation'.
+
+    The role attribute ensures that the screen reader does not read out the filename of the image instead.
+
+    This webaim article on alternative text can help you decide if your images should include alt text.
+
+    ### Tab index
+    There’s no need to use this. If your code is semantic it will tab just fine.
+
+    If you need to alert your user to something urgently — for example to display an error message — use negative integers as your value.
+
+    ### Heading and titles
+    Use appropriate heading levels. It's a common misconception from the XHTML/HTML4 days that you can only have one h2 per page. You can have more than one h2 in HTML5 as long as they belong inside a article or section. If you're writing XHTML/HTML4, follow the correct semantics.
+
+    Find out more about headings in HTML5 on the Evanto website.
+
+    [How to write titles](https://coop-design-system.herokuapp.com/content.html#titles).
+
+    ### Labels
+    Always provide hidden labels for visual formats that you might consider obvious (like asking for someone's date of birth) — the format may only be obvious for sighted people.
+
+    ### Form elements
+    The (appropriate) form control must have matching for and id attributes. The id attribute must be unique to the page as per semantics.
+
+    A fieldset should be used around logical groupings of form controls, such as a group of radio buttons or checkboxes. These fieldsets must use a legend within them to provide context.
+
+    <option> groups can have a value="" inside them to utilise order. Use <optgroup> wherever possible in your option lists to give more context.
+
+    For example:
+
+    <pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>select</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>optgroup</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Favourite fruit<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>banana<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Banana<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>watermelon<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Watermelon<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>optgroup</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>optgroup</span> <span class="token attr-name">label</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>Favourite Bread<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>sourdough<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Sourdough<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>option</span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>pumpernickel<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Pumpernickel<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>option</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>optgroup</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>select</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+    Use 'aria-required'. A screen reader may not pick up the "required asterix" or may not understand what that concept means.
+
+    There are many useful ARIA attributes you can use in your forms to enhance the experience for people using a screenreader. A good introduction to ARIA roles in forms is available on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/forms/Basic_form_hints).
+
+    [How to design forms](https://coop-design-system.herokuapp.com/styles/forms/index.html).
+
+    ### Readability (characters per line)
+    As close to 66 characters per line as possible is ideal. As long as the range is between 45 and 75 characters, your content will be easier to read by everyone, regardless of any access need.
+
+    If a line of text is too wide, the user's eyes will struggle to focus on the text because it’s hard to see where the line starts and ends. It can also be hard to continue to the next line in the correct place.
+
+    If the line of text is too narrow, the eye will have to travel back and forth too often. This is tiring and could be stressful for users, especially if they have dyslexia.
+
+    [How to use horizontal space](https://coop-design-system.herokuapp.com/styles/typography.html#horizontal-space).
+
+    ## [How to learn](how-to-learn)
+    If we all work together, learn and continue to care about accessibility we'll create Co-op digitals products and services that are truly accessible to all.
+
+    There are a number of ways we can [design in the open](https://coop-design-system.herokuapp.com/principles.html#open):
+
+    ### Mentor other colleagues
+    If you've learnt something that could be relevant to other services, share it with your colleagues.
+
+    ### Sit with other teams
+    We have lots of teams working on different things with different challenges, spend time learning what other teams are up to.
+
+    ### Document common issues
+    Another team could be having the same or similar issues as you. Share your problems, along with any solutions you've tried. Another team may well have a solution to something you're trying to tackle.
+
+    ### Test with users with access needs
+    This is by far the most important thing you can do. Research your products and services with a variety of people with a range of access needs.
