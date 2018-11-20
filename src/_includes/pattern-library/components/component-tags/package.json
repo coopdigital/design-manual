@@ -1,0 +1,77 @@
+{
+  "_from": "@coopdigital/component-tags",
+  "_id": "@coopdigital/component-tags@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-kyflvxAt6VrqF7Us2wi1r6Mh+uiDO2diSrAfueHe/RDAxHMFRfemaqyjdPlgC6ZJJ2HtfRs6yf1Qah44fi1GHg==",
+  "_location": "/@coopdigital/component-tags",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@coopdigital/component-tags",
+    "name": "@coopdigital/component-tags",
+    "escapedName": "@coopdigital%2fcomponent-tags",
+    "scope": "@coopdigital",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@coopdigital/component-tags/-/component-tags-1.0.0.tgz",
+  "_shasum": "e8c53b181bad1ca39038e02e76d002bd5d88efc7",
+  "_spec": "@coopdigital/component-tags",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
+  "author": {
+    "name": "Matt Tyas",
+    "url": "matt.tyas@coopdigital.co.uk"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/component-tags/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Co-op Components: Tags",
+  "devDependencies": {
+    "@coopdigital/foundations-vars": "^1.0.0",
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "precss": "^3.1.2",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.7.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/coopdigital/component-tags#readme",
+  "keywords": [
+    "tags",
+    "navigation",
+    "taxonomy"
+  ],
+  "license": "MIT",
+  "main": "src/tags.html",
+  "name": "@coopdigital/component-tags",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/component-tags.git"
+  },
+  "scripts": {
+    "build": "postcss src/*.pcss --dir dist/ --ext css",
+    "init": "rm -rf ./.git && git init",
+    "lint": "stylelint 'dist/*.css' --fix",
+    "test": "npm run build && npm run lint"
+  },
+  "style": "src/tags.pcss",
+  "version": "1.0.0"
+}

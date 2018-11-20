@@ -19,6 +19,7 @@
     "@coopdigital/component-search": "^1.0.1",
     "@coopdigital/component-signpost": "^1.0.1",
     "@coopdigital/component-skipnav": "^1.0.0",
+    "@coopdigital/component-tags": "^1.0.0",
     "@coopdigital/coop-frontend-foundations": "^0.1.2",
     "@coopdigital/css-foundations": "^1.7.4",
     "@coopdigital/foundations-buttons": "^1.0.2",
