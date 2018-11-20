@@ -1,0 +1,42 @@
+
+/* ===================================
+Signposts - Co-op front-end components
+====================================== */
+
+@import "@coopdigital/foundations-vars";
+
+.coop-c-signpost {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--spacing-base--1-2);
+  padding: var(--spacing-base--1-2) 0;
+  border-bottom: 5px solid rgba(15,114,152,0.1);
+  transition: all 0.15s ease;
+
+  @media (--mq-medium) {
+    margin-bottom: var(--spacing-medium--1-2);
+  }
+}
+
+.coop-c-signpost__title {
+  margin-bottom: var(--spacing-base--1-2);
+  display: inline;
+  font-weight: 500;
+  text-decoration: underline;
+
+  @media (--mq-medium) {
+    margin-bottom: var(--spacing-medium--1-2);
+  }
+}
+
+.coop-c-signpost__text {
+  color: var(--color-text);
+}
+
+.coop-c-signpost:hover {
+  border-bottom: 5px solid var(--color-link--hover);
+}
+
+.coop-c-signpost:hover .coop-c-signpost__title {
+  text-decoration: none;
+}

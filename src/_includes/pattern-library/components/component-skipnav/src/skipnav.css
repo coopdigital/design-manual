@@ -1,0 +1,34 @@
+
+/* =========================================
+Skip navigation - Co-op front-end components
+============================================ */
+
+@import "@coopdigital/foundations-vars";
+
+.coop-c-skip-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.coop-c-skip-nav__list {
+  list-style: none;
+  margin: 0;
+}
+
+.coop-c-skip-nav__link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  font-size: var(--type-medium--body);
+  padding: var(--spacing-medium--1-4);
+  color: var(--color-white);
+  background: var(--color-grey-dark);
+  white-space: nowrap;
+}
+
+.coop-c-skip-nav__link:focus,
+.coop-c-skip-nav__link:active {
+  left: var(--spacing-medium--1-4);
+}

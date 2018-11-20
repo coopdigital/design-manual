@@ -1,0 +1,75 @@
+{
+  "_from": "@coopdigital/component-skipnav",
+  "_id": "@coopdigital/component-skipnav@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-oDs74zcmf04HzQXy1BXKmbj4N9Zvr4eLWc/5xDfquw7dKtzzyt6Y8hN3r8hRK7h/dhxEkpiUcSe5lMv18ZcEQQ==",
+  "_location": "/@coopdigital/component-skipnav",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@coopdigital/component-skipnav",
+    "name": "@coopdigital/component-skipnav",
+    "escapedName": "@coopdigital%2fcomponent-skipnav",
+    "scope": "@coopdigital",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@coopdigital/component-skipnav/-/component-skipnav-1.0.0.tgz",
+  "_shasum": "b7dfcc51c7a274927502216f6a001dc5079f76d8",
+  "_spec": "@coopdigital/component-skipnav",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
+  "author": {
+    "name": "Matt Tyas",
+    "url": "matt.tyas@coopdigital.co.uk"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/component-skipnav/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Co-op Component: Skipnav",
+  "devDependencies": {
+    "@coopdigital/foundations-vars": "^1.0.0",
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "precss": "^3.1.2",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.7.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/coopdigital/component-skipnav#readme",
+  "keywords": [
+    "navigation"
+  ],
+  "license": "MIT",
+  "main": "src/skipnav.html",
+  "name": "@coopdigital/component-skipnav",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/component-skipnav.git"
+  },
+  "scripts": {
+    "build": "postcss src/*.css --dir dist/ --ext css",
+    "dist": "npm run build && npm run lint",
+    "init": "rm -rf ./.git && git init",
+    "lint": "stylelint 'dist/*.css' --fix"
+  },
+  "style": "src/skipnav.css",
+  "version": "1.0.0"
+}

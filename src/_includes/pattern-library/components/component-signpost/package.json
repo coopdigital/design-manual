@@ -1,0 +1,75 @@
+{
+  "_from": "@coopdigital/component-signpost@^1.0.1",
+  "_id": "@coopdigital/component-signpost@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-/taXCX+4fK8xtM7RODZyLciUQ+2nUH/aonwy2H1rmBns6y8ucZvJ2CMcojxERKFGUPTG/TM9UiOYQ8+hmQBQUg==",
+  "_location": "/@coopdigital/component-signpost",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@coopdigital/component-signpost@^1.0.1",
+    "name": "@coopdigital/component-signpost",
+    "escapedName": "@coopdigital%2fcomponent-signpost",
+    "scope": "@coopdigital",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@coopdigital/component-signpost/-/component-signpost-1.0.1.tgz",
+  "_shasum": "62f045172581157cc21db4be42b9b40a381fe2af",
+  "_spec": "@coopdigital/component-signpost@^1.0.1",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
+  "author": {
+    "name": "Matt Tyas",
+    "url": "matt.tyas@coopdigital.co.uk"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/component-signpost/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Co-op Component: signpost",
+  "devDependencies": {
+    "@coopdigital/foundations-vars": "^1.0.0",
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "precss": "^3.1.2",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.7.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/coopdigital/component-signpost#readme",
+  "keywords": [
+    "navigation"
+  ],
+  "license": "MIT",
+  "main": "src/signpost.html",
+  "name": "@coopdigital/component-signpost",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/component-signpost.git"
+  },
+  "scripts": {
+    "build": "postcss src/*.css --dir dist/ --ext css",
+    "dist": "npm run build && npm run lint",
+    "init": "rm -rf ./.git && git init",
+    "lint": "stylelint 'dist/*.css' --fix"
+  },
+  "style": "src/signpost.css",
+  "version": "1.0.1"
+}
