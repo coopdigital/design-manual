@@ -113,8 +113,8 @@
 .coop-c-list-tags .coop-c-icon,
 .coop-c-list-tags .coop-c-tag,
 .coop-c-list-tags__item {
-  font-size: 0.75rem;
-  font-size: 12px;
+  font-size: 0.875rem;
+  font-size: 14px;
 }
 .coop-c-list-tags__item {
   display: inline-block;

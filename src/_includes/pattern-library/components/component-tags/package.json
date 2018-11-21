@@ -1,28 +1,28 @@
 {
-  "_from": "@coopdigital/component-tags",
-  "_id": "@coopdigital/component-tags@1.0.0",
+  "_from": "@coopdigital/component-tags@^1.0.2",
+  "_id": "@coopdigital/component-tags@1.0.2",
   "_inBundle": false,
-  "_integrity": "sha512-kyflvxAt6VrqF7Us2wi1r6Mh+uiDO2diSrAfueHe/RDAxHMFRfemaqyjdPlgC6ZJJ2HtfRs6yf1Qah44fi1GHg==",
+  "_integrity": "sha512-TQhamFcAnXOk96efMlWTNMOt+Vv0OZcvS4KZR9m7onZt9lEHQxiDpUKfVP0X/0iEkqxPxtu9Q+O7Py0pLOBhVg==",
   "_location": "/@coopdigital/component-tags",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "@coopdigital/component-tags",
+    "raw": "@coopdigital/component-tags@^1.0.2",
     "name": "@coopdigital/component-tags",
     "escapedName": "@coopdigital%2fcomponent-tags",
     "scope": "@coopdigital",
-    "rawSpec": "",
+    "rawSpec": "^1.0.2",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^1.0.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@coopdigital/component-tags/-/component-tags-1.0.0.tgz",
-  "_shasum": "e8c53b181bad1ca39038e02e76d002bd5d88efc7",
-  "_spec": "@coopdigital/component-tags",
+  "_resolved": "https://registry.npmjs.org/@coopdigital/component-tags/-/component-tags-1.0.2.tgz",
+  "_shasum": "db8e17462c3f77b40b240ed688b1de5cafb8c406",
+  "_spec": "@coopdigital/component-tags@^1.0.2",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matt Tyas",
@@ -73,5 +73,5 @@
     "test": "npm run build && npm run lint"
   },
   "style": "src/tags.pcss",
-  "version": "1.0.0"
+  "version": "1.0.2"
 }
