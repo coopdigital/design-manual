@@ -18,6 +18,15 @@ $woodsmoke: #1D2534;
   }
 }
 
+.in-page-nav__section-title {
+  color: $text;
+  border-bottom: 0;
+  &:hover {
+    color: $text;
+    border-bottom: 0;
+  }
+}
+
 .coop-c-icon {
   font-size: em-calc(16);
   color: #595959;
