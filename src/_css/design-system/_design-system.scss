@@ -27,6 +27,13 @@ $woodsmoke: #1D2534;
   }
 }
 
+.coop-icon-list {
+  a {
+    border-bottom: 0;
+    text-decoration: underline;
+  }
+}
+
 .coop-c-icon {
   font-size: em-calc(16);
   color: #595959;
