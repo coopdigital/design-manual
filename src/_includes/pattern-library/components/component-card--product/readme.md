@@ -1,16 +1,16 @@
-# Component card - product
-Card component used to display products.
+# Component - product
+Card for displaying products.
 
 ## Installation
 Install via `npm` or Yarn:
 ```bash
 $ npm install @coopdigital/component-card--product --save
 # OR
-$ yarn add @coopdigital/component-card--product 
+$ yarn add @coopdigital/component-card--product
 ```
 
 ## Usage
-You can include `component-product` in your project by referencing it from your existing CSS via `@import` statement, i.e.:
+You can include `component--card--product` in your project by referencing it from your existing CSS via `@import` statement, i.e.:
 ```css
 @import "node_modules/@coopdigital/component-card--product/dist/card--product.css";
 ```

@@ -29,7 +29,7 @@ id: pattern-library
             <nav>
                 <ul id="in-page-nav" class="coop-list-bare in-page-nav">
                     <li><a href="#example">Example</a></li>
-                    <!-- <li><a href="#design-and-content">Design and content</a></li> -->
+                    <li><a href="#design-and-content">Design and content</a></li>
                     <!-- <li><a href="#accessibility">Accessibility</a></li> -->
                     <li><a href="#variations">Related components</a></li>
                     <li><a href="#suggest-a-change">Suggest a change</a></li>
@@ -47,6 +47,9 @@ id: pattern-library
                         <div class="tabs-container__panel" id="Tab1">
                             <div class="coop-l-row">
                                 <div class="coop-l-column coop-l-large-5 coop-l-medium-8 coop-l-small-12">
+                                    {% include pattern-library/components/component-card--product/src/card--product-alcohol.html %}
+                                </div>
+                                <div class="coop-l-column coop-l-large-5 coop-l-medium-8 coop-l-small-12">
                                     {% include pattern-library/components/component-card--product/src/card--product.html %}
                                 </div>
                             </div>
@@ -62,6 +65,7 @@ id: pattern-library
                         <h3 class="tabs-container__title" id="TabPanelTitle-Tab2">HTML</h3>
                         <div class="tabs-container__panel" id="Tab2">
                             {% highlight html %}
+                            {% include pattern-library/components/component-card--product/src/card--product-alcohol.html %}
                             {% include pattern-library/components/component-card--product/src/card--product.html %}
                             {% include pattern-library/components/component-card--product/src/card--product-sale.html %}
                             {% include pattern-library/components/component-card--product/src/card--product-deal.html %}
@@ -80,10 +84,10 @@ id: pattern-library
                     <li><img src="/images/icons/npm.svg" class="coop-c-icon__left coop-c-icon__left--npm" alt="" /><a href="{{ designPattern.npm_url }}" class="coop-u-link-black">Install via NPM</a></li>
                 </ul>
             </section>
-            <!-- <section id="design-and-content" class="m-tb-med-x margin-bb padding-bh">
+            <section id="design-and-content" class="m-tb-med-x margin-bb padding-bh">
                 <h2>Design and content</h2>
                 <p>{{ designPattern.design_and_content_documentation | markdownify }}</p>
-            </section> -->
+            </section>
             <!-- <section id="accessibility" class="m-tb-med-x margin-bb padding-bh">
                 <h2>Accessibility</h2>
                 <p>{{ designPattern.accessibility_documentation | markdownify }}</p>

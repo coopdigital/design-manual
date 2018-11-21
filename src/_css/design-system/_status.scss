@@ -1,7 +1,8 @@
 .status {
-  font-size: em-calc(12px);
   color: $page;
   padding: 5px 8px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .status__link {
@@ -31,5 +32,7 @@ h1 {
     font-size: em-calc(10px);
     font-family: $medium;
     margin-left: $quarter-spacing-unit;
+    position: relative;
+    top: -3px;
   }
 }

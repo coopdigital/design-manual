@@ -1,28 +1,28 @@
 {
-  "_from": "@coopdigital/component-card--product@^1.0.5",
-  "_id": "@coopdigital/component-card--product@1.0.7",
+  "_from": "@coopdigital/component-card--product@^1.0.7",
+  "_id": "@coopdigital/component-card--product@1.0.8",
   "_inBundle": false,
-  "_integrity": "sha512-W4jXsrDpDhU3dpx/lcUme5czLKCdhs2TGQ9svwpt0T2dBLHBv3OB+o4LbHda3GzOUGxPyIn1sHYX/V9qrWS4WQ==",
+  "_integrity": "sha512-3PgMbm4y12pS1/ETTIRKpqO6zO49/n2AdO9b2JpH287ETDU7udktpZcJ+KA6TN06dtRnbxtK0utWJnVvlGDZQQ==",
   "_location": "/@coopdigital/component-card--product",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "@coopdigital/component-card--product@^1.0.5",
+    "raw": "@coopdigital/component-card--product@^1.0.7",
     "name": "@coopdigital/component-card--product",
     "escapedName": "@coopdigital%2fcomponent-card--product",
     "scope": "@coopdigital",
-    "rawSpec": "^1.0.5",
+    "rawSpec": "^1.0.7",
     "saveSpec": null,
-    "fetchSpec": "^1.0.5"
+    "fetchSpec": "^1.0.7"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@coopdigital/component-card--product/-/component-card--product-1.0.7.tgz",
-  "_shasum": "eac9af032e7ef6e9f5ada9d905020b902bbc3c4c",
-  "_spec": "@coopdigital/component-card--product@^1.0.5",
+  "_resolved": "https://registry.npmjs.org/@coopdigital/component-card--product/-/component-card--product-1.0.8.tgz",
+  "_shasum": "f586b1d0d82235f239db4f8e06d4a914005561ea",
+  "_spec": "@coopdigital/component-card--product@^1.0.7",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matt Tyas",
@@ -76,5 +76,5 @@
     "test": "npm run build && npm run lint"
   },
   "style": "src/card--product.css",
-  "version": "1.0.7"
+  "version": "1.0.8"
 }

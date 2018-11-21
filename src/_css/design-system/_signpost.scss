@@ -8,7 +8,8 @@
   }
 }
 
-.signpost__link {
+.signpost__link,
+.card--link {
   position: relative;
   display: block;
   padding: $quarter-spacing-unit 0;

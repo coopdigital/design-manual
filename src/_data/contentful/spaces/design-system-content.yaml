@@ -830,19 +830,6 @@ designPattern:
   introduction: Columns can be re-ordered by pushing and pulling them relative to
     their base position.
 - sys:
-    id: 2g6EqBgo8kCi8IYwkgy8Gk
-    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Card - product
-  status: beta
-  github_url: https://github.com/coopdigital/component-card--product
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
-  variations: |2
-
-    - [card component](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card.html)
-- sys:
     id: 14fiLmQ4P2o8aMiaWCSYiC
     created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
     updated_at: !ruby/object:DateTime 2018-11-16 21:58:46.666000000 Z
@@ -1075,21 +1062,6 @@ designPattern:
 
     For the styles to work correctly, you must match the markup structure in the example. When deciding whether to use this solution think carefully about if it will fit the needs of your users. If in doubt don't use it, or build your own responsive table. We have made this solution as simple as possible and cannot varify its accessibility yet on smaller device size. Please research your service with users of all abilities.
 - sys:
-    id: 60XDcMEd68iowm6k8S624U
-    created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Validation
-  status: live
-  introduction: Validation lets a user know that they need to amend the information
-    they have entered. It should be flexible - allowing a person to enter information
-    in the way they natuarally would.
-  design_and_content_documentation: |-
-    Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
-
-    Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
-- sys:
     id: tP1aGA2t5AEG42aquge0y
     created_at: !ruby/object:DateTime 2018-11-08 22:04:36.898000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 22:11:36.147000000 Z
@@ -1121,6 +1093,22 @@ designPattern:
     if the text is shorter.
 
 '
+- sys:
+    id: 2g6EqBgo8kCi8IYwkgy8Gk
+    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-21 11:42:45.220000000 Z
+    content_type_id: designPattern
+    revision: 8
+  title: Card - product
+  status: beta
+  github_url: https://github.com/coopdigital/component-card--product
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
+  introduction: Card for displaying and allowing navigation to products.
+  design_and_content_documentation: Examples of tags being used can been seen on [coop.co.uk/products/wine](https://www.coop.co.uk/products/wine).
+  variations: |2
+
+    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card.html)
+    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
 - sys:
     id: 6iRruMXnlmieAEIoMWeEeG
     created_at: !ruby/object:DateTime 2018-11-08 21:36:57.455000000 Z
@@ -1319,6 +1307,21 @@ designPattern:
     The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
 
     [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
+    id: 60XDcMEd68iowm6k8S624U
+    created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Validation
+  status: live
+  introduction: Validation lets a user know that they need to amend the information
+    they have entered. It should be flexible - allowing a person to enter information
+    in the way they natuarally would.
+  design_and_content_documentation: |-
+    Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
+
+    Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
 inPageNavigationLink:
 - sys:
     id: 6AKlYZC88wocEus2kwuGwS
