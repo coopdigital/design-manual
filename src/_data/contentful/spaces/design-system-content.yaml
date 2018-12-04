@@ -721,6 +721,38 @@ designPattern:
   introduction: Columns can be set to centred or uncentered at different viewport
     sizes.
 - sys:
+    id: 2g6EqBgo8kCi8IYwkgy8Gk
+    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-04 10:41:33.746000000 Z
+    content_type_id: designPattern
+    revision: 9
+  title: Card – item
+  status: beta
+  github_url: https://github.com/coopdigital/component-card--product
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
+  introduction: "Item cards contain a small piece of information on one subject. They
+    give people a snapshot of something that they can get more information about by
+    tapping or clicking on the card. Item cards are a good way of presenting content
+    consistently without overloading a page with information. \n\nCards can be grouped
+    together where it makes sense to do so. They are responsive and adapt well to
+    changing views, whether displaying few cards or many. "
+  design_and_content_documentation: |
+    Item cards are used to display a group or list of items that share common characteristics or features, for example products or recipes. They enable someone to quickly browse or search. These cards are used in groups, for example for search results or deals.
+
+    A card should act as a link to one thing only. Don’t include other actions within a card. The whole area of a card is active as a single link.
+
+    Item cards display an image, title and important information or features of the item that may help people make decisions, such as price, dietary requirements, or cooking time.
+  accessibility_documentation: "A card should provide an onward journey to one thing
+    so that it is easily navigated by people. Don’t use buttons or links to other
+    destinations within a card as this may cause confusion or uncertainty for users.\n\nThe
+    entirety of a card should be active to create a large clickable area. \n\nFor
+    more information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
+    \"see our general guide on accessibility.\")"
+  variations: |2
+
+    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card.html)
+    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
+- sys:
     id: 6IIXRPgCWWmy6iIKK4Mqyq
     created_at: !ruby/object:DateTime 2018-11-21 08:36:05.869000000 Z
     updated_at: !ruby/object:DateTime 2018-11-21 09:39:38.503000000 Z
@@ -1062,6 +1094,21 @@ designPattern:
 
     For the styles to work correctly, you must match the markup structure in the example. When deciding whether to use this solution think carefully about if it will fit the needs of your users. If in doubt don't use it, or build your own responsive table. We have made this solution as simple as possible and cannot varify its accessibility yet on smaller device size. Please research your service with users of all abilities.
 - sys:
+    id: 60XDcMEd68iowm6k8S624U
+    created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Validation
+  status: live
+  introduction: Validation lets a user know that they need to amend the information
+    they have entered. It should be flexible - allowing a person to enter information
+    in the way they natuarally would.
+  design_and_content_documentation: |-
+    Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
+
+    Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
+- sys:
     id: tP1aGA2t5AEG42aquge0y
     created_at: !ruby/object:DateTime 2018-11-08 22:04:36.898000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 22:11:36.147000000 Z
@@ -1093,22 +1140,6 @@ designPattern:
     if the text is shorter.
 
 '
-- sys:
-    id: 2g6EqBgo8kCi8IYwkgy8Gk
-    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-21 11:42:45.220000000 Z
-    content_type_id: designPattern
-    revision: 8
-  title: Card - product
-  status: beta
-  github_url: https://github.com/coopdigital/component-card--product
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
-  introduction: Card for displaying and allowing navigation to products.
-  design_and_content_documentation: Examples of tags being used can been seen on [coop.co.uk/products/wine](https://www.coop.co.uk/products/wine).
-  variations: |2
-
-    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card.html)
-    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
 - sys:
     id: 6iRruMXnlmieAEIoMWeEeG
     created_at: !ruby/object:DateTime 2018-11-08 21:36:57.455000000 Z
@@ -1307,21 +1338,6 @@ designPattern:
     The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
 
     [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 60XDcMEd68iowm6k8S624U
-    created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Validation
-  status: live
-  introduction: Validation lets a user know that they need to amend the information
-    they have entered. It should be flexible - allowing a person to enter information
-    in the way they natuarally would.
-  design_and_content_documentation: |-
-    Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
-
-    Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
 inPageNavigationLink:
 - sys:
     id: 6AKlYZC88wocEus2kwuGwS
