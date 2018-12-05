@@ -3,43 +3,24 @@ layout: default
 id: assets
 body-page-class: dm-dark
 ---
-
 <article class="coop-l-wrap">
     {% include breadcrumbs.html %}
-    <header>
-        <div class="coop-l-row">
-            <div class="coop-l-column coop-l-medium-7 coop-l-small-12 intro-box">
-                <h1>Brand assets</h1>
-                <div class="highlight-banner m-bh-med-b">
-                    <p>We <a href="principles.html#open">design in the open</a>, so our design assets — the logos, sketching sheets and guidelines — that you might need for your service are in <a href="https://github.com/coopdigital/coop-design-assets/">Github</a>. Or, you can download them here.</p>
+    {% for page in site.data.contentful.spaces.design-system-content.landingPage %}
+        {% if page.sys.id == '4vQeNl83y8WyeGAcU60wOU' %}
+        <header>
+            <div class="coop-l-row">
+                <div class="coop-l-column coop-l-medium-8 coop-l-small-12 intro-box">
+                    <h1>{{ page.title }}</h1>
+                    <div class="highlight-banner m-bh-med-b">
+                        {{ page.introduction | markdownify }}
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <section class="dm-section">
-        <div class="coop-l-row">
-            <div class="coop-l-column coop-l-small-12 coop-l-large-6">
-                <h2>Design files</h2>
-                <p>Download our:</p>
-                <ul class="coop-list-bare">
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/logo/logo.ai">logo AI (76kb)</a></li>
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/logo/logo-white.ai">logo white AI (40kb)</a></li>
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master//sketch%20files/CoopStyle.sketch">Co-op style Sketch file (9.3mb)</a></li>
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/sketching-templates/coop-desktop-sketching-template.pdf">desktop sketching sheet PDF (795kb)</a></li>
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/sketching-templates/coop-tablet-sketching-template.pdf">tablet sketching sheet PDF (797kb)</a></li>
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/sketching-templates/coop-smartphone-sketching-template.pdf">smartphone sketching sheet PDF (825kb)</a></li>
-                </ul>
-            </div>
-            <div class="coop-l-column coop-l-small-12 coop-l-large-6">
-                <h2>Principles and guidelines</h2>
-                <p>Download our:</p>
-                <ul class="coop-list-bare">
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/principles/DP_poster_v7.pdf">Design principles v7 PDF (46kb)</a></li>
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/brand/WR_B_024-Brand Guidelines_16_9Low.pdf">Co-op brand guidelines (4mb)</a></li>
-                    <li><a href="https://coop.getbynder.com">Brand portal</a> - contact <a href="mailto:rachel.hardwick@coopdigital.co.uk">Rachel Hardwick</a> for access</li>
-                    <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/email/email-guidelines.pdf">Email design guidelines (727kb)</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+        </header>
+        <section class="ds-section">
+            {{ page.content | markdownify }}
+        </section>
+        {% endif %}
+    {% endfor %}
+    </article>
 </article>

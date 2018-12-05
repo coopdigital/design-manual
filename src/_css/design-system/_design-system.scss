@@ -97,6 +97,15 @@ input[type="search"] {
   border-bottom: 0;
 }
 
+.ds-section h2 {
+  margin-bottom: 16px;
+}
+
+.ds-section p + h2,
+.ds-section ul + h2 {
+  margin-top: 64px;
+}
+
 .coop-c-skip-nav {
   position: absolute;
   top: 0;
@@ -254,6 +263,10 @@ a {
   border-left: 0;
   padding-left: 0;
   margin-left: 0;
+
+  li {
+    margin-bottom: 12px;
+  }
 }
 
 .in-page-nav-title {

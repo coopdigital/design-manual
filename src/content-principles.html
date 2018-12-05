@@ -6,21 +6,37 @@ body-page-class: dm-dark
 
 <article class="coop-l-wrap">
     {% include breadcrumbs.html %}
-    <div class="principles-intro m-bh-med-b">
+    {% for page in site.data.contentful.spaces.design-system-content.page %}
+        {% if page.sys.id == '6pZ7nCcL9mQoE0SEO8QW6' %}
         <header>
             <div class="coop-l-row">
-                <div class="coop-l-column coop-l-all-12">
-                    <h1>Content design principles <span class="status status--alpha"><a href="/process.html" class="status__link">Alpha</a></span></h1>
-                </div>
                 <div class="coop-l-column coop-l-medium-8 coop-l-small-12 intro-box">
+                    <h1>{{ page.title }}</h1>
                     <div class="highlight-banner m-bh-med-b">
-                        <p>Our content principles are in Alpha. That means we're working on them, but we're not ready to share them yet. This page is here because we intend to publish them at a later&nbsp;date.</p>
-                        <p>You can read our <a href="/content.html">content design style guide here</a>.</p>
+                        {{ page.introduction | markdownify }}
                     </div>
                 </div>
             </div>
         </header>
-    </div>
+        <!-- <div class="coop-l-row">
+            <div class="coop-l-column coop-l-medium-3 coop-l-small-12 fixedsticky">
+                <p class="bold">We:</p>
+                <nav>
+                    <ul class="coop-list-bare in-page-nav">
+                        {% for item in page.in_page_navigation %}
+                        <li><a href="#{{ item.section_id }}">{{ item.url_text }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
+            <div class="coop-l-column coop-l-medium-8 coop-l-medium-offset-1 coop-l-small-12">
+                <section class="ds-section">
+                    {{ page.content | markdownify }}
+                </section>
+            </div>
+        </div> -->
+        {% endif %}
+    {% endfor %}
 </article>
 
 <!-- <article class="wrap">

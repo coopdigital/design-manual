@@ -6,49 +6,22 @@ body-page-class: dm-dark
 
 <article class="coop-l-wrap">
     {% include breadcrumbs.html %}
-    <header>
-        <div class="coop-l-row">
-            <div class="coop-l-column coop-l-medium-7 coop-l-small-12 intro-box">
-                <h1>Code resources</h1>
-                <div class="highlight-banner m-bh-med-b">
-                    <p>Our front-end toolkit is the Sass framework (a collection of files that create the style sheets) that Co-op's Digital services use.</p>
-                    <p>The prototyping kit uses the front-end toolkit as its base and gives you a quick way to prototype.</p>
+    {% for page in site.data.contentful.spaces.design-system-content.landingPage %}
+        {% if page.sys.id == '3rvIIO3YA8G22KUs2GUG4o' %}
+        <header>
+            <div class="coop-l-row">
+                <div class="coop-l-column coop-l-medium-8 coop-l-small-12 intro-box">
+                    <h1>{{ page.title }}</h1>
+                    <div class="highlight-banner m-bh-med-b">
+                        {{ page.introduction | markdownify }}
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <section class="dm-section">
-        <div class="coop-l-row coop-u-margin-bb">
-            <div class="coop-l-column coop-l-medium-4 coop-l-small-12">
-                <h2>Front-end toolkit</h2>
-                <p>Core Co-op styles and components.</p>
-                <p>Get the:</p>
-                <ul class="coop-list-bare">
-                    <li><a href="https://github.com/coopdigital/coop-frontend-toolkit/blob/master/README.md">front-end toolkit installation instructions</a></li>
-                    <li><a href="https://github.com/coopdigital/coop-frontend-toolkit">front-end toolkit code</a></li>
-                </ul>
-            </div>
-            <div class="coop-l-column coop-l-medium-4 coop-l-small-12">
-                <h2>Prototyping kit</h2>
-                <p>A static site generator that can be used to create quick Co-op branded prototypes. It uses local session storage to allow you to pass data between pages.</p>
-                <p>Get the:</p>
-                <ul class="coop-list-bare">
-                    <li><a href="https://github.com/coopdigital/coop-prototyping-kit/blob/master/README.md">prototyping kit installation instructions</a></li>
-                    <li><a href="https://github.com/coopdigital/coop-prototyping-kit">prototyping kit code</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="coop-l-row">
-            <div class="coop-l-column coop-l-medium-4 coop-l-small-12">
-                <h2>Email templates</h2>
-                <p>A basic Co-op branded responsive email template for service messages.</p>
-                <p><a href="https://github.com/coopdigital/email-templates">See the email templates</a></p>
-            </div>
-            <div class="coop-l-column coop-l-medium-4 coop-l-small-12">
-                <h2>Pattern library</h2>
-                <p>A collection of our design patterns as code snippets with guidance. Use in conjunction with the front-end toolkit and/or prototyping kit.</p>
-                <p><a href="/pattern-library/">Visit the pattern libary</a></p>
-            </div>
-        </div>
-    </section>
+        </header>
+        <section class="ds-section">
+            {{ page.content | markdownify }}
+        </section>
+        {% endif %}
+    {% endfor %}
+    </article>
 </article>
