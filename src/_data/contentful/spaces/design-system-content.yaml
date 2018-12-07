@@ -1739,6 +1739,42 @@ designPattern:
   introduction: A “skip navigation” link is used to create efficient access for users
     with certain disabilities.
 - sys:
+    id: 2g6EqBgo8kCi8IYwkgy8Gk
+    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-07 13:38:45.676000000 Z
+    content_type_id: designPattern
+    revision: 11
+  title: Product card
+  status: beta
+  github_url: https://github.com/coopdigital/component-card--product
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
+  introduction: A product card is used to display a snapshot of an item that is linked
+    in some way to similar items, for example products we sell or recipes. It lets
+    someone quickly identify a particular item of interest to them from a group, for
+    example in search results.
+  design_and_content_documentation: "A product card links to one item and contains
+    a small amount of information, for example an image and important features, sufficient
+    to help people make a decision whether to click on the card. \n\nThe whole area
+    of a product card is active as a single link. Don’t include other actions within
+    a card. \n\nAn important feature of a product card is the image is not obscured
+    by any accompanying text, which makes it good for presenting products or anything
+    where that is a consideration.\n\nCards are responsive and adapt well to changing
+    views, whether displaying few cards or many.\n\nProduct cards are ideal for presenting
+    groups of items that share common features or characteristics, for example data
+    imported from a spreadsheet. If you are using cards to present more general, prose
+    information on different subjects consider using [editorial cards](/pattern-library/components/cards/editorial-card.html)
+    instead.\n\nSee examples of the product card component in use on [www.coop.co.uk/products/wine](https://www.coop.co.uk/products/wine)
+    and [coop.co.uk/recipes](https://coop.co.uk/recipes).\n\n"
+  accessibility_documentation: "Don’t use buttons or links to other destinations within
+    a card as this may cause confusion or uncertainty for users.\n\nAll of a card
+    should be active so that it creates a large, easily clickable area. \n\nFor more
+    information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
+    \"see our general guide on accessibility.\")"
+  variations: |2
+
+    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card.html)
+    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
+- sys:
     id: lAvhQFgf60gYgaGeSyS2k
     created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
     updated_at: !ruby/object:DateTime 2018-11-15 14:55:58.025000000 Z
@@ -1773,6 +1809,36 @@ designPattern:
 
     [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
 - sys:
+    id: 59IgUOk2tyqWmQeEAuEu8C
+    created_at: !ruby/object:DateTime 2018-11-16 20:55:59.171000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-07 13:42:31.792000000 Z
+    content_type_id: designPattern
+    revision: 7
+  title: Editorial card
+  status: live
+  github_url: https://github.com/coopdigital/component-card
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card
+  introduction: 'An editorial card contains a small piece of prose information on
+    one subject that people can get more information about by tapping or clicking
+    on the card.   '
+  design_and_content_documentation: "An editorial card gives people enough information
+    to make a considered decision whether to click or tap. It is a good way of presenting
+    content consistently without overloading a page with information. \n\nAn editorial
+    card displays an image and short title with options to include a supporting line
+    or contextual title. It links to a single destination.\n\nCards are responsive
+    and adapt well to changing views, whether displaying few cards or many.\n\nEditorial
+    cards are ideal for presenting  general, prose information on different subjects.
+    If you are using cards to present a group of items that share common features
+    or characteristics, for example data imported from a spreadsheet, consider using
+    [product cards](/pattern-library/components/cards/product-card.html) instead.\n\nSee
+    examples of the editorial card component in use on [colleagues.coop.co.uk](https://colleagues.coop.co.uk)
+    and [coop.co.uk](https://coop.co.uk)."
+  accessibility_documentation: "Don’t use buttons or links to other destinations within
+    a card as this may cause confusion or uncertainty for users.\n\nThe entirety of
+    a card should be active, to create a large, easily clickable area. \n\nFor more
+    information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
+    \"see our general guide on accessibility.\")"
+- sys:
     id: 60XDcMEd68iowm6k8S624U
     created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
@@ -1787,38 +1853,6 @@ designPattern:
     Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
 
     Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
-- sys:
-    id: 2g6EqBgo8kCi8IYwkgy8Gk
-    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-04 10:55:13.493000000 Z
-    content_type_id: designPattern
-    revision: 10
-  title: Item card
-  status: beta
-  github_url: https://github.com/coopdigital/component-card--product
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
-  introduction: "Item cards contain a small piece of information on one subject. They
-    give people a snapshot of something that they can get more information about by
-    tapping or clicking on the card. Item cards are a good way of presenting content
-    consistently without overloading a page with information. \n\nCards can be grouped
-    together where it makes sense to do so. They are responsive and adapt well to
-    changing views, whether displaying few cards or many. "
-  design_and_content_documentation: |
-    Item cards are used to display a group or list of items that share common characteristics or features, for example products or recipes. They enable someone to quickly browse or search. These cards are used in groups, for example for search results or deals.
-
-    A card should act as a link to one thing only. Don’t include other actions within a card. The whole area of a card is active as a single link.
-
-    Item cards display an image, title and important information or features of the item that may help people make decisions, such as price, dietary requirements, or cooking time.
-  accessibility_documentation: "A card should provide an onward journey to one thing
-    so that it is easily navigated by people. Don’t use buttons or links to other
-    destinations within a card as this may cause confusion or uncertainty for users.\n\nThe
-    entirety of a card should be active to create a large clickable area. \n\nFor
-    more information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
-    \"see our general guide on accessibility.\")"
-  variations: |2
-
-    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card.html)
-    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
 - sys:
     id: tP1aGA2t5AEG42aquge0y
     created_at: !ruby/object:DateTime 2018-11-08 22:04:36.898000000 Z
@@ -1851,32 +1885,6 @@ designPattern:
     if the text is shorter.
 
 '
-- sys:
-    id: 59IgUOk2tyqWmQeEAuEu8C
-    created_at: !ruby/object:DateTime 2018-11-16 20:55:59.171000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-04 10:54:58.599000000 Z
-    content_type_id: designPattern
-    revision: 6
-  title: Cards
-  status: live
-  github_url: https://github.com/coopdigital/component-card
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-card
-  introduction: "Cards contain a small piece of information on one subject. They give
-    people a snapshot of something that they can get more information about by tapping
-    or clicking on the card. Cards are a good way of presenting content consistently
-    without overloading a page with information. \n\nCards can be grouped together
-    where it makes sense to do so. They are responsive and adapt well to changing
-    views, whether displaying few cards or many. "
-  design_and_content_documentation: |-
-    Cards give people enough information to make a considered decision whether to click or tap or not. Editorial cards display an image and short title with options to include a supporting line or contextual title.
-
-    You can see examples of the Card component in use on [colleagues.coop.co.uk](https://colleagues.coop.co.uk) and [coop.co.uk/recipes](https://coop.co.uk/recipes).
-  accessibility_documentation: "A card should provide an onward journey to one thing
-    so that it is easily navigated by people. Don’t use buttons or links to other
-    destinations within a card as this may cause confusion or uncertainty for users.\n\nThe
-    entirety of a card should be active to create a large clickable area. \n\nFor
-    more information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
-    \"see our general guide on accessibility.\")"
 - sys:
     id: 6iRruMXnlmieAEIoMWeEeG
     created_at: !ruby/object:DateTime 2018-11-08 21:36:57.455000000 Z
