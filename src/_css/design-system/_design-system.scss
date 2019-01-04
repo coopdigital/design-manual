@@ -3,14 +3,6 @@
 $green-blue-dark: #29837f;
 $woodsmoke: #1D2534;
 
-table,
-.coop-table {
-  font-size: 1rem;
-  @include media(medium) {
-    font-size: 1.25rem;
-  }
-}
-
 .coop-logo {
   border-bottom: 0;
 }
@@ -1247,4 +1239,12 @@ dl {
 // Footer
 .footer-main {
   margin-top: $quarter-spacing-unit;
+}
+
+table,
+.coop-table {
+  font-size: 1rem !important;
+  @include media(medium) {
+    font-size: 1.25rem !important;
+  }
 }
