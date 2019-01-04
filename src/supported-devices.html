@@ -20,45 +20,156 @@ body-page-class: dm-dark
     <div class="coop-l-row">
         <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
             <nav>
-
                 <ul id="in-page-nav" class="coop-list-bare in-page-nav">
-                  <li><a href="#browser-matrix">Supported browsers and devices</a></li>
+                  <li><a href="#supported-browsers">Supported browsers and devices</a></li>
+                  <li><a href="#edge-cases">Edge cases</a></li>
+                  <li><a href="#screen-resolutions">Top 10 screen resolutions</a></li>
                   <li><a href="#levels-of-support">Levels of support</a></li>
+                  <li><a href="#how-to-test">How to test</a></li>
                   <li><a href="#maintenance">Maintenance</a></li>
                 </ul>
             </nav>
         </div>
         <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
-            <section id="browser-matrix" class="dm-section">
-                <h2>Supported browsers and devices</h2>
+            <section id="supported-browsers" class="dm-section">
+                <h2>Supported browsers and devices as of December 2018</h2>
                 <div class="coop-l-row margin-bh">
-                    <div class="coop-l-small-12 coop-l-medium-10 coop-l-column">
-                        <table>
+                    <div class="coop-l-small-12 coop-l-medium-12 coop-l-column">
+                        <table class="coop-table">
+                            <caption>
+                                Will test and support
+                                <p>Common/modern: Known to be capable. Test thoroughly and provide full&nbsp;support.</p>
+                            </caption>
                             <thead>
-                                <th scope="col" colspan="2">
-                                    Windows
-                                </th>
+                                <tr>
+                                    <th scope="col">Device</th>
+                                    <th scope="col">OS</th>
+                                    <th scope="col">Browser</th>
+                                    <th scope="col">Browser version</th>
+                                </tr>
                             </thead>
                             <tbody>
-                                <tr >
-                                    <th scope="row">11, Edge</th>
-                                    <td class="table__digit">Full</td>
+                                <tr>
+                                    <th scope="row" rowspan="3">Apple desktop</th>
+                                    <td rowspan="3">Latest 2</td>
+                                    <td>Google chrome</td>
+                                    <td>Latest 2</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">9, 10</th>
-                                    <td class="table__digit">Partial</td>
+                                    <td>Safari</td>
+                                    <td>Latest 2</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Google Chrome latest (2 most recent versions*)</th>
-                                    <td class="table__digit">Full</td>
+                                    <td>Firefox</td>
+                                    <td>Latest 2</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Mozilla Firefox latest (2 most recent versions*)</th>
-                                    <td class="table__digit">Full</td>
+                                    <th scope="row" rowspan="4">Windows desktop</th>
+                                    <td rowspan="4">Latest 2</td>
+                                    <td>Edge</td>
+                                    <td>Latest</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">Nokia Lumia 1072 (Windows Phone 8.1) **</th>
-                                    <td class="table__digit">Partial</td>
+                                    <td>Internet Explorer</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr>
+                                    <td>Google chrome</td>
+                                    <td>Latest 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Firefox</td>
+                                    <td>Latest 2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Apple iPhone</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Safari</td>
+                                    <td>Latest</td>
+                                </tr>
+                                <tr>
+                                    <td>Safari in-app</td>
+                                    <td>Latest Facebook and Twitter versions</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Apple iPad</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Safari</td>
+                                    <td>Latest</td>
+                                </tr>
+                                <tr>
+                                    <td>Safari in-app</td>
+                                    <td>Latest Facebook and Twitter versions</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Samsung SM-G950F Galaxy S8</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Samsung internet</td>
+                                    <td>7.x</td>
+                                </tr>
+                                <tr>
+                                    <td>Google chrome</td>
+                                    <td>Latest</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Samsung SM-G930F Galaxy S7</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Samsung internet</td>
+                                    <td>7.x</td>
+                                </tr>
+                                <tr>
+                                    <td>Google chrome</td>
+                                    <td>Latest</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Samsung SM-G935F Galaxy S7 Edge</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Samsung internet</td>
+                                    <td>7.x</td>
+                                </tr>
+                                <tr>
+                                    <td>Google chrome</td>
+                                    <td>Latest</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Samsung SM-G960F Galaxy S9</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Samsung internet</td>
+                                    <td>7.x</td>
+                                </tr>
+                                <tr>
+                                    <td>Google chrome</td>
+                                    <td>Latest</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Samsung SM-J320FN Galaxy J3 Duos</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Samsung internet</td>
+                                    <td>7.x</td>
+                                </tr>
+                                <tr>
+                                    <td>Google chrome</td>
+                                    <td>Latest</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Samsung SM-G920F Galaxy S6</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Samsung internet</td>
+                                    <td>7.x</td>
+                                </tr>
+                                <tr>
+                                    <td>Google chrome</td>
+                                    <td>Latest</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">Samsung SM-A520F Galaxy A5 (2017)</th>
+                                    <td rowspan="2">Latest 2</td>
+                                    <td>Samsung internet</td>
+                                    <td>7.x</td>
+                                </tr>
+                                <tr>
+                                    <td>Google chrome</td>
+                                    <td>Latest</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -66,89 +177,90 @@ body-page-class: dm-dark
                 </div>
                 <div class="coop-u-margin-bh">
                     <div class="coop-l-row">
-                        <div class="coop-l-small-12 coop-l-medium-10 coop-l-column">
-                            <table>
+                        <div class="coop-l-small-12 coop-l-medium-12 coop-l-column">
+                            <table class="coop-table">
+                                <caption>
+                                    Will assume support
+                                    <p>Modern: Known to be capable. Will not test but can assume support.</p>
+                                </caption>
                                 <thead>
-                                    <th scope="col" colspan="2">
-                                        Mac OS X
-                                    </th>
+                                    <tr>
+                                        <th scope="col">Device</th>
+                                        <th scope="col">OS</th>
+                                        <th scope="col">Browser</th>
+                                        <th scope="col">Browser version</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th scope="row">Safari 6.x, 7.x, 8.x, 9.x, 10.x, 11.x</th>
-                                        <td class="table__digit">Full</td>
+                                        <th scope="row" rowspan="2">Apple desktop</th>
+                                        <td rowspan="2">NA</td>
+                                        <td>Google chrome</td>
+                                        <td>Outside latest 2 (3-4)</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Google Chrome latest (2 most recent versions*)</th>
-                                        <td class="table__digit">Full</td>
+                                        <td>Safari</td>
+                                        <td>10/9</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Mozilla Firefox latest (2 most recent versions*)</th>
-                                        <td class="table__digit">Full</td>
+                                        <th scope="row">Windows desktop</th>
+                                        <td>NA</td>
+                                        <td>Google chrome</td>
+                                        <td>Outside latest 2 (3-4)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Apple iPad</th>
+                                        <td>10.x</td>
+                                        <td>Safari</td>
+                                        <td>Latest</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Apple iPhone</th>
+                                        <td>10.x</td>
+                                        <td>Safari</td>
+                                        <td>Latest</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="edge-cases" class="dm-section">
                 <div class="coop-u-margin-bh">
                     <div class="coop-l-row">
-                        <div class="coop-l-small-12 coop-l-medium-10 coop-l-column">
-                            <table>
-                                <thead>
-                                    <th scope="col" colspan="2">
-                                        Android
-                                    </th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Google Chrome (latest version)</th>
-                                        <td class="table__digit">Full</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Android browser</th>
-                                        <td class="table__digit">Partial</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <div class="coop-l-small-12 coop-l-medium-12 coop-l-column">
+                            <h2>Edge cases</h2>
+                            <p>Edge case devices and browsers should be supported where usage stats are above 2% or there are internal or technical restrictions. In this case extra development and testing work will be required to provide full support.</p>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section id="screen-resolutions" class="dm-section">
                 <div class="coop-u-margin-bh">
                     <div class="coop-l-row">
-                        <div class="coop-l-small-12 coop-l-medium-10 coop-l-column">
-                            <table>
-                                <thead>
-                                    <th scope="col" colspan="2">
-                                        iOS
-                                    </th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">Safari (iOS 7.x, 8.x, 9.x, 10.x, 11.x)</th>
-                                        <td class="table__digit">Full</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Google Chrome (2 most recent versions*)</th>
-                                        <td class="table__digit">Full</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Safari in-app</th>
-                                        <td class="table__digit">Full</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <div class="coop-l-small-12 coop-l-medium-12 coop-l-column">
+                            <h2>Top 10 screen resolutions</h2>
+                            <p>It is not always easy to check all of the device and browser combinations as you develop. It is easy to check or design to the popular screen resolutions of our users. These are:</p>
+                            <ol>
+                                <li>360x640</li>
+                                <li>1366x768</li>
+                                <li>1920x1080</li>
+                                <li>360x740</li>
+                                <li>1440x900</li>
+                                <li>1280x800</li>
+                                <li>1536x864</li>
+                                <li>360x720</li>
+                                <li>1600x900</li>
+                                <li>412x846</li>
+                            </ol>
                         </div>
                     </div>
                 </div>
-                <p>It's fine to support devices and browsers not listed here if analytics show that they're popular with your users.</p>
-                <p>* Browser versions auto update without user intervention, so the full supported version is the 2 most recent non-beta versions and partial support is the third most recent non-beta version.</p>
-                <p>** The standard smart phone given to Co-op colleagues. It has low usage but you may need to support it.</p>
             </section>
             <section id="levels-of-support" class="dm-section">
                 <h2>Levels of support</h2>
-                <h3>Fully supported browsers</h3>
-                <p>‘Full support’ means:</p>
+                <h3>'Will test and support' means:</h3>
                 <ul>
                     <li>all content must be readable and usable</li>
                     <li>all functionality must work</li>
@@ -156,19 +268,21 @@ body-page-class: dm-dark
                     <li>the CSS (where used) must be rendered by supported web browsers that present a fully-styled version of the page</li>
                     <li>pages should be developed to maximise the user experience for the browser that has the highest proportion of users</li>
                 </ul>
-                <h3>Partially supported browsers</h3>
-                <p>‘Partial support’ means:</p>
+                <h3>'Old browsers' means:</h3>
                 <ul>
                     <li>all core content must be readable and usable</li>
                     <li>navigation must work</li>
                     <li>any degradation to functionality must be graceful degradation</li>
                     <li>any degradation to presentation must not obscure content</li>
                 </ul>
-                <p>We do not support IE 8, Windows Phone, Blackberry and Opera because not many of our customers use them.</p>
+            </section>
+            <section id="how-to-test" class="dm-section">
+                <h2>How to test</h2>
+                <p>For manual browser and device testing we have a range of devices in-house to match what we support. We also use virtual machines, our internal Co-op colleague devices and Browserstack. For more information on how to test email <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>.</p>
             </section>
             <section id="maintenance" class="dm-section">
                 <h2>Maintenance</h2>
-                <p>We’ll update the browser support matrix as new versions become available and when our users' choice of browser changes.</p>
+                <p>We’ll update this information as new versions become available and when our users' choice of browser changes.</p>
             </section>
         </div>
     </div>
