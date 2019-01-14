@@ -1,13 +1,13 @@
 ---
 inPageNavigationLink:
 - sys:
-    id: 4ISHoIB6b62Q0yAIwuYWOu
-    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    id: 1JvFECBhQwCMQOYuMo6o8C
+    created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
     content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Titles
-  section_id: titles
+    revision: 2
+  url_text: 'WAI-ARIA: make your service technically accessible'
+  section_id: wai-aria-make-your-service-technically-accessible
 - sys:
     id: 2BqtPMQpQwQomuMM62QeGY
     created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
@@ -265,13 +265,13 @@ inPageNavigationLink:
   url_text: with purpose
   section_id: we-design-with-purpose
 - sys:
-    id: 1JvFECBhQwCMQOYuMo6o8C
-    created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
+    id: 4ISHoIB6b62Q0yAIwuYWOu
+    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
     content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: 'WAI-ARIA: make your service technically accessible'
-  section_id: wai-aria-make-your-service-technically-accessible
+    revision: 1
+  url_text: Titles
+  section_id: titles
 - sys:
     id: 3ampSbV0IEOa0gcgaYyioy
     created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
@@ -1456,39 +1456,6 @@ designPattern:
   introduction: Columns can be re-ordered by pushing and pulling them relative to
     their base position.
 - sys:
-    id: 6IIXRPgCWWmy6iIKK4Mqyq
-    created_at: !ruby/object:DateTime 2018-11-21 08:36:05.869000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-04 10:54:47.900000000 Z
-    content_type_id: designPattern
-    revision: 3
-  title: Tags
-  status: beta
-  github_url: https://github.com/coopdigital/component-tags
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-tags
-  introduction: A tag shows a property of an item such as a recipe or product. They
-    are used to highlight properties of something and users might use them to make
-    a choice. If the tag is interactive this property links to another page, for example
-    a category page for Vegan recipes, Red wine, Fair Trade.
-  design_and_content_documentation: |-
-    Tags show the most distinctive properties for a product or recipe. Tags don’t move or animate.
-    Tags can be tappable or clickable when used in the appropriate context (see interactive tags below).
-
-    Up to 4 tags can be used on an item card. On a specific item page all relevant tags can be shown.
-
-    ### Non interactive tags
-    Non interactive tags highlight properties of an item.
-
-    ### Interactive tags
-    An interactive tag enables a user to visit a page showing other items associated with the property clicked or tapped on.
-
-
-    Examples of tags being used can been seen on [coop.co.uk/recipes](https://www.coop.co.uk/recipes) and [coop.co.uk/products/wine](https://www.coop.co.uk/products/wine).
-  accessibility_documentation: |-
-    Interactive tags show an underlined link within a lozenge shape. A tag must be large enough for people to activate it easily. Small tags, and tags that are placed too close to each other, are difficult for people to tap or click on.
-
-    For more information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html "see our general guide on accessibility.")
-  variations: "- [Card - product](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card--product.html)"
-- sys:
     id: nyqE2V53eCUsKKguIcimS
     created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
@@ -1626,6 +1593,35 @@ designPattern:
   npm_url: https://www.npmjs.com/package/@coopdigital/component-signpost
   introduction: Signpost navigation is used in pages to link to permanent content.
 - sys:
+    id: 6IIXRPgCWWmy6iIKK4Mqyq
+    created_at: !ruby/object:DateTime 2018-11-21 08:36:05.869000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-14 12:01:44.835000000 Z
+    content_type_id: designPattern
+    revision: 4
+  title: Tags
+  status: beta
+  github_url: https://github.com/coopdigital/component-tags
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-tags
+  introduction: A tag shows a particular feature of an item such as a recipe or product,
+    enabling users to quickly see important common properties, and make a choice.
+    A tag may link to another page, for example a category page for vegan recipes,
+    red wine, or Fair Trade.
+  design_and_content_documentation: "Tags show the most distinctive common properties
+    of an object such as a product. Tags don’t move or animate. \n\n## Tags on cards\n\nUp
+    to 4 tags can be used on a product card - but if used should not be clickable,
+    as cards can only contain one link.\n\n## Tags on pages\n\nOn a specific page
+    all relevant tags can be shown. Used in this context tags can be tappable or clickable
+    to link to a page displaying other items that share the same property.\n\nSee
+    examples of tags in use on [coop.co.uk/recipes](https://www.coop.co.uk/recipes)
+    and [coop.co.uk/products/wine](https://www.coop.co.uk/products/wine)."
+  accessibility_documentation: "Interactive tags show an underlined link within a
+    lozenge shape. A tag must be large enough for people to activate it easily and
+    the text within them be clear. \n\nMultiple tags must have sufficient space between
+    them, if they are placed too close to each other, they may be difficult for people
+    to tap or click on.\n\nFor more information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
+    \"see our general guide on accessibility.\")"
+  variations: "- [Card - product](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card--product.html)"
+- sys:
     id: 6lzK0U8LlYgc2OWmuu22e6
     created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
     updated_at: !ruby/object:DateTime 2018-11-15 14:51:20.685000000 Z
@@ -1738,42 +1734,6 @@ designPattern:
   npm_url: https://www.npmjs.com/package/@coopdigital/component-skipnav
   introduction: A “skip navigation” link is used to create efficient access for users
     with certain disabilities.
-- sys:
-    id: 2g6EqBgo8kCi8IYwkgy8Gk
-    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-07 13:38:45.676000000 Z
-    content_type_id: designPattern
-    revision: 11
-  title: Product card
-  status: beta
-  github_url: https://github.com/coopdigital/component-card--product
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
-  introduction: A product card is used to display a snapshot of an item that is linked
-    in some way to similar items, for example products we sell or recipes. It lets
-    someone quickly identify a particular item of interest to them from a group, for
-    example in search results.
-  design_and_content_documentation: "A product card links to one item and contains
-    a small amount of information, for example an image and important features, sufficient
-    to help people make a decision whether to click on the card. \n\nThe whole area
-    of a product card is active as a single link. Don’t include other actions within
-    a card. \n\nAn important feature of a product card is the image is not obscured
-    by any accompanying text, which makes it good for presenting products or anything
-    where that is a consideration.\n\nCards are responsive and adapt well to changing
-    views, whether displaying few cards or many.\n\nProduct cards are ideal for presenting
-    groups of items that share common features or characteristics, for example data
-    imported from a spreadsheet. If you are using cards to present more general, prose
-    information on different subjects consider using [editorial cards](/pattern-library/components/cards/editorial-card.html)
-    instead.\n\nSee examples of the product card component in use on [www.coop.co.uk/products/wine](https://www.coop.co.uk/products/wine)
-    and [coop.co.uk/recipes](https://coop.co.uk/recipes).\n\n"
-  accessibility_documentation: "Don’t use buttons or links to other destinations within
-    a card as this may cause confusion or uncertainty for users.\n\nAll of a card
-    should be active so that it creates a large, easily clickable area. \n\nFor more
-    information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
-    \"see our general guide on accessibility.\")"
-  variations: |2
-
-    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/card.html)
-    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
 - sys:
     id: lAvhQFgf60gYgaGeSyS2k
     created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
@@ -2004,6 +1964,43 @@ designPattern:
   introduction: Lists are an effective way of breaking up content — they make it easier
     for users to scan and find information. Use bullet points to break up a list of
     items.
+- sys:
+    id: 2g6EqBgo8kCi8IYwkgy8Gk
+    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-14 12:02:25.314000000 Z
+    content_type_id: designPattern
+    revision: 13
+  title: Product card
+  status: beta
+  abstract_url: https://share.goabstract.com/61dadd77-ab64-4ac8-806d-e072ccf960d7
+  github_url: https://github.com/coopdigital/component-card--product
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
+  introduction: A product card is used to display a snapshot of an item that is linked
+    in some way to similar items, for example products we sell or recipes. It lets
+    someone quickly identify a particular item of interest to them from a group, for
+    example in search results.
+  design_and_content_documentation: "A product card links to one item and contains
+    a small amount of information, for example an image and important features, sufficient
+    to help people make a decision whether to click on the card. \n\nThe whole area
+    of a product card is active as a single link. Don’t include other actions within
+    a card. \n\nAn important feature of a product card is the image is not obscured
+    by any accompanying text, which makes it good for presenting products or anything
+    where that is a consideration.\n\nCards are responsive and adapt well to changing
+    views, whether displaying few cards or many.\n\nProduct cards are ideal for presenting
+    groups of items that share common features or characteristics, for example data
+    imported from a spreadsheet. If you are using cards to present more general, prose
+    information on different subjects consider using [editorial cards](/pattern-library/components/cards/editorial-card.html)
+    instead.\n\nSee examples of the product card component in use on [www.coop.co.uk/products/wine](https://www.coop.co.uk/products/wine)
+    and [coop.co.uk/recipes](https://coop.co.uk/recipes).\n\n"
+  accessibility_documentation: "Don’t use buttons or links to other destinations within
+    a card as this may cause confusion or uncertainty for users.\n\nAll of a card
+    should be active so that it creates a large, easily clickable area. \n\nFor more
+    information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
+    \"see our general guide on accessibility.\")"
+  variations: |2
+
+    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/editorial-card.html)
+    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
 landingPage:
 - sys:
     id: 3rvIIO3YA8G22KUs2GUG4o
