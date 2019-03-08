@@ -10,3 +10,19 @@ h5, .h5, .epsilon,
 h6, .h6, .zeta {
   // font-family: $medium;
 }
+
+h2 {
+  margin-bottom: 8px !important;
+
+  @include media(medium) {
+    margin-bottom: 16px !important;
+  }
+}
+
+p {
+  margin-bottom: 16px !important;
+
+  @include media(medium) {
+    margin-bottom: 32px !important;
+  }
+}

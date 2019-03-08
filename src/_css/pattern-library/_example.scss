@@ -12,9 +12,13 @@
 
 .coop-ds-example {
   margin-bottom: 64px;
-  padding: 24px 32px 38px 32px;
+  padding: 24px 16px 38px 16px;
   border-radius: 10px;
-  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.08);
+
+  @include media(medium) {
+    padding: 24px 32px 38px 32px;  
+  }
 
   .tabs-init {
     position: relative;
@@ -26,7 +30,7 @@
     @include media(medium) {
       display: block;
       position: absolute;
-      top: -70px;
+      top: -55px;
       right: -20px;
     }
 
@@ -56,25 +60,65 @@
   .tabs-navigation,
   .tabs-init .tabs-container__panel,
   .tabs-init .accordion--closed .tabs-container__panel {
-    display:none;
+    display: none;
+  }
+
+  .tabs-nav-init {
+    margin-bottom: 32px;
   }
 
   .tabs-init .tabs-container__title {
-    padding: 1em 1.5em;
+    padding: 16px;
     cursor: pointer;
+    border: 1px solid #c4c4c4;
+
+    &:after {
+      content: '';
+      position: relative;
+      top: -3px;
+      display: block;
+      float: right;
+      height: 32px;
+      width: 32px;
+      background: url(/images/icons/content-reveal-arrow.svg) 0 0 repeat;
+    }
+  }
+
+  .tabs-init .tabs-container__title[aria-expanded="false"] {
+
+    &:after {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+
+  .tabs-init .tabs-container__title[aria-expanded="true"] {
+
+    &:after {
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+    }
   }
 
   .accordion--closed .tabs-container__title,
   .tabs-init .tabs-container__title {
-    background: #F3F3F3;
+    background: #FFF;
   }
 
   .tabs-container__panel[aria-hidden="false"] {
     display: block;
+    margin: 16px 16px 32px 16px;
   }
 
   .tabs-container__title[aria-selected="true"] {
-    background: #9FB1C6;
+    background: #FFF;
+  
+    &:active,
+    &:focus {
+      outline: 2px dotted #eec300;
+      outline: 2px dotted var(--color-link--focus);
+      outline-offset: 3px;
+    }
   }
 
   .tabs-container__panel.accordion--closed {
