@@ -19,3 +19,36 @@
 .message--info {
   background: $yellow-mid;
 }
+
+
+
+
+.coop-c-message {
+  @include spacing("padding", "top", "quarter");
+  @include spacing("padding", "left", "half");
+  @include spacing("padding", "bottom", "quarter");
+  @include spacing("padding", "right", "half");
+  @include spacing("margin", "bottom", "half");
+}
+
+.coop-c-message--error {
+  background: #fef3f4;
+  border: 1px solid #D63118;
+}
+
+.coop-form__invalid {
+  border: 1px solid #D63118 !important;
+}
+
+.coop-label__hint {
+  font-size: 1rem !important;
+}
+
+.coop-c-form-error__text {
+ color: #D63118 !important;
+ margin-bottom: 0;
+}
+
+.coop-form__row {
+  margin-bottom: 32px !important;
+}

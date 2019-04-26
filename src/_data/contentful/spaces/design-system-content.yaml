@@ -1,301 +1,4 @@
 ---
-inPageNavigationLink:
-- sys:
-    id: 4PdLyWY4iQ6MkaSqgwSwWO
-    created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Be considerate with language
-  section_id: be-considerate-with-language
-- sys:
-    id: 5Vre0BzSViue2WW2qq2uOG
-    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Money
-  section_id: money
-- sys:
-    id: 8P8pStonSMyoYKygC4wWs
-    created_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Give teams the evidence to make better decisions
-  section_id: give-teams-the-evidence-to-make-better-decisions
-- sys:
-    id: 1JvFECBhQwCMQOYuMo6o8C
-    created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: 'WAI-ARIA: make your service technically accessible'
-  section_id: wai-aria-make-your-service-technically-accessible
-- sys:
-    id: jFui2S5j2w6aWO4wW6cCE
-    created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Hyphens and dashes
-  section_id: hyphens-and-dashes
-- sys:
-    id: 5oRnDSsj28qge0GKICCOcg
-    created_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Do a little, often
-  section_id: do-a-little-often
-- sys:
-    id: 16UHPg7SlSoG68kk0qOcmG
-    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Dates and times
-  section_id: dates-and-times
-- sys:
-    id: 1aBqmIklgQgaAgGeuGuoeS
-    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Using Co-op
-  section_id: using-co-op
-- sys:
-    id: 2BqtPMQpQwQomuMM62QeGY
-    created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Validation messages
-  section_id: validation-messages
-- sys:
-    id: 3ixUqdVh1YcokouyKq0GgY
-    created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Phone numbers
-  section_id: phone-numbers
-- sys:
-    id: 3r4SK4xTmEAQ6kwEA26Uc8
-    created_at: !ruby/object:DateTime 2018-12-05 08:47:49.932000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:55:04.021000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: iteratively
-  section_id: we-design-iteratively
-- sys:
-    id: 18UiYd1uoO4sqEgqew0M0u
-    created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Job titles
-  section_id: job-titles
-- sys:
-    id: 5DhfNoq1m8isM8uEWkqcm6
-    created_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: This is for everyone
-  section_id: this-is-for-everyone
-- sys:
-    id: 3ampSbV0IEOa0gcgaYyioy
-    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 19:01:52.723000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Frequently asked questions (FAQs)
-  section_id: frequently-asked-questions-faqs
-- sys:
-    id: 5jvVTmFwDm0Y4Yci2m4Ykw
-    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Numbers and units
-  section_id: numbers-and-units
-- sys:
-    id: 3BkG5xPQ7YISW0gkW0ke6i
-    created_at: !ruby/object:DateTime 2018-12-05 08:44:59.387000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:54:15.622000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: with purpose
-  section_id: we-design-with-purpose
-- sys:
-    id: 2qVPoLl9JGWo0WuIO4qkuw
-    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Brackets ('parentheses')
-  section_id: brackets-parentheses
-- sys:
-    id: 3EKBobQkJWWWQMMYgqce0y
-    created_at: !ruby/object:DateTime 2018-12-05 09:36:26.116000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 09:44:53.650000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 4
-  url_text: focus on what users do, not what they say they’d do
-  section_id: focus-on-what-users-do-not-what-they-say-theyd-do
-- sys:
-    id: 3c6JuSqlGMWu4GWQWOgKko
-    created_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Promote accessibility for all through good usability
-  section_id: promote-accessibility-for-all-through-good-usability
-- sys:
-    id: 3FpopuEryMImcWCgSqGEg2
-    created_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Involve everyone in research
-  section_id: involve-everyone-in-research
-- sys:
-    id: CPhH3gdGj6WIUyYO8ESMC
-    created_at: !ruby/object:DateTime 2018-12-05 11:29:09.785000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 11:29:09.785000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Undertake the best research we can in any given situation
-  section_id: undertake-the-best-research-we-can-in-any-given-situation
-- sys:
-    id: 1ycwpgjmXaCEgyy4KOaY02
-    created_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Designing for people with disabilities
-  section_id: designing-for-people-with-disabilities
-- sys:
-    id: 1UKVpYiwYgemQCQ2QIaSOu
-    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Dates and times
-  section_id: dates-and-times
-- sys:
-    id: 3bLHyid7T2iq2QIyMEQ2e
-    created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 19:13:37.126000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: Ellipsis
-  section_id: ellipsis
-- sys:
-    id: 5JYkC4T3JSK6mkQqQYQa8C
-    created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Links
-  section_id: links
-- sys:
-    id: 4ISHoIB6b62Q0yAIwuYWOu
-    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Titles
-  section_id: titles
-- sys:
-    id: 3Id5v8BoPe0Ocm4egwuO42
-    created_at: !ruby/object:DateTime 2018-12-05 08:46:08.580000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:54:41.225000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: with honesty
-  section_id: we-design-with-honesty
-- sys:
-    id: FPwfmzMIUea0Qoi6q42Ow
-    created_at: !ruby/object:DateTime 2018-12-05 08:44:13.027000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:54:01.765000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: in context
-  section_id: we-design-in-context
-- sys:
-    id: 1Uu7XPztS8g0ayeQKiaqeu
-    created_at: !ruby/object:DateTime 2018-12-05 08:45:34.873000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:54:29.355000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: for everyone
-  section_id: we-design-for-everyone
-- sys:
-    id: oh4NWHH4DAYIK4Ee0a6um
-    created_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Key common issues
-  section_id: key-common-issues
-- sys:
-    id: 6Cp3eqqWBykQ8GW0oAUyKA
-    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Asking for names
-  section_id: asking-for-names
-- sys:
-    id: 3HstEyKxAskIwcmIyEmEcq
-    created_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Respect the privacy and integrity of the user
-  section_id: respect-the-privacy-and-integrity-of-the-user
-- sys:
-    id: 4RUDfB0aGco2sWCCeSSAoA
-    created_at: !ruby/object:DateTime 2018-12-05 08:46:45.052000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:54:53.273000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: in the open
-  section_id: we-design-in-the-open
-- sys:
-    id: 6AKlYZC88wocEus2kwuGwS
-    created_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: How to learn
-  section_id: how-to-learn
-- sys:
-    id: 2DWYd6Fp4wCkCMyO4owk20
-    created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Colons and semicolons
-  section_id: colons-and-semicolons
-- sys:
-    id: 1ArPAloWisyIEQS88WQyaE
-    created_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Lists
-  section_id: lists
-- sys:
-    id: 5BoAkhXis8IoKe88Mce0G8
-    created_at: !ruby/object:DateTime 2018-11-19 14:05:25.061000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:05:57.538000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Different access needs
-  section_id: different-access-needs
 designPattern:
 - sys:
     id: 6iRruMXnlmieAEIoMWeEeG
@@ -445,16 +148,6 @@ designPattern:
   introduction: A “skip navigation” link is used to create efficient access for users
     with certain disabilities.
 - sys:
-    id: 5xyICzuozC8oY8Uuiuu8om
-    created_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Reordering columns
-  status: live
-  introduction: Columns can be re-ordered by pushing and pulling them relative to
-    their base position.
-- sys:
     id: 18ffWPhguWa4qIKWQYOWaA
     created_at: !ruby/object:DateTime 2018-11-14 15:13:55.826000000 Z
     updated_at: !ruby/object:DateTime 2018-11-14 15:50:38.865000000 Z
@@ -465,6 +158,16 @@ designPattern:
   introduction: Collapsed columns have their padding removed. Columns can be collapsed
     individually, or whole rows can be collapsed at once by adding the class .collapse
     to a column or row
+- sys:
+    id: 5xyICzuozC8oY8Uuiuu8om
+    created_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:40:59.156000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Reordering columns
+  status: live
+  introduction: Columns can be re-ordered by pushing and pulling them relative to
+    their base position.
 - sys:
     id: 7hxfZ01mU0Sw6ceA06oOki
     created_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
@@ -513,6 +216,25 @@ designPattern:
   introduction: Columns can be offset by a specified amount of columns from the left
     hand side.
 - sys:
+    id: 5M9geK32nYMoqgiYCkoSI4
+    created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 20:03:39.934000000 Z
+    content_type_id: designPattern
+    revision: 6
+  title: Responsive tables
+  status: beta
+  introduction: |-
+    Patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.
+
+    This ‘rows become mini-tables’ approach works for a table with different types of values — including text.
+  design_and_content_documentation: |-
+    The responsive table takes the same style as the main table — but differ under 480px by the:
+
+    - heading rows becoming table headers
+    - table cell borders are removed
+
+    For the styles to work correctly, you must match the markup structure in the example. When deciding whether to use this solution think carefully about if it will fit the needs of your users. If in doubt don't use it, or build your own responsive table. We have made this solution as simple as possible and cannot varify its accessibility yet on smaller device size. Please research your service with users of all abilities.
+- sys:
     id: 2g6EqBgo8kCi8IYwkgy8Gk
     created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
     updated_at: !ruby/object:DateTime 2019-01-14 12:02:25.314000000 Z
@@ -550,25 +272,6 @@ designPattern:
     - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/editorial-card.html)
     - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
 - sys:
-    id: 5M9geK32nYMoqgiYCkoSI4
-    created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 20:03:39.934000000 Z
-    content_type_id: designPattern
-    revision: 6
-  title: Responsive tables
-  status: beta
-  introduction: |-
-    Patterns used for making a table responsive should be appropriate to the data in the table and how users are looking at that data.
-
-    This ‘rows become mini-tables’ approach works for a table with different types of values — including text.
-  design_and_content_documentation: |-
-    The responsive table takes the same style as the main table — but differ under 480px by the:
-
-    - heading rows becoming table headers
-    - table cell borders are removed
-
-    For the styles to work correctly, you must match the markup structure in the example. When deciding whether to use this solution think carefully about if it will fit the needs of your users. If in doubt don't use it, or build your own responsive table. We have made this solution as simple as possible and cannot varify its accessibility yet on smaller device size. Please research your service with users of all abilities.
-- sys:
     id: 2Sf5HLM2ooWSAU2UIS0AQg
     created_at: !ruby/object:DateTime 2018-11-20 08:25:36.906000000 Z
     updated_at: !ruby/object:DateTime 2018-11-20 08:25:36.906000000 Z
@@ -596,15 +299,6 @@ designPattern:
     - allow users to click anywhere in the box
     - display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan
     - Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.
-- sys:
-    id: 5JoR23Ulbi8CisOuQ6g02c
-    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Numbered list
-  status: live
-  introduction: Numbered lists are used to indicate a logical sequence.
 - sys:
     id: 6lzK0U8LlYgc2OWmuu22e6
     created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
@@ -642,6 +336,15 @@ designPattern:
     If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
 
     [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
+    id: 5JoR23Ulbi8CisOuQ6g02c
+    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Numbered list
+  status: live
+  introduction: Numbered lists are used to indicate a logical sequence.
 - sys:
     id: 6IIXRPgCWWmy6iIKK4Mqyq
     created_at: !ruby/object:DateTime 2018-11-21 08:36:05.869000000 Z
@@ -719,9 +422,9 @@ designPattern:
 - sys:
     id: 6wmK1ZxEeAAC2iuuYqgiui
     created_at: !ruby/object:DateTime 2018-11-08 20:53:34.160000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 14:58:54.399000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 08:21:20.299000000 Z
     content_type_id: designPattern
-    revision: 3
+    revision: 4
   title: Links
   status: live
   introduction: 'A link should be descriptive of the place it’s taking the user. For
@@ -733,26 +436,31 @@ designPattern:
     \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
     dm-colour__swatch--wide coop-u-link-blue-bg coop-u-padding-q coop-u-margin-bh\">\n
     \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
-    class=\"coop-bold\">Link</li>\n                  <li>$link</li>\n                  <li>rgb(0,14,154)</li>\n
+    class=\"coop-bold\">Link</li>\n                  <li>var(--color-link)</li>\n
     \                 <li>#00729A</li>\n              </ul>\n            </div>\n
     \       </div>\n    </div>\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
     \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
     dm-colour__swatch--wide coop-u-link-hover-blue-bg coop-u-padding-q coop-u-margin-bh\">\n
     \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
-    class=\"coop-bold\">Link hover</li>\n                  <li>$link-hover</li>\n
-    \                 <li>rgb(0,57,78)</li>\n                  <li>#00394E</li>\n
-    \             </ul>\n            </div>\n        </div>\n    </div>\n    <div
-    class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n        <div class=\"dm-colour\">\n
-    \           <div class=\"dm-colour__swatch dm-colour__swatch--wide coop-u-link-focus-bg
-    coop-u-padding-q coop-u-margin-bh\">\n              <ul class=\"list-bare dm-colour__definition\">\n
-    \                 <li class=\"coop-bold\">Link focus</li>\n                  <li>$link-focus</li>\n
-    \                 <li>rgb(231,196,66)</li>\n                  <li>#E7C442</li>\n
-    \             </ul>\n            </div>\n        </div>\n    </div>\n    <div
-    class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n        <div class=\"dm-colour\">\n
-    \           <div class=\"dm-colour__swatch dm-colour__swatch--wide coop-u-link-active-bg
-    coop-u-padding-q coop-u-margin-bh\">\n              <ul class=\"list-bare dm-colour__definition
-    coop-u-white\">\n                  <li class=\"coop-bold\">Link active</li>\n
-    \                 <li>$link-active</li>\n                  <li>rgb(0,50,69)</li>\n
+    class=\"coop-bold\">Link hover</li>\n                  <li>var(--color-link--hover)</li>\n
+    \                 <li>#00394E</li>\n              </ul>\n            </div>\n
+    \       </div>\n    </div>\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
+    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
+    dm-colour__swatch--wide coop-u-link-focus-bg coop-u-padding-q coop-u-margin-bh\">\n
+    \             <ul class=\"list-bare dm-colour__definition\">\n                  <li
+    class=\"coop-bold\">Link focus</li>\n                  <li>var(--color-link--focus)</li>\n
+    \                 <li>#E7C442</li>\n              </ul>\n            </div>\n
+    \       </div>\n    </div>\n    <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
+    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
+    dm-colour__swatch--wide coop-u-link-active-bg coop-u-padding-q coop-u-margin-bh\">\n
+    \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
+    class=\"coop-bold\">Link visited</li>\n                  <li>var(--color-link--visited)</li>\n
+    \                 <li>#002C3D</li>\n              </ul>\n            </div>\n
+    \       </div>\n    </div>\n  <div class=\"coop-l-column coop-l-small-6 coop-l-medium-4\">\n
+    \       <div class=\"dm-colour\">\n            <div class=\"dm-colour__swatch
+    dm-colour__swatch--wide coop-u-link-active-bg coop-u-padding-q coop-u-margin-bh\">\n
+    \             <ul class=\"list-bare dm-colour__definition coop-u-white\">\n                  <li
+    class=\"coop-bold\">Link active</li>\n                  <li>var(--color-link--visited)</li>\n
     \                 <li>#002C3D</li>\n              </ul>\n            </div>\n
     \       </div>\n    </div>\n</div>\n\nLinks should: \n- be colour contrast checked.\n-
     be underlined regardless of what colour they are.\n- use the hand/pointer to indicate
@@ -791,9 +499,9 @@ designPattern:
 - sys:
     id: 1B1xHli8eMAe2emCygaQ8K
     created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 22:08:52.690000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 08:26:51.231000000 Z
     content_type_id: designPattern
-    revision: 8
+    revision: 10
   title: Buttons
   status: live
   introduction: Buttons are functional. They should allow a user to complete a task
@@ -806,12 +514,11 @@ designPattern:
 
     <div class="coop-l-row coop-u-margin-th">
         <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour ">
+            <div class="dm-colour">
                 <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-bg coop-u-padding-q coop-u-margin-bh">
                   <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
                       <li class="coop-bold">Primary button</li>
-                      <li>$button-primary</li>
-                      <li>rgb(15,132,130)</li>
+                      <li>var(--color-button-primary)</li>
                       <li>#0F8482</li>
                   </ul>
                 </div>
@@ -822,21 +529,8 @@ designPattern:
                 <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-hover-bg coop-u-padding-q coop-u-margin-bh">
                   <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
                       <li class="coop-bold">Primary button hover</li>
-                      <li>$button-primary-hover</li>
-                      <li>rgb(43,158,156)</li>
+                      <li>var(--color-button-primary--hover)</li>
                       <li>#2B9E9C</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-primary-active-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Primary button active</li>
-                      <li>$button-primary-active</li>
-                      <li>rgb(12,111,109)</li>
-                      <li>#0C6F6D</li>
                   </ul>
                 </div>
             </div>
@@ -846,8 +540,7 @@ designPattern:
                 <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-bg coop-u-padding-q coop-u-margin-bh">
                   <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
                       <li class="coop-bold">Button dark</li>
-                      <li>$button-primary-dark</li>
-                      <li>rgb(0,57,78)</li>
+                      <li>var(--color-button-dark)</li>
                       <li>#00394E</li>
                   </ul>
                 </div>
@@ -855,24 +548,11 @@ designPattern:
         </div>
         <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
             <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide  coop-u-button-dark-hover-bg coop-u-padding-q coop-u-margin-bh">
+                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-hover-bg coop-u-padding-q coop-u-margin-bh">
                   <ul class="list-bare dm-colour__definition coop-u-white  coop-u-margin-x">
                       <li class="coop-bold">Button dark hover</li>
-                      <li>$button-primary-dark-hover</li>
-                      <li>rgb(74,102,131)</li>
+                      <li>var(--color-button-dark--hover)</li>
                       <li>#4A6683</li>
-                  </ul>
-                </div>
-            </div>
-        </div>
-        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
-            <div class="dm-colour">
-                <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-button-dark-active-bg coop-u-padding-q coop-u-margin-bh">
-                  <ul class="list-bare dm-colour__definition coop-u-white coop-u-margin-x">
-                      <li class="coop-bold">Button dark active</li>
-                      <li>$button-primary-dark-active</li>
-                      <li>rgb(46,64,82)</li>
-                      <li>#2e4052</li>
                   </ul>
                 </div>
             </div>
@@ -896,6 +576,17 @@ designPattern:
     Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.
 
     If you have reason to use them, research them using mobile devices. Entering information using touch devices can be especially time-consuming.
+- sys:
+    id: 3ji7octqKIAK6M64O4C4UW
+    created_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Bullet list
+  status: live
+  introduction: Lists are an effective way of breaking up content — they make it easier
+    for users to scan and find information. Use bullet points to break up a list of
+    items.
 - sys:
     id: 59IgUOk2tyqWmQeEAuEu8C
     created_at: !ruby/object:DateTime 2018-11-16 20:55:59.171000000 Z
@@ -927,22 +618,11 @@ designPattern:
     information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
     \"see our general guide on accessibility.\")"
 - sys:
-    id: 3ji7octqKIAK6M64O4C4UW
-    created_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Bullet list
-  status: live
-  introduction: Lists are an effective way of breaking up content — they make it easier
-    for users to scan and find information. Use bullet points to break up a list of
-    items.
-- sys:
     id: lAvhQFgf60gYgaGeSyS2k
     created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 14:55:58.025000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 08:18:58.462000000 Z
     content_type_id: designPattern
-    revision: 2
+    revision: 3
   title: Logo
   status: live
   introduction: The Cloverleaf Symbol was created in 1968 for project facelift, when
@@ -960,8 +640,7 @@ designPattern:
             <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-brand-bg coop-u-padding-q coop-u-margin-bh">
                 <ul class="list-bare dm-colour__definition coop-u-white">
                     <li class="coop-bold">Co-op blue</li>
-                    <li>$brand</li>
-                    <li>rgb(0,177,231)</li>
+                    <li>var(--color-brand)</li>
                     <li>#00B1E7</li>
                 </ul>
             </div>
@@ -971,6 +650,303 @@ designPattern:
     The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
 
     [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+inPageNavigationLink:
+- sys:
+    id: 4PdLyWY4iQ6MkaSqgwSwWO
+    created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Be considerate with language
+  section_id: be-considerate-with-language
+- sys:
+    id: 5Vre0BzSViue2WW2qq2uOG
+    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Money
+  section_id: money
+- sys:
+    id: 8P8pStonSMyoYKygC4wWs
+    created_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Give teams the evidence to make better decisions
+  section_id: give-teams-the-evidence-to-make-better-decisions
+- sys:
+    id: 1JvFECBhQwCMQOYuMo6o8C
+    created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: 'WAI-ARIA: make your service technically accessible'
+  section_id: wai-aria-make-your-service-technically-accessible
+- sys:
+    id: jFui2S5j2w6aWO4wW6cCE
+    created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Hyphens and dashes
+  section_id: hyphens-and-dashes
+- sys:
+    id: 5oRnDSsj28qge0GKICCOcg
+    created_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Do a little, often
+  section_id: do-a-little-often
+- sys:
+    id: 16UHPg7SlSoG68kk0qOcmG
+    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 1aBqmIklgQgaAgGeuGuoeS
+    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Using Co-op
+  section_id: using-co-op
+- sys:
+    id: 3ixUqdVh1YcokouyKq0GgY
+    created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Phone numbers
+  section_id: phone-numbers
+- sys:
+    id: 2BqtPMQpQwQomuMM62QeGY
+    created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Validation messages
+  section_id: validation-messages
+- sys:
+    id: 3r4SK4xTmEAQ6kwEA26Uc8
+    created_at: !ruby/object:DateTime 2018-12-05 08:47:49.932000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:55:04.021000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: iteratively
+  section_id: we-design-iteratively
+- sys:
+    id: 18UiYd1uoO4sqEgqew0M0u
+    created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Job titles
+  section_id: job-titles
+- sys:
+    id: 5DhfNoq1m8isM8uEWkqcm6
+    created_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: This is for everyone
+  section_id: this-is-for-everyone
+- sys:
+    id: 3ampSbV0IEOa0gcgaYyioy
+    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 19:01:52.723000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Frequently asked questions (FAQs)
+  section_id: frequently-asked-questions-faqs
+- sys:
+    id: 5jvVTmFwDm0Y4Yci2m4Ykw
+    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Numbers and units
+  section_id: numbers-and-units
+- sys:
+    id: 2qVPoLl9JGWo0WuIO4qkuw
+    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Brackets ('parentheses')
+  section_id: brackets-parentheses
+- sys:
+    id: 3BkG5xPQ7YISW0gkW0ke6i
+    created_at: !ruby/object:DateTime 2018-12-05 08:44:59.387000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:54:15.622000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: with purpose
+  section_id: we-design-with-purpose
+- sys:
+    id: 3EKBobQkJWWWQMMYgqce0y
+    created_at: !ruby/object:DateTime 2018-12-05 09:36:26.116000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 09:44:53.650000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 4
+  url_text: focus on what users do, not what they say they’d do
+  section_id: focus-on-what-users-do-not-what-they-say-theyd-do
+- sys:
+    id: 3c6JuSqlGMWu4GWQWOgKko
+    created_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Promote accessibility for all through good usability
+  section_id: promote-accessibility-for-all-through-good-usability
+- sys:
+    id: 3FpopuEryMImcWCgSqGEg2
+    created_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Involve everyone in research
+  section_id: involve-everyone-in-research
+- sys:
+    id: 1UKVpYiwYgemQCQ2QIaSOu
+    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 3bLHyid7T2iq2QIyMEQ2e
+    created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 19:13:37.126000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: Ellipsis
+  section_id: ellipsis
+- sys:
+    id: 1ycwpgjmXaCEgyy4KOaY02
+    created_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Designing for people with disabilities
+  section_id: designing-for-people-with-disabilities
+- sys:
+    id: CPhH3gdGj6WIUyYO8ESMC
+    created_at: !ruby/object:DateTime 2018-12-05 11:29:09.785000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 11:29:09.785000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Undertake the best research we can in any given situation
+  section_id: undertake-the-best-research-we-can-in-any-given-situation
+- sys:
+    id: 5JYkC4T3JSK6mkQqQYQa8C
+    created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Links
+  section_id: links
+- sys:
+    id: 4ISHoIB6b62Q0yAIwuYWOu
+    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Titles
+  section_id: titles
+- sys:
+    id: FPwfmzMIUea0Qoi6q42Ow
+    created_at: !ruby/object:DateTime 2018-12-05 08:44:13.027000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:54:01.765000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: in context
+  section_id: we-design-in-context
+- sys:
+    id: 3Id5v8BoPe0Ocm4egwuO42
+    created_at: !ruby/object:DateTime 2018-12-05 08:46:08.580000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:54:41.225000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: with honesty
+  section_id: we-design-with-honesty
+- sys:
+    id: 1Uu7XPztS8g0ayeQKiaqeu
+    created_at: !ruby/object:DateTime 2018-12-05 08:45:34.873000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:54:29.355000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: for everyone
+  section_id: we-design-for-everyone
+- sys:
+    id: oh4NWHH4DAYIK4Ee0a6um
+    created_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Key common issues
+  section_id: key-common-issues
+- sys:
+    id: 6Cp3eqqWBykQ8GW0oAUyKA
+    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Asking for names
+  section_id: asking-for-names
+- sys:
+    id: 3HstEyKxAskIwcmIyEmEcq
+    created_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Respect the privacy and integrity of the user
+  section_id: respect-the-privacy-and-integrity-of-the-user
+- sys:
+    id: 4RUDfB0aGco2sWCCeSSAoA
+    created_at: !ruby/object:DateTime 2018-12-05 08:46:45.052000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:54:53.273000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: in the open
+  section_id: we-design-in-the-open
+- sys:
+    id: 6AKlYZC88wocEus2kwuGwS
+    created_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:09:34.560000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: How to learn
+  section_id: how-to-learn
+- sys:
+    id: 2DWYd6Fp4wCkCMyO4owk20
+    created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Colons and semicolons
+  section_id: colons-and-semicolons
+- sys:
+    id: 1ArPAloWisyIEQS88WQyaE
+    created_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Lists
+  section_id: lists
+- sys:
+    id: 5BoAkhXis8IoKe88Mce0G8
+    created_at: !ruby/object:DateTime 2018-11-19 14:05:25.061000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:05:57.538000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Different access needs
+  section_id: different-access-needs
 page:
 - sys:
     id: W8GjmmJyakgA0kQc2YqUg
@@ -1651,9 +1627,9 @@ page:
 - sys:
     id: 3YTlC0pezKMGMsSEq4gkAu
     created_at: !ruby/object:DateTime 2018-10-23 13:26:32.454000000 Z
-    updated_at: !ruby/object:DateTime 2019-03-08 09:45:56.328000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 07:57:44.678000000 Z
     content_type_id: page
-    revision: 26
+    revision: 27
   title: Content design style guide
   status: live
   introduction: |-
@@ -1902,8 +1878,8 @@ page:
     made up by the business rather than genuinely asked by the public\n- users have
     to navigate through irrelevant content to see if their question is there — it’s
     frustrating and wastes their time\n- we should be creating services that speak
-    for themselves: [we design with purpose](https://coop-design-manual.herokuapp.com/principles.html#purpose)\n-
-    \nFor more information read [Content Strategist Sarah Richards' blog on FAQs](https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/).\n\n##
+    for themselves: [we design with purpose](https://coop-design-manual.herokuapp.com/principles.html#purpose)\n\nFor
+    more information read [Content Strategist Sarah Richards' blog on FAQs](https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/).\n\n##
     [Hyphens and dashes](hyphens-and-dashes)\n\nWhat you’re writing will determine
     where and when you should use hyphens and dashes.\n\nHyphens (the character you
     get when you type ‘-’ ) should be used to link words or part of words — they show
@@ -2006,9 +1982,9 @@ landingPage:
 - sys:
     id: 4vQeNl83y8WyeGAcU60wOU
     created_at: !ruby/object:DateTime 2018-12-05 12:51:56.179000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 12:51:56.179000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 08:49:06.255000000 Z
     content_type_id: landingPage
-    revision: 1
+    revision: 3
   title: Brand assets
   introduction: We [design in the open](https://coop-design-system.herokuapp.com/principles.html#we-design-in-the-open),
     so our design assets — the logos, sketching sheets and guidelines — that you might
@@ -2021,11 +1997,8 @@ landingPage:
                     <ul class="coop-list-bare">
                         <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/logo/logo.ai">logo AI (76kb)</a></li>
                         <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/logo/logo-white.ai">logo white AI (40kb)</a></li>
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master//sketch%20files/CoopStyle.sketch">Co-op style Sketch file (9.3mb)</a></li>
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/sketching-templates/coop-desktop-sketching-template.pdf">desktop sketching sheet PDF (795kb)</a></li>
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/sketching-templates/coop-tablet-sketching-template.pdf">tablet sketching sheet PDF (797kb)</a></li>
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/sketching-templates/coop-smartphone-sketching-template.pdf">smartphone sketching sheet PDF (825kb)</a></li>
                     </ul>
+                  <p>We use <a href="https://www.abstract.com/">Abstract</a> to distribute and collaborate on our design files. For access email <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>.</p>
                 </div>
                 <div class="coop-l-column coop-l-small-12 coop-l-large-6">
                     <h2>Principles and guidelines</h2>
@@ -2033,7 +2006,7 @@ landingPage:
                     <ul class="coop-list-bare">
                         <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/principles/DP_poster_v7.pdf">Design principles v7 PDF (46kb)</a></li>
                         <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/brand/WR_B_024-Brand Guidelines_16_9Low.pdf">Co-op brand guidelines (4mb)</a></li>
-                        <li><a href="https://coop.getbynder.com">Brand portal</a> - contact <a href="mailto:rachel.hardwick@coopdigital.co.uk">Rachel Hardwick</a> for access</li>
+                        <li><a href="https://coop.getbynder.com">Brand portal</a> - contact <a href="mailto:sue.scales@coop.co.uk">Sue Scales</a> for access</li>
                         <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/email/email-guidelines.pdf">Email design guidelines (727kb)</a></li>
                     </ul>
                 </div>

@@ -19,10 +19,3 @@ h2 {
   }
 }
 
-p {
-  margin-bottom: 16px !important;
-
-  @include media(medium) {
-    margin-bottom: 32px !important;
-  }
-}
