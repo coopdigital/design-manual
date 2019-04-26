@@ -487,15 +487,18 @@ designPattern:
 - sys:
     id: nyqE2V53eCUsKKguIcimS
     created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 09:36:28.406000000 Z
     content_type_id: designPattern
-    revision: 1
+    revision: 2
   title: Font
   status: live
   introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
     clear, open letterforms and letter spacing help communicate a consistent Co-op
     brand identity.
-  design_and_content_documentation: If you need the Avenir font contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk)
+  design_and_content_documentation: |-
+    <p>The Avenir font is served from a CDN (content delivery network) if you need access email <a href="mailto:design@coopdigital.co.uk">design@coopdigital</a>.</p>
+
+    <p>The design team are only responsible for support and distribution of the fonts online.</p>
 - sys:
     id: 1B1xHli8eMAe2emCygaQ8K
     created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
