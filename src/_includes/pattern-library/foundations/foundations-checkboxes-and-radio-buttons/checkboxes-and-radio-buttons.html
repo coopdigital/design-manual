@@ -1,26 +1,35 @@
 
-<fieldset class="coop-fieldset coop-c-checkbox-radio coop-u-margin-bb">
-    <legend class="coop-legend">Do you own:</legend>
-    <label class="coop-c-checkbox-radio__label">
-        <input type="checkbox" value="1" name="client[owns_a_business]" class="coop-c-checkbox-radio__input">a business
-    </label>
-    <label class="coop-c-checkbox-radio__label">
-        <input type="checkbox" value="2" name="client[owns_agricultural_property]" class="coop-c-checkbox-radio__input">agricultural property
-    </label>
-    <label class="coop-c-checkbox-radio__label">
-        <input type="checkbox" value="3" name="client[owns_foreign_property]" class="coop-c-checkbox-radio__input">foreign property
-    </label>
-    <label class="coop-c-checkbox-radio__label">
-        <input type="checkbox" value="4" name="client[owns_trademarks_or_patents]" class="coop-c-checkbox-radio__input">trademarks or patents
-    </label>
-</fieldset>
-
-<fieldset class="coop-fieldset coop-c-checkbox-radio">
-    <legend class="coop-legend">Type of delivery</legend>
-    <label class="coop-c-checkbox-radio__label" for="shipping-free">
-        <input type="radio" value="shipping-free" name="shipping" id="shipping-free" class="coop-c-checkbox-radio__input">Free delivery
-    </label>
-    <label class="coop-c-checkbox-radio__label" for="shipping-next-day">
-        <input type="radio" value="shipping-next-day" name="shipping" id="shipping-next-day" class="coop-c-checkbox-radio__input">Next day delivery &mdash; &pound;4.99
-    </label>
-</fieldset>
+<div class="coop-form__row coop-u-margin-th">
+    <fieldset class="coop-fieldset">
+        <legend class="coop-legend">Do you own:</legend>
+        <div class="coop-c-form-choice">
+            <input type="checkbox" name="option" id="checkbox" value="2" class="coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+            <label for="checkbox" class="coop-c-form-choice__label">a business</label>
+        </div>
+        <div class="coop-c-form-choice">
+            <input type="checkbox" name="option" id="checkbox-2" value="2" class="coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+            <label for="checkbox-2" class="coop-c-form-choice__label">agricultural property</label>
+        </div>
+        <div class="coop-c-form-choice">
+            <input type="checkbox" name="option" id="checkbox-3" value="2" class="coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+            <label for="checkbox-3" class="coop-c-form-choice__label">foreign property</label>
+        </div>
+        <div class="coop-c-form-choice">
+            <input type="checkbox" name="option" id="checkbox-4" value="2" class="coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+            <label for="checkbox-4" class="coop-c-form-choice__label">trademarks or patents</label>
+        </div>
+    </fieldset>
+</div>
+<div class="coop-form__row  coop-u-margin-th">
+    <fieldset class="coop-fieldset">
+        <legend class="coop-legend">Type of delivery</legend>
+        <div class="coop-c-form-choice">
+            <input type="radio" name="option" id="option-1" value="1" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+            <label class="coop-c-form-choice__label" for="option-1">Free delivery</label>
+        </div>
+        <div class="coop-c-form-choice">
+            <input type="radio" name="option" id="option-2" value="2" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+            <label class="coop-c-form-choice__label" for="option-2">Next day delivery — £4.99</label>
+        </div>
+    </fieldset>
+</div>

@@ -1,32 +1,32 @@
 {
-  "_from": "@coopdigital/component-checkbox",
-  "_id": "@coopdigital/component-checkbox@1.0.1",
+  "_from": "@coopdigital/component-checkbox@^2.0.1",
+  "_id": "@coopdigital/component-checkbox@2.0.1",
   "_inBundle": false,
-  "_integrity": "sha512-9zjYstBvY/cChEYeS3XluLbgh61GQ0mM86/fZ/0+3LEuXNuxCmMcaFOckTBiVqvy0qtp5ukFNskPhqIfrxSAkg==",
+  "_integrity": "sha512-UCrj+0+zZ5l9yUlbDjT/ZvbIH2VoJOY16uUHsfSah+Rq7k3QpRV02nQtE5v69MosYZStyoBcX+ZV45aYDMn3yw==",
   "_location": "/@coopdigital/component-checkbox",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "@coopdigital/component-checkbox",
+    "raw": "@coopdigital/component-checkbox@^2.0.1",
     "name": "@coopdigital/component-checkbox",
     "escapedName": "@coopdigital%2fcomponent-checkbox",
     "scope": "@coopdigital",
-    "rawSpec": "",
+    "rawSpec": "^2.0.1",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^2.0.1"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@coopdigital/component-checkbox/-/component-checkbox-1.0.1.tgz",
-  "_shasum": "46709eb0905a25daf3da81d2a7029af1b98a7261",
-  "_spec": "@coopdigital/component-checkbox",
+  "_resolved": "https://registry.npmjs.org/@coopdigital/component-checkbox/-/component-checkbox-2.0.1.tgz",
+  "_shasum": "640af19c49e4407cb5956162c0c4032d262f6a7c",
+  "_spec": "@coopdigital/component-checkbox@^2.0.1",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
-    "name": "Matthew Morek",
-    "email": "matthew.morek@coopdigital.co.uk",
+    "name": "Matt Tyas",
+    "email": "matt.tyas@coopdigital.co.uk",
     "url": "https://github.com/matthewmorek"
   },
   "bugs": {
@@ -34,7 +34,7 @@
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "CSS Component: Checkbox",
+  "description": "CSS Component: Checkbox and Radio",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",
     "autoprefixer": "^9.3.1",
@@ -56,7 +56,7 @@
   ],
   "homepage": "https://github.com/coopdigital/component-checkbox#readme",
   "license": "MIT",
-  "main": "dist/checkbox.css",
+  "main": "dist/checkbox-radio.css",
   "name": "@coopdigital/component-checkbox",
   "repository": {
     "type": "git",
@@ -67,6 +67,6 @@
     "dist": "npm run build && npm run lint",
     "lint": "stylelint 'dist/*.css' --fix"
   },
-  "style": "src/checkbox.pcss",
-  "version": "1.0.1"
+  "style": "src/checkbox-radio.pcss",
+  "version": "2.0.1"
 }

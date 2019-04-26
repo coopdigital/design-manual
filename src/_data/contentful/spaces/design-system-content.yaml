@@ -285,11 +285,13 @@ designPattern:
 - sys:
     id: 1yKUj6nb3OYgyQ8y6k2gW4
     created_at: !ruby/object:DateTime 2018-11-08 22:48:24.835000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:54:23.442000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 12:39:41.894000000 Z
     content_type_id: designPattern
-    revision: 3
+    revision: 4
   title: Checkboxes and radios
   status: live
+  github_url: https://github.com/coopdigital/component-checkbox
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-checkbox
   introduction: Radio buttons and checkboxes allow users to select an answer from
     2 or more options.
   design_and_content_documentation: |-

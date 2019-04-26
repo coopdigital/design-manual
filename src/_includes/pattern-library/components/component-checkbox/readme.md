@@ -1,32 +1,32 @@
-# CSS Component: Checkbox
+# CSS Component: Checkbox and Radio
 Radio buttons and checkboxes allow users to select an answer from 2 or more options.
 
-More detailed information on [how to use form patterns can be found in our design guidance](https://coop-design-manual.herokuapp.com/styles/forms/index.html).
+More detailed information on [how to use form patterns can be found in our design guidance](https://coop-design-system.herokuapp.com/pattern-library/foundations/checkboxes-and-radio-buttons.html).
 
 ## Installation
 This component was designed to work with [CSS Foundations](https://github.com/coopdigital/css-foundations) and requires it display correctly. This guide assumes you have CSS Foundations installed and running in your build pipeline; please refer to its own documentation for examples and guidance.
 
-You can install `component-checkbox` via `npm` or Yarn:
+You can install `component-checkbox-radio` via `npm` or Yarn:
 ```bash
-$ npm install @coopdigital/component-checkbox --save
+$ npm install @coopdigital/component-checkbox--save
 # OR
 $ yarn add @coopdigital/component-checkbox
 ```
 
 ## Usage
-You can include `component-checkbox` in your project by referencing it from your existing CSS via `@import` statement, i.e.:
+You can include `component-checkbox-radio` in your project by referencing it from your existing CSS via `@import` statement, i.e.:
 ```css
-@import "node_modules/@coopdigital/component-checkbox/dist/checkbox.css";
+@import "node_modules/@coopdigital/component-checkbox/dist/checkbox-radio.css";
 ```
 
 If you use PostCSS in your build pipeline, you can reference the sources directly like so:
 ```css
-@import "node_modules/@coopdigital/component-checkbox/src/checkbox.pcss";
+@import "node_modules/@coopdigital/component-checkbox/src/checkbox-radio.pcss";
 ```
 
 If you use a `postcss-import` plugin, it gets even easier:
 ```css
-@import "@coopdigital/component-checkbox";
+@import "@coopdigital/component-checkbox-radio";
 ```
 
 ## Examples
@@ -37,14 +37,16 @@ The latter have certain dependencies, which should be consumed by your frontend 
 ### HTML samples
 ```html
 <!-- Radio button -->
-<label class="coop-c-checkbox-radio__label" for="shipping-free">
-  <input type="radio" value="shipping-free" name="shipping" id="shipping-free" class="coop-c-checkbox-radio__input">Radio label
-</label>
+<div class="coop-c-form-choice">
+    <input type="radio" name="option" id="option-1" value="1" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+    <label class="coop-c-form-choice__label" for="option-1">Radio button</label>
+</div>
 
 <!-- Checkbox -->
-<label class="coop-c-checkbox-radio__label">
-  <input type="checkbox" value="1" name="client[owns_a_business]" class="coop-c-checkbox-radio__input">Checkbox label
-</label>
+<div class="coop-c-form-choice">
+    <input type="checkbox" name="option" id="checkbox" value="2" class="coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+    <label for="checkbox" class="coop-c-form-choice__label">Checkbox</label>
+</div>
 ```
 
 ### Vue.js
