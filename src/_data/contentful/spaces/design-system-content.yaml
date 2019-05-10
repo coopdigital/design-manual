@@ -726,12 +726,12 @@ page:
 - sys:
     id: r2Zw1EZmLRt9NCpAHYwlH
     created_at: !ruby/object:DateTime 2019-05-10 09:50:57.732000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-10 10:16:30.786000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 10:26:38.067000000 Z
     content_type_id: page
-    revision: 9
+    revision: 10
   title: Getting started
-  introduction: If you're new to Co-op use our guides to get set up with our design
-    templates and front-end code frameworks.
+  introduction: Use our guides to get set up with our design files, prototyping kit
+    and front-end code.
   in_page_navigation:
   - sys:
       id: 1k9n7SkR0CVLzeUTeMxEH0
