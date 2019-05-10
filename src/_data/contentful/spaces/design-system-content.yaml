@@ -726,9 +726,9 @@ page:
 - sys:
     id: r2Zw1EZmLRt9NCpAHYwlH
     created_at: !ruby/object:DateTime 2019-05-10 09:50:57.732000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-10 10:15:02.497000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 10:16:30.786000000 Z
     content_type_id: page
-    revision: 8
+    revision: 9
   title: Getting started
   introduction: If you're new to Co-op use our guides to get set up with our design
     templates and front-end code frameworks.
@@ -757,11 +757,11 @@ page:
       revision: 2
     url_text: Front-end
     section_id: front-end
-  content: "## [Design](#design)\nAll the design foundations and components are available
-    as <a href=\"https://www.sketch.com/\">Sketch</a> symbols you can use in your
-    service. \n\n<p>We use <a href=\"https://www.abstract.com/\">Abstract</a> to distribute
-    and collaborate on our design files.</p> You should get set up with this when
-    you start.\n\n<p>For access email <a href=\"mailto:design@coopdigital.co.uk\">design@coopdigital.co.uk</a>.</p>\n\n\n##
+  content: "## [Design](#design)\nAll the design <a href=\"https://coop-design-system.herokuapp.com/pattern-library/\">foundations
+    and components</a> are available as <a href=\"https://www.sketch.com/\">Sketch</a>
+    symbols you can use in your service. \n\n<p>We use <a href=\"https://www.abstract.com/\">Abstract</a>
+    to distribute and collaborate on our design files.</p> You should get set up with
+    this when you start.\n\n<p>For access email <a href=\"mailto:design@coopdigital.co.uk\">design@coopdigital.co.uk</a>.</p>\n\n\n##
     [Prototyping](#prototyping)\nOur prototyping kit comes with 2 main options. A
     <a href=\"https://parceljs.org/\">parcel.js</a> installation with zero configuration
     and all the <a href=\"https://coop-design-system.herokuapp.com/pattern-library/\">foundations
