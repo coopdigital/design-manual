@@ -6,8 +6,8 @@ body-page-class: dm-dark
 
 <article class="coop-l-wrap">
     {% include breadcrumbs.html %}
-    {% for page in site.data.contentful.spaces.design-system-content.landingPage %}
-        {% if page.sys.id == '3rvIIO3YA8G22KUs2GUG4o' %}
+    {% for page in site.data.contentful.spaces.design-system-content.page %}
+        {% if page.sys.id == '3JcC1cQTjEdq6Pvo3dJGAc' %}
         <header>
             <div class="coop-l-row">
                 <div class="coop-l-column coop-l-medium-8 coop-l-small-12 intro-box">
@@ -18,9 +18,22 @@ body-page-class: dm-dark
                 </div>
             </div>
         </header>
-        <section class="ds-section">
-            {{ page.content | markdownify }}
-        </section>
+        <div class="coop-l-row">
+                <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
+                    <nav>
+                        <ul class="coop-list-bare in-page-nav">
+                            {% for item in page.in_page_navigation %}
+                            <li><a href="#{{ item.section_id }}">{{ item.url_text }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                </div>
+                <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
+                    <section class="ds-section">
+                        {{ page.content | markdownify }}
+                    </section>
+                </div>
+            </div>
         {% endif %}
     {% endfor %}
     </article>
