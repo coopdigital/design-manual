@@ -33,14 +33,6 @@ inPageNavigationLink:
   url_text: Webpack build pipeline
   section_id: webpack-build-pipeline
 - sys:
-    id: 4RUDfB0aGco2sWCCeSSAoA
-    created_at: !ruby/object:DateTime 2018-12-05 08:46:45.052000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:54:53.273000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: in the open
-  section_id: we-design-in-the-open
-- sys:
     id: 2VZK1LY9APPkez2Ji7dk5V
     created_at: !ruby/object:DateTime 2019-05-10 09:59:09.386000000 Z
     updated_at: !ruby/object:DateTime 2019-05-10 10:01:34.011000000 Z
@@ -48,6 +40,14 @@ inPageNavigationLink:
     revision: 2
   url_text: Front-end
   section_id: front-end
+- sys:
+    id: 4RUDfB0aGco2sWCCeSSAoA
+    created_at: !ruby/object:DateTime 2018-12-05 08:46:45.052000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:54:53.273000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: in the open
+  section_id: we-design-in-the-open
 - sys:
     id: 3HstEyKxAskIwcmIyEmEcq
     created_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
@@ -113,14 +113,6 @@ inPageNavigationLink:
   url_text: iteratively
   section_id: we-design-iteratively
 - sys:
-    id: 4PdLyWY4iQ6MkaSqgwSwWO
-    created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Be considerate with language
-  section_id: be-considerate-with-language
-- sys:
     id: 1k9n7SkR0CVLzeUTeMxEH0
     created_at: !ruby/object:DateTime 2019-05-10 09:56:39.455000000 Z
     updated_at: !ruby/object:DateTime 2019-05-10 10:01:44.708000000 Z
@@ -128,6 +120,14 @@ inPageNavigationLink:
     revision: 2
   url_text: Design
   section_id: design
+- sys:
+    id: 4PdLyWY4iQ6MkaSqgwSwWO
+    created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Be considerate with language
+  section_id: be-considerate-with-language
 - sys:
     id: 5Vre0BzSViue2WW2qq2uOG
     created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
@@ -297,14 +297,6 @@ inPageNavigationLink:
   url_text: This is for everyone
   section_id: this-is-for-everyone
 - sys:
-    id: 3ampSbV0IEOa0gcgaYyioy
-    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 19:01:52.723000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Frequently asked questions (FAQs)
-  section_id: frequently-asked-questions-faqs
-- sys:
     id: 1nQ7OypmxYxQ4Ypm0c3tU6
     created_at: !ruby/object:DateTime 2019-05-10 09:23:35.007000000 Z
     updated_at: !ruby/object:DateTime 2019-05-10 09:25:57.733000000 Z
@@ -312,6 +304,14 @@ inPageNavigationLink:
     revision: 2
   url_text: Front-end foundations
   section_id: front-end-foundations
+- sys:
+    id: 3ampSbV0IEOa0gcgaYyioy
+    created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-15 19:01:52.723000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Frequently asked questions (FAQs)
+  section_id: frequently-asked-questions-faqs
 - sys:
     id: 18UiYd1uoO4sqEgqew0M0u
     created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
@@ -879,9 +879,9 @@ page:
 - sys:
     id: W8GjmmJyakgA0kQc2YqUg
     created_at: !ruby/object:DateTime 2018-12-05 09:36:10.221000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 11:30:45.167000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-16 11:37:52.692000000 Z
     content_type_id: page
-    revision: 3
+    revision: 4
   title: User research principles
   status: live
   introduction: |-
@@ -971,12 +971,12 @@ page:
     - look ahead to the next sprint and research questions that will help them make product decisions
 
     We don't:
-    accept ‘it tested ok’ to be the end of iteration and improvement
-    prioritise fieldwork over time to synthesise and analyse
+    - accept ‘it tested ok’ to be the end of iteration and improvement
+    - prioritise fieldwork over time to synthesise and analyse
 
 
     ## Give teams the evidence to make better decisions
-    We research and test the team's assumptions so that decisions so that decisions are based on evidence rather than guesses.
+    We research and test the team's assumptions so that decisions are based on evidence rather than guesses.
 
     We do:
     - draw meaningful insight from research findings (drawing on other contexts and concepts)
@@ -1704,6 +1704,15 @@ designPattern:
     described by the &lt;caption&gt;. This cell can be left blank, but must be marked
     up as an empty &lt;td&gt;&lt;/td&gt;.\n"
 - sys:
+    id: 5JoR23Ulbi8CisOuQ6g02c
+    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Numbered list
+  status: live
+  introduction: Numbered lists are used to indicate a logical sequence.
+- sys:
     id: 6lzK0U8LlYgc2OWmuu22e6
     created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
     updated_at: !ruby/object:DateTime 2018-11-15 14:51:20.685000000 Z
@@ -1740,15 +1749,6 @@ designPattern:
     If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
 
     [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 5JoR23Ulbi8CisOuQ6g02c
-    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Numbered list
-  status: live
-  introduction: Numbered lists are used to indicate a logical sequence.
 - sys:
     id: 6wmK1ZxEeAAC2iuuYqgiui
     created_at: !ruby/object:DateTime 2018-11-08 20:53:34.160000000 Z
