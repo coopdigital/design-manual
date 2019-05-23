@@ -349,6 +349,13 @@ a {
   }
 }
 
+.in-page-nav--horz {
+  
+  li {
+    display: inline;
+  }
+}
+
 .in-page-nav-title {
   text-transform: uppercase;
   font-family: $medium;

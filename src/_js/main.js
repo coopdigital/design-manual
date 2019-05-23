@@ -7,6 +7,17 @@ $(function(){
 
   $('.in-page-nav').fixedsticky();
 
+  // var stickyNav = $('.fixedsticky--horz').offset().top;
+
+  // $(window).scroll(function() {  
+  //     if ($(window).scrollTop() > stickyNav) {
+  //         $('.fixedsticky--horz').addClass('fixedsticky--horz-styled');
+  //     }
+  //     else {
+  //         $('.fixedsticky--horz').removeClass('fixedsticky--horz-styled');
+  //     }  
+  // });
+
   Coop.init();
 
   function showElement(element) {
