@@ -5,7 +5,11 @@ Heros
 .ds-hero {
   padding-top: 60px;
   overflow: hidden;
-  @include spacing('margin', 'bottom', 'half');
+  margin-bottom: 0;
+
+  @include media(xlarge) {
+    margin-bottom: 32px;
+  }
 }
 
 
@@ -33,27 +37,29 @@ Heros
 
 .ds-hero__squircle {
   position: absolute;
-  right: -250%;
-  width: 300%;
-  top: -200vw; /* position top based on screen width */
+  width: 270%;
+  right: -230%; 
+  top: -220vw; /* position top based on screen width */
   z-index: -1;
-  fill: #F3F9FD;
+  fill: #FED132;
 
-  @include media(medium) {
-    right: -132%;
-    width: 200%;
-    top: auto;
-    bottom: 0; /* lock to bottom of content */
-  }
+  // @include media(medium) {
+  //   right: -80%;
+  //   width: 200%;
+  //   bottom: 0; /* lock to bottom of content */
+  //   top: -200vw;
+  // }
 
   @include media(large) {
-    right: -143%;
-    width: 220%;
+    width: 248%;
+    right: -180%;
+    top: -200vw;
   }
 
   @include media(xlarge) {
-    width: 300%;
-    right: -215%;
+    width: 248%;
+    right: -180%;
+    top: -200vw;
   }
 
   /* svg positioning required for IE 10/11 scaling */
