@@ -4,8 +4,10 @@ Heros
 
 .ds-hero {
   padding-top: 60px;
+  overflow: hidden;
   @include spacing('margin', 'bottom', 'half');
 }
+
 
 .dm-main-hero__title {}
 
@@ -27,4 +29,47 @@ Heros
 
 .principles-intro {
   margin-bottom: $base-spacing-unit;
+}
+
+.ds-hero__squircle {
+  position: absolute;
+  right: -250%;
+  width: 300%;
+  top: -200vw; /* position top based on screen width */
+  z-index: -1;
+  fill: #F3F9FD;
+
+  @include media(medium) {
+    right: -132%;
+    width: 200%;
+    top: auto;
+    bottom: 0; /* lock to bottom of content */
+  }
+
+  @include media(large) {
+    right: -143%;
+    width: 220%;
+  }
+
+  @include media(xlarge) {
+    width: 300%;
+    right: -215%;
+  }
+
+  /* svg positioning required for IE 10/11 scaling */
+
+  &__inner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 95.78246393%; /* aspect ratio of squircle - (1726 / 1802) */
+  }
+
+  &__svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
 }
