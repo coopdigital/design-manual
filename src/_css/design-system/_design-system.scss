@@ -3,6 +3,14 @@
 $green-blue-dark: #29837f;
 $woodsmoke: #1D2534;
 
+.ds-squircle-contain {
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 50%;
+}
+
 .coop-logo {
   border-bottom: 0;
 }
