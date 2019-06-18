@@ -4,11 +4,11 @@ body-page-class: dm-dark
 title: Tags
 id: pattern-library
 ---
-<article class="coop-l-wrap">
-{% include breadcrumbs.html %}
-{% for designPattern in site.data.contentful.spaces.design-system-content.designPattern %}
-    {% if designPattern.sys.id == '6IIXRPgCWWmy6iIKK4Mqyq' %}
-    <div class="m-bh-med-b">
+<article>
+    <div class="coop-l-wrap">
+    {% include breadcrumbs.html %}
+    {% for designPattern in site.data.contentful.spaces.design-system-content.designPattern %}
+        {% if designPattern.sys.id == '6IIXRPgCWWmy6iIKK4Mqyq' %}
         <header>
             <div class="coop-l-row">
                 <div class="coop-l-column coop-l-medium-7 coop-l-small-12 intro-box">
@@ -17,17 +17,15 @@ id: pattern-library
                             <a href="/process.html" class="status__link">{{ designPattern.status }}</a>
                         </span>
                     </h1>
-                    <div class="highlight-banner m-bh-med-b">
+                    <div class="highlight-banner">
                         <p class="ds-intro">{{ designPattern.introduction | markdownify }}</p>
                     </div>
                 </div>
             </div>
         </header>
-    </div>
-    <div class="coop-l-row">
-        <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
+        <div class="fixedsticky fixedsticky--horz">
             <nav>
-                <ul id="in-page-nav" class="coop-list-bare in-page-nav">
+                <ul class="in-page-nav in-page-nav--horz">
                     <li><a href="#example">Example</a></li>
                     <li><a href="#design-and-content">Design and content</a></li>
                     <!-- <li><a href="#accessibility">Accessibility</a></li> -->
@@ -36,55 +34,65 @@ id: pattern-library
                 </ul>
             </nav>
         </div>
-        <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
-            <section id="example" class="coop-ds-example">
-                <header class="ds-pen-example__header">
-                    <h2 id="example" class="Pen-panel-title pull-left">Example</h2>
-                </header>
-                <div id="TabContainer">
-                    <div class="accordion-wrapper">
-                        <h3 class="tabs-container__title" id="TabPanelTitle-Tab1">Example</h3>
-                        <div class="tabs-container__panel" id="Tab1">
-                            {% include pattern-library/components/component-tags/src/tags.html %}
-                            {% include pattern-library/components/component-tags/src/tags--list.html %}
-                            {% include pattern-library/components/component-tags/src/tags--link.html %}
+    </div>
+    <div class="coop-u-grey-light-bg m-bh-med-b">
+        <div class="coop-l-wrap">
+            <div class="coop-l-row">
+                <div class="coop-l-column coop-l-all-12">
+                    <section id="example" class="coop-ds-example">
+                        <header class="ds-pen-example__header">
+                            <h2 id="example" class="Pen-panel-title pull-left">Example</h2>
+                        </header>
+                        <div id="TabContainer">
+                            <div class="accordion-wrapper">
+                                <h3 class="tabs-container__title" id="TabPanelTitle-Tab1">Example</h3>
+                                <div class="tabs-container__panel" id="Tab1">
+                                    <div class="coop-l-row">
+                                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6 coop-l-large-4">
+                                            {% include pattern-library/components/component-tags/src/tags.html %}
+                                            {% include pattern-library/components/component-tags/src/tags--list.html %}
+                                            {% include pattern-library/components/component-tags/src/tags--link.html %}
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="tabs-container__title" id="TabPanelTitle-Tab2">HTML</h3>
+                                <div class="tabs-container__panel" id="Tab2">
+                                    {% highlight html %}
+                                    {% include pattern-library/components/component-tags/src/tags.html %}
+                                    {% include pattern-library/components/component-tags/src/tags--list.html %}
+                                    {% include pattern-library/components/component-tags/src/tags--link.html %}
+                                    {% endhighlight %}
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="tabs-container__title" id="TabPanelTitle-Tab2">HTML</h3>
-                        <div class="tabs-container__panel" id="Tab2">
-                            {% highlight html %}
-                            {% include pattern-library/components/component-tags/src/tags.html %}
-                            {% include pattern-library/components/component-tags/src/tags--list.html %}
-                            {% include pattern-library/components/component-tags/src/tags--link.html %}
-                            {% endhighlight %}
-                        </div>
-                        <h3 class="tabs-container__title" id="TabPanelTitle-Tab3">CSS</h3>
-                        <div class="tabs-container__panel" id="Tab3">
-                            {% highlight css %}
-                            {% include pattern-library/components/component-tags/dist/tags.css %}
-                            {% endhighlight %}
-                        </div>
-                    </div>
+                        <ul class="coop-list-bare coop-list-inline dm-icon-list">
+                            <li><img src="/images/icons/github.svg" class="coop-c-icon__left" alt="" /><a href="{{ designPattern.github_url }}" class="coop-u-link-black">Get the code from Github</a></li>
+                            <li><img src="/images/icons/npm.svg" class="coop-c-icon__left coop-c-icon__left--npm" alt="" /><a href="{{ designPattern.npm_url }}" class="coop-u-link-black">Install the code from NPM</a></li>
+                        </ul>
+                    </section>
                 </div>
-                <ul class="coop-u-margin-x coop-list-bare coop-list-inline dm-icon-list">
-                    <li><img src="/images/icons/github.svg" class="coop-c-icon__left" alt="" /><a href="{{ designPattern.github_url }}" class="coop-u-link-black">View on Github</a></li>
-                    <li><img src="/images/icons/npm.svg" class="coop-c-icon__left coop-c-icon__left--npm" alt="" /><a href="{{ designPattern.npm_url }}" class="coop-u-link-black">Install via NPM</a></li>
-                </ul>
-            </section>
-            <section id="design-and-content" class="m-tb-med-x margin-bb padding-bh">
-                <h2>Design and content</h2>
-                {{ designPattern.design_and_content_documentation | markdownify }}
-            </section>
-            <!-- <section id="accessibility" class="m-tb-med-x margin-bb padding-bh">
-                <h2>Accessibility</h2>
-                <p>{{ designPattern.accessibility_documentation | markdownify }}</p>
-            </section> -->
-            <section id="variations" class="m-tb-med-x margin-bb padding-bh">
-                <h2>Related components</h2>
-                <p>{{ designPattern.variations | markdownify }}</p>
-            </section>
-            {% include pattern-page/suggest-a-pattern.html %}
+            </div>
         </div>
     </div>
-    {% endif %}
-{% endfor %}
+    <div class="coop-l-wrap">
+        <div class="coop-l-row">
+            <div class="coop-l-column coop-l-medium-7 coop-l-small-12">
+                <section id="design-and-content" class="m-tb-med-x margin-bb padding-bh">
+                    <h2>Design and content</h2>
+                    {{ designPattern.design_and_content_documentation | markdownify }}
+                </section>
+                <!-- <section id="accessibility" class="m-tb-med-x margin-bb padding-bh">
+                    <h2>Accessibility</h2>
+                    <p>{{ designPattern.accessibility_documentation | markdownify }}</p>
+                </section> -->
+                <section id="variations" class="m-tb-med-x margin-bb padding-bh">
+                    <h2>Related components</h2>
+                    <p>{{ designPattern.variations | markdownify }}</p>
+                </section>
+                {% include pattern-page/suggest-a-pattern.html %}
+            </div>
+        </div>
+    </div>
 </article>
+{% endif %}
+{% endfor %}

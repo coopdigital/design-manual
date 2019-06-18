@@ -1,28 +1,33 @@
 {
-  "_from": "@coopdigital/foundations-layout@~1.0.0",
+  "_args": [
+    [
+      "@coopdigital/foundations-layout@1.0.0",
+      "/Applications/MAMP/htdocs/design-manual"
+    ]
+  ],
+  "_from": "@coopdigital/foundations-layout@1.0.0",
   "_id": "@coopdigital/foundations-layout@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-Hw/fu7qbyvqbfeUKH5zGauXIgJO0kLnHI2wijk+q5ShpkFWff3wfGc7Lg+OeQNzemkG2xrgVpoVKHRBUl75kjw==",
   "_location": "/@coopdigital/foundations-layout",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@coopdigital/foundations-layout@~1.0.0",
+    "raw": "@coopdigital/foundations-layout@1.0.0",
     "name": "@coopdigital/foundations-layout",
     "escapedName": "@coopdigital%2ffoundations-layout",
     "scope": "@coopdigital",
-    "rawSpec": "~1.0.0",
+    "rawSpec": "1.0.0",
     "saveSpec": null,
-    "fetchSpec": "~1.0.0"
+    "fetchSpec": "1.0.0"
   },
   "_requiredBy": [
     "/@coopdigital/css-foundations"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-layout/-/foundations-layout-1.0.0.tgz",
-  "_shasum": "f77a0b404958657553924a75cb9423f6b5f0e0a7",
-  "_spec": "@coopdigital/foundations-layout@~1.0.0",
-  "_where": "/Applications/MAMP/htdocs/design-manual/node_modules/@coopdigital/css-foundations",
+  "_spec": "1.0.0",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matthew Morek",
     "url": "matthew.morek@coopdigital.co.uk"
@@ -30,8 +35,6 @@
   "bugs": {
     "url": "https://github.com/coopdigital/foundations-layout/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "CSS Foundations: Layout",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",

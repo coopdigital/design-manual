@@ -1,28 +1,32 @@
 {
-  "_from": "@coopdigital/foundations-buttons",
+  "_args": [
+    [
+      "@coopdigital/foundations-buttons@1.0.2",
+      "/Applications/MAMP/htdocs/design-manual"
+    ]
+  ],
+  "_from": "@coopdigital/foundations-buttons@1.0.2",
   "_id": "@coopdigital/foundations-buttons@1.0.2",
   "_inBundle": false,
   "_integrity": "sha512-PUAMtemxmCm8VBEh7Gk3wSRMQ3L0vzAMpVNuh/5ENXm5GthquGwuQCD8hgeW4w77OaunR/Y3U/tYHgVOCXDl1A==",
   "_location": "/@coopdigital/foundations-buttons",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "@coopdigital/foundations-buttons",
+    "raw": "@coopdigital/foundations-buttons@1.0.2",
     "name": "@coopdigital/foundations-buttons",
     "escapedName": "@coopdigital%2ffoundations-buttons",
     "scope": "@coopdigital",
-    "rawSpec": "",
+    "rawSpec": "1.0.2",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "1.0.2"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-buttons/-/foundations-buttons-1.0.2.tgz",
-  "_shasum": "81d0c54b7ee8636e45c40d0972760021a99559b4",
-  "_spec": "@coopdigital/foundations-buttons",
+  "_spec": "1.0.2",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matt Tyas",
@@ -31,8 +35,6 @@
   "bugs": {
     "url": "https://github.com/coopdigital/foundations-buttons/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Co-op Foundations: Buttons",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",

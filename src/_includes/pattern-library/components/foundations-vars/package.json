@@ -1,27 +1,34 @@
 {
-  "_from": "@coopdigital/foundations-vars@^1.0.0",
+  "_args": [
+    [
+      "@coopdigital/foundations-vars@1.0.0",
+      "/Applications/MAMP/htdocs/design-manual"
+    ]
+  ],
+  "_from": "@coopdigital/foundations-vars@1.0.0",
   "_id": "@coopdigital/foundations-vars@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-CPrTvnerP6UjmGj8VLOOOL7msRG09JdYeFhosiwR6B6fpznqPC00hhSe6MDnLyu3SL71PuzOuUOvhiA2q2w+vQ==",
   "_location": "/@coopdigital/foundations-vars",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@coopdigital/foundations-vars@^1.0.0",
+    "raw": "@coopdigital/foundations-vars@1.0.0",
     "name": "@coopdigital/foundations-vars",
     "escapedName": "@coopdigital%2ffoundations-vars",
     "scope": "@coopdigital",
-    "rawSpec": "^1.0.0",
+    "rawSpec": "1.0.0",
     "saveSpec": null,
-    "fetchSpec": "^1.0.0"
+    "fetchSpec": "1.0.0"
   },
   "_requiredBy": [
-    "#DEV:/"
+    "/",
+    "/@coopdigital/css-foundations",
+    "/@coopdigital/foundations-colors"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-vars/-/foundations-vars-1.0.0.tgz",
-  "_shasum": "0188e1ca396dff8c2a25d739939a56005c933b84",
-  "_spec": "@coopdigital/foundations-vars@^1.0.0",
+  "_spec": "1.0.0",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matthew Morek",
@@ -30,8 +37,6 @@
   "bugs": {
     "url": "https://github.com/coopdigital/foundations-vars/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Co-op CSS Foundations: Variables",
   "devDependencies": {
     "autoprefixer": "^9.3.1",

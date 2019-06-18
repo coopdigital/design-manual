@@ -1,28 +1,33 @@
 {
-  "_from": "@coopdigital/foundations-typography",
+  "_args": [
+    [
+      "@coopdigital/foundations-typography@1.1.3",
+      "/Applications/MAMP/htdocs/design-manual"
+    ]
+  ],
+  "_from": "@coopdigital/foundations-typography@1.1.3",
   "_id": "@coopdigital/foundations-typography@1.1.3",
   "_inBundle": false,
   "_integrity": "sha512-CmCOjG9FTs0d4sm2zmZrUXQ8K3lepNZnxVP286DVovUo0ixg34fcQXZtYVpqtO35vLc1EGJyQ7ZP0quTbC4hxw==",
   "_location": "/@coopdigital/foundations-typography",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "@coopdigital/foundations-typography",
+    "raw": "@coopdigital/foundations-typography@1.1.3",
     "name": "@coopdigital/foundations-typography",
     "escapedName": "@coopdigital%2ffoundations-typography",
     "scope": "@coopdigital",
-    "rawSpec": "",
+    "rawSpec": "1.1.3",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "1.1.3"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "/",
+    "/@coopdigital/css-foundations"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-typography/-/foundations-typography-1.1.3.tgz",
-  "_shasum": "18127671ca2fef9d0bef936c615b8592b9ce5b31",
-  "_spec": "@coopdigital/foundations-typography",
+  "_spec": "1.1.3",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matthew Morek",
@@ -31,8 +36,6 @@
   "bugs": {
     "url": "https://github.com/coopdigital/foundations-typography/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "Co-op Foundations: Typography",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",

@@ -1,28 +1,32 @@
 {
-  "_from": "@coopdigital/component-checkbox@^2.0.1",
+  "_args": [
+    [
+      "@coopdigital/component-checkbox@2.0.1",
+      "/Applications/MAMP/htdocs/design-manual"
+    ]
+  ],
+  "_from": "@coopdigital/component-checkbox@2.0.1",
   "_id": "@coopdigital/component-checkbox@2.0.1",
   "_inBundle": false,
   "_integrity": "sha512-UCrj+0+zZ5l9yUlbDjT/ZvbIH2VoJOY16uUHsfSah+Rq7k3QpRV02nQtE5v69MosYZStyoBcX+ZV45aYDMn3yw==",
   "_location": "/@coopdigital/component-checkbox",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@coopdigital/component-checkbox@^2.0.1",
+    "raw": "@coopdigital/component-checkbox@2.0.1",
     "name": "@coopdigital/component-checkbox",
     "escapedName": "@coopdigital%2fcomponent-checkbox",
     "scope": "@coopdigital",
-    "rawSpec": "^2.0.1",
+    "rawSpec": "2.0.1",
     "saveSpec": null,
-    "fetchSpec": "^2.0.1"
+    "fetchSpec": "2.0.1"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/component-checkbox/-/component-checkbox-2.0.1.tgz",
-  "_shasum": "640af19c49e4407cb5956162c0c4032d262f6a7c",
-  "_spec": "@coopdigital/component-checkbox@^2.0.1",
+  "_spec": "2.0.1",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matt Tyas",
@@ -32,8 +36,6 @@
   "bugs": {
     "url": "https://github.com/coopdigital/component-checkbox/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "CSS Component: Checkbox and Radio",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",

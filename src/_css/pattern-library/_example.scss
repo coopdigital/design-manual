@@ -9,13 +9,17 @@
   outline: 2px dotted $yellow-mid;
   outline-offset: 3px;
 }
+.tabs-container__panel {
+  padding: 20px;
+  background: #FFF;
+}
 
 .coop-ds-example {
   padding: 24px 0 24px 0;
 
 
   @include media(medium) {
-    padding: 24px 0 24px 0;  
+    padding: 24px 0 24px 0;
   }
 
   .tabs-init {
@@ -28,19 +32,20 @@
     @include media(medium) {
       display: block;
       position: absolute;
-      top: -55px;
+      top: -70px;
       right: -20px;
     }
 
     .btn-pill {
       font-size: 1rem;
-      
+
     }
   }
 }
 
 .ds-pen-example__header {
   @include clearfix();
+  margin-bottom: 16px;
 }
 
 @media (min-width: 751px) {
@@ -107,11 +112,12 @@
   .tabs-container__panel[aria-hidden="false"] {
     display: block;
     margin: 16px 16px 32px 16px;
+    background: #FFF;
   }
 
   .tabs-container__title[aria-selected="true"] {
     background: #FFF;
-  
+
     &:active,
     &:focus {
       outline: 2px dotted #eec300;

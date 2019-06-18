@@ -1,28 +1,33 @@
 {
-  "_from": "@coopdigital/foundations-forms@~1.0.1",
+  "_args": [
+    [
+      "@coopdigital/foundations-forms@1.0.1",
+      "/Applications/MAMP/htdocs/design-manual"
+    ]
+  ],
+  "_from": "@coopdigital/foundations-forms@1.0.1",
   "_id": "@coopdigital/foundations-forms@1.0.1",
   "_inBundle": false,
   "_integrity": "sha512-axRhk+je5gU7YmEnWVcNWmtMnmnVkBjVlxKaKIXHDvm3sVUMX1C01Bl48zJCKrulJ1J4h18l1KSn/hBjFcRw8w==",
   "_location": "/@coopdigital/foundations-forms",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@coopdigital/foundations-forms@~1.0.1",
+    "raw": "@coopdigital/foundations-forms@1.0.1",
     "name": "@coopdigital/foundations-forms",
     "escapedName": "@coopdigital%2ffoundations-forms",
     "scope": "@coopdigital",
-    "rawSpec": "~1.0.1",
+    "rawSpec": "1.0.1",
     "saveSpec": null,
-    "fetchSpec": "~1.0.1"
+    "fetchSpec": "1.0.1"
   },
   "_requiredBy": [
     "/@coopdigital/css-foundations"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-forms/-/foundations-forms-1.0.1.tgz",
-  "_shasum": "80f14abf01a19fa6223c0e730f6b0d17731d1b2b",
-  "_spec": "@coopdigital/foundations-forms@~1.0.1",
-  "_where": "/Applications/MAMP/htdocs/design-manual/node_modules/@coopdigital/css-foundations",
+  "_spec": "1.0.1",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matthew Morek",
     "email": "matthew.morek@coopdigital.co.uk",
@@ -31,8 +36,6 @@
   "bugs": {
     "url": "https://github.com/coopdigital/foundations-forms/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "CSS Foundations: Forms",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",

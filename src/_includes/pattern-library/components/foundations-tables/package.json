@@ -1,28 +1,33 @@
 {
-  "_from": "@coopdigital/foundations-tables@~1.0.0",
+  "_args": [
+    [
+      "@coopdigital/foundations-tables@1.0.0",
+      "/Applications/MAMP/htdocs/design-manual"
+    ]
+  ],
+  "_from": "@coopdigital/foundations-tables@1.0.0",
   "_id": "@coopdigital/foundations-tables@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-1I8xn9JMyXAgV9NnoWZJAWwzyLo3ERof6qhV5orpk4Y6IQqY/TF4R4eYlQUXzgUQ43qF5y/d80NqaHCp2iZKJg==",
   "_location": "/@coopdigital/foundations-tables",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@coopdigital/foundations-tables@~1.0.0",
+    "raw": "@coopdigital/foundations-tables@1.0.0",
     "name": "@coopdigital/foundations-tables",
     "escapedName": "@coopdigital%2ffoundations-tables",
     "scope": "@coopdigital",
-    "rawSpec": "~1.0.0",
+    "rawSpec": "1.0.0",
     "saveSpec": null,
-    "fetchSpec": "~1.0.0"
+    "fetchSpec": "1.0.0"
   },
   "_requiredBy": [
     "/@coopdigital/css-foundations"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-tables/-/foundations-tables-1.0.0.tgz",
-  "_shasum": "c92279dc618bed9ed5b4d01a5793908ee59eeb1f",
-  "_spec": "@coopdigital/foundations-tables@~1.0.0",
-  "_where": "/Applications/MAMP/htdocs/design-manual/node_modules/@coopdigital/css-foundations",
+  "_spec": "1.0.0",
+  "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matthew Morek",
     "url": "matthew.morek@coopdigital.co.uk"
@@ -30,8 +35,6 @@
   "bugs": {
     "url": "https://github.com/coopdigital/foundations-tables/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "CSS Foundations: Tables",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",

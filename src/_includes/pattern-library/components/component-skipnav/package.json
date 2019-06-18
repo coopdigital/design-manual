@@ -1,28 +1,32 @@
 {
-  "_from": "@coopdigital/component-skipnav",
+  "_args": [
+    [
+      "@coopdigital/component-skipnav@1.0.0",
+      "/Applications/MAMP/htdocs/design-manual"
+    ]
+  ],
+  "_from": "@coopdigital/component-skipnav@1.0.0",
   "_id": "@coopdigital/component-skipnav@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-oDs74zcmf04HzQXy1BXKmbj4N9Zvr4eLWc/5xDfquw7dKtzzyt6Y8hN3r8hRK7h/dhxEkpiUcSe5lMv18ZcEQQ==",
   "_location": "/@coopdigital/component-skipnav",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "@coopdigital/component-skipnav",
+    "raw": "@coopdigital/component-skipnav@1.0.0",
     "name": "@coopdigital/component-skipnav",
     "escapedName": "@coopdigital%2fcomponent-skipnav",
     "scope": "@coopdigital",
-    "rawSpec": "",
+    "rawSpec": "1.0.0",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "1.0.0"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/component-skipnav/-/component-skipnav-1.0.0.tgz",
-  "_shasum": "b7dfcc51c7a274927502216f6a001dc5079f76d8",
-  "_spec": "@coopdigital/component-skipnav",
+  "_spec": "1.0.0",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matt Tyas",
@@ -31,9 +35,7 @@
   "bugs": {
     "url": "https://github.com/coopdigital/component-skipnav/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {},
-  "deprecated": false,
   "description": "Co-op Component: Skipnav",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",
