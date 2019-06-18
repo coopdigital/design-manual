@@ -1,14 +1,6 @@
 ---
 inPageNavigationLink:
 - sys:
-    id: WGo0EIPieor28gF4ROK9j
-    created_at: !ruby/object:DateTime 2019-05-23 11:50:15.044000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:50:15.044000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: V
-  section_id: v
-- sys:
     id: 4jfl3UkKTxMgJrFnkhNwD0
     created_at: !ruby/object:DateTime 2019-05-23 10:12:48.518000000 Z
     updated_at: !ruby/object:DateTime 2019-05-23 10:12:48.518000000 Z
@@ -33,14 +25,6 @@ inPageNavigationLink:
   url_text: T
   section_id: t
 - sys:
-    id: W1nvl1OfrT5867OrIvd3c
-    created_at: !ruby/object:DateTime 2019-05-23 11:47:21.178000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:47:21.178000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: F
-  section_id: f
-- sys:
     id: 3ixUqdVh1YcokouyKq0GgY
     created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
     updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
@@ -49,22 +33,6 @@ inPageNavigationLink:
   url_text: Phone numbers
   section_id: phone-numbers
 - sys:
-    id: 1aBqmIklgQgaAgGeuGuoeS
-    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Using Co-op
-  section_id: using-co-op
-- sys:
-    id: 1JvFECBhQwCMQOYuMo6o8C
-    created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: 'WAI-ARIA: make your service technically accessible'
-  section_id: wai-aria-make-your-service-technically-accessible
-- sys:
     id: 5oRnDSsj28qge0GKICCOcg
     created_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
     updated_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
@@ -72,22 +40,6 @@ inPageNavigationLink:
     revision: 1
   url_text: Do a little, often
   section_id: do-a-little-often
-- sys:
-    id: 3rvBorxdEbn4vWO25nG2sl
-    created_at: !ruby/object:DateTime 2019-05-23 11:49:33.184000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:49:33.184000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: R
-  section_id: r
-- sys:
-    id: 24FzoYwiVMXoygYqKxBcgE
-    created_at: !ruby/object:DateTime 2019-05-23 11:47:39.652000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:47:39.652000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: H
-  section_id: h
 - sys:
     id: 1fZIo8oXhxWiUSctNbpKyv
     created_at: !ruby/object:DateTime 2019-05-23 11:48:08.683000000 Z
@@ -105,14 +57,6 @@ inPageNavigationLink:
   url_text: U
   section_id: u
 - sys:
-    id: 5jvVTmFwDm0Y4Yci2m4Ykw
-    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Numbers and units
-  section_id: numbers-and-units
-- sys:
     id: 1ps4nRoh8UuGv9oLT9wqvs
     created_at: !ruby/object:DateTime 2019-05-23 11:46:59.941000000 Z
     updated_at: !ruby/object:DateTime 2019-05-23 11:46:59.941000000 Z
@@ -121,22 +65,6 @@ inPageNavigationLink:
   url_text: D
   section_id: d
 - sys:
-    id: 18UiYd1uoO4sqEgqew0M0u
-    created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Job titles
-  section_id: job-titles
-- sys:
-    id: 1nQ7OypmxYxQ4Ypm0c3tU6
-    created_at: !ruby/object:DateTime 2019-05-10 09:23:35.007000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-10 09:25:57.733000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Front-end foundations
-  section_id: front-end-foundations
-- sys:
     id: 3ampSbV0IEOa0gcgaYyioy
     created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
     updated_at: !ruby/object:DateTime 2018-11-15 19:01:52.723000000 Z
@@ -144,14 +72,6 @@ inPageNavigationLink:
     revision: 2
   url_text: Frequently asked questions (FAQs)
   section_id: frequently-asked-questions-faqs
-- sys:
-    id: 5DhfNoq1m8isM8uEWkqcm6
-    created_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: This is for everyone
-  section_id: this-is-for-everyone
 - sys:
     id: 3c6JuSqlGMWu4GWQWOgKko
     created_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
@@ -169,22 +89,6 @@ inPageNavigationLink:
   url_text: L
   section_id: l
 - sys:
-    id: 3EKBobQkJWWWQMMYgqce0y
-    created_at: !ruby/object:DateTime 2018-12-05 09:36:26.116000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 09:44:53.650000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 4
-  url_text: focus on what users do, not what they say they’d do
-  section_id: focus-on-what-users-do-not-what-they-say-theyd-do
-- sys:
-    id: 2qVPoLl9JGWo0WuIO4qkuw
-    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Brackets ('parentheses')
-  section_id: brackets-parentheses
-- sys:
     id: 3BkG5xPQ7YISW0gkW0ke6i
     created_at: !ruby/object:DateTime 2018-12-05 08:44:59.387000000 Z
     updated_at: !ruby/object:DateTime 2018-12-05 08:54:15.622000000 Z
@@ -192,22 +96,6 @@ inPageNavigationLink:
     revision: 3
   url_text: with purpose
   section_id: we-design-with-purpose
-- sys:
-    id: 4ISHoIB6b62Q0yAIwuYWOu
-    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Titles
-  section_id: titles
-- sys:
-    id: 1UKVpYiwYgemQCQ2QIaSOu
-    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Dates and times
-  section_id: dates-and-times
 - sys:
     id: 1ycwpgjmXaCEgyy4KOaY02
     created_at: !ruby/object:DateTime 2018-11-19 14:03:07.637000000 Z
@@ -225,14 +113,6 @@ inPageNavigationLink:
   url_text: Undertake the best research we can in any given situation
   section_id: undertake-the-best-research-we-can-in-any-given-situation
 - sys:
-    id: 2z4x5fw7wreq6719snm42c
-    created_at: !ruby/object:DateTime 2019-05-23 11:47:10.479000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:47:10.479000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: E
-  section_id: e
-- sys:
     id: 62CPdyZfmH0mSaS9f1pexP
     created_at: !ruby/object:DateTime 2019-05-23 11:48:59.269000000 Z
     updated_at: !ruby/object:DateTime 2019-05-23 11:48:59.269000000 Z
@@ -240,14 +120,6 @@ inPageNavigationLink:
     revision: 1
   url_text: P
   section_id: p
-- sys:
-    id: 6Cp3eqqWBykQ8GW0oAUyKA
-    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Asking for names
-  section_id: asking-for-names
 - sys:
     id: FPwfmzMIUea0Qoi6q42Ow
     created_at: !ruby/object:DateTime 2018-12-05 08:44:13.027000000 Z
@@ -305,14 +177,6 @@ inPageNavigationLink:
   url_text: Front-end components
   section_id: front-end-components
 - sys:
-    id: 5Vre0BzSViue2WW2qq2uOG
-    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Money
-  section_id: money
-- sys:
     id: 1k9n7SkR0CVLzeUTeMxEH0
     created_at: !ruby/object:DateTime 2019-05-10 09:56:39.455000000 Z
     updated_at: !ruby/object:DateTime 2019-05-10 10:01:44.708000000 Z
@@ -320,6 +184,222 @@ inPageNavigationLink:
     revision: 2
   url_text: Design
   section_id: design
+- sys:
+    id: 3r4SK4xTmEAQ6kwEA26Uc8
+    created_at: !ruby/object:DateTime 2018-12-05 08:47:49.932000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:55:04.021000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: iteratively
+  section_id: we-design-iteratively
+- sys:
+    id: 5xfqW6lMbO5YKJKvucApSS
+    created_at: !ruby/object:DateTime 2019-05-10 09:58:57.594000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 09:58:57.594000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Prototyping
+  section_id: prototyping
+- sys:
+    id: 3FpopuEryMImcWCgSqGEg2
+    created_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Involve everyone in research
+  section_id: involve-everyone-in-research
+- sys:
+    id: 4HHYySf56OPiTKu2XmjjlG
+    created_at: !ruby/object:DateTime 2019-05-23 11:50:57.274000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:50:57.274000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Z
+  section_id: z
+- sys:
+    id: 56YXCYOLzDLoTJJ0dej8Da
+    created_at: !ruby/object:DateTime 2019-05-23 11:47:59.260000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:47:59.260000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: J
+  section_id: j
+- sys:
+    id: 3KKxZPZPeWqpDZn8MloL4S
+    created_at: !ruby/object:DateTime 2019-05-23 11:47:51.021000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:47:51.021000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: I
+  section_id: i
+- sys:
+    id: 5tsrRP0rQPBurPrWRTXvZo
+    created_at: !ruby/object:DateTime 2019-05-23 11:47:30.013000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:47:30.013000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: G
+  section_id: g
+- sys:
+    id: 2VZK1LY9APPkez2Ji7dk5V
+    created_at: !ruby/object:DateTime 2019-05-10 09:59:09.386000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 10:01:34.011000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Front-end
+  section_id: front-end
+- sys:
+    id: 4RUDfB0aGco2sWCCeSSAoA
+    created_at: !ruby/object:DateTime 2018-12-05 08:46:45.052000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 08:54:53.273000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 3
+  url_text: in the open
+  section_id: we-design-in-the-open
+- sys:
+    id: 3f9A0UcG6Y8XhiIylByYLX
+    created_at: !ruby/object:DateTime 2019-05-10 09:42:17.948000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 09:42:17.948000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Webpack build pipeline
+  section_id: webpack-build-pipeline
+- sys:
+    id: WGo0EIPieor28gF4ROK9j
+    created_at: !ruby/object:DateTime 2019-05-23 11:50:15.044000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:50:15.044000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: V
+  section_id: v
+- sys:
+    id: W1nvl1OfrT5867OrIvd3c
+    created_at: !ruby/object:DateTime 2019-05-23 11:47:21.178000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:47:21.178000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: F
+  section_id: f
+- sys:
+    id: 1aBqmIklgQgaAgGeuGuoeS
+    created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Using Co-op
+  section_id: using-co-op
+- sys:
+    id: 1JvFECBhQwCMQOYuMo6o8C
+    created_at: !ruby/object:DateTime 2018-11-19 14:08:35.073000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 14:13:50.365000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: 'WAI-ARIA: make your service technically accessible'
+  section_id: wai-aria-make-your-service-technically-accessible
+- sys:
+    id: 3rvBorxdEbn4vWO25nG2sl
+    created_at: !ruby/object:DateTime 2019-05-23 11:49:33.184000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:49:33.184000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: R
+  section_id: r
+- sys:
+    id: 24FzoYwiVMXoygYqKxBcgE
+    created_at: !ruby/object:DateTime 2019-05-23 11:47:39.652000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:47:39.652000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: H
+  section_id: h
+- sys:
+    id: 5jvVTmFwDm0Y4Yci2m4Ykw
+    created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Numbers and units
+  section_id: numbers-and-units
+- sys:
+    id: 18UiYd1uoO4sqEgqew0M0u
+    created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Job titles
+  section_id: job-titles
+- sys:
+    id: 1nQ7OypmxYxQ4Ypm0c3tU6
+    created_at: !ruby/object:DateTime 2019-05-10 09:23:35.007000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 09:25:57.733000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Front-end foundations
+  section_id: front-end-foundations
+- sys:
+    id: 5DhfNoq1m8isM8uEWkqcm6
+    created_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-19 09:44:59.888000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: This is for everyone
+  section_id: this-is-for-everyone
+- sys:
+    id: 3EKBobQkJWWWQMMYgqce0y
+    created_at: !ruby/object:DateTime 2018-12-05 09:36:26.116000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-05 09:44:53.650000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 4
+  url_text: focus on what users do, not what they say they’d do
+  section_id: focus-on-what-users-do-not-what-they-say-theyd-do
+- sys:
+    id: 2qVPoLl9JGWo0WuIO4qkuw
+    created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 2
+  url_text: Brackets ('parentheses')
+  section_id: brackets-parentheses
+- sys:
+    id: 4ISHoIB6b62Q0yAIwuYWOu
+    created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Titles
+  section_id: titles
+- sys:
+    id: 1UKVpYiwYgemQCQ2QIaSOu
+    created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
+- sys:
+    id: 2z4x5fw7wreq6719snm42c
+    created_at: !ruby/object:DateTime 2019-05-23 11:47:10.479000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:47:10.479000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: E
+  section_id: e
+- sys:
+    id: 6Cp3eqqWBykQ8GW0oAUyKA
+    created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Asking for names
+  section_id: asking-for-names
+- sys:
+    id: 5Vre0BzSViue2WW2qq2uOG
+    created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Money
+  section_id: money
 - sys:
     id: 4PdLyWY4iQ6MkaSqgwSwWO
     created_at: !ruby/object:DateTime 2018-11-19 14:04:23.877000000 Z
@@ -329,14 +409,6 @@ inPageNavigationLink:
   url_text: Be considerate with language
   section_id: be-considerate-with-language
 - sys:
-    id: 16UHPg7SlSoG68kk0qOcmG
-    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Dates and times
-  section_id: dates-and-times
-- sys:
     id: 7hC8BnSI6LE7FsABJw4usc
     created_at: !ruby/object:DateTime 2019-05-10 09:27:24.544000000 Z
     updated_at: !ruby/object:DateTime 2019-05-10 09:29:26.511000000 Z
@@ -344,6 +416,14 @@ inPageNavigationLink:
     revision: 2
   url_text: Prototyping kit
   section_id: prototyping-kit
+- sys:
+    id: 16UHPg7SlSoG68kk0qOcmG
+    created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: Dates and times
+  section_id: dates-and-times
 - sys:
     id: 2BqtPMQpQwQomuMM62QeGY
     created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
@@ -353,14 +433,6 @@ inPageNavigationLink:
   url_text: Validation messages
   section_id: validation-messages
 - sys:
-    id: 4CB5wBTwzN3uYxfwMo9vIc
-    created_at: !ruby/object:DateTime 2019-05-23 11:46:51.354000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:46:51.354000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: C
-  section_id: c
-- sys:
     id: 8P8pStonSMyoYKygC4wWs
     created_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
     updated_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
@@ -368,6 +440,14 @@ inPageNavigationLink:
     revision: 1
   url_text: Give teams the evidence to make better decisions
   section_id: give-teams-the-evidence-to-make-better-decisions
+- sys:
+    id: 4CB5wBTwzN3uYxfwMo9vIc
+    created_at: !ruby/object:DateTime 2019-05-23 11:46:51.354000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-23 11:46:51.354000000 Z
+    content_type_id: inPageNavigationLink
+    revision: 1
+  url_text: C
+  section_id: c
 - sys:
     id: zbK4h6tmeZbONXt0I51JA
     created_at: !ruby/object:DateTime 2019-05-23 11:48:27.428000000 Z
@@ -393,22 +473,6 @@ inPageNavigationLink:
   url_text: W
   section_id: w
 - sys:
-    id: 3r4SK4xTmEAQ6kwEA26Uc8
-    created_at: !ruby/object:DateTime 2018-12-05 08:47:49.932000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:55:04.021000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: iteratively
-  section_id: we-design-iteratively
-- sys:
-    id: 5xfqW6lMbO5YKJKvucApSS
-    created_at: !ruby/object:DateTime 2019-05-10 09:58:57.594000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-10 09:58:57.594000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Prototyping
-  section_id: prototyping
-- sys:
     id: 7Lldkp40VzyKVYZYf4UMTf
     created_at: !ruby/object:DateTime 2019-05-23 11:50:35.468000000 Z
     updated_at: !ruby/object:DateTime 2019-05-23 11:50:35.469000000 Z
@@ -417,14 +481,6 @@ inPageNavigationLink:
   url_text: X
   section_id: x
 - sys:
-    id: 3FpopuEryMImcWCgSqGEg2
-    created_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Involve everyone in research
-  section_id: involve-everyone-in-research
-- sys:
     id: cyXV2s5EEqzTavxyzDvkW
     created_at: !ruby/object:DateTime 2019-05-23 11:49:42.191000000 Z
     updated_at: !ruby/object:DateTime 2019-05-23 11:49:42.191000000 Z
@@ -432,14 +488,6 @@ inPageNavigationLink:
     revision: 1
   url_text: S
   section_id: s
-- sys:
-    id: 4HHYySf56OPiTKu2XmjjlG
-    created_at: !ruby/object:DateTime 2019-05-23 11:50:57.274000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:50:57.274000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Z
-  section_id: z
 - sys:
     id: EcvMJcknhdYNz6n3t8hks
     created_at: !ruby/object:DateTime 2019-05-10 09:28:30.475000000 Z
@@ -472,70 +520,6 @@ inPageNavigationLink:
     revision: 1
   url_text: O
   section_id: o
-- sys:
-    id: 3bLHyid7T2iq2QIyMEQ2e
-    created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 19:13:37.126000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: Ellipsis
-  section_id: ellipsis
-- sys:
-    id: 5JfNl9S4I2LSM23tiHDN2
-    created_at: !ruby/object:DateTime 2019-05-23 11:49:10.731000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:49:24.154000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 2
-  url_text: Q
-  section_id: q
-- sys:
-    id: oh4NWHH4DAYIK4Ee0a6um
-    created_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-19 14:09:17.345000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Key common issues
-  section_id: key-common-issues
-- sys:
-    id: 3Id5v8BoPe0Ocm4egwuO42
-    created_at: !ruby/object:DateTime 2018-12-05 08:46:08.580000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:54:41.225000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: with honesty
-  section_id: we-design-with-honesty
-- sys:
-    id: 1Uu7XPztS8g0ayeQKiaqeu
-    created_at: !ruby/object:DateTime 2018-12-05 08:45:34.873000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-05 08:54:29.355000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 3
-  url_text: for everyone
-  section_id: we-design-for-everyone
-- sys:
-    id: 56YXCYOLzDLoTJJ0dej8Da
-    created_at: !ruby/object:DateTime 2019-05-23 11:47:59.260000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:47:59.260000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: J
-  section_id: j
-- sys:
-    id: 2DWYd6Fp4wCkCMyO4owk20
-    created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: Colons and semicolons
-  section_id: colons-and-semicolons
-- sys:
-    id: 3KKxZPZPeWqpDZn8MloL4S
-    created_at: !ruby/object:DateTime 2019-05-23 11:47:51.021000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 11:47:51.021000000 Z
-    content_type_id: inPageNavigationLink
-    revision: 1
-  url_text: I
-  section_id: i
 designPattern:
 - sys:
     id: 5xyICzuozC8oY8Uuiuu8om
@@ -559,53 +543,6 @@ designPattern:
   npm_url: https://www.npmjs.com/package/@coopdigital/component-signpost
   introduction: Signpost navigation is used in pages to link to permanent content.
 - sys:
-    id: 2g6EqBgo8kCi8IYwkgy8Gk
-    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
-    updated_at: !ruby/object:DateTime 2019-01-14 12:02:25.314000000 Z
-    content_type_id: designPattern
-    revision: 13
-  title: Product card
-  status: beta
-  abstract_url: https://share.goabstract.com/61dadd77-ab64-4ac8-806d-e072ccf960d7
-  github_url: https://github.com/coopdigital/component-card--product
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
-  introduction: A product card is used to display a snapshot of an item that is linked
-    in some way to similar items, for example products we sell or recipes. It lets
-    someone quickly identify a particular item of interest to them from a group, for
-    example in search results.
-  design_and_content_documentation: "A product card links to one item and contains
-    a small amount of information, for example an image and important features, sufficient
-    to help people make a decision whether to click on the card. \n\nThe whole area
-    of a product card is active as a single link. Don’t include other actions within
-    a card. \n\nAn important feature of a product card is the image is not obscured
-    by any accompanying text, which makes it good for presenting products or anything
-    where that is a consideration.\n\nCards are responsive and adapt well to changing
-    views, whether displaying few cards or many.\n\nProduct cards are ideal for presenting
-    groups of items that share common features or characteristics, for example data
-    imported from a spreadsheet. If you are using cards to present more general, prose
-    information on different subjects consider using [editorial cards](/pattern-library/components/cards/editorial-card.html)
-    instead.\n\nSee examples of the product card component in use on [www.coop.co.uk/products/wine](https://www.coop.co.uk/products/wine)
-    and [coop.co.uk/recipes](https://coop.co.uk/recipes).\n\n"
-  accessibility_documentation: "Don’t use buttons or links to other destinations within
-    a card as this may cause confusion or uncertainty for users.\n\nAll of a card
-    should be active so that it creates a large, easily clickable area. \n\nFor more
-    information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
-    \"see our general guide on accessibility.\")"
-  variations: |2
-
-    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/editorial-card.html)
-    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
-- sys:
-    id: C66rMoN0gCCek2QCcygak
-    created_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Input
-  status: live
-  introduction: 'Make the length of the text input box appropriate for the amount
-    of information needed: do not make it frustratingly short or intimidatingly long.'
-- sys:
     id: 6MqI93E8P6AMuWUKYiy00I
     created_at: !ruby/object:DateTime 2018-11-08 22:57:54.493000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 23:00:43.331000000 Z
@@ -620,49 +557,6 @@ designPattern:
     - descriptive of what they’re doing, for example, ‘send order’
     - available only at the end of your form
     - the primary button on the page
-- sys:
-    id: 6IIXRPgCWWmy6iIKK4Mqyq
-    created_at: !ruby/object:DateTime 2018-11-21 08:36:05.869000000 Z
-    updated_at: !ruby/object:DateTime 2019-03-08 09:47:09.200000000 Z
-    content_type_id: designPattern
-    revision: 5
-  title: Tags
-  status: beta
-  github_url: https://github.com/coopdigital/component-tags
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-tags
-  introduction: A tag shows a particular feature of an item such as a recipe or product,
-    enabling users to quickly see important common properties, and make a choice.
-    A tag may link to another page, for example a category page for vegan recipes,
-    red wine, or Fair Trade.
-  design_and_content_documentation: "Tags show the most distinctive common properties
-    of an object such as a product. Tags don’t move or animate. \n\n## Tags on cards\n\nUp
-    to 4 tags can be used on a product card - but if used should not be clickable,
-    as cards can only contain one link.\n\n## Tags on pages\n\nOn a specific page
-    all relevant tags can be shown. Used in this context tags can be tappable or clickable
-    to link to a page displaying other items that share the same property.\n\nSee
-    examples of tags in use on [coop.co.uk/recipes](https://www.coop.co.uk/recipes)
-    and [coop.co.uk/products/wine](https://www.coop.co.uk/products/wine)."
-  accessibility_documentation: "Interactive tags show an underlined link within a
-    lozenge shape. A tag must be large enough for people to activate it easily and
-    the text within them be clear. \n\nMultiple tags must have sufficient space between
-    them, if they are placed too close to each other, they may be difficult for people
-    to tap or click on.\n\nFor more information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
-    \"see our general guide on accessibility.\")"
-  variations: "- [Card - product](https://coop-design-system.herokuapp.com/pattern-library/components/cards/product-card.html)"
-- sys:
-    id: 40h3DXMNVSQcaqs44wEEkA
-    created_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Textarea
-  status: live
-  introduction: Textareas are for when users need to provide longer responses. Use
-    with caution.
-  design_and_content_documentation: |-
-    Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.
-
-    If you have reason to use them, research them using mobile devices. Entering information using touch devices can be especially time-consuming.
 - sys:
     id: 1B1xHli8eMAe2emCygaQ8K
     created_at: !ruby/object:DateTime 2018-11-08 20:59:21.831000000 Z
@@ -739,6 +633,235 @@ designPattern:
   status: live
   introduction: Columns can be set to centred or uncentered at different viewport
     sizes.
+- sys:
+    id: 7hxfZ01mU0Sw6ceA06oOki
+    created_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Page layout
+  status: live
+  introduction: We use a grid to structure our designs. Just like the typography and
+    vertical spacing we use, our grid allows the creation of a consistent horizontal
+    space.
+  design_and_content_documentation: |-
+    Our grid has 12 columns that can be used in various combinations. It has gutters of 32px above 768px and 16px below 768px. We recommend its use because it has been designed to suit our typographic scale.
+
+    The default widths (breakpoints) we use are:
+
+    - All: 0px and up — (all-{column-span})
+    - Extra small: 320px and up — (.xsmall-{column-span})
+    - Small: 480px and up — ((.small-{column-span})
+    - Medium: 750px and up — ((.medium-{column-span})
+    - Large: 960px and up — ((.large-{column-span})
+    - Extra large: 1300px and up — ((.xlarge-{column-span})
+- sys:
+    id: 1yKUj6nb3OYgyQ8y6k2gW4
+    created_at: !ruby/object:DateTime 2018-11-08 22:48:24.835000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 08:14:02.316000000 Z
+    content_type_id: designPattern
+    revision: 5
+  title: Checkboxes and radios
+  status: beta
+  github_url: https://github.com/coopdigital/component-checkbox
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-checkbox
+  introduction: Radio buttons and checkboxes allow users to select an answer from
+    2 or more options.
+  design_and_content_documentation: |-
+    If you’re using either radio buttons or checkboxes:
+
+    - style them in a way that makes it clear which option or options has been selected
+    - allow users to click anywhere in the box
+    - display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan
+    - Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.
+- sys:
+    id: 5JoR23Ulbi8CisOuQ6g02c
+    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Numbered list
+  status: live
+  introduction: Numbered lists are used to indicate a logical sequence.
+- sys:
+    id: nyqE2V53eCUsKKguIcimS
+    created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 09:36:28.406000000 Z
+    content_type_id: designPattern
+    revision: 2
+  title: Font
+  status: live
+  introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
+    clear, open letterforms and letter spacing help communicate a consistent Co-op
+    brand identity.
+  design_and_content_documentation: |-
+    <p>The Avenir font is served from a CDN (content delivery network) if you need access email <a href="mailto:design@coopdigital.co.uk">design@coopdigital</a>.</p>
+
+    <p>The design team are only responsible for support and distribution of the fonts online.</p>
+- sys:
+    id: lAvhQFgf60gYgaGeSyS2k
+    created_at: !ruby/object:DateTime 2018-11-08 19:53:47.846000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 08:18:58.462000000 Z
+    content_type_id: designPattern
+    revision: 3
+  title: Logo
+  status: live
+  introduction: The Cloverleaf Symbol was created in 1968 for project facelift, when
+    all the Co-op societies united under one banner. We now use a modernised version
+    that optimised for modern production methods.
+  design_and_content_documentation: |-
+    The logo should:
+
+    - only be used at a width of 38px and a height of 40px
+    - only be used once per page
+    - be the only thing that uses the brand blue
+
+    <div class="coop-l-row coop-u-margin-th">
+        <div class="coop-l-column coop-l-small-6 coop-l-medium-4">
+            <div class="dm-colour__swatch dm-colour__swatch--wide coop-u-brand-bg coop-u-padding-q coop-u-margin-bh">
+                <ul class="list-bare dm-colour__definition coop-u-white">
+                    <li class="coop-bold">Co-op blue</li>
+                    <li>var(--color-brand)</li>
+                    <li>#00B1E7</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  accessibility_documentation: |-
+    The Co-op blue should only be used for the logo. It is not accessible for text. The logo should always be in the top left hand corner of the website as this a consistent signpost home for users.
+
+    [For more information see our guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
+- sys:
+    id: 3ji7octqKIAK6M64O4C4UW
+    created_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 21:46:45.858000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Bullet list
+  status: live
+  introduction: Lists are an effective way of breaking up content — they make it easier
+    for users to scan and find information. Use bullet points to break up a list of
+    items.
+- sys:
+    id: 59IgUOk2tyqWmQeEAuEu8C
+    created_at: !ruby/object:DateTime 2018-11-16 20:55:59.171000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-07 13:42:31.792000000 Z
+    content_type_id: designPattern
+    revision: 7
+  title: Editorial card
+  status: live
+  github_url: https://github.com/coopdigital/component-card
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card
+  introduction: 'An editorial card contains a small piece of prose information on
+    one subject that people can get more information about by tapping or clicking
+    on the card.   '
+  design_and_content_documentation: "An editorial card gives people enough information
+    to make a considered decision whether to click or tap. It is a good way of presenting
+    content consistently without overloading a page with information. \n\nAn editorial
+    card displays an image and short title with options to include a supporting line
+    or contextual title. It links to a single destination.\n\nCards are responsive
+    and adapt well to changing views, whether displaying few cards or many.\n\nEditorial
+    cards are ideal for presenting  general, prose information on different subjects.
+    If you are using cards to present a group of items that share common features
+    or characteristics, for example data imported from a spreadsheet, consider using
+    [product cards](/pattern-library/components/cards/product-card.html) instead.\n\nSee
+    examples of the editorial card component in use on [colleagues.coop.co.uk](https://colleagues.coop.co.uk)
+    and [coop.co.uk](https://coop.co.uk)."
+  accessibility_documentation: "Don’t use buttons or links to other destinations within
+    a card as this may cause confusion or uncertainty for users.\n\nThe entirety of
+    a card should be active, to create a large, easily clickable area. \n\nFor more
+    information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
+    \"see our general guide on accessibility.\")"
+- sys:
+    id: 2g6EqBgo8kCi8IYwkgy8Gk
+    created_at: !ruby/object:DateTime 2018-11-20 11:49:01.719000000 Z
+    updated_at: !ruby/object:DateTime 2019-01-14 12:02:25.314000000 Z
+    content_type_id: designPattern
+    revision: 13
+  title: Product card
+  status: beta
+  abstract_url: https://share.goabstract.com/61dadd77-ab64-4ac8-806d-e072ccf960d7
+  github_url: https://github.com/coopdigital/component-card--product
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-card--product
+  introduction: A product card is used to display a snapshot of an item that is linked
+    in some way to similar items, for example products we sell or recipes. It lets
+    someone quickly identify a particular item of interest to them from a group, for
+    example in search results.
+  design_and_content_documentation: "A product card links to one item and contains
+    a small amount of information, for example an image and important features, sufficient
+    to help people make a decision whether to click on the card. \n\nThe whole area
+    of a product card is active as a single link. Don’t include other actions within
+    a card. \n\nAn important feature of a product card is the image is not obscured
+    by any accompanying text, which makes it good for presenting products or anything
+    where that is a consideration.\n\nCards are responsive and adapt well to changing
+    views, whether displaying few cards or many.\n\nProduct cards are ideal for presenting
+    groups of items that share common features or characteristics, for example data
+    imported from a spreadsheet. If you are using cards to present more general, prose
+    information on different subjects consider using [editorial cards](/pattern-library/components/cards/editorial-card.html)
+    instead.\n\nSee examples of the product card component in use on [www.coop.co.uk/products/wine](https://www.coop.co.uk/products/wine)
+    and [coop.co.uk/recipes](https://coop.co.uk/recipes).\n\n"
+  accessibility_documentation: "Don’t use buttons or links to other destinations within
+    a card as this may cause confusion or uncertainty for users.\n\nAll of a card
+    should be active so that it creates a large, easily clickable area. \n\nFor more
+    information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
+    \"see our general guide on accessibility.\")"
+  variations: |2
+
+    - [Card](https://coop-design-system.herokuapp.com/pattern-library/components/cards/editorial-card.html)
+    - [Tags](https://coop-design-system.herokuapp.com/pattern-library/components/navigation/tags.html)
+- sys:
+    id: C66rMoN0gCCek2QCcygak
+    created_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:25:26.053000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Input
+  status: live
+  introduction: 'Make the length of the text input box appropriate for the amount
+    of information needed: do not make it frustratingly short or intimidatingly long.'
+- sys:
+    id: 6IIXRPgCWWmy6iIKK4Mqyq
+    created_at: !ruby/object:DateTime 2018-11-21 08:36:05.869000000 Z
+    updated_at: !ruby/object:DateTime 2019-03-08 09:47:09.200000000 Z
+    content_type_id: designPattern
+    revision: 5
+  title: Tags
+  status: beta
+  github_url: https://github.com/coopdigital/component-tags
+  npm_url: https://www.npmjs.com/package/@coopdigital/component-tags
+  introduction: A tag shows a particular feature of an item such as a recipe or product,
+    enabling users to quickly see important common properties, and make a choice.
+    A tag may link to another page, for example a category page for vegan recipes,
+    red wine, or Fair Trade.
+  design_and_content_documentation: "Tags show the most distinctive common properties
+    of an object such as a product. Tags don’t move or animate. \n\n## Tags on cards\n\nUp
+    to 4 tags can be used on a product card - but if used should not be clickable,
+    as cards can only contain one link.\n\n## Tags on pages\n\nOn a specific page
+    all relevant tags can be shown. Used in this context tags can be tappable or clickable
+    to link to a page displaying other items that share the same property.\n\nSee
+    examples of tags in use on [coop.co.uk/recipes](https://www.coop.co.uk/recipes)
+    and [coop.co.uk/products/wine](https://www.coop.co.uk/products/wine)."
+  accessibility_documentation: "Interactive tags show an underlined link within a
+    lozenge shape. A tag must be large enough for people to activate it easily and
+    the text within them be clear. \n\nMultiple tags must have sufficient space between
+    them, if they are placed too close to each other, they may be difficult for people
+    to tap or click on.\n\nFor more information [see our general guide on accessibility.](https://coop-design-system.herokuapp.com//accessibility.html
+    \"see our general guide on accessibility.\")"
+  variations: "- [Card - product](https://coop-design-system.herokuapp.com/pattern-library/components/cards/product-card.html)"
+- sys:
+    id: 40h3DXMNVSQcaqs44wEEkA
+    created_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-08 22:37:12.746000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Textarea
+  status: live
+  introduction: Textareas are for when users need to provide longer responses. Use
+    with caution.
+  design_and_content_documentation: |-
+    Use large text areas with caution. Many users find it hard to type, do not like to type or worry about articulating themselves. Large text areas can be daunting and discouraging.
+
+    If you have reason to use them, research them using mobile devices. Entering information using touch devices can be especially time-consuming.
 - sys:
     id: 14fiLmQ4P2o8aMiaWCSYiC
     created_at: !ruby/object:DateTime 2018-10-22 09:48:48.957000000 Z
@@ -888,6 +1011,16 @@ designPattern:
   introduction: A “skip navigation” link is used to create efficient access for users
     with certain disabilities.
 - sys:
+    id: zzd72Zvyj6MCGaWQsMcCO
+    created_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
+    updated_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
+    content_type_id: designPattern
+    revision: 1
+  title: Offsetting columns
+  status: live
+  introduction: Columns can be offset by a specified amount of columns from the left
+    hand side.
+- sys:
     id: 60XDcMEd68iowm6k8S624U
     created_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
     updated_at: !ruby/object:DateTime 2018-11-08 23:04:00.305000000 Z
@@ -902,57 +1035,6 @@ designPattern:
     Build services that are flexible enough to allow users to give data in a way that they would naturally. For example we should allow users to enter a postcode in upper or lower case, with or without a space.
 
     Validation errors should only be triggered on mandatory fields. They must be factual and help the user move on.
-- sys:
-    id: zzd72Zvyj6MCGaWQsMcCO
-    created_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-14 15:34:20.918000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Offsetting columns
-  status: live
-  introduction: Columns can be offset by a specified amount of columns from the left
-    hand side.
-- sys:
-    id: 7hxfZ01mU0Sw6ceA06oOki
-    created_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 23:35:43.059000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Page layout
-  status: live
-  introduction: We use a grid to structure our designs. Just like the typography and
-    vertical spacing we use, our grid allows the creation of a consistent horizontal
-    space.
-  design_and_content_documentation: |-
-    Our grid has 12 columns that can be used in various combinations. It has gutters of 32px above 768px and 16px below 768px. We recommend its use because it has been designed to suit our typographic scale.
-
-    The default widths (breakpoints) we use are:
-
-    - All: 0px and up — (all-{column-span})
-    - Extra small: 320px and up — (.xsmall-{column-span})
-    - Small: 480px and up — ((.small-{column-span})
-    - Medium: 750px and up — ((.medium-{column-span})
-    - Large: 960px and up — ((.large-{column-span})
-    - Extra large: 1300px and up — ((.xlarge-{column-span})
-- sys:
-    id: 1yKUj6nb3OYgyQ8y6k2gW4
-    created_at: !ruby/object:DateTime 2018-11-08 22:48:24.835000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-10 08:14:02.316000000 Z
-    content_type_id: designPattern
-    revision: 5
-  title: Checkboxes and radios
-  status: beta
-  github_url: https://github.com/coopdigital/component-checkbox
-  npm_url: https://www.npmjs.com/package/@coopdigital/component-checkbox
-  introduction: Radio buttons and checkboxes allow users to select an answer from
-    2 or more options.
-  design_and_content_documentation: |-
-    If you’re using either radio buttons or checkboxes:
-
-    - style them in a way that makes it clear which option or options has been selected
-    - allow users to click anywhere in the box
-    - display the options a user can choose from top to bottom, not left to right — this makes it quicker for users to scan
-    - Where possible, give users the option to indicate that none of the options apply to them. Some users need this to be an explicit option to know that they can move on.
 - sys:
     id: 5M9geK32nYMoqgiYCkoSI4
     created_at: !ruby/object:DateTime 2018-11-08 23:21:24.265000000 Z
@@ -1023,15 +1105,6 @@ designPattern:
     write link text. \n\nFind out [how we write link text](https://coop-design-manual.herokuapp.com/content.html#links).\n\n[For
     more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html)."
 - sys:
-    id: 5JoR23Ulbi8CisOuQ6g02c
-    created_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-08 21:57:28.235000000 Z
-    content_type_id: designPattern
-    revision: 1
-  title: Numbered list
-  status: live
-  introduction: Numbered lists are used to indicate a logical sequence.
-- sys:
     id: 6lzK0U8LlYgc2OWmuu22e6
     created_at: !ruby/object:DateTime 2018-11-08 20:42:50.843000000 Z
     updated_at: !ruby/object:DateTime 2018-11-15 14:51:20.685000000 Z
@@ -1068,57 +1141,862 @@ designPattern:
     If you have a question about colour, contact [design@coopdigital.co.uk](mailto:design@coopdigital.co.uk).
 
     [For more information see our general guide on accessibility](https://coop-design-manual.herokuapp.com/accessibility.html).
-- sys:
-    id: 39qEfscUWQUIcyA0esG8Kc
-    created_at: !ruby/object:DateTime 2018-11-08 23:16:05.840000000 Z
-    updated_at: !ruby/object:DateTime 2018-11-15 20:06:54.372000000 Z
-    content_type_id: designPattern
-    revision: 6
-  title: Tables
-  status: live
-  introduction: Tables are a good way to present large amounts of complex information
-    when the user needs to compare different things or or interrogate that information.
-    The table format is familiar and, when done well, helps people to find answers
-    to questions.
-  accessibility_documentation: "### Captions\nA caption is the heading for a table.
-    Most screen readers announce the content of captions. Captions help users to find
-    a table and understand what it’s about and decide if they want to read it. The
-    caption is provided by the &lt;caption&gt; element.\n\n### Headers and footers\nBoth
-    columns and rows of a table can have headings. These are marked up as &lt;th&gt;
-    (table heading). We also use the &lt;thead&gt;and &lt;tbody&gt; tags. Although
-    these are not technically needed in all tables, they add some semantic value and
-    are useful if a table needs to be printed as the &lt;thead&gt; element is repeated
-    across all printed pages.\n  \nTable footers (&lt;tfoot&gt;) can be used if there
-    is a lot of rows in a table. It will be displayed by a browser under the body
-    content, but in the markup must be above it. If you have to support a very old
-    browser test this display as in some older browsers it is displayed before the
-    body. In this case move it to below the table content.\n\n### Row headings\nWhen
-    a row needs a heading the &lt;td&gt; of that row should be marked up as a &lt;th&gt;.\n\n###
-    Scope\nWhen the data that relates to the headings is ambiguous the attribute scope=&#x201C;col&#x201D;
-    or scope=&#x201C;row&#x201D; should be added. The scope attribute defines the
-    direction of the header cells and associates them with the corresponding data
-    cells. The scope attribute is also needed for larger tables with one header row
-    or column. We recommend always defining the scope of your column or row headings.\n
-    \ \n### Top left cell\nThe top left cell of a table is often blank as there is
-    no overarching header for the row headings and the content of the table has been
-    described by the &lt;caption&gt;. This cell can be left blank, but must be marked
-    up as an empty &lt;td&gt;&lt;/td&gt;.\n"
-- sys:
-    id: nyqE2V53eCUsKKguIcimS
-    created_at: !ruby/object:DateTime 2018-11-08 21:17:09.747000000 Z
-    updated_at: !ruby/object:DateTime 2019-04-26 09:36:28.406000000 Z
-    content_type_id: designPattern
-    revision: 2
-  title: Font
-  status: live
-  introduction: We use Avenir Next in regular, medium and demi bold weights. Its characteristic
-    clear, open letterforms and letter spacing help communicate a consistent Co-op
-    brand identity.
-  design_and_content_documentation: |-
-    <p>The Avenir font is served from a CDN (content delivery network) if you need access email <a href="mailto:design@coopdigital.co.uk">design@coopdigital</a>.</p>
-
-    <p>The design team are only responsible for support and distribution of the fonts online.</p>
 page:
+- sys:
+    id: 7kofk9MtaxOfFOwxfcGvjj
+    created_at: !ruby/object:DateTime 2019-05-23 10:07:52.788000000 Z
+    updated_at: !ruby/object:DateTime 2019-06-17 12:05:26.143000000 Z
+    content_type_id: page
+    revision: 8
+  title: Digital content guidelines
+  status: live
+  introduction: |
+    We write content for the user, not for ourselves.
+
+    So, we design content to give users what they need:
+    - only when they need it
+    - as simply and quickly as possible
+    - using words they understand
+    - in a consistent way
+
+    Designing content that puts our users first makes it easier and faster for them to use our services, encourages them to interact with us again and builds trust in what we’re saying.
+  in_page_navigation:
+  - sys:
+      id: 7KTdbumKknU7HAjvIBfAA4
+      created_at: !ruby/object:DateTime 2019-05-23 10:07:46.659000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 10:07:46.659000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: A
+    section_id: a
+  - sys:
+      id: 4jfl3UkKTxMgJrFnkhNwD0
+      created_at: !ruby/object:DateTime 2019-05-23 10:12:48.518000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 10:12:48.518000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: B
+    section_id: b
+  - sys:
+      id: 4CB5wBTwzN3uYxfwMo9vIc
+      created_at: !ruby/object:DateTime 2019-05-23 11:46:51.354000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:46:51.354000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: C
+    section_id: c
+  - sys:
+      id: 1ps4nRoh8UuGv9oLT9wqvs
+      created_at: !ruby/object:DateTime 2019-05-23 11:46:59.941000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:46:59.941000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: D
+    section_id: d
+  - sys:
+      id: 2z4x5fw7wreq6719snm42c
+      created_at: !ruby/object:DateTime 2019-05-23 11:47:10.479000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:47:10.479000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: E
+    section_id: e
+  - sys:
+      id: W1nvl1OfrT5867OrIvd3c
+      created_at: !ruby/object:DateTime 2019-05-23 11:47:21.178000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:47:21.178000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: F
+    section_id: f
+  - sys:
+      id: 5tsrRP0rQPBurPrWRTXvZo
+      created_at: !ruby/object:DateTime 2019-05-23 11:47:30.013000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:47:30.013000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: G
+    section_id: g
+  - sys:
+      id: 24FzoYwiVMXoygYqKxBcgE
+      created_at: !ruby/object:DateTime 2019-05-23 11:47:39.652000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:47:39.652000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: H
+    section_id: h
+  - sys:
+      id: 3KKxZPZPeWqpDZn8MloL4S
+      created_at: !ruby/object:DateTime 2019-05-23 11:47:51.021000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:47:51.021000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: I
+    section_id: i
+  - sys:
+      id: 56YXCYOLzDLoTJJ0dej8Da
+      created_at: !ruby/object:DateTime 2019-05-23 11:47:59.260000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:47:59.260000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: J
+    section_id: j
+  - sys:
+      id: 63rNqVp5JOEqHsPMNfjfwf
+      created_at: !ruby/object:DateTime 2019-05-23 11:48:18.422000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:48:18.422000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: L
+    section_id: l
+  - sys:
+      id: zbK4h6tmeZbONXt0I51JA
+      created_at: !ruby/object:DateTime 2019-05-23 11:48:27.428000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:48:27.428000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: M
+    section_id: m
+  - sys:
+      id: oTWPeCc30XJOdufLTs13A
+      created_at: !ruby/object:DateTime 2019-05-23 11:48:37.105000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:48:37.105000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: N
+    section_id: n
+  - sys:
+      id: 59Fv5fwfSItuOAA7IQBcG9
+      created_at: !ruby/object:DateTime 2019-05-23 11:48:48.009000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:48:48.009000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: O
+    section_id: o
+  - sys:
+      id: 62CPdyZfmH0mSaS9f1pexP
+      created_at: !ruby/object:DateTime 2019-05-23 11:48:59.269000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:48:59.269000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: P
+    section_id: p
+  - sys:
+      id: 3rvBorxdEbn4vWO25nG2sl
+      created_at: !ruby/object:DateTime 2019-05-23 11:49:33.184000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:49:33.184000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: R
+    section_id: r
+  - sys:
+      id: cyXV2s5EEqzTavxyzDvkW
+      created_at: !ruby/object:DateTime 2019-05-23 11:49:42.191000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:49:42.191000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: S
+    section_id: s
+  - sys:
+      id: 5xoxo8Ik162NGVoNGqRhI1
+      created_at: !ruby/object:DateTime 2019-05-23 11:49:54.437000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:49:54.437000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: T
+    section_id: t
+  - sys:
+      id: 2eq0SMP6zbWorlKzkRHfRX
+      created_at: !ruby/object:DateTime 2019-05-23 11:50:23.289000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-23 11:50:23.289000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: W
+    section_id: w
+  content: "## [A](#a)\n\n### 1 Angel Square\nThe name of Co-op’s building in Manchester.
+    \nThe name and address is 1 Angel Square. \nDo not refer to it as ‘head office’,
+    ‘headquarters’ or ‘1AS’.\n \n### Abbreviations and acronyms\nSpell out abbreviations
+    and acronyms the first time you use them, followed by the abbreviation in brackets.
+    Do not use full stops within or after abbreviations or acronyms.\n \nFor example
+    write ‘Customer Relationship Management (CRM)’ and then ‘CRM’ each time after
+    that.\n \nMake exceptions for familiar acronyms like URL, BBC or HR. You do not
+    need to spell them out in the first instance.\n \n### Alcohol\nDo not promote
+    alcohol in a way that makes it seem as though it:\n \n- appeals to under 18s\n-
+    incorporates people who look under 25\n- suggests alcohol is life enhancing or
+    therapeutic\n- is easy to down or binge drink\n- leads to social success\n- suggests
+    an association with bravado or antisocial behaviour\n- benefits from higher alcohol
+    content\n- has any association with sexual activity or sexual success\n- has acceptance
+    of, or an illusion to, illicit drugs\n \nFor example, do not say ‘you’ll be cooler
+    with a glass of wine, feel better with a lovely beer’.\n \nSee the Portman code
+    for full guidance.\n[portmangroup.org.uk/codes/alcohol-marketing/code-of-practice](http://portmangroup.org.uk/codes/alcohol-marketing/code-of-practice
+    \"portmangroup.org.uk/codes/alcohol-marketing/code-of-practice\") \n \nAlways
+    communicate the alcoholic nature of a drink and include the Drinkaware logo on
+    any alcohol product advertising. Even on drinks that look like alcohol where there
+    is no context that the drink is nonalcoholic, for example mocktails.\n \nThe laws
+    around the promotion of alcohol differ in countries across the UK, and even in
+    some local authorities.\n \nIn Scotland, promotions are only acceptable when displayed
+    in designated zones. \n\nAny communication that includes alcohol must be approved
+    by the Co-op legal team.\n\n### Areas\n\nCymru/Wales\n \nCentral and Eastern\n
+    \nEast Midlands\n \nEast of England\n \nIsle of Man\n \nLondon\n \nNorth East\n
+    \nNorth West\n \nNorthern Ireland\n \nScotland\n \nSouth East\n \nSouth West\n
+    \nWest Midlands\n \nYorkshire and the Humber\n\n\n## [B](#b)\n\n### board members\n
+    \n### the Co-op board\nYou can find out more about the Co-op board and directors
+    on our website.\n\n### Brackets or parentheses\n#### Round brackets\nUse round
+    brackets to clarify an acronym or technical term that you’ll use from that point
+    onwards, for example: ‘customer team member (CTM)’, or ‘the people you want to
+    sort out your will (known as ‘executors’)’. \n\nThey can also include supplementary
+    information that’s not essential to the main point of your sentence. Information
+    that, if removed, would not change the meaning of the sentence.\n\nDo not use
+    round brackets to indicate that something can be singular or plural, like: ‘Check
+    which document(s) you need to send to HR’.\n\nInstead, use the plural, as this
+    will cover each possibility: ‘Check which documents you need to send to HR’.\n\n(A
+    complete sentence that stands alone in parentheses starts with a capital letter
+    and ends with a full stop before the closing bracket.)\n\nTry not to overuse brackets,
+    as they can disrupt the flow of reading.\n\n#### Square brackets\nOnly use square
+    brackets when you need to add clarification to a quote or something you’ve not
+    written yourself, like: ‘It [content] deserves our full time and attention’.\n\n\n##
+    [C](#c)\n \n### cafe\n\n### colons and semicolons\nUse a colon at the end of a
+    lead-in line to a bulleted list. For example:\n\nYou need to bring:\n- your driving
+    licence or passport\n- a copy of your P60\n- proof of your address, like a recent
+    utility bill\n\n\nIf you’re using a colon or semicolon, it can make your sentence
+    long and hard to read. If you think a sentence needs one of these, break it into
+    separate sentences instead. \n\n### Co-op\nRefer to Co-op in writing as ‘Co-op’,
+    upper case and hyphenated. Do not use ‘Co-op Group’ or ‘the Group’.\n\nWhere possible
+    and practical, try not to say ‘the Co‑op’. We know that users tend to refer to
+    our food stores as ‘the Co‑op’, so dropping the ‘the’ avoids any confusion.\n\nOur
+    businesses are capitalised, so Co-op Food, Co-op Funeralcare for example. You
+    can refer to them without ‘Co-op’ so ‘our Food business’ or ‘visit one of our
+    Food stores’.\n\nUsing ‘our’ as in ‘our Co‑op’ can be powerful but use it with
+    caution. Is it clear who ‘our’ is? Will ‘our’ mean the same thing to your reader
+    as it does to you? It’s more suited to an internal audience.\n\n### Co-operative\nOnly
+    use ‘co-operative’ when talking about things like ‘the co-operative movement’
+    or ‘other co-operative societies’ and it should be lower case, unless it’s at
+    the start of a sentence.\n\n‘Co‑operative’ and ‘Co‑op’ are always hyphenated.
+    The only exception to this rule is on social media when using a hashtag such as
+    #TheCoopWay or #BeingCoop, or in a website address like coop.co.uk.\n \n### Co-operative
+    Banking Group\nNo longer part of Co-op.\n \n### Co-op branded\nNot ‘own-brand’.\n\n###
+    Co-op Commitment\n\n### Co-op committees \nThere are various committees made up
+    of members of the board. You can find out more about the committees on our website.
+    \n \nrisk and audit committee\nnominations committee\nremuneration committee\nscrutiny
+    committee\nnon-executive directors’ fees committee\n\n### Co-operative Group Limited\nThe
+    trading name of Co-op, use it only when you need to for legal reasons.\n \n###
+    co-operative movement\n \n### co-operative principles\n \n### co-operative societies\n
+    \n### other co-operatives\nnot ‘other co-ops’\n \n### Co-op National Members’
+    Council\nUse the full title where possible, but you can also refer to this as
+    ‘our Members’ Council’.\nYou can find out more about the Co-op National Members’
+    Council on our website.\n \n### Co-op Members’ Council terms\nAnnual General Meeting
+    (AGM)\nthe council senate\nthe council president\nmember nominated directors\nmembers’
+    motion (a proposal that is voted on by members at our AGM. Motions can be put
+    forward by our business, our members’ council or by individual members and some
+    motions are required by our Rules.)\nelections\nstand for election\n\n### Co-op
+    Young Members’ Group (CYMG)\nA group of 6 young members who work with Co-op on
+    specific projects to ensure that an authentic voice for young people is heard.
+    Use full title in the first instance. Can be shortened to ‘our Young Members’
+    Group’ or CYMG after that.\n\n### Contractions\nUse contractions like 'it's' and
+    'there's' to make your writing more informal and friendly - the way people tend
+    to speak.\n\nBut do not use negative contractions like 'don't' and 'won't', instead
+    use 'do not' and 'will not'. Research has shown that some users need the 'not'
+    to understand what's being said. You can find out more about problems with negative
+    contractions in Content Designer Jo Schofield’s blog post on Medium.\n\nDo not
+    force contractions if they look and feel odd. For example ‘they’ll’ and ‘there’ll’
+    are likely to slow people down.\n\n\n## [D](#d)\n \n### Date\nMonday 21 June 2018.\nUse
+    only as much description as needed - you do not need to include the year every
+    time if it’s obvious from context.\n\nIf you’re referring to date ranges, then
+    use ‘to’ rather than hyphens or dashes. It should look like this: January to March\n\nAvoid
+    all references to annual quarters. Instead, write the dates in full: ‘This offer
+    is valid between 1 October and 31 December 2018.’\n \n### Decades\nUse numerals
+    and write out decades in full, so 1970s not ‘70s.\n \n### dividend\n \n### Direct
+    Debit\n \n\n## [E](#e)\n \n### Eg\nDo not use. Not everyone understands what it
+    means. Say ‘for example’ instead.\n\nFor more information read this blog post
+    about the use of contractions like ‘eg’ on GOV.UK.\n\n### Ellipsis (...)\nEllipsis
+    are 3 dots that should only be used:\nwhen you’re quoting someone and need to
+    show words have been missed out — only do this if it will not change the meaning,
+    for example: “We’re building things that are user-centric… doing the hard work
+    centrally to make things clearer, simpler and quicker.”\nto indicate there’s more
+    to come, for example, in a header: ‘We asked our users to name a wine…’\n\n\nIf
+    you use an ellipsis, use 3 dots only. They should follow straight on after the
+    previous word (with no space), and have one space after.\n\nIf the ellipsis ends
+    the sentence, do not add an additional full stop.\n\nIf you’re putting an ellipsis
+    in html use the code &hellip so the dots do not break. (like this …)\n\n### Email\n\n###
+    Etc\nDo not use. Not everyone understands what it means. If you need to make it
+    clear there are more unspecified items at the end of a list, you can use “and
+    so on”.\n\n### Exclamation marks\nTry not to use them unless they’re essential
+    - they can look flippant and make your content lose impact when they’re over-used.
+    \n\nBy simply ending your sentence with a full stop instead, you’re allowing your
+    reader to focus on the message, rather than wonder whether your tone is insincere
+    or strident.\n \n\n## [F](#f)\n \n### Fairer Finance\n \n### Fairtrade\nUsed for
+    products or the Fairtrade initiative. For example: ‘We’re proud to support Fairtrade’
+    or ‘All our bagged sugar is Fairtrade’.\n \n### fair trade\nThe theory and practice
+    of fair trade, where producers in developing countries are paid a fair price for
+    the goods they supply to companies in developed countries.\n \n### Fair Trade\nUsed
+    for Co-op products that are certified by a credible fair trade organisation such
+    as Traidcraft, but where there is no FAIRTRADE Mark available. Currently this
+    applies to charcoal and rubber gloves.\n\n### FAIRTRADE Mark\nThe formal certification
+    on products which contain ingredients certified by the Fairtrade Labelling Organisation
+    (FLO).\n\n### Fairtrade Fortnight\nAn annual celebration of Fairtrade used as
+    a focus point for campaigners, businesses and the Fairtrade Foundation to educate
+    the wider public on the benefits of Fairtrade. For example “Join us in celebrating
+    Fairtrade Fortnight”.\n\n### FAQs\nDo not use FAQs.\n\nInstead, if you know that
+    you are answering a genuine frequently asked question, restructure your content
+    so that the answers form part of the main user journey. And put the information
+    in a logical place in that journey.\n\nWe do not use FAQs because:\n- users do
+    not know if their question has been frequently asked\n- they’re often made up
+    by the business rather than genuinely asked by the public\n- users have to navigate
+    through irrelevant content to see if their question is there, which is frustrating
+    and wastes their time\n- we should be creating services that speak for themselves:
+    we design with purpose\n\nFor more information read Content Strategist Tom Adams’
+    [blog post on FAQs on the Co-op Digital blog](https://digitalblog.coop.co.uk/2018/09/13/why-faqs-arent-the-answer-youve-been-looking-for/).\n\n###
+    Common food terms\naduki beans (not Adzuki beans)\nalbumen\nalfresco\nallspice\narrabiata\nbaking
+    tray, not baking sheet\nbarbeque or BBQ, not barbie or barbecue\nbeers, wines
+    and spirits (BWS)\nbirdseye chillies, one word not Birds Eye\nbiryani\nblack forest,
+    not Blackforest\nblackbean\nBritish\nbrussels sprouts, not Brussel\nbulgar wheat\nbuttercream\ncanned
+    food, never a tin of tuna although tin is acceptable when describing a cake tin\ncannelloni,
+    not Canelloni\ncardamom, not Cardamon\nchar sui, not Char Siu\ncheese, capitalise
+    where a place name or trademarked. For example, Stilton, Comté, Cheddar, Gruyère,
+    Parmesan, feta, halloumi, goat’s cheese, mozzarella, Parmigiano-Reggiano\nchick
+    pea or chick peas\nchilli, or chillies\ncling film, not clingfilm and ‘non-PVC
+    cling film’ is also acceptable\nclove of garlic, not garlic clove\nchocolatey\nconfectionery,
+    ends ‘ery’, the ‘ary’ spelling is for shops selling or making sweets\ncontactless\ncopra
+    oil shall be declared as Coconut Oil\ncordial, squash is preferred\ncornflour\ncottonseed\ncotton
+    wool balls\ncotton wool buds\ncotton wool pads\ncup cakes, 2 words\ncrème fraÎche\ncouscous\ndauphinoise\ndinner4tonight/dinner4tonight.com
+    \ndoughnut, not donuts except Dunkin’ Donuts\necigarette\néclair\neschallots shall
+    be declared as shallots\nevery day, means daily, as in open every day\neveryday,
+    is an adjective used to describe something as humdrum or normal, as in an everyday
+    rice, shoes for everyday wear\nFather’s day\nfat-reduced\ncocoa\nfish cake (two
+    words)\nflameproof\nfree range\ngreaseproof and baking paper or greaseproof paper,
+    not baking paper\nhabanero\nHanukkah\nhealth and baby when describing category
+    HBA\nhealth care\nhoisin, one word\nhomemade\nhosiery\nhoumous\ninstore, available
+    or activity taking place in a supermarket. For example, instore bakery, prepared
+    instore or instore banking\nin store, forthcoming/imminent/about to come as in
+    ‘what have you got in store for me today’\nice cream\nIrresistible, capitalised
+    when referring to Co-op Irresistible\njuice of ½ lemon, not juice ½ or ½ a lemon\nkiwi
+    fruit\nlemon grass\nLess v fewer. Less means smaller in quantity, for example
+    less money. Fewer means smaller in number, for example fewer coins\nlitre or l,
+    never Ltr\nmakeup, cosmetics\nmake up with someone\nManx or from the Isle of Man\nmargarita,
+    a cocktail\nmargherita a pizza variety\nmicrowaveable, not microwavable\nMother’s
+    day\nmozzarella\novenproof\nok, not O.K. or okay\nown brand, not own-brand or
+    own-label\npalm oil, never declare as Palm Kernel Oil\npart baked not part-baked
+    or partbaked\npanini\npanna cotta\npâté\npassata, declared as Sieved Tomato if
+    an ingredient\npassion fruit\npasteurised\nPeppadew\npetits pains\npetits pois\npilaf\npilau\npoppadum\nprosciutto\nProsecco\nProtected
+    Designation of Origin (PDO)\npurée\nqueue, avoid using this word where possible\nquiche
+    Lorraine\nradicchio (not Raddicchio, Radicchio)\nreduced-fat\nrapeseed\nrefrigerator\nrice
+    wine, not Sake\nrocket, not Roquette\nsausagemeat\nself raising flour\nself checkout,
+    not self scan or sco\nsemi-skimmed\nshiitake\nSzechuan, capital S, not Sichuan\nsmartphone\nsmoky,
+    not Smokey\nsoya bean\nsoya powder\nsoy sauce\nsquash is either a vegetable like
+    a butternut squash, or a concentrated liquid made from fruit juice and sugar,
+    which is diluted to make a drink. See Cordial.\nstationary means not moving, stationery
+    means writing materials\nstick celery not celery stick\nstir fry\nstonebaked\nsundried,
+    not sun-dried\nswiss roll\nteaspoonful or teaspoonsful\ntin, not used to described
+    food and drinks packaging. Use can or canned.\ntin foil, do not use, use either
+    baking aluminium or wrapping foil\nTricolor, for pasta\nTricolour, for flags\nvinaigrette,
+    not vinegarette\nwater chestnuts\nwheat protein, not wheat gluten\nWorcestershire
+    not Worcester\nyogurt\n \n### Common funeral terms\nashes\nbook of remembrance\nburial\ncortege,
+    or funeral procession\ncremation\ncrematorium\ndisperse, refers to ashes that
+    are to be scattered\nend of life planning\nembalming\neulogy\ngarden of remembrance\nheadstone\nhearse,
+    unless talking about ‘Land Rover hearse’\ninter or interment, refers to ashes
+    that are to be buried in a plot\nmemorial book\nmemorial cards\nmemorial headstone\nmemorial
+    masonry\nMemories, capitalise when referring to our Memories brochure or products\nnursing
+    home\nOnline Memorials, capitalise when referring to our services.\nOrder of Service\nProbate\nscatter
+    ashes\nScatter Tube\nthird party fees\nurn\nwoodland burial ground\n \n### funeral\nLower
+    case unless you’re writing about one of our products, such as:\nTraditional Funeral\nSimple
+    Funeral\nClassic Funeral\n \n### Funeral Director\nThis is an exception to the
+    rules around writing job titles, it should always be capitalised. \n \n### funeral
+    home\nLower case, but Co-op Funeralcare Funeral Home.\n \n### funeral plan\nLower
+    case unless you are using the title of a specific plan, such as:\nSimple Funeral
+    Plan\nBronze Funeral Plan\nSilver Funeral Plan\nGold Funeral Plan\nSet Cremation
+    Plan\nSet Burial Plan\nMemorial Masonry Plan\nTailor made Memorial Masonry Plan\n\n\n##
+    [G](#g)\n \n### Group Chief Executive\n \n## [H](#h)\n \n### Halloween\n\n###
+    high street\n \n### Hyphens\nHyphens (the character you get when you type ‘-’
+    ) are used to link words or part of words. They show the user that there’s a connection
+    between them, for example, ‘mother-in-law’, ‘fine-tuned’, ‘Co-op’.\n\nOnly use
+    a hyphen when it’s needed for clarity or is crucial to your meaning. Too many
+    hyphens can be distracting and confusing, especially when used incorrectly. The
+    exception is Co-op or co-operative, which are always hyphenated.\n\n\n## [I](#i)\n
+    \n### I.e.\nDo not use. Not everyone understands what it means, say ‘in other
+    words’. For more information read this blog about contractions like this on GOV.UK.\n\n###
+    Insurance terms\n#### no claim discount \nAlways sentence case but you can say
+    NCD after this, for example ‘Your no claim discount (NCD) is…’\n\n#### written-off
+    \nUse write off in the future tense, for example ‘We will write off your car if
+    it's too broken’ but ‘If your car's written-off by the garage…’\n\n#### HomeRescue
+    Plus\nA home insurance optional extra product which provides help in an emergency,
+    such as a boiler breakdown or if you’ve lost your keys. If you’re talking about
+    generic home emergency cover, say ‘home assistance’.\n\n#### life cover\nSometimes
+    called life insurance.\n\n#### The Royal London Group\nFor example, life cover
+    is offered through Co-op Insurance Services and is provided, underwritten and
+    administered by The Royal London Group.\n\n#### single-trip\nA type of insurance
+    cover for a specific trip, for example ‘single-trip insurance’.\n\n#### multi-trip\nTravel
+    insurance that covers you for more than one trip, for example ‘multi-trip insurance’.\n\n####
+    MAPFRE Asistencia\nFor example, ‘travel insurance is offered through Co-op Insurance
+    Services and underwritten by MAPFRE Asistencia’.\n\n#### multi-pet\nInsurance
+    that covers more than one pet.\n\n#### Allianz Insurance plc \nFor example pet
+    insurance is offered through Co‑op Insurance Services and underwritten by Allianz
+    Insurance plc.\n\n#### black box\nnot smartbox.\n\n#### safe driving discount\n\n####
+    Wunelli Ltd\nFor example, ‘Wunelli Ltd is an independent company who we have appointed
+    to supply and install the black box’.\n\n\n### internet\n \n### Common internal
+    terms\ncheckout area (you can say ‘kiosk’, ‘belted till’ or ‘assisted-serve till’
+    if it’s relevant)\ncolleague\ncolleague member\ncolleague website (coop.co.uk/colleagues)\ncustomer
+    care line\nDouble Discount\nFuel for Growth\nhandheld terminal (HHT)\nHow do I\nIn-store
+    bakery (ISB)\nLeaders’ Weekly Update\non-shelf advertising (not ‘point of sale’)\nshelf
+    edge label (SEL)\nstore (not ‘shop’)\nStronger Co-op, Stronger Communities, written
+    as ‘a stronger Co-op and stronger communities’ in a sentence\nsupport centre (not
+    ‘head office’)\ntill (not ‘checkout’)\nWays of Being Co-op\n#BeingCoop Awards\n
+    \n### intranet\n \n### independent co-operatives\n \n\n## [J](#j)\n \n### Job
+    titles\nCapitalised when talking about a specific person’s job role. For example,
+    Mary Smith, Content Designer. \n\nLower case when talking about a generic job
+    role. For example, a team leader or executive.\n\nFuneral Director is the exception
+    and is always capitalised. \n \n### Jargon\nUse plain English and avoid jargon
+    (specialist language) where possible. Your writing is easier to understand when
+    you use the words your audience uses.\n \nTry not to use:\n- Puns. If the reader
+    doesn’t recognise something is meant to be a pun it can be confusing\n- Slang.
+    It’s hard to understand, slang terms can be used differently across cultures and
+    regions, and all slang can quickly fall out of use\n\nOnly use jargon or specialist
+    terms if the reader might see or hear the term elsewhere, for example if it’s
+    widely used in a store or over the phone. Always give a definition when you first
+    use them. For example: ‘partners can choose to make near identical wills that
+    leave their estate to the other person (known as ‘mirror wills’)’.\n\n### Join
+    In \nJoin In is an opportunity for members to get involved with their Co-op and
+    influence decision-making. \n\nUse lower case when talking about members ‘joining
+    in’.\n\n\n## [L](#l)\n \n### Later life planning terms\nGeneric words like ‘my
+    plan’, ‘set plan’ or ‘tailor made plan’ should be lower case, unless they begin
+    the sentence or are used as a title.\n \nPlan names should be capitalised as they
+    are names of products, so ‘Simple Funeral Plan’ or ‘Gold Funeral Plan’.\n\n###
+    Links\nA link should be descriptive of the place it’s taking the user. Do not
+    use text such as ‘click here’, or anything that does not make sense when read
+    out of context — screen readers can read link text in isolation without the surrounding
+    content.\n\nLink text must:\n- tell the user where it’s taking them\n- be action
+    orientated, for example, ‘Choose an option’, ‘Find more information about the
+    discount’, ‘Discover…’\n- tell the user if they’re leaving our site, for example,
+    ‘For more information visit citizensadvice.org.uk’\n- use a full url if it’s clean
+    (no symbols), short and potentially easy to remember (max one / ) for example:
+    bbc.co.uk/sport,otherwise, if there’s a complex url, use a ‘word’ link\n- not
+    include a title tag, this accessibility feature is not used any more as it’s not
+    that helpful for visually impaired people\n\n\nWhen you are linking to another
+    page or an external site, think about your user‘s onward journey. If the page
+    you’re linking to opens in:\nthe same window, your user may lose their place in
+    the information flow\na different window, your user may find it difficult to navigate
+    back to your site\n\n\nUse this to consider how and where to position your links.\n\n\n###
+    Lists\n#### Bullet lists\nUse bullet points to break up a list of things. It’s
+    easier to read and understand.\n\nBullets must:\n- use a lead-in line\n- make
+    sense running on from the lead-in line\n- use lower case at the start of the bullet\n-
+    have only one sentence per bullet point, use commas, dashes or semicolons to expand
+    on an item\n\nBullets should not:\n- be paragraphs masquerading as a list for
+    a visual effect\n- use a full stop after the last bullet point\n- include ‘or’
+    or an ‘and’ after the bullets\n\nExample\nThe meeting agenda will be:\n- an overview
+    of the last month\n- a presentation\n- a special announcement\n\n\n#### Numbered
+    lists\nUse a numbered list for a logical sequence of things, like a series of
+    tasks that must be done in a certain order. They do not need a lead-in line and
+    should be complete sentences that start with a capital letter and end with a full
+    stop.\n\nExample\nHow to put your shoes on:\n- Put on socks.\n- Put on shoes.\n-
+    Tie laces.\n\n### local causes\n \n### Local Community Fund\n \n### local community\n\n###
+    log in\nPeople log in to websites, they do not log on.\nIf they can use a website
+    without logging in, say ‘visit the website’.\n \n \n## [M](#m)\n \n### Measurements\nsq
+    m, sq ft, cm, m, km\nAbbreviate measurements and use metric where possible.\nDo
+    not abbreviate imperial measurements, use ‘miles’ or ‘inches’ for example.\n \n###
+    membership\nUse a capital M when referencing Co-op Membership or Co-op Members,
+    but lowercase everywhere else.\n \n### Co-op Membership\nCo-op Membership card\nmembership\nmembership
+    card\nmembership card number\ntemporary card\nmembership number\nmembership account\nCo-op
+    Member\nmember\ncolleague member\npartner member\nshare of profits\nco-owner\n\n5%
+    back\n1% for your community\n1% for your local cause\n\n### Money\nUse the £ symbol,
+    for example £75.\n\nCurrencies are lower case.\n\nWrite out pence in full, so
+    ‘calls will cost 4 pence per minute from a landline’.\n\nDo not use decimals unless
+    pence are included, so £75.50 but not £75.00.\n\nCheck the advice about numbers
+    for amounts over 1,000.\n\n\n## [N](#n)\n \n### Numbers\nWrite out ‘one’ in full,
+    then use numerals for all other numbers. If a sentence starts with a number, you
+    should spell it out. For example, ‘Thirty-four sentences started with a number’.\n\nAbbreviate
+    millions and billions when you’re writing about money, so ‘£23m’ or ‘£4bn’.\n\nA
+    billion is a thousand million.\n \nWhen you’re not talking about money, spell
+    out millions and billions, so ‘2 billion people’.\n \nUse commas for numbers over
+    999, so 1,000 or 5,000,000.\n \nPlurals do not need apostrophes, so write ‘70s’
+    or ‘1,000s’ not ‘70’s’ or ‘1,000’s’.\n \nWrite fractions out in full, so ‘half’
+    or ‘three quarters’, except in recipes where you should use numbers such as ‘½
+    tsp’.\n\nWrite out first, second and so on.\nSpell out ‘first’ to ‘ninth’. After
+    that use 10th, 11th and so on.\nBut, write dates as 10 January 2017.\n \n### Phone
+    numbers\nUse the BT code and split numbers as follows 0161 123 4567. For London
+    numbers the split is 020 7123 4567.\n \nMobile numbers are split 07765 123 456.
+    You must include information about call charges and opening times if you mention
+    a mobile number.\n \n\n## [O](#o)\n \n### Oven temperatures\nListed as follows:\n180°C/fan
+    160°C/Gas 4\nNo need to convert to Fahrenheit, except on food packaging where
+    it can be shown if a supplier provides it.\n \n\n## [P](#p)\n \n### %\nUse % instead
+    of ‘percent’ or ‘per cent’, it’s easier to read and understand.\n \n### Pronouns\nWhen
+    talking about Co-op, use ‘we’ or ‘our’, and when talking to a member or customer,
+    use ‘you’ and ‘your’.\n\n### Property\nThe Property team is responsible for buying,
+    selling and looking after the Co-op’s 6,000 buildings across the UK. It’s not
+    called Estates or Estates Services any more. \n\n### Common property terms\nCommercial
+    property\nFor trading businesses like food stores, funeral homes, depots and offices.\n\n###
+    Residential property\nWhere people live, like flats and houses.\n\n### Facilities
+    Management (FM)\nThink about shortening this to ‘facilities’ if it’s what someone
+    would say in natural speech.\n\n### National Operations Centre (NOC)\nThe outsourced
+    call centre that handles all facilities management enquiries. Think about saying
+    ‘call facilities’ for clarity.\n\n### Protected designation of origin (PDO)\nThe
+    official names of certain products are protected and they must be capitalised
+    in the correct way. For example Melton Mowbray pork pies and Cornish pasties.\n
+    \n \n## [R](#r)\n \n### Rochdale Pioneers\n \n### Royal London\nWe put all of
+    the money from each funeral plan into an individual whole of life insurance policy
+    with Royal London. When we say Royal London, this is The Royal London Mutual Insurance
+    Society Limited.\n \n\n## [S](#s)\n \n### seasons\nDo not capitalise winter, spring,
+    summer or autumn.\n\n### serving suggestion\n\n### Slashes /\nDo not use forward
+    slashes except in web addresses. They make content harder to read. Use ‘or’ instead.\n
+    \n### Staff\nWe do not call people who work at Co-op ‘staff’. Internally, we use
+    ‘colleague’ and if we’re talking to customers we use ‘team member’ or ‘member
+    of our team’.\n\n### Stores\nCall the places where we sell our products ‘stores’,
+    not ‘shops’.\n\n\n## [T](#t)\n \n### Time\nUse the 12 hour clock, so ‘9am to 5pm’.
+    If you need to include the minutes, write ‘9.15am’.\n \nUse ‘midday’ rather than
+    noon, 12noon or 12pm. Use ‘midnight’ and not ‘12am’. But be careful that it’s
+    not misleading. \n\nFor example, if you said:\n‘Please complete and send your
+    application form by 6 July 2018, at midnight’\n\nThen your user might wonder if
+    you meant ‘ 6 July 2018, 11.59pm’ or ‘5 July 2018, 11.59pm’\n\nTo avoid this confusion,
+    consider using ‘11.59pm’ where possible.\n\nIt’s not necessary to specify time
+    zones, such as ‘1pm GMT’.\n\n\n### Titles\nTitles of pages and sub-headers should:\nbe
+    sentence case\nbe unique, clear and descriptive \nbe front-loaded with key words
+    if possible — people tend to scan the first couple of words only\nuse words you
+    know your users actually use\nbe active where possible, ‘Apply for…’, ‘Report…’,
+    ‘Find…’\nnot use acronyms unless they are well-known, like EU or BBC\n \n \n##
+    [W](#w)\n \n### Watchout words\nWhen describing food, avoid the following words
+    and phrases, unless you can qualify them:\nCraft\nFarm fresh\nNew (unless the
+    product really is new)\nNatural\nHealthy/Healthier\nHomegrown\nLocal (can be used
+    if the product is made within 30 miles)\nLower price (unless you have a higher
+    price for comparison)\nReduced fat\nWholesome\nAuthentic\nHand made\nOriginal\nFresh\nTraditional\n
+    \n### Websites\nDo not use the prefix ‘http://www.’ when writing a website address.
+    For example, write coop.co.uk\n \n### Will/will\nCapitalise when talking about
+    a specific product, lower case when speaking generally about wills.\n \n\n\n\n\n\n\n\n"
+- sys:
+    id: W8GjmmJyakgA0kQc2YqUg
+    created_at: !ruby/object:DateTime 2018-12-05 09:36:10.221000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-16 11:37:52.692000000 Z
+    content_type_id: page
+    revision: 4
+  title: User research principles
+  status: live
+  introduction: |-
+    We identify user needs and motivations, enabling teams to validate product decisions and design better products and services.
+
+    By designing services which meet the needs and motivations of users, we deliver better value to the Co-op business, its colleagues, members, and customers.
+  in_page_navigation:
+  - sys:
+      id: 3EKBobQkJWWWQMMYgqce0y
+      created_at: !ruby/object:DateTime 2018-12-05 09:36:26.116000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-05 09:44:53.650000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 4
+    url_text: focus on what users do, not what they say they’d do
+    section_id: focus-on-what-users-do-not-what-they-say-theyd-do
+  - sys:
+      id: 5oRnDSsj28qge0GKICCOcg
+      created_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Do a little, often
+    section_id: do-a-little-often
+  - sys:
+      id: 8P8pStonSMyoYKygC4wWs
+      created_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Give teams the evidence to make better decisions
+    section_id: give-teams-the-evidence-to-make-better-decisions
+  - sys:
+      id: 3FpopuEryMImcWCgSqGEg2
+      created_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Involve everyone in research
+    section_id: involve-everyone-in-research
+  - sys:
+      id: 3c6JuSqlGMWu4GWQWOgKko
+      created_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Promote accessibility for all through good usability
+    section_id: promote-accessibility-for-all-through-good-usability
+  - sys:
+      id: CPhH3gdGj6WIUyYO8ESMC
+      created_at: !ruby/object:DateTime 2018-12-05 11:29:09.785000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-05 11:29:09.785000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Undertake the best research we can in any given situation
+    section_id: undertake-the-best-research-we-can-in-any-given-situation
+  - sys:
+      id: 3HstEyKxAskIwcmIyEmEcq
+      created_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Respect the privacy and integrity of the user
+    section_id: respect-the-privacy-and-integrity-of-the-user
+  content: |+
+    ## [Focus on what users do, not what they say they’d do](#focus)
+
+    Observing users’ behaviour is the best indicator of what they will do in the future, and the gateway to understanding needs and motivations.
+
+    We do:
+    - Create realistic situations and scenarios for users to interact with
+    - Observe behaviour
+    - Get out of the building, to where our users are
+    - Document how users behave in response to something, or in a particular situation
+    - Analyse how users do things (their tasks, jobs, and processes) to understand why users do what they do
+
+    We don't:
+    - Ask users if they like something - that’s not a way to understand if it is useful or valuable to them
+    - Take what users say at face value
+
+
+    ## Do a little, often
+    Frequent research with users enables the team to iterate on a product and validate product decisions regularly, which can help promote a user centred culture.
+
+    We do:
+    - research with users (such as interviews, observations, usability tests, surveys) once per sprint
+    - research enough to give the team confidence in their decisions
+    - look ahead to the next sprint and research questions that will help them make product decisions
+
+    We don't:
+    - accept ‘it tested ok’ to be the end of iteration and improvement
+    - prioritise fieldwork over time to synthesise and analyse
+
+
+    ## Give teams the evidence to make better decisions
+    We research and test the team's assumptions so that decisions are based on evidence rather than guesses.
+
+    We do:
+    - draw meaningful insight from research findings (drawing on other contexts and concepts)
+    - use hypothesis-driven approaches to testing
+    - critique our findings
+    - focus on the critical questions for the team, in their sprint goals
+    - accept sometimes we might get it wrong
+
+    We don't:
+    - present our assumptions as insights from user behaviour
+    - keep research findings to ourselves
+    - use research to validate our own opinions or those of our senior stakeholders
+    - do research without clear, actionable goal(s)
+
+
+    ## Involve everyone in research
+    Giving teams and stakeholders opportunities to meet users in real situations, and see research is the best way to promote empathy and understanding of users needs.
+
+    We do:
+    - discuss research plans as a team
+    - invite everybody to observe or take part in research
+    - encourage all team members to take part in observing research, and synthesising findings
+    - answer research related questions from the team
+    - facilitate shared understanding of the key learnings from user research
+    - comment and challenge
+
+    We don't:
+    - work independently of the team’s needs
+    - dictate the research plan or questions
+    - use research to prove our own methods or assumptions are right
+
+
+    ## Promote accessibility for all through good usability
+    We champion making products and services that are usable across the spectrum of accessibility needs, because that means people can use what we’re building, and because it makes business sense.
+
+    We do:
+    - actively recruit people who face access challenges
+    - advocate for consideration in service design for people who face barriers
+    - provide a secure and comfortable environment for them
+
+    We don't:
+    - take the path of least resistance to recruitment
+    - assume ‘it’ll work for everyone’
+    - assume what support a participant may require (for example, we don’t assume a deaf person signs)
+
+
+    ## Represent users faithfully
+    We speak truth to power and if users’ needs are not being met, we say so. This keeps the product teams and the business honest.
+
+    We do:
+    - speak openly and honestly (and politely), no matter who we’re talking to
+    - work to minimise bias
+    - use quotes, audio and video (anonymously) so the voice of the user is as direct as possible
+    - communicate the user voice as effectively as possible for stakeholders
+    - fact check
+
+    We don't:
+    - skew or filter quotes or findings
+    - only hear what we want to
+    - name users specifically
+
+
+    ## Undertake the best research we can in any given situation
+    Sometimes we can't do user research as we would like. In this instance doing some is better than not doing any.
+
+    We do:
+    - provide support and advice to help teams designing products and services
+    - compromise, in order to achieve an outcome that is better than what exists
+    - look to evidence the benefits of user research through action, not just words
+    - adapt to the limitations of the situation or method
+    - caveat the limitations of our research
+
+    We don't:
+    - refuse to do research because the conditions aren’t as we would like
+    - downplay the findings or insights if we have confidence in them
+    - put the safety of user researchers or participants at risk
+    - continue to undertake research if the insights are not valued by the team
+
+
+    ## Respect the privacy and integrity of the user
+    Our ability to perform our role depends on the trust we have with participants.
+
+    We do:
+    - only work with users when we have their informed consent
+    - make sure people understand the purpose of the research
+    - reward people for their time with an appropriate incentive
+    - work to make the participant feel comfortable, safe and secure
+    - bear in mind the power dynamic between the researcher and the participant
+    - remove all non-anonymised raw data after the end of a project life (or, no later than 12 months after collection)
+
+    We don't:
+    - share participants’ personal data with anyone
+    - share any information that could identify people in the public realm
+    - judge participants, their answers or views
+    - report back on their performance to their teams or bosses
+
+- sys:
+    id: r2Zw1EZmLRt9NCpAHYwlH
+    created_at: !ruby/object:DateTime 2019-05-10 09:50:57.732000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 10:26:38.067000000 Z
+    content_type_id: page
+    revision: 10
+  title: Getting started
+  introduction: Use our guides to get set up with our design files, prototyping kit
+    and front-end code.
+  in_page_navigation:
+  - sys:
+      id: 1k9n7SkR0CVLzeUTeMxEH0
+      created_at: !ruby/object:DateTime 2019-05-10 09:56:39.455000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 10:01:44.708000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: Design
+    section_id: design
+  - sys:
+      id: 5xfqW6lMbO5YKJKvucApSS
+      created_at: !ruby/object:DateTime 2019-05-10 09:58:57.594000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 09:58:57.594000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Prototyping
+    section_id: prototyping
+  - sys:
+      id: 2VZK1LY9APPkez2Ji7dk5V
+      created_at: !ruby/object:DateTime 2019-05-10 09:59:09.386000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 10:01:34.011000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: Front-end
+    section_id: front-end
+  content: "## [Design](#design)\nAll the design <a href=\"https://coop-design-system.herokuapp.com/pattern-library/\">foundations
+    and components</a> are available as <a href=\"https://www.sketch.com/\">Sketch</a>
+    symbols you can use in your service. \n\n<p>We use <a href=\"https://www.abstract.com/\">Abstract</a>
+    to distribute and collaborate on our design files.</p> You should get set up with
+    this when you start.\n\n<p>For access email <a href=\"mailto:design@coopdigital.co.uk\">design@coopdigital.co.uk</a>.</p>\n\n\n##
+    [Prototyping](#prototyping)\nOur prototyping kit comes with 2 main options. A
+    <a href=\"https://parceljs.org/\">parcel.js</a> installation with zero configuration
+    and all the <a href=\"https://coop-design-system.herokuapp.com/pattern-library/\">foundations
+    and components</a> as code snippets to allow you to build a prototype, publish
+    it to the internet and learn quickly.\n\nWe also offer a webpack version for more
+    advanced users that can be customised more easily for your needs.\n\nWe have created
+    a series of video guides (for Parcel.js) to get you up and running quickly.\n\n###
+    1. Installing the prototyping kit\n<style>.embed-container { position: relative;
+    padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom:
+    32px; } .embed-container iframe, .embed-container object, .embed-container embed
+    { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div
+    class='embed-container'><iframe src='https://www.youtube.com/embed/kRl0Nx66bcw'
+    frameborder='0' allowfullscreen></iframe></div>\n\n### 2. Creating a basic page\nComing
+    soon.\n\n### 3. Publishing to the internet and password protecting\nComing soon.\n\n##
+    [Front-end](#front-end)\nFor a deeper dive into the code resources we offer visit
+    the <a href=\"https://parceljs.org/\">code resources page</a>.\n"
+- sys:
+    id: 3JcC1cQTjEdq6Pvo3dJGAc
+    created_at: !ruby/object:DateTime 2019-05-10 09:21:00.051000000 Z
+    updated_at: !ruby/object:DateTime 2019-05-10 09:57:36.244000000 Z
+    content_type_id: page
+    revision: 7
+  title: Code resources
+  introduction: |-
+    Our front-end foundations and components are a collection of CSS and HTML files that Co-op's Digital services use.
+
+    The prototyping kit uses the foundations and components as its base and gives you a quick way to test and learn.
+  in_page_navigation:
+  - sys:
+      id: 1nQ7OypmxYxQ4Ypm0c3tU6
+      created_at: !ruby/object:DateTime 2019-05-10 09:23:35.007000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 09:25:57.733000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: Front-end foundations
+    section_id: front-end-foundations
+  - sys:
+      id: 3q7IYbWfEWJzgSsLRXm0Cd
+      created_at: !ruby/object:DateTime 2019-05-10 09:26:47.745000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 09:29:18.085000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: Front-end components
+    section_id: front-end-components
+  - sys:
+      id: 3f9A0UcG6Y8XhiIylByYLX
+      created_at: !ruby/object:DateTime 2019-05-10 09:42:17.948000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 09:42:17.948000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 1
+    url_text: Webpack build pipeline
+    section_id: webpack-build-pipeline
+  - sys:
+      id: 7hC8BnSI6LE7FsABJw4usc
+      created_at: !ruby/object:DateTime 2019-05-10 09:27:24.544000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 09:29:26.511000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: Prototyping kit
+    section_id: prototyping-kit
+  - sys:
+      id: 2dNfLl4NpIyDtiwQXUH4r9
+      created_at: !ruby/object:DateTime 2019-05-10 09:27:57.001000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 09:29:32.171000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: Email templates
+    section_id: email-templates
+  - sys:
+      id: EcvMJcknhdYNz6n3t8hks
+      created_at: !ruby/object:DateTime 2019-05-10 09:28:30.475000000 Z
+      updated_at: !ruby/object:DateTime 2019-05-10 09:29:40.071000000 Z
+      content_type_id: inPageNavigationLink
+      revision: 2
+    url_text: Pattern library
+    section_id: pattern-library
+  content: "## [Front-end foundations](#foundations)\nThe front-end foundations are
+    the base styles (for things like layout and typography) that all Co-op services
+    use.\n\nYou can install individual foundations packages or the foundations CSS
+    that brings them all together - depending on your needs.\n\nSee the:\n\n<ul>\n
+    \ <li><a href=\"https://github.com/coopdigital/css-foundations\">Foundations CSS</a></li>\n
+    \ <li><a href=\"https://github.com/coopdigital/coop-frontend-toolkit\">Indivdual
+    foundations packages on NPM</a></li>\n  <li><a href=\"https://coop-design-system.herokuapp.com/pattern-library/\">Examples
+    of the foundations in the pattern library</a></li>\n</ul>\n\n## [Front-end components](#components)\nThe
+    front-end components are common UI patterns thaat have been identified as useful
+    to more than one service.\n\nYou can install these individually. Only use them
+    if you are sure that they fulfil your user's needs.\n\nSee the:\n\n<ul>\n  <li><a
+    href=\"https://github.com/coopdigital/coop-frontend-toolkit\">See the indivdual
+    component pacakges on NPM</a></li>\n  <li><a href=\"https://coop-design-system.herokuapp.com/pattern-library/\">Examples
+    of the components in the pattern library</a></li>\n</ul>\n\n## [Webpack build
+    pipeline](#webpack)\nComing soon. A default webpack set-up for your service. \n\n<p>If
+    you need more information on setting this up now email <a href=\"mailto:design@coopdigital.co.uk\">design@coopdigital.co.uk</a></p>\n\n##
+    [Prototyping kit](#prototyping)\nThe prototyping kit brings together all the foundations
+    and components in one package that allows you to build early versions of services
+    and publish them to the internet quickly.\n\nGet the:\n\n<ul>\n  <li><a href=\"/getting-started.html\">See
+    the getting started guide</a></li>\n  <li><a href=\"https://github.com/coopdigital/prototyping-kit\">Download
+    the prototyping kit</a></li>\n</ul>\n\n## [Email templates](#email)\nA basic Co-op
+    branded responsive email template for service messages.\n<p><a href=\"https://github.com/coopdigital/email-templates\">See
+    the email templates</a></p>\n\n## [Pattern library](#patternlibrary)\nA collection
+    of our design patterns as code snippets with guidance. Use in conjunction with
+    the front-end toolkit and/or prototyping kit.\n<p><a href=\"/pattern-library/\">Visit
+    the pattern libary</a></p>\n"
 - sys:
     id: 2dwjl9DDVOEK8WEkwss0Mc
     created_at: !ruby/object:DateTime 2018-10-24 13:37:19.171000000 Z
@@ -1587,719 +2465,6 @@ page:
     - making design decisions based on evidence
     - responding to change
 - sys:
-    id: 7kofk9MtaxOfFOwxfcGvjj
-    created_at: !ruby/object:DateTime 2019-05-23 10:07:52.788000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-23 12:08:07.810000000 Z
-    content_type_id: page
-    revision: 7
-  title: Digital content guidelines
-  status: live
-  introduction: |
-    We write content for the user, not for ourselves.
-
-    So, we design content to give users what they need:
-    - only when they need it
-    - as simply and quickly as possible
-    - using words they understand
-    - in a consistent way
-
-    Designing content that puts our users first makes it easier and faster for them to use our services, encourages them to interact with us again and builds trust in what we’re saying.
-  in_page_navigation:
-  - sys:
-      id: 7KTdbumKknU7HAjvIBfAA4
-      created_at: !ruby/object:DateTime 2019-05-23 10:07:46.659000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 10:07:46.659000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: A
-    section_id: a
-  - sys:
-      id: 4jfl3UkKTxMgJrFnkhNwD0
-      created_at: !ruby/object:DateTime 2019-05-23 10:12:48.518000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 10:12:48.518000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: B
-    section_id: b
-  - sys:
-      id: 4CB5wBTwzN3uYxfwMo9vIc
-      created_at: !ruby/object:DateTime 2019-05-23 11:46:51.354000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:46:51.354000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: C
-    section_id: c
-  - sys:
-      id: 1ps4nRoh8UuGv9oLT9wqvs
-      created_at: !ruby/object:DateTime 2019-05-23 11:46:59.941000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:46:59.941000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: D
-    section_id: d
-  - sys:
-      id: 2z4x5fw7wreq6719snm42c
-      created_at: !ruby/object:DateTime 2019-05-23 11:47:10.479000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:47:10.479000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: E
-    section_id: e
-  - sys:
-      id: W1nvl1OfrT5867OrIvd3c
-      created_at: !ruby/object:DateTime 2019-05-23 11:47:21.178000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:47:21.178000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: F
-    section_id: f
-  - sys:
-      id: 5tsrRP0rQPBurPrWRTXvZo
-      created_at: !ruby/object:DateTime 2019-05-23 11:47:30.013000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:47:30.013000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: G
-    section_id: g
-  - sys:
-      id: 24FzoYwiVMXoygYqKxBcgE
-      created_at: !ruby/object:DateTime 2019-05-23 11:47:39.652000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:47:39.652000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: H
-    section_id: h
-  - sys:
-      id: 3KKxZPZPeWqpDZn8MloL4S
-      created_at: !ruby/object:DateTime 2019-05-23 11:47:51.021000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:47:51.021000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: I
-    section_id: i
-  - sys:
-      id: 56YXCYOLzDLoTJJ0dej8Da
-      created_at: !ruby/object:DateTime 2019-05-23 11:47:59.260000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:47:59.260000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: J
-    section_id: j
-  - sys:
-      id: 63rNqVp5JOEqHsPMNfjfwf
-      created_at: !ruby/object:DateTime 2019-05-23 11:48:18.422000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:48:18.422000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: L
-    section_id: l
-  - sys:
-      id: zbK4h6tmeZbONXt0I51JA
-      created_at: !ruby/object:DateTime 2019-05-23 11:48:27.428000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:48:27.428000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: M
-    section_id: m
-  - sys:
-      id: oTWPeCc30XJOdufLTs13A
-      created_at: !ruby/object:DateTime 2019-05-23 11:48:37.105000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:48:37.105000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: N
-    section_id: n
-  - sys:
-      id: 59Fv5fwfSItuOAA7IQBcG9
-      created_at: !ruby/object:DateTime 2019-05-23 11:48:48.009000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:48:48.009000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: O
-    section_id: o
-  - sys:
-      id: 62CPdyZfmH0mSaS9f1pexP
-      created_at: !ruby/object:DateTime 2019-05-23 11:48:59.269000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:48:59.269000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: P
-    section_id: p
-  - sys:
-      id: 3rvBorxdEbn4vWO25nG2sl
-      created_at: !ruby/object:DateTime 2019-05-23 11:49:33.184000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:49:33.184000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: R
-    section_id: r
-  - sys:
-      id: cyXV2s5EEqzTavxyzDvkW
-      created_at: !ruby/object:DateTime 2019-05-23 11:49:42.191000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:49:42.191000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: S
-    section_id: s
-  - sys:
-      id: 5xoxo8Ik162NGVoNGqRhI1
-      created_at: !ruby/object:DateTime 2019-05-23 11:49:54.437000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:49:54.437000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: T
-    section_id: t
-  - sys:
-      id: 2eq0SMP6zbWorlKzkRHfRX
-      created_at: !ruby/object:DateTime 2019-05-23 11:50:23.289000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-23 11:50:23.289000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: W
-    section_id: w
-  content: "## [A](#a)\n\n### 1 Angel Square\nThe name of Co-op’s building in Manchester.
-    \nThe name and address is 1 Angel Square. \nDo not refer to it as ‘head office’,
-    ‘headquarters’ or ‘1AS’.\n \n### Abbreviations and acronyms\nSpell out abbreviations
-    and acronyms the first time you use them, followed by the abbreviation in brackets.
-    Do not use full stops within or after abbreviations or acronyms.\n \nFor example
-    write ‘Customer Relationship Management (CRM)’ and then ‘CRM’ each time after
-    that.\n \nMake exceptions for familiar acronyms like URL, BBC or HR. You do not
-    need to spell them out in the first instance.\n \n### Alcohol\nDo not promote
-    alcohol in a way that makes it seem as though it:\n \n- appeals to under 18s\n-
-    incorporates people who look under 25\n- suggests alcohol is life enhancing or
-    therapeutic\n- is easy to down or binge drink\n- leads to social success\n- suggests
-    an association with bravado or antisocial behaviour\n- benefits from higher alcohol
-    content\n- has any association with sexual activity or sexual success\n- has acceptance
-    of, or an illusion to, illicit drugs\n \nFor example, do not say ‘you’ll be cooler
-    with a glass of wine, feel better with a lovely beer’.\n \nSee the Portman code
-    for full guidance.\nportmangroup.org.uk/codes/alcohol-marketing/code-of-practice
-    \n \nAlways communicate the alcoholic nature of a drink and include the Drinkaware
-    logo on any alcohol product advertising. Even on drinks that look like alcohol
-    where there is no context that the drink is nonalcoholic, for example mocktails.\n
-    \nThe laws around the promotion of alcohol differ in countries across the UK,
-    and even in some local authorities.\n \nIn Scotland, promotions are only acceptable
-    when displayed in designated zones. \n\nAny communication that includes alcohol
-    must be approved by the Co-op legal team.\n\n### Areas\n\nCymru/Wales\n \nCentral
-    and Eastern\n \nEast Midlands\n \nEast of England\n \nIsle of Man\n \nLondon\n
-    \nNorth East\n \nNorth West\n \nNorthern Ireland\n \nScotland\n \nSouth East\n
-    \nSouth West\n \nWest Midlands\n \nYorkshire and the Humber\n\n\n## [B](#b)\n\n###
-    board members\n \n### the Co-op board\nYou can find out more about the Co-op board
-    and directors on our website.\n\n### Brackets or parentheses\n#### Round brackets\nUse
-    round brackets to clarify an acronym or technical term that you’ll use from that
-    point onwards, for example: ‘customer team member (CTM)’, or ‘the people you want
-    to sort out your will (known as ‘executors’)’. \n\nThey can also include supplementary
-    information that’s not essential to the main point of your sentence. Information
-    that, if removed, would not change the meaning of the sentence.\n\nDo not use
-    round brackets to indicate that something can be singular or plural, like: ‘Check
-    which document(s) you need to send to HR’.\n\nInstead, use the plural, as this
-    will cover each possibility: ‘Check which documents you need to send to HR’.\n\n(A
-    complete sentence that stands alone in parentheses starts with a capital letter
-    and ends with a full stop before the closing bracket.)\n\nTry not to overuse brackets,
-    as they can disrupt the flow of reading.\n\n#### Square brackets\nOnly use square
-    brackets when you need to add clarification to a quote or something you’ve not
-    written yourself, like: ‘It [content] deserves our full time and attention’.\n\n\n##
-    [C](#c)\n \n### cafe\n\n### colons and semicolons\nUse a colon at the end of a
-    lead-in line to a bulleted list. For example:\n\nYou need to bring:\n- your driving
-    licence or passport\n- a copy of your P60\n- proof of your address, like a recent
-    utility bill\n\n\nIf you’re using a colon or semicolon, it can make your sentence
-    long and hard to read. If you think a sentence needs one of these, break it into
-    separate sentences instead. \n\n### Co-op\nRefer to Co-op in writing as ‘Co-op’,
-    upper case and hyphenated. Do not use ‘Co-op Group’ or ‘the Group’.\n\nWhere possible
-    and practical, try not to say ‘the Co‑op’. We know that users tend to refer to
-    our food stores as ‘the Co‑op’, so dropping the ‘the’ avoids any confusion.\n\nOur
-    businesses are capitalised, so Co-op Food, Co-op Funeralcare for example. You
-    can refer to them without ‘Co-op’ so ‘our Food business’ or ‘visit one of our
-    Food stores’.\n\nUsing ‘our’ as in ‘our Co‑op’ can be powerful but use it with
-    caution. Is it clear who ‘our’ is? Will ‘our’ mean the same thing to your reader
-    as it does to you? It’s more suited to an internal audience.\n\n### Co-operative\nOnly
-    use ‘co-operative’ when talking about things like ‘the co-operative movement’
-    or ‘other co-operative societies’ and it should be lower case, unless it’s at
-    the start of a sentence.\n\n‘Co‑operative’ and ‘Co‑op’ are always hyphenated.
-    The only exception to this rule is on social media when using a hashtag such as
-    #TheCoopWay or #BeingCoop, or in a website address like coop.co.uk.\n \n### Co-operative
-    Banking Group\nNo longer part of Co-op.\n \n### Co-op branded\nNot ‘own-brand’.\n\n###
-    Co-op Commitment\n\n### Co-op committees \nThere are various committees made up
-    of members of the board. You can find out more about the committees on our website.
-    \n \nrisk and audit committee\nnominations committee\nremuneration committee\nscrutiny
-    committee\nnon-executive directors’ fees committee\n\n### Co-operative Group Limited\nThe
-    trading name of Co-op, use it only when you need to for legal reasons.\n \n###
-    co-operative movement\n \n### co-operative principles\n \n### co-operative societies\n
-    \n### other co-operatives\nnot ‘other co-ops’\n \n### Co-op National Members’
-    Council\nUse the full title where possible, but you can also refer to this as
-    ‘our Members’ Council’.\nYou can find out more about the Co-op National Members’
-    Council on our website.\n \n### Co-op Members’ Council terms\nAnnual General Meeting
-    (AGM)\nthe council senate\nthe council president\nmember nominated directors\nmembers’
-    motion (a proposal that is voted on by members at our AGM. Motions can be put
-    forward by our business, our members’ council or by individual members and some
-    motions are required by our Rules.)\nelections\nstand for election\n\n### Co-op
-    Young Members’ Group (CYMG)\nA group of 6 young members who work with Co-op on
-    specific projects to ensure that an authentic voice for young people is heard.
-    Use full title in the first instance. Can be shortened to ‘our Young Members’
-    Group’ or CYMG after that.\n\n### Contractions\nUse contractions like 'it's' and
-    'there's' to make your writing more informal and friendly - the way people tend
-    to speak.\n\nBut do not use negative contractions like 'don't' and 'won't', instead
-    use 'do not' and 'will not'. Research has shown that some users need the 'not'
-    to understand what's being said. You can find out more about problems with negative
-    contractions in Content Designer Jo Schofield’s blog post on Medium.\n\nDo not
-    force contractions if they look and feel odd. For example ‘they’ll’ and ‘there’ll’
-    are likely to slow people down.\n\n\n## [D](#d)\n \n### Date\nMonday 21 June 2018.\nUse
-    only as much description as needed - you do not need to include the year every
-    time if it’s obvious from context.\n\nIf you’re referring to date ranges, then
-    use ‘to’ rather than hyphens or dashes. It should look like this: January to March\n\nAvoid
-    all references to annual quarters. Instead, write the dates in full: ‘This offer
-    is valid between 1 October and 31 December 2018.’\n \n### Decades\nUse numerals
-    and write out decades in full, so 1970s not ‘70s.\n \n### dividend\n \n### Direct
-    Debit\n \n\n## [E](#e)\n \n### Eg\nDo not use. Not everyone understands what it
-    means. Say ‘for example’ instead.\n\nFor more information read this blog post
-    about the use of contractions like ‘eg’ on GOV.UK.\n\n### Ellipsis (...)\nEllipsis
-    are 3 dots that should only be used:\nwhen you’re quoting someone and need to
-    show words have been missed out — only do this if it will not change the meaning,
-    for example: “We’re building things that are user-centric… doing the hard work
-    centrally to make things clearer, simpler and quicker.”\nto indicate there’s more
-    to come, for example, in a header: ‘We asked our users to name a wine…’\n\n\nIf
-    you use an ellipsis, use 3 dots only. They should follow straight on after the
-    previous word (with no space), and have one space after.\n\nIf the ellipsis ends
-    the sentence, do not add an additional full stop.\n\nIf you’re putting an ellipsis
-    in html use the code &hellip so the dots do not break. (like this …)\n\n### Email\n\n###
-    Etc\nDo not use. Not everyone understands what it means. If you need to make it
-    clear there are more unspecified items at the end of a list, you can use “and
-    so on”.\n\n### Exclamation marks\nTry not to use them unless they’re essential
-    - they can look flippant and make your content lose impact when they’re over-used.
-    \n\nBy simply ending your sentence with a full stop instead, you’re allowing your
-    reader to focus on the message, rather than wonder whether your tone is insincere
-    or strident.\n \n\n## [F](#f)\n \n### Fairer Finance\n \n### Fairtrade\nUsed for
-    products or the Fairtrade initiative. For example: ‘We’re proud to support Fairtrade’
-    or ‘All our bagged sugar is Fairtrade’.\n \n### fair trade\nThe theory and practice
-    of fair trade, where producers in developing countries are paid a fair price for
-    the goods they supply to companies in developed countries.\n \n### Fair Trade\nUsed
-    for Co-op products that are certified by a credible fair trade organisation such
-    as Traidcraft, but where there is no FAIRTRADE Mark available. Currently this
-    applies to charcoal and rubber gloves.\n\n### FAIRTRADE Mark\nThe formal certification
-    on products which contain ingredients certified by the Fairtrade Labelling Organisation
-    (FLO).\n\n### Fairtrade Fortnight\nAn annual celebration of Fairtrade used as
-    a focus point for campaigners, businesses and the Fairtrade Foundation to educate
-    the wider public on the benefits of Fairtrade. For example “Join us in celebrating
-    Fairtrade Fortnight”.\n\n### FAQs\nDo not use FAQs.\n\nInstead, if you know that
-    you are answering a genuine frequently asked question, restructure your content
-    so that the answers form part of the main user journey. And put the information
-    in a logical place in that journey.\n\nWe do not use FAQs because:\n- users do
-    not know if their question has been frequently asked\n- they’re often made up
-    by the business rather than genuinely asked by the public\n- users have to navigate
-    through irrelevant content to see if their question is there, which is frustrating
-    and wastes their time\n- we should be creating services that speak for themselves:
-    we design with purpose\n\nFor more information read Content Strategist Tom Adams’
-    blog post on FAQs on the Co-op Digital blog.\n\n### Common food terms\naduki beans
-    (not Adzuki beans)\nalbumen\nalfresco\nallspice\narrabiata\nbaking tray, not baking
-    sheet\nbarbeque or BBQ, not barbie or barbecue\nbeers, wines and spirits (BWS)\nbirdseye
-    chillies, one word not Birds Eye\nbiryani\nblack forest, not Blackforest\nblackbean\nBritish\nbrussels
-    sprouts, not Brussel\nbulgar wheat\nbuttercream\ncanned food, never a tin of tuna
-    although tin is acceptable when describing a cake tin\ncannelloni, not Canelloni\ncardamom,
-    not Cardamon\nchar sui, not Char Siu\ncheese, capitalise where a place name or
-    trademarked. For example, Stilton, Comté, Cheddar, Gruyère, Parmesan, feta, halloumi,
-    goat’s cheese, mozzarella, Parmigiano-Reggiano\nchick pea or chick peas\nchilli,
-    or chillies\ncling film, not clingfilm and ‘non-PVC cling film’ is also acceptable\nclove
-    of garlic, not garlic clove\nchocolatey\nconfectionery, ends ‘ery’, the ‘ary’
-    spelling is for shops selling or making sweets\ncontactless\ncopra oil shall be
-    declared as Coconut Oil\ncordial, squash is preferred\ncornflour\ncottonseed\ncotton
-    wool balls\ncotton wool buds\ncotton wool pads\ncup cakes, 2 words\ncrème fraÎche\ncouscous\ndauphinoise\ndinner4tonight/dinner4tonight.com
-    \ndoughnut, not donuts except Dunkin’ Donuts\necigarette\néclair\neschallots shall
-    be declared as shallots\nevery day, means daily, as in open every day\neveryday,
-    is an adjective used to describe something as humdrum or normal, as in an everyday
-    rice, shoes for everyday wear\nFather’s day\nfat-reduced\ncocoa\nfish cake (two
-    words)\nflameproof\nfree range\ngreaseproof and baking paper or greaseproof paper,
-    not baking paper\nhabanero\nHanukkah\nhealth and baby when describing category
-    HBA\nhealth care\nhoisin, one word\nhomemade\nhosiery\nhoumous\ninstore, available
-    or activity taking place in a supermarket. For example, instore bakery, prepared
-    instore or instore banking\nin store, forthcoming/imminent/about to come as in
-    ‘what have you got in store for me today’\nice cream\nIrresistible, capitalised
-    when referring to Co-op Irresistible\njuice of ½ lemon, not juice ½ or ½ a lemon\nkiwi
-    fruit\nlemon grass\nLess v fewer. Less means smaller in quantity, for example
-    less money. Fewer means smaller in number, for example fewer coins\nlitre or l,
-    never Ltr\nmakeup, cosmetics\nmake up with someone\nManx or from the Isle of Man\nmargarita,
-    a cocktail\nmargherita a pizza variety\nmicrowaveable, not microwavable\nMother’s
-    day\nmozzarella\novenproof\nok, not O.K. or okay\nown brand, not own-brand or
-    own-label\npalm oil, never declare as Palm Kernel Oil\npart baked not part-baked
-    or partbaked\npanini\npanna cotta\npâté\npassata, declared as Sieved Tomato if
-    an ingredient\npassion fruit\npasteurised\nPeppadew\npetits pains\npetits pois\npilaf\npilau\npoppadum\nprosciutto\nProsecco\nProtected
-    Designation of Origin (PDO)\npurée\nqueue, avoid using this word where possible\nquiche
-    Lorraine\nradicchio (not Raddicchio, Radicchio)\nreduced-fat\nrapeseed\nrefrigerator\nrice
-    wine, not Sake\nrocket, not Roquette\nsausagemeat\nself raising flour\nself checkout,
-    not self scan or sco\nsemi-skimmed\nshiitake\nSzechuan, capital S, not Sichuan\nsmartphone\nsmoky,
-    not Smokey\nsoya bean\nsoya powder\nsoy sauce\nsquash is either a vegetable like
-    a butternut squash, or a concentrated liquid made from fruit juice and sugar,
-    which is diluted to make a drink. See Cordial.\nstationary means not moving, stationery
-    means writing materials\nstick celery not celery stick\nstir fry\nstonebaked\nsundried,
-    not sun-dried\nswiss roll\nteaspoonful or teaspoonsful\ntin, not used to described
-    food and drinks packaging. Use can or canned.\ntin foil, do not use, use either
-    baking aluminium or wrapping foil\nTricolor, for pasta\nTricolour, for flags\nvinaigrette,
-    not vinegarette\nwater chestnuts\nwheat protein, not wheat gluten\nWorcestershire
-    not Worcester\nyogurt\n \n### Common funeral terms\nashes\nbook of remembrance\nburial\ncortege,
-    or funeral procession\ncremation\ncrematorium\ndisperse, refers to ashes that
-    are to be scattered\nend of life planning\nembalming\neulogy\ngarden of remembrance\nheadstone\nhearse,
-    unless talking about ‘Land Rover hearse’\ninter or interment, refers to ashes
-    that are to be buried in a plot\nmemorial book\nmemorial cards\nmemorial headstone\nmemorial
-    masonry\nMemories, capitalise when referring to our Memories brochure or products\nnursing
-    home\nOnline Memorials, capitalise when referring to our services.\nOrder of Service\nProbate\nscatter
-    ashes\nScatter Tube\nthird party fees\nurn\nwoodland burial ground\n \n### funeral\nLower
-    case unless you’re writing about one of our products, such as:\nTraditional Funeral\nSimple
-    Funeral\nClassic Funeral\n \n### Funeral Director\nThis is an exception to the
-    rules around writing job titles, it should always be capitalised. \n \n### funeral
-    home\nLower case, but Co-op Funeralcare Funeral Home.\n \n### funeral plan\nLower
-    case unless you are using the title of a specific plan, such as:\nSimple Funeral
-    Plan\nBronze Funeral Plan\nSilver Funeral Plan\nGold Funeral Plan\nSet Cremation
-    Plan\nSet Burial Plan\nMemorial Masonry Plan\nTailor made Memorial Masonry Plan\n\n\n##
-    [G](#g)\n \n### Group Chief Executive\n \n## [H](#h)\n \n### Halloween\n\n###
-    high street\n \n### Hyphens\nHyphens (the character you get when you type ‘-’
-    ) are used to link words or part of words. They show the user that there’s a connection
-    between them, for example, ‘mother-in-law’, ‘fine-tuned’, ‘Co-op’.\n\nOnly use
-    a hyphen when it’s needed for clarity or is crucial to your meaning. Too many
-    hyphens can be distracting and confusing, especially when used incorrectly. The
-    exception is Co-op or co-operative, which are always hyphenated.\n\n\n## [I](#i)\n
-    \n### I.e.\nDo not use. Not everyone understands what it means, say ‘in other
-    words’. For more information read this blog about contractions like this on GOV.UK.\n\n###
-    Insurance terms\n#### no claim discount \nAlways sentence case but you can say
-    NCD after this, for example ‘Your no claim discount (NCD) is…’\n\n#### written-off
-    \nUse write off in the future tense, for example ‘We will write off your car if
-    it's too broken’ but ‘If your car's written-off by the garage…’\n\n#### HomeRescue
-    Plus\nA home insurance optional extra product which provides help in an emergency,
-    such as a boiler breakdown or if you’ve lost your keys. If you’re talking about
-    generic home emergency cover, say ‘home assistance’.\n\n#### life cover\nSometimes
-    called life insurance.\n\n#### The Royal London Group\nFor example, life cover
-    is offered through Co-op Insurance Services and is provided, underwritten and
-    administered by The Royal London Group.\n\n#### single-trip\nA type of insurance
-    cover for a specific trip, for example ‘single-trip insurance’.\n\n#### multi-trip\nTravel
-    insurance that covers you for more than one trip, for example ‘multi-trip insurance’.\n\n####
-    MAPFRE Asistencia\nFor example, ‘travel insurance is offered through Co-op Insurance
-    Services and underwritten by MAPFRE Asistencia’.\n\n#### multi-pet\nInsurance
-    that covers more than one pet.\n\n#### Allianz Insurance plc \nFor example pet
-    insurance is offered through Co‑op Insurance Services and underwritten by Allianz
-    Insurance plc.\n\n#### black box\nnot smartbox.\n\n#### safe driving discount\n\n####
-    Wunelli Ltd\nFor example, ‘Wunelli Ltd is an independent company who we have appointed
-    to supply and install the black box’.\n\n\n### internet\n \n### Common internal
-    terms\ncheckout area (you can say ‘kiosk’, ‘belted till’ or ‘assisted-serve till’
-    if it’s relevant)\ncolleague\ncolleague member\ncolleague website (coop.co.uk/colleagues)\ncustomer
-    care line\nDouble Discount\nFuel for Growth\nhandheld terminal (HHT)\nHow do I\nIn-store
-    bakery (ISB)\nLeaders’ Weekly Update\non-shelf advertising (not ‘point of sale’)\nshelf
-    edge label (SEL)\nstore (not ‘shop’)\nStronger Co-op, Stronger Communities, written
-    as ‘a stronger Co-op and stronger communities’ in a sentence\nsupport centre (not
-    ‘head office’)\ntill (not ‘checkout’)\nWays of Being Co-op\n#BeingCoop Awards\n
-    \n### intranet\n \n### independent co-operatives\n \n\n## [J](#j)\n \n### Job
-    titles\nCapitalised when talking about a specific person’s job role. For example,
-    Mary Smith, Content Designer. \n\nLower case when talking about a generic job
-    role. For example, a team leader or executive.\n\nFuneral Director is the exception
-    and is always capitalised. \n \n### Jargon\nUse plain English and avoid jargon
-    (specialist language) where possible. Your writing is easier to understand when
-    you use the words your audience uses.\n \nTry not to use:\n- Puns. If the reader
-    doesn’t recognise something is meant to be a pun it can be confusing\n- Slang.
-    It’s hard to understand, slang terms can be used differently across cultures and
-    regions, and all slang can quickly fall out of use\n\nOnly use jargon or specialist
-    terms if the reader might see or hear the term elsewhere, for example if it’s
-    widely used in a store or over the phone. Always give a definition when you first
-    use them. For example: ‘partners can choose to make near identical wills that
-    leave their estate to the other person (known as ‘mirror wills’)’.\n\n### Join
-    In \nJoin In is an opportunity for members to get involved with their Co-op and
-    influence decision-making. \n\nUse lower case when talking about members ‘joining
-    in’.\n\n\n## [L](#l)\n \n### Later life planning terms\nGeneric words like ‘my
-    plan’, ‘set plan’ or ‘tailor made plan’ should be lower case, unless they begin
-    the sentence or are used as a title.\n \nPlan names should be capitalised as they
-    are names of products, so ‘Simple Funeral Plan’ or ‘Gold Funeral Plan’.\n\n###
-    Links\nA link should be descriptive of the place it’s taking the user. Do not
-    use text such as ‘click here’, or anything that does not make sense when read
-    out of context — screen readers can read link text in isolation without the surrounding
-    content.\n\nLink text must:\n- tell the user where it’s taking them\n- be action
-    orientated, for example, ‘Choose an option’, ‘Find more information about the
-    discount’, ‘Discover…’\n- tell the user if they’re leaving our site, for example,
-    ‘For more information visit citizensadvice.org.uk’\n- use a full url if it’s clean
-    (no symbols), short and potentially easy to remember (max one / ) for example:
-    bbc.co.uk/sport,otherwise, if there’s a complex url, use a ‘word’ link\n- not
-    include a title tag, this accessibility feature is not used any more as it’s not
-    that helpful for visually impaired people\n\n\nWhen you are linking to another
-    page or an external site, think about your user‘s onward journey. If the page
-    you’re linking to opens in:\nthe same window, your user may lose their place in
-    the information flow\na different window, your user may find it difficult to navigate
-    back to your site\n\n\nUse this to consider how and where to position your links.\n\n\n###
-    Lists\n#### Bullet lists\nUse bullet points to break up a list of things. It’s
-    easier to read and understand.\n\nBullets must:\n- use a lead-in line\n- make
-    sense running on from the lead-in line\n- use lower case at the start of the bullet\n-
-    have only one sentence per bullet point, use commas, dashes or semicolons to expand
-    on an item\n\nBullets should not:\n- be paragraphs masquerading as a list for
-    a visual effect\n- use a full stop after the last bullet point\n- include ‘or’
-    or an ‘and’ after the bullets\n\nExample\nThe meeting agenda will be:\n- an overview
-    of the last month\n- a presentation\n- a special announcement\n\n\n#### Numbered
-    lists\nUse a numbered list for a logical sequence of things, like a series of
-    tasks that must be done in a certain order. They do not need a lead-in line and
-    should be complete sentences that start with a capital letter and end with a full
-    stop.\n\nExample\nHow to put your shoes on:\n- Put on socks.\n- Put on shoes.\n-
-    Tie laces.\n\n### local causes\n \n### Local Community Fund\n \n### local community\n\n###
-    log in\nPeople log in to websites, they do not log on.\nIf they can use a website
-    without logging in, say ‘visit the website’.\n \n \n## [M](#m)\n \n### Measurements\nsq
-    m, sq ft, cm, m, km\nAbbreviate measurements and use metric where possible.\nDo
-    not abbreviate imperial measurements, use ‘miles’ or ‘inches’ for example.\n \n###
-    membership\nUse a capital M when referencing Co-op Membership or Co-op Members,
-    but lowercase everywhere else.\n \n### Co-op Membership\nCo-op Membership card\nmembership\nmembership
-    card\nmembership card number\ntemporary card\nmembership number\nmembership account\nCo-op
-    Member\nmember\ncolleague member\npartner member\nshare of profits\nco-owner\n\n5%
-    back\n1% for your community\n1% for your local cause\n\n### Money\nUse the £ symbol,
-    for example £75.\n\nCurrencies are lower case.\n\nWrite out pence in full, so
-    ‘calls will cost 4 pence per minute from a landline’.\n\nDo not use decimals unless
-    pence are included, so £75.50 but not £75.00.\n\nCheck the advice about numbers
-    for amounts over 1,000.\n\n\n## [N](#n)\n \n### Numbers\nWrite out ‘one’ in full,
-    then use numerals for all other numbers. If a sentence starts with a number, you
-    should spell it out. For example, ‘Thirty-four sentences started with a number’.\n\nAbbreviate
-    millions and billions when you’re writing about money, so ‘£23m’ or ‘£4bn’.\n\nA
-    billion is a thousand million.\n \nWhen you’re not talking about money, spell
-    out millions and billions, so ‘2 billion people’.\n \nUse commas for numbers over
-    999, so 1,000 or 5,000,000.\n \nPlurals do not need apostrophes, so write ‘70s’
-    or ‘1,000s’ not ‘70’s’ or ‘1,000’s’.\n \nWrite fractions out in full, so ‘half’
-    or ‘three quarters’, except in recipes where you should use numbers such as ‘½
-    tsp’.\n\nWrite out first, second and so on.\nSpell out ‘first’ to ‘ninth’. After
-    that use 10th, 11th and so on.\nBut, write dates as 10 January 2017.\n \n### Phone
-    numbers\nUse the BT code and split numbers as follows 0161 123 4567. For London
-    numbers the split is 020 7123 4567.\n \nMobile numbers are split 07765 123 456.
-    You must include information about call charges and opening times if you mention
-    a mobile number.\n \n\n## [O](#o)\n \n### Oven temperatures\nListed as follows:\n180°C/fan
-    160°C/Gas 4\nNo need to convert to Fahrenheit, except on food packaging where
-    it can be shown if a supplier provides it.\n \n\n## [P](#p)\n \n### %\nUse % instead
-    of ‘percent’ or ‘per cent’, it’s easier to read and understand.\n \n### Pronouns\nWhen
-    talking about Co-op, use ‘we’ or ‘our’, and when talking to a member or customer,
-    use ‘you’ and ‘your’.\n\n### Property\nThe Property team is responsible for buying,
-    selling and looking after the Co-op’s 6,000 buildings across the UK. It’s not
-    called Estates or Estates Services any more. \n\n### Common property terms\nCommercial
-    property\nFor trading businesses like food stores, funeral homes, depots and offices.\n\n###
-    Residential property\nWhere people live, like flats and houses.\n\n### Facilities
-    Management (FM)\nThink about shortening this to ‘facilities’ if it’s what someone
-    would say in natural speech.\n\n### National Operations Centre (NOC)\nThe outsourced
-    call centre that handles all facilities management enquiries. Think about saying
-    ‘call facilities’ for clarity.\n\n### Protected designation of origin (PDO)\nThe
-    official names of certain products are protected and they must be capitalised
-    in the correct way. For example Melton Mowbray pork pies and Cornish pasties.\n
-    \n \n## [R](#r)\n \n### Rochdale Pioneers\n \n### Royal London\nWe put all of
-    the money from each funeral plan into an individual whole of life insurance policy
-    with Royal London. When we say Royal London, this is The Royal London Mutual Insurance
-    Society Limited.\n \n\n## [S](#s)\n \n### seasons\nDo not capitalise winter, spring,
-    summer or autumn.\n\n### serving suggestion\n\n### Slashes /\nDo not use forward
-    slashes except in web addresses. They make content harder to read. Use ‘or’ instead.\n
-    \n### Staff\nWe do not call people who work at Co-op ‘staff’. Internally, we use
-    ‘colleague’ and if we’re talking to customers we use ‘team member’ or ‘member
-    of our team’.\n\n### Stores\nCall the places where we sell our products ‘stores’,
-    not ‘shops’.\n\n\n## [T](#t)\n \n### Time\nUse the 12 hour clock, so ‘9am to 5pm’.
-    If you need to include the minutes, write ‘9.15am’.\n \nUse ‘midday’ rather than
-    noon, 12noon or 12pm. Use ‘midnight’ and not ‘12am’. But be careful that it’s
-    not misleading. \n\nFor example, if you said:\n‘Please complete and send your
-    application form by 6 July 2018, at midnight’\n\nThen your user might wonder if
-    you meant ‘ 6 July 2018, 11.59pm’ or ‘5 July 2018, 11.59pm’\n\nTo avoid this confusion,
-    consider using ‘11.59pm’ where possible.\n\nIt’s not necessary to specify time
-    zones, such as ‘1pm GMT’.\n\n\n### Titles\nTitles of pages and sub-headers should:\nbe
-    sentence case\nbe unique, clear and descriptive \nbe front-loaded with key words
-    if possible — people tend to scan the first couple of words only\nuse words you
-    know your users actually use\nbe active where possible, ‘Apply for…’, ‘Report…’,
-    ‘Find…’\nnot use acronyms unless they are well-known, like EU or BBC\n \n \n##
-    [W](#w)\n \n### Watchout words\nWhen describing food, avoid the following words
-    and phrases, unless you can qualify them:\nCraft\nFarm fresh\nNew (unless the
-    product really is new)\nNatural\nHealthy/Healthier\nHomegrown\nLocal (can be used
-    if the product is made within 30 miles)\nLower price (unless you have a higher
-    price for comparison)\nReduced fat\nWholesome\nAuthentic\nHand made\nOriginal\nFresh\nTraditional\n
-    \n### Websites\nDo not use the prefix ‘http://www.’ when writing a website address.
-    For example, write coop.co.uk\n \n### Will/will\nCapitalise when talking about
-    a specific product, lower case when speaking generally about wills.\n \n\n\n\n\n\n\n\n"
-- sys:
-    id: W8GjmmJyakgA0kQc2YqUg
-    created_at: !ruby/object:DateTime 2018-12-05 09:36:10.221000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-16 11:37:52.692000000 Z
-    content_type_id: page
-    revision: 4
-  title: User research principles
-  status: live
-  introduction: |-
-    We identify user needs and motivations, enabling teams to validate product decisions and design better products and services.
-
-    By designing services which meet the needs and motivations of users, we deliver better value to the Co-op business, its colleagues, members, and customers.
-  in_page_navigation:
-  - sys:
-      id: 3EKBobQkJWWWQMMYgqce0y
-      created_at: !ruby/object:DateTime 2018-12-05 09:36:26.116000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-05 09:44:53.650000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 4
-    url_text: focus on what users do, not what they say they’d do
-    section_id: focus-on-what-users-do-not-what-they-say-theyd-do
-  - sys:
-      id: 5oRnDSsj28qge0GKICCOcg
-      created_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-05 10:39:34.628000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Do a little, often
-    section_id: do-a-little-often
-  - sys:
-      id: 8P8pStonSMyoYKygC4wWs
-      created_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-05 11:19:29.920000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Give teams the evidence to make better decisions
-    section_id: give-teams-the-evidence-to-make-better-decisions
-  - sys:
-      id: 3FpopuEryMImcWCgSqGEg2
-      created_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-05 11:19:59.880000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Involve everyone in research
-    section_id: involve-everyone-in-research
-  - sys:
-      id: 3c6JuSqlGMWu4GWQWOgKko
-      created_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-05 11:20:53.975000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Promote accessibility for all through good usability
-    section_id: promote-accessibility-for-all-through-good-usability
-  - sys:
-      id: CPhH3gdGj6WIUyYO8ESMC
-      created_at: !ruby/object:DateTime 2018-12-05 11:29:09.785000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-05 11:29:09.785000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Undertake the best research we can in any given situation
-    section_id: undertake-the-best-research-we-can-in-any-given-situation
-  - sys:
-      id: 3HstEyKxAskIwcmIyEmEcq
-      created_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-05 11:29:35.707000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Respect the privacy and integrity of the user
-    section_id: respect-the-privacy-and-integrity-of-the-user
-  content: |+
-    ## [Focus on what users do, not what they say they’d do](#focus)
-
-    Observing users’ behaviour is the best indicator of what they will do in the future, and the gateway to understanding needs and motivations.
-
-    We do:
-    - Create realistic situations and scenarios for users to interact with
-    - Observe behaviour
-    - Get out of the building, to where our users are
-    - Document how users behave in response to something, or in a particular situation
-    - Analyse how users do things (their tasks, jobs, and processes) to understand why users do what they do
-
-    We don't:
-    - Ask users if they like something - that’s not a way to understand if it is useful or valuable to them
-    - Take what users say at face value
-
-
-    ## Do a little, often
-    Frequent research with users enables the team to iterate on a product and validate product decisions regularly, which can help promote a user centred culture.
-
-    We do:
-    - research with users (such as interviews, observations, usability tests, surveys) once per sprint
-    - research enough to give the team confidence in their decisions
-    - look ahead to the next sprint and research questions that will help them make product decisions
-
-    We don't:
-    - accept ‘it tested ok’ to be the end of iteration and improvement
-    - prioritise fieldwork over time to synthesise and analyse
-
-
-    ## Give teams the evidence to make better decisions
-    We research and test the team's assumptions so that decisions are based on evidence rather than guesses.
-
-    We do:
-    - draw meaningful insight from research findings (drawing on other contexts and concepts)
-    - use hypothesis-driven approaches to testing
-    - critique our findings
-    - focus on the critical questions for the team, in their sprint goals
-    - accept sometimes we might get it wrong
-
-    We don't:
-    - present our assumptions as insights from user behaviour
-    - keep research findings to ourselves
-    - use research to validate our own opinions or those of our senior stakeholders
-    - do research without clear, actionable goal(s)
-
-
-    ## Involve everyone in research
-    Giving teams and stakeholders opportunities to meet users in real situations, and see research is the best way to promote empathy and understanding of users needs.
-
-    We do:
-    - discuss research plans as a team
-    - invite everybody to observe or take part in research
-    - encourage all team members to take part in observing research, and synthesising findings
-    - answer research related questions from the team
-    - facilitate shared understanding of the key learnings from user research
-    - comment and challenge
-
-    We don't:
-    - work independently of the team’s needs
-    - dictate the research plan or questions
-    - use research to prove our own methods or assumptions are right
-
-
-    ## Promote accessibility for all through good usability
-    We champion making products and services that are usable across the spectrum of accessibility needs, because that means people can use what we’re building, and because it makes business sense.
-
-    We do:
-    - actively recruit people who face access challenges
-    - advocate for consideration in service design for people who face barriers
-    - provide a secure and comfortable environment for them
-
-    We don't:
-    - take the path of least resistance to recruitment
-    - assume ‘it’ll work for everyone’
-    - assume what support a participant may require (for example, we don’t assume a deaf person signs)
-
-
-    ## Represent users faithfully
-    We speak truth to power and if users’ needs are not being met, we say so. This keeps the product teams and the business honest.
-
-    We do:
-    - speak openly and honestly (and politely), no matter who we’re talking to
-    - work to minimise bias
-    - use quotes, audio and video (anonymously) so the voice of the user is as direct as possible
-    - communicate the user voice as effectively as possible for stakeholders
-    - fact check
-
-    We don't:
-    - skew or filter quotes or findings
-    - only hear what we want to
-    - name users specifically
-
-
-    ## Undertake the best research we can in any given situation
-    Sometimes we can't do user research as we would like. In this instance doing some is better than not doing any.
-
-    We do:
-    - provide support and advice to help teams designing products and services
-    - compromise, in order to achieve an outcome that is better than what exists
-    - look to evidence the benefits of user research through action, not just words
-    - adapt to the limitations of the situation or method
-    - caveat the limitations of our research
-
-    We don't:
-    - refuse to do research because the conditions aren’t as we would like
-    - downplay the findings or insights if we have confidence in them
-    - put the safety of user researchers or participants at risk
-    - continue to undertake research if the insights are not valued by the team
-
-
-    ## Respect the privacy and integrity of the user
-    Our ability to perform our role depends on the trust we have with participants.
-
-    We do:
-    - only work with users when we have their informed consent
-    - make sure people understand the purpose of the research
-    - reward people for their time with an appropriate incentive
-    - work to make the participant feel comfortable, safe and secure
-    - bear in mind the power dynamic between the researcher and the participant
-    - remove all non-anonymised raw data after the end of a project life (or, no later than 12 months after collection)
-
-    We don't:
-    - share participants’ personal data with anyone
-    - share any information that could identify people in the public realm
-    - judge participants, their answers or views
-    - report back on their performance to their teams or bosses
-
-- sys:
     id: 6pZ7nCcL9mQoE0SEO8QW6
     created_at: !ruby/object:DateTime 2018-12-05 11:37:14.380000000 Z
     updated_at: !ruby/object:DateTime 2018-12-05 11:37:14.380000000 Z
@@ -2311,448 +2476,7 @@ page:
     Our content principles are in Alpha. That means we're working on them, but we're not ready to share them yet. This page is here because we intend to publish them at a later date.
 
     You can read our [content design style guide here](https://coop-design-system.herokuapp.com/content.html).
-- sys:
-    id: r2Zw1EZmLRt9NCpAHYwlH
-    created_at: !ruby/object:DateTime 2019-05-10 09:50:57.732000000 Z
-    updated_at: !ruby/object:DateTime 2019-05-10 10:26:38.067000000 Z
-    content_type_id: page
-    revision: 10
-  title: Getting started
-  introduction: Use our guides to get set up with our design files, prototyping kit
-    and front-end code.
-  in_page_navigation:
-  - sys:
-      id: 1k9n7SkR0CVLzeUTeMxEH0
-      created_at: !ruby/object:DateTime 2019-05-10 09:56:39.455000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-10 10:01:44.708000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 2
-    url_text: Design
-    section_id: design
-  - sys:
-      id: 5xfqW6lMbO5YKJKvucApSS
-      created_at: !ruby/object:DateTime 2019-05-10 09:58:57.594000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-10 09:58:57.594000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Prototyping
-    section_id: prototyping
-  - sys:
-      id: 2VZK1LY9APPkez2Ji7dk5V
-      created_at: !ruby/object:DateTime 2019-05-10 09:59:09.386000000 Z
-      updated_at: !ruby/object:DateTime 2019-05-10 10:01:34.011000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 2
-    url_text: Front-end
-    section_id: front-end
-  content: "## [Design](#design)\nAll the design <a href=\"https://coop-design-system.herokuapp.com/pattern-library/\">foundations
-    and components</a> are available as <a href=\"https://www.sketch.com/\">Sketch</a>
-    symbols you can use in your service. \n\n<p>We use <a href=\"https://www.abstract.com/\">Abstract</a>
-    to distribute and collaborate on our design files.</p> You should get set up with
-    this when you start.\n\n<p>For access email <a href=\"mailto:design@coopdigital.co.uk\">design@coopdigital.co.uk</a>.</p>\n\n\n##
-    [Prototyping](#prototyping)\nOur prototyping kit comes with 2 main options. A
-    <a href=\"https://parceljs.org/\">parcel.js</a> installation with zero configuration
-    and all the <a href=\"https://coop-design-system.herokuapp.com/pattern-library/\">foundations
-    and components</a> as code snippets to allow you to build a prototype, publish
-    it to the internet and learn quickly.\n\nWe also offer a webpack version for more
-    advanced users that can be customised more easily for your needs.\n\nWe have created
-    a series of video guides (for Parcel.js) to get you up and running quickly.\n\n###
-    1. Installing the prototyping kit\n<style>.embed-container { position: relative;
-    padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom:
-    32px; } .embed-container iframe, .embed-container object, .embed-container embed
-    { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div
-    class='embed-container'><iframe src='https://www.youtube.com/embed/kRl0Nx66bcw'
-    frameborder='0' allowfullscreen></iframe></div>\n\n### 2. Creating a basic page\nComing
-    soon.\n\n### 3. Publishing to the internet and password protecting\nComing soon.\n\n##
-    [Front-end](#front-end)\nFor a deeper dive into the code resources we offer visit
-    the <a href=\"https://parceljs.org/\">code resources page</a>.\n"
-- sys:
-    id: 3YTlC0pezKMGMsSEq4gkAu
-    created_at: !ruby/object:DateTime 2018-10-23 13:26:32.454000000 Z
-    updated_at: !ruby/object:DateTime 2019-04-26 07:57:44.678000000 Z
-    content_type_id: page
-    revision: 27
-  title: Content design style guide
-  status: live
-  introduction: |-
-    We write content for the user, not for us.
-
-    So, we design content to give users what they need:
-
-    - only when they need it
-    - as simply and quickly as possible
-    - using words they understand
-    - in a consistent way
-
-    We design in context.
-
-    Designing content that puts our users first makes it easier and faster for them to use our services, encourages them to interact with us again and builds trust in what we’re saying.
-  in_page_navigation:
-  - sys:
-      id: 6Cp3eqqWBykQ8GW0oAUyKA
-      created_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-24 10:04:37.636000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Asking for names
-    section_id: asking-for-names
-  - sys:
-      id: 2qVPoLl9JGWo0WuIO4qkuw
-      created_at: !ruby/object:DateTime 2018-10-24 14:44:15.284000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:31:14.240000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 2
-    url_text: Brackets ('parentheses')
-    section_id: brackets-parentheses
-  - sys:
-      id: 1aBqmIklgQgaAgGeuGuoeS
-      created_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 17:55:09.689000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Using Co-op
-    section_id: using-co-op
-  - sys:
-      id: 1UKVpYiwYgemQCQ2QIaSOu
-      created_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 17:57:02.181000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Dates and times
-    section_id: dates-and-times
-  - sys:
-      id: 2DWYd6Fp4wCkCMyO4owk20
-      created_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 17:59:16.398000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Colons and semicolons
-    section_id: colons-and-semicolons
-  - sys:
-      id: 3bLHyid7T2iq2QIyMEQ2e
-      created_at: !ruby/object:DateTime 2018-10-25 18:01:06.970000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-15 19:13:37.126000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 3
-    url_text: Ellipsis
-    section_id: ellipsis
-  - sys:
-      id: 3ampSbV0IEOa0gcgaYyioy
-      created_at: !ruby/object:DateTime 2018-10-25 18:05:43.919000000 Z
-      updated_at: !ruby/object:DateTime 2018-11-15 19:01:52.723000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 2
-    url_text: Frequently asked questions (FAQs)
-    section_id: frequently-asked-questions-faqs
-  - sys:
-      id: jFui2S5j2w6aWO4wW6cCE
-      created_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:07:53.137000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Hyphens and dashes
-    section_id: hyphens-and-dashes
-  - sys:
-      id: 18UiYd1uoO4sqEgqew0M0u
-      created_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:10:10.008000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Job titles
-    section_id: job-titles
-  - sys:
-      id: 5JYkC4T3JSK6mkQqQYQa8C
-      created_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:12:49.613000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Links
-    section_id: links
-  - sys:
-      id: 1ArPAloWisyIEQS88WQyaE
-      created_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:13:34.696000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Lists
-    section_id: lists
-  - sys:
-      id: 5Vre0BzSViue2WW2qq2uOG
-      created_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:16:22.043000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Money
-    section_id: money
-  - sys:
-      id: 5jvVTmFwDm0Y4Yci2m4Ykw
-      created_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:17:55.061000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Numbers and units
-    section_id: numbers-and-units
-  - sys:
-      id: 16UHPg7SlSoG68kk0qOcmG
-      created_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:19:19.309000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Dates and times
-    section_id: dates-and-times
-  - sys:
-      id: 3ixUqdVh1YcokouyKq0GgY
-      created_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:20:11.808000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Phone numbers
-    section_id: phone-numbers
-  - sys:
-      id: 4ISHoIB6b62Q0yAIwuYWOu
-      created_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:21:37.158000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Titles
-    section_id: titles
-  - sys:
-      id: 2BqtPMQpQwQomuMM62QeGY
-      created_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-25 18:22:33.525000000 Z
-      content_type_id: inPageNavigationLink
-      revision: 1
-    url_text: Validation messages
-    section_id: validation-messages
-  content: "## [Asking for names](#asking-for-names)\n\nOnly ask for someone's name
-    if it's essential: design with purpose.\n\nIf it is, and you can justify the reason
-    you're asking:\n\n- ask for a ‘Full name’ in one field\n- make no assumptions
-    about how the user wants to be addressed — ask them\n- make it explicit whose
-    name we’re asking for — include who the other person is if you’re capturing multiple
-    names in one form, for example, ‘Your child’s full name’\n- give an accurate instruction
-    if the name needs to be written as it appears on another document, [for example,
-    ‘Copy the name from your passport’\n\n<div class=\"row\">\n  <div class=\"column
-    large-8\">\n    <h3 class=\"example-heading\"><span class=\"example_label\">Example</span></h3>\n
-    \   <div class=\"example example--padded\">\n      <div class=\"form-row\">\n
-    \       <label for=\"full-name\">Full name</label>\n        <input id=\"full-name\"
-    type=\"text\">\n      </div>\n      <div class=\"form-row\">\n        <label for=\"childs-full-name\">Your
-    child’s full name</label>\n        <input id=\"childs-full-name\" type=\"text\">\n
-    \     </div>\n    </div>\n  </div>\n</div>\n\nIf you you have to capture name
-    in separate fields, perhaps because of a legacy system, use:\n\n- ‘First name
-    or names’, ‘Middle name’ (if necessary) and ‘Last name’\n- a free text box if
-    you have to ask for title\n\n<div class=\"row\">\n  <div class=\"column large-12\">\n
-    \   <h3 class=\"example-heading\"><span class=\"example_label\">Example</span></h3>\n
-    \   <div class=\"example example--padded\">\n      <div class=\"row\">\n        <div
-    class=\"column large-2\">\n          <div class=\"form-row\">\n            <label
-    for=\"title\">Title</label>\n            <input id=\"title\" type=\"text\">\n
-    \         </div>\n        </div>\n        <div class=\"column large-5\">\n          <div
-    class=\"form-row\">\n            <label for=\"first-name\">First name or names</label>\n
-    \           <input id=\"first-name\" type=\"text\">\n          </div>\n        </div>\n
-    \       <div class=\"column large-5\">\n          <div class=\"form-row\">\n            <label
-    for=\"last-name\">Last name</label>\n            <input id=\"last-name\" type=\"text\">\n
-    \         </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n##
-    [Brackets ('parentheses')](#brackets) \n### Round brackets\nUse round brackets
-    to:\n\n- clarify an acronym or technical term that you’ll use from that point
-    onwards, for example: ‘Customer team member (CTM)’, or ‘the people you want to
-    sort out your will (known as 'executors')'\n- include supplementary information
-    that’s not essential to the main point of your sentence – information that, if
-    removed, would not change the meaning of the sentence\n\nDo not use round brackets
-    to indicate that something can be singular or plural, like:\n\n‘Check which document(s)
-    you need to send to HR’\n\nInstead, use the plural, as this will cover each possibility:
-    ‘Check which documents you need to send to HR .’\n\n(A complete sentence that
-    stands alone in parentheses starts with a capital letter and ends with a full
-    stop before the closing bracket.)'\n\nTry not to overuse brackets, they can disrupt
-    the flow of reading.\n\n### Square brackets\nOnly use square brackets to when
-    you need to add clarification to a quote or something you've not written yourself,
-    like:\n\n\"It [content] deserves our full time and attention\".\n\n## [Using Co-op](#using-co-op)
-    \nRefer to Co‑op as a noun in writing as ‘Co‑op’, and not (where possible/practical)
-    as ‘the Co‑op’.\n\nWe know that users tend to refer to our food stores as ‘the
-    Co‑op’, so dropping the ‘the’ avoids any confusion.\n\nMake sure you use a non-breaking
-    hyphen using &#8209;. This will ensure the word ‘Co‑op’ does not break when it
-    appears at the end of a line.\n\nRefer to our business units as Co‑op Funeralcare,
-    Co‑op Digital etc. (Two words, both capitalised.)\n\nWhen we're talking about
-    our organisation in terms of what we do, it's fine to use Co‑op as an adjective,
-    as in 'Co‑op values'.\n\nNo need to capitalise 'Co‑operative' when it appears
-    as an adjective or a noun unless you are referring to the Co‑operative Group.\n\nHowever,
-    do not talk about 'the Group' to an external audience. It doesn't mean anything
-    to anyone outside Co‑op.\n\nUsing 'our' as in 'our Co‑op' can be powerful but
-    use with caution - is it clear who 'our' is? Will 'our' mean the same thing to
-    your reader as it does to you? It’s more suited to an internal audience.\n\n'Co‑operative'
-    and ‘Co‑op’ are always hyphenated.\n\nThe only exception to this rule is on social
-    media when using a hashtag such as #TheCoopWay or #BeingCoop.\n\n## [Dates and
-    times](#dates-and-times)\nThe following guidance on dates and times is taken from
-    gov.uk:\n\n### Dates\nAs a general rule, dates should be capitalised and written
-    out in full like this:\n\n‘1 January 2018’\n\nBut if you’re limited with space,
-    such as creating a table, then ‘Jan’, ‘Feb’ and so on is fine.\n\nDon't use ordinal
-    numbers for dates like 10th, 1st and so on. It's easy to get wrong and uses more
-    characters.\n\nIf you’re referring to date ranges, then use ‘to’ rather than hyphens,
-    en rules or em dashes.\n\nIt should look like this: January to March\n\nAvoid
-    all references to annual quarters. Instead, write the dates in full:\n\n‘This
-    offer is valid between 1 October 2018 and 31 December 2018.’\n\n### Times\nUse
-    the 12 hour clock. It’s easier to understand and helps avoids confusion:\n\n‘Monday
-    to Friday, 9am to 5pm.’\n\nIf you need to include minutes, write it like this:\n\n‘9.15am’\n\nUse
-    ‘midday’ rather than noon, 12noon, or 12pm.\n\nFor example: ‘This store closes
-    24 December, midday.’\n\nUse ‘midnight’ rather 12am, but be careful that it’s
-    not misleading. For example, if I said:\n\n‘Please complete and send your application
-    form by 6 July 2018, at midnight’\n\nThen you might wonder if I meant ‘ 6 July
-    2018, 11.59pm’ or ‘5 July 2018, 11.59pm’\n\nTo avoid this confusion, consider
-    using ‘11.59pm’ where possible.\n\nIt’s not necessary to specify time zones, such
-    as ‘1pm GMT’.\n\n## [Colons and semicolons](#colons-and-semicolons)\nUse a colon
-    at the end of a lead-in line to a bulleted list, for example:\n\nYou need to bring:\n\n-
-    your driving licence or passport\n- a copy of your P60\n- something else\n\nIf
-    you use a colon to continue or explain an idea that you mention before the colon,
-    consider whether it would be better to have 2 sentences or an em dash.\n\nAvoid
-    using semicolons — they can make sentences long and hard-to-read. If you think
-    a sentence needs a semicolon, break it into separate sentences.\n\n## [Ellipsis](#ellipsis)\n\nEllipsis
-    are 3 dots that should only be used when:\n\n- you’re quoting someone and need
-    to show words have been missed out — only do this is the meaning will not be changed,
-    for example: “We're building things that are user-centric… doing the hard work
-    centrally to make things clearer, simpler and quicker.\"\n- to indicate there's
-    more to come, for example, in a header: 'We asked our users to name a wine…’\n\nIf
-    you use ellipsis, use 3 dots only. They should follow straight on after the previous
-    word (with no space), and have one space after.\n\nIf the ellipsis ends the sentence,
-    do not add an additional full stop.\n\nIf you’re putting an ellipsis in html use
-    &hellip;.\n\n\n## [Frequently asked questions (FAQs)](#faqs)\n\nDo not use FAQs.\n\nInstead,
-    if you know that you are answering a genuine frequently asked question, restructure
-    your content so that the answers form part of the main user journey. And put the
-    information in a logical place in that journey.\n\nWe do not use FAQs because:\n\n-
-    users do not know if their question has been frequently asked\n- they're often
-    made up by the business rather than genuinely asked by the public\n- users have
-    to navigate through irrelevant content to see if their question is there — it’s
-    frustrating and wastes their time\n- we should be creating services that speak
-    for themselves: [we design with purpose](https://coop-design-manual.herokuapp.com/principles.html#purpose)\n\nFor
-    more information read [Content Strategist Sarah Richards' blog on FAQs](https://gds.blog.gov.uk/2013/07/25/faqs-why-we-dont-have-them/).\n\n##
-    [Hyphens and dashes](hyphens-and-dashes)\n\nWhat you’re writing will determine
-    where and when you should use hyphens and dashes.\n\nHyphens (the character you
-    get when you type ‘-’ ) should be used to link words or part of words — they show
-    the user that there’s a connection between them, for example, ‘mother-in-law’,
-    ‘fine-tuned’, ‘Co‑op’.\n\nEn dashes (&ndash;) should be used for connecting things
-    that are related to each other by distance such as June–July.\n\nEm dashes (&mdash;)
-    can be used in pairs like parenthesis — that is, to enclose a word, or a phrase
-    — or they can be used alone to detach one end of a sentence from the main body.\n\n##
-    [Job titles](job-titles)\nShould only be capitalised when associated with a name
-    - otherwise lower case.\n\nFor example: Chief Executive Mary Smith, a boatload
-    of chief executives.\n\n## [Links](links)\n\nA link should be descriptive of the
-    place it's taking the user. Do not use text such as ‘click here’, or anything
-    that does not make sense when read out of context — screen readers can read link
-    text in isolation without the surrounding content.\n\nLink text must:\n\n- tell
-    the user where it’s taking them\n- be action orientated, for example, ‘Choose…’,
-    ‘Find…’, ‘Discover…’\n- not include a title tag — this accessibility feature is
-    not used any more as it’s not that helpful for visually impaired people\n- tell
-    the user if they’re leaving our site, for example, ‘For more information visit
-    [www.citizensadvice.org.uk](https://www.citizensadvice.org.uk)’\n- use a full
-    url if it’s clean (no symbols), short and potentially easy to remember (max one
-    / ) for example: [bbc.co.uk/sport](https://bbc.co.uk/sport) — otherwise, if there’s
-    a complex url, use a ‘word’ link\n\nWhen you are linking to another page or an
-    external site, think about your user‘s onward journey. If the page you’re linking
-    to opens in:\n\n- the same window, your user may lose their place in the information
-    flow\n- a different window, your user may find it difficult to navigate back to
-    your site\n- Use this to consider how and where to position your links.\n\n##
-    [Lists](lists)\n### Bullet lists\n\nBullets must:\n\n- use a lead-in line\n- make
-    sense running on from the lead-in line\n- use lower case at the start of the bullet\n-
-    have only one sentence per bullet point — use commas, dashes or semicolons to
-    expand on an item\n\nBullets should not:\n\n- be paragraphs masquerading as a
-    list for a visual effect\n- use a full stop after the last bullet point\n- include
-    ‘or’ or an ‘and’ after the bullets\n\n<div class=\"row\">\n  <div class=\"column
-    medium-7 small-12\">\n    <h3 class=\"example-heading\"><span class=\"example_label\">Example</span></h3>\n
-    \   <div class=\"example example--padded\">\n      <h4>The meeting agenda will
-    be:</h4>\n      <ul>\n        <li>an overview of the last month</li>\n        <li>a
-    presentation</li>\n        <li>a special announcement</li>\n      </ul>\n    </div>\n
-    \ </div>\n</div>\n\n\n### Numbered lists\n\nUse a numbered list for a logical
-    sequence of things, like a series of tasks that must be done in a certain order.
-    They do not need a lead-in line and should be complete sentences that start with
-    a capital letter and end with a full stop.\n\n<div class=\"row\">\n  <div class=\"column
-    medium-7 small-12\">\n    <h3 class=\"example-heading\"><span class=\"example_label\">Example</span></h3>\n
-    \   <div class=\"example example--padded\">\n      <h4>How to put your shoes on:</h4>\n
-    \     <ol>\n        <li>Put on socks.</li>\n        <li>Put on shoes.</li>\n        <li>Tie
-    laces.</li>\n      </ol>\n    </div>\n  </div>\n</div>\n\n## [Money](money)\n\nUse
-    the £ symbol: £75\n\nCurrencies are lower case.\n\nWrite out pence in full: calls
-    will cost 4 pence per minute from a landline.\n\nDon’t use decimals unless pence
-    are included: £75.50 but not £75.00\n\nCheck the advice about numbers and units
-    for amounts over 1,000.\n\n## [Numbers and units](numbers-and-units)\n\nUse ‘one’
-    unless you’re talking about a step, a point in a list or another situation where
-    using the numeral makes more sense.\n\nWrite all numbers in numerals (including
-    2 to 9) except where it’s part of a common expression and it would look strange,
-    like ‘one or two of them’.\n\nIf a number starts a sentence, write it out in full
-    (‘Thirty-four hula-hoops found in researcher’s filing cupboard’) except where
-    it starts a title or subheading.\n\nFor numerals over 999, insert a comma for
-    clarity. For example, ‘It was over 1,000’.\n\nSpell out common fractions, such
-    as one-half.\n\nUse a % sign for percentages: 50%, not ‘pc’ or ‘percent’.\n\nUse
-    a 0 where there’s no digit before the decimal point.\n\nIn tables, use numerals
-    throughout (not written numbers).\n\nFor big numbers use ‘million’, ‘billion’
-    and so on, written without a space after the number — for example, £3.5million.\n\n###
-    Ordinal numbers: first, second and so on\n\nSpell out 'first' to 'ninth'. After
-    that use 10th, 11th and so on.\n\nBut, write dates as 10 January 2017.\n\n###
-    Units\n\nUse MB not KB for anything over 1MB, for example 4.09MB not 4096KB.\n\nFor
-    anything under 1MB, use KB, for example, 569KB not 0.55MB.\n\nKeep units as accurate
-    as possible and up to 2 decimal places. For example, 4.03MB.\n\n## [Dates and
-    times](dates-and-times)\nThe following guidance on dates and times is taken from
-    gov.uk:\n\n### Dates\n\nAs a general rule, dates should be capitalised and written
-    out in full like this:\n\n‘1 January 2018’\n\nBut if you’re limited with space,
-    such as creating a table, then ‘Jan’, ‘Feb’ and so on is fine.\n\nDon't use ordinal
-    numbers for dates like 10th, 1st and so on. It's easy to get wrong and uses more
-    characters.\n\nIf you’re referring to date ranges, then use ‘to’ rather than hyphens,
-    en rules or em dashes.\n\nIt should look like this: January to March\n\nAvoid
-    all references to annual quarters. Instead, write the dates in full:\n\n‘This
-    offer is valid between 1 October 2018 and 31 December 2018.’\n\n### Times\n\nUse
-    the 12 hour clock. It’s easier to understand and helps avoids confusion:\n\n‘Monday
-    to Friday, 9am to 5pm.’\n\nIf you need to include minutes, write it like this:\n\n‘9.15am’\n\nUse
-    ‘midday’ rather than noon, 12noon, or 12pm.\n\nFor example: ‘This store closes
-    24 December, midday.’\n\nUse ‘midnight’ rather than 12am, but be careful that
-    it’s not misleading. For example, if I said:\n\n‘Please complete and send your
-    application form by 6 July 2018, at midnight’\n\nThen you might wonder if I meant
-    ‘ 6 July 2018, 11.59pm’ or ‘5 July 2018, 11.59pm’\n\nTo avoid this confusion,
-    consider using ‘11.59pm’ where possible.\n\nIt’s not necessary to specify time
-    zones, such as ‘1pm GMT’.\n\n## [Phone numbers](phone-numbers)\n\nShow a mobile
-    phone number like this: 08765 555 333.\n\nShow a UK landline number like this:
-    0161 000 0000 or 01524 000 000.\n\nShow an overseas number as you'd dial it from
-    the UK, so no + or (0): 00 353 1 222 3333.\n\nRemember:\n- include call charges\n-
-    include opening hours\n- make sure phone numbers are usable from mobiles\n\n##
-    [Titles](titles)\n\nTitles should:\n- be sentence case\n- be less than 65 characters
-    within HTML document titles — Google cuts them off after this\n- be unique, clear
-    and descriptive — no puns or single topic words\n- be front-loaded with key words
-    if possible — people tend to scan the first couple of words only\n- use words
-    you know your users actually search for\n- be active where possible, ‘Apply for…’,
-    ‘Report…’, ‘Find…’\n- not use acronyms unless they are well-known, like EU, BBC.\n\n##
-    [Validation messages](validation-messages)\n\nValidation messages must:\n\n- be
-    flagged at the top of the screen and at each relevant field\n- be a bulleted list
-    if there’s more than one error\n- be a complete sentence if there’s only one error
-    (no bullet)\n- be linked from the top of the page to take users to the relevant
-    field\n- help the user fix the problem, for example, ‘Check you've entered the
-    correct sort code — it’s the 6 digit number usually found on your bank card’\n\n\n\n\n\n\n\n"
 landingPage:
-- sys:
-    id: 4vQeNl83y8WyeGAcU60wOU
-    created_at: !ruby/object:DateTime 2018-12-05 12:51:56.179000000 Z
-    updated_at: !ruby/object:DateTime 2019-04-26 08:49:06.255000000 Z
-    content_type_id: landingPage
-    revision: 3
-  title: Brand assets
-  introduction: We [design in the open](https://coop-design-system.herokuapp.com/principles.html#we-design-in-the-open),
-    so our design assets — the logos, sketching sheets and guidelines — that you might
-    need for your service, you can download here.
-  content: |-
-    <div class="coop-l-row">
-                <div class="coop-l-column coop-l-small-12 coop-l-large-6">
-                    <h2>Design files</h2>
-                    <p>Download our:</p>
-                    <ul class="coop-list-bare">
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/logo/logo.ai">logo AI (76kb)</a></li>
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/logo/logo-white.ai">logo white AI (40kb)</a></li>
-                    </ul>
-                  <p>We use <a href="https://www.abstract.com/">Abstract</a> to distribute and collaborate on our design files. For access email <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>.</p>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-large-6">
-                    <h2>Principles and guidelines</h2>
-                    <p>Download our:</p>
-                    <ul class="coop-list-bare">
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/principles/DP_poster_v7.pdf">Design principles v7 PDF (46kb)</a></li>
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/brand/WR_B_024-Brand Guidelines_16_9Low.pdf">Co-op brand guidelines (4mb)</a></li>
-                        <li><a href="https://coop.getbynder.com">Brand portal</a> - contact <a href="mailto:sue.scales@coop.co.uk">Sue Scales</a> for access</li>
-                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/email/email-guidelines.pdf">Email design guidelines (727kb)</a></li>
-                    </ul>
-                </div>
-            </div>
 - sys:
     id: 3rvIIO3YA8G22KUs2GUG4o
     created_at: !ruby/object:DateTime 2018-12-05 12:36:33.915000000 Z
@@ -2807,3 +2531,35 @@ landingPage:
     ## Pattern library
     A collection of our design patterns as code snippets with guidance. Use in conjunction with the front-end toolkit and/or prototyping kit.
     <p><a href="/pattern-library/">Visit the pattern libary</a></p>
+- sys:
+    id: 4vQeNl83y8WyeGAcU60wOU
+    created_at: !ruby/object:DateTime 2018-12-05 12:51:56.179000000 Z
+    updated_at: !ruby/object:DateTime 2019-04-26 08:49:06.255000000 Z
+    content_type_id: landingPage
+    revision: 3
+  title: Brand assets
+  introduction: We [design in the open](https://coop-design-system.herokuapp.com/principles.html#we-design-in-the-open),
+    so our design assets — the logos, sketching sheets and guidelines — that you might
+    need for your service, you can download here.
+  content: |-
+    <div class="coop-l-row">
+                <div class="coop-l-column coop-l-small-12 coop-l-large-6">
+                    <h2>Design files</h2>
+                    <p>Download our:</p>
+                    <ul class="coop-list-bare">
+                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/logo/logo.ai">logo AI (76kb)</a></li>
+                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/logo/logo-white.ai">logo white AI (40kb)</a></li>
+                    </ul>
+                  <p>We use <a href="https://www.abstract.com/">Abstract</a> to distribute and collaborate on our design files. For access email <a href="mailto:design@coopdigital.co.uk">design@coopdigital.co.uk</a>.</p>
+                </div>
+                <div class="coop-l-column coop-l-small-12 coop-l-large-6">
+                    <h2>Principles and guidelines</h2>
+                    <p>Download our:</p>
+                    <ul class="coop-list-bare">
+                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/principles/DP_poster_v7.pdf">Design principles v7 PDF (46kb)</a></li>
+                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/brand/WR_B_024-Brand Guidelines_16_9Low.pdf">Co-op brand guidelines (4mb)</a></li>
+                        <li><a href="https://coop.getbynder.com">Brand portal</a> - contact <a href="mailto:sue.scales@coop.co.uk">Sue Scales</a> for access</li>
+                        <li><a href="https://github.com/coopdigital/coop-design-assets/raw/master/email/email-guidelines.pdf">Email design guidelines (727kb)</a></li>
+                    </ul>
+                </div>
+            </div>

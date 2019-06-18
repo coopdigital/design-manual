@@ -59,23 +59,4 @@ States
 	padding: 5px 0 8px;
 	top: 0;
 	margin-bottom: 32px;
-	
-
-	.in-page-nav {
-		margin-bottom: 0;
-		a {
-			display: inline-block;
-			margin-right: 5px;
-			border-bottom: 0;
-			text-decoration: underline;
-
-			&:hover {
-				text-decoration: none;
-			}
-		}
-	}
 }
-
-// .fixedsticky--horz-styled {
-// 	box-shadow: 0px 3px 18px 0px rgba(0,0,0,0.24);
-// }

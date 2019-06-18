@@ -11,13 +11,11 @@
 }
 
 .coop-ds-example {
-  margin-bottom: 64px;
-  padding: 24px 16px 38px 16px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.08);
+  padding: 24px 0 24px 0;
+
 
   @include media(medium) {
-    padding: 24px 32px 38px 32px;  
+    padding: 24px 0 24px 0;  
   }
 
   .tabs-init {
@@ -36,6 +34,7 @@
 
     .btn-pill {
       font-size: 1rem;
+      
     }
   }
 }

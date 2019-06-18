@@ -18,17 +18,15 @@ body-page-class: dm-dark
             </div>
         </div>
     </header>
-
     <div class="fixedsticky fixedsticky--horz">
         <nav>
-            <ul class="coop-list-bare in-page-nav in-page-nav--horz">
+            <ul class="in-page-nav in-page-nav--horz">
                 {% for item in page.in_page_navigation %}
                 <li><a href="#{{ item.section_id }}">{{ item.url_text }}</a></li>
                 {% endfor %}
             </ul>
         </nav>
     </div>
-
     <div class="coop-l-row">
         <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
             <section class="ds-section">
