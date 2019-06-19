@@ -1,32 +1,28 @@
 {
-  "_args": [
-    [
-      "@coopdigital/component-card--product@1.0.8",
-      "/Applications/MAMP/htdocs/design-manual"
-    ]
-  ],
-  "_from": "@coopdigital/component-card--product@1.0.8",
+  "_from": "@coopdigital/component-card--product@^1.0.7",
   "_id": "@coopdigital/component-card--product@1.0.8",
   "_inBundle": false,
   "_integrity": "sha512-3PgMbm4y12pS1/ETTIRKpqO6zO49/n2AdO9b2JpH287ETDU7udktpZcJ+KA6TN06dtRnbxtK0utWJnVvlGDZQQ==",
   "_location": "/@coopdigital/component-card--product",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "@coopdigital/component-card--product@1.0.8",
+    "raw": "@coopdigital/component-card--product@^1.0.7",
     "name": "@coopdigital/component-card--product",
     "escapedName": "@coopdigital%2fcomponent-card--product",
     "scope": "@coopdigital",
-    "rawSpec": "1.0.8",
+    "rawSpec": "^1.0.7",
     "saveSpec": null,
-    "fetchSpec": "1.0.8"
+    "fetchSpec": "^1.0.7"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/component-card--product/-/component-card--product-1.0.8.tgz",
-  "_spec": "1.0.8",
+  "_shasum": "f586b1d0d82235f239db4f8e06d4a914005561ea",
+  "_spec": "@coopdigital/component-card--product@^1.0.7",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matt Tyas",
@@ -35,7 +31,9 @@
   "bugs": {
     "url": "https://github.com/coopdigital/component-card--product/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {},
+  "deprecated": false,
   "description": "Co-op Components: Card - product",
   "devDependencies": {
     "@coopdigital/component-card": "^1.0.1",

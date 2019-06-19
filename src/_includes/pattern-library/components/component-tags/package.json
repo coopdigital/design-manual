@@ -1,32 +1,28 @@
 {
-  "_args": [
-    [
-      "@coopdigital/component-tags@1.0.2",
-      "/Applications/MAMP/htdocs/design-manual"
-    ]
-  ],
-  "_from": "@coopdigital/component-tags@1.0.2",
+  "_from": "@coopdigital/component-tags@^1.0.2",
   "_id": "@coopdigital/component-tags@1.0.2",
   "_inBundle": false,
   "_integrity": "sha512-TQhamFcAnXOk96efMlWTNMOt+Vv0OZcvS4KZR9m7onZt9lEHQxiDpUKfVP0X/0iEkqxPxtu9Q+O7Py0pLOBhVg==",
   "_location": "/@coopdigital/component-tags",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "@coopdigital/component-tags@1.0.2",
+    "raw": "@coopdigital/component-tags@^1.0.2",
     "name": "@coopdigital/component-tags",
     "escapedName": "@coopdigital%2fcomponent-tags",
     "scope": "@coopdigital",
-    "rawSpec": "1.0.2",
+    "rawSpec": "^1.0.2",
     "saveSpec": null,
-    "fetchSpec": "1.0.2"
+    "fetchSpec": "^1.0.2"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/component-tags/-/component-tags-1.0.2.tgz",
-  "_spec": "1.0.2",
+  "_shasum": "db8e17462c3f77b40b240ed688b1de5cafb8c406",
+  "_spec": "@coopdigital/component-tags@^1.0.2",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matt Tyas",
@@ -35,7 +31,9 @@
   "bugs": {
     "url": "https://github.com/coopdigital/component-tags/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {},
+  "deprecated": false,
   "description": "Co-op Components: Tags",
   "devDependencies": {
     "@coopdigital/foundations-vars": "^1.0.0",

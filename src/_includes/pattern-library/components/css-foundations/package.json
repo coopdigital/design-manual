@@ -1,32 +1,28 @@
 {
-  "_args": [
-    [
-      "@coopdigital/css-foundations@1.7.4",
-      "/Applications/MAMP/htdocs/design-manual"
-    ]
-  ],
-  "_from": "@coopdigital/css-foundations@1.7.4",
+  "_from": "@coopdigital/css-foundations",
   "_id": "@coopdigital/css-foundations@1.7.4",
   "_inBundle": false,
   "_integrity": "sha512-NMkebnubkFTMe/izhcD5VYlvcBZRLaE50AHsxePdRpULi3+3hKoELnhz9MMva/dMCCPFGtlSZygLlCS8jOGpOg==",
   "_location": "/@coopdigital/css-foundations",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "tag",
     "registry": true,
-    "raw": "@coopdigital/css-foundations@1.7.4",
+    "raw": "@coopdigital/css-foundations",
     "name": "@coopdigital/css-foundations",
     "escapedName": "@coopdigital%2fcss-foundations",
     "scope": "@coopdigital",
-    "rawSpec": "1.7.4",
+    "rawSpec": "",
     "saveSpec": null,
-    "fetchSpec": "1.7.4"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/css-foundations/-/css-foundations-1.7.4.tgz",
-  "_spec": "1.7.4",
+  "_shasum": "f7a0a98a532ad79ca70eb7be58e46be86c53801a",
+  "_spec": "@coopdigital/css-foundations",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Matthew Morek",
@@ -36,6 +32,7 @@
   "bugs": {
     "url": "https://github.com/coopdigital/css-foundations/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "@coopdigital/foundations-buttons": "~1.0.4",
     "@coopdigital/foundations-colors": "~1.0.0",
@@ -47,6 +44,7 @@
     "@coopdigital/foundations-vars": "~1.0.0",
     "normalize.css": "~8.0.1"
   },
+  "deprecated": false,
   "description": "Co-op CSS Foundations",
   "devDependencies": {
     "autoprefixer": "^9.3.1",

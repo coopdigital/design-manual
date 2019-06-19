@@ -1,32 +1,27 @@
 {
-  "_args": [
-    [
-      "@coopdigital/coop-frontend-foundations@0.1.2",
-      "/Applications/MAMP/htdocs/design-manual"
-    ]
-  ],
-  "_from": "@coopdigital/coop-frontend-foundations@0.1.2",
+  "_from": "@coopdigital/coop-frontend-foundations@^0.1.2",
   "_id": "@coopdigital/coop-frontend-foundations@0.1.2",
   "_inBundle": false,
   "_integrity": "sha512-QV0eUYPGJbpnwYba+VHmgL3t42hgVmgg6Jcn2bWPqtmWVAyFZqYpglG5tXJ+nT0yItKREKZuLnv7ACMR+zLbfg==",
   "_location": "/@coopdigital/coop-frontend-foundations",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "@coopdigital/coop-frontend-foundations@0.1.2",
+    "raw": "@coopdigital/coop-frontend-foundations@^0.1.2",
     "name": "@coopdigital/coop-frontend-foundations",
     "escapedName": "@coopdigital%2fcoop-frontend-foundations",
     "scope": "@coopdigital",
-    "rawSpec": "0.1.2",
+    "rawSpec": "^0.1.2",
     "saveSpec": null,
-    "fetchSpec": "0.1.2"
+    "fetchSpec": "^0.1.2"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/coop-frontend-foundations/-/coop-frontend-foundations-0.1.2.tgz",
-  "_spec": "0.1.2",
+  "_shasum": "765df166fa93b1b696f8d6fee8cc51e6f1d5f879",
+  "_spec": "@coopdigital/coop-frontend-foundations@^0.1.2",
   "_where": "/Applications/MAMP/htdocs/design-manual",
   "author": {
     "name": "Coop Digital"
@@ -34,6 +29,7 @@
   "bugs": {
     "url": "https://github.com/coopdigital/coop-frontend-foundations/issues"
   },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Matt Tyas",
@@ -44,6 +40,7 @@
       "email": "kyle.welsby@coopdigital.co.uk"
     }
   ],
+  "deprecated": false,
   "description": "Frontend foundations contains styles for building Coop branded digital content.",
   "devDependencies": {
     "@csstools/postcss-sass": "^2.0.0",

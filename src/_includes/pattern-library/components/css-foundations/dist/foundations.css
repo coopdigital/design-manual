@@ -242,13 +242,13 @@ html {
   font-size: 1rem;
   font-size: var(--type-base--body);
 }
-@media (min-width: 46.875em) {
+/* @media (min-width: 46.875em) {
   body,
   html {
     font-size: 1.25rem;
     font-size: var(--type-medium--body);
   }
-}
+} */
 body {
   position: relative;
   margin: 0;
@@ -262,11 +262,11 @@ body {
   line-height: 1.7;
   line-height: var(--type-base--line-height);
 }
-@media (min-width: 46.875em) {
+/* @media (min-width: 46.875em) {
   body {
     line-height: var(--type-medium--line-height);
   }
-}
+} */
 img {
   max-width: 100%;
   height: auto;
@@ -1412,7 +1412,7 @@ table {
   margin-bottom: 1rem;
   margin-bottom: var(--spacing-base--1-2);
 }
-@media var(min-width: 46.875em) {
+@media (min-width: 46.875em) {
   .coop-table,
   table {
     font-size: 1.25rem;
@@ -1560,7 +1560,7 @@ table ul {
   padding-left: 0;
   padding-right: 0;
 }
-@media var(min-width: 46.875em) {
+@media (min-width: 46.875em) {
   .coop-table--unstyled td,
   .coop-table--unstyled th {
     padding: 1rem;
@@ -1593,7 +1593,7 @@ table ul {
   padding: 16px 0 0;
   margin-bottom: 0;
 }
-@media var(min-width: 46.875em) {
+@media (min-width: 46.875em) {
   .coop-table__header {
     padding: 16px 8px 10px;
   }

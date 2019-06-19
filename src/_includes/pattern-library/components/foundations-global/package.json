@@ -1,33 +1,28 @@
 {
-  "_args": [
-    [
-      "@coopdigital/foundations-global@1.0.2",
-      "/Applications/MAMP/htdocs/design-manual"
-    ]
-  ],
-  "_from": "@coopdigital/foundations-global@1.0.2",
+  "_from": "@coopdigital/foundations-global@~1.0.2",
   "_id": "@coopdigital/foundations-global@1.0.2",
   "_inBundle": false,
   "_integrity": "sha512-UaJ1reKJ8X2YpfcwCz2pMRBqa617A/L0zfLlmV+9YDtK4M3SHxZYqMrXNJkgv5t0QxjKpSYU+2pGUOLupqtjHg==",
   "_location": "/@coopdigital/foundations-global",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "range",
     "registry": true,
-    "raw": "@coopdigital/foundations-global@1.0.2",
+    "raw": "@coopdigital/foundations-global@~1.0.2",
     "name": "@coopdigital/foundations-global",
     "escapedName": "@coopdigital%2ffoundations-global",
     "scope": "@coopdigital",
-    "rawSpec": "1.0.2",
+    "rawSpec": "~1.0.2",
     "saveSpec": null,
-    "fetchSpec": "1.0.2"
+    "fetchSpec": "~1.0.2"
   },
   "_requiredBy": [
     "/@coopdigital/css-foundations"
   ],
   "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-global/-/foundations-global-1.0.2.tgz",
-  "_spec": "1.0.2",
-  "_where": "/Applications/MAMP/htdocs/design-manual",
+  "_shasum": "6d5da7ea3ef3d15b1827c5bb2a0adb7c5b26add2",
+  "_spec": "@coopdigital/foundations-global@~1.0.2",
+  "_where": "/Applications/MAMP/htdocs/design-manual/node_modules/@coopdigital/css-foundations",
   "author": {
     "name": "Matthew Morek",
     "email": "matthew.morek@coopdigital.co.uk",
@@ -36,6 +31,8 @@
   "bugs": {
     "url": "https://github.com/coopdigital/foundations-global/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "CSS Foundations: Global",
   "devDependencies": {
     "@coopdigital/foundations-vars": "~1.0.0",
