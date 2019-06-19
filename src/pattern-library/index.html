@@ -3,236 +3,242 @@ layout: default
 body-page-class: dm-dark
 title: Pattern library
 ---
-<article class="coop-l-wrap">
-    {% include breadcrumbs.html %}
-    <header class="m-bh-med-b">
-        <div class="coop-l-row">
-            <div class="coop-l-column coop-l-medium-6 coop-l-small-12 intro-box">
-                <h1>Pattern library</h1>
-                <p class="coop-u-margin-bh">The foundation and components are meant as a starting point when designing and building products for Co&#8209;op.</p>
-                <p>Experimenting is encouraged.</p>
-            </div>
-            <div class="coop-l-column coop-l-medium-5 coop-l-medium-push-1 coop-l-small-12">
-                <div class="card card--shadow coop-u-margin-tb">
-                    <h2 class="coop-h3">Use the design patterns by:</h2>
-                    <ul class="coop-icon-list coop-list-bare">
-                        <li><a href="mailto:design@coopdigital.co.uk?subject=Abstract access">getting access to Abstract</a> (for design files)</li>
-                        <li><a href="https://github.com/orgs/coopdigital/teams/design-system/repositories">studying the code on Github</a></li>
-                        <li><a href="https://www.npmjs.com/org/coopdigital">installing the HTML and CSS via NPM</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="coop-l-row">
-        <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
-            <nav>
-                <ul id="in-page-nav" class="coop-list-bare in-page-nav">
-                    <li class="coop-bold"><a href="#foundations" class="in-page-nav__section-title">Foundations</a></li>
-                    <li><a href="#Brand">Brand</a></li>
-                    <li><a href="#typography">Typography</a></li>
-                    <li><a href="#forms">Forms</a></li>
-                    <li><a href="#tables">Tables</a></li>
-                    <li><a href="#grid">Grid</a></li>
-                    <li class="coop-bold coop-u-padding-th"><a href="#components"  class="in-page-nav__section-title">Components</a></li>
-                    <li><a href="#components-navigation">Navigation</a></li>
-                    <li><a href="#components-forms">Forms</a></li>
-                    <li><a href="#components-cards">Cards</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
+<article>
+    <div class="coop-l-wrap">
+        {% include breadcrumbs.html %}
+        <header class="m-bh-med-b">
             <div class="coop-l-row">
-                <div class="coop-l-column coop-l-small-12">
-                   <h2 id="foundations">Foundations</h2>
-                   <p>The foundation styles give you the basic Co&#8209;op look and feel. You normally need all of the foundations so you can <a href="https://www.npmjs.com/package/@coopdigital/css-foundations">install them as one package here</a>.</p>
+                <div class="coop-l-column coop-l-medium-6 coop-l-small-12 intro-box">
+                    <h1>Pattern library</h1>
+                    <p class="coop-u-margin-bh">The foundation and components are meant as a starting point when designing and building products for Co&#8209;op.</p>
+                    <p>Experimenting is encouraged.</p>
+                </div>
+                <div class="coop-l-column coop-l-medium-5 coop-l-medium-push-1 coop-l-small-12">
+                    <div class="card card--shadow coop-u-margin-tb">
+                        <h2 class="coop-h3">Use the design patterns by:</h2>
+                        <ul class="coop-icon-list coop-list-bare">
+                            <li><a href="mailto:design@coopdigital.co.uk?subject=Abstract access">getting access to Abstract</a> (for design files)</li>
+                            <li><a href="https://github.com/orgs/coopdigital/teams/design-system/repositories">studying the code on Github</a></li>
+                            <li><a href="https://www.npmjs.com/org/coopdigital">installing the HTML and CSS via NPM</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </header>
+    </div>
+    <div class="coop-u-grey-light-bg m-bh-med-b coop-u-padding-tb coop-u-padding-bb">
+        <div class="coop-l-wrap">
             <div class="coop-l-row">
-                <div class="coop-l-column coop-l-all-12">
-                   <h3 id="brand">Brand</h3>
+                <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
+                    <nav>
+                        <ul id="in-page-nav" class="in-page-nav in-page-nav--vert">
+                            <li class="coop-bold"><a href="#foundations" class="in-page-nav__section-title">Foundations</a></li>
+                            <li><a href="#Brand">Brand</a></li>
+                            <li><a href="#typography">Typography</a></li>
+                            <li><a href="#forms">Forms</a></li>
+                            <li><a href="#tables">Tables</a></li>
+                            <li><a href="#grid">Grid</a></li>
+                            <li class="coop-bold coop-u-padding-th"><a href="#components"  class="in-page-nav__section-title">Components</a></li>
+                            <li><a href="#components-navigation">Navigation</a></li>
+                            <li><a href="#components-forms">Forms</a></li>
+                            <li><a href="#components-cards">Cards</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/logo.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Logo</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/colour.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Colour palette</h4>
-                     </a>
-                </div>
-            </div>
-            <div class="coop-l-row coop-u-margin-tb">
-                <div class="coop-l-column coop-l-all-12">
-                   <h3 id="typography">Typography</h3>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/font.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Font</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/typographic-scale.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Typographic scale</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/bullet-list.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Bullet list</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/numbered-list.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Numbered list</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/quotations.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Quotations</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/links.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Links</h4>
-                     </a>
-                </div>
-            </div>
-            <div class="coop-l-row coop-u-margin-tb">
-                <div class="coop-l-column coop-l-all-12">
-                   <h3 id="forms">Forms</h3>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/input.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Input</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/textarea.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Textarea</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/checkboxes-and-radio-buttons.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Checkboxes and radios</h4> <span class="status status--beta">Beta</span>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/validation.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Validation</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/buttons.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Buttons</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/submit.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Submit buttons</h4>
-                     </a>
-                </div>
-            </div>
-            <div class="coop-l-row coop-u-margin-tb">
-                <div class="coop-l-column coop-l-all-12">
-                   <h3 id="tables">Tables</h3>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/tables.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Tables</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/responsive-tables.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Responsive tables</h4> <span class="status status--beta">Beta</span>
-                     </a>
-                </div>
-            </div>
-            <div class="coop-l-row coop-u-margin-tb">
-                <div class="coop-l-column coop-l-all-12">
-                   <h3 id="grid">Grid</h3>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/page-layout.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Page layout</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/centring.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Centring columns</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/collapsing-columns.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Collapsing columns</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/offset-columns.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Offset columns</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/foundations/reorder-columns.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Reorder columns</h4>
-                     </a>
-                </div>
-            </div>
-            <div class="coop-l-row coop-u-margin-tb">
-                <div class="coop-l-column coop-l-small-12">
-                    <h2 id="components">Components</h2>
-                    <p>The components are design patterns based on the foundations that can help to build a Co-op service. Pick the ones that work for your user's needs. If in doubt &mdash; design and build something new.</p>
-                </div>
-            </div>
-            <div class="coop-l-row">
-                <div class="coop-l-column coop-l-small-12">
-                    <h3 id="components-navigation">Navigation</h3>
-                </div>
-            </div>
-            <div class="coop-l-row">
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/components/navigation/signpost.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Signpost</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/components/navigation/tags.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Tags</h4> <span class="status status--beta">Beta</span>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/components/navigation/skip-navigation.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Skip navigation</h4>
-                     </a>
-                </div>
-            </div>
-            <div class="coop-l-row">
-                <div class="coop-l-column coop-l-medium-7 coop-l-small-12">
-                    <h3 id="components-forms">Forms</h3>
-                </div>
-            </div>
-            <div class="coop-l-row">
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/components/forms/search.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Search</h4> <span class="status status--beta">Beta</span>
-                     </a>
-                </div>
-            </div>
-            <div class="coop-l-row">
-                <div class="coop-l-column coop-l-small-12">
-                    <h3 id="components-cards">Cards</h3>
-                </div>
-            </div>
-            <div class="coop-l-row">
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/components/cards/editorial-card.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Editorial card</h4>
-                     </a>
-                </div>
-                <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
-                     <a href="/pattern-library/components/cards/product-card.html" class="card--link m-bh-med-b">
-                         <h4 class="card--link__title">Product card</h4> <span class="status status--beta">Beta</span>
-                     </a>
+                <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
+                    <div class="coop-l-row">
+                        <div class="coop-l-column coop-l-small-12">
+                        <h2 id="foundations">Foundations</h2>
+                        <p>The foundation styles give you the basic Co&#8209;op look and feel. You normally need all of the foundations so you can <a href="https://www.npmjs.com/package/@coopdigital/css-foundations">install them as one package here</a>.</p>
+                        </div>
+                    </div>
+                    <div class="coop-l-row">
+                        <div class="coop-l-column coop-l-all-12">
+                            <h3 id="brand">Brand</h3>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/logo.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Logo</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/colour.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Colour palette</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coop-l-row coop-u-margin-tb">
+                        <div class="coop-l-column coop-l-all-12">
+                        <h3 id="typography">Typography</h3>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/font.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Font</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/typographic-scale.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Typographic scale</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/bullet-list.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Bullet list</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/numbered-list.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Numbered list</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/quotations.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Quotations</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/links.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Links</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coop-l-row coop-u-margin-tb">
+                        <div class="coop-l-column coop-l-all-12">
+                        <h3 id="forms">Forms</h3>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/input.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Input</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/textarea.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Textarea</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/checkboxes-and-radio-buttons.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Checkboxes and radios</h4> <span class="status status--beta">Beta</span>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/validation.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Validation</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/buttons.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Buttons</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/submit.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Submit buttons</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coop-l-row coop-u-margin-tb">
+                        <div class="coop-l-column coop-l-all-12">
+                        <h3 id="tables">Tables</h3>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/tables.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Tables</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/responsive-tables.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Responsive tables</h4> <span class="status status--beta">Beta</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coop-l-row coop-u-margin-tb">
+                        <div class="coop-l-column coop-l-all-12">
+                        <h3 id="grid">Grid</h3>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/page-layout.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Page layout</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/centring.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Centring columns</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/collapsing-columns.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Collapsing columns</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/offset-columns.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Offset columns</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/foundations/reorder-columns.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Reorder columns</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coop-l-row coop-u-margin-tb">
+                        <div class="coop-l-column coop-l-small-12">
+                            <h2 id="components">Components</h2>
+                            <p>The components are design patterns based on the foundations that can help to build a Co-op service. Pick the ones that work for your user's needs. If in doubt &mdash; design and build something new.</p>
+                        </div>
+                    </div>
+                    <div class="coop-l-row">
+                        <div class="coop-l-column coop-l-small-12">
+                            <h3 id="components-navigation">Navigation</h3>
+                        </div>
+                    </div>
+                    <div class="coop-l-row">
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/components/navigation/signpost.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Signpost</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/components/navigation/tags.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Tags</h4> <span class="status status--beta">Beta</span>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/components/navigation/skip-navigation.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Skip navigation</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coop-l-row">
+                        <div class="coop-l-column coop-l-medium-7 coop-l-small-12">
+                            <h3 id="components-forms">Forms</h3>
+                        </div>
+                    </div>
+                    <div class="coop-l-row">
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/components/forms/search.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Search</h4> <span class="status status--beta">Beta</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="coop-l-row">
+                        <div class="coop-l-column coop-l-small-12">
+                            <h3 id="components-cards">Cards</h3>
+                        </div>
+                    </div>
+                    <div class="coop-l-row">
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/components/cards/editorial-card.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Editorial card</h4>
+                            </a>
+                        </div>
+                        <div class="coop-l-column coop-l-small-12 coop-l-medium-6">
+                            <a href="/pattern-library/components/cards/product-card.html" class="card--link m-bh-med-b">
+                                <h4 class="card--link__title">Product card</h4> <span class="status status--beta">Beta</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

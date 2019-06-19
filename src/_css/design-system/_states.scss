@@ -13,7 +13,7 @@ States
 }
 
 .fixedsticky {
-	background: $page;
+	// background: $page;
 	position: static;
 	@include media(medium) {
 		opacity: 1;
@@ -55,6 +55,7 @@ States
 }
 
 .fixedsticky--horz {
+	background: #fff;
 	width: 100%;
 	padding: 5px 0 8px;
 	top: 0;
