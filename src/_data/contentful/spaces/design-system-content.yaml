@@ -1211,9 +1211,9 @@ page:
 - sys:
     id: 7kofk9MtaxOfFOwxfcGvjj
     created_at: !ruby/object:DateTime 2019-05-23 10:07:52.788000000 Z
-    updated_at: !ruby/object:DateTime 2019-06-17 12:05:26.143000000 Z
+    updated_at: !ruby/object:DateTime 2019-06-21 08:28:45.532000000 Z
     content_type_id: page
-    revision: 8
+    revision: 10
   title: Digital content guidelines
   status: live
   introduction: |
@@ -1474,44 +1474,44 @@ page:
     and write out decades in full, so 1970s not ‘70s.\n \n### dividend\n \n### Direct
     Debit\n \n\n## [E](#e)\n \n### Eg\nDo not use. Not everyone understands what it
     means. Say ‘for example’ instead.\n\nFor more information read this blog post
-    about the use of contractions like ‘eg’ on GOV.UK.\n\n### Ellipsis (...)\nEllipsis
-    are 3 dots that should only be used:\nwhen you’re quoting someone and need to
+    about the use of contractions like ‘eg’ on GOV.UK.\n\n### Ellipsis (&hellip;)\nEllipsis
+    are 3 dots that should only be used:\n- when you’re quoting someone and need to
     show words have been missed out — only do this if it will not change the meaning,
-    for example: “We’re building things that are user-centric… doing the hard work
-    centrally to make things clearer, simpler and quicker.”\nto indicate there’s more
-    to come, for example, in a header: ‘We asked our users to name a wine…’\n\n\nIf
+    for example: “We’re building things that are user-centric&hellip; doing the hard
+    work centrally to make things clearer, simpler and quicker.”\n- to indicate there’s
+    more to come, for example, in a header: ‘We asked our users to name a wine…’\n\n\nIf
     you use an ellipsis, use 3 dots only. They should follow straight on after the
     previous word (with no space), and have one space after.\n\nIf the ellipsis ends
     the sentence, do not add an additional full stop.\n\nIf you’re putting an ellipsis
-    in html use the code &hellip so the dots do not break. (like this …)\n\n### Email\n\n###
-    Etc\nDo not use. Not everyone understands what it means. If you need to make it
-    clear there are more unspecified items at the end of a list, you can use “and
-    so on”.\n\n### Exclamation marks\nTry not to use them unless they’re essential
-    - they can look flippant and make your content lose impact when they’re over-used.
-    \n\nBy simply ending your sentence with a full stop instead, you’re allowing your
-    reader to focus on the message, rather than wonder whether your tone is insincere
-    or strident.\n \n\n## [F](#f)\n \n### Fairer Finance\n \n### Fairtrade\nUsed for
-    products or the Fairtrade initiative. For example: ‘We’re proud to support Fairtrade’
-    or ‘All our bagged sugar is Fairtrade’.\n \n### fair trade\nThe theory and practice
-    of fair trade, where producers in developing countries are paid a fair price for
-    the goods they supply to companies in developed countries.\n \n### Fair Trade\nUsed
-    for Co-op products that are certified by a credible fair trade organisation such
-    as Traidcraft, but where there is no FAIRTRADE Mark available. Currently this
-    applies to charcoal and rubber gloves.\n\n### FAIRTRADE Mark\nThe formal certification
-    on products which contain ingredients certified by the Fairtrade Labelling Organisation
-    (FLO).\n\n### Fairtrade Fortnight\nAn annual celebration of Fairtrade used as
-    a focus point for campaigners, businesses and the Fairtrade Foundation to educate
-    the wider public on the benefits of Fairtrade. For example “Join us in celebrating
-    Fairtrade Fortnight”.\n\n### FAQs\nDo not use FAQs.\n\nInstead, if you know that
-    you are answering a genuine frequently asked question, restructure your content
-    so that the answers form part of the main user journey. And put the information
-    in a logical place in that journey.\n\nWe do not use FAQs because:\n- users do
-    not know if their question has been frequently asked\n- they’re often made up
-    by the business rather than genuinely asked by the public\n- users have to navigate
-    through irrelevant content to see if their question is there, which is frustrating
-    and wastes their time\n- we should be creating services that speak for themselves:
-    we design with purpose\n\nFor more information read Content Strategist Tom Adams’
-    [blog post on FAQs on the Co-op Digital blog](https://digitalblog.coop.co.uk/2018/09/13/why-faqs-arent-the-answer-youve-been-looking-for/).\n\n###
+    in html use the code &hellip so the dots do not break. (like this &hellip;)\n\n###
+    Email\n\n### Etc\nDo not use. Not everyone understands what it means. If you need
+    to make it clear there are more unspecified items at the end of a list, you can
+    use “and so on”.\n\n### Exclamation marks\nTry not to use them unless they’re
+    essential - they can look flippant and make your content lose impact when they’re
+    over-used. \n\nBy simply ending your sentence with a full stop instead, you’re
+    allowing your reader to focus on the message, rather than wonder whether your
+    tone is insincere or strident.\n \n\n## [F](#f)\n \n### Fairer Finance\n \n###
+    Fairtrade\nUsed for products or the Fairtrade initiative. For example: ‘We’re
+    proud to support Fairtrade’ or ‘All our bagged sugar is Fairtrade’.\n \n### fair
+    trade\nThe theory and practice of fair trade, where producers in developing countries
+    are paid a fair price for the goods they supply to companies in developed countries.\n
+    \n### Fair Trade\nUsed for Co-op products that are certified by a credible fair
+    trade organisation such as Traidcraft, but where there is no FAIRTRADE Mark available.
+    Currently this applies to charcoal and rubber gloves.\n\n### FAIRTRADE Mark\nThe
+    formal certification on products which contain ingredients certified by the Fairtrade
+    Labelling Organisation (FLO).\n\n### Fairtrade Fortnight\nAn annual celebration
+    of Fairtrade used as a focus point for campaigners, businesses and the Fairtrade
+    Foundation to educate the wider public on the benefits of Fairtrade. For example
+    “Join us in celebrating Fairtrade Fortnight”.\n\n### FAQs\nDo not use FAQs.\n\nInstead,
+    if you know that you are answering a genuine frequently asked question, restructure
+    your content so that the answers form part of the main user journey. And put the
+    information in a logical place in that journey.\n\nWe do not use FAQs because:\n-
+    users do not know if their question has been frequently asked\n- they’re often
+    made up by the business rather than genuinely asked by the public\n- users have
+    to navigate through irrelevant content to see if their question is there, which
+    is frustrating and wastes their time\n- we should be creating services that speak
+    for themselves: we design with purpose\n\nFor more information read Content Strategist
+    Tom Adams’ [blog post on FAQs on the Co-op Digital blog](https://digitalblog.coop.co.uk/2018/09/13/why-faqs-arent-the-answer-youve-been-looking-for/).\n\n###
     Common food terms\naduki beans (not Adzuki beans)\nalbumen\nalfresco\nallspice\narrabiata\nbaking
     tray, not baking sheet\nbarbeque or BBQ, not barbie or barbecue\nbeers, wines
     and spirits (BWS)\nbirdseye chillies, one word not Birds Eye\nbiryani\nblack forest,
@@ -1652,7 +1652,7 @@ page:
     lists\nUse a numbered list for a logical sequence of things, like a series of
     tasks that must be done in a certain order. They do not need a lead-in line and
     should be complete sentences that start with a capital letter and end with a full
-    stop.\n\nExample\nHow to put your shoes on:\n- Put on socks.\n- Put on shoes.\n-
+    stop.\n\nExample\nHow to put your shoes on:\n1. Put on socks.\n2. Put on shoes.\n3.
     Tie laces.\n\n### local causes\n \n### Local Community Fund\n \n### local community\n\n###
     log in\nPeople log in to websites, they do not log on.\nIf they can use a website
     without logging in, say ‘visit the website’.\n \n \n## [M](#m)\n \n### Measurements\nsq

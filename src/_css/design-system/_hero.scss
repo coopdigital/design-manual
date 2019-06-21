@@ -6,6 +6,8 @@ Heros
   padding-top: 60px;
   overflow: hidden;
   margin-bottom: 0;
+  z-index: 1;
+  position: relative;
 
   @include media(xlarge) {
     margin-bottom: 32px;

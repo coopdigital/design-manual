@@ -6,12 +6,10 @@ body-page-class: dm-dark
 
 <article class="coop-l-wrap">
 {% include breadcrumbs.html %}
-{% for page in site.data.contentful.spaces.design-system-content.page %}
-    {% if page.sys.id == '3YTlC0pezKMGMsSEq4gkAu' %}
     <header>
         <div class="coop-l-row">
             <div class="coop-l-column coop-l-medium-8 coop-l-small-12 intro-box">
-                <h1>{{ page.title }}</h1>
+                <h1>This page has moved</h1>
                 <div class="highlight-banner m-bh-med-b">
                     {{ page.introduction | markdownify }}
                 </div>
@@ -19,7 +17,7 @@ body-page-class: dm-dark
         </div>
     </header>
     <div class="coop-l-row">
-        <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
+        <!-- <div class="coop-l-column coop-l-medium-4 coop-l-small-12 fixedsticky">
             <nav>
                 <ul class="coop-list-bare in-page-nav">
                     {% for item in page.in_page_navigation %}
@@ -27,13 +25,12 @@ body-page-class: dm-dark
                     {% endfor %}
                 </ul>
             </nav>
-        </div>
+        </div> -->
         <div class="coop-l-column coop-l-medium-8 coop-l-small-12">
             <section class="ds-section">
-                {{ page.content | markdownify }}
+                <p><a href="/content/index.html">The content design guidelines are now here</a>.</p>
             </section>
         </div>
     </div>
-    {% endif %}
-{% endfor %}
+
 </article>

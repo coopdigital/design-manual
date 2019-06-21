@@ -48,13 +48,9 @@
 .ds-c-signpost {
   flex-grow: 1;
   display: flex;
-  margin-bottom: var(--spacing-medium);
+  margin-bottom: var(--spacing-medium--1-4);
   background-color: var(--color-white);
   width: 100%;
-
-  @include media(medium) {
-    margin-bottom: var(--spacing-base);
-  }
 
   @include media(large) {
     margin-bottom: var(--spacing-medium--1-2);
