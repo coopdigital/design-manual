@@ -1318,7 +1318,7 @@ page:
     content_type_id: page
     revision: 2
   title: Accessibility guidelines
-  introduction: |-
+  introduction: |-  
     Do not design for difference, design so that no one feels different.
 
     Write in a consistently clear, simple way; this is how we open up our services to everyone.
