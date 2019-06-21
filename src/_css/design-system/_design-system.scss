@@ -863,9 +863,7 @@ table ul {
 
 .footer-main {
   padding-left: 0;
-  @include media(medium) {
-    padding-left: $half-spacing-unit;
-  }
+
 }
 
 .baseline-h-mega,

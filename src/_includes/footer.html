@@ -1,15 +1,18 @@
 <!-- Main footer -->
+
 <footer class="footer-main">
     <div class="coop-l-wrap">
         <div class="coop-l-row">
-            <nav class="secondary-nav">
-                <ul class="list-bare">
-                    <li {% if page.id == 'process' %} class="active"{% endif %}><a href="/process.html">What alpha, beta and live mean</a></li>
-                    <li {% if page.id == 'supported-devices' %} class="active"{% endif %}><a href="/supported-devices.html">Supported devices</a></li>
-                    <li {% if page.id == 'archive' %} class="active"{% endif %}><a href="/archive.html">Archived versions</a></li>
-                    <li {% if page.id == 'updates' %} class="active"{% endif %}><a href="/updates.html">Updates</a></li>
-                </ul>
-            </nav>
+            <div class="coop-l-columns coop-l-all-12">
+                <nav class="secondary-nav">
+                    <ul class="list-bare">
+                        <li {% if page.id == 'process' %} class="active"{% endif %}><a href="/process.html">What alpha, beta and live mean</a></li>
+                        <li {% if page.id == 'supported-devices' %} class="active"{% endif %}><a href="/supported-devices.html">Supported devices</a></li>
+                        <li {% if page.id == 'archive' %} class="active"{% endif %}><a href="/archive.html">Archived versions</a></li>
+                        <li {% if page.id == 'updates' %} class="active"{% endif %}><a href="/updates.html">Updates</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </footer>
