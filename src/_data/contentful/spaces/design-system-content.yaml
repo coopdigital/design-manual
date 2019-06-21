@@ -1211,9 +1211,9 @@ page:
 - sys:
     id: 7kofk9MtaxOfFOwxfcGvjj
     created_at: !ruby/object:DateTime 2019-05-23 10:07:52.788000000 Z
-    updated_at: !ruby/object:DateTime 2019-06-21 08:28:45.532000000 Z
+    updated_at: !ruby/object:DateTime 2019-06-21 09:56:56.799000000 Z
     content_type_id: page
-    revision: 10
+    revision: 11
   title: Digital content guidelines
   status: live
   introduction: |
@@ -1512,51 +1512,55 @@ page:
     is frustrating and wastes their time\n- we should be creating services that speak
     for themselves: we design with purpose\n\nFor more information read Content Strategist
     Tom Adams’ [blog post on FAQs on the Co-op Digital blog](https://digitalblog.coop.co.uk/2018/09/13/why-faqs-arent-the-answer-youve-been-looking-for/).\n\n###
-    Common food terms\naduki beans (not Adzuki beans)\nalbumen\nalfresco\nallspice\narrabiata\nbaking
-    tray, not baking sheet\nbarbeque or BBQ, not barbie or barbecue\nbeers, wines
-    and spirits (BWS)\nbirdseye chillies, one word not Birds Eye\nbiryani\nblack forest,
-    not Blackforest\nblackbean\nBritish\nbrussels sprouts, not Brussel\nbulgar wheat\nbuttercream\ncanned
-    food, never a tin of tuna although tin is acceptable when describing a cake tin\ncannelloni,
-    not Canelloni\ncardamom, not Cardamon\nchar sui, not Char Siu\ncheese, capitalise
-    where a place name or trademarked. For example, Stilton, Comté, Cheddar, Gruyère,
-    Parmesan, feta, halloumi, goat’s cheese, mozzarella, Parmigiano-Reggiano\nchick
-    pea or chick peas\nchilli, or chillies\ncling film, not clingfilm and ‘non-PVC
-    cling film’ is also acceptable\nclove of garlic, not garlic clove\nchocolatey\nconfectionery,
-    ends ‘ery’, the ‘ary’ spelling is for shops selling or making sweets\ncontactless\ncopra
-    oil shall be declared as Coconut Oil\ncordial, squash is preferred\ncornflour\ncottonseed\ncotton
-    wool balls\ncotton wool buds\ncotton wool pads\ncup cakes, 2 words\ncrème fraÎche\ncouscous\ndauphinoise\ndinner4tonight/dinner4tonight.com
-    \ndoughnut, not donuts except Dunkin’ Donuts\necigarette\néclair\neschallots shall
-    be declared as shallots\nevery day, means daily, as in open every day\neveryday,
+    Common food terms\naduki beans (not Adzuki beans)\n\nalbumen\n\nalfresco\n\nallspice\n\narrabiata\n\nbaking
+    tray, not baking sheet\n\nbarbeque or BBQ, not barbie or barbecue\n\nbeers, wines
+    and spirits (BWS)\n\nbirdseye chillies, one word not Birds Eye\n\nbiryani\n\nblack
+    forest, not Blackforest\n\nblackbean\n\nBritish\n\nbrussels sprouts, not Brussel\n\nbulgar
+    wheat\n\nbuttercream\n\ncanned food, never a tin of tuna although tin is acceptable
+    when describing a cake tin\n\ncannelloni, not Canelloni\n\ncardamom, not Cardamon\n\nchar
+    sui, not Char Siu\n\ncheese, capitalise where a place name or trademarked. For
+    example, Stilton, Comté, Cheddar, Gruyère, Parmesan, feta, halloumi, goat’s cheese,
+    mozzarella, Parmigiano-Reggiano\n\nchick pea or chick peas\n\nchilli, or chillies\n\ncling
+    film, not clingfilm and ‘non-PVC cling film’ is also acceptable\n\nclove of garlic,
+    not garlic clove\n\nchocolatey\n\nconfectionery, ends ‘ery’, the ‘ary’ spelling
+    is for shops selling or making sweets\n\ncontactless\n\ncopra oil shall be declared
+    as Coconut Oil\n\ncordial, squash is preferred\n\ncornflour\n\ncottonseed\n\ncotton
+    wool balls\n\ncotton wool buds\n\ncotton wool pads\n\ncup cakes, 2 words\n\ncrème
+    fraÎche\n\ncouscous\n\ndauphinoise\n\ndinner4tonight/dinner4tonight.com \n\ndoughnut,
+    not donuts except Dunkin’ Donuts\n\necigarette\n\néclair\n\neschallots shall be
+    declared as shallots\n\nevery day, means daily, as in open every day\n\neveryday,
     is an adjective used to describe something as humdrum or normal, as in an everyday
-    rice, shoes for everyday wear\nFather’s day\nfat-reduced\ncocoa\nfish cake (two
-    words)\nflameproof\nfree range\ngreaseproof and baking paper or greaseproof paper,
-    not baking paper\nhabanero\nHanukkah\nhealth and baby when describing category
-    HBA\nhealth care\nhoisin, one word\nhomemade\nhosiery\nhoumous\ninstore, available
-    or activity taking place in a supermarket. For example, instore bakery, prepared
-    instore or instore banking\nin store, forthcoming/imminent/about to come as in
-    ‘what have you got in store for me today’\nice cream\nIrresistible, capitalised
-    when referring to Co-op Irresistible\njuice of ½ lemon, not juice ½ or ½ a lemon\nkiwi
-    fruit\nlemon grass\nLess v fewer. Less means smaller in quantity, for example
-    less money. Fewer means smaller in number, for example fewer coins\nlitre or l,
-    never Ltr\nmakeup, cosmetics\nmake up with someone\nManx or from the Isle of Man\nmargarita,
-    a cocktail\nmargherita a pizza variety\nmicrowaveable, not microwavable\nMother’s
-    day\nmozzarella\novenproof\nok, not O.K. or okay\nown brand, not own-brand or
-    own-label\npalm oil, never declare as Palm Kernel Oil\npart baked not part-baked
-    or partbaked\npanini\npanna cotta\npâté\npassata, declared as Sieved Tomato if
-    an ingredient\npassion fruit\npasteurised\nPeppadew\npetits pains\npetits pois\npilaf\npilau\npoppadum\nprosciutto\nProsecco\nProtected
-    Designation of Origin (PDO)\npurée\nqueue, avoid using this word where possible\nquiche
-    Lorraine\nradicchio (not Raddicchio, Radicchio)\nreduced-fat\nrapeseed\nrefrigerator\nrice
-    wine, not Sake\nrocket, not Roquette\nsausagemeat\nself raising flour\nself checkout,
-    not self scan or sco\nsemi-skimmed\nshiitake\nSzechuan, capital S, not Sichuan\nsmartphone\nsmoky,
-    not Smokey\nsoya bean\nsoya powder\nsoy sauce\nsquash is either a vegetable like
-    a butternut squash, or a concentrated liquid made from fruit juice and sugar,
-    which is diluted to make a drink. See Cordial.\nstationary means not moving, stationery
-    means writing materials\nstick celery not celery stick\nstir fry\nstonebaked\nsundried,
-    not sun-dried\nswiss roll\nteaspoonful or teaspoonsful\ntin, not used to described
-    food and drinks packaging. Use can or canned.\ntin foil, do not use, use either
-    baking aluminium or wrapping foil\nTricolor, for pasta\nTricolour, for flags\nvinaigrette,
-    not vinegarette\nwater chestnuts\nwheat protein, not wheat gluten\nWorcestershire
-    not Worcester\nyogurt\n \n### Common funeral terms\nashes\nbook of remembrance\nburial\ncortege,
+    rice, shoes for everyday wear\n\nFather’s day\n\nfat-reduced\n\ncocoa\n\nfish
+    cake (two words)\n\nflameproof\n\nfree range\n\ngreaseproof and baking paper or
+    greaseproof paper, not baking paper\n\nhabanero\n\nHanukkah\n\nhealth and baby
+    when describing category HBA\n\nhealth care\n\nhoisin, one word\n\nhomemade\n\nhosiery\n\nhoumous\n\ninstore,
+    available or activity taking place in a supermarket. For example, instore bakery,
+    prepared instore or instore banking\n\nin store, forthcoming/imminent/about to
+    come as in ‘what have you got in store for me today’\n\nice cream\n\nIrresistible,
+    capitalised when referring to Co-op Irresistible\n\njuice of ½ lemon, not juice
+    ½ or ½ a lemon\n\nkiwi fruit\n\nlemon grass\n\nLess v fewer. Less means smaller
+    in quantity, for example less money. Fewer means smaller in number, for example
+    fewer coins\n\nlitre or l, never Ltr\n\nmakeup, cosmetics\n\nmake up with someone\n\nManx
+    or from the Isle of Man\n\nmargarita, a cocktail\n\nmargherita a pizza variety\n\nmicrowaveable,
+    not microwavable\n\nMother’s day\n\nmozzarella\n\novenproof\n\nok, not O.K. or
+    okay\n\nown brand, not own-brand or own-label\n\npalm oil, never declare as Palm
+    Kernel Oil\n\npart baked not part-baked or partbaked\n\npanini\n\npanna cotta\n\npâté\n\npassata,
+    declared as Sieved Tomato if an ingredient\n\npassion fruit\n\npasteurised\n\nPeppadew\n\npetits
+    pains\n\npetits pois\n\npilaf\n\npilau\n\npoppadum\n\nprosciutto\n\nProsecco\n\nProtected
+    Designation of Origin (PDO)\n\npurée\n\nqueue, avoid using this word where possible\n\nquiche
+    Lorraine\n\nradicchio (not Raddicchio, Radicchio)\n\nreduced-fat\n\nrapeseed\n\nrefrigerator\n\nrice
+    wine, not Sake\n\nrocket, not Roquette\n\nsausagemeat\n\nself raising flour\n\nself
+    checkout, not self scan or sco\n\nsemi-skimmed\n\nshiitake\n\nSzechuan, capital
+    S, not Sichuan\n\nsmartphone\n\nsmoky, not Smokey\n\nsoya bean\n\nsoya powder\n\nsoy
+    sauce\n\nsquash is either a vegetable like a butternut squash, or a concentrated
+    liquid made from fruit juice and sugar, which is diluted to make a drink. See
+    Cordial.\n\nstationary means not moving, stationery means writing materials\n\nstick
+    celery not celery stick\n\nstir fry\n\nstonebaked\n\nsundried, not sun-dried\n\nswiss
+    roll\n\nteaspoonful or teaspoonsful\n\ntin, not used to described food and drinks
+    packaging. Use can or canned.\n\ntin foil, do not use, use either baking aluminium
+    or wrapping foil\n\nTricolor, for pasta\n\nTricolour, for flags\n\nvinaigrette,
+    not vinegarette\n\nwater chestnuts\n\nwheat protein, not wheat gluten\n\nWorcestershire
+    not Worcester\n\nyogurt\n \n### Common funeral terms\nashes\nbook of remembrance\nburial\ncortege,
     or funeral procession\ncremation\ncrematorium\ndisperse, refers to ashes that
     are to be scattered\nend of life planning\nembalming\neulogy\ngarden of remembrance\nheadstone\nhearse,
     unless talking about ‘Land Rover hearse’\ninter or interment, refers to ashes
@@ -1600,28 +1604,28 @@ page:
     Wunelli Ltd\nFor example, ‘Wunelli Ltd is an independent company who we have appointed
     to supply and install the black box’.\n\n\n### internet\n \n### Common internal
     terms\ncheckout area (you can say ‘kiosk’, ‘belted till’ or ‘assisted-serve till’
-    if it’s relevant)\ncolleague\ncolleague member\ncolleague website (coop.co.uk/colleagues)\ncustomer
-    care line\nDouble Discount\nFuel for Growth\nhandheld terminal (HHT)\nHow do I\nIn-store
-    bakery (ISB)\nLeaders’ Weekly Update\non-shelf advertising (not ‘point of sale’)\nshelf
-    edge label (SEL)\nstore (not ‘shop’)\nStronger Co-op, Stronger Communities, written
-    as ‘a stronger Co-op and stronger communities’ in a sentence\nsupport centre (not
-    ‘head office’)\ntill (not ‘checkout’)\nWays of Being Co-op\n#BeingCoop Awards\n
-    \n### intranet\n \n### independent co-operatives\n \n\n## [J](#j)\n \n### Job
-    titles\nCapitalised when talking about a specific person’s job role. For example,
-    Mary Smith, Content Designer. \n\nLower case when talking about a generic job
-    role. For example, a team leader or executive.\n\nFuneral Director is the exception
-    and is always capitalised. \n \n### Jargon\nUse plain English and avoid jargon
-    (specialist language) where possible. Your writing is easier to understand when
-    you use the words your audience uses.\n \nTry not to use:\n- Puns. If the reader
-    doesn’t recognise something is meant to be a pun it can be confusing\n- Slang.
-    It’s hard to understand, slang terms can be used differently across cultures and
-    regions, and all slang can quickly fall out of use\n\nOnly use jargon or specialist
-    terms if the reader might see or hear the term elsewhere, for example if it’s
-    widely used in a store or over the phone. Always give a definition when you first
-    use them. For example: ‘partners can choose to make near identical wills that
-    leave their estate to the other person (known as ‘mirror wills’)’.\n\n### Join
-    In \nJoin In is an opportunity for members to get involved with their Co-op and
-    influence decision-making. \n\nUse lower case when talking about members ‘joining
+    if it’s \nrelevant)\n\ncolleague\n\ncolleague member\n\ncolleague website (coop.co.uk/colleagues)\n\ncustomer
+    care line\n\nDouble Discount\n\nFuel for Growth\n\nhandheld terminal (HHT)\n\nHow
+    do I\n\nIn-store bakery (ISB)\n\nLeaders’ Weekly Update\n\non-shelf advertising
+    (not ‘point of sale’)\n\nshelf edge label (SEL)\n\nstore (not ‘shop’)\n\nStronger
+    Co-op, Stronger Communities, written as ‘a stronger Co-op and stronger communities’
+    in a sentence\n\nsupport centre (not ‘head office’)\n\ntill (not ‘checkout’)\n\nWays
+    of Being Co-op\n\n#BeingCoop Awards\n \n### intranet\n \n### independent co-operatives\n
+    \n\n## [J](#j)\n \n### Job titles\nCapitalised when talking about a specific person’s
+    job role. For example, Mary Smith, Content Designer. \n\nLower case when talking
+    about a generic job role. For example, a team leader or executive.\n\nFuneral
+    Director is the exception and is always capitalised. \n \n### Jargon\nUse plain
+    English and avoid jargon (specialist language) where possible. Your writing is
+    easier to understand when you use the words your audience uses.\n \nTry not to
+    use:\n- Puns. If the reader doesn’t recognise something is meant to be a pun it
+    can be confusing\n- Slang. It’s hard to understand, slang terms can be used differently
+    across cultures and regions, and all slang can quickly fall out of use\n\nOnly
+    use jargon or specialist terms if the reader might see or hear the term elsewhere,
+    for example if it’s widely used in a store or over the phone. Always give a definition
+    when you first use them. For example: ‘partners can choose to make near identical
+    wills that leave their estate to the other person (known as ‘mirror wills’)’.\n\n###
+    Join In \nJoin In is an opportunity for members to get involved with their Co-op
+    and influence decision-making. \n\nUse lower case when talking about members ‘joining
     in’.\n\n\n## [L](#l)\n \n### Later life planning terms\nGeneric words like ‘my
     plan’, ‘set plan’ or ‘tailor made plan’ should be lower case, unless they begin
     the sentence or are used as a title.\n \nPlan names should be capitalised as they
@@ -1638,90 +1642,90 @@ page:
     include a title tag, this accessibility feature is not used any more as it’s not
     that helpful for visually impaired people\n\n\nWhen you are linking to another
     page or an external site, think about your user‘s onward journey. If the page
-    you’re linking to opens in:\nthe same window, your user may lose their place in
-    the information flow\na different window, your user may find it difficult to navigate
-    back to your site\n\n\nUse this to consider how and where to position your links.\n\n\n###
-    Lists\n#### Bullet lists\nUse bullet points to break up a list of things. It’s
-    easier to read and understand.\n\nBullets must:\n- use a lead-in line\n- make
-    sense running on from the lead-in line\n- use lower case at the start of the bullet\n-
-    have only one sentence per bullet point, use commas, dashes or semicolons to expand
-    on an item\n\nBullets should not:\n- be paragraphs masquerading as a list for
-    a visual effect\n- use a full stop after the last bullet point\n- include ‘or’
-    or an ‘and’ after the bullets\n\nExample\nThe meeting agenda will be:\n- an overview
-    of the last month\n- a presentation\n- a special announcement\n\n\n#### Numbered
-    lists\nUse a numbered list for a logical sequence of things, like a series of
-    tasks that must be done in a certain order. They do not need a lead-in line and
-    should be complete sentences that start with a capital letter and end with a full
-    stop.\n\nExample\nHow to put your shoes on:\n1. Put on socks.\n2. Put on shoes.\n3.
-    Tie laces.\n\n### local causes\n \n### Local Community Fund\n \n### local community\n\n###
-    log in\nPeople log in to websites, they do not log on.\nIf they can use a website
-    without logging in, say ‘visit the website’.\n \n \n## [M](#m)\n \n### Measurements\nsq
-    m, sq ft, cm, m, km\nAbbreviate measurements and use metric where possible.\nDo
-    not abbreviate imperial measurements, use ‘miles’ or ‘inches’ for example.\n \n###
-    membership\nUse a capital M when referencing Co-op Membership or Co-op Members,
-    but lowercase everywhere else.\n \n### Co-op Membership\nCo-op Membership card\nmembership\nmembership
-    card\nmembership card number\ntemporary card\nmembership number\nmembership account\nCo-op
-    Member\nmember\ncolleague member\npartner member\nshare of profits\nco-owner\n\n5%
-    back\n1% for your community\n1% for your local cause\n\n### Money\nUse the £ symbol,
-    for example £75.\n\nCurrencies are lower case.\n\nWrite out pence in full, so
-    ‘calls will cost 4 pence per minute from a landline’.\n\nDo not use decimals unless
-    pence are included, so £75.50 but not £75.00.\n\nCheck the advice about numbers
-    for amounts over 1,000.\n\n\n## [N](#n)\n \n### Numbers\nWrite out ‘one’ in full,
-    then use numerals for all other numbers. If a sentence starts with a number, you
-    should spell it out. For example, ‘Thirty-four sentences started with a number’.\n\nAbbreviate
-    millions and billions when you’re writing about money, so ‘£23m’ or ‘£4bn’.\n\nA
-    billion is a thousand million.\n \nWhen you’re not talking about money, spell
-    out millions and billions, so ‘2 billion people’.\n \nUse commas for numbers over
-    999, so 1,000 or 5,000,000.\n \nPlurals do not need apostrophes, so write ‘70s’
-    or ‘1,000s’ not ‘70’s’ or ‘1,000’s’.\n \nWrite fractions out in full, so ‘half’
-    or ‘three quarters’, except in recipes where you should use numbers such as ‘½
-    tsp’.\n\nWrite out first, second and so on.\nSpell out ‘first’ to ‘ninth’. After
-    that use 10th, 11th and so on.\nBut, write dates as 10 January 2017.\n \n### Phone
-    numbers\nUse the BT code and split numbers as follows 0161 123 4567. For London
-    numbers the split is 020 7123 4567.\n \nMobile numbers are split 07765 123 456.
-    You must include information about call charges and opening times if you mention
-    a mobile number.\n \n\n## [O](#o)\n \n### Oven temperatures\nListed as follows:\n180°C/fan
-    160°C/Gas 4\nNo need to convert to Fahrenheit, except on food packaging where
-    it can be shown if a supplier provides it.\n \n\n## [P](#p)\n \n### %\nUse % instead
-    of ‘percent’ or ‘per cent’, it’s easier to read and understand.\n \n### Pronouns\nWhen
-    talking about Co-op, use ‘we’ or ‘our’, and when talking to a member or customer,
-    use ‘you’ and ‘your’.\n\n### Property\nThe Property team is responsible for buying,
-    selling and looking after the Co-op’s 6,000 buildings across the UK. It’s not
-    called Estates or Estates Services any more. \n\n### Common property terms\nCommercial
-    property\nFor trading businesses like food stores, funeral homes, depots and offices.\n\n###
-    Residential property\nWhere people live, like flats and houses.\n\n### Facilities
-    Management (FM)\nThink about shortening this to ‘facilities’ if it’s what someone
-    would say in natural speech.\n\n### National Operations Centre (NOC)\nThe outsourced
-    call centre that handles all facilities management enquiries. Think about saying
-    ‘call facilities’ for clarity.\n\n### Protected designation of origin (PDO)\nThe
-    official names of certain products are protected and they must be capitalised
-    in the correct way. For example Melton Mowbray pork pies and Cornish pasties.\n
-    \n \n## [R](#r)\n \n### Rochdale Pioneers\n \n### Royal London\nWe put all of
-    the money from each funeral plan into an individual whole of life insurance policy
-    with Royal London. When we say Royal London, this is The Royal London Mutual Insurance
-    Society Limited.\n \n\n## [S](#s)\n \n### seasons\nDo not capitalise winter, spring,
-    summer or autumn.\n\n### serving suggestion\n\n### Slashes /\nDo not use forward
-    slashes except in web addresses. They make content harder to read. Use ‘or’ instead.\n
-    \n### Staff\nWe do not call people who work at Co-op ‘staff’. Internally, we use
-    ‘colleague’ and if we’re talking to customers we use ‘team member’ or ‘member
-    of our team’.\n\n### Stores\nCall the places where we sell our products ‘stores’,
-    not ‘shops’.\n\n\n## [T](#t)\n \n### Time\nUse the 12 hour clock, so ‘9am to 5pm’.
-    If you need to include the minutes, write ‘9.15am’.\n \nUse ‘midday’ rather than
-    noon, 12noon or 12pm. Use ‘midnight’ and not ‘12am’. But be careful that it’s
-    not misleading. \n\nFor example, if you said:\n‘Please complete and send your
-    application form by 6 July 2018, at midnight’\n\nThen your user might wonder if
-    you meant ‘ 6 July 2018, 11.59pm’ or ‘5 July 2018, 11.59pm’\n\nTo avoid this confusion,
-    consider using ‘11.59pm’ where possible.\n\nIt’s not necessary to specify time
-    zones, such as ‘1pm GMT’.\n\n\n### Titles\nTitles of pages and sub-headers should:\nbe
-    sentence case\nbe unique, clear and descriptive \nbe front-loaded with key words
-    if possible — people tend to scan the first couple of words only\nuse words you
-    know your users actually use\nbe active where possible, ‘Apply for…’, ‘Report…’,
-    ‘Find…’\nnot use acronyms unless they are well-known, like EU or BBC\n \n \n##
-    [W](#w)\n \n### Watchout words\nWhen describing food, avoid the following words
-    and phrases, unless you can qualify them:\nCraft\nFarm fresh\nNew (unless the
-    product really is new)\nNatural\nHealthy/Healthier\nHomegrown\nLocal (can be used
-    if the product is made within 30 miles)\nLower price (unless you have a higher
-    price for comparison)\nReduced fat\nWholesome\nAuthentic\nHand made\nOriginal\nFresh\nTraditional\n
+    you’re linking to opens in:\n- the same window, your user may lose their place
+    in the information flow\n- a different window, your user may find it difficult
+    to navigate back to your site\n\n\nUse this to consider how and where to position
+    your links.\n\n\n### Lists\n#### Bullet lists\nUse bullet points to break up a
+    list of things. It’s easier to read and understand.\n\nBullets must:\n- use a
+    lead-in line\n- make sense running on from the lead-in line\n- use lower case
+    at the start of the bullet\n- have only one sentence per bullet point, use commas,
+    dashes or semicolons to expand on an item\n\nBullets should not:\n- be paragraphs
+    masquerading as a list for a visual effect\n- use a full stop after the last bullet
+    point\n- include ‘or’ or an ‘and’ after the bullets\n\nExample\nThe meeting agenda
+    will be:\n- an overview of the last month\n- a presentation\n- a special announcement\n\n\n####
+    Numbered lists\nUse a numbered list for a logical sequence of things, like a series
+    of tasks that must be done in a certain order. They do not need a lead-in line
+    and should be complete sentences that start with a capital letter and end with
+    a full stop.\n\nExample\nHow to put your shoes on:\n1. Put on socks.\n2. Put on
+    shoes.\n3. Tie laces.\n\n### local causes\n \n### Local Community Fund\n \n###
+    local community\n\n### log in\nPeople log in to websites, they do not log on.\nIf
+    they can use a website without logging in, say ‘visit the website’.\n \n \n##
+    [M](#m)\n \n### Measurements\nsq m, sq ft, cm, m, km\nAbbreviate measurements
+    and use metric where possible.\nDo not abbreviate imperial measurements, use ‘miles’
+    or ‘inches’ for example.\n \n### membership\nUse a capital M when referencing
+    Co-op Membership or Co-op Members, but lowercase everywhere else.\n \n### Co-op
+    Membership\nCo-op Membership card\nmembership\nmembership card\nmembership card
+    number\ntemporary card\nmembership number\nmembership account\nCo-op Member\nmember\ncolleague
+    member\npartner member\nshare of profits\nco-owner\n\n5% back\n1% for your community\n1%
+    for your local cause\n\n### Money\nUse the £ symbol, for example £75.\n\nCurrencies
+    are lower case.\n\nWrite out pence in full, so ‘calls will cost 4 pence per minute
+    from a landline’.\n\nDo not use decimals unless pence are included, so £75.50
+    but not £75.00.\n\nCheck the advice about numbers for amounts over 1,000.\n\n\n##
+    [N](#n)\n \n### Numbers\nWrite out ‘one’ in full, then use numerals for all other
+    numbers. If a sentence starts with a number, you should spell it out. For example,
+    ‘Thirty-four sentences started with a number’.\n\nAbbreviate millions and billions
+    when you’re writing about money, so ‘£23m’ or ‘£4bn’.\n\nA billion is a thousand
+    million.\n \nWhen you’re not talking about money, spell out millions and billions,
+    so ‘2 billion people’.\n \nUse commas for numbers over 999, so 1,000 or 5,000,000.\n
+    \nPlurals do not need apostrophes, so write ‘70s’ or ‘1,000s’ not ‘70’s’ or ‘1,000’s’.\n
+    \nWrite fractions out in full, so ‘half’ or ‘three quarters’, except in recipes
+    where you should use numbers such as ‘½ tsp’.\n\nWrite out first, second and so
+    on.\nSpell out ‘first’ to ‘ninth’. After that use 10th, 11th and so on.\nBut,
+    write dates as 10 January 2017.\n \n### Phone numbers\nUse the BT code and split
+    numbers as follows 0161 123 4567. For London numbers the split is 020 7123 4567.\n
+    \nMobile numbers are split 07765 123 456. You must include information about call
+    charges and opening times if you mention a mobile number.\n \n\n## [O](#o)\n \n###
+    Oven temperatures\nListed as follows:\n180°C/fan 160°C/Gas 4\nNo need to convert
+    to Fahrenheit, except on food packaging where it can be shown if a supplier provides
+    it.\n \n\n## [P](#p)\n \n### %\nUse % instead of ‘percent’ or ‘per cent’, it’s
+    easier to read and understand.\n \n### Pronouns\nWhen talking about Co-op, use
+    ‘we’ or ‘our’, and when talking to a member or customer, use ‘you’ and ‘your’.\n\n###
+    Property\nThe Property team is responsible for buying, selling and looking after
+    the Co-op’s 6,000 buildings across the UK. It’s not called Estates or Estates
+    Services any more. \n\n### Common property terms\nCommercial property\nFor trading
+    businesses like food stores, funeral homes, depots and offices.\n\n### Residential
+    property\nWhere people live, like flats and houses.\n\n### Facilities Management
+    (FM)\nThink about shortening this to ‘facilities’ if it’s what someone would say
+    in natural speech.\n\n### National Operations Centre (NOC)\nThe outsourced call
+    centre that handles all facilities management enquiries. Think about saying ‘call
+    facilities’ for clarity.\n\n### Protected designation of origin (PDO)\nThe official
+    names of certain products are protected and they must be capitalised in the correct
+    way. For example Melton Mowbray pork pies and Cornish pasties.\n \n \n## [R](#r)\n
+    \n### Rochdale Pioneers\n \n### Royal London\nWe put all of the money from each
+    funeral plan into an individual whole of life insurance policy with Royal London.
+    When we say Royal London, this is The Royal London Mutual Insurance Society Limited.\n
+    \n\n## [S](#s)\n \n### seasons\nDo not capitalise winter, spring, summer or autumn.\n\n###
+    serving suggestion\n\n### Slashes /\nDo not use forward slashes except in web
+    addresses. They make content harder to read. Use ‘or’ instead.\n \n### Staff\nWe
+    do not call people who work at Co-op ‘staff’. Internally, we use ‘colleague’ and
+    if we’re talking to customers we use ‘team member’ or ‘member of our team’.\n\n###
+    Stores\nCall the places where we sell our products ‘stores’, not ‘shops’.\n\n\n##
+    [T](#t)\n \n### Time\nUse the 12 hour clock, so ‘9am to 5pm’. If you need to include
+    the minutes, write ‘9.15am’.\n \nUse ‘midday’ rather than noon, 12noon or 12pm.
+    Use ‘midnight’ and not ‘12am’. But be careful that it’s not misleading. \n\nFor
+    example, if you said:\n‘Please complete and send your application form by 6 July
+    2018, at midnight’\n\nThen your user might wonder if you meant ‘ 6 July 2018,
+    11.59pm’ or ‘5 July 2018, 11.59pm’\n\nTo avoid this confusion, consider using
+    ‘11.59pm’ where possible.\n\nIt’s not necessary to specify time zones, such as
+    ‘1pm GMT’.\n\n\n### Titles\nTitles of pages and sub-headers should:\nbe sentence
+    case\nbe unique, clear and descriptive \nbe front-loaded with key words if possible
+    — people tend to scan the first couple of words only\nuse words you know your
+    users actually use\nbe active where possible, ‘Apply for…’, ‘Report…’, ‘Find…’\nnot
+    use acronyms unless they are well-known, like EU or BBC\n \n \n## [W](#w)\n \n###
+    Watchout words\nWhen describing food, avoid the following words and phrases, unless
+    you can qualify them:\nCraft\nFarm fresh\nNew (unless the product really is new)\nNatural\nHealthy/Healthier\nHomegrown\nLocal
+    (can be used if the product is made within 30 miles)\nLower price (unless you
+    have a higher price for comparison)\nReduced fat\nWholesome\nAuthentic\nHand made\nOriginal\nFresh\nTraditional\n
     \n### Websites\nDo not use the prefix ‘http://www.’ when writing a website address.
     For example, write coop.co.uk\n \n### Will/will\nCapitalise when talking about
     a specific product, lower case when speaking generally about wills.\n \n\n\n\n\n\n\n\n"
