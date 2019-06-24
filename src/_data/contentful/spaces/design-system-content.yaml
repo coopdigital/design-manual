@@ -1318,7 +1318,7 @@ page:
     content_type_id: page
     revision: 2
   title: Accessibility guidelines
-  introduction: |-  
+  introduction: |-
     Do not design for difference, design so that no one feels different.
 
     Write in a consistently clear, simple way; this is how we open up our services to everyone.
@@ -2638,9 +2638,9 @@ landingPage:
 - sys:
     id: 4vQeNl83y8WyeGAcU60wOU
     created_at: !ruby/object:DateTime 2018-12-05 12:51:56.179000000 Z
-    updated_at: !ruby/object:DateTime 2019-06-21 11:20:07.970000000 Z
+    updated_at: !ruby/object:DateTime 2019-06-24 10:25:38.536000000 Z
     content_type_id: landingPage
-    revision: 4
+    revision: 5
   title: Brand assets
   introduction: We [design in the open](https://coop-design-system.herokuapp.com/principles.html#we-design-in-the-open),
     so our design assets — the logos, sketching sheets and guidelines — that you might
