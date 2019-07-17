@@ -12,6 +12,7 @@ var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin');
 var cssimport = require('gulp-cssimport');
 var postcss = require('gulp-postcss');
+var spawn = require('child_process').spawn;
 
 /**
  * Settings
@@ -109,14 +110,19 @@ gulp.task('copy', function () {
 });
 
 // Jekyll
-gulp.task('html', ['jekyll'], function() {
+gulp.task('html', ['contentful', 'jekyll'], function() {
   return gulp.src(dest + '**/*.html')
     .pipe(connect.reload());
 });
-gulp.task('jekyll', function (gulpCallBack){
-  var spawn = require('child_process').spawn;
-  // Get Contenful content
+
+gulp.task('contentful', function(gulpCallBack) {
   var contentful = spawn('jekyll', ['contentful']);
+  contentful.on('exit', function(code) {
+    gulpCallBack(code === 0 ? null : 'ERROR: Jekyll Contentful process exited with code: '+code);
+  });
+});
+
+gulp.task('jekyll', ['contentful'], function (gulpCallBack){
   var jekyll = spawn('jekyll', ['build'], {stdio: 'inherit', cwd: 'src'});
   jekyll.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll process exited with code: '+code);
