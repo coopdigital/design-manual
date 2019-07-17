@@ -12,7 +12,7 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Install gems
-          command: bundler install
+          command: bundle install
       - restore_cache:
           key: gemfile-{{ checksum "Gemfile.lock" }}
       - run:
