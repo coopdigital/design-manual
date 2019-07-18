@@ -116,7 +116,7 @@ gulp.task('html', ['contentful', 'jekyll'], function() {
 });
 
 gulp.task('contentful', function(gulpCallBack) {
-  var contentful = spawn('jekyll', ['contentful']);
+  var contentful = spawn('jekyll', ['contentful'], {stdio: 'inherit'});
   contentful.on('exit', function(code) {
     gulpCallBack(code === 0 ? null : 'ERROR: Jekyll Contentful process exited with code: '+code);
   });
