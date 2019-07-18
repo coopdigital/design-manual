@@ -11,11 +11,15 @@ bundle install
 npm install
 ```
 
+### Local environment variables
+
+Jekyll needs the correct space ID and toekn to fetch data from Contentful. You'll need to set the `CONTENTFUL_SPACE_ID` and `CONTENTFUL_ACCESS_TOKEN` local environment variables locally before you can run a local build.
+
 ## Local development
 
 Once dependencies have been installed, you can build and serve the Design Manual locally. Gulp commands are already set up to generate the Jekyll build, lint and compile the SASS and JavaScript, to copy over necessary assets from the Toolkit, and to run a local server for development.
 
-The default `gulp` task is configured to build and compile all the Design Manual assets. The `server` task will be most handy for local development: it will build the Jekyll site and compile all the assets, start a local server accessible at <http://localhost:9000> and start the watch tasks to automatically re-generate assets and pages on file change:
+The default `gulp` task is configured to fetch content,  build and compile all the Design Manual assets. The `server` task will be most handy for local development: it will build the Jekyll site and compile all the assets, start a local server accessible at <http://localhost:9000> and start the watch tasks to automatically re-generate assets and pages on file change:
 
 ```
 gulp server
