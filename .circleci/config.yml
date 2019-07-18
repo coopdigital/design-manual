@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: 42424242/node-ruby:0.0.6
+      - image: circleci/ruby:2.5.1-node
     steps:
       - checkout
       - run:
@@ -11,16 +11,16 @@ jobs:
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
+          name: Install bundler
+          command: gem install bundler
+      - run:
           name: Install gems
-          command: bundler install
+          command: bundle install
       - restore_cache:
           key: gemfile-{{ checksum "Gemfile.lock" }}
       - run:
           name: Install node modules
           command: npm install
-      - run:
-          name: Build
-          command: gulp build
       - run:
           name: Deploy
           command: git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git

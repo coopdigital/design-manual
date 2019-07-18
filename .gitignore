@@ -15,3 +15,6 @@ build/
 
 # nmp linux stuff
 npm-debug.log
+
+# Editor caches
+.idea/
