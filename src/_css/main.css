@@ -1,0 +1,18 @@
+
+@import 'design-system/media-queries.css';
+
+/* Foundations */
+@import "css-foundations/dist/foundations.css";
+
+/* Components */
+@import 'component-skipnav/dist/skipnav.css';
+@import 'component-signpost/dist/signpost.css';
+@import 'component-tags/dist/tags.css';
+@import 'component-search/src/component.css';
+@import 'component-checkbox/dist/checkbox-radio.css';
+@import 'component-card/dist/card.css';
+@import 'component-card--product/dist/card--product.css';
+
+/* Design system */
+@import 'design-system/header.css';
+@import 'design-system/card-floating.css';
