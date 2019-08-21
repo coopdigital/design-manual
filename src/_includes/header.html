@@ -1,4 +1,11 @@
-<header class="ds-header">
+<header 
+    class="
+    {% if page.id == 'index' %}
+        ds-header 
+    {% else %}
+        ds-header ds-header--inner
+    {% endif %}
+    ">
     <div class="coop-l-wrap">
         <a class="coop-logo" aria-label="Homepage" href="/">
             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="40" viewBox="-269.1 242.6 72 76.3">

@@ -10,6 +10,25 @@
     }
 }
 
+.ds-header--inner {
+    margin-bottom: 16px;
+    background: var(--color-text);
+}
+
+.ds-header--inner .coop-logo path {
+    fill: #FFFFFF;
+}
+
+.ds-header--inner .ds-header__service-name {
+    color: #FFFFFF;
+}
+
+@media (--mq-large) { 
+    .ds-header--inner {
+        margin-bottom: 32px;  
+    }
+}
+
 .coop-logo {
     display: inline-block;
     width: auto;
