@@ -1,4 +1,5 @@
 
+/* Synced with coop.co.uk - remove later */
 @import 'design-system/media-queries.css';
 
 /* Foundations */
@@ -15,4 +16,7 @@
 
 /* Design system */
 @import 'design-system/header.css';
+@import 'design-system/hero.css';
+@import 'design-system/sections.css';
+@import 'design-system/signposts.css';
 @import 'design-system/card-floating.css';
