@@ -12,15 +12,15 @@
 
 .ds-header--inner {
     margin-bottom: 16px;
-    background: var(--color-text);
+    background: var(--color-woodsmoke);
 }
 
 .ds-header--inner .coop-logo path {
-    fill: #FFFFFF;
+    fill: var(--color-white);
 }
 
 .ds-header--inner .ds-header__service-name {
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 
 @media (--mq-large) { 
@@ -29,11 +29,15 @@
     }
 }
 
-.coop-logo {
+.ds-header .coop-logo {
     display: inline-block;
     width: auto;
     margin-left: 0;
     border: 0;
+}
+
+.ds-header .coop-l-wrap {
+    max-height: 40px;
 }
 
 .coop-logo svg {

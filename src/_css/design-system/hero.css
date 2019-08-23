@@ -65,3 +65,22 @@
     top: 60px;
     left: 0;
 }
+
+.intro-box {
+    margin-bottom: 32px;
+}
+
+.intro-box p,
+.intro-box ul {
+    font-size: 21px;
+}
+
+@media (--mq-large) {
+    .intro-box {
+        margin-bottom: 64px;
+    }
+    .intro-box p,
+    .intro-box ul {
+        font-size: 25px;
+    }
+}

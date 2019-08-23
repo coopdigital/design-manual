@@ -1,3 +1,7 @@
+:root {
+    --color-woodsmoke: #1D2534;
+}
+
 /*
 * Pixel calc 415/16.
 * Examples of devices that will fall under this breakpoint:

@@ -1,0 +1,21 @@
+.dm-colour__swatch--wide {
+    padding: 10px 16px;
+    margin-bottom: 32px;
+    float: right;
+    width: 100%;
+    height: auto;
+}
+
+.dm-colour__swatch {
+    min-height: 200px;
+    width: 100%;
+}
+
+.dm-colour__swatch.coop-u-grey-light-bg {
+    border: 1px solid #c4c4c4;
+}
+
+.list-bare {
+    list-style: none;
+    padding-left: 0;
+}

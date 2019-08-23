@@ -1,6 +1,6 @@
 
 /* Synced with coop.co.uk - remove later */
-@import 'design-system/media-queries.css';
+@import 'design-system/temp-vars.css';
 
 /* Foundations */
 @import "css-foundations/dist/foundations.css";
@@ -18,6 +18,14 @@
 @import 'design-system/header.css';
 @import 'design-system/hero.css';
 @import 'design-system/sections.css';
+@import 'design-system/sub-navigation.css';
 @import 'design-system/signposts.css';
 @import 'design-system/card-floating.css';
-@import 'design-system/toggle.css';
+@import 'design-system/links.css';
+@import 'design-system/pills.css';
+@import 'design-system/statuses.css';
+@import 'design-system/pattern-example.css';
+@import 'design-system/code.css';
+@import 'design-system/swatches.css';
+@import 'design-system/states.css';
+@import 'design-system/footer.css';
