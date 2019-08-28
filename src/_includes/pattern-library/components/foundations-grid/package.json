@@ -1,0 +1,75 @@
+{
+  "_from": "@coopdigital/foundations-grid@^1.0.1",
+  "_id": "@coopdigital/foundations-grid@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Kva0S1zt1dkEjpqkwXlMBpWY9xrxpHvarIB9YVKjo+ZMSFFFpgTi3X2/F0ccuZ91ax5N/0pB4Pp5M/A9DmeMYQ==",
+  "_location": "/@coopdigital/foundations-grid",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@coopdigital/foundations-grid@^1.0.1",
+    "name": "@coopdigital/foundations-grid",
+    "escapedName": "@coopdigital%2ffoundations-grid",
+    "scope": "@coopdigital",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
+  },
+  "_requiredBy": [
+    "/@coopdigital/css-foundations"
+  ],
+  "_resolved": "https://registry.npmjs.org/@coopdigital/foundations-grid/-/foundations-grid-1.0.1.tgz",
+  "_shasum": "b4805389f5f938bca93cedeaa943860732f9ec93",
+  "_spec": "@coopdigital/foundations-grid@^1.0.1",
+  "_where": "/Applications/MAMP/htdocs/design-manual/node_modules/@coopdigital/css-foundations",
+  "author": {
+    "name": "Co-op Digital"
+  },
+  "bugs": {
+    "url": "https://github.com/coopdigital/foundations-grid/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Michael Chadwick",
+      "email": "michael.chadwick@coopdigital.co.uk"
+    }
+  ],
+  "deprecated": false,
+  "description": "Co-op CSS Foundations: Grid.",
+  "devDependencies": {
+    "@coopdigital/css-foundations": "^1.7.6",
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-load-config": "^2.0.0",
+    "precss": "^3.1.2",
+    "prettier": "^1.14.3",
+    "stylelint": "^9.10.1",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-prettier": "^1.0.3"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/coopdigital/foundations-grid#readme",
+  "license": "MIT",
+  "main": "dist/grid.html",
+  "name": "@coopdigital/foundations-grid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coopdigital/foundations-grid.git"
+  },
+  "scripts": {
+    "build": "postcss src/*.pcss --dir dist/ --ext css",
+    "dist": "npm run build && npm run lint",
+    "init": "rm -rf ./.git && git init",
+    "lint": "stylelint 'dist/*.css' --fix"
+  },
+  "style": "dist/grid.css",
+  "version": "1.0.1"
+}

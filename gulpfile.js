@@ -12,6 +12,7 @@ var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin');
 var cssimport = require('gulp-cssimport');
 var postcss = require('gulp-postcss');
+var postcssCustomMedia = require('postcss-custom-media');
 var spawn = require('child_process').spawn;
 
 /**
@@ -21,8 +22,7 @@ var src = 'src/';
 var dest = 'build/';
 
 var src_paths = {
-  scss: src + '_css/**/*.scss',
-  css: src + '_css/**/*.pcss',
+  css: src + '_css/**/*.css',
   temp: src + 'temp/**/*',
   scripts: src + '_js/*.js',
   assets: [
@@ -39,23 +39,12 @@ var dest_paths = {
 };
 
 var settings = {
-  sass: {
-    outputStyle: 'compressed',
-
-    includePaths: [
-      'node_modules',
-      src + 'src/css/design-system',
-      src + 'src/css/pattern-library',
-      src + 'src/css/mainscss.scss'
-    ]
-  },
   css: {
-    outputStyle: 'compressed',
-
+    outputStyle: 'compressed', 
     includePaths: [
       'node_modules',
-      src + 'src/css/maincss.pcss'
-    ]
+      src + 'src/css/main.css'
+    ],
   },
   autoprefixer: {
     browsers: ['> 5%', 'last 2 versions']
@@ -86,14 +75,6 @@ gulp.task('lintjs', function() {
   ])
     .pipe(jshint())
     .pipe(jshint.reporter(stylish));
-});
-
-gulp.task('lintscss', function() {
-  return gulp.src([
-    src_paths.scss,
-    '!src/_css/_prism.scss'
-  ])
-    .pipe(scsslint());
 });
 
 
@@ -130,34 +111,18 @@ gulp.task('jekyll', ['contentful'], function (gulpCallBack){
 });
 
 // Styles
-gulp.task('scss', function() {
-  return gulp.src(src_paths.scss)
-    .pipe(sourcemaps.init())
-      .pipe(sass(settings.sass))
-      .on('error', sass.logError)
-      .pipe(autoprefixer(settings.autoprefixer))
-    .pipe(sourcemaps.write('maps/'))
-    .pipe(gulp.dest(dest_paths.styles))
-    .pipe(connect.reload());
-});
 
-gulp.task('css', function() {
-  return gulp.src(src_paths.css)
-    .pipe(sourcemaps.init())
-      .pipe(postcss(settings.css))
-      .pipe(cssimport(importOptions))
-      .pipe(autoprefixer(settings.autoprefixer))
-    .pipe(sourcemaps.write('maps/'))
-    .pipe(gulp.dest(dest_paths.styles))
-    .pipe(connect.reload());
-});
+gulp.task('css', () => gulp.src(src_paths.css)
+.pipe(cssimport(importOptions))
+.pipe(
+  postcss([
+    postcssCustomMedia(/* pluginOptions */)
+  ])
+)
+.pipe(autoprefixer(settings.autoprefixer))
+.pipe(gulp.dest(dest_paths.styles))
 
-gulp.task('cssconcat', ['scss', 'css'], function() {
-  return gulp.src(['build/assets/css/mainscss.css', 'build/assets/css/maincss.pcss'])
-    .pipe(concat('app.css'))
-    .pipe(gulp.dest(dest_paths.styles))
-    .pipe(connect.reload());
-});
+);
 
 // Scripts
 gulp.task('js', ['lintjs'], function() {
@@ -192,8 +157,7 @@ gulp.task('imagemin', ['assets'], function() {
  * Watch tasks
  */
 gulp.task('watch', function() {
-  gulp.watch('src/_css/**/*.scss', ['scss', 'cssconcat']);
-  gulp.watch('src/_css/**/*.pcss', ['css', 'cssconcat']);
+  gulp.watch('src/_css/**/*.css', ['css']); 
   gulp.watch(src_paths.scripts, ['lintjs', 'js']);
   gulp.watch(src_paths.assets, ['imagemin']);
   gulp.watch(src_paths.html, ['html']);
@@ -214,6 +178,6 @@ gulp.task('connect', function() {
 /**
  * Run tasks
  */
-gulp.task('build', ['html', 'scss', 'css', 'vendorjs', 'js', 'imagemin', 'copy', 'cssconcat']);
+gulp.task('build', ['html', 'css', 'vendorjs', 'js', 'imagemin', 'copy']);
 gulp.task('server', ['build', 'watch', 'connect']);
 gulp.task('default', ['build']);

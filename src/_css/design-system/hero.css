@@ -1,0 +1,86 @@
+
+.ds-squircle-contain {
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 50%;
+}
+
+.ds-hero {
+    padding-top: 60px;
+    overflow: hidden;
+    margin-bottom: 0;
+    z-index: 1;
+    position: relative;
+}
+
+@media (--mq-xlarge) {
+    .ds-hero {
+        margin-bottom: 32px;
+    }
+}
+
+.ds-hero .coop-u-pull-right {
+    /* foundations are not loading in the right order */
+    float: right;
+}
+  
+.ds-hero__squircle {
+    position: absolute;
+    width: 270%;
+    right: -230%; 
+    top: -220vw;
+    z-index: -1;
+    fill: #FED132;
+}
+
+@media (--mq-large) {
+    .ds-hero__squircle {
+        width: 248%;
+        right: -180%;
+        top: -200vw;
+    }
+}
+
+@media (--mq-xlarge) {
+    .ds-hero__squircle {
+        width: 248%;
+        right: -180%;
+        top: -200vw;
+    }
+}
+
+.ds-hero__squircle__inner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 95.78246393%;
+}
+
+.ds-hero__squircle__svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.intro-box {
+    margin-bottom: 32px;
+}
+
+.intro-box p,
+.intro-box ul {
+    font-size: 21px;
+}
+
+@media (--mq-large) {
+    .intro-box {
+        margin-bottom: 64px;
+    }
+    .intro-box p,
+    .intro-box ul {
+        font-size: 25px;
+    }
+}

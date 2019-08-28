@@ -1,0 +1,59 @@
+.ds-header {
+    z-index: 1;
+    position: relative;
+    padding: 16px 0;  
+}
+
+@media (--mq-large) { 
+    .ds-header {
+        padding: 32px 0;  
+    }
+}
+
+.ds-header--inner {
+    margin-bottom: 16px;
+    background: var(--color-woodsmoke);
+}
+
+.ds-header--inner .coop-logo path {
+    fill: var(--color-white);
+}
+
+.ds-header--inner .ds-header__service-name {
+    color: var(--color-white);
+}
+
+@media (--mq-large) { 
+    .ds-header--inner {
+        margin-bottom: 32px;  
+    }
+}
+
+.ds-header .coop-logo {
+    display: inline-block;
+    width: auto;
+    margin-left: 0;
+    border: 0;
+}
+
+.ds-header .coop-l-wrap {
+    max-height: 40px;
+}
+
+.coop-logo svg {
+    display: inline-block;
+}
+
+.coop-logo path {
+    fill: var(--color-brand);
+}
+
+.ds-header__service-name {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: var(--color-text);
+    vertical-align: top;
+}

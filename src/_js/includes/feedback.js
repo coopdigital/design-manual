@@ -12,7 +12,7 @@
           if($('#FeedbackForm .error').length)   // don't run if form-error
               return;
           this.toggles = $('#FeedbackForm #js-toggle');
-          this.toggleContent = $('#FeedbackForm .slide-toggle-content');
+          this.toggleContent = $('#FeedbackForm .ds-c-toggle');
           this.toggleContent.addClass('init').removeClass('open').attr({tabindex:'-1','aria-hidden':'true','aria-live':'polite'});
           this.bindEvents();
       },

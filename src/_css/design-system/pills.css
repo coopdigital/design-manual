@@ -1,0 +1,46 @@
+.btn-pill {
+    padding: 12px 20px;
+    border-radius: 40px;
+    border: 0;
+    background: $grey-light;
+    color: var(--color-text);
+    transition: background .15s ease;
+}
+
+.btn-pill:hover {
+    background: #394C61;
+    color: var(--color-white);
+    border: 0;
+}
+  
+.coop-u-grey-light-bg .btn-pill {
+    background: var(--color-white);  
+}
+  
+.coop-u-grey-light-bg .btn-pill:hover {
+    background: #394C61;
+    color: var(--color-white); 
+}
+
+.btn-pill[aria-selected="true"] {
+    background: #394C61;
+    color: var(--color-white);
+    border: 0; 
+}
+
+.btn-pill[aria-selected="true"]:hover {
+    color: var(--color-white);
+}
+  
+.btn--outline {
+    background: transparent;
+    border: 2px solid var(--color-link);
+    color: var(--color-link);
+    border-radius: 6px;
+}
+
+.btn--outline:hover {
+    background: transparent;
+    border: 2px solid var(--color-link--hover);
+    color: var(--color-link--hover);
+}

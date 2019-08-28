@@ -1,0 +1,41 @@
+
+.ds-section-bg,
+.coop-u-grey-light-bg {
+    margin-bottom: 32px;
+    padding: 32px 0;
+}
+
+.ds-section-bg--dark {
+    background: var(--color-woodsmoke); 
+}
+
+.ds-section-bg--light,
+.coop-u-grey-light-bg {
+    background: var(--color-grey-light);
+}
+
+.ds-feedback {
+  margin-top: 32px;
+}
+
+@media (--mq-large) {
+    .ds-feedback {
+        margin-top: 64px;
+    }
+}
+
+.ds-c-definition-list {
+    font-size: 20px;
+}
+
+.ds-c-definition-list dt {
+    margin-bottom: 12px;
+}
+
+.ds-c-definition-list dt .status {
+    font-size: 20px;
+}
+
+table {
+    font-size: 20px !important;
+}

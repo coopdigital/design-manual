@@ -1,0 +1,32 @@
+.ds-c-footer {
+    padding: 16px 0;
+}
+
+.ds-c-footer__list ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+@media (--mq-medium) {
+    .ds-c-footer__list {
+        text-align: left;
+    }
+    .ds-c-footer__list li {
+        display: inline-block;
+        margin-right: 32px;
+    }
+}
+
+.ds-c-footer__list a {
+    color: var(--colour-text);
+    border: none;
+    border-bottom: 0;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.ds-c-footer__list a:hover {
+    border-bottom: 0;
+    text-decoration: none;
+}
