@@ -112,19 +112,6 @@ gulp.task('jekyll', ['contentful'], function (gulpCallBack){
 
 // Styles
 
-// gulp.task('css', function() {
-//   return gulp.src(src_paths.css)
-//     .pipe(sourcemaps.init())
-//       .pipe(postcss(
-//         [postcssCustomMedia()]
-//       ))
-//       .pipe(cssimport(importOptions))
-//       .pipe(autoprefixer(settings.autoprefixer))
-//     .pipe(sourcemaps.write('maps/'))
-//     .pipe(gulp.dest(dest_paths.styles))
-//     .pipe(connect.reload());
-// });
-
 gulp.task('css', () => gulp.src(src_paths.css)
 .pipe(cssimport(importOptions))
 .pipe(
